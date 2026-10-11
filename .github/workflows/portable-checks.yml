@@ -1,0 +1,20 @@
+name: Portable arithmetic and release checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/verify_release.py
+      - run: python examples/run_examples.py
+      - run: python examples/check_arithmetic.py
+      - run: sudo apt-get update && sudo apt-get install -y iverilog
+      - run: python scripts/run_rtl_smoke.py

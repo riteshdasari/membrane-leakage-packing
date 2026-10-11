@@ -1,0 +1,75 @@
+{
+  "status": "source_acquired_not_executed",
+  "repository": "https://github.com/CAS-CLab/Gated-LIF",
+  "commit": "60638b28ff8b688b51867e7dd44f1e065d4892b0",
+  "selected_model": "trained models/resCifar18stand-CIFAR10-step2-CW.pth.tar",
+  "model_tree_entry": {
+    "path": "trained models/resCifar18stand-CIFAR10-step2-CW.pth.tar",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5dade368f99281122f55933fe6b809fb999c0153",
+    "size": 45506777,
+    "url": "https://api.github.com/repos/CAS-CLab/Gated-LIF/git/blobs/5dade368f99281122f55933fe6b809fb999c0153"
+  },
+  "records": {
+    "commit_response.json": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\commit_response.json",
+      "bytes": 6455,
+      "sha256": "dcb34d1213655579a1b506f2292c02f4a4e3c000673d2f0663ecca5f5360b26c"
+    },
+    "tree.json": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\tree.json",
+      "bytes": 12487,
+      "sha256": "e07653ceab114455331f1f285555855838fc86cc557d0e6aff23ad4067302fd7"
+    },
+    "README.md": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\README.md",
+      "bytes": 9802,
+      "sha256": "9e6f1b4655009ffb1f52580324e5accdceba76bdc0da61beeb6a34a48ffbbd44",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/README.md"
+    },
+    "LICENSE": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\LICENSE",
+      "bytes": 1064,
+      "sha256": "6a96abbc2b5dd39f7c8793790bf52cd051c3ad9f582e7231ad0a242f2adbc9ea",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/LICENSE"
+    },
+    "layers.py": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\layers.py",
+      "bytes": 15956,
+      "sha256": "a81c9b9e4a5a7d848150de5f7e87fe63f4fea6b8c3146cf9c53873f4a0484f1a",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/layers.py"
+    },
+    "blocks.py": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\blocks.py",
+      "bytes": 16425,
+      "sha256": "fa1c39350e16dedf06b026ebb59d0d9e8bbf926a2184c0293a350fdbbcec44f1",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/blocks.py"
+    },
+    "networks_for_CIFAR.py": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\networks_for_CIFAR.py",
+      "bytes": 31965,
+      "sha256": "05266d44f35b3226247ae24a6dba219ac4ed9a454093e15d316180d8350e2ce8",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/networks_for_CIFAR.py"
+    },
+    "train.py": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\train.py",
+      "bytes": 18885,
+      "sha256": "910778b81554848667758fd62461a6ce75d50b2984bdebd5569ec903f1d60bc9",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/train.py"
+    },
+    "data_builder.py": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\data_builder.py",
+      "bytes": 10198,
+      "sha256": "f35ab523a2edd62ecea6cf241124507282229286783d1b2db2ba2cadff9395ab",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/data_builder.py"
+    },
+    "utils.py": {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\utils.py",
+      "bytes": 5033,
+      "sha256": "ebb406079684368fb61bc5a0f76db4f247ecd0eb7c65858a6fc6ff9cc682ade6",
+      "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/utils.py"
+    }
+  },
+  "scope": "GLIF trained checkpoint is a gated learned-LIF variant, not a vanilla LIF or FireFly reproduction."
+}

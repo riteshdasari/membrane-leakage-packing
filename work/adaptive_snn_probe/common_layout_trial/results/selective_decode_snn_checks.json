@@ -1,0 +1,563 @@
+{
+  "source_hashes": {
+    "guard_add_selective_decode.sv": "c955bb5c8b2fad4ee374fc1dfe71b166305a75e3f1aa8bf3944f02d64fdf4593",
+    "tb_guard_add_selective_decode.sv": "c6e046fe1de2a0f1ae365aca25370931d9bde14d06c0183f87fde1166c6fc1eb",
+    "check_guard_add_selective_decode.py": "038d7a4ba8f6e4864c7ac817dbf5215cc027ff062d1015b61e0f8fac4c1a8789",
+    "check_guard_add_selective_decode_snn.py": "955d02128d0885f61ce1b46ad636bdf58617b2a1addb3bf0342b0650a8e4ff2b",
+    "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+    "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48"
+  },
+  "reconstruction_script_sha256": "955d02128d0885f61ce1b46ad636bdf58617b2a1addb3bf0342b0650a8e4ff2b",
+  "parent_source_hashes": {
+    "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+    "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+    "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+    "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+    "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+  },
+  "parent_snn_check_file": "results\\selective_snn_checks.json",
+  "parent_snn_check_sha256": "0dd29497317dda454af07bfbec3ddb008432487c3a0293145c123142668dc8e2",
+  "parent_output_hashes": {
+    "results\\selective_models_p0_0\\stream_out0.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_models_p0_0\\stream_out1.txt": "034d48abd1d81da682dedfae513e92c2115629cec4a6f73cf20e2f24f977faab",
+    "results\\selective_models_p0_0\\stream_out2.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_models_p0_0\\stream_out3.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_models_p0_1\\stream_out0.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_models_p0_1\\stream_out1.txt": "f45d4e7f109926818e315058691f4f706de8d7eac76f7a9d993df71bf6949999",
+    "results\\selective_models_p0_1\\stream_out2.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_models_p0_1\\stream_out3.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_models_p1_0\\stream_out0.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_models_p1_0\\stream_out1.txt": "034d48abd1d81da682dedfae513e92c2115629cec4a6f73cf20e2f24f977faab",
+    "results\\selective_models_p1_0\\stream_out2.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_models_p1_0\\stream_out3.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_models_p1_1\\stream_out0.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_models_p1_1\\stream_out1.txt": "f45d4e7f109926818e315058691f4f706de8d7eac76f7a9d993df71bf6949999",
+    "results\\selective_models_p1_1\\stream_out2.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_models_p1_1\\stream_out3.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+  },
+  "parent_snn_rows_identical": true,
+  "functional_check_sha256": {
+    "selective_decode_models_p0_0_checks.json": "19e040a04092e041060e230fecf148257ed34a217f5ba1ad7c532a7c0dcbcb5b",
+    "selective_decode_models_p0_1_checks.json": "54fc670d26eb6bb974cfcd2351d523a05d62f5f48c1a59a32cf1aad94838132d",
+    "selective_decode_models_p1_0_checks.json": "088037e852ead575f44fc5d79444718ea9e8c512abe96fed824b4f7c60081fa2",
+    "selective_decode_models_p1_1_checks.json": "d79624de1a961cd3e8e872ccf6b6af815e86c35bd474daf43332e2a56a1aa4cf"
+  },
+  "reference_hashes": {
+    "ledger": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3",
+    "raw_membranes": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+  },
+  "output_hashes": {
+    "results\\selective_decode_models_p0_0\\stream_out0.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_decode_models_p0_0\\stream_out1.txt": "034d48abd1d81da682dedfae513e92c2115629cec4a6f73cf20e2f24f977faab",
+    "results\\selective_decode_models_p0_0\\stream_out2.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_decode_models_p0_0\\stream_out3.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_decode_models_p0_1\\stream_out0.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_decode_models_p0_1\\stream_out1.txt": "f45d4e7f109926818e315058691f4f706de8d7eac76f7a9d993df71bf6949999",
+    "results\\selective_decode_models_p0_1\\stream_out2.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_decode_models_p0_1\\stream_out3.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_decode_models_p1_0\\stream_out0.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_decode_models_p1_0\\stream_out1.txt": "034d48abd1d81da682dedfae513e92c2115629cec4a6f73cf20e2f24f977faab",
+    "results\\selective_decode_models_p1_0\\stream_out2.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_decode_models_p1_0\\stream_out3.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\selective_decode_models_p1_1\\stream_out0.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_decode_models_p1_1\\stream_out1.txt": "f45d4e7f109926818e315058691f4f706de8d7eac76f7a9d993df71bf6949999",
+    "results\\selective_decode_models_p1_1\\stream_out2.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\selective_decode_models_p1_1\\stream_out3.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+  },
+  "rows": [
+    {
+      "profile": 0,
+      "variant": 0,
+      "core_variant": 0,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 0,
+      "variant": 1,
+      "core_variant": 1,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 0,
+      "variant": 2,
+      "core_variant": null,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 0,
+      "variant": 3,
+      "core_variant": null,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 0,
+      "variant": 0,
+      "core_variant": 0,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 0,
+      "variant": 1,
+      "core_variant": 1,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 0,
+      "variant": 2,
+      "core_variant": null,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 0,
+      "variant": 3,
+      "core_variant": null,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 0,
+      "core_variant": 2,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 1,
+      "core_variant": 3,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 2,
+      "core_variant": null,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 3,
+      "core_variant": null,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 0,
+      "core_variant": 2,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 1,
+      "core_variant": 3,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 2,
+      "core_variant": null,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "variant": 3,
+      "core_variant": null,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ],
+  "tested_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tested_profiles": [
+    0,
+    1
+  ],
+  "tested_core_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "scope": "Python leakage, exact fixed/selective RTL U+I outputs, Python threshold/subtractive-reset replay",
+  "limitations": [
+    "Saved beta231 reference; original trained leakage was changed.",
+    "144 sampled images across three saved seeds; no new training or downloads.",
+    "Declared current8 profile verified for valid model currents; ignored binary tails may be arbitrary.",
+    "No memory supply, power, host, board or complete SNN RTL result.",
+    "No preservation claim for original trained-model accuracy."
+  ]
+}

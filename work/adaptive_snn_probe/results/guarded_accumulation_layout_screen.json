@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-09T14:03:54.359997+00:00",
+  "source_sha256": "ba4ff2cd9a68693766f275a2cac967ef894e94a357ecc9ac8a8cb1ba1d976b9e",
+  "operation": "Signed eleven-bit U plus signed eleven-bit I -> exact signed twelve-bit sum",
+  "narrow_domain": "Every consumed U and I fits [-64,63]; six lanes with eight-bit fields",
+  "wide_domain": "U and I in [-1024,1023]; four lanes with twelve-bit fields",
+  "packing": "A=sum((U mod 2^(w-1))<<wl), B=sum((I mod 2^(w-1))<<wl), P=A+B",
+  "proof": "Each field sum <=2^w-2, hence no interlane carry. XOR the guard bit with sign(U) XOR sign(I).",
+  "scalar_cases": {
+    "8": 16384,
+    "12": 4194304
+  },
+  "packed_cases": {
+    "8": 50294,
+    "12": 50196
+  },
+  "mismatches": 0,
+  "comparison_requirement": [
+    "Fixed native four-lane DSP SIMD with equal identity copying.",
+    "Fixed six-output DSP-four-plus-LUT-two hybrid.",
+    "Fixed LUT six-lane implementation of the same sum."
+  ],
+  "necessary_caveat": "The fixed hybrid already produces six outputs without a range controller. Adaptive packing has no automatic throughput advantage over that baseline.",
+  "limitations": [
+    "Arithmetic screen only: no DSP primitive simulation or synthesis.",
+    "No saved-model scheduling, accuracy, burst, memory or power evidence.",
+    "Output width twelve differs from the eleven-bit leakage output; state handling is undeclared.",
+    "This checks a candidate layout, not novelty or superiority."
+  ]
+}

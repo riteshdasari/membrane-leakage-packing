@@ -1,0 +1,274 @@
+{
+  "status": "complete_official_float_model_test10000",
+  "model": "GLIF ResNet18 CIFAR10 T2 CW",
+  "samples": 10000,
+  "correct": 9403,
+  "accuracy_percent": 94.03,
+  "elapsed_seconds": 827.7969999999987,
+  "full_test": true,
+  "batch": 4,
+  "threads": 8,
+  "neuron_time_steps": 2,
+  "packed_integer_model": false,
+  "hardware_replay": false,
+  "minimum_sampled_free_RAM_GiB": 4.002933502197266,
+  "first64_logits_bit_identical_to_observed_pilot": true,
+  "progress_points": [
+    {
+      "completed": 256,
+      "correct": 234,
+      "elapsed_seconds": 21.5309999999954,
+      "free_RAM_GiB": 4.090034484863281
+    },
+    {
+      "completed": 512,
+      "correct": 473,
+      "elapsed_seconds": 43.01499999999942,
+      "free_RAM_GiB": 4.065589904785156
+    },
+    {
+      "completed": 768,
+      "correct": 713,
+      "elapsed_seconds": 64.06199999999808,
+      "free_RAM_GiB": 4.112663269042969
+    },
+    {
+      "completed": 1024,
+      "correct": 955,
+      "elapsed_seconds": 84.84399999999732,
+      "free_RAM_GiB": 4.133842468261719
+    },
+    {
+      "completed": 1280,
+      "correct": 1192,
+      "elapsed_seconds": 105.84399999999732,
+      "free_RAM_GiB": 4.108055114746094
+    },
+    {
+      "completed": 1536,
+      "correct": 1433,
+      "elapsed_seconds": 127.71899999999732,
+      "free_RAM_GiB": 4.045623779296875
+    },
+    {
+      "completed": 1792,
+      "correct": 1673,
+      "elapsed_seconds": 148.76499999999942,
+      "free_RAM_GiB": 4.085170745849609
+    },
+    {
+      "completed": 2048,
+      "correct": 1911,
+      "elapsed_seconds": 169.93699999999808,
+      "free_RAM_GiB": 4.074760437011719
+    },
+    {
+      "completed": 2304,
+      "correct": 2148,
+      "elapsed_seconds": 191.21899999999732,
+      "free_RAM_GiB": 4.12640380859375
+    },
+    {
+      "completed": 2560,
+      "correct": 2390,
+      "elapsed_seconds": 212.23399999999674,
+      "free_RAM_GiB": 4.172386169433594
+    },
+    {
+      "completed": 2816,
+      "correct": 2632,
+      "elapsed_seconds": 233.625,
+      "free_RAM_GiB": 4.148830413818359
+    },
+    {
+      "completed": 3072,
+      "correct": 2875,
+      "elapsed_seconds": 254.2809999999954,
+      "free_RAM_GiB": 4.138866424560547
+    },
+    {
+      "completed": 3328,
+      "correct": 3112,
+      "elapsed_seconds": 275.48399999999674,
+      "free_RAM_GiB": 4.141857147216797
+    },
+    {
+      "completed": 3584,
+      "correct": 3357,
+      "elapsed_seconds": 296.5309999999954,
+      "free_RAM_GiB": 4.1482086181640625
+    },
+    {
+      "completed": 3840,
+      "correct": 3592,
+      "elapsed_seconds": 317.7809999999954,
+      "free_RAM_GiB": 4.139308929443359
+    },
+    {
+      "completed": 4096,
+      "correct": 3836,
+      "elapsed_seconds": 338.8119999999981,
+      "free_RAM_GiB": 4.140750885009766
+    },
+    {
+      "completed": 4352,
+      "correct": 4077,
+      "elapsed_seconds": 359.54699999999866,
+      "free_RAM_GiB": 4.131992340087891
+    },
+    {
+      "completed": 4608,
+      "correct": 4317,
+      "elapsed_seconds": 380.3899999999994,
+      "free_RAM_GiB": 4.135246276855469
+    },
+    {
+      "completed": 4864,
+      "correct": 4551,
+      "elapsed_seconds": 401.48399999999674,
+      "free_RAM_GiB": 4.137123107910156
+    },
+    {
+      "completed": 5120,
+      "correct": 4792,
+      "elapsed_seconds": 422.4689999999973,
+      "free_RAM_GiB": 4.083454132080078
+    },
+    {
+      "completed": 5376,
+      "correct": 5030,
+      "elapsed_seconds": 443.17199999999866,
+      "free_RAM_GiB": 4.088489532470703
+    },
+    {
+      "completed": 5632,
+      "correct": 5273,
+      "elapsed_seconds": 464.17199999999866,
+      "free_RAM_GiB": 4.097572326660156
+    },
+    {
+      "completed": 5888,
+      "correct": 5512,
+      "elapsed_seconds": 485.8899999999994,
+      "free_RAM_GiB": 4.100711822509766
+    },
+    {
+      "completed": 6144,
+      "correct": 5759,
+      "elapsed_seconds": 507.23399999999674,
+      "free_RAM_GiB": 4.187580108642578
+    },
+    {
+      "completed": 6400,
+      "correct": 6002,
+      "elapsed_seconds": 528.2809999999954,
+      "free_RAM_GiB": 4.167919158935547
+    },
+    {
+      "completed": 6656,
+      "correct": 6248,
+      "elapsed_seconds": 549.3119999999981,
+      "free_RAM_GiB": 4.17669677734375
+    },
+    {
+      "completed": 6912,
+      "correct": 6487,
+      "elapsed_seconds": 570.1719999999987,
+      "free_RAM_GiB": 4.176242828369141
+    },
+    {
+      "completed": 7168,
+      "correct": 6727,
+      "elapsed_seconds": 591.4059999999954,
+      "free_RAM_GiB": 4.172508239746094
+    },
+    {
+      "completed": 7424,
+      "correct": 6970,
+      "elapsed_seconds": 612.875,
+      "free_RAM_GiB": 4.195068359375
+    },
+    {
+      "completed": 7680,
+      "correct": 7212,
+      "elapsed_seconds": 634.0939999999973,
+      "free_RAM_GiB": 4.160495758056641
+    },
+    {
+      "completed": 7936,
+      "correct": 7450,
+      "elapsed_seconds": 655.5,
+      "free_RAM_GiB": 4.082874298095703
+    },
+    {
+      "completed": 8192,
+      "correct": 7697,
+      "elapsed_seconds": 676.6869999999981,
+      "free_RAM_GiB": 4.088069915771484
+    },
+    {
+      "completed": 8448,
+      "correct": 7940,
+      "elapsed_seconds": 698.0469999999987,
+      "free_RAM_GiB": 4.089885711669922
+    },
+    {
+      "completed": 8704,
+      "correct": 8178,
+      "elapsed_seconds": 719.9689999999973,
+      "free_RAM_GiB": 4.002933502197266
+    },
+    {
+      "completed": 8960,
+      "correct": 8421,
+      "elapsed_seconds": 742.125,
+      "free_RAM_GiB": 4.0108184814453125
+    },
+    {
+      "completed": 9216,
+      "correct": 8664,
+      "elapsed_seconds": 763.7649999999994,
+      "free_RAM_GiB": 4.018573760986328
+    },
+    {
+      "completed": 9472,
+      "correct": 8899,
+      "elapsed_seconds": 784.7029999999941,
+      "free_RAM_GiB": 4.019020080566406
+    },
+    {
+      "completed": 9728,
+      "correct": 9147,
+      "elapsed_seconds": 805.5,
+      "free_RAM_GiB": 4.0601654052734375
+    },
+    {
+      "completed": 9984,
+      "correct": 9388,
+      "elapsed_seconds": 826.3279999999941,
+      "free_RAM_GiB": 4.053897857666016
+    },
+    {
+      "completed": 10000,
+      "correct": 9403,
+      "elapsed_seconds": 827.6869999999981,
+      "free_RAM_GiB": 4.054004669189453
+    }
+  ],
+  "pins": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\run_full_v3.py": "f46585e3c7d57b6768665770d250b35774eade6a32a2c30ac46ff817b5f750fc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test_plan_v3.json": "6f87332bc9dd652ab53076ce6bc5f45581e60e8aa1b331b23c0bb07a7c09b864",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\glif_cifar10_T2.pth.tar": "124b7b40d67dbe9a9a6641426c4330e5f8bbb69f4e6bea6b50a59ebcf45ed4dd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test10000.npz": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test_logits_v3.npz": "af4059b734563eca9aeddb996607b48307c8f893da447e3afef586f5784abe1c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\checkpoint_arrays_v3.npz": "d21d744bb7450ab51e16d9b33a0c0c7a838e8cc4f79861f835745b790d273d40",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\layers.py": "a81c9b9e4a5a7d848150de5f7e87fe63f4fea6b8c3146cf9c53873f4a0484f1a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\blocks.py": "fa1c39350e16dedf06b026ebb59d0d9e8bbf926a2184c0293a350fdbbcec44f1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\networks_for_CIFAR.py": "05266d44f35b3226247ae24a6dba219ac4ed9a454093e15d316180d8350e2ce8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_data_acceptance_v2.json": "e81db054cceb7a47ae24531db48451f2cf914982bdf0fb348c13745648f7b5b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\original_pilot_results_v2.json": "3e59abd5868d3a9ca3be4a60bdb78accae76647e4b6449a2914237d4b871781f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\thread_timing_v2.json": "e2f0a89ae41c97abc151b9670b95e4b4aeb7bc6a4294e1b362a783e3f9265e12",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\preview_pilot_rejection.json": "3116ea8adb25e1da103d0852587c3914de7f0dbd007b2ba7a47870a24a2cec1f"
+  },
+  "scope": "Full public floating-point model accuracy in local CPU runtime; original reference reproduction gate. No integer SNN, exact packing hardware accuracy, speedup or FireFly replication claim."
+}

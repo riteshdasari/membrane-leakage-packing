@@ -1,0 +1,269 @@
+{
+  "source_hashes": {
+    "stream_pipeline_encoded_leak.sv": "a36d3f5767dcdabb6d8965e6e11b888ea1b41fc646c61ed1e11ace046e353660",
+    "tb_stream_pipeline_encoded_leak.sv": "2fa47e1fe0ab9c8079a4730b1eda979b9fdc1ac78efa9622db1e03404afc7e20",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f",
+    "check_stream_pipeline_encoded.py": "d149c167cd5098ad4b7f6b78fc45d36a27ebf7aee4b562f2de48e48a22953392"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 9216,
+  "tested_engines": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stimulus_sha256": "f53494d7f47b8e3990eaa6219760a006a93e799bf2e7eb2b29a349e883fe567b",
+  "matched_original_stimulus": true,
+  "centered_wide": false,
+  "wide_residual_encoding": "unsigned",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "identity_policy": "regular metadata; no third wide lane from identity alone",
+  "real_neurons": 635904,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 223472,
+      "neurons": 635904,
+      "arithmetic_issues": 216278,
+      "narrow_requests": 190377,
+      "bypass_requests": 7194,
+      "clocks": 223476,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 1,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304049,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 2,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304049,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 3,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 4,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 5,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 6,
+      "requests": 234697,
+      "neurons": 635904,
+      "arithmetic_issues": 227390,
+      "narrow_requests": 165423,
+      "bypass_requests": 7307,
+      "clocks": 234701,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ]
+}

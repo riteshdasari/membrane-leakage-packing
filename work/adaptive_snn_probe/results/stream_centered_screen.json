@@ -1,0 +1,11 @@
+{
+  "arithmetic_cases": 165536,
+  "arithmetic_failures": 0,
+  "model_original_requests": 245975,
+  "model_centered_requests": 255320,
+  "stress": {
+    "original_requests": 1582,
+    "centered_requests": 1597
+  },
+  "note": "Arithmetic and schedule screen only. A single centered-bin equality replaces absolute-int5 OR uncentered-bin equality; eligibility sets differ."
+}

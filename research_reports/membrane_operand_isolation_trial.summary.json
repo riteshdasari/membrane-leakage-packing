@@ -1,0 +1,294 @@
+{
+  "status": "complete",
+  "outcome": "Exact RTL variants; both fail matched6ns timing; isolated energy unmeasured",
+  "repeated_scalar_checks": 5789660,
+  "unique_source_updates_across_stress_and_models": 1447415,
+  "candidates": [
+    {
+      "candidate": "postselection",
+      "native_suites": [
+        {
+          "kind": "main",
+          "backpressure": false,
+          "scalar_checks": 811511,
+          "physical_service": {
+            "policy": 1,
+            "stall": 0,
+            "requests": 136591,
+            "retirements": 136591,
+            "neurons": 811511,
+            "clocks": 151229,
+            "correction_steps": 39324,
+            "correction_freezes": 14102,
+            "pin_checks": 302552,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 151275
+          },
+          "arithmetic_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_main_0_a0\\comparison_checks.json",
+          "checks_sha256": "1c9ff7c2e87d2f40c0c7fe3ce181905046e002a9aa67172bff7f03a77583aa3f"
+        },
+        {
+          "kind": "main",
+          "backpressure": true,
+          "scalar_checks": 811511,
+          "physical_service": {
+            "policy": 1,
+            "stall": 1,
+            "requests": 136591,
+            "retirements": 136591,
+            "neurons": 811511,
+            "clocks": 201533,
+            "correction_steps": 39324,
+            "correction_freezes": 14102,
+            "pin_checks": 403160,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 201579
+          },
+          "arithmetic_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_main_1_a0\\comparison_checks.json",
+          "checks_sha256": "61b92c95397db6bdf14a9e873f1afa6be953ff262756944448a834b09ef6820a"
+        },
+        {
+          "kind": "models",
+          "backpressure": false,
+          "scalar_checks": 635904,
+          "physical_service": {
+            "policy": 1,
+            "stall": 0,
+            "requests": 110592,
+            "retirements": 110592,
+            "neurons": 635904,
+            "clocks": 110710,
+            "correction_steps": 1008,
+            "correction_freezes": 114,
+            "pin_checks": 221514,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 110756
+          },
+          "arithmetic_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_models_0_a0\\comparison_checks.json",
+          "checks_sha256": "a40705080b5a58cae44b850f1bb20d3499f194c2b85bcdd0e55f82ec64d08cef"
+        },
+        {
+          "kind": "models",
+          "backpressure": true,
+          "scalar_checks": 635904,
+          "physical_service": {
+            "policy": 1,
+            "stall": 1,
+            "requests": 110592,
+            "retirements": 110592,
+            "neurons": 635904,
+            "clocks": 151680,
+            "correction_steps": 1008,
+            "correction_freezes": 114,
+            "pin_checks": 303454,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 151726
+          },
+          "arithmetic_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_models_1_a0\\comparison_checks.json",
+          "checks_sha256": "29bdc980a60a19bc976a70c70b4e4b12c7ba24a63e648c96d17a6ce6bf105444"
+        }
+      ],
+      "hardware": [
+        {
+          "status": "timing_failed",
+          "core": {
+            "LUT": 152,
+            "FF": 268,
+            "DSP": 1,
+            "RAMB18": 0,
+            "RAMB36": 0,
+            "occupied_slices": 66
+          },
+          "WNS_ns": -0.23,
+          "WHS_ns": 0.026,
+          "boundary_WNS_ns": -0.23,
+          "boundary_WHS_ns": -1.075,
+          "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\route_a0",
+          "hardware_sha256": "a42a3feaaa58273bc8b8a15daadb2a7daaf33d5497ba0ae23bf1d763f860be34"
+        },
+        {
+          "status": "timing_failed",
+          "core": {
+            "LUT": 152,
+            "FF": 268,
+            "DSP": 1,
+            "RAMB18": 0,
+            "RAMB36": 0,
+            "occupied_slices": 66
+          },
+          "WNS_ns": -0.227,
+          "WHS_ns": 0.026,
+          "boundary_WNS_ns": -0.227,
+          "boundary_WHS_ns": -1.075,
+          "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\route_phys_a0",
+          "hardware_sha256": "e50fd872dccf70634e0fee21f97dc7485e836582b6c5397e7979ba31f4f31dbf"
+        }
+      ],
+      "isolated_energy_measured": false
+    },
+    {
+      "candidate": "folded",
+      "native_suites": [
+        {
+          "kind": "main",
+          "backpressure": false,
+          "scalar_checks": 811511,
+          "physical_service": {
+            "policy": 1,
+            "stall": 0,
+            "requests": 136591,
+            "retirements": 136591,
+            "neurons": 811511,
+            "clocks": 151229,
+            "correction_steps": 39324,
+            "correction_freezes": 14102,
+            "pin_checks": 302552,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 151275
+          },
+          "arithmetic_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_folded_trial\\results\\native_main_0_a0\\comparison_checks.json",
+          "checks_sha256": "fa2a18d9ddcd1e8fe83847b8c9fbcd9e189eceb591a5562933b3a944de9b10f6"
+        },
+        {
+          "kind": "main",
+          "backpressure": true,
+          "scalar_checks": 811511,
+          "physical_service": {
+            "policy": 1,
+            "stall": 1,
+            "requests": 136591,
+            "retirements": 136591,
+            "neurons": 811511,
+            "clocks": 201533,
+            "correction_steps": 39324,
+            "correction_freezes": 14102,
+            "pin_checks": 403160,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 201579
+          },
+          "arithmetic_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_folded_trial\\results\\native_main_1_a0\\comparison_checks.json",
+          "checks_sha256": "101ef63c4ce1cb60c0d9a3650612271a5b415969f2bcebc11fd7c48210798b3c"
+        },
+        {
+          "kind": "models",
+          "backpressure": false,
+          "scalar_checks": 635904,
+          "physical_service": {
+            "policy": 1,
+            "stall": 0,
+            "requests": 110592,
+            "retirements": 110592,
+            "neurons": 635904,
+            "clocks": 110710,
+            "correction_steps": 1008,
+            "correction_freezes": 114,
+            "pin_checks": 221514,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 110756
+          },
+          "arithmetic_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_folded_trial\\results\\native_models_0_a0\\comparison_checks.json",
+          "checks_sha256": "2944c99220b476ca3143547c8bbc1d4d71f05595eeca068b8f25786869a25ffc"
+        },
+        {
+          "kind": "models",
+          "backpressure": true,
+          "scalar_checks": 635904,
+          "physical_service": {
+            "policy": 1,
+            "stall": 1,
+            "requests": 110592,
+            "retirements": 110592,
+            "neurons": 635904,
+            "clocks": 151680,
+            "correction_steps": 1008,
+            "correction_freezes": 114,
+            "pin_checks": 303454,
+            "prelude_samples": 45,
+            "reset_samples": 25,
+            "trace_rows": 151726
+          },
+          "arithmetic_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2",
+          "checks_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_folded_trial\\results\\native_models_1_a0\\comparison_checks.json",
+          "checks_sha256": "5c684d69727f1893975b6c240f3e117b0d3f72bfb316f2e04d0a323c15e495e0"
+        }
+      ],
+      "hardware": [
+        {
+          "status": "timing_failed",
+          "core": {
+            "LUT": 167,
+            "FF": 268,
+            "DSP": 1,
+            "RAMB18": 0,
+            "RAMB36": 0,
+            "occupied_slices": 68
+          },
+          "WNS_ns": -0.114,
+          "WHS_ns": 0.105,
+          "boundary_WNS_ns": -0.114,
+          "boundary_WHS_ns": -1.073,
+          "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_folded_trial\\results\\route_a0",
+          "hardware_sha256": "e2fe11a20565f3ba63a7f9661e00c8c25be12950e99f9127a49eada1a24ee2f9"
+        }
+      ],
+      "isolated_energy_measured": false
+    }
+  ],
+  "frozen_hardware_references": {
+    "3": {
+      "core": {
+        "LUT": 147,
+        "FF": 268,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 68,
+        "occupied_slices_reported": 68
+      },
+      "WNS_ns": 0.108,
+      "WHS_ns": 0.132
+    },
+    "2": {
+      "core": {
+        "LUT": 43,
+        "FF": 262,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 54,
+        "occupied_slices_reported": 54
+      },
+      "WNS_ns": 2.141,
+      "WHS_ns": 0.13
+    }
+  },
+  "frozen_energy_reference_pJ_per_update": {
+    "2": 18.05315330615942,
+    "3": 20.996671195652173
+  },
+  "scope": "Six fixed DSP lanes with membrane/current/carry-aware exact correction, not variable lane-count packing",
+  "comparison": "Constructed fixed and adaptive references; not FireFly RTL",
+  "isolated_sdf_replay_performed": false,
+  "isolated_power_estimate": null,
+  "decision": "Do not promote either isolation candidate; retain frozen V3 as functional reference",
+  "limitations": [
+    "No trained-model accuracy study",
+    "No board timing/power measurement",
+    "Raw-port hold audit remains negative",
+    "Candidate-only physical optimization is not matched baseline optimization"
+  ]
+}

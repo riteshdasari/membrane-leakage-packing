@@ -1,0 +1,11 @@
+{
+  "status": "prepared_cached_arrays_semantics_preserved_no_vendor",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_native_static9.py": "d8f86ba569aa3017701a57959c74d908bf8ec7d48e3a6e3dd7788c76bb43fac3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\prepare_cached_native_v2.py": "e2c88db12054adbe578e0f63d777e66fcb4805733555130f48b3acab4a2369ac"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_native_static9_v2.py": "ee4cd40688b8931905e2f884393d655d2b877c96d3e742af9cd0334836fed606"
+  },
+  "change": "Load four compressed NPZ arrays once before the independent request loop. Vendor commands, RTL, cohort selection, output/count/oracle/latency/protocol gates and acceptance schema unchanged."
+}

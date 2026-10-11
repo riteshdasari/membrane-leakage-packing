@@ -1,0 +1,95 @@
+{
+  "status": "completed_partition_with_retained_failures_or_missing_controls",
+  "partition": "glif_remaining",
+  "power_paths": {
+    "glif": {
+      "0": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e0_profiled_all_a0_e0\\power_audit.json",
+        "sha256": "ac15f248814fc3479d8cbba8e0db26157850fd00ff134d775cc800e274059f25"
+      },
+      "3": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e3_glif_remaining_a0_e3\\power_audit.json",
+        "sha256": "885b6e46ded4cb3c58e1b64510a165efe9fc3bc563730328b80a0221953e1d2b"
+      },
+      "4": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e4_glif_remaining_a0_e4\\power_audit.json",
+        "sha256": "df9a28167575e802d625947d59f8120805d0cb5109e7b43dfbd5f68c43a65264"
+      }
+    },
+    "ottt": {}
+  },
+  "included_controls": [
+    {
+      "workload": "glif",
+      "engine": 0
+    },
+    {
+      "workload": "glif",
+      "engine": 3
+    },
+    {
+      "workload": "glif",
+      "engine": 4
+    },
+    {
+      "workload": "glif",
+      "engine": 2
+    }
+  ],
+  "retained_failures": [
+    {
+      "label": "GLIF_energy_e2",
+      "returncode": 2,
+      "seconds": 95.4818320274353,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_GLIF_energy_e2_glif_remaining_a0.log",
+      "log_sha256": "795fe6f33ea8914879297b2b712b2fc7bcd249f1f48fcd5d4a2f1a1ced3bb77a",
+      "acceptance_gates": [],
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 2))",
+      "accepted_energy": false
+    }
+  ],
+  "explicit_child_receipts": [
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_glif_e0_profiled_all_a0_e0_progress.json",
+        "sha256": "5f7ce47079e7f1125e6b77c4ef8729aeec5811b75c12709afccea8a32e485932",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e0_profiled_all_a0_e0\\power_audit.json",
+        "sha256": "ac15f248814fc3479d8cbba8e0db26157850fd00ff134d775cc800e274059f25",
+        "status": "pass"
+      }
+    ],
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_glif_e3_glif_remaining_a0_e3_progress.json",
+        "sha256": "4321918114858cf6ad51cc3f095539ab25ea8ac493c6e3d25840b47b2c85bb2d",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e3_glif_remaining_a0_e3\\power_audit.json",
+        "sha256": "885b6e46ded4cb3c58e1b64510a165efe9fc3bc563730328b80a0221953e1d2b",
+        "status": "pass"
+      }
+    ],
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_glif_e4_glif_remaining_a0_e4_progress.json",
+        "sha256": "8a8d16ba9613f8ae7dcf450c87a544d9941230deda28f04b86baeb81fd1323c9",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e4_glif_remaining_a0_e4\\power_audit.json",
+        "sha256": "df9a28167575e802d625947d59f8120805d0cb5109e7b43dfbd5f68c43a65264",
+        "status": "pass"
+      }
+    ]
+  ],
+  "all14_verifier_invoked": false,
+  "complete_all14_energy_claim": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_partition_glif_remaining_glif_remaining_a0_preaudit.json": "7367ea16f7e1e2c8921dbc1e46c155a4e641649573986e1acd8699023cd61e67"
+  }
+}

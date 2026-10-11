@@ -1,0 +1,235 @@
+{
+  "status": "EOF_closure_does_not_resolve_original_numerical_discrepancy",
+  "gates": {
+    "source_and_artifact_pins_passed": true,
+    "all_raw_bytes_tokens_paths_delays_checks_unchanged": true,
+    "raw_and_balanced_commands_matched": true,
+    "all_raw_annotation_and_timing_gates": true,
+    "all_balanced_annotation_and_timing_gates": true
+  },
+  "original_frozen_replay_resolved": false,
+  "raw": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\diagnostic.json",
+    "producer_status_context_only": "retained_numerical_replay_failure_under_matched_control",
+    "gates": {
+      "work_CARRY4_bound": true,
+      "exactly_one_expected_annotation": true,
+      "procedural_annotation_not_ignored": true,
+      "no_compile_or_elaboration_warning": true,
+      "no_runtime_timing_warning": true,
+      "unchanged_full_monitor_and_primitive": true,
+      "original_full_trace_requested": true,
+      "active_maxdelay_and_timing_checks": true
+    },
+    "full_known_row_replay_pass": false,
+    "mismatches": [
+      {
+        "row": 914,
+        "got": "6c0843fa",
+        "expected": "6c085ffa"
+      }
+    ],
+    "normalized_commands": [
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+        "-d",
+        "XIL_TIMING",
+        "<WD>/CARRY4_vendor.v"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+        "-sv",
+        "-d",
+        "ENGINE_ID=2",
+        "-d",
+        "DUT_TOP=top_sequential_leak_e2",
+        "<NETLIST>",
+        "<WD>/monitor.sv"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+        "C:/AMDDesignTools/2025.2/Vivado/data/verilog/src/glbl.v"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xelab.bat",
+        "-mt",
+        "off",
+        "-debug",
+        "all",
+        "-maxdelay",
+        "-transport_int_delays",
+        "-pulse_r",
+        "0",
+        "-pulse_int_r",
+        "0",
+        "-pulse_e",
+        "0",
+        "-pulse_int_e",
+        "0",
+        "-L",
+        "work",
+        "-L",
+        "simprims_ver",
+        "-L",
+        "secureip",
+        "-L",
+        "unisims_ver",
+        "tb_sequential_energy_replay",
+        "glbl",
+        "-s",
+        "sim"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xsim.bat",
+        "sim",
+        "-testplusarg",
+        "TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/native_actual_s0_a3/trace2.txt",
+        "-testplusarg",
+        "ROWS=17413",
+        "-testplusarg",
+        "ROI_FIRST=3",
+        "-testplusarg",
+        "ROI_LAST=17413",
+        "-tclbatch",
+        "<WD>/run.tcl"
+      ]
+    ],
+    "source_receipt_sha256": {
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\diagnostic.json": "def1002df3f796aea359fddd1f30deb5add0ba6ccdef6d1548c4bed3354b8e83",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\provenance.json": "305eae2471bb74624f6548e4a9225551db26b3df748b4ecf15473a31d7ba98fc",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_0.log": "4e7698f1886822bc0af2b4c07f8373ba979a84cf0a30c693fc9d306c797434d7",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_0.job.json": "a011b6ae0abfe64b1e3c4ba269cfec3b3dcbc0f544dff4a4173f5219ad3a7255",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_1.log": "7604854f46729ad05eab38ce93fbe20a73f9f832f896cf8feeb8bce716f2b3c1",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_1.job.json": "305e56058f6d5b8a01a0fa98dcc5f63d1c4a99d68bac27bb83ce52b7afab8871",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_2.job.json": "b875c730cb86e585473dc94d90adda15ebe209e7e52d316b07efe0d293c2e008",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_3.log": "9918e68c3ae2b33abafd20b5da6b21c779f0998228b3bc4722265a390c28048e",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_3.job.json": "8acb7feb8f58108635593203c5fa286b01e521e03292c0611617c013ba3b7f20",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_4.log": "6defce84aeebd530ca0537d5731b6ef89c1fc6a47e9991985f79881f0c901f2d",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_4.job.json": "a66ad5c1e59961576fd0a19c7237a4518c6ec8fdaf0e8a968bbe912384e609ab"
+    }
+  },
+  "balanced": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\diagnostic.json",
+    "producer_status_context_only": "retained_numerical_replay_failure_under_matched_control",
+    "gates": {
+      "work_CARRY4_bound": true,
+      "exactly_one_expected_annotation": true,
+      "procedural_annotation_not_ignored": true,
+      "no_compile_or_elaboration_warning": true,
+      "no_runtime_timing_warning": true,
+      "unchanged_full_monitor_and_primitive": true,
+      "original_full_trace_requested": true,
+      "active_maxdelay_and_timing_checks": true
+    },
+    "full_known_row_replay_pass": false,
+    "mismatches": [
+      {
+        "row": 914,
+        "got": "6c0843fa",
+        "expected": "6c085ffa"
+      }
+    ],
+    "normalized_commands": [
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+        "-d",
+        "XIL_TIMING",
+        "<WD>/CARRY4_vendor.v"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+        "-sv",
+        "-d",
+        "ENGINE_ID=2",
+        "-d",
+        "DUT_TOP=top_sequential_leak_e2",
+        "<NETLIST>",
+        "<WD>/monitor.sv"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+        "C:/AMDDesignTools/2025.2/Vivado/data/verilog/src/glbl.v"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xelab.bat",
+        "-mt",
+        "off",
+        "-debug",
+        "all",
+        "-maxdelay",
+        "-transport_int_delays",
+        "-pulse_r",
+        "0",
+        "-pulse_int_r",
+        "0",
+        "-pulse_e",
+        "0",
+        "-pulse_int_e",
+        "0",
+        "-L",
+        "work",
+        "-L",
+        "simprims_ver",
+        "-L",
+        "secureip",
+        "-L",
+        "unisims_ver",
+        "tb_sequential_energy_replay",
+        "glbl",
+        "-s",
+        "sim"
+      ],
+      [
+        "C:/AMDDesignTools/2025.2/Vivado/bin/xsim.bat",
+        "sim",
+        "-testplusarg",
+        "TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/native_actual_s0_a3/trace2.txt",
+        "-testplusarg",
+        "ROWS=17413",
+        "-testplusarg",
+        "ROI_FIRST=3",
+        "-testplusarg",
+        "ROI_LAST=17413",
+        "-tclbatch",
+        "<WD>/run.tcl"
+      ]
+    ],
+    "source_receipt_sha256": {
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\diagnostic.json": "458f26fddffdf79d165864c5d2f181328128792523aeb60ae7dd724263c403da",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\provenance.json": "dc7eedc480379441556b93f268e131cf8a2c025449480bfca6424342a1a010df",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_0.log": "a47bac5c832c83255a3aee5aa98b92bde971b7341e908778b8b9446c26a7cd4d",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_0.job.json": "3531d9d2bff005a1b75b3076a40ec4a6c3a25045615d52f2bac5e56b3e8eb20e",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_1.log": "7204ae93cf1a0fc64f4d661032542de5544d682d74ae7242b1aac5cb29b18ebe",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_1.job.json": "5c1cb83ef9af1a72dd06af703c833bb4b2547c1e84f71689b0666219155bcfbc",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_2.job.json": "e8003a523bd72d4fbe371dc944a04707b29bfd420ef45f4aefd5d0b90b340820",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_3.log": "5f756c3946fc9fb0d09c276b059a613350b66c7a62dc9bb4393045880e31c811",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_3.job.json": "1aa4ffe81de5ceb693ade15d3a6849d7d654772503ad1f063b4267c9fce23c51",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_4.log": "197bd21a1e1fc1611f373e048d1c41fdb78cf74ae1374e9108639e72f6e67c58",
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_4.job.json": "fd9c79e0df976a9bd10d6bf1b88b67b44db5e4093ae7ab89fd0d6610dafa1867"
+    }
+  },
+  "certificate_reverification": {
+    "status": "pass_independent_SDF_derivative_reverification",
+    "certificate": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\original_sdf_EOF_only_certificate.json",
+    "certificate_sha256": "74a5c8ebbf31bebc0fa7cc7ca43b96fc39e63cc97a0f2877a040975295ab07ba",
+    "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.sdf",
+    "source_sha256": "9b025cf32a05e1cbc9845d5a9f03ae7631c9197eb2f1f37b6136bc10dfcfe2a5",
+    "derivative": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\original_EOF_only_balanced.sdf",
+    "derivative_sha256": "6a34876158946305a87bfb4fa5694b4c00463e047b4431b4defdb842f1d9db1a",
+    "appended_closing_parentheses": 3,
+    "cell_count": 554,
+    "all_raw_bytes_tokens_paths_delays_checks_preserved": true,
+    "verifier_sha256": "4f32cac218f4eb523093200ababec59e47a9ca5e2dac3568af4a80dbae8e4f07",
+    "simulation_or_energy_acceptance": false
+  },
+  "rows": 17413,
+  "valid_rows": 8704,
+  "bounded_conclusion": "Both controls fail with the same first mismatch. The syntax defect is real but does not close the numerical discrepancy.",
+  "physical_hardware_correctness_proven": false,
+  "energy_acceptance": false,
+  "original_raw_evidence_modified": false,
+  "reviewer_sha256": "706eca5bd0b2ee778b4f3768b447464a3988017b4b8e393c23d5db3185ae5f57",
+  "preparation_sha256": "32540db1336251b8ec3a60156943eac0f1499eec67ffcda1fe14f66a994202b6"
+}

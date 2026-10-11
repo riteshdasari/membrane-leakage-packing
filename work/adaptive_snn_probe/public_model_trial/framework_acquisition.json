@@ -1,0 +1,10 @@
+{
+  "status": "pass_distribution_hash",
+  "package": "spikingjelly",
+  "version": "0.0.0.0.10",
+  "url": "https://files.pythonhosted.org/packages/e9/f1/e6c49d271faf634bb48340d5e45397ff10f31942deb223650a1121616e4a/spikingjelly-0.0.0.0.10-py3-none-any.whl",
+  "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\spikingjelly-0.0.0.0.10-py3-none-any.whl",
+  "sha256": "131137856942949206a3bca88308f14b56d34e3d1fe5ecee83be20d2ff9ed128",
+  "bytes": 227450,
+  "environment_modified": false
+}

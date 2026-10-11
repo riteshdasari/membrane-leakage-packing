@@ -1,0 +1,69 @@
+{
+  "main_packing_target": "leakage of the actual stored membrane, with exact declared integer-neuron updates",
+  "qualified_actual_public_models": [
+    {
+      "name": "OTTT-SNN VGG11-WS, CIFAR10",
+      "paper": "Online Training Through Time for Spiking Neural Networks, NeurIPS2022",
+      "repository": "https://github.com/pkuxmq/OTTT-SNN",
+      "commit": "c15d5da05eea0c48e1fa837a4f8073297006d93f",
+      "neuron": "vanilla OnlineLIF",
+      "timesteps": 6,
+      "leak_coefficient": 0.5,
+      "baseline_significance": "Exact ceil(U/2) uses a shift and rounding bit, zero DSP. It is a mandatory negative control, not favorable DSP-multiplier evidence.",
+      "accepted_separate_execution_test": "64 images; original FP32 plus plain integer plus actual E5 full feedback; all integer/E5 states, spikes and logits compared exactly",
+      "full_10000_test": "Completed and independently audited: FP32 9349/10000; declared integer plus actual E5 feedback9345/10000;104 changed predictions; every24576000000 local leakage result exactly scalar-equal; see cifar10_full10000_a0/results.json and benchmark_acceptance.json.",
+      "integer_conversion": "FP32 synapses/readout; RNE effective currents to unit1/256; ceil(128U/256); threshold256 equality fires; immediate subtractive reset256",
+      "packing_policy": "Common zero bypass; retain original neuron order; greedy adjacent same-beta signed9 pairs, exact fullwidth singleton otherwise",
+      "width_policy": "Original B12 rejects real wide states. Root accepted a fixed B16 fullwidth extension without changing model units or coefficients. Fullwidth applicability requires all old leakage operands AND every stored post-reset state to fit signed16. Exhaustive per-layer min/max proves zero stored-state exceptions when in bounds; any violation is unsupported, not clipped."
+    }
+  ],
+  "related_existing_evidence": [
+    {"name":"GLIF CIFAR10 pretrained T2", "neuron":"gated LIF, not vanilla LIF or AdEx", "note":"Root owns existing full10000 conversion and exact64 packed fullfeedback evidence. Do not rename it LIF."},
+    {"name":"Locally trained digits SNN", "note":"Digits data is not MNIST, not a published pretrained benchmark."}
+  ],
+  "audited_but_not_evaluated": [
+    {
+      "name":"OTTT-SNN CIFAR10-DVS pretrained VGG11",
+      "repository":"https://github.com/pkuxmq/OTTT-SNN",
+      "official_checkpoint_drive_id":"1lGHafvkGSAg1h8RkPUQQ9QzY1dX_2pD_",
+      "timesteps":10,
+      "leak_coefficient":0.5,
+      "status":"Dataset acquisition blocked by external HTTP403; no inference performed",
+      "official_dataset":"https://figshare.com/articles/dataset/CIFAR10-DVS_New/4724671",
+      "acquisition_attempts":"api.figshare.com, figshare.com/ndownloader, ndownloader.figshare.com, GET/HEAD/range requests; all external HTTP403, including outside sandbox. This was not an automatic approval-review rejection.",
+      "preprocessing_boundary":"Official legacy reader flips x, preserves raw y and reverses polarity; T10 split by number and author resize48/normalization. Current library orientation or another author's frame archive is not silently substituted."
+    },
+    {
+      "name":"Parametric-LIF paper official pretrained models",
+      "repository":"https://github.com/fangwei123456/Parametric-Leaky-Integrate-and-Fire-Spiking-Neuron",
+      "status":"Official repository states pretrained checkpoints are not uploaded; no published model run claimed"
+    },
+    {
+      "name":"SNN-IIR pretrained MNIST MLP2, IJCAI2020",
+      "repository":"https://github.com/Snow-Crash/snn-iir",
+      "status":"Checkpoint, official source and MNIST test bytes acquired and pinned; excluded from actual-U leakage benchmark; no inference performed",
+      "reason":"Trained config membrane_filter=False. Voltage is weighted filtered input minus prior reset trace, without prior voltage leakage. Learned synaptic filter coefficients and decayed reset trace cannot be relabeled actual membrane U. See iir_admission_audit.json."
+    },
+    {
+      "name":"BNTT CIFAR10/CIFAR100",
+      "repository":"https://github.com/Intelligent-Computing-Lab-Panda/BNTT-Batch-Normalization-Through-Time",
+      "status":"Official source specifies .95/T25 and .99/T30 leak respectively; repository exposes no checkpoint; no inference performed"
+    },
+    {
+      "name":"Visual explanations from SNNs using interspike intervals, Scientific Reports2021, TinyImageNet VGG11",
+      "repository":"https://github.com/Intelligent-Computing-Lab-Panda/Visual-Explanations-from-Spiking-Neural-Networks-using-Interspike-Intervals",
+      "official_checkpoint_drive_id":"11ybFXqRB3edxsFMUrPrwwH5_HlAAHNUp",
+      "source_commit":"178789c74fef72b9c25bd31d65ac598c987e1de9",
+      "status":"Author checkpoint and official TinyImageNet archive downloaded and hashed; faithful CPU and integer adapters prepared; nominal .99/T30; no inference performed",
+      "prepared_contract":"bntt_contract.md; deterministic64 held-out images, identical Poisson draws, strict old-U threshold and deferred subtractive reset, approximate coefficient253/256 declared separately from exact packed arithmetic; no range retuning",
+      "constant_specific_zero_DSP_control":"ceil(253U/256)=U−floor(3U/256), shift/add/sub; constant-coefficient applicability/negative-control evidence, not a general-multiplier benefit claim"
+    }
+  ],
+  "claim_boundaries": [
+    "Exact integer-vs-packed equality establishes packing preservation. Original-FP32-vs-integer differences establish conversion impact.",
+    "This is not a fully quantized SNN: synaptic convolutions, normalization and output readout remain FP32.",
+    "Counts are primitive scheduling estimates, not accelerator throughput, host inference speed, board power or energy measurements.",
+    "Driver operand sample is ordered stress coverage from actual model execution, not an unbiased energy sample.",
+    "Sharing a benchmark dataset with FireFly does not establish equal hardware architecture, neuron units or accelerator performance."
+  ]
+}

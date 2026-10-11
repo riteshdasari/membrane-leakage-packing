@@ -1,0 +1,123 @@
+{
+  "status": "pass",
+  "variant": 3,
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0",
+  "matched_physical_design_nets": 856,
+  "physical_activity_source_counts": {
+    "S": 1410,
+    "C": 4,
+    "D": 7
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 1458,
+  "excluded_unknown_scope": "Only simulator internals/optimized aliases absent from verified physical S activity; constant nets inferred0/1 explicitly audited",
+  "native_interval_audit": {
+    "status": "pass",
+    "variant": 3,
+    "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0",
+    "replay_check_sha256": "f475f5f1b7c29d77f6976ce03303ef4d7ac4fc588c9393a35b11d4038b75884d",
+    "duration_ps": 664272000,
+    "scalar_updates": 635904,
+    "requests": 110592,
+    "correction_steps": 1008,
+    "correction_freezes": 114,
+    "clock_transitions": 221424,
+    "raw_unknown_time_records": 1458,
+    "scope": "Exact trace/interval/SDF/SAIF checks; power relevance of raw unknown records requires mapped-net audit"
+  },
+  "critical_dsp_activity": {
+    "fixture/core/d/CEA20": {
+      "static_probability": 0.999017,
+      "signal_rate_Mtransitions_per_s": 0.319146,
+      "toggle_rate_percent": 0.191488,
+      "source": "S"
+    },
+    "fixture/core/d/CEP0": {
+      "static_probability": 0.999017,
+      "signal_rate_Mtransitions_per_s": 0.319146,
+      "toggle_rate_percent": 0.191488,
+      "source": "S"
+    },
+    "fixture/core/d/advance": {
+      "static_probability": 0.99907,
+      "signal_rate_Mtransitions_per_s": 0.325168,
+      "toggle_rate_percent": 0.195101,
+      "source": "S"
+    }
+  },
+  "dynamic_power_W": 0.0201,
+  "dynamic_power_rounding_bound_W": 2.8100509999999997e-06,
+  "device_static_W": 0.0837162,
+  "dynamic_energy_J": 1.33518672e-05,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 20.996671195652173,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.020100",
+      "iccq": "0.014842",
+      "power": "0.034941"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.526316"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 6,
+  "power_xpe_sha256": "1aba792a127d90a4a1e6191be845514b36c438a82143ff1ee785691c633f3cd9",
+  "scope": "Vendor estimated dynamic energy of complete219FF OOC fixture; not board measurement or core-only result"
+}

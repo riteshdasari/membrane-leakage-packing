@@ -1,0 +1,1860 @@
+{
+  "source_hashes": {
+    "stream_offset_leak.sv": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+    "tb_stream_offset_leak.sv": "88a13900e423f3d7995e0d3c49fe5a8a9086bdea619b7ab947de41e197c68dac",
+    "stream_centered_leak.sv": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+    "tb_stream_centered_leak.sv": "42899be4fa236ad5057afb91f9248fbd19a9a149b568de50dc03ecac2748d7c1"
+  },
+  "metrics": {
+    "routed_cores": 12,
+    "rtl_engine_configuration_runs": 48,
+    "neuron_output_comparisons": 20743272,
+    "request_output_comparisons": 9777785,
+    "model_neurons_per_engine": 635904,
+    "model_images": 144,
+    "mismatches": 0
+  },
+  "checks": {
+    "stream_offset_main_25_0": {
+      "source_hashes": {
+        "stream_offset_leak.sv": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+        "tb_stream_offset_leak.sv": "88a13900e423f3d7995e0d3c49fe5a8a9086bdea619b7ab947de41e197c68dac"
+      },
+      "constant_delta": 25,
+      "backpressure": false,
+      "frames": 166840,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 252877,
+          "neurons": 544431,
+          "arithmetic_issues": 250219,
+          "narrow_requests": 105383,
+          "bypass_requests": 2658,
+          "clocks": 253006,
+          "mismatches": 0
+        },
+        {
+          "engine": 1,
+          "requests": 351583,
+          "neurons": 544431,
+          "arithmetic_issues": 348925,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 351712,
+          "mismatches": 0
+        },
+        {
+          "engine": 2,
+          "requests": 351583,
+          "neurons": 544431,
+          "arithmetic_issues": 348925,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 351712,
+          "mismatches": 0
+        },
+        {
+          "engine": 3,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 179859,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 182646,
+          "mismatches": 0
+        },
+        {
+          "engine": 4,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 179859,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 182646,
+          "mismatches": 0
+        },
+        {
+          "engine": 6,
+          "requests": 319799,
+          "neurons": 544431,
+          "arithmetic_issues": 317141,
+          "narrow_requests": 35177,
+          "bypass_requests": 2658,
+          "clocks": 319928,
+          "mismatches": 0
+        }
+      ]
+    },
+    "stream_offset_main_-1_1": {
+      "source_hashes": {
+        "stream_offset_leak.sv": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+        "tb_stream_offset_leak.sv": "88a13900e423f3d7995e0d3c49fe5a8a9086bdea619b7ab947de41e197c68dac"
+      },
+      "constant_delta": -1,
+      "backpressure": true,
+      "frames": 166840,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 250678,
+          "neurons": 544431,
+          "arithmetic_issues": 243388,
+          "narrow_requests": 105383,
+          "bypass_requests": 7290,
+          "clocks": 347965,
+          "mismatches": 0
+        },
+        {
+          "engine": 1,
+          "requests": 347274,
+          "neurons": 544431,
+          "arithmetic_issues": 339984,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 481983,
+          "mismatches": 0
+        },
+        {
+          "engine": 2,
+          "requests": 347274,
+          "neurons": 544431,
+          "arithmetic_issues": 339984,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 481983,
+          "mismatches": 0
+        },
+        {
+          "engine": 3,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 175227,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 253376,
+          "mismatches": 0
+        },
+        {
+          "engine": 4,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 175227,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 253376,
+          "mismatches": 0
+        },
+        {
+          "engine": 6,
+          "requests": 315491,
+          "neurons": 544431,
+          "arithmetic_issues": 308201,
+          "narrow_requests": 35177,
+          "bypass_requests": 7290,
+          "clocks": 437885,
+          "mismatches": 0
+        }
+      ]
+    },
+    "stream_offset_models": {
+      "source_hashes": {
+        "stream_offset_leak.sv": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+        "tb_stream_offset_leak.sv": "88a13900e423f3d7995e0d3c49fe5a8a9086bdea619b7ab947de41e197c68dac"
+      },
+      "constant_delta": 25,
+      "backpressure": false,
+      "frames": 9216,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 245975,
+          "neurons": 635904,
+          "arithmetic_issues": 238622,
+          "narrow_requests": 141118,
+          "bypass_requests": 7353,
+          "clocks": 245978,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 1,
+          "requests": 304045,
+          "neurons": 635904,
+          "arithmetic_issues": 297185,
+          "narrow_requests": 0,
+          "bypass_requests": 6860,
+          "clocks": 304048,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 2,
+          "requests": 304045,
+          "neurons": 635904,
+          "arithmetic_issues": 297185,
+          "narrow_requests": 0,
+          "bypass_requests": 6860,
+          "clocks": 304048,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 3,
+          "requests": 216576,
+          "neurons": 635904,
+          "arithmetic_issues": 209481,
+          "narrow_requests": 0,
+          "bypass_requests": 7095,
+          "clocks": 216579,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 4,
+          "requests": 216576,
+          "neurons": 635904,
+          "arithmetic_issues": 209481,
+          "narrow_requests": 0,
+          "bypass_requests": 7095,
+          "clocks": 216579,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 6,
+          "requests": 255558,
+          "neurons": 635904,
+          "arithmetic_issues": 248244,
+          "narrow_requests": 119175,
+          "bypass_requests": 7314,
+          "clocks": 255561,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        }
+      ]
+    },
+    "stream_offset_stress": {
+      "source_hashes": {
+        "stream_offset_leak.sv": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+        "tb_stream_offset_leak.sv": "88a13900e423f3d7995e0d3c49fe5a8a9086bdea619b7ab947de41e197c68dac"
+      },
+      "constant_delta": 25,
+      "backpressure": false,
+      "frames": 640,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 1582,
+          "neurons": 3840,
+          "arithmetic_issues": 1478,
+          "narrow_requests": 840,
+          "bypass_requests": 104,
+          "clocks": 1585,
+          "mismatches": 0
+        },
+        {
+          "engine": 1,
+          "requests": 1868,
+          "neurons": 3840,
+          "arithmetic_issues": 1764,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1871,
+          "mismatches": 0
+        },
+        {
+          "engine": 2,
+          "requests": 1868,
+          "neurons": 3840,
+          "arithmetic_issues": 1764,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1871,
+          "mismatches": 0
+        },
+        {
+          "engine": 3,
+          "requests": 1280,
+          "neurons": 3840,
+          "arithmetic_issues": 1176,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1283,
+          "mismatches": 0
+        },
+        {
+          "engine": 4,
+          "requests": 1280,
+          "neurons": 3840,
+          "arithmetic_issues": 1176,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1283,
+          "mismatches": 0
+        },
+        {
+          "engine": 6,
+          "requests": 1814,
+          "neurons": 3840,
+          "arithmetic_issues": 1707,
+          "narrow_requests": 312,
+          "bypass_requests": 107,
+          "clocks": 1817,
+          "mismatches": 0
+        }
+      ]
+    },
+    "stream_centered_main_25_0": {
+      "source_hashes": {
+        "stream_centered_leak.sv": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+        "tb_stream_centered_leak.sv": "42899be4fa236ad5057afb91f9248fbd19a9a149b568de50dc03ecac2748d7c1"
+      },
+      "constant_delta": 25,
+      "backpressure": false,
+      "frames": 166840,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 319032,
+          "neurons": 544431,
+          "arithmetic_issues": 316374,
+          "narrow_requests": 36673,
+          "bypass_requests": 2658,
+          "clocks": 319161,
+          "mismatches": 0
+        },
+        {
+          "engine": 1,
+          "requests": 351583,
+          "neurons": 544431,
+          "arithmetic_issues": 348925,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 351712,
+          "mismatches": 0
+        },
+        {
+          "engine": 2,
+          "requests": 351583,
+          "neurons": 544431,
+          "arithmetic_issues": 348925,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 351712,
+          "mismatches": 0
+        },
+        {
+          "engine": 3,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 179859,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 182646,
+          "mismatches": 0
+        },
+        {
+          "engine": 4,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 179859,
+          "narrow_requests": 0,
+          "bypass_requests": 2658,
+          "clocks": 182646,
+          "mismatches": 0
+        },
+        {
+          "engine": 6,
+          "requests": 319799,
+          "neurons": 544431,
+          "arithmetic_issues": 317141,
+          "narrow_requests": 35177,
+          "bypass_requests": 2658,
+          "clocks": 319928,
+          "mismatches": 0
+        }
+      ]
+    },
+    "stream_centered_main_-1_1": {
+      "source_hashes": {
+        "stream_centered_leak.sv": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+        "tb_stream_centered_leak.sv": "42899be4fa236ad5057afb91f9248fbd19a9a149b568de50dc03ecac2748d7c1"
+      },
+      "constant_delta": -1,
+      "backpressure": true,
+      "frames": 166840,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 314760,
+          "neurons": 544431,
+          "arithmetic_issues": 307470,
+          "narrow_requests": 36650,
+          "bypass_requests": 7290,
+          "clocks": 436855,
+          "mismatches": 0
+        },
+        {
+          "engine": 1,
+          "requests": 347274,
+          "neurons": 544431,
+          "arithmetic_issues": 339984,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 481983,
+          "mismatches": 0
+        },
+        {
+          "engine": 2,
+          "requests": 347274,
+          "neurons": 544431,
+          "arithmetic_issues": 339984,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 481983,
+          "mismatches": 0
+        },
+        {
+          "engine": 3,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 175227,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 253376,
+          "mismatches": 0
+        },
+        {
+          "engine": 4,
+          "requests": 182517,
+          "neurons": 544431,
+          "arithmetic_issues": 175227,
+          "narrow_requests": 0,
+          "bypass_requests": 7290,
+          "clocks": 253376,
+          "mismatches": 0
+        },
+        {
+          "engine": 6,
+          "requests": 315491,
+          "neurons": 544431,
+          "arithmetic_issues": 308201,
+          "narrow_requests": 35177,
+          "bypass_requests": 7290,
+          "clocks": 437885,
+          "mismatches": 0
+        }
+      ]
+    },
+    "stream_centered_models": {
+      "source_hashes": {
+        "stream_centered_leak.sv": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+        "tb_stream_centered_leak.sv": "42899be4fa236ad5057afb91f9248fbd19a9a149b568de50dc03ecac2748d7c1"
+      },
+      "constant_delta": 25,
+      "backpressure": false,
+      "frames": 9216,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 255320,
+          "neurons": 635904,
+          "arithmetic_issues": 248015,
+          "narrow_requests": 119916,
+          "bypass_requests": 7305,
+          "clocks": 255323,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 1,
+          "requests": 304045,
+          "neurons": 635904,
+          "arithmetic_issues": 297185,
+          "narrow_requests": 0,
+          "bypass_requests": 6860,
+          "clocks": 304048,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 2,
+          "requests": 304045,
+          "neurons": 635904,
+          "arithmetic_issues": 297185,
+          "narrow_requests": 0,
+          "bypass_requests": 6860,
+          "clocks": 304048,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 3,
+          "requests": 216576,
+          "neurons": 635904,
+          "arithmetic_issues": 209481,
+          "narrow_requests": 0,
+          "bypass_requests": 7095,
+          "clocks": 216579,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 4,
+          "requests": 216576,
+          "neurons": 635904,
+          "arithmetic_issues": 209481,
+          "narrow_requests": 0,
+          "bypass_requests": 7095,
+          "clocks": 216579,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        },
+        {
+          "engine": 6,
+          "requests": 255558,
+          "neurons": 635904,
+          "arithmetic_issues": 248244,
+          "narrow_requests": 119175,
+          "bypass_requests": 7314,
+          "clocks": 255561,
+          "mismatches": 0,
+          "state_mismatches": 0,
+          "spike_mismatches": 0,
+          "model_rows": [
+            {
+              "seed": 0,
+              "images": 48,
+              "accuracy": 0.9375,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 1,
+              "images": 48,
+              "accuracy": 0.9583333333333334,
+              "spike_counts_matched": true
+            },
+            {
+              "seed": 2,
+              "images": 48,
+              "accuracy": 0.9791666666666666,
+              "spike_counts_matched": true
+            }
+          ]
+        }
+      ]
+    },
+    "stream_centered_stress": {
+      "source_hashes": {
+        "stream_centered_leak.sv": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+        "tb_stream_centered_leak.sv": "42899be4fa236ad5057afb91f9248fbd19a9a149b568de50dc03ecac2748d7c1"
+      },
+      "constant_delta": 25,
+      "backpressure": false,
+      "frames": 640,
+      "rows": [
+        {
+          "engine": 0,
+          "requests": 1597,
+          "neurons": 3840,
+          "arithmetic_issues": 1490,
+          "narrow_requests": 770,
+          "bypass_requests": 107,
+          "clocks": 1600,
+          "mismatches": 0
+        },
+        {
+          "engine": 1,
+          "requests": 1868,
+          "neurons": 3840,
+          "arithmetic_issues": 1764,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1871,
+          "mismatches": 0
+        },
+        {
+          "engine": 2,
+          "requests": 1868,
+          "neurons": 3840,
+          "arithmetic_issues": 1764,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1871,
+          "mismatches": 0
+        },
+        {
+          "engine": 3,
+          "requests": 1280,
+          "neurons": 3840,
+          "arithmetic_issues": 1176,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1283,
+          "mismatches": 0
+        },
+        {
+          "engine": 4,
+          "requests": 1280,
+          "neurons": 3840,
+          "arithmetic_issues": 1176,
+          "narrow_requests": 0,
+          "bypass_requests": 104,
+          "clocks": 1283,
+          "mismatches": 0
+        },
+        {
+          "engine": 6,
+          "requests": 1814,
+          "neurons": 3840,
+          "arithmetic_issues": 1707,
+          "narrow_requests": 312,
+          "bypass_requests": 107,
+          "clocks": 1817,
+          "mismatches": 0
+        }
+      ]
+    }
+  },
+  "hardware": [
+    {
+      "top": "top_stream_offset_const",
+      "LUT": 195,
+      "FF": 127,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": -0.727,
+      "WHS_ns": 0.189,
+      "internal_period_estimate_ns": 4.727,
+      "boundary_WNS_ns": -6.159,
+      "boundary_WHS_ns": -0.258,
+      "boundary_period_estimate_ns": 10.158999999999999,
+      "target_ns": 4,
+      "seconds": 174.5,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_fixed2_const",
+      "LUT": 97,
+      "FF": 77,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": 0.573,
+      "WHS_ns": 0.168,
+      "internal_period_estimate_ns": 3.427,
+      "boundary_WNS_ns": -2.179,
+      "boundary_WHS_ns": -0.402,
+      "boundary_period_estimate_ns": 6.179,
+      "target_ns": 4,
+      "seconds": 107.7,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_fixed3_const",
+      "LUT": 215,
+      "FF": 158,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": -0.371,
+      "WHS_ns": 0.175,
+      "internal_period_estimate_ns": 4.371,
+      "boundary_WNS_ns": -4.727,
+      "boundary_WHS_ns": -0.402,
+      "boundary_period_estimate_ns": 8.727,
+      "target_ns": 4,
+      "seconds": 116.9,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_lut3_const",
+      "LUT": 137,
+      "FF": 108,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": 1.156,
+      "WHS_ns": 0.145,
+      "internal_period_estimate_ns": 2.8440000000000003,
+      "boundary_WNS_ns": -2.804,
+      "boundary_WHS_ns": -0.234,
+      "boundary_period_estimate_ns": 6.804,
+      "target_ns": 4,
+      "seconds": 105.9,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_absolute_const",
+      "LUT": 184,
+      "FF": 127,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": -0.897,
+      "WHS_ns": 0.162,
+      "internal_period_estimate_ns": 4.897,
+      "boundary_WNS_ns": -6.152,
+      "boundary_WHS_ns": -0.258,
+      "boundary_period_estimate_ns": 10.152000000000001,
+      "target_ns": 4,
+      "seconds": 124.7,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_lut2_const",
+      "LUT": 81,
+      "FF": 75,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": 0.781,
+      "WHS_ns": 0.159,
+      "internal_period_estimate_ns": 3.219,
+      "boundary_WNS_ns": -2.964,
+      "boundary_WHS_ns": -0.233,
+      "boundary_period_estimate_ns": 6.964,
+      "target_ns": 4,
+      "seconds": 115.5,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_offset_prog",
+      "LUT": 297,
+      "FF": 133,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": -0.756,
+      "WHS_ns": 0.168,
+      "internal_period_estimate_ns": 4.756,
+      "boundary_WNS_ns": -9.613,
+      "boundary_WHS_ns": -0.258,
+      "boundary_period_estimate_ns": 13.613,
+      "target_ns": 4,
+      "seconds": 149.6,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_fixed2_prog",
+      "LUT": 177,
+      "FF": 110,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": 0.8,
+      "WHS_ns": 0.159,
+      "internal_period_estimate_ns": 3.2,
+      "boundary_WNS_ns": -4.916,
+      "boundary_WHS_ns": -0.258,
+      "boundary_period_estimate_ns": 8.916,
+      "target_ns": 4,
+      "seconds": 112.9,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_fixed3_prog",
+      "LUT": 302,
+      "FF": 173,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": -0.224,
+      "WHS_ns": 0.17,
+      "internal_period_estimate_ns": 4.224,
+      "boundary_WNS_ns": -6.343,
+      "boundary_WHS_ns": -0.258,
+      "boundary_period_estimate_ns": 10.343,
+      "target_ns": 4,
+      "seconds": 114.4,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_lut3_prog",
+      "LUT": 272,
+      "FF": 108,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": 0.776,
+      "WHS_ns": 0.159,
+      "internal_period_estimate_ns": 3.224,
+      "boundary_WNS_ns": -5.931,
+      "boundary_WHS_ns": -0.215,
+      "boundary_period_estimate_ns": 9.931000000000001,
+      "target_ns": 4,
+      "seconds": 94.7,
+      "rtl_sha256": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+      "retried_checkpoint": false
+    }
+  ],
+  "centered_hardware": [
+    {
+      "top": "top_stream_centered_offset_const",
+      "LUT": 241,
+      "FF": 131,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": -0.402,
+      "WHS_ns": 0.154,
+      "internal_period_estimate_ns": 4.402,
+      "boundary_WNS_ns": -7.882,
+      "boundary_WHS_ns": -0.258,
+      "boundary_period_estimate_ns": 11.882,
+      "target_ns": 4,
+      "seconds": 126.5,
+      "rtl_sha256": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+      "retried_checkpoint": false
+    },
+    {
+      "top": "top_stream_centered_offset_prog",
+      "LUT": 306,
+      "FF": 131,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "WNS_ns": -0.516,
+      "WHS_ns": 0.184,
+      "internal_period_estimate_ns": 4.516,
+      "boundary_WNS_ns": -9.291,
+      "boundary_WHS_ns": -0.258,
+      "boundary_period_estimate_ns": 13.291,
+      "target_ns": 4,
+      "seconds": 151.5,
+      "rtl_sha256": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+      "retried_checkpoint": true
+    }
+  ],
+  "comparisons": [
+    {
+      "variant": "offset",
+      "coefficient": "const",
+      "baseline": "fixed2",
+      "cycle_saving": 0.190989580592538,
+      "extra_LUT": 98,
+      "extra_FF": 50,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.1159008615521075,
+      "boundary_timing_times_cycles_ratio": 1.330107922116913,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "offset",
+      "coefficient": "const",
+      "baseline": "fixed3",
+      "cycle_saving": -0.13574261585841652,
+      "extra_LUT": -20,
+      "extra_FF": -31,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.2282441878661026,
+      "boundary_timing_times_cycles_ratio": 1.3221048738977488,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "offset",
+      "coefficient": "const",
+      "baseline": "lut3",
+      "cycle_saving": -0.13574261585841652,
+      "extra_LUT": 58,
+      "extra_FF": 19,
+      "extra_DSP": 1,
+      "internal_timing_times_cycles_ratio": 1.8877128499165734,
+      "boundary_timing_times_cycles_ratio": 1.6957685529843698,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "offset",
+      "coefficient": "prog",
+      "baseline": "fixed2",
+      "cycle_saving": 0.190989580592538,
+      "extra_LUT": 120,
+      "extra_FF": 23,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.2023917358443403,
+      "boundary_timing_times_cycles_ratio": 1.2352017540818505,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "offset",
+      "coefficient": "prog",
+      "baseline": "fixed3",
+      "cycle_saving": -0.13574261585841652,
+      "extra_LUT": -5,
+      "extra_FF": -40,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.2787859566814936,
+      "boundary_timing_times_cycles_ratio": 1.4948142927275088,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "offset",
+      "coefficient": "prog",
+      "baseline": "lut3",
+      "cycle_saving": -0.13574261585841652,
+      "extra_LUT": 25,
+      "extra_FF": 25,
+      "extra_DSP": 1,
+      "internal_timing_times_cycles_ratio": 1.6754317248829496,
+      "boundary_timing_times_cycles_ratio": 1.5568285398933264,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "const",
+      "baseline": "fixed2",
+      "cycle_saving": 0.16025430195232326,
+      "extra_LUT": 144,
+      "extra_FF": 54,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.078657882347789,
+      "boundary_timing_times_cycles_ratio": 1.6148014863574192,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "const",
+      "baseline": "fixed3",
+      "cycle_saving": -0.17889084352591889,
+      "extra_LUT": 26,
+      "extra_FF": -27,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.187251771494188,
+      "boundary_timing_times_cycles_ratio": 1.6050854821559493,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "const",
+      "baseline": "lut3",
+      "cycle_saving": -0.17889084352591889,
+      "extra_LUT": 104,
+      "extra_FF": 23,
+      "extra_DSP": 1,
+      "internal_timing_times_cycles_ratio": 1.8247107922648014,
+      "boundary_timing_times_cycles_ratio": 2.0587273666629877,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "prog",
+      "baseline": "fixed2",
+      "cycle_saving": 0.16025430195232326,
+      "extra_LUT": 129,
+      "extra_FF": 21,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.1850911163697837,
+      "boundary_timing_times_cycles_ratio": 1.2518012643283614,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "prog",
+      "baseline": "fixed3",
+      "cycle_saving": -0.17889084352591889,
+      "extra_LUT": 4,
+      "extra_FF": -42,
+      "extra_DSP": 0,
+      "internal_timing_times_cycles_ratio": 1.2603861385802675,
+      "boundary_timing_times_cycles_ratio": 1.514902658929033,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "prog",
+      "baseline": "lut3",
+      "cycle_saving": -0.17889084352591889,
+      "extra_LUT": 34,
+      "extra_FF": 23,
+      "extra_DSP": 1,
+      "internal_timing_times_cycles_ratio": 1.651324767172162,
+      "boundary_timing_times_cycles_ratio": 1.5777502971808468,
+      "note": "OOC timing-times-cycle diagnostics, not measured FPGA latency or certified operating clocks. Programmable hardware uses the delta25 model schedule."
+    }
+  ],
+  "dominance": [
+    {
+      "variant": "offset",
+      "coefficient": "const",
+      "lut3_dominates_all_reported_resource_cycle_setup_metrics": true,
+      "note": "Hold and external physical implementation remain unresolved; these are resource, schedule and setup diagnostics."
+    },
+    {
+      "variant": "offset",
+      "coefficient": "prog",
+      "lut3_dominates_all_reported_resource_cycle_setup_metrics": true,
+      "note": "Hold and external physical implementation remain unresolved; these are resource, schedule and setup diagnostics."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "const",
+      "lut3_dominates_all_reported_resource_cycle_setup_metrics": true,
+      "note": "Hold and external physical implementation remain unresolved; these are resource, schedule and setup diagnostics."
+    },
+    {
+      "variant": "centered",
+      "coefficient": "prog",
+      "lut3_dominates_all_reported_resource_cycle_setup_metrics": true,
+      "note": "Hold and external physical implementation remain unresolved; these are resource, schedule and setup diagnostics."
+    }
+  ],
+  "schedule_audit": {
+    "model_frames": 9216,
+    "model_neurons": 635904,
+    "model_nonzero_membranes": 568948,
+    "model_changed_membranes": 299884,
+    "rows": [
+      {
+        "variant": "offset",
+        "engine": 0,
+        "requests": 245975,
+        "measured_continuous_clocks": 245978,
+        "frame_drained_clock_proxy": 273623,
+        "nonzero_products_per_arithmetic_issue": 2.384306560166288,
+        "changed_membranes_per_arithmetic_issue": 1.2567324052266764,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 80703,
+            "continuous_clock_proxy": 80706,
+            "frame_drained_clock_proxy": 89919,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 84579,
+            "continuous_clock_proxy": 84582,
+            "frame_drained_clock_proxy": 93795,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 80693,
+            "continuous_clock_proxy": 80696,
+            "frame_drained_clock_proxy": 89909,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "offset",
+        "engine": 1,
+        "requests": 304045,
+        "measured_continuous_clocks": 304048,
+        "frame_drained_clock_proxy": 331693,
+        "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+        "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 101204,
+            "continuous_clock_proxy": 101207,
+            "frame_drained_clock_proxy": 110420,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 100245,
+            "continuous_clock_proxy": 100248,
+            "frame_drained_clock_proxy": 109461,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 102596,
+            "continuous_clock_proxy": 102599,
+            "frame_drained_clock_proxy": 111812,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "offset",
+        "engine": 2,
+        "requests": 304045,
+        "measured_continuous_clocks": 304048,
+        "frame_drained_clock_proxy": 331693,
+        "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+        "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 101204,
+            "continuous_clock_proxy": 101207,
+            "frame_drained_clock_proxy": 110420,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 100245,
+            "continuous_clock_proxy": 100248,
+            "frame_drained_clock_proxy": 109461,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 102596,
+            "continuous_clock_proxy": 102599,
+            "frame_drained_clock_proxy": 111812,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "offset",
+        "engine": 3,
+        "requests": 216576,
+        "measured_continuous_clocks": 216579,
+        "frame_drained_clock_proxy": 244224,
+        "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+        "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "offset",
+        "engine": 4,
+        "requests": 216576,
+        "measured_continuous_clocks": 216579,
+        "frame_drained_clock_proxy": 244224,
+        "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+        "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "offset",
+        "engine": 6,
+        "requests": 255558,
+        "measured_continuous_clocks": 255561,
+        "frame_drained_clock_proxy": 283206,
+        "nonzero_products_per_arithmetic_issue": 2.291890237024863,
+        "changed_membranes_per_arithmetic_issue": 1.2080211404908074,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 83008,
+            "continuous_clock_proxy": 83011,
+            "frame_drained_clock_proxy": 92224,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 87611,
+            "continuous_clock_proxy": 87614,
+            "frame_drained_clock_proxy": 96827,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 84939,
+            "continuous_clock_proxy": 84942,
+            "frame_drained_clock_proxy": 94155,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "centered",
+        "engine": 0,
+        "requests": 255320,
+        "measured_continuous_clocks": 255323,
+        "frame_drained_clock_proxy": 282968,
+        "nonzero_products_per_arithmetic_issue": 2.294006410902566,
+        "changed_membranes_per_arithmetic_issue": 1.2091365441606354,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 82978,
+            "continuous_clock_proxy": 82981,
+            "frame_drained_clock_proxy": 92194,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 87475,
+            "continuous_clock_proxy": 87478,
+            "frame_drained_clock_proxy": 96691,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 84867,
+            "continuous_clock_proxy": 84870,
+            "frame_drained_clock_proxy": 94083,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "centered",
+        "engine": 1,
+        "requests": 304045,
+        "measured_continuous_clocks": 304048,
+        "frame_drained_clock_proxy": 331693,
+        "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+        "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 101204,
+            "continuous_clock_proxy": 101207,
+            "frame_drained_clock_proxy": 110420,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 100245,
+            "continuous_clock_proxy": 100248,
+            "frame_drained_clock_proxy": 109461,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 102596,
+            "continuous_clock_proxy": 102599,
+            "frame_drained_clock_proxy": 111812,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "centered",
+        "engine": 2,
+        "requests": 304045,
+        "measured_continuous_clocks": 304048,
+        "frame_drained_clock_proxy": 331693,
+        "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+        "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 101204,
+            "continuous_clock_proxy": 101207,
+            "frame_drained_clock_proxy": 110420,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 100245,
+            "continuous_clock_proxy": 100248,
+            "frame_drained_clock_proxy": 109461,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 102596,
+            "continuous_clock_proxy": 102599,
+            "frame_drained_clock_proxy": 111812,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "centered",
+        "engine": 3,
+        "requests": 216576,
+        "measured_continuous_clocks": 216579,
+        "frame_drained_clock_proxy": 244224,
+        "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+        "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "centered",
+        "engine": 4,
+        "requests": 216576,
+        "measured_continuous_clocks": 216579,
+        "frame_drained_clock_proxy": 244224,
+        "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+        "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 72192,
+            "continuous_clock_proxy": 72195,
+            "frame_drained_clock_proxy": 81408,
+            "frames": 3072
+          }
+        ]
+      },
+      {
+        "variant": "centered",
+        "engine": 6,
+        "requests": 255558,
+        "measured_continuous_clocks": 255561,
+        "frame_drained_clock_proxy": 283206,
+        "nonzero_products_per_arithmetic_issue": 2.291890237024863,
+        "changed_membranes_per_arithmetic_issue": 1.2080211404908074,
+        "seeds": [
+          {
+            "seed": 0,
+            "requests": 83008,
+            "continuous_clock_proxy": 83011,
+            "frame_drained_clock_proxy": 92224,
+            "frames": 3072
+          },
+          {
+            "seed": 1,
+            "requests": 87611,
+            "continuous_clock_proxy": 87614,
+            "frame_drained_clock_proxy": 96827,
+            "frames": 3072
+          },
+          {
+            "seed": 2,
+            "requests": 84939,
+            "continuous_clock_proxy": 84942,
+            "frame_drained_clock_proxy": 94155,
+            "frames": 3072
+          }
+        ]
+      }
+    ],
+    "stress": [
+      {
+        "variant": "offset",
+        "engine": 0,
+        "hard_reset": false,
+        "requests": 791,
+        "continuous_clock_proxy": 794,
+        "frame_drained_clock_proxy": 1751
+      },
+      {
+        "variant": "offset",
+        "engine": 0,
+        "hard_reset": true,
+        "requests": 791,
+        "continuous_clock_proxy": 794,
+        "frame_drained_clock_proxy": 1751
+      },
+      {
+        "variant": "offset",
+        "engine": 1,
+        "hard_reset": false,
+        "requests": 958,
+        "continuous_clock_proxy": 961,
+        "frame_drained_clock_proxy": 1918
+      },
+      {
+        "variant": "offset",
+        "engine": 1,
+        "hard_reset": true,
+        "requests": 910,
+        "continuous_clock_proxy": 913,
+        "frame_drained_clock_proxy": 1870
+      },
+      {
+        "variant": "offset",
+        "engine": 2,
+        "hard_reset": false,
+        "requests": 958,
+        "continuous_clock_proxy": 961,
+        "frame_drained_clock_proxy": 1918
+      },
+      {
+        "variant": "offset",
+        "engine": 2,
+        "hard_reset": true,
+        "requests": 910,
+        "continuous_clock_proxy": 913,
+        "frame_drained_clock_proxy": 1870
+      },
+      {
+        "variant": "offset",
+        "engine": 3,
+        "hard_reset": false,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "offset",
+        "engine": 3,
+        "hard_reset": true,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "offset",
+        "engine": 4,
+        "hard_reset": false,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "offset",
+        "engine": 4,
+        "hard_reset": true,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "offset",
+        "engine": 6,
+        "hard_reset": false,
+        "requests": 925,
+        "continuous_clock_proxy": 928,
+        "frame_drained_clock_proxy": 1885
+      },
+      {
+        "variant": "offset",
+        "engine": 6,
+        "hard_reset": true,
+        "requests": 889,
+        "continuous_clock_proxy": 892,
+        "frame_drained_clock_proxy": 1849
+      },
+      {
+        "variant": "centered",
+        "engine": 0,
+        "hard_reset": false,
+        "requests": 802,
+        "continuous_clock_proxy": 805,
+        "frame_drained_clock_proxy": 1762
+      },
+      {
+        "variant": "centered",
+        "engine": 0,
+        "hard_reset": true,
+        "requests": 795,
+        "continuous_clock_proxy": 798,
+        "frame_drained_clock_proxy": 1755
+      },
+      {
+        "variant": "centered",
+        "engine": 1,
+        "hard_reset": false,
+        "requests": 958,
+        "continuous_clock_proxy": 961,
+        "frame_drained_clock_proxy": 1918
+      },
+      {
+        "variant": "centered",
+        "engine": 1,
+        "hard_reset": true,
+        "requests": 910,
+        "continuous_clock_proxy": 913,
+        "frame_drained_clock_proxy": 1870
+      },
+      {
+        "variant": "centered",
+        "engine": 2,
+        "hard_reset": false,
+        "requests": 958,
+        "continuous_clock_proxy": 961,
+        "frame_drained_clock_proxy": 1918
+      },
+      {
+        "variant": "centered",
+        "engine": 2,
+        "hard_reset": true,
+        "requests": 910,
+        "continuous_clock_proxy": 913,
+        "frame_drained_clock_proxy": 1870
+      },
+      {
+        "variant": "centered",
+        "engine": 3,
+        "hard_reset": false,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "centered",
+        "engine": 3,
+        "hard_reset": true,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "centered",
+        "engine": 4,
+        "hard_reset": false,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "centered",
+        "engine": 4,
+        "hard_reset": true,
+        "requests": 640,
+        "continuous_clock_proxy": 643,
+        "frame_drained_clock_proxy": 1600
+      },
+      {
+        "variant": "centered",
+        "engine": 6,
+        "hard_reset": false,
+        "requests": 925,
+        "continuous_clock_proxy": 928,
+        "frame_drained_clock_proxy": 1885
+      },
+      {
+        "variant": "centered",
+        "engine": 6,
+        "hard_reset": true,
+        "requests": 889,
+        "continuous_clock_proxy": 892,
+        "frame_drained_clock_proxy": 1849
+      }
+    ],
+    "identity_aware_fixed2_requests": 289624,
+    "identity_aware_fixed2_continuous_clock_proxy": 289627,
+    "notes": [
+      "Frame-drained proxies add three clocks per neuron-array frame; no RTL frame barrier or synaptic/threshold schedule was built",
+      "The no-change interval for delta25 is U in[0,10]; an identity-aware two-lane schedule can return three copies for such windows. Its extra monitor is not implemented or routed",
+      "Nonzero products and changed updates are two declared usefulness measures, not DSP power estimates",
+      "Raw three-value windows require state ports/lookahead handling outside the measured core. No memory controller, pointer update or bank rotation is included",
+      "At most two state reads/writes per clock caps sustained updates at two neurons per clock for all cores; three-lane issue savings need sufficient bandwidth"
+    ]
+  },
+  "centered_arithmetic_screen": {
+    "arithmetic_cases": 165536,
+    "arithmetic_failures": 0,
+    "model_original_requests": 245975,
+    "model_centered_requests": 255320,
+    "stress": {
+      "original_requests": 1582,
+      "centered_requests": 1597
+    },
+    "note": "Arithmetic and schedule screen only. A single centered-bin equality replaces absolute-int5 OR uncentered-bin equality; eligibility sets differ."
+  },
+  "limitations": [
+    "Leakage unit only. Current integration, threshold/reset and classification are reconstructed in Python",
+    "Raw three-neuron ordered windows and up to three output values per clock; no state RAM, bank rotation, pointer update or lookahead cache is routed",
+    "Shared delta0..31 per request, int11 membrane range. Per-neuron coefficient regrouping and larger coefficients are not implemented",
+    "Input/output delays are applied after routing (1ns max,0.1ns min). OOC primary-port segments/clock-source assumptions are estimates; all boundary audits have negative hold slack",
+    "Four-stage registered-input refinement and a complete state-memory wrapper were not built. No interface/board timing closure or power/energy measurement",
+    "Beta231 changes the saved models. Equality is against the beta231 scalar reference, not against their original beta or retrained accuracy",
+    "Replay covers first48 held-out images per saved seed; no full360-image streaming RTL run",
+    "Frame-drain, identity-aware skipping and memory-bandwidth comparisons are analytic schedule screens, not extra routed implementations",
+    "No FireFly implementation was reproduced. No claim of first-ever novelty or beating its accelerator results"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "software_exhaustive_pass_prepared_uncompiled_unrouted",
+  "arithmetic_cases": 16842752,
+  "mismatches": 0,
+  "E2_arithmetic_byte_identical": true,
+  "B": 16,
+  "fixture_FF": 94,
+  "launch_FF": 55,
+  "capture_FF": 39,
+  "engine": 7,
+  "expected_DSP": 0,
+  "native_engine_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_lutceil_variant.py": "5da738f73fc49f56814f715972e0b96b246fcb04f3bb35377ad1804404b24341",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\leak_core16.sv": "0b3fa7efe359916898202542be2efda84dbc6330583c885932f687b69028fe20",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\timing16.sv": "89198b1eaa6889cc19014fd28aa2d88ac25664d8bdb50ad436a3194eeb4b5be1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route16.tcl": "ec63d6422489b4fe9c83c69a2bb7d25dc10a3ea0a9f6d1777cff7670b7c29caa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\tb_native16.sv": "1d0e6fee02d8ac452c55874a804ec7edd21471d092101d46758b4741ce808912",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_native16.py": "1dec135cabfb1afd7764cf02975c246d6c79bee1e479ed3fdc72f3f25e227df6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance.json": "54c091d8ca668e0d9cf3f8b233f635fb6d54900d34a1a200fd36fd91bf03c322",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\preparation_v2.json": "becfde4b992cb54076d4e8468bdda7d9fc1ea37b59906bbec5a984fa9d8e8422",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\plan.json": "7761addda668637369f187d279d008d8ab380d1e79a7b538bab54498f9597e4c"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\leak_core16_lutceil.sv": "f2d081ce7ace1f0e40f9d314f7b9d5d8655d114a4c92e4a9655e988c060fce1b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\timing16_lutceil.sv": "b380a42d15db7d6535681c8c69a09bd49e08958853f99866f65dd25318c22ddb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\route16_lutceil.tcl": "7a31f0ba88cff9c9d62d09704ce118aee9256d2cbfbecc115a0954946c946f27",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\tb_native16_lutceil.sv": "6261d92b0158c0682937bef3cfba74251626e6befcb77880b60c9f7e002f369a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_native16_lutceil.py": "b096a1807652c60f837abeab47f2d324b17a23c0b64923ebb0b5d53ef5634c03"
+  },
+  "elapsed_seconds": 0.6720000000004802,
+  "compile_options": {
+    "native": "run_native16_lutceil.py --cohort general|shift128|actual128 --stall0|1 --capture0|1 --attempt NAME",
+    "route": "vivado -source route16_lutceil.tcl -tclargs top_sequential_leak16_lutceil_e7 6.0|9.0|12.0 HASH fresh ATTEMPT_DIR"
+  },
+  "timing_discrepancy_relation": "Quotient rounding changes final carry topology and may avoid the suspect25bit rounder; must still pass the same strict SDF audit. No timing model root cause inferred from a future E7 pass.",
+  "exclusions": "No native, routed, timing orpower success yet. Optimized LUT is a required stronger control if it passes."
+}

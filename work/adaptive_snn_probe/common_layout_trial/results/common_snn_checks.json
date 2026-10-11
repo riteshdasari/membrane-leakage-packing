@@ -1,0 +1,261 @@
+{
+  "source_hashes": {
+    "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+    "tb_guard_add_common.sv": "60fae68dd5e8c104ec70472d2ba6e8b894afcccd2371558ca69a4dc8f7189138",
+    "check_guard_add_common.py": "0489d08765f37f56664a415d7fbc3ee779a1156dcf12e08b49e7273d169278b7",
+    "check_guard_add_common_snn.py": "58acceea544554854b584568dcc820752ef42e50a81480961731b4f98caa89f3",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+  },
+  "reconstruction_script_sha256": "58acceea544554854b584568dcc820752ef42e50a81480961731b4f98caa89f3",
+  "functional_check_sha256": {
+    "common_models_0_checks.json": "661c89212c1618c0a89b8ffd7c646e9c424a465fe76456ef8ab220b5079e9124",
+    "common_models_1_checks.json": "cc847a609fba0894650f295fe262d4c2abc9b90e546974cf11c1bb33a1277160"
+  },
+  "reference_hashes": {
+    "ledger": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3",
+    "raw_membranes": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+  },
+  "output_hashes": {
+    "results\\common_models_0\\stream_out0.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\common_models_0\\stream_out1.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\common_models_0\\stream_out2.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\common_models_0\\stream_out3.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "results\\common_models_1\\stream_out0.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\common_models_1\\stream_out1.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\common_models_1\\stream_out2.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+    "results\\common_models_1\\stream_out3.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+  },
+  "rows": [
+    {
+      "variant": 0,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 1,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 2,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 3,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 0,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 1,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 2,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 3,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ],
+  "tested_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "scope": "Python leakage, exact RTL U+I common-layout/reference baseline outputs, Python threshold/subtractive-reset replay",
+  "limitations": [
+    "Saved beta231 reference; original trained leakage was changed.",
+    "144 sampled images across three saved seeds; no new training or downloads.",
+    "Fixed common-layout correction only; no memory supply, power, host or board result.",
+    "No full SNN RTL or preservation claim for original trained-model accuracy."
+  ]
+}

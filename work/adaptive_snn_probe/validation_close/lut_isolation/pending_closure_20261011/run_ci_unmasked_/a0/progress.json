@@ -1,0 +1,19 @@
+{
+  "stage": 4,
+  "argv": [
+    "C:/AMDDesignTools/2025.2/Vivado/bin/xsim.bat",
+    "sim",
+    "-testplusarg",
+    "TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/native_actual_s0_a3/trace2.txt",
+    "-testplusarg",
+    "ROWS=17413",
+    "-testplusarg",
+    "ROI_FIRST=3",
+    "-testplusarg",
+    "ROI_LAST=17413",
+    "-tclbatch",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_ci_unmasked_/a0/run.tcl"
+  ],
+  "o0": false,
+  "diagnostic_only": true
+}

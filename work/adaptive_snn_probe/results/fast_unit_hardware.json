@@ -1,0 +1,26 @@
+[
+  {
+    "top": "top_fast_adaptive10_s3",
+    "LUT": 566,
+    "FF": 37,
+    "DSP": 1,
+    "WNS_ns": -5.888,
+    "seconds": 118.0,
+    "target_ns": 4,
+    "rtl_sha256": "fface042fc6d0e693c1bb5ca88df3cd5d08a04cd41c9543b4d0485e576d7d911",
+    "WHS_ns": 0.231,
+    "critical_period_estimate_ns": 9.888
+  },
+  {
+    "top": "top_fast_lut10_s3",
+    "LUT": 261,
+    "FF": 68,
+    "DSP": 0,
+    "WNS_ns": -0.118,
+    "seconds": 88.8,
+    "target_ns": 4,
+    "rtl_sha256": "fface042fc6d0e693c1bb5ca88df3cd5d08a04cd41c9543b4d0485e576d7d911",
+    "WHS_ns": 0.434,
+    "critical_period_estimate_ns": 4.118
+  }
+]

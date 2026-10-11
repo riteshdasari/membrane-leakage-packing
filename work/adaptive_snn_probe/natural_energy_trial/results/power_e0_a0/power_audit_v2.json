@@ -1,0 +1,170 @@
+{
+  "status": "pass",
+  "engine": 0,
+  "design_top": "top_natural_u11_e0",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\results\\power_e0_a0",
+  "auditor_sha256": "408464028399674122228e9d591628adc8febbfe4ab409420e2c4cfa16c82bdd",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 781,
+  "physical_activity_source_counts": {
+    "S": 1466,
+    "C": 4,
+    "D": 6
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 1114,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 0,
+    "design_top": "top_natural_u11_e0",
+    "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\results\\replay_e0_a0",
+    "auditor_sha256": "408464028399674122228e9d591628adc8febbfe4ab409420e2c4cfa16c82bdd",
+    "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+    "replay_check_sha256": "34afc6a9f8d9a3c5081eeaeb2261323c12409e9273e59f71a891f282bf19477a",
+    "duration_ps": 552996000,
+    "scalar_updates": 635904,
+    "requests": 82948,
+    "retirements": 82948,
+    "clock_transitions": 184332,
+    "service_clocks": 92164,
+    "raw_unknown_time_records": 1114,
+    "scope": "Exact trace/interval/SDF/SAIF checks; raw internal unknowns need separate physical-net audit"
+  },
+  "critical_dsp_activity": {
+    "fixture/core/residue8.d/d": {
+      "CLK": {
+        "fixture/core/residue8.d/clk": {
+          "static_probability": 0.5,
+          "signal_rate_Mtransitions_per_s": 333.333,
+          "toggle_rate_percent": 200.0,
+          "source": "C"
+        }
+      },
+      "CEA2": {
+        "fixture/core/residue8.d/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEB2": {
+        "fixture/core/residue8.d/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEC": {
+        "fixture/core/residue8.d/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEP": {
+        "fixture/core/residue8.d/issue": {
+          "static_probability": 0.893964,
+          "signal_rate_Mtransitions_per_s": 45.9895,
+          "toggle_rate_percent": 21.2072,
+          "source": "S"
+        }
+      }
+    }
+  },
+  "settled_constant_ffs": {},
+  "dynamic_power_W": 0.013081,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8065414999999995e-06,
+  "dynamic_energy_J": 7.233740676e-06,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 11.375523154438406,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.002440629754387454,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.013081",
+      "iccq": "0.014842",
+      "power": "0.027923"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.558340"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 6,
+  "fixture_FF": 290,
+  "power_xpe_sha256": "3f42fc6fdba9c979e1fd3d5cbe5a50cce94208f24e5d5c2273cddf757bcea5e8",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\route_e0_a0\\hardware.json",
+  "routed_hardware_sha256": "4ec0de51f549b40c959652b1979c10b6d3a699fdb6dd8a8194f8ebb161c4ec6e",
+  "core_resources": {
+    "LUT": 130,
+    "FF": 52,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 47,
+    "occupied_slices_reported": 47
+  },
+  "WNS_ns": 2.059,
+  "WHS_ns": 0.116,
+  "scope": "Vendor estimated dynamic energy of complete common 290-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error"
+}

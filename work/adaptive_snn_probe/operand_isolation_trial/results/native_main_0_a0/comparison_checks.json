@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "kind": "main",
+  "backpressure": false,
+  "policy": 1,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\baseline_retime_trial\\guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+  },
+  "archived_check_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\selective_main_p1_0_checks.json",
+  "archived_check_sha256": "9aa53bd5cb31ba903e468cafbfb63e59c54875e2b91cbef74a89d34e5eeb510f",
+  "archived_retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\selective_main_p1_0\\stream_out1.txt",
+  "archived_retirement_sha256": "2e8f12decffa517db48676ed72c02b7af0995a925e00a3f77fb79f01ad446690",
+  "stimulus_sha256": "f3c252056f011b7eda58e5bbeda942844a3afebd8a4db00af19188783adfe0cd",
+  "candidate_file_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_main_0_a0\\stream_stim.txt": "f3c252056f011b7eda58e5bbeda942844a3afebd8a4db00af19188783adfe0cd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_main_0_a0\\stream_out1.txt": "2e8f12decffa517db48676ed72c02b7af0995a925e00a3f77fb79f01ad446690",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_main_0_a0\\isolated_stream_out1.txt": "2e8f12decffa517db48676ed72c02b7af0995a925e00a3f77fb79f01ad446690"
+  },
+  "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\operand_isolation_trial\\results\\native_main_0_a0\\tool_3.log",
+  "log_sha256": "ff10648e65e7b4d846775a6c1deca0603f574135ee85d4a772db109d78a65028",
+  "arithmetic": {
+    "requests": 136591,
+    "neurons": 811511,
+    "frames": 128148,
+    "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f",
+    "physical_latency_histogram": {
+      "4": 120713,
+      "5": 4436,
+      "6": 4609,
+      "7": 3368,
+      "8": 1320,
+      "9": 934,
+      "10": 617,
+      "11": 340,
+      "12": 165,
+      "13": 62,
+      "14": 22,
+      "15": 4,
+      "16": 1
+    }
+  },
+  "physical_service": {
+    "policy": 1,
+    "stall": 0,
+    "requests": 136591,
+    "retirements": 136591,
+    "neurons": 811511,
+    "clocks": 151229,
+    "correction_steps": 39324,
+    "correction_freezes": 14102,
+    "pin_checks": 302552,
+    "prelude_samples": 45,
+    "reset_samples": 25,
+    "trace_rows": 151275
+  },
+  "trace": null,
+  "matched_archived_retirement_bytes": true,
+  "matched_reference_retirement_bytes": true,
+  "output_controls_and_internal_service_cycle_identical": true,
+  "reset_and_backpressure_preludes_checked": true,
+  "scope": "Exact signed11 U plus signed8 I; six fixed lanes; measurement of RTL cycle equivalence only, no timing/power/energy claim."
+}

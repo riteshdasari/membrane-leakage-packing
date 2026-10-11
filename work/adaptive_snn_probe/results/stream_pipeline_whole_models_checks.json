@@ -1,0 +1,269 @@
+{
+  "source_hashes": {
+    "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+    "tb_stream_pipeline_whole_leak.sv": "9f5df5caf9da196ba98f6fa4e5a0ee6d114d469614f5f35be3b032bae1cf4720",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f",
+    "check_stream_pipeline_whole.py": "6e0509c377bc16e699cec8ff6f5b00b7031ea818b7d41dffe7a5842bfabb4dc5"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 9216,
+  "tested_engines": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stimulus_sha256": "f53494d7f47b8e3990eaa6219760a006a93e799bf2e7eb2b29a349e883fe567b",
+  "matched_original_stimulus": true,
+  "centered_wide": false,
+  "wide_residual_encoding": "unsigned",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "identity_policy": "regular metadata; no third wide lane from identity alone",
+  "real_neurons": 635904,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 223472,
+      "neurons": 635904,
+      "arithmetic_issues": 216278,
+      "narrow_requests": 190377,
+      "bypass_requests": 7194,
+      "clocks": 223476,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 1,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304049,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 2,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304049,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 3,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 4,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 5,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 6,
+      "requests": 234697,
+      "neurons": 635904,
+      "arithmetic_issues": 227390,
+      "narrow_requests": 165423,
+      "bypass_requests": 7307,
+      "clocks": 234701,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ]
+}

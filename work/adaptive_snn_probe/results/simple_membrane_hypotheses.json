@@ -1,0 +1,3197 @@
+{
+  "note": "Pre-RTL mechanism screen: persistent packing oracle and exact hard-reset retirement.\nNo new data, training, downloads, area estimates or FireFly reproduction.\n",
+  "widths": [
+    6,
+    8,
+    12,
+    16
+  ],
+  "audit": {
+    "random_certificate_lane_checks": 204000,
+    "certified_lane_checks": 27529,
+    "failures": 0,
+    "inhibitory_counterexample": {
+      "partial": 12,
+      "threshold": 10,
+      "remaining": -5,
+      "final": 7
+    },
+    "soft_reset_counterexample": {
+      "partial": 12,
+      "threshold": 10,
+      "remaining": 5,
+      "correct_residual": 7,
+      "discarded_residual": 2
+    }
+  },
+  "models": [
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9611111111111111,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 1905805,
+            "trace_fixed_group_compute": 2530902,
+            "cert_fixed_group_compute": 2530902,
+            "fixed8_current_compute": 2530902,
+            "oracle_group_state_bits": 9007008,
+            "trace_fixed_group_state_bits": 11796480,
+            "cert_fixed_group_state_bits": 11796480,
+            "certified_group_compute": 2530902,
+            "certified_group_state_bits": 11934720,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11797376,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 4253,
+            "certified_format_changes": 0,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 1910058,
+            "trace_width_hist": [
+              63,
+              65,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              12,
+              116,
+              0,
+              0
+            ],
+            "oracle_width_hist": [
+              1467942,
+              6618,
+              0,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 559016,
+            "trace_fixed_group_compute": 559016,
+            "cert_fixed_group_compute": 838524,
+            "fixed8_current_compute": 559016,
+            "oracle_group_state_bits": 940280,
+            "trace_fixed_group_state_bits": 921600,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 588137,
+            "certified_group_state_bits": 991600,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 998688,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 177,
+            "certified_format_changes": 642,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 559193,
+            "trace_width_hist": [
+              0,
+              10,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              62711,
+              52489,
+              0,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9583333333333334,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 1845423,
+            "trace_fixed_group_compute": 2415861,
+            "cert_fixed_group_compute": 2530902,
+            "fixed8_current_compute": 2530902,
+            "oracle_group_state_bits": 8991696,
+            "trace_fixed_group_state_bits": 11612160,
+            "cert_fixed_group_state_bits": 11796480,
+            "certified_group_compute": 2530902,
+            "certified_group_state_bits": 11934720,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11796738,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 436,
+            "certified_format_changes": 0,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 1845859,
+            "trace_width_hist": [
+              112,
+              16,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              26,
+              102,
+              0,
+              0
+            ],
+            "oracle_width_hist": [
+              1474063,
+              497,
+              0,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27424883,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530890,
+                "checks_group": 8110040,
+                "early_neurons": 448961,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.04501373514637452,
+                "whole_group_pair_saving": 4.741392594431737e-06,
+                "speed_with_one_check_cycle": 0.23784594015748622
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 26507409,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530842,
+                "checks_group": 8109807,
+                "early_neurons": 490443,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.07696191404508901,
+                "whole_group_pair_saving": 2.3706962972047663e-05,
+                "speed_with_one_check_cycle": 0.2378522212319944
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27733695,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530896,
+                "checks_group": 2027520,
+                "early_neurons": 277065,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.03426031758678172,
+                "whole_group_pair_saving": 2.3706962971603573e-06,
+                "speed_with_one_check_cycle": 0.555215232659766
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 26836800,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530871,
+                "checks_group": 2027507,
+                "early_neurons": 366856,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.06549189680686052,
+                "whole_group_pair_saving": 1.2248597535569061e-05,
+                "speed_with_one_check_cycle": 0.5552198610997158
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 28202721,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530902,
+                "checks_group": 1013760,
+                "early_neurons": 103808,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.01792794570905165,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7140037611484537
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27369430,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530897,
+                "checks_group": 1013760,
+                "early_neurons": 234920,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.04694471342420081,
+                "whole_group_pair_saving": 1.9755802477261497e-06,
+                "speed_with_one_check_cycle": 0.714004768303393
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 503956,
+            "trace_fixed_group_compute": 503956,
+            "cert_fixed_group_compute": 755934,
+            "fixed8_current_compute": 503956,
+            "oracle_group_state_bits": 939400,
+            "trace_fixed_group_state_bits": 921600,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 521102,
+            "certified_group_state_bits": 975360,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 989478,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 185,
+            "certified_format_changes": 509,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 504141,
+            "trace_width_hist": [
+              0,
+              10,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              68115,
+              47085,
+              0,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 4981740,
+                "remaining_lane_events": 4967566,
+                "baseline_group_pairs": 503956,
+                "remaining_group_pairs": 503956,
+                "checks_group": 1474560,
+                "early_neurons": 4565,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.002845190636203365,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2547141392841908
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 4981740,
+                "remaining_lane_events": 4945887,
+                "baseline_group_pairs": 503956,
+                "remaining_group_pairs": 503956,
+                "checks_group": 1474560,
+                "early_neurons": 4600,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0071968830167772335,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2547141392841908
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 4981740,
+                "remaining_lane_events": 4972194,
+                "baseline_group_pairs": 503956,
+                "remaining_group_pairs": 503956,
+                "checks_group": 368640,
+                "early_neurons": 2689,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0019161979549313646,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.5775364544416889
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 4981740,
+                "remaining_lane_events": 4950068,
+                "baseline_group_pairs": 503956,
+                "remaining_group_pairs": 503956,
+                "checks_group": 368640,
+                "early_neurons": 3895,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.006357618021012756,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.5775364544416889
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 4981740,
+                "remaining_lane_events": 4978398,
+                "baseline_group_pairs": 503956,
+                "remaining_group_pairs": 503956,
+                "checks_group": 184320,
+                "early_neurons": 632,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0006708499439954663,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7322004544688469
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 4981740,
+                "remaining_lane_events": 4956524,
+                "baseline_group_pairs": 503956,
+                "remaining_group_pairs": 503956,
+                "checks_group": 184320,
+                "early_neurons": 2719,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.005061685274622918,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7322004544688469
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9611111111111111,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2243257,
+            "trace_fixed_group_compute": 2991066,
+            "cert_fixed_group_compute": 3681312,
+            "fixed8_current_compute": 2530902,
+            "oracle_group_state_bits": 10426000,
+            "trace_fixed_group_state_bits": 14008320,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2535648,
+            "certified_group_state_bits": 11957952,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11901954,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 6824,
+            "certified_format_changes": 54,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2250081,
+            "trace_width_hist": [
+              10,
+              116,
+              2,
+              0
+            ],
+            "cert_width_hist": [
+              5,
+              28,
+              95,
+              0
+            ],
+            "oracle_width_hist": [
+              1396737,
+              77814,
+              9,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 524209,
+            "trace_fixed_group_compute": 587526,
+            "cert_fixed_group_compute": 587526,
+            "fixed8_current_compute": 391684,
+            "oracle_group_state_bits": 1223840,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 570695,
+            "certified_group_state_bits": 1351920,
+            "fixed8_current_seeds": 22996,
+            "ideal_wide_merge_work": 45992,
+            "oracle_per_neuron_state_bits": 1113170,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 872,
+            "certified_format_changes": 368,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 525081,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              37595,
+              64511,
+              13094,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9305555555555556,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2220634,
+            "trace_fixed_group_compute": 2760984,
+            "cert_fixed_group_compute": 3681312,
+            "fixed8_current_compute": 2530902,
+            "oracle_group_state_bits": 10401216,
+            "trace_fixed_group_state_bits": 12902400,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2535298,
+            "certified_group_state_bits": 11956224,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11898230,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 8841,
+            "certified_format_changes": 53,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2229475,
+            "trace_width_hist": [
+              11,
+              116,
+              1,
+              0
+            ],
+            "cert_width_hist": [
+              5,
+              37,
+              86,
+              0
+            ],
+            "oracle_width_hist": [
+              1404778,
+              69774,
+              8,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27734666,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530902,
+                "checks_group": 8110079,
+                "early_neurons": 285111,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.03422650553138762,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.23784480021155943
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27052945,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530901,
+                "checks_group": 8110066,
+                "early_neurons": 309076,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.057965319347376476,
+                "whole_group_pair_saving": 3.9511604954522994e-07,
+                "speed_with_one_check_cycle": 0.2378451131368042
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27933583,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530902,
+                "checks_group": 2027520,
+                "early_neurons": 188595,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.027299839596444886,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.5552145018605122
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27261138,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530901,
+                "checks_group": 2027519,
+                "early_neurons": 238006,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.050715645558844,
+                "whole_group_pair_saving": 3.9511604954522994e-07,
+                "speed_with_one_check_cycle": 0.5552147454600498
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 28226471,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530902,
+                "checks_group": 1013760,
+                "early_neurons": 92933,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.01710092581655942,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7140037611484537
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27594034,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530901,
+                "checks_group": 1013760,
+                "early_neurons": 167489,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.03912357759542873,
+                "whole_group_pair_saving": 3.9511604954522994e-07,
+                "speed_with_one_check_cycle": 0.7140039625792142
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 376050,
+            "trace_fixed_group_compute": 479265,
+            "cert_fixed_group_compute": 479265,
+            "fixed8_current_compute": 319510,
+            "oracle_group_state_bits": 1074980,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 460896,
+            "certified_group_state_bits": 1341520,
+            "fixed8_current_seeds": 22996,
+            "ideal_wide_merge_work": 45992,
+            "oracle_per_neuron_state_bits": 1068222,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 822,
+            "certified_format_changes": 420,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 376872,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              45118,
+              65075,
+              5007,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 3137480,
+                "remaining_lane_events": 3135066,
+                "baseline_group_pairs": 319510,
+                "remaining_group_pairs": 319510,
+                "checks_group": 1471744,
+                "early_neurons": 1309,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.000769407295026614,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.17837224648207345
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3137480,
+                "remaining_lane_events": 3129732,
+                "baseline_group_pairs": 319510,
+                "remaining_group_pairs": 319510,
+                "checks_group": 1471744,
+                "early_neurons": 1325,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0024694978135318957,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.17837224648207345
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 3137480,
+                "remaining_lane_events": 3135994,
+                "baseline_group_pairs": 319510,
+                "remaining_group_pairs": 319510,
+                "checks_group": 367936,
+                "early_neurons": 699,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0004736285171539345,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.4647783244065716
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3137480,
+                "remaining_lane_events": 3130477,
+                "baseline_group_pairs": 319510,
+                "remaining_group_pairs": 319510,
+                "checks_group": 367936,
+                "early_neurons": 1148,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0022320461006922754,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.4647783244065716
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 3137480,
+                "remaining_lane_events": 3137096,
+                "baseline_group_pairs": 319510,
+                "remaining_group_pairs": 319510,
+                "checks_group": 183968,
+                "early_neurons": 123,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0001223912184300513,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6346056828699566
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3137480,
+                "remaining_lane_events": 3131580,
+                "baseline_group_pairs": 319510,
+                "remaining_group_pairs": 319510,
+                "checks_group": 183968,
+                "early_neurons": 845,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.001880490074837149,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6346056828699566
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9611111111111111,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 3012185,
+            "trace_fixed_group_compute": 3681312,
+            "cert_fixed_group_compute": 3681312,
+            "fixed8_current_compute": 2530902,
+            "oracle_group_state_bits": 14098864,
+            "trace_fixed_group_state_bits": 17694720,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 3180398,
+            "certified_group_state_bits": 15122560,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 12750144,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 4177,
+            "certified_format_changes": 2048,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 3016362,
+            "trace_width_hist": [
+              5,
+              5,
+              118,
+              0
+            ],
+            "cert_width_hist": [
+              5,
+              0,
+              123,
+              0
+            ],
+            "oracle_width_hist": [
+              1078622,
+              322066,
+              73872,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 1012798,
+            "trace_fixed_group_compute": 1046073,
+            "cert_fixed_group_compute": 1394764,
+            "fixed8_current_compute": 697382,
+            "oracle_group_state_bits": 1349400,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1843200,
+            "certified_group_compute": 1029837,
+            "certified_group_state_bits": 1377000,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1331912,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 537,
+            "certified_format_changes": 360,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 1013335,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              0,
+              10
+            ],
+            "oracle_width_hist": [
+              19748,
+              34298,
+              61154,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9694444444444444,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2701465,
+            "trace_fixed_group_compute": 3681312,
+            "cert_fixed_group_compute": 3681312,
+            "fixed8_current_compute": 2530902,
+            "oracle_group_state_bits": 12917712,
+            "trace_fixed_group_state_bits": 17694720,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2962178,
+            "certified_group_state_bits": 14046912,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 12235324,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 3670,
+            "certified_format_changes": 1685,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2705135,
+            "trace_width_hist": [
+              14,
+              27,
+              87,
+              0
+            ],
+            "cert_width_hist": [
+              5,
+              0,
+              123,
+              0
+            ],
+            "oracle_width_hist": [
+              1303209,
+              141222,
+              30129,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27001743,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530821,
+                "checks_group": 8109881,
+                "early_neurons": 514390,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.059748269769919204,
+                "whole_group_pair_saving": 3.200440001227545e-05,
+                "speed_with_one_check_cycle": 0.23785103651995892
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 25806374,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530657,
+                "checks_group": 8108991,
+                "early_neurons": 553659,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.10137327784859773,
+                "whole_group_pair_saving": 9.680343213602782e-05,
+                "speed_with_one_check_cycle": 0.23787459885890963
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27365363,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530868,
+                "checks_group": 2027520,
+                "early_neurons": 345523,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.04708633405168572,
+                "whole_group_pair_saving": 1.3433945684204751e-05,
+                "speed_with_one_check_cycle": 0.555218643081721
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 26185281,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530729,
+                "checks_group": 2027467,
+                "early_neurons": 435270,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.08817901989472088,
+                "whole_group_pair_saving": 6.835507656954842e-05,
+                "speed_with_one_check_cycle": 0.5552420299609758
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 27914033,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530902,
+                "checks_group": 1013760,
+                "early_neurons": 156651,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.02798060755005438,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7140037611484537
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28717568,
+                "remaining_lane_events": 26802273,
+                "baseline_group_pairs": 2530902,
+                "remaining_group_pairs": 2530853,
+                "checks_group": 1013760,
+                "early_neurons": 300011,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.06669419221014816,
+                "whole_group_pair_saving": 1.9360686427161156e-05,
+                "speed_with_one_check_cycle": 0.7140136313893788
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 816387,
+            "trace_fixed_group_compute": 849927,
+            "cert_fixed_group_compute": 1133236,
+            "fixed8_current_compute": 566618,
+            "oracle_group_state_bits": 1342880,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1843200,
+            "certified_group_compute": 834057,
+            "certified_group_state_bits": 1376320,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1302194,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 537,
+            "certified_format_changes": 360,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 816924,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              0,
+              10
+            ],
+            "oracle_width_hist": [
+              25183,
+              34635,
+              55382,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 5608430,
+                "remaining_lane_events": 5578146,
+                "baseline_group_pairs": 566618,
+                "remaining_group_pairs": 566618,
+                "checks_group": 1474560,
+                "early_neurons": 6098,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.005399728622805355,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2775936248578027
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5608430,
+                "remaining_lane_events": 5524889,
+                "baseline_group_pairs": 566618,
+                "remaining_group_pairs": 566618,
+                "checks_group": 1474560,
+                "early_neurons": 6138,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.014895612497615174,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2775936248578027
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 5608430,
+                "remaining_lane_events": 5585041,
+                "baseline_group_pairs": 566618,
+                "remaining_group_pairs": 566618,
+                "checks_group": 368640,
+                "early_neurons": 4363,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.004170329307845555,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6058413828056002
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5608430,
+                "remaining_lane_events": 5531300,
+                "baseline_group_pairs": 566618,
+                "remaining_group_pairs": 566618,
+                "checks_group": 368640,
+                "early_neurons": 5451,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.013752511843778015,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6058413828056002
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 5608430,
+                "remaining_lane_events": 5593691,
+                "baseline_group_pairs": 566618,
+                "remaining_group_pairs": 566618,
+                "checks_group": 184320,
+                "early_neurons": 2107,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.002628008194806797,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7545469799104586
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5608430,
+                "remaining_lane_events": 5540694,
+                "baseline_group_pairs": 566618,
+                "remaining_group_pairs": 566618,
+                "checks_group": 184320,
+                "early_neurons": 4438,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.012077533284716058,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7545469799104586
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9555555555555556,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 1889379,
+            "trace_fixed_group_compute": 2543002,
+            "cert_fixed_group_compute": 2543002,
+            "fixed8_current_compute": 2543002,
+            "oracle_group_state_bits": 9012816,
+            "trace_fixed_group_state_bits": 11796480,
+            "cert_fixed_group_state_bits": 11796480,
+            "certified_group_compute": 2543002,
+            "certified_group_state_bits": 11934720,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11797628,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 2685,
+            "certified_format_changes": 0,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 1892064,
+            "trace_width_hist": [
+              69,
+              59,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              15,
+              113,
+              0,
+              0
+            ],
+            "oracle_width_hist": [
+              1470554,
+              4006,
+              0,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 594510,
+            "trace_fixed_group_compute": 891672,
+            "cert_fixed_group_compute": 891672,
+            "fixed8_current_compute": 594448,
+            "oracle_group_state_bits": 941880,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 679947,
+            "certified_group_state_bits": 1071120,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1016810,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 110,
+            "certified_format_changes": 959,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 594620,
+            "trace_width_hist": [
+              0,
+              9,
+              1,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              54219,
+              60979,
+              2,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.95,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 1860745,
+            "trace_fixed_group_compute": 2311820,
+            "cert_fixed_group_compute": 2543002,
+            "fixed8_current_compute": 2543002,
+            "oracle_group_state_bits": 9009648,
+            "trace_fixed_group_state_bits": 11059200,
+            "cert_fixed_group_state_bits": 11796480,
+            "certified_group_compute": 2543002,
+            "certified_group_state_bits": 11934720,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11797490,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 612,
+            "certified_format_changes": 0,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 1861357,
+            "trace_width_hist": [
+              117,
+              11,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              25,
+              103,
+              0,
+              0
+            ],
+            "oracle_width_hist": [
+              1473488,
+              1072,
+              0,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 27559395,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542929,
+                "checks_group": 8109855,
+                "early_neurons": 464021,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.044808642827672496,
+                "whole_group_pair_saving": 2.8706229881048095e-05,
+                "speed_with_one_check_cycle": 0.23871712784188623
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 26473718,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542620,
+                "checks_group": 8108386,
+                "early_neurons": 520404,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.08243752717294861,
+                "whole_group_pair_saving": 0.00015021616184340836,
+                "speed_with_one_check_cycle": 0.23875697750991784
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 27874518,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542992,
+                "checks_group": 2027519,
+                "early_neurons": 277744,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.033886677158752154,
+                "whole_group_pair_saving": 3.932360257641321e-06,
+                "speed_with_one_check_cycle": 0.556393366080948
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 26831060,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542817,
+                "checks_group": 2027452,
+                "early_neurons": 395907,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.07005227742582343,
+                "whole_group_pair_saving": 7.274866476703057e-05,
+                "speed_with_one_check_cycle": 0.5564228276278704
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 28321137,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2543000,
+                "checks_group": 1013760,
+                "early_neurons": 108462,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.018407142548179323,
+                "whole_group_pair_saving": 7.864720514838552e-07,
+                "speed_with_one_check_cycle": 0.7149771140026316
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 27366236,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542924,
+                "checks_group": 1013760,
+                "early_neurons": 265797,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.051503412700525275,
+                "whole_group_pair_saving": 3.0672410009868756e-05,
+                "speed_with_one_check_cycle": 0.7149923917896558
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 533688,
+            "trace_fixed_group_compute": 533688,
+            "cert_fixed_group_compute": 800532,
+            "fixed8_current_compute": 533688,
+            "oracle_group_state_bits": 941740,
+            "trace_fixed_group_state_bits": 921600,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 594939,
+            "certified_group_state_bits": 1044680,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1007328,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 108,
+            "certified_format_changes": 994,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 533796,
+            "trace_width_hist": [
+              0,
+              10,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              58930,
+              56270,
+              0,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 5280040,
+                "remaining_lane_events": 5264256,
+                "baseline_group_pairs": 533688,
+                "remaining_group_pairs": 533688,
+                "checks_group": 1474560,
+                "early_neurons": 4024,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0029893712926417626,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.265748055021093
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5280040,
+                "remaining_lane_events": 5241033,
+                "baseline_group_pairs": 533688,
+                "remaining_group_pairs": 533688,
+                "checks_group": 1474560,
+                "early_neurons": 4425,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.007387633427019535,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.265748055021093
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 5280040,
+                "remaining_lane_events": 5269481,
+                "baseline_group_pairs": 533688,
+                "remaining_group_pairs": 533688,
+                "checks_group": 368640,
+                "early_neurons": 2564,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.001999795456095077,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.5914567651674336
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5280040,
+                "remaining_lane_events": 5246418,
+                "baseline_group_pairs": 533688,
+                "remaining_group_pairs": 533688,
+                "checks_group": 368640,
+                "early_neurons": 3681,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.006367754789736391,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.5914567651674336
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 5280040,
+                "remaining_lane_events": 5275766,
+                "baseline_group_pairs": 533688,
+                "remaining_group_pairs": 533688,
+                "checks_group": 184320,
+                "early_neurons": 620,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0008094635646699322,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.743289768359127
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5280040,
+                "remaining_lane_events": 5252928,
+                "baseline_group_pairs": 533688,
+                "remaining_group_pairs": 533688,
+                "checks_group": 184320,
+                "early_neurons": 2489,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.005134809584775857,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.743289768359127
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9472222222222222,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2421443,
+            "trace_fixed_group_compute": 3236548,
+            "cert_fixed_group_compute": 3698912,
+            "fixed8_current_compute": 2543002,
+            "oracle_group_state_bits": 11153312,
+            "trace_fixed_group_state_bits": 15114240,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2556176,
+            "certified_group_state_bits": 11994528,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 12058202,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 3183,
+            "certified_format_changes": 169,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2424626,
+            "trace_width_hist": [
+              10,
+              114,
+              4,
+              0
+            ],
+            "cert_width_hist": [
+              9,
+              10,
+              109,
+              0
+            ],
+            "oracle_width_hist": [
+              1279836,
+              194584,
+              140,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 1042926,
+            "trace_fixed_group_compute": 1082550,
+            "cert_fixed_group_compute": 1082550,
+            "fixed8_current_compute": 721700,
+            "oracle_group_state_bits": 1344620,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 1065153,
+            "certified_group_state_bits": 1376720,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1246062,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 468,
+            "certified_format_changes": 360,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 1043394,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              23188,
+              50738,
+              41274,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.95,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2163282,
+            "trace_fixed_group_compute": 3236548,
+            "cert_fixed_group_compute": 3698912,
+            "fixed8_current_compute": 2543002,
+            "oracle_group_state_bits": 10289456,
+            "trace_fixed_group_state_bits": 15114240,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2552131,
+            "certified_group_state_bits": 11976576,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11882766,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 2916,
+            "certified_format_changes": 107,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2166198,
+            "trace_width_hist": [
+              44,
+              80,
+              4,
+              0
+            ],
+            "cert_width_hist": [
+              9,
+              31,
+              88,
+              0
+            ],
+            "oracle_width_hist": [
+              1424129,
+              50292,
+              139,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 27203288,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542708,
+                "checks_group": 8109361,
+                "early_neurons": 524123,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.05715108824886428,
+                "whole_group_pair_saving": 0.00011561139157578726,
+                "speed_with_one_check_cycle": 0.23873315127793482
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 25858985,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542012,
+                "checks_group": 8106290,
+                "early_neurons": 577887,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.1037437876539431,
+                "whole_group_pair_saving": 0.0003893036655102655,
+                "speed_with_one_check_cycle": 0.23881760678838748
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 27565772,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542915,
+                "checks_group": 2027512,
+                "early_neurons": 338702,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.044587620004613804,
+                "whole_group_pair_saving": 3.421153424176815e-05,
+                "speed_with_one_check_cycle": 0.5564035920494956
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 26263140,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542443,
+                "checks_group": 2027287,
+                "early_neurons": 456662,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.08973602866801533,
+                "whole_group_pair_saving": 0.00021981893840428146,
+                "speed_with_one_check_cycle": 0.5564884577425799
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 28087879,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542990,
+                "checks_group": 1013760,
+                "early_neurons": 152470,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.02649171862799904,
+                "whole_group_pair_saving": 4.718832309236198e-06,
+                "speed_with_one_check_cycle": 0.714979124200464
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 26876971,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542743,
+                "checks_group": 1013743,
+                "early_neurons": 322159,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.06846103094167022,
+                "whole_group_pair_saving": 0.00010184813067393161,
+                "speed_with_one_check_cycle": 0.7150321975118136
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 841816,
+            "trace_fixed_group_compute": 886068,
+            "cert_fixed_group_compute": 886068,
+            "fixed8_current_compute": 590712,
+            "oracle_group_state_bits": 1328740,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 869049,
+            "certified_group_state_bits": 1375800,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1203816,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 476,
+            "certified_format_changes": 362,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 842292,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              28786,
+              53241,
+              33173,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 5849450,
+                "remaining_lane_events": 5820130,
+                "baseline_group_pairs": 590712,
+                "remaining_group_pairs": 590712,
+                "checks_group": 1474560,
+                "early_neurons": 4748,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.005012437066732822,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2860214054129432
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5849450,
+                "remaining_lane_events": 5781326,
+                "baseline_group_pairs": 590712,
+                "remaining_group_pairs": 590712,
+                "checks_group": 1474560,
+                "early_neurons": 5074,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.011646223149184953,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2860214054129432
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 5849450,
+                "remaining_lane_events": 5827048,
+                "baseline_group_pairs": 590712,
+                "remaining_group_pairs": 590712,
+                "checks_group": 368640,
+                "early_neurons": 3497,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.003829761772474294,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6157406249218222
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5849450,
+                "remaining_lane_events": 5787863,
+                "baseline_group_pairs": 590712,
+                "remaining_group_pairs": 590712,
+                "checks_group": 368640,
+                "early_neurons": 4430,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.010528682183795102,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6157406249218222
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 5849450,
+                "remaining_lane_events": 5835623,
+                "baseline_group_pairs": 590712,
+                "remaining_group_pairs": 590712,
+                "checks_group": 184320,
+                "early_neurons": 1651,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0023638119823231607,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7621775617006782
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5849450,
+                "remaining_lane_events": 5796476,
+                "baseline_group_pairs": 590712,
+                "remaining_group_pairs": 590712,
+                "checks_group": 184320,
+                "early_neurons": 3398,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.009056236056381395,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7621775617006782
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9527777777777777,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2988726,
+            "trace_fixed_group_compute": 3698912,
+            "cert_fixed_group_compute": 3698912,
+            "fixed8_current_compute": 2543002,
+            "oracle_group_state_bits": 13907024,
+            "trace_fixed_group_state_bits": 17694720,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 3159830,
+            "certified_group_state_bits": 14946464,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 12695192,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 4146,
+            "certified_format_changes": 2019,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2992872,
+            "trace_width_hist": [
+              6,
+              6,
+              116,
+              0
+            ],
+            "cert_width_hist": [
+              6,
+              3,
+              119,
+              0
+            ],
+            "oracle_width_hist": [
+              1092223,
+              317286,
+              65051,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 1052346,
+            "trace_fixed_group_compute": 1082295,
+            "cert_fixed_group_compute": 1443060,
+            "fixed8_current_compute": 721530,
+            "oracle_group_state_bits": 1357220,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1843200,
+            "certified_group_compute": 1067367,
+            "certified_group_state_bits": 1379960,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1365550,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 468,
+            "certified_format_changes": 360,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 1052814,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              0,
+              10
+            ],
+            "oracle_width_hist": [
+              17265,
+              30641,
+              67294,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9527777777777777,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2687343,
+            "trace_fixed_group_compute": 3698912,
+            "cert_fixed_group_compute": 3698912,
+            "fixed8_current_compute": 2543002,
+            "oracle_group_state_bits": 12791360,
+            "trace_fixed_group_state_bits": 17694720,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2958948,
+            "certified_group_state_bits": 13929248,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 12183142,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 3494,
+            "certified_format_changes": 1542,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2690837,
+            "trace_width_hist": [
+              9,
+              39,
+              80,
+              0
+            ],
+            "cert_width_hist": [
+              6,
+              3,
+              119,
+              0
+            ],
+            "oracle_width_hist": [
+              1323504,
+              124814,
+              26242,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 27212909,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542722,
+                "checks_group": 8109381,
+                "early_neurons": 519325,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.05681763041906229,
+                "whole_group_pair_saving": 0.0001101060872150672,
+                "speed_with_one_check_cycle": 0.23873238927562004
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 25879295,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542062,
+                "checks_group": 8106479,
+                "early_neurons": 572223,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.10303985578373442,
+                "whole_group_pair_saving": 0.00036964186422183687,
+                "speed_with_one_check_cycle": 0.23881224667304188
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 27572519,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542916,
+                "checks_group": 2027512,
+                "early_neurons": 336402,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.04435377321346179,
+                "whole_group_pair_saving": 3.381829821602622e-05,
+                "speed_with_one_check_cycle": 0.556403470309564
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 26280004,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542470,
+                "checks_group": 2027296,
+                "early_neurons": 452786,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.08915153299794154,
+                "whole_group_pair_saving": 0.00020920156570858328,
+                "speed_with_one_check_cycle": 0.5564840738015907
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 28090086,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542990,
+                "checks_group": 1013760,
+                "early_neurons": 151988,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.026415225391290487,
+                "whole_group_pair_saving": 4.718832309236198e-06,
+                "speed_with_one_check_cycle": 0.714979124200464
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28852224,
+                "remaining_lane_events": 26888042,
+                "baseline_group_pairs": 2543002,
+                "remaining_group_pairs": 2542747,
+                "checks_group": 1013743,
+                "early_neurons": 320229,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.06807731702069142,
+                "whole_group_pair_saving": 0.00010027518657085288,
+                "speed_with_one_check_cycle": 0.7150313933119452
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 847020,
+            "trace_fixed_group_compute": 877359,
+            "cert_fixed_group_compute": 1169812,
+            "fixed8_current_compute": 584906,
+            "oracle_group_state_bits": 1351500,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1843200,
+            "certified_group_compute": 862786,
+            "certified_group_state_bits": 1379520,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 1339404,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 468,
+            "certified_format_changes": 362,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 847488,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              0,
+              10
+            ],
+            "oracle_width_hist": [
+              21755,
+              31194,
+              62251,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 5791380,
+                "remaining_lane_events": 5755360,
+                "baseline_group_pairs": 584906,
+                "remaining_group_pairs": 584906,
+                "checks_group": 1474560,
+                "early_neurons": 5146,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.006219588422793909,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2840085730961327
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5791380,
+                "remaining_lane_events": 5707588,
+                "baseline_group_pairs": 584906,
+                "remaining_group_pairs": 584906,
+                "checks_group": 1474560,
+                "early_neurons": 5477,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.014468399586972325,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2840085730961327
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 5791380,
+                "remaining_lane_events": 5762686,
+                "baseline_group_pairs": 584906,
+                "remaining_group_pairs": 584906,
+                "checks_group": 368640,
+                "early_neurons": 3982,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.004954604947352781,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6134009266464334
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5791380,
+                "remaining_lane_events": 5714435,
+                "baseline_group_pairs": 584906,
+                "remaining_group_pairs": 584906,
+                "checks_group": 368640,
+                "early_neurons": 4828,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.013286125241306901,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6134009266464334
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 5791380,
+                "remaining_lane_events": 5772030,
+                "baseline_group_pairs": 584906,
+                "remaining_group_pairs": 584906,
+                "checks_group": 184320,
+                "early_neurons": 2169,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.003341172570268225,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7603825143715891
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5791380,
+                "remaining_lane_events": 5723590,
+                "baseline_group_pairs": 584906,
+                "remaining_group_pairs": 584906,
+                "checks_group": 184320,
+                "early_neurons": 3866,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.011705327573048208,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7603825143715891
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.975,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 1930267,
+            "trace_fixed_group_compute": 2526524,
+            "cert_fixed_group_compute": 2526524,
+            "fixed8_current_compute": 2526524,
+            "oracle_group_state_bits": 9099632,
+            "trace_fixed_group_state_bits": 11796480,
+            "cert_fixed_group_state_bits": 11796480,
+            "certified_group_compute": 2526524,
+            "certified_group_state_bits": 11934720,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11801280,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 5420,
+            "certified_format_changes": 0,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 1935687,
+            "trace_width_hist": [
+              58,
+              70,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              9,
+              119,
+              0,
+              0
+            ],
+            "oracle_width_hist": [
+              1464563,
+              9997,
+              0,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 612358,
+            "trace_fixed_group_compute": 612358,
+            "cert_fixed_group_compute": 918537,
+            "fixed8_current_compute": 612358,
+            "oracle_group_state_bits": 938340,
+            "trace_fixed_group_state_bits": 921600,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 620904,
+            "certified_group_state_bits": 957680,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 986146,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 185,
+            "certified_format_changes": 176,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 612543,
+            "trace_width_hist": [
+              0,
+              10,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              68633,
+              46567,
+              0,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9694444444444444,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 1870113,
+            "trace_fixed_group_compute": 2411682,
+            "cert_fixed_group_compute": 2526524,
+            "fixed8_current_compute": 2526524,
+            "oracle_group_state_bits": 9085440,
+            "trace_fixed_group_state_bits": 11612160,
+            "cert_fixed_group_state_bits": 11796480,
+            "certified_group_compute": 2526524,
+            "certified_group_state_bits": 11934720,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11800642,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 1468,
+            "certified_format_changes": 0,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 1871581,
+            "trace_width_hist": [
+              112,
+              16,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              20,
+              108,
+              0,
+              0
+            ],
+            "oracle_width_hist": [
+              1471294,
+              3266,
+              0,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27309518,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2524395,
+                "checks_group": 8105150,
+                "early_neurons": 489948,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.04714952068437295,
+                "whole_group_pair_saving": 0.000842659717461669,
+                "speed_with_one_check_cycle": 0.2376888192297977
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 26395348,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2523653,
+                "checks_group": 8101627,
+                "early_neurons": 538299,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.0790456282127433,
+                "whole_group_pair_saving": 0.0011363438463279918,
+                "speed_with_one_check_cycle": 0.23778422780387906
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27643623,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525750,
+                "checks_group": 2027457,
+                "early_neurons": 292729,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.03549233547181274,
+                "whole_group_pair_saving": 0.0003063497516746505,
+                "speed_with_one_check_cycle": 0.5548888947943724
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 26757134,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2524929,
+                "checks_group": 2026780,
+                "early_neurons": 384282,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.06642263122284098,
+                "whole_group_pair_saving": 0.0006313021368489213,
+                "speed_with_one_check_cycle": 0.5550715126999551
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 28147998,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2526398,
+                "checks_group": 1013760,
+                "early_neurons": 104517,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.017894296557144918,
+                "whole_group_pair_saving": 4.987088980745735e-05,
+                "speed_with_one_check_cycle": 0.713675491319879
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27308783,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525443,
+                "checks_group": 1013741,
+                "early_neurons": 243235,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.04717516541022626,
+                "whole_group_pair_saving": 0.00042786057049126747,
+                "speed_with_one_check_cycle": 0.7138718981550549
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 549730,
+            "trace_fixed_group_compute": 549730,
+            "cert_fixed_group_compute": 824595,
+            "fixed8_current_compute": 549730,
+            "oracle_group_state_bits": 935840,
+            "trace_fixed_group_state_bits": 921600,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 553969,
+            "certified_group_state_bits": 951800,
+            "fixed8_current_seeds": 23040,
+            "ideal_wide_merge_work": 46080,
+            "oracle_per_neuron_state_bits": 977406,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 205,
+            "certified_format_changes": 147,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 549935,
+            "trace_width_hist": [
+              0,
+              10,
+              0,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              73948,
+              41252,
+              0,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 5439870,
+                "remaining_lane_events": 5416859,
+                "baseline_group_pairs": 549730,
+                "remaining_group_pairs": 549730,
+                "checks_group": 1474560,
+                "early_neurons": 5239,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.004230064321390059,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2715668209594475
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5439870,
+                "remaining_lane_events": 5384078,
+                "baseline_group_pairs": 549730,
+                "remaining_group_pairs": 549730,
+                "checks_group": 1474560,
+                "early_neurons": 5555,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.010256127444221996,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.2715668209594475
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 5439870,
+                "remaining_lane_events": 5422643,
+                "baseline_group_pairs": 549730,
+                "remaining_group_pairs": 549730,
+                "checks_group": 368640,
+                "early_neurons": 3299,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.003166803618468772,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.5985931596197611
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5439870,
+                "remaining_lane_events": 5390233,
+                "baseline_group_pairs": 549730,
+                "remaining_group_pairs": 549730,
+                "checks_group": 368640,
+                "early_neurons": 4669,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.009124666582105867,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.5985931596197611
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 5439870,
+                "remaining_lane_events": 5431615,
+                "baseline_group_pairs": 549730,
+                "remaining_group_pairs": 549730,
+                "checks_group": 184320,
+                "early_neurons": 1087,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.001517499499068875,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7488999386962741
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 5439870,
+                "remaining_lane_events": 5397325,
+                "baseline_group_pairs": 549730,
+                "remaining_group_pairs": 549730,
+                "checks_group": 184320,
+                "early_neurons": 3570,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.007820958956739732,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.7488999386962741
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9611111111111111,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2273214,
+            "trace_fixed_group_compute": 3215576,
+            "cert_fixed_group_compute": 3674944,
+            "fixed8_current_compute": 2526524,
+            "oracle_group_state_bits": 10607136,
+            "trace_fixed_group_state_bits": 15114240,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2578174,
+            "certified_group_state_bits": 12185760,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11896258,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 8264,
+            "certified_format_changes": 356,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2281478,
+            "trace_width_hist": [
+              8,
+              115,
+              5,
+              0
+            ],
+            "cert_width_hist": [
+              1,
+              25,
+              102,
+              0
+            ],
+            "oracle_width_hist": [
+              1401633,
+              71956,
+              971,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 501453,
+            "trace_fixed_group_compute": 596067,
+            "cert_fixed_group_compute": 596067,
+            "fixed8_current_compute": 397378,
+            "oracle_group_state_bits": 1152520,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 573334,
+            "certified_group_state_bits": 1338040,
+            "fixed8_current_seeds": 22942,
+            "ideal_wide_merge_work": 45884,
+            "oracle_per_neuron_state_bits": 1083026,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 851,
+            "certified_format_changes": 380,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 502304,
+            "trace_width_hist": [
+              0,
+              1,
+              9,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              43121,
+              63719,
+              8360,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9388888888888889,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2255921,
+            "trace_fixed_group_compute": 3215576,
+            "cert_fixed_group_compute": 3674944,
+            "fixed8_current_compute": 2526524,
+            "oracle_group_state_bits": 10592096,
+            "trace_fixed_group_state_bits": 15114240,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 2578046,
+            "certified_group_state_bits": 12185184,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 11894486,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 10601,
+            "certified_format_changes": 352,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2266522,
+            "trace_width_hist": [
+              10,
+              113,
+              5,
+              0
+            ],
+            "cert_width_hist": [
+              1,
+              32,
+              95,
+              0
+            ],
+            "oracle_width_hist": [
+              1406820,
+              66769,
+              971,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27702728,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525471,
+                "checks_group": 8107576,
+                "early_neurons": 293365,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.03343011571458554,
+                "whole_group_pair_saving": 0.00041677815053409173,
+                "speed_with_one_check_cycle": 0.23761053628372
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27069217,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525069,
+                "checks_group": 8105730,
+                "early_neurons": 319386,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.05553381084394382,
+                "whole_group_pair_saving": 0.0005758900370628206,
+                "speed_with_one_check_cycle": 0.23766078165902677
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27908289,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525968,
+                "checks_group": 2027435,
+                "early_neurons": 191251,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.026257931372899335,
+                "whole_group_pair_saving": 0.00022006519629336196,
+                "speed_with_one_check_cycle": 0.554865009752047
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27284362,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525512,
+                "checks_group": 2027009,
+                "early_neurons": 238956,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.04802723323344338,
+                "whole_group_pair_saving": 0.00040055032131103285,
+                "speed_with_one_check_cycle": 0.5549725086386202
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 28214512,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2526335,
+                "checks_group": 1013760,
+                "early_neurons": 86315,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.015573570985159435,
+                "whole_group_pair_saving": 7.480633471124154e-05,
+                "speed_with_one_check_cycle": 0.7136881919835485
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27612727,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525773,
+                "checks_group": 1013719,
+                "early_neurons": 165316,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.0365703211180235,
+                "whole_group_pair_saving": 0.00029724633528116495,
+                "speed_with_one_check_cycle": 0.7138097783523737
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 361330,
+            "trace_fixed_group_compute": 492600,
+            "cert_fixed_group_compute": 492600,
+            "fixed8_current_compute": 328400,
+            "oracle_group_state_bits": 1009600,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1382400,
+            "certified_group_compute": 465430,
+            "certified_group_state_bits": 1317680,
+            "fixed8_current_seeds": 22942,
+            "ideal_wide_merge_work": 45884,
+            "oracle_per_neuron_state_bits": 1044502,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 713,
+            "certified_format_changes": 461,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 362043,
+            "trace_width_hist": [
+              0,
+              1,
+              9,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "oracle_width_hist": [
+              52025,
+              60605,
+              2570,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 3227080,
+                "remaining_lane_events": 3223603,
+                "baseline_group_pairs": 328400,
+                "remaining_group_pairs": 328400,
+                "checks_group": 1468288,
+                "early_neurons": 1414,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.001077444624862145,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.18278076104476682
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3227080,
+                "remaining_lane_events": 3215588,
+                "baseline_group_pairs": 328400,
+                "remaining_group_pairs": 328400,
+                "checks_group": 1468288,
+                "early_neurons": 1543,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0035611140721643064,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.18278076104476682
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 3227080,
+                "remaining_lane_events": 3224588,
+                "baseline_group_pairs": 328400,
+                "remaining_group_pairs": 328400,
+                "checks_group": 367072,
+                "early_neurons": 830,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0007722151294669022,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.47219729910046704
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3227080,
+                "remaining_lane_events": 3216650,
+                "baseline_group_pairs": 328400,
+                "remaining_group_pairs": 328400,
+                "checks_group": 367072,
+                "early_neurons": 1342,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0032320239969260145,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.47219729910046704
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 3227080,
+                "remaining_lane_events": 3226075,
+                "baseline_group_pairs": 328400,
+                "remaining_group_pairs": 328400,
+                "checks_group": 183536,
+                "early_neurons": 223,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0003114270486012094,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6414864358044755
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3227080,
+                "remaining_lane_events": 3217773,
+                "baseline_group_pairs": 328400,
+                "remaining_group_pairs": 328400,
+                "checks_group": 183536,
+                "early_neurons": 1091,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0028840313844094023,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6414864358044755
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "hard_reset": false,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9722222222222222,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2803829,
+            "trace_fixed_group_compute": 3674944,
+            "cert_fixed_group_compute": 3674944,
+            "fixed8_current_compute": 2526524,
+            "oracle_group_state_bits": 13171280,
+            "trace_fixed_group_state_bits": 17694720,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 3027558,
+            "certified_group_state_bits": 14357504,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 12189000,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 6908,
+            "certified_format_changes": 1601,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2810737,
+            "trace_width_hist": [
+              1,
+              41,
+              86,
+              0
+            ],
+            "cert_width_hist": [
+              1,
+              0,
+              127,
+              0
+            ],
+            "oracle_width_hist": [
+              1297741,
+              147023,
+              29796,
+              0
+            ]
+          },
+          "retirement": null
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 619454,
+            "trace_fixed_group_compute": 656109,
+            "cert_fixed_group_compute": 874812,
+            "fixed8_current_compute": 437406,
+            "oracle_group_state_bits": 1302240,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1843200,
+            "certified_group_compute": 639238,
+            "certified_group_state_bits": 1354680,
+            "fixed8_current_seeds": 22942,
+            "ideal_wide_merge_work": 45884,
+            "oracle_per_neuron_state_bits": 1241564,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 720,
+            "certified_format_changes": 360,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 620174,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              0,
+              10
+            ],
+            "oracle_width_hist": [
+              29202,
+              45098,
+              40900,
+              0
+            ]
+          },
+          "retirement": null
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "hard_reset": true,
+      "images": 360,
+      "steps": 32,
+      "accuracy": 0.9722222222222222,
+      "layers": [
+        {
+          "layer": 0,
+          "neurons": 128,
+          "fanin": 64,
+          "persistent": {
+            "oracle_group_compute": 2783873,
+            "trace_fixed_group_compute": 3674944,
+            "cert_fixed_group_compute": 3674944,
+            "fixed8_current_compute": 2526524,
+            "oracle_group_state_bits": 13151888,
+            "trace_fixed_group_state_bits": 17694720,
+            "cert_fixed_group_state_bits": 17694720,
+            "certified_group_compute": 3024720,
+            "certified_group_state_bits": 14344352,
+            "fixed8_current_seeds": 253440,
+            "ideal_wide_merge_work": 495360,
+            "oracle_per_neuron_state_bits": 12177768,
+            "fixed16_state_bits": 23592960,
+            "format_changes": 8606,
+            "certified_format_changes": 1582,
+            "group_steps": 69120,
+            "oracle_compute_plus_one_per_change": 2792479,
+            "trace_width_hist": [
+              1,
+              45,
+              82,
+              0
+            ],
+            "cert_width_hist": [
+              1,
+              0,
+              127,
+              0
+            ],
+            "oracle_width_hist": [
+              1311113,
+              134051,
+              29396,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27504631,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525145,
+                "checks_group": 8106724,
+                "early_neurons": 316414,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.040341875248422365,
+                "whole_group_pair_saving": 0.0005458091828931533,
+                "speed_with_one_check_cycle": 0.23763686328339825
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 26745997,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2524529,
+                "checks_group": 8103988,
+                "early_neurons": 340695,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.06681120987839029,
+                "whole_group_pair_saving": 0.0007896224219520187,
+                "speed_with_one_check_cycle": 0.23771180871235376
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27731094,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525696,
+                "checks_group": 2027354,
+                "early_neurons": 220043,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.032440403750563784,
+                "whole_group_pair_saving": 0.0003277229901635925,
+                "speed_with_one_check_cycle": 0.554908028684069
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 26977316,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525008,
+                "checks_group": 2026729,
+                "early_neurons": 265909,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.05874030873598224,
+                "whole_group_pair_saving": 0.0006000338805409733,
+                "speed_with_one_check_cycle": 0.5550680981787832
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 28068243,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2526136,
+                "checks_group": 1013760,
+                "early_neurons": 110855,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.020677010993108924,
+                "whole_group_pair_saving": 0.0001535706765500855,
+                "speed_with_one_check_cycle": 0.7137283129221875
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 28660864,
+                "remaining_lane_events": 27338786,
+                "baseline_group_pairs": 2526524,
+                "remaining_group_pairs": 2525332,
+                "checks_group": 1013657,
+                "early_neurons": 193537,
+                "neurons": 1474560,
+                "free_refill_event_saving": 0.046128337233657724,
+                "whole_group_pair_saving": 0.0004717944496074322,
+                "speed_with_one_check_cycle": 0.7139112328407915
+              }
+            }
+          }
+        },
+        {
+          "layer": 1,
+          "neurons": 10,
+          "fanin": 128,
+          "persistent": {
+            "oracle_group_compute": 483121,
+            "trace_fixed_group_compute": 524133,
+            "cert_fixed_group_compute": 698844,
+            "fixed8_current_compute": 349422,
+            "oracle_group_state_bits": 1273780,
+            "trace_fixed_group_state_bits": 1382400,
+            "cert_fixed_group_state_bits": 1843200,
+            "certified_group_compute": 506548,
+            "certified_group_state_bits": 1347200,
+            "fixed8_current_seeds": 22942,
+            "ideal_wide_merge_work": 45884,
+            "oracle_per_neuron_state_bits": 1203066,
+            "fixed16_state_bits": 1843200,
+            "format_changes": 720,
+            "certified_format_changes": 368,
+            "group_steps": 11520,
+            "oracle_compute_plus_one_per_change": 483841,
+            "trace_width_hist": [
+              0,
+              0,
+              10,
+              0
+            ],
+            "cert_width_hist": [
+              0,
+              0,
+              0,
+              10
+            ],
+            "oracle_width_hist": [
+              34870,
+              47017,
+              33313,
+              0
+            ]
+          },
+          "retirement": {
+            "2": {
+              "weight_only": {
+                "baseline_lane_events": 3437540,
+                "remaining_lane_events": 3430562,
+                "baseline_group_pairs": 349422,
+                "remaining_group_pairs": 349422,
+                "checks_group": 1468288,
+                "early_neurons": 2187,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.002029940015243481,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.19223198419989987
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3437540,
+                "remaining_lane_events": 3414246,
+                "baseline_group_pairs": 349422,
+                "remaining_group_pairs": 349422,
+                "checks_group": 1468288,
+                "early_neurons": 2309,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.006776357511476205,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.19223198419989987
+              }
+            },
+            "8": {
+              "weight_only": {
+                "baseline_lane_events": 3437540,
+                "remaining_lane_events": 3432063,
+                "baseline_group_pairs": 349422,
+                "remaining_group_pairs": 349422,
+                "checks_group": 367072,
+                "early_neurons": 1510,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0015932905508008188,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.4876830789929853
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3437540,
+                "remaining_lane_events": 3415955,
+                "baseline_group_pairs": 349422,
+                "remaining_group_pairs": 349422,
+                "checks_group": 367072,
+                "early_neurons": 2093,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.006279199660222168,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.4876830789929853
+              }
+            },
+            "16": {
+              "weight_only": {
+                "baseline_lane_events": 3437540,
+                "remaining_lane_events": 3434587,
+                "baseline_group_pairs": 349422,
+                "remaining_group_pairs": 349422,
+                "checks_group": 183536,
+                "early_neurons": 547,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.0008590445492997478,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6556276479572499
+              },
+              "active_negative_oracle": {
+                "baseline_lane_events": 3437540,
+                "remaining_lane_events": 3417960,
+                "baseline_group_pairs": 349422,
+                "remaining_group_pairs": 349422,
+                "checks_group": 183536,
+                "early_neurons": 1777,
+                "neurons": 115200,
+                "free_refill_event_saving": 0.005695933720043955,
+                "whole_group_pair_saving": 0.0,
+                "speed_with_one_check_cycle": 0.6556276479572499
+              }
+            }
+          }
+        }
+      ],
+      "exact_retirement_mismatches": 0
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "status": "pass_bounded_observed_operand_interpretation",
+  "rows": [
+    {
+      "scale": 16,
+      "updates": 159383552,
+      "U_fits_i8": 159383552,
+      "I_fits_i8": 159383552,
+      "both_fit_i8": 159383552,
+      "current_outside_i8": 0,
+      "U8_fraction": 1.0,
+      "I8_fraction": 1.0,
+      "both8_fraction": 1.0,
+      "current_incompatible_layers": [],
+      "membrane_only_metadata_saving_layers": 0,
+      "observed_widths": [
+        {
+          "layer": "conv1.1",
+          "U_bits": 7,
+          "I_bits": 8,
+          "S_bits": 8,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.body.1",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.lif",
+          "U_bits": 5,
+          "I_bits": 6,
+          "S_bits": 6,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.body.1",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.lif",
+          "U_bits": 5,
+          "I_bits": 7,
+          "S_bits": 6,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.body.1",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.lif",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.body.1",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.lif",
+          "U_bits": 5,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.body.1",
+          "U_bits": 5,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.lif",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.body.1",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.lif",
+          "U_bits": 5,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.body.1",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.lif",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.body.1",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.lif",
+          "U_bits": 6,
+          "I_bits": 7,
+          "S_bits": 7,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        }
+      ]
+    },
+    {
+      "scale": 64,
+      "updates": 159383552,
+      "U_fits_i8": 159383550,
+      "I_fits_i8": 159378985,
+      "both_fit_i8": 159378985,
+      "current_outside_i8": 4567,
+      "U8_fraction": 0.9999999874516537,
+      "I8_fraction": 0.9999713458512959,
+      "both8_fraction": 0.9999713458512959,
+      "current_incompatible_layers": [
+        "conv1.1",
+        "features.0.body.1",
+        "features.1.lif",
+        "features.2.body.1",
+        "features.2.lif",
+        "features.3.body.1",
+        "features.3.lif",
+        "features.4.body.1",
+        "features.4.lif",
+        "features.5.body.1",
+        "features.5.lif",
+        "features.6.body.1",
+        "features.6.lif",
+        "features.7.body.1",
+        "features.7.lif"
+      ],
+      "membrane_only_metadata_saving_layers": 0,
+      "observed_widths": [
+        {
+          "layer": "conv1.1",
+          "U_bits": 9,
+          "I_bits": 10,
+          "S_bits": 10,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.body.1",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.lif",
+          "U_bits": 7,
+          "I_bits": 8,
+          "S_bits": 8,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.body.1",
+          "U_bits": 8,
+          "I_bits": 8,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.lif",
+          "U_bits": 7,
+          "I_bits": 9,
+          "S_bits": 8,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.body.1",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.lif",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.body.1",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.lif",
+          "U_bits": 7,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.body.1",
+          "U_bits": 7,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.lif",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.body.1",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.lif",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.body.1",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.lif",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.body.1",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.lif",
+          "U_bits": 8,
+          "I_bits": 9,
+          "S_bits": 9,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        }
+      ]
+    },
+    {
+      "scale": 256,
+      "updates": 159383552,
+      "U_fits_i8": 158323542,
+      "I_fits_i8": 143764113,
+      "both_fit_i8": 143124111,
+      "current_outside_i8": 15619439,
+      "U8_fraction": 0.9933493137359619,
+      "I8_fraction": 0.9020009354541176,
+      "both8_fraction": 0.8979854520998503,
+      "current_incompatible_layers": [
+        "conv1.1",
+        "features.0.body.1",
+        "features.0.lif",
+        "features.1.body.1",
+        "features.1.lif",
+        "features.2.body.1",
+        "features.2.lif",
+        "features.3.body.1",
+        "features.3.lif",
+        "features.4.body.1",
+        "features.4.lif",
+        "features.5.body.1",
+        "features.5.lif",
+        "features.6.body.1",
+        "features.6.lif",
+        "features.7.body.1",
+        "features.7.lif"
+      ],
+      "membrane_only_metadata_saving_layers": 0,
+      "observed_widths": [
+        {
+          "layer": "conv1.1",
+          "U_bits": 11,
+          "I_bits": 12,
+          "S_bits": 12,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.body.1",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.lif",
+          "U_bits": 9,
+          "I_bits": 10,
+          "S_bits": 10,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.body.1",
+          "U_bits": 10,
+          "I_bits": 10,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.lif",
+          "U_bits": 9,
+          "I_bits": 11,
+          "S_bits": 10,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.body.1",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.lif",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.body.1",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.lif",
+          "U_bits": 9,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.body.1",
+          "U_bits": 9,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.lif",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.body.1",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.lif",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.body.1",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.lif",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.body.1",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.lif",
+          "U_bits": 10,
+          "I_bits": 11,
+          "S_bits": 11,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        }
+      ]
+    },
+    {
+      "scale": 1024,
+      "updates": 159383552,
+      "U_fits_i8": 122347149,
+      "I_fits_i8": 59757549,
+      "both_fit_i8": 48450875,
+      "current_outside_i8": 99626003,
+      "U8_fraction": 0.767627195308083,
+      "I8_fraction": 0.3749292085045262,
+      "both8_fraction": 0.30398917825598465,
+      "current_incompatible_layers": [
+        "conv1.1",
+        "features.0.body.1",
+        "features.0.lif",
+        "features.1.body.1",
+        "features.1.lif",
+        "features.2.body.1",
+        "features.2.lif",
+        "features.3.body.1",
+        "features.3.lif",
+        "features.4.body.1",
+        "features.4.lif",
+        "features.5.body.1",
+        "features.5.lif",
+        "features.6.body.1",
+        "features.6.lif",
+        "features.7.body.1",
+        "features.7.lif"
+      ],
+      "membrane_only_metadata_saving_layers": 0,
+      "observed_widths": [
+        {
+          "layer": "conv1.1",
+          "U_bits": 13,
+          "I_bits": 14,
+          "S_bits": 14,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.body.1",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.0.lif",
+          "U_bits": 11,
+          "I_bits": 12,
+          "S_bits": 12,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.body.1",
+          "U_bits": 12,
+          "I_bits": 12,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.1.lif",
+          "U_bits": 11,
+          "I_bits": 13,
+          "S_bits": 12,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.body.1",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.2.lif",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.body.1",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.3.lif",
+          "U_bits": 11,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.body.1",
+          "U_bits": 11,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.4.lif",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.body.1",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.5.lif",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.body.1",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.6.lif",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.body.1",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        },
+        {
+          "layer": "features.7.lif",
+          "U_bits": 12,
+          "I_bits": 13,
+          "S_bits": 13,
+          "membrane_only_full_vs_tail_high_FF_saving": 0
+        }
+      ]
+    }
+  ],
+  "conclusion": "No predeclared unit establishes a hardware advantage. At coarse unit16 all observed membranes and currents fit int8; at finer units current exceptions invalidate existing I8-only RTL. In all68 layer/unit observed-width pairs, membrane-only narrowing with a global current width saves no high-base metadata. Joint U/I or sum admission is a different implementation that would need fair fixed controls and its own proof/RTL.",
+  "all_layer_unit_cases": 68,
+  "membrane_only_metadata_saving_layer_unit_cases": 0,
+  "limits": [
+    "Observed maxima are not legal width certificates.",
+    "Rounded float operands do not constitute integer SNN inference or preserved float outputs.",
+    "Pilot accuracy81.25percent over64 examples is not a reproduction of full published94.19percent accuracy.",
+    "No prospective workload can reduce the request count below a legal eight-output fixed baseline for this addition interface."
+  ],
+  "pins": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\analyze_pilot.py": "cbafe8b9d88de663d646d49fb819221f5276327206a3bccdb8c1bda3d6ecd02f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_plan.json": "ac246dc5230a70903dcc3fd05e13b9e1db0e59cf5e20cca9cce285197285af95",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_results.json": "fae562b7cbe9ad93aeb92e36b305a30189c26e29e3310646f7a2cfc6f1dfc8c1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "declared_before_ablation_tests",
+  "engine": 8,
+  "full_port_bits": 16,
+  "stored_domain_signed_bits": 9,
+  "legal_U": [
+    -256,
+    255
+  ],
+  "coefficient": [
+    0,
+    256
+  ],
+  "fixture_FF": 94,
+  "mapping": "Static2lanepairwhenavailable2andcoefequal; scalar signed9 whencoefficientsdiffer oronlyoneavailable. Everyinputsignextended9to16.",
+  "excludes": "Noactualmembrane range detectors, no signed16 fallback. Unsupportedwideinputs mustfailcaller checks. Not a full16baseline.",
+  "comparison": "E5 vsE8 resources measure combinedactualrangeadmission andfull16support cost, notliteralcontroller-only area because synthesis maymergeoptimizations.",
+  "exactness": "Reuse unchangedE5pairalgebra67,371,008exhaustivecases; independentlycheck131,584signed9scalarcases; nativesame2controls E5/E8 narrowdata acrossallbeta,randomcompatible/incompatiblecoeffs andendboundaries.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_static9_ablation.py": "207af9c87a327cf4584bfd6435f2662954291a6aa282e8a7e60c3679333f73ff",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\leak_core16.sv": "0b3fa7efe359916898202542be2efda84dbc6330583c885932f687b69028fe20",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\timing16.sv": "89198b1eaa6889cc19014fd28aa2d88ac25664d8bdb50ad436a3194eeb4b5be1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route16.tcl": "ec63d6422489b4fe9c83c69a2bb7d25dc10a3ea0a9f6d1777cff7670b7c29caa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\tb_native16.sv": "1d0e6fee02d8ac452c55874a804ec7edd21471d092101d46758b4741ce808912",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_algebra.json": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\check_stage3_algebra.py": "6e135f1aa691e20e2cac433b5940836be79213ef26306e150e3a8667c2a0618f"
+  }
+}

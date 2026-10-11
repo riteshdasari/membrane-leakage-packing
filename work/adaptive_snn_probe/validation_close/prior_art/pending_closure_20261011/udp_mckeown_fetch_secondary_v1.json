@@ -1,0 +1,95 @@
+{
+  "written_utc": "2026-10-11T04:37:40.170231+00:00",
+  "resources": [
+    {
+      "url": "https://ieeexplore.ieee.org/ielx5/4667697/4671720/04671768.pdf?arnumber=4671768",
+      "artifact": "mckeown_ieee_pdf_response.bin",
+      "started_utc": "2026-10-11T04:37:37.807461+00:00",
+      "status": 418,
+      "error": "HTTP Error 418: Unknown Code",
+      "content_type": "text/html",
+      "bytes": 15410,
+      "sha256": "0823bb55720ec466981be6327bfb055692cddd32b31c1df4c6e5445f6296eb18",
+      "pdf_magic": false
+    },
+    {
+      "url": "http://xplorestaging.ieee.org/ielx5/4667697/4671720/04671768.pdf?arnumber=4671768",
+      "artifact": "mckeown_crossref_pdf_response.bin",
+      "started_utc": "2026-10-11T04:37:37.808500+00:00",
+      "status": 418,
+      "error": "HTTP Error 418: Unknown Code",
+      "content_type": "text/html",
+      "bytes": 15410,
+      "sha256": "7df4835297ebcb53653df14b6a672e25ac12b8b05cccfd958cd4c5e00f8a1a14",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://pure.qub.ac.uk/en/publications/power-efficient-dynamic-range-utilisation-for-dsp-on-fpga/",
+      "artifact": "mckeown_qub_current.html",
+      "started_utc": "2026-10-11T04:37:37.809481+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/plain; charset=UTF-8",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://pure.qub.ac.uk/en/publications/061f6949-b501-4002-879f-c1533e3cd224",
+      "artifact": "mckeown_qub_uuid.html",
+      "started_utc": "2026-10-11T04:37:37.809481+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/plain; charset=UTF-8",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://pure.qub.ac.uk/portal/en/publications/power-efficient-dynamic-range-utilisation-for-dsp-on-fpga(061f6949-b501-4002-879f-c1533e3cd224).html",
+      "artifact": "mckeown_qub_legacy.html",
+      "started_utc": "2026-10-11T04:37:38.099328+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/plain; charset=UTF-8",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://www.proceedings.com/04087.html",
+      "artifact": "mckeown_proceedings_listing.html",
+      "started_utc": "2026-10-11T04:37:38.099328+00:00",
+      "status": 200,
+      "final_url": "https://www.proceedings.com/04087.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 555980,
+      "sha256": "bc2a9b2d81a17fe0dd8ff41dda25f50680f8914d97356d71dde89e9be97beb2b",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://dblp.org/rec/conf/sips/McKeownWM08.html",
+      "artifact": "mckeown_dblp_original.html",
+      "started_utc": "2026-10-11T04:37:38.165794+00:00",
+      "status": 200,
+      "final_url": "https://dblp.org/rec/conf/sips/McKeownWM08.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2934,
+      "sha256": "7d7b1dea718016f87e4d2d822830cbb6eb1cc16d63af96615a5eb37e52e477d7",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://pub.orcid.org/v3.0/0000-0001-5832-4022/works",
+      "artifact": "mckeown_orcid.json",
+      "started_utc": "2026-10-11T04:37:38.908955+00:00",
+      "status": 200,
+      "final_url": "https://pub.orcid.org/v3.0/0000-0001-5832-4022/works",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 12972,
+      "sha256": "3eea339ff5b45efb1df4dbe5c67768a0ba9c1512df9583240e58f3169d7d62c4",
+      "pdf_magic": false
+    }
+  ],
+  "script_sha256": "e0ebe0da1ab27f29da930b706a7c6cc31594edf0f9637347ccdb351179d6dc7a",
+  "authentication_or_access_bypass_attempted": false
+}

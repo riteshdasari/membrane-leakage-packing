@@ -1,0 +1,8 @@
+{
+  "name": "cui_seu_ir_portal",
+  "url": "https://ir.seu.edu.cn/",
+  "retrieved_utc": "2026-10-11T04:40:19.319353+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "kind": "access failure",
+  "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+}

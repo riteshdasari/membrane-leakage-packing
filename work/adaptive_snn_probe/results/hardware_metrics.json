@@ -1,0 +1,42 @@
+{
+  "top_guard_pipe_route": {
+    "luts": 582,
+    "ffs": 566,
+    "dsps": 4,
+    "target_ns": 4.0,
+    "wns_ns": -1.19,
+    "target_minus_slack_mhz_estimate": 192.6782273603083
+  },
+  "top_lut_full24_route": {
+    "luts": 672,
+    "ffs": 465,
+    "dsps": 0,
+    "target_ns": 4.0,
+    "wns_ns": 0.013,
+    "target_minus_slack_mhz_estimate": 250.8151492350138
+  },
+  "top_margin_acc_route": {
+    "luts": 477,
+    "ffs": 474,
+    "dsps": 14,
+    "target_ns": 4.0,
+    "wns_ns": -1.963,
+    "target_minus_slack_mhz_estimate": 167.7008217340265
+  },
+  "top_native_pipe_route": {
+    "luts": 618,
+    "ffs": 602,
+    "dsps": 6,
+    "target_ns": 4.0,
+    "wns_ns": -0.662,
+    "target_minus_slack_mhz_estimate": 214.5002145002145
+  },
+  "top_reuse_shared_route": {
+    "luts": 580,
+    "ffs": 706,
+    "dsps": 4,
+    "target_ns": 4.0,
+    "wns_ns": -2.298,
+    "target_minus_slack_mhz_estimate": 158.78056525881232
+  }
+}

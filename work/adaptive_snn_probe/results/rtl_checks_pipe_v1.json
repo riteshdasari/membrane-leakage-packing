@@ -1,0 +1,34 @@
+[
+  {
+    "native": false,
+    "pipe": true,
+    "shift": 1,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 599
+  },
+  {
+    "native": false,
+    "pipe": true,
+    "shift": 3,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 731
+  },
+  {
+    "native": true,
+    "pipe": true,
+    "shift": 1,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 599
+  },
+  {
+    "native": true,
+    "pipe": true,
+    "shift": 3,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 731
+  }
+]

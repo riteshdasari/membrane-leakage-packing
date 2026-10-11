@@ -1,0 +1,12 @@
+{
+  "cases": 165536,
+  "failures": 0,
+  "wide_bits": 11,
+  "delta_range": [
+    0,
+    31
+  ],
+  "lanes": 3,
+  "formula": "U=32*h+r, r=int5; ceil((256-d)*U/256)=U-floor((32*d*h+d*r)/256)",
+  "note": "Three full-range operations are algebraically possible in a fixed DSP format; larger high correction cost is not simulated/routed here. Two lanes per DSP is not an absolute packing-capacity bound."
+}

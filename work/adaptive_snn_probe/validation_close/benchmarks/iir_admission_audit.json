@@ -1,0 +1,120 @@
+{
+  "status": "excluded_from_actual_membrane_leakage_benchmark",
+  "paper": "Exploiting Neuron and Synapse Filter Dynamics in Spatial Temporal Learning of Deep Spiking Neural Network, IJCAI2020",
+  "repository": "https://github.com/Snow-Crash/snn-iir",
+  "commit": "cb1e7faaabfe91de27c109c121da0e52077be944",
+  "available_trained_checkpoint": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\iir_archive\\snn-iir-cb1e7faaabfe91de27c109c121da0e52077be944\\examples\\checkpoint\\pretrained_snn_mlp_2",
+  "model": "MNIST MLP784-500-500-10,T25",
+  "configuration_membrane_filter": false,
+  "actual_voltage": "weighted filtered input minus previous reset trace; no previous voltage multiplication when membrane_filter=False",
+  "decayed_state": "Reset trace, plus separately learned first-order synaptic/axon filter states",
+  "coefficient_audit": {
+    "axon1.first_order_low_pass_cell.alpha_1": {
+      "shape": [
+        784
+      ],
+      "min": 0.7537327408790588,
+      "max": 0.9430271983146667,
+      "unique_values": 784
+    },
+    "snn1.neuron_cell.reset_decay": {
+      "shape": [
+        500
+      ],
+      "min": 0.7788007855415344,
+      "max": 0.7788007855415344,
+      "unique_values": 1
+    },
+    "snn1.neuron_cell.reset_v": {
+      "shape": [
+        500
+      ],
+      "min": 1.0,
+      "max": 1.0,
+      "unique_values": 1
+    },
+    "snn1.neuron_cell.decay_v": {
+      "shape": [
+        500
+      ],
+      "min": 0.7788007855415344,
+      "max": 0.7788007855415344,
+      "unique_values": 1
+    },
+    "axon2.first_order_low_pass_cell.alpha_1": {
+      "shape": [
+        500
+      ],
+      "min": 0.696925938129425,
+      "max": 0.9679886102676392,
+      "unique_values": 500
+    },
+    "snn2.neuron_cell.reset_decay": {
+      "shape": [
+        500
+      ],
+      "min": 0.7788007855415344,
+      "max": 0.7788007855415344,
+      "unique_values": 1
+    },
+    "snn2.neuron_cell.reset_v": {
+      "shape": [
+        500
+      ],
+      "min": 1.0,
+      "max": 1.0,
+      "unique_values": 1
+    },
+    "snn2.neuron_cell.decay_v": {
+      "shape": [
+        500
+      ],
+      "min": 0.7788007855415344,
+      "max": 0.7788007855415344,
+      "unique_values": 1
+    },
+    "axon3.first_order_low_pass_cell.alpha_1": {
+      "shape": [
+        500
+      ],
+      "min": 0.7131801843643188,
+      "max": 0.9538906216621399,
+      "unique_values": 500
+    },
+    "snn3.neuron_cell.reset_decay": {
+      "shape": [
+        10
+      ],
+      "min": 0.7788007855415344,
+      "max": 0.7788007855415344,
+      "unique_values": 1
+    },
+    "snn3.neuron_cell.reset_v": {
+      "shape": [
+        10
+      ],
+      "min": 1.0,
+      "max": 1.0,
+      "unique_values": 1
+    },
+    "snn3.neuron_cell.decay_v": {
+      "shape": [
+        10
+      ],
+      "min": 0.7788007855415344,
+      "max": 0.7788007855415344,
+      "unique_values": 1
+    }
+  },
+  "reason": "Changing membrane_filter to True or calling resettrace U would change the trained model or the stated packing target. This model is not evidence of actual-U leakage packing.",
+  "original_source_config_discrepancy": "YAML membrane_filer key is misspelled whereas script reads membrane_filter; retained unchanged",
+  "inference_performed": false,
+  "sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\iir_archive\\snn-iir-cb1e7faaabfe91de27c109c121da0e52077be944\\examples\\snn_mlp_2.py": "a08d3b584b7a242f821a0a9bddd5db4af8f0445303e799c68f48d2ae9bcf2197",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\iir_archive\\snn-iir-cb1e7faaabfe91de27c109c121da0e52077be944\\examples\\snn_mlp_2.yaml": "8df78bfc9d2c12318e186aea3d67787d132d0ad61ca5c625bd9b132c87355efb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\iir_archive\\snn-iir-cb1e7faaabfe91de27c109c121da0e52077be944\\snn_lib\\snn_layers.py": "d83d926a1c2e754aaf1cefd91f7d2491377a052ddf89c8b5f69ab207a8be6a6d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\iir_archive\\snn-iir-cb1e7faaabfe91de27c109c121da0e52077be944\\examples\\checkpoint\\pretrained_snn_mlp_2": "f9f6475e13e4f746e5a97a8247acb369e5ba14d90db970cd5f172a0c95e312d5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\iir_source.zip": "7319430e2d85c757b5ec0e86e191ed349813362596e1c995108cd27c287eaa77",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\audit_iir_admission.py": "65129d426a22302a74f7750cce44bf0c2323f1b4bb8aaf049ec1521bb5b4326f"
+  }
+}

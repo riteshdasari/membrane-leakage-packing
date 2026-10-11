@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "reason": "Original raw-input 0.1 ns hold contract differs from replay falling-edge +3 ns stimulus; repair applies before placement to all engines without changing arithmetic, pipeline or disabling checks.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\route.tcl": "667095a793bb9d51b9003cec45e5f0f89e543af0bbf3cb13c9ae5c92f4d53600",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_route.py": "a3fc86018317c3123b4559d85b1d549ae0f40858e58c62981baba9db62f71881",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4_phase3.py": "dee2d52874e640458a4446b422beac859885cd9b1fe3f45225b8bcb8e84dfa23",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\route_phase3.tcl": "fea260c062b28874f33603250d090508324bea8193438558125fba7663f3f93a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_route_v2.py": "a588ba8e55f9aea8358775094a91ad8a7ac3dcc05682bd286a7b8003dbda7d6e"
+  }
+}

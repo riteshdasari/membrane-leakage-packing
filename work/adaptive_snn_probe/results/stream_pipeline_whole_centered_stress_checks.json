@@ -1,0 +1,115 @@
+{
+  "source_hashes": {
+    "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+    "tb_stream_pipeline_whole_leak.sv": "9f5df5caf9da196ba98f6fa4e5a0ee6d114d469614f5f35be3b032bae1cf4720",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f",
+    "check_stream_pipeline_whole.py": "6e0509c377bc16e699cec8ff6f5b00b7031ea818b7d41dffe7a5842bfabb4dc5"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 640,
+  "tested_engines": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stimulus_sha256": "c9eed8c4dc14c441aab7b7a88ef69a7b858bf451483e12a5412706dd9e260747",
+  "matched_original_stimulus": true,
+  "centered_wide": true,
+  "wide_residual_encoding": "centered",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "identity_policy": "regular metadata; no third wide lane from identity alone",
+  "real_neurons": 3840,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 1455,
+      "neurons": 3840,
+      "arithmetic_issues": 1351,
+      "narrow_requests": 933,
+      "bypass_requests": 104,
+      "clocks": 1459,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 1868,
+      "neurons": 3840,
+      "arithmetic_issues": 1764,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1872,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 1868,
+      "neurons": 3840,
+      "arithmetic_issues": 1764,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1872,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 1678,
+      "neurons": 3840,
+      "arithmetic_issues": 1572,
+      "narrow_requests": 627,
+      "bypass_requests": 106,
+      "clocks": 1682,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    }
+  ]
+}

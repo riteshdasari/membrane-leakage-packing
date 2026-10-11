@@ -1,0 +1,96 @@
+{
+  "status": "exact_count_ablation_no_new_hardware_claim",
+  "main_full_width": 16,
+  "internal_pair_width": 9,
+  "unchanged_unit": 256,
+  "legal_domains": {
+    "U": [
+      -32768,
+      32767
+    ],
+    "beta": [
+      0,
+      256
+    ],
+    "pair_U": [
+      -256,
+      255
+    ],
+    "DSP_A_bits": 25,
+    "DSP_B_bits": 18,
+    "DSP_P_bits": 48
+  },
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\analyze_candidate_contribution.py": "93248d5e75698eff5322fb4ea63b5e77afb73df55671adc4e01278ce598a46e6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_results.json": "d861823ebccd85d5a0b0ea7e2d37766b6c5a990f6ab552ba7add86285b092e2f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_algebra.json": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance.json": "54c091d8ca668e0d9cf3f8b233f635fb6d54900d34a1a200fd36fd91bf03c322",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_T6_n64_a2\\results.json": "6b0636ff334f21075742dcb0c2111b4a90fab6217e4ca1d5ae781c4dbe0e63e1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\results.json": "ff3ec141b2140b06f5a090d37cadba23dbf62ef6aef2360e573a2ddd1cf6c013",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\representativeness_acceptance.json": "3a8993e28a4ff0254f40d24b94306e5293eb4eb06df5a4e71891eac4bcfc121a"
+  },
+  "workloads": [
+    {
+      "workload": "GLIF ResNet18 CIFAR10 T2 channelwise",
+      "raw_updates": 159383552,
+      "zero_filtered": 80137417,
+      "arithmetic_operations": 79246135,
+      "narrow9_operations": 78468612,
+      "narrow9_fraction": 0.990188505723339,
+      "adaptive_pairs": 36460437,
+      "issues_adaptive": 42785698,
+      "issues_fixed_split": 42327032,
+      "issues_fixed2": 39623132,
+      "issues_scalar": 79246135,
+      "operations_per_adaptive_issue": 1.8521641273679816,
+      "adaptive_issue_saving_vs_scalar": 0.4600910441878333,
+      "adaptive_issue_overhead_vs_fixed_split": 0.010836242900281734,
+      "adaptive_issue_overhead_vs_fixed2": 0.07981615385679253,
+      "coefficient_compatibility_issue_penalty": 2703900,
+      "membrane_admission_issue_penalty": 458666,
+      "all_unfavorable_counts_retained": true
+    },
+    {
+      "workload": "OTTT VGG11 CIFAR10 T6 vanilla LIF tau2",
+      "raw_updates": 157286400,
+      "zero_filtered": 26462521,
+      "arithmetic_operations": 130823879,
+      "narrow9_operations": 69779994,
+      "narrow9_fraction": 0.5333888165783557,
+      "adaptive_pairs": 29108114,
+      "issues_adaptive": 101715765,
+      "issues_fixed_split": 65412092,
+      "issues_fixed2": 65412092,
+      "issues_scalar": 130823879,
+      "operations_per_adaptive_issue": 1.286171116149006,
+      "adaptive_issue_saving_vs_scalar": 0.22249847827857172,
+      "adaptive_issue_overhead_vs_fixed_split": 0.5549994181503934,
+      "adaptive_issue_overhead_vs_fixed2": 0.5549994181503934,
+      "coefficient_compatibility_issue_penalty": 0,
+      "membrane_admission_issue_penalty": 36303673,
+      "all_unfavorable_counts_retained": true
+    }
+  ],
+  "arithmetic_proof": {
+    "full16_product_range": [
+      -8388608,
+      8388352
+    ],
+    "ceil_output_fits_signed16": true,
+    "full_mode": "sign-extend U16 into A25; P=A*beta+255; signed quotient P[23:8]",
+    "pair_mode": "A=(U0+256)+(U1<<16), signed25; C=255-256beta+(255<<16); exact post spill recoveredfromP16 and modulo2reference",
+    "pair_admission": "original-order head2 available, same beta, both U fit signed9. Otherwise consumeone signed16 value.",
+    "zero_filter": "IdenticalstableU0orbeta0bypassgrantedallcontrolsoutsideprimitive",
+    "storage": "full16 retained; narrow pair format neitherclipsnorchangesmembraneunit",
+    "fixed_split": "U=(signed high8)*256+unsignedlow8; compute bothlow8 products inoneDSP plus2 fullhigh8 LUTproducts; exact ceil reconstruction"
+  },
+  "publication_claim": "A membrane-dependent exact pair/full mapping may reduce fabric corrections versus the general fixed one-DSP split control, at measured issue overhead. Generic DSP packing, exact spill tracking and basic carry recovery are established prior art.",
+  "policy_ablation_limits": [
+    "These are arithmetic issue counts, not end-to-end neuron latency; memory,filter throughputandhostoverheads excluded.",
+    "The coefficient and range issue penalties are differences between complete greedy policies; they include matching-phase changes and are not independent per-edge probabilities.",
+    "Costofrange detector alone isnotisolated by E5-versus-scalar hardware; thedifference includeslayoutanddecoderstorageandcannotbe calledpurecontrolleroverhead.",
+    "OTTT beta128 arithmetic hasanexactzero-DSPshiftcontrol; beating a generalvariable multiplier there isinsufficient."
+  ],
+  "needed_physical_ablation": "Ifcontroller-only costisclaimed, synthesize a separate always-pair signed9-only admittedcaller datapath withsame94FFfixtureandnarrowlegalcontract; itsresourcescannotreplacefull16strongbaseline. Notrunhere.",
+  "applicability": "Coefficient-controlled leakage usefulonlywheretrained dynamicsrequiremultiplication. Shift-only tau2 isretainednegativecontrol; nocoefficient/modelretuningforbenefit."
+}

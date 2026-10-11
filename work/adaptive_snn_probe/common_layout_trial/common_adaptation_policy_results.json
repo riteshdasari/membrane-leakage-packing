@@ -1,0 +1,1057 @@
+{
+  "created_utc": "2026-10-09T18:06:10.352200+00:00",
+  "contract_sha256": "c63e56991f827f71d92ba55e3a1e400f946f1d6fb408bf73070db94495967a25",
+  "oracle_sha256": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+  "script_sha256": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce",
+  "operation": "Exact signed11 U + signed11 I -> signed12, six fixed eight-bit residue fields",
+  "classification": "Adaptive exact high-part correction for fixed packed DSP addition; DSP lane count is unchanged.",
+  "arithmetic_proof": {
+    "full_signed11_pairs": 4194304,
+    "signed7_fast_path_pairs": 16384,
+    "signed8_fast_path_pairs": 65536,
+    "current_signed8_pairs": 524288,
+    "current_signed8_direct_high_copy_pairs": 262144,
+    "mismatches": 0
+  },
+  "packed_stress": {
+    "packed_cases": 18432,
+    "mismatches": 0
+  },
+  "declared_controller": "First bad-lane correction is fused into output stage; one shared corrector globally freezes max(k-1,0) extra clocks for k bad lanes.",
+  "correction_adversarial_bursts": [
+    {
+      "pattern": "full_signed11",
+      "windows": 64,
+      "membrane": [
+        1023,
+        1023,
+        1023,
+        1023,
+        1023,
+        1023
+      ],
+      "current": [
+        1023,
+        1023,
+        1023,
+        1023,
+        1023,
+        1023
+      ],
+      "correction_mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output": [
+        2046,
+        2046,
+        2046,
+        2046,
+        2046,
+        2046
+      ],
+      "scalar_mismatches": 0,
+      "cycle_model": {
+        "service_clocks": 388,
+        "accepted_requests": 64,
+        "retired_requests": 64,
+        "global_freeze_clocks": 320,
+        "latency_clock_histogram": {
+          "9": 1,
+          "14": 1,
+          "19": 62
+        },
+        "repeated_or_out_of_order_retirements": 0,
+        "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+      },
+      "fallback_corrections_per_output_attempt": 1,
+      "offered_windows": 64,
+      "exceptional_fallback_jobs": 384,
+      "exception_windows": 64,
+      "extra_globally_frozen_clocks": 320,
+      "predicted_service_clocks": 388,
+      "fixed6_service_clocks": 68,
+      "service_clock_penalty": 4.705882352941177,
+      "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+    },
+    {
+      "pattern": "static_signed8_current",
+      "windows": 64,
+      "membrane": [
+        1023,
+        1023,
+        1023,
+        1023,
+        1023,
+        1023
+      ],
+      "current": [
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      "correction_mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output": [
+        1150,
+        1150,
+        1150,
+        1150,
+        1150,
+        1150
+      ],
+      "scalar_mismatches": 0,
+      "cycle_model": {
+        "service_clocks": 388,
+        "accepted_requests": 64,
+        "retired_requests": 64,
+        "global_freeze_clocks": 320,
+        "latency_clock_histogram": {
+          "9": 1,
+          "14": 1,
+          "19": 62
+        },
+        "repeated_or_out_of_order_retirements": 0,
+        "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+      },
+      "fallback_corrections_per_output_attempt": 1,
+      "offered_windows": 64,
+      "exceptional_fallback_jobs": 384,
+      "exception_windows": 64,
+      "extra_globally_frozen_clocks": 320,
+      "predicted_service_clocks": 388,
+      "fixed6_service_clocks": 68,
+      "service_clock_penalty": 4.705882352941177,
+      "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+    },
+    {
+      "pattern": "static_signed8_current_negative",
+      "windows": 64,
+      "membrane": [
+        -1024,
+        -1024,
+        -1024,
+        -1024,
+        -1024,
+        -1024
+      ],
+      "current": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "correction_mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output": [
+        -1152,
+        -1152,
+        -1152,
+        -1152,
+        -1152,
+        -1152
+      ],
+      "scalar_mismatches": 0,
+      "cycle_model": {
+        "service_clocks": 388,
+        "accepted_requests": 64,
+        "retired_requests": 64,
+        "global_freeze_clocks": 320,
+        "latency_clock_histogram": {
+          "9": 1,
+          "14": 1,
+          "19": 62
+        },
+        "repeated_or_out_of_order_retirements": 0,
+        "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+      },
+      "fallback_corrections_per_output_attempt": 1,
+      "offered_windows": 64,
+      "exceptional_fallback_jobs": 384,
+      "exception_windows": 64,
+      "extra_globally_frozen_clocks": 320,
+      "predicted_service_clocks": 388,
+      "fixed6_service_clocks": 68,
+      "service_clock_penalty": 4.705882352941177,
+      "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+    },
+    {
+      "pattern": "highcopy_wide_positive",
+      "windows": 64,
+      "membrane": [
+        1023,
+        1023,
+        1023,
+        1023,
+        1023,
+        1023
+      ],
+      "current": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "correction_mask": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "output": [
+        1023,
+        1023,
+        1023,
+        1023,
+        1023,
+        1023
+      ],
+      "scalar_mismatches": 0,
+      "cycle_model": {
+        "service_clocks": 68,
+        "accepted_requests": 64,
+        "retired_requests": 64,
+        "global_freeze_clocks": 0,
+        "latency_clock_histogram": {
+          "4": 64
+        },
+        "repeated_or_out_of_order_retirements": 0,
+        "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+      },
+      "fallback_corrections_per_output_attempt": 1,
+      "offered_windows": 64,
+      "exceptional_fallback_jobs": 0,
+      "exception_windows": 0,
+      "extra_globally_frozen_clocks": 0,
+      "predicted_service_clocks": 68,
+      "fixed6_service_clocks": 68,
+      "service_clock_penalty": 0.0,
+      "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+    },
+    {
+      "pattern": "highcopy_wide_negative",
+      "windows": 64,
+      "membrane": [
+        -1024,
+        -1024,
+        -1024,
+        -1024,
+        -1024,
+        -1024
+      ],
+      "current": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "correction_mask": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "output": [
+        -1024,
+        -1024,
+        -1024,
+        -1024,
+        -1024,
+        -1024
+      ],
+      "scalar_mismatches": 0,
+      "cycle_model": {
+        "service_clocks": 68,
+        "accepted_requests": 64,
+        "retired_requests": 64,
+        "global_freeze_clocks": 0,
+        "latency_clock_histogram": {
+          "4": 64
+        },
+        "repeated_or_out_of_order_retirements": 0,
+        "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+      },
+      "fallback_corrections_per_output_attempt": 1,
+      "offered_windows": 64,
+      "exceptional_fallback_jobs": 0,
+      "exception_windows": 0,
+      "extra_globally_frozen_clocks": 0,
+      "predicted_service_clocks": 68,
+      "fixed6_service_clocks": 68,
+      "service_clock_penalty": 0.0,
+      "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+    }
+  ],
+  "models": {
+    "model_input_sha256": {
+      "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+      "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+    },
+    "frames": 9216,
+    "scalars": 635904,
+    "fixed6_windows": 110592,
+    "reference_state_spike_mismatches": 0,
+    "eligible_scalar_pairs": {
+      "signed7": 611513,
+      "signed8": 627273,
+      "current8": 635904,
+      "signed8_or_highcopy": 634896,
+      "highcopy": 604686,
+      "zero_current": 46336,
+      "zero_low_carry": 495786,
+      "hI_zero": 477692,
+      "hI_minus1": 158212,
+      "hU_plus_hI_zero": 446586,
+      "nontrivial_hU": 8631
+    },
+    "per_seed": {
+      "0": {
+        "signed7": 205457,
+        "signed8": 209963,
+        "current8": 211968,
+        "signed8_or_highcopy": 211800,
+        "highcopy": 202032,
+        "scalars": 211968
+      },
+      "1": {
+        "signed7": 200256,
+        "signed8": 206612,
+        "current8": 211968,
+        "signed8_or_highcopy": 211163,
+        "highcopy": 198996,
+        "scalars": 211968
+      },
+      "2": {
+        "signed7": 205800,
+        "signed8": 210698,
+        "current8": 211968,
+        "signed8_or_highcopy": 211933,
+        "highcopy": 203658,
+        "scalars": 211968
+      }
+    },
+    "metadata_distributions": {
+      "hU": {
+        "-4": 87,
+        "-3": 1250,
+        "-2": 7294,
+        "-1": 129605,
+        "0": 497668
+      },
+      "hI": {
+        "-1": 158212,
+        "0": 477692
+      },
+      "hU_plus_hI": {
+        "-5": 87,
+        "-4": 1250,
+        "-3": 7219,
+        "-2": 98649,
+        "-1": 82113,
+        "0": 446586
+      },
+      "H": {
+        "-5": 5,
+        "-4": 211,
+        "-3": 1986,
+        "-2": 8651,
+        "-1": 142323,
+        "0": 482661,
+        "1": 67
+      },
+      "c": {
+        "0": 495786,
+        "1": 140118
+      },
+      "operand_sign_pair": {
+        "00": 446586,
+        "01": 51082,
+        "10": 31106,
+        "11": 107130
+      }
+    },
+    "exception_jobs_per_window": {
+      "signed7": {
+        "0": 97681,
+        "1": 6754,
+        "2": 2703,
+        "3": 2113,
+        "4": 958,
+        "5": 238,
+        "6": 145
+      },
+      "signed8": {
+        "0": 105633,
+        "1": 2562,
+        "2": 1459,
+        "3": 644,
+        "4": 268,
+        "5": 9,
+        "6": 17
+      },
+      "current8": {
+        "0": 110592
+      },
+      "signed8_or_highcopy": {
+        "0": 109698,
+        "1": 789,
+        "2": 96,
+        "3": 9
+      },
+      "highcopy": {
+        "0": 84695,
+        "1": 21603,
+        "2": 3503,
+        "3": 602,
+        "4": 145,
+        "5": 41,
+        "6": 3
+      }
+    },
+    "exception_jobs_per_adjacent_pair": {
+      "signed7": {
+        "0": 298261,
+        "1": 14991,
+        "2": 4700
+      },
+      "signed8": {
+        "0": 310596,
+        "1": 6081,
+        "2": 1275
+      },
+      "signed8_or_highcopy": {
+        "0": 316980,
+        "1": 936,
+        "2": 36
+      },
+      "highcopy": {
+        "0": 288171,
+        "1": 28344,
+        "2": 1437
+      }
+    },
+    "exception_jobs_per_neuron_record": {
+      "signed7": {
+        "0": 2911,
+        "1": 1068,
+        "2": 967,
+        "3": 882,
+        "4": 1133,
+        "5": 798,
+        "6": 637,
+        "7": 458,
+        "8": 188,
+        "9": 126,
+        "10": 13,
+        "11": 14,
+        "12": 8,
+        "13": 7,
+        "14": 6
+      },
+      "signed8": {
+        "0": 6088,
+        "1": 904,
+        "2": 770,
+        "3": 473,
+        "4": 424,
+        "5": 319,
+        "6": 206,
+        "7": 15,
+        "8": 17
+      },
+      "signed8_or_highcopy": {
+        "0": 8412,
+        "1": 617,
+        "2": 170,
+        "3": 17
+      },
+      "highcopy": {
+        "0": 1616,
+        "1": 1973,
+        "2": 1434,
+        "3": 962,
+        "4": 791,
+        "5": 665,
+        "6": 485,
+        "7": 402,
+        "8": 257,
+        "9": 171,
+        "10": 105,
+        "11": 63,
+        "12": 57,
+        "13": 30,
+        "14": 25,
+        "15": 16,
+        "16": 5,
+        "17": 9,
+        "18": 6,
+        "19": 12,
+        "20": 12,
+        "21": 4,
+        "22": 8,
+        "23": 5,
+        "24": 4,
+        "25": 8,
+        "26": 8,
+        "27": 16,
+        "28": 10,
+        "29": 12,
+        "30": 10,
+        "31": 7,
+        "32": 4,
+        "33": 2,
+        "34": 5,
+        "35": 3,
+        "36": 2,
+        "37": 3,
+        "38": 1,
+        "39": 4,
+        "40": 2,
+        "42": 1,
+        "43": 1
+      }
+    },
+    "temporal_cache_diagnostic": {
+      "eligible_timestep_pairs": 616032,
+      "same_hU": 592962,
+      "same_hI": 519038,
+      "same_both_keys": 505929,
+      "same_hU_plus_hI": 515880
+    },
+    "persistent_neuron_identities": 19872,
+    "temporal_cache_storage_scenarios": {
+      "explicit_key_plus_high_sum_bits_per_live_neuron": 13,
+      "neurons_per_saved_image": 138,
+      "one_live_image_payload_bits": 1794,
+      "forty_eight_live_images_payload_bits": 86112,
+      "all_dataset_identities_payload_bits": 258336,
+      "qualification": "Payload-only scenarios, before valid/ownership/address/ports. Dataset identity count is cumulative over144 images/3 seeds; it is not a measured peak-concurrent hardware footprint. Cache can be invalidated/reused across images."
+    },
+    "temporal_hU_transitions": {
+      "-4->-4": 73,
+      "-4->-3": 6,
+      "-3->-4": 14,
+      "-3->-3": 1117,
+      "-3->-2": 34,
+      "-2->-3": 127,
+      "-2->-2": 6602,
+      "-2->-1": 208,
+      "-1->-2": 658,
+      "-1->-1": 116079,
+      "-1->0": 8705,
+      "0->-1": 13318,
+      "0->0": 469091
+    },
+    "ideal_nonoverlapped_correction_schedules": [
+      {
+        "certificate": "signed7",
+        "shared_correctors": 1,
+        "exception_jobs": 24391,
+        "extra_correction_slots": 24391,
+        "ideal_serial_service_clocks": 134987,
+        "native4_service_clocks": 159540,
+        "hybrid6_service_clocks": 110596,
+        "rate_vs_native4": 0.18189158956047624,
+        "rate_vs_hybrid6": -0.18069147399379204,
+        "qualification": "Arithmetic schedule assumption only; one six-lane base slot, added correction slots, four startup/drain clocks. Not RTL or burst latency."
+      },
+      {
+        "certificate": "signed7",
+        "shared_correctors": 2,
+        "exception_jobs": 24391,
+        "extra_correction_slots": 16748,
+        "ideal_serial_service_clocks": 127344,
+        "native4_service_clocks": 159540,
+        "hybrid6_service_clocks": 110596,
+        "rate_vs_native4": 0.25282698831511485,
+        "rate_vs_hybrid6": -0.13151777861540392,
+        "qualification": "Arithmetic schedule assumption only; one six-lane base slot, added correction slots, four startup/drain clocks. Not RTL or burst latency."
+      },
+      {
+        "certificate": "signed8",
+        "shared_correctors": 1,
+        "exception_jobs": 8631,
+        "extra_correction_slots": 8631,
+        "ideal_serial_service_clocks": 119227,
+        "native4_service_clocks": 159540,
+        "hybrid6_service_clocks": 110596,
+        "rate_vs_native4": 0.3381197212040896,
+        "rate_vs_hybrid6": -0.07239132075788202,
+        "qualification": "Arithmetic schedule assumption only; one six-lane base slot, added correction slots, four startup/drain clocks. Not RTL or burst latency."
+      },
+      {
+        "certificate": "signed8",
+        "shared_correctors": 2,
+        "exception_jobs": 8631,
+        "extra_correction_slots": 5923,
+        "ideal_serial_service_clocks": 116519,
+        "native4_service_clocks": 159540,
+        "hybrid6_service_clocks": 110596,
+        "rate_vs_native4": 0.369218754022949,
+        "rate_vs_hybrid6": -0.05083291137067769,
+        "qualification": "Arithmetic schedule assumption only; one six-lane base slot, added correction slots, four startup/drain clocks. Not RTL or burst latency."
+      },
+      {
+        "certificate": "signed8_or_highcopy",
+        "shared_correctors": 1,
+        "exception_jobs": 1008,
+        "extra_correction_slots": 1008,
+        "ideal_serial_service_clocks": 111604,
+        "native4_service_clocks": 159540,
+        "hybrid6_service_clocks": 110596,
+        "rate_vs_native4": 0.4295186552453316,
+        "rate_vs_hybrid6": -0.009031934339270964,
+        "qualification": "Arithmetic schedule assumption only; one six-lane base slot, added correction slots, four startup/drain clocks. Not RTL or burst latency."
+      },
+      {
+        "certificate": "signed8_or_highcopy",
+        "shared_correctors": 2,
+        "exception_jobs": 1008,
+        "extra_correction_slots": 903,
+        "ideal_serial_service_clocks": 111499,
+        "native4_service_clocks": 159540,
+        "hybrid6_service_clocks": 110596,
+        "rate_vs_native4": 0.4308648508058368,
+        "rate_vs_hybrid6": -0.008098727342846113,
+        "qualification": "Arithmetic schedule assumption only; one six-lane base slot, added correction slots, four startup/drain clocks. Not RTL or burst latency."
+      }
+    ],
+    "ideal_bounded_correction_admission": {
+      "signed7": [
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 6,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 120941,
+          "admission_stalls": 10343,
+          "peak_jobs": 6,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 12,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 120486,
+          "admission_stalls": 9882,
+          "peak_jobs": 12,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 24,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 119599,
+          "admission_stalls": 8983,
+          "peak_jobs": 24,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 6,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 112619,
+          "admission_stalls": 2026,
+          "peak_jobs": 6,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 12,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 112406,
+          "admission_stalls": 1810,
+          "peak_jobs": 12,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 24,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 112139,
+          "admission_stalls": 1538,
+          "peak_jobs": 24,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        }
+      ],
+      "signed8": [
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 6,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 113405,
+          "admission_stalls": 2813,
+          "peak_jobs": 6,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 12,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 113215,
+          "admission_stalls": 2623,
+          "peak_jobs": 12,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 24,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 112878,
+          "admission_stalls": 2286,
+          "peak_jobs": 24,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 6,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110927,
+          "admission_stalls": 335,
+          "peak_jobs": 6,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 12,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110866,
+          "admission_stalls": 274,
+          "peak_jobs": 12,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 24,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110770,
+          "admission_stalls": 178,
+          "peak_jobs": 24,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        }
+      ],
+      "signed8_or_highcopy": [
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 6,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110592,
+          "admission_stalls": 0,
+          "peak_jobs": 3,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 12,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110592,
+          "admission_stalls": 0,
+          "peak_jobs": 3,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 1,
+          "capacity_jobs": 24,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110592,
+          "admission_stalls": 0,
+          "peak_jobs": 3,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 6,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110592,
+          "admission_stalls": 0,
+          "peak_jobs": 3,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 12,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110592,
+          "admission_stalls": 0,
+          "peak_jobs": 3,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        },
+        {
+          "shared_correctors": 2,
+          "capacity_jobs": 24,
+          "offered_windows": 110592,
+          "correction_queue_clocks": 110592,
+          "admission_stalls": 0,
+          "peak_jobs": 3,
+          "qualification": "Ideal job admission only; no DSP pipeline, output reorder, dependency, memory or RTL timing cost."
+        }
+      ]
+    },
+    "predicted_fused_global_freeze_variants": [
+      {
+        "variant": 0,
+        "shared_correction": false,
+        "declared_general_corrector_units": 6,
+        "current_contract": "signed11",
+        "policy": "fixed six exact high corrections",
+        "actual_exception_jobs": null,
+        "cycle_model": {
+          "service_clocks": 110596,
+          "accepted_requests": 110592,
+          "retired_requests": 110592,
+          "global_freeze_clocks": 0,
+          "latency_clock_histogram": {
+            "4": 110592
+          },
+          "repeated_or_out_of_order_retirements": 0,
+          "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+        },
+        "fallback_corrections_per_output_attempt": 1,
+        "offered_windows": 110592,
+        "exceptional_fallback_jobs": 0,
+        "exception_windows": 0,
+        "extra_globally_frozen_clocks": 0,
+        "predicted_service_clocks": 110596,
+        "fixed6_service_clocks": 110596,
+        "service_clock_penalty": 0.0,
+        "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+      },
+      {
+        "variant": 1,
+        "shared_correction": true,
+        "declared_general_corrector_units": 1,
+        "current_contract": "signed11",
+        "policy": "signed8 U/I recovery OR current8 carry-certified high copy",
+        "actual_exception_jobs": 1008,
+        "cycle_model": {
+          "service_clocks": 110710,
+          "accepted_requests": 110592,
+          "retired_requests": 110592,
+          "global_freeze_clocks": 114,
+          "latency_clock_histogram": {
+            "4": 110288,
+            "5": 270,
+            "6": 30,
+            "7": 4
+          },
+          "repeated_or_out_of_order_retirements": 0,
+          "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+        },
+        "fallback_corrections_per_output_attempt": 1,
+        "offered_windows": 110592,
+        "exceptional_fallback_jobs": 1008,
+        "exception_windows": 894,
+        "extra_globally_frozen_clocks": 114,
+        "predicted_service_clocks": 110710,
+        "fixed6_service_clocks": 110596,
+        "service_clock_penalty": 0.001030778690006872,
+        "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+      },
+      {
+        "variant": 2,
+        "shared_correction": false,
+        "declared_general_corrector_units": 6,
+        "current_contract": "signed8",
+        "policy": "fixed six exact high corrections",
+        "actual_exception_jobs": null,
+        "cycle_model": {
+          "service_clocks": 110596,
+          "accepted_requests": 110592,
+          "retired_requests": 110592,
+          "global_freeze_clocks": 0,
+          "latency_clock_histogram": {
+            "4": 110592
+          },
+          "repeated_or_out_of_order_retirements": 0,
+          "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+        },
+        "fallback_corrections_per_output_attempt": 1,
+        "offered_windows": 110592,
+        "exceptional_fallback_jobs": 0,
+        "exception_windows": 0,
+        "extra_globally_frozen_clocks": 0,
+        "predicted_service_clocks": 110596,
+        "fixed6_service_clocks": 110596,
+        "service_clock_penalty": 0.0,
+        "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+      },
+      {
+        "variant": 3,
+        "shared_correction": true,
+        "declared_general_corrector_units": 1,
+        "current_contract": "signed8",
+        "policy": "signed8 U/I recovery OR current8 carry-certified high copy",
+        "actual_exception_jobs": 1008,
+        "cycle_model": {
+          "service_clocks": 110710,
+          "accepted_requests": 110592,
+          "retired_requests": 110592,
+          "global_freeze_clocks": 114,
+          "latency_clock_histogram": {
+            "4": 110288,
+            "5": 270,
+            "6": 30,
+            "7": 4
+          },
+          "repeated_or_out_of_order_retirements": 0,
+          "qualification": "Independent Python control-only model of declared fused-output/global-freeze behavior, continuously ready source/sink. Does not execute RTL."
+        },
+        "fallback_corrections_per_output_attempt": 1,
+        "offered_windows": 110592,
+        "exceptional_fallback_jobs": 1008,
+        "exception_windows": 894,
+        "extra_globally_frozen_clocks": 114,
+        "predicted_service_clocks": 110710,
+        "fixed6_service_clocks": 110596,
+        "service_clock_penalty": 0.001030778690006872,
+        "qualification": "Declared fused-output/global-freeze controller model, continuous input and out_ready=1; not measured RTL or physical burst latency."
+      }
+    ],
+    "expected_fixed6_four_advance_service_clocks": 110596,
+    "static_current_certificate": {
+      "weight_files_sha256": {
+        "model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+        "model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+        "model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+      },
+      "rows": [
+        {
+          "seed": 0,
+          "layer": 0,
+          "inputs": 64,
+          "outputs": 128,
+          "minimum_current": -49,
+          "maximum_current": 51,
+          "all_neuron_binary_spike_currents_fit_signed8": true
+        },
+        {
+          "seed": 0,
+          "layer": 1,
+          "inputs": 128,
+          "outputs": 10,
+          "minimum_current": -100,
+          "maximum_current": 70,
+          "all_neuron_binary_spike_currents_fit_signed8": true
+        },
+        {
+          "seed": 1,
+          "layer": 0,
+          "inputs": 64,
+          "outputs": 128,
+          "minimum_current": -39,
+          "maximum_current": 43,
+          "all_neuron_binary_spike_currents_fit_signed8": true
+        },
+        {
+          "seed": 1,
+          "layer": 1,
+          "inputs": 128,
+          "outputs": 10,
+          "minimum_current": -100,
+          "maximum_current": 64,
+          "all_neuron_binary_spike_currents_fit_signed8": true
+        },
+        {
+          "seed": 2,
+          "layer": 0,
+          "inputs": 64,
+          "outputs": 128,
+          "minimum_current": -47,
+          "maximum_current": 48,
+          "all_neuron_binary_spike_currents_fit_signed8": true
+        },
+        {
+          "seed": 2,
+          "layer": 1,
+          "inputs": 128,
+          "outputs": 10,
+          "minimum_current": -97,
+          "maximum_current": 67,
+          "all_neuron_binary_spike_currents_fit_signed8": true
+        }
+      ],
+      "failures": 0,
+      "prior_bound_artifact_sha256": {
+        "audit_adaptive_delta_bounds.py": "e4ab401668619e80396efb97a540598e25816964a303e61267a08626354a5dfb",
+        "results/adaptive_delta_model_bounds.json": "eca46bce9aaaa9e7bb0da4d7a8cdf11097a8243e1be9e17e4cfea303e8092ae7"
+      },
+      "proof": "For any x_j in {0,1}, sum_j min(w_j,0) <= sum_j x_j*w_j <= sum_j max(w_j,0).",
+      "qualification": "Exact for these saved integer weights and binary spikes/current prefixes; unrelated weights, nonbinary spikes or additional currents need their own bounds.",
+      "hardware_implication": "A separately declared signed11-U/signed8-I baseline may statically implement H = hU + c - signI without a runtime I8 detector. General signed11-U/signed11-I hardware still requires fallback."
+    },
+    "static_current_certificate_artifact": {
+      "path": "common_i8_current_bounds.json",
+      "bytes": 2806,
+      "sha256": "56e7108c543591468036defcdde54eb6189a064264396d8d4a5a05fe24f7c0ec"
+    },
+    "qualification": "Saved beta231 integer reference only; sampled144 images/3 seeds, no retraining or preserved trained-model accuracy claim."
+  },
+  "policies": [
+    {
+      "name": "A: sign-certified fast path with shared exact fallback",
+      "certificate": "Signed8 U and I; signed7 is checked as the prior stricter special case.",
+      "fast_path": "H = c - sU - sI; signed2 H is sign extended. Signed7 can instead restore/sign-extend signed8 sum.",
+      "fallback": "Exact full signed5 H = hU + hI + c, shared among exception lanes.",
+      "required_overhead": [
+        "Per-lane signed8 fit detection and operand signs.",
+        "General high operands must survive until fallback; do not count their registers as removed.",
+        "Exception masks, selection muxes, ready/backpressure control and output assembly.",
+        "Overlapped correction requires job tags and bounded result/reorder storage."
+      ]
+    },
+    {
+      "name": "B: safely certified direct high copy / high-sum reuse",
+      "certificate": "Current fits signed8 and residue carry c equals current sign sI.",
+      "fast_path": "H = hU; otherwise signed8 current needs exact H = hU +/- 1, and other currents need full fallback.",
+      "strengthened_A": "A signed8 U/I fast path OR the high-copy certificate can handle some wide membranes without a general correction job.",
+      "temporal_reuse": "Reuse cached hU+hI only when both stored four-bit high keys match; equal sum alone is a retrospective diagnostic, not a free certificate.",
+      "required_overhead": [
+        "Carry arrives from DSP; high-copy selection and saved hU are needed.",
+        "Signed8-current certificate, plus increment/decrement or shared fallback.",
+        "A plain explicit-key persistent reuse cache stores 8 key bits + 5 cached high-sum bits per neuron and valid/ownership state; reuse of existing state bits might change incremental storage.",
+        "Cache state must be invalidated/updated across reset, coefficient changes and dependent neuron updates."
+      ]
+    }
+  ],
+  "prior_screen_artifact": {
+    "path": "common_adaptation_policy_results_pre_fused.json",
+    "sha256": "124279143bda3f2aeeb4b7bd2e7baeabb210642316672bbb2718e89049d78dbd"
+  },
+  "caveats": [
+    "No hardware, switching power, memory bandwidth or arrival-burst latency is measured here.",
+    "Avoiding general correction means only a runtime path count; area or power savings require actual sharing/removed units plus the LUT/mux/register/controller cost.",
+    "Same-clock fixed hybrid6 and LUT6 already consume every supplied six-value window in one issue.",
+    "Full signed11 and static-I8 worst cases have six exceptions/window: one shared corrector has five extra global-freeze clocks per window with the fused first correction.",
+    "The common fixed layout is a strong algebraic baseline, not evidence of adaptive DSP lane-count packing.",
+    "Certificates also depend on current I and DSP residue carry; actual U alone is insufficient.",
+    "Saved weights certify signed8 current independent of the trace, so a static current-specialized baseline is necessary before claiming runtime adaptation is uniquely beneficial."
+  ]
+}

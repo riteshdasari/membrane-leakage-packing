@@ -1,0 +1,29 @@
+{
+  "status": "measured_unmodified_model",
+  "rows": [
+    {
+      "threads": 4,
+      "batch": 4,
+      "samples": 64,
+      "elapsed_seconds": 5.140999999995984,
+      "class_disagreements": 0,
+      "max_logit_difference": 0.0
+    },
+    {
+      "threads": 8,
+      "batch": 4,
+      "samples": 64,
+      "elapsed_seconds": 3.9530000000013388,
+      "class_disagreements": 0,
+      "max_logit_difference": 0.0
+    },
+    {
+      "threads": 8,
+      "batch": 16,
+      "samples": 64,
+      "elapsed_seconds": 4.360000000000582,
+      "class_disagreements": 0,
+      "max_logit_difference": 7.62939453125e-06
+    }
+  ]
+}

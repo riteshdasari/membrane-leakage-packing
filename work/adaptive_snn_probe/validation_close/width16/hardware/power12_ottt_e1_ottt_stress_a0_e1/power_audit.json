@@ -1,0 +1,182 @@
+{
+  "status": "pass",
+  "engine": 1,
+  "design_top": "top_sequential_leak16_e1",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e1_ottt_stress_a0_e1",
+  "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 679,
+  "physical_activity_source_counts": {
+    "S": 908,
+    "D": 7,
+    "C": 4
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 1148,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 1,
+    "design_top": "top_sequential_leak16_e1",
+    "duration_ps": 44100000,
+    "scalar_updates": 7335,
+    "requests": 3671,
+    "retirements": 3671,
+    "clock_transitions": 7350,
+    "raw_unknown_time_records": 1148,
+    "scope": "Fixed16 actual source operands, signed9 pair metadata, golden fixture, exact routed/SDF replay and SAIF interval audit"
+  },
+  "critical_dsp_activity": {
+    "fixture/core/one_dsp.dsp/d": {
+      "CLK": {
+        "fixture/core/one_dsp.dsp/clk": {
+          "static_probability": 0.5,
+          "signal_rate_Mtransitions_per_s": 166.667,
+          "toggle_rate_percent": 200.0,
+          "source": "C"
+        }
+      },
+      "CEA2": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEB2": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEC": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEP": {
+        "fixture/core/one_dsp.dsp/ce": {
+          "static_probability": 0.998912,
+          "signal_rate_Mtransitions_per_s": 0.0453515,
+          "toggle_rate_percent": 0.0544218,
+          "source": "S"
+        }
+      }
+    }
+  },
+  "settled_constant_ffs": {
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.005744,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8028729999999998e-06,
+  "dynamic_energy_J": 2.533104e-07,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 34.53447852760736,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.0168516290797546,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.005744",
+      "iccq": "0.014842",
+      "power": "0.020585"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.591820"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 12,
+  "fixture_FF": 94,
+  "power_xpe_sha256": "b06ad97dfd587a9bf68491efa011c3673a5e7ab074275eaea15a7c4997a86ffb",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json",
+  "routed_hardware_sha256": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+  "core_resources": {
+    "LUT": 202,
+    "FF": 79,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 71
+  },
+  "WNS_ns": 3.437,
+  "WHS_ns": 0.13,
+  "scope": "Vendor estimated dynamic energy of complete common 94-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error",
+  "certified_export_audit": {
+    "status": "pass_exact_derived_export_reproduction",
+    "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_ottt_e1_ottt_stress_a0_e1\\export_binding_certificate.json",
+    "export_binding_sha256": "3ac80f5e0de80f2f48bfc851abcf05bb31fcbdf4ff0fc32039bfcc08f0e581f4",
+    "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_ottt_e1_ottt_stress_a0_e1\\sdf_structure_certificate.json",
+    "SDF_structure_certificate_sha256": "501e882b358266d83b8d84f9244991eca0351c60688ae1b584c586a8118009c3",
+    "raw_SDF_sha256": "3667d29de28fc10c5bedbac7c4c557700fb84bc53ef4e6b0b394638df6305386",
+    "derived_SDF_sha256": "5607289da516c16a747ac0a78b31528c9caf0427b801763a91433c9e26890841",
+    "appended_closing_parentheses": 3,
+    "numerical_timing_changes": 0,
+    "annotation_path_string_changes": 1,
+    "causal_discrepancy_resolution_claimed": false
+  }
+}

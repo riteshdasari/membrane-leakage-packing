@@ -1,0 +1,25 @@
+{
+  "status": "completed_synthesis_reused",
+  "original_source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_core.sv": "a55839cc223ea88a859641686f409ef413c3be064463a11eef0915c9255e1bd7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\timing.sv": "3e4700e10943509a9d36bfa426e029457e782af893637684902053a4a4203769",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\route.tcl": "667095a793bb9d51b9003cec45e5f0f89e543af0bbf3cb13c9ae5c92f4d53600",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4.py": "b4b54a6b8cbca8cc59af4bb41dcaae5ede433e8353269f536cfff866f9ec8c53",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_acceptance.json": "908c60277bcc1eafd58e759634317b5bb2b2d98923adddf1a5285772a8cfca5a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\packed_leak.sv": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\route.tcl": "1ee16abe18029d9d809823e8d6a7895091b47b956d38d129011128795cf4f9f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\timing.sv": "bf7c4723bdbd8c4159f9aee43cfcade5cc30b656940a0bbf859336b6f00d05d1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\run_guard_add_selective_route.py": "f3c6f32cbffc7662970fa41b39bac5f0de00c1adacac7ed0d00477f6e2a02ae3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_route.py": "a3fc86018317c3123b4559d85b1d549ae0f40858e58c62981baba9db62f71881",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_native_acceptance_v4.json": "1ed5b4597f99912b8cca93498bf1c2f7951b53ae501c35c83328b438d82d13d2"
+  },
+  "original_artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\route_e0_a0\\source_provenance.json": "dd204650d400e0bba3535d624eabe5674da91bfce1e078254fc8a01d599910cc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\route_e0_a0\\synth\\design.dcp": "252bbc996e89593da582ccfe3374ee51ab310ac2d3e0b09f3dd72b8b5678148a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\route_e0_a0\\synth\\provenance.txt": "05fd1fc405f559864b2e5a5e9c52a6019c93845592ba6d28539e036d70b9591c"
+  },
+  "arithmetic_unchanged": true,
+  "fixture_constraints_reapplied_before_placement": true
+}

@@ -1,0 +1,624 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\results\\replay_e3_a0\\activity.saif",
+  "source_sha256": "696bfe27726b9c6bdf8c2872f90e484fa50239fbc670789d71bf9eb980f9e9b1",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\results\\replay_e3_a0\\activity_named.saif",
+  "target_sha256": "fdf2f1d41a09f507a04b2736bd2d75ce1a2cec5a13ad4b20102af37add264e60",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 122,
+  "changes": [
+    {
+      "line": 1005,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 1012,
+      "old": "\\\\count\\[3\\]_i_2_n_0\\",
+      "new": "count\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1115,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_2_n_0"
+    },
+    {
+      "line": 1116,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1117,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1118,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1119,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1120,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1121,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1122,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1123,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1124,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1125,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1126,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1127,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1128,
+      "old": "\\\\lut_all\\.lane\\[0\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[0\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1141,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1142,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1143,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1144,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1145,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1146,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1147,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1148,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1149,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1150,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1151,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1152,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1153,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1154,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1155,
+      "old": "\\\\lut_all\\.lane\\[1\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[1\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1168,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1169,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1170,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1171,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1172,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1173,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1174,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1175,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1176,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1177,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1178,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1179,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1180,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1181,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1182,
+      "old": "\\\\lut_all\\.lane\\[2\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[2\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1195,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1196,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1197,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1198,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1199,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1200,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1201,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1202,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1203,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1204,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1205,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1206,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1207,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1208,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1209,
+      "old": "\\\\lut_all\\.lane\\[3\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[3\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1222,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1223,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1224,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1225,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1226,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1227,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1228,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1229,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1230,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1231,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1232,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1233,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1234,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1235,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1236,
+      "old": "\\\\lut_all\\.lane\\[4\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[4\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1249,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1250,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1251,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1252,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1253,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1254,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1255,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1256,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1257,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1258,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1259,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1260,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1261,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1262,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1263,
+      "old": "\\\\lut_all\\.lane\\[5\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[5\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1276,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1277,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1278,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1279,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1280,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1281,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1282,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1283,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1284,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1285,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1286,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1287,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1288,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1289,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1290,
+      "old": "\\\\lut_all\\.lane\\[6\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[6\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1303,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1304,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1305,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1306,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1307,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1308,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_7_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[11\\]_i_7_n_0"
+    },
+    {
+      "line": 1309,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1310,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1311,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1312,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1313,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1314,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1315,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1316,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1317,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1318,
+      "old": "\\\\lut_all\\.lane\\[7\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "lut_all\\.lane\\[7\\]\\.full\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "top": "top_leak_lut8_distributed",
+    "LUT": 57,
+    "FF": 34,
+    "DSP": 0,
+    "WNS_ns": 1.476,
+    "seconds": 107.7,
+    "target_ns": 4,
+    "rtl_sha256": "84f9356b635d79c20e9e3081df25a8c024bac5b07e737864776ae424a9a9cbf1",
+    "WHS_ns": 0.233,
+    "internal_period_estimate_ns": 2.524
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "domain": "V=3, ISOLATE=1; signed11 membrane plus statically signed8 current; exact signed12 sum",
+  "limits": [
+    "No RTL simulator run by this reviewer",
+    "No sequential reset/backpressure or reachability proof",
+    "No routing or SDF timing check",
+    "No proof synthesis retains isolation",
+    "No measured switching or energy result"
+  ],
+  "one_hot_selection": {
+    "certificate": "Priority selected_mask is one-hot-or-zero. Each masked OR term vanishes unless selected; a selected lane equals the original mux, and the all-zero mask forces both arithmetic operands to zero.",
+    "lane_nibble_sign_vector_cases": 393216,
+    "scope": "All work masks, each lane/nibble independently, all 64 current-sign vectors; bitwise separability checked against the exact RTL source. Not all 16**6 membrane vectors enumerated.",
+    "status": "pass",
+    "work_masks": 64
+  },
+  "review_script_sha256": "6e8c07651c1e7880a3950e1a2dc088c8243d642e283a3ecd712a2ac4f26caf84",
+  "reviewer": "isolation_review subagent",
+  "scalar_algebra": {
+    "certificate": "Bad lanes have c != sign(I8), hence hI+c is exactly +1 or -1; hU plus adjustment is the exact quotient.",
+    "exceptional_pairs": 229376,
+    "fast_copy_only_pairs": 229376,
+    "fast_small_pairs": 65536,
+    "scalar_pairs": 524288,
+    "status": "pass",
+    "sum_range": [
+      -1152,
+      1150
+    ]
+  },
+  "source_review": {
+    "corrected_high_write_sites": 2,
+    "fixture_preservation_attributes": "Original attributes retained identically; none added for isolation",
+    "folded_fixture_sha256": "6f26148ee7db1a3189494d3a078eabd9a97fe8ee5662a865927d187abf35edee",
+    "folded_sha256": "c4b9229aff63370ca94a470cb77c7d316f07280558ae951d138ddb8537953155",
+    "frozen_fixture_sha256": "d723a775f209968b58f658fab3b3f6367e627fab90a6048426ef7ed479c1b3c9",
+    "frozen_sha256": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+    "new_core_preservation_attributes": false,
+    "precise_changes": [
+      "Module rename and V=3/ISOLATE=1 defaults",
+      "One-hot masked OR of HU and current sign, with zero adjustment when selected_mask is zero"
+    ],
+    "scheduler_register_reset_and_dsp_logic": "Byte-equivalent after the two specified substitutions (newline-normalized)",
+    "source_diff": "--- frozen\n+++ folded\n@@ -12,7 +12,7 @@\n // Partial outputs have out_valid=0; completed outputs honor backpressure.\n // Lane-count/layout remain fixed, so this is adaptive EXACT CORRECTION,\n // not variable lane-count DSP packing. Binary ignored tails may be arbitrary.\n-module guard_add_selective #(parameter integer V=0)(\n+module guard_add_selective_isolated #(parameter integer V=3, parameter integer ISOLATE=1)(\n  input wire clk,rst,in_valid,out_ready,\n  input wire[65:0]u_in,i_in,input wire[2:0]available,\n  output wire in_ready,output wire[2:0]take,\n@@ -145,8 +145,24 @@\n   // A selected bad lane failed the carry==sign(I8) fast-copy certificate,\n   // so c!=sign(I8). Therefore hI+c is exactly +1 or -1. The shared\n   // current8 fallback need not select or add the DSP carry separately.\n+  // Fold zero isolation into the existing one-hot lane selection.\n+  // selected_mask has one bit set for work, and is zero when no lane is bad.\n+  // This keeps a separate v2/any-work enable out of the selected HU adder.\n+  reg[3:0]masked_hu;\n+  reg masked_negative;\n+  always @* begin\n+   masked_hu=0;masked_negative=0;\n+   for(integer r=0;r<6;r=r+1)begin\n+    masked_hu=masked_hu|(hu[r]&{4{selected_mask[r]}});\n+    masked_negative=masked_negative|(hi[r][0]&selected_mask[r]);\n+   end\n+  end\n+  wire selected_any=|selected_mask;\n   wire signed[4:0]adjustment=selected_hi[0]?5'b11111:5'b00001;\n-  assign corrected_high=selected_hu5+adjustment;\n+  wire signed[4:0]isolated_hu=ISOLATE?{masked_hu[3],masked_hu}:selected_hu5;\n+  wire signed[4:0]isolated_adjustment=ISOLATE?\n+   (selected_any?(masked_negative?5'b11111:5'b00001):5'd0):adjustment;\n+  assign corrected_high=isolated_hu+isolated_adjustment;\n  end else begin:full_bad_correction\n   assign corrected_high=selected_hu5+selected_hi5+selected_carry5;\n  end endgenerate\n",
+    "status": "pass"
+  },
+  "status": "pass",
+  "write_implication": {
+    "actual_high_write_combinations": 24192,
+    "binary_combinations": 131072,
+    "blocked_exception_combinations": 8064,
+    "implication": "Every high-part write implies selected_any. Last busy corrections are active. Blocked and stale-invalid exceptions may keep arithmetic active but write no output.",
+    "invalid_exception_combinations": 64512,
+    "last_busy_correction_combinations": 1152,
+    "scope": "Combinational implication over a superset of reachable states; no sequential/formal reachability proof.",
+    "status": "pass"
+  }
+}

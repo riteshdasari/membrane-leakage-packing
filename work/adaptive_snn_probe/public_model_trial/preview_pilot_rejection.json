@@ -1,0 +1,18 @@
+{
+  "status": "rejected_as_original_CIFAR10_benchmark",
+  "labels_equal": true,
+  "pixel_entries_different": 183349,
+  "total_pixel_entries": 196608,
+  "max_pixel_difference": 95,
+  "mean_absolute_pixel_difference": 6.0582631429036455,
+  "preview_encoding": "JPEG",
+  "old_pilot_kept": true,
+  "old_float_observer_arithmetic_results_scope": "Lossy viewer images only; not original CIFAR10 benchmark or hardware evidence.",
+  "rejected_files": [
+    "pilot_results.json",
+    "pilot_interpretation.json",
+    "static_range_screen_v2.json",
+    "pilot_test64.npz",
+    "pilot_logits.npz"
+  ]
+}

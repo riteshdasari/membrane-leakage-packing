@@ -1,0 +1,17 @@
+{
+  "status": "monitor_not_acceptance",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.sdf": "9b025cf32a05e1cbc9845d5a9f03ae7631c9197eb2f1f37b6136bc10dfcfe2a5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.v": "193072bebe51a9dc6c9af342acbba155de1378d2bb49a3824f8e693ee8fe6712",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_actual_s0_a3\\trace2.txt": "000f7f466713ac6f020ab468be3b1f4c20553a68451dd3713e738d2adae86785",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\diagnose_lut_monitor.py": "63e3ae129bd0bfa77f1374ff8abf8aac68a81408a7758261a50d142485ac470a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\monitor.sv": "464a80c0d58140947881edcff70585a12e86fc95683670e151fa48fb1b888cac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\run.tcl": "2cd7b85d4cac30634fb764575a4a83a13484bc9ecb95acf4ec1cb86cf83b00c9"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\tool_0.log": "5c00037e4c92a1c5bb9f6d2cceec2b8a1a153b681b62f4f8681dfb9cc55fe912",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\tool_1.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\tool_2.log": "a782d8755a63a903a662d7d5db586122ef0d5b1eef6bb5f3faf85f5793618616",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\tool_3.log": "6052a2bf04accb1bed6fd32315df9d88f06177ccd1231fa1f7df994f62f83b25"
+  }
+}

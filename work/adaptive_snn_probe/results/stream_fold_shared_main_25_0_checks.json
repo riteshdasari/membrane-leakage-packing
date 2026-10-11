@@ -1,0 +1,81 @@
+{
+  "source_hashes": {
+    "stream_fold_shared_leak.sv": "bfc89db097c197b96e2edc73308b829ee08a444a58d8f858645fe22bab96ffa4",
+    "tb_stream_fold_shared_leak.sv": "6c95f3c91357a132e98e87a6f296c3e8d8f002c40e79b8decdad6ba5e3b47641"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 166840,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 316358,
+      "neurons": 544431,
+      "arithmetic_issues": 313700,
+      "narrow_requests": 39775,
+      "bypass_requests": 2658,
+      "clocks": 316487,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 351583,
+      "neurons": 544431,
+      "arithmetic_issues": 348925,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 351712,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 351583,
+      "neurons": 544431,
+      "arithmetic_issues": 348925,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 351712,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 179859,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 182646,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 179859,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 182646,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 179859,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 182646,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 318653,
+      "neurons": 544431,
+      "arithmetic_issues": 315995,
+      "narrow_requests": 37404,
+      "bypass_requests": 2658,
+      "clocks": 318782,
+      "mismatches": 0
+    }
+  ]
+}

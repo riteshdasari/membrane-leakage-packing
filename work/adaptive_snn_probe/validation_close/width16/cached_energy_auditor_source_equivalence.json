@@ -1,0 +1,75 @@
+{
+  "status": "pass_additive_cached_auditor_source_equivalence",
+  "changes": [
+    {
+      "original_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12.py",
+      "original_sha256": "4bc93153255b0e6a4ebc4bc43c8724487af21561977af0db1b1ad2a300803ef9",
+      "cached_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_cached.py",
+      "cached_sha256": "c580d3156ac076f4c16fc96274c0587e8a8d8e5072fc77c6bea01f4a070b4e0f",
+      "change": "Exactly one NPZ handle assignment becomes a dictionary whose arrays are materialized once; all trace, arithmetic, SDF, activity and energy checks unchanged.",
+      "exact_reverse_substitution_reproduces_original": true,
+      "arrays_materialized": [
+        "U",
+        "beta",
+        "expected_leak",
+        "frame_lengths"
+      ],
+      "original_expression": "actual=np.load(cohort['expected_outputs_file'])",
+      "replacement_expression": "actual={key:value for key,value in np.load(cohort['expected_outputs_file']).items()}"
+    },
+    {
+      "original_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12.py",
+      "original_sha256": "496b20aa028f3321a19af6caf479b1248ab4123a915f50187b0fc3afed1eca22",
+      "cached_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_cached.py",
+      "cached_sha256": "ba8c3537bfdc8a32ee09e8099c6ec77b7c66f9aff292373448ea5b5ecbc9173a",
+      "change": "Exactly one NPZ handle assignment becomes a dictionary whose arrays are materialized once; all trace, arithmetic, SDF, activity and energy checks unchanged.",
+      "exact_reverse_substitution_reproduces_original": true,
+      "arrays_materialized": [
+        "U",
+        "beta",
+        "expected_leak",
+        "frame_lengths"
+      ],
+      "original_expression": "actual=np.load(cohort['expected_outputs_file'])",
+      "replacement_expression": "actual={key:value for key,value in np.load(cohort['expected_outputs_file']).items()}"
+    },
+    {
+      "original_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12.py",
+      "original_sha256": "90a83bb2c510ebfd34c7c466c8f640afac1291f7c81fe25dc4b4753804dd0dbf",
+      "cached_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12_cached.py",
+      "cached_sha256": "59bc0b347c758315752a24da56a2b85159f9ff68d98a50cd1d8c3d9f575a220f",
+      "change": "Exactly one NPZ handle assignment becomes a dictionary whose arrays are materialized once; all trace, arithmetic, SDF, activity and energy checks unchanged.",
+      "exact_reverse_substitution_reproduces_original": true,
+      "arrays_materialized": [
+        "U",
+        "beta",
+        "expected_leak",
+        "frame_lengths"
+      ],
+      "original_expression": "actual=np.load(cohort['expected_outputs_file'])",
+      "replacement_expression": "actual={key:value for key,value in np.load(cohort['expected_outputs_file']).items()}"
+    },
+    {
+      "original_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence.py",
+      "original_sha256": "deba54c2c3135cf1fb35a145ae2b4ddc3169671746423d83295e479d7eb5da9f",
+      "cached_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence_cached.py",
+      "cached_sha256": "fd23c9a7bd6113625a24aadce5445dc7c9b6b5adad6bc53356068e6272ea418d",
+      "change": "Exactly two auditor path literals changed to the cached variants; every explicit selection, route, SHA and reproduction check retained.",
+      "exact_reverse_substitution_reproduces_original": true
+    }
+  ],
+  "vendor_jobs_launched": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_cached_energy_auditors.py": "f0907abb0434e1c28325a71f06f0cf702b983f6b44b056e7441cd1d9d1d84e4d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12.py": "4bc93153255b0e6a4ebc4bc43c8724487af21561977af0db1b1ad2a300803ef9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12.py": "496b20aa028f3321a19af6caf479b1248ab4123a915f50187b0fc3afed1eca22",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12.py": "90a83bb2c510ebfd34c7c466c8f640afac1291f7c81fe25dc4b4753804dd0dbf",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence.py": "deba54c2c3135cf1fb35a145ae2b4ddc3169671746423d83295e479d7eb5da9f"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_cached.py": "c580d3156ac076f4c16fc96274c0587e8a8d8e5072fc77c6bea01f4a070b4e0f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_cached.py": "ba8c3537bfdc8a32ee09e8099c6ec77b7c66f9aff292373448ea5b5ecbc9173a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12_cached.py": "59bc0b347c758315752a24da56a2b85159f9ff68d98a50cd1d8c3d9f575a220f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence_cached.py": "fd23c9a7bd6113625a24aadce5445dc7c9b6b5adad6bc53356068e6272ea418d"
+  }
+}

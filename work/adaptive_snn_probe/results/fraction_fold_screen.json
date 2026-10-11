@@ -1,0 +1,94 @@
+{
+  "signed6": {
+    "range": [
+      -32,
+      31
+    ],
+    "deltas": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "exhaustive_triples": 8388608,
+    "scalar_comparisons": 25165824,
+    "max_product_field": 999
+  },
+  "signed7_delta25": {
+    "range": [
+      -64,
+      63
+    ],
+    "deltas": [
+      25
+    ],
+    "exhaustive_triples": 2097152,
+    "scalar_comparisons": 6291456,
+    "max_product_field": 999
+  },
+  "fixed3_scalar_checks": 53248,
+  "fullrange_fixed3_condition": "delta<=25",
+  "counterexample_outside_condition": {
+    "U": 63,
+    "delta": 31,
+    "field": 1185
+  },
+  "model_rows": [
+    {
+      "bits": 5,
+      "requests": 255558,
+      "continuous_clock_proxy": 255561,
+      "narrow": 119175,
+      "bypass": 7314
+    },
+    {
+      "bits": 6,
+      "requests": 234697,
+      "continuous_clock_proxy": 234700,
+      "narrow": 165423,
+      "bypass": 7307
+    },
+    {
+      "bits": 7,
+      "requests": 223472,
+      "continuous_clock_proxy": 223475,
+      "narrow": 190377,
+      "bypass": 7194
+    }
+  ],
+  "notes": [
+    "Numerical screening only; controller, RTL mapping and timing not measured for this candidate",
+    "delta25 is the existing beta231 reference, not a newly chosen model",
+    "Each lane splits U=32*h+r; DSP C absorbs32*((delta*h)mod8), metadata stores U-floor(delta*h/8)",
+    "DSP output extraction then requires only subtracting its unsigned two-bit quotient; no separate fractional carry decoder",
+    "Any RTL trial must optimize the fixed full-range3 lane by the same algebra when delta<=25; controller savings cannot be inferred from comparison to the older unoptimized triple"
+  ]
+}

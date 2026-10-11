@@ -1,0 +1,35 @@
+{
+  "note": "Full-word integer audit of two-input signed radix encoding and certified fields.\nThis does not validate DSP primitive configuration, timing, or a scheduler.\n",
+  "counts": {
+    "6": {
+      "current_tiles": 2000,
+      "membrane_tiles": 2000,
+      "lanes": 8
+    },
+    "8": {
+      "current_tiles": 2000,
+      "membrane_tiles": 2000,
+      "lanes": 6
+    },
+    "12": {
+      "current_tiles": 2000,
+      "membrane_tiles": 2000,
+      "lanes": 4
+    },
+    "16": {
+      "current_tiles": 2000,
+      "membrane_tiles": 2000,
+      "lanes": 3
+    }
+  },
+  "mismatches": 0,
+  "lane_interval_cases": 42000,
+  "signed_word_counterexample": {
+    "weights": [
+      -1,
+      2
+    ],
+    "correct_linear_encoding": 511,
+    "naive_concatenation": 767
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\completion_progress.json": "dc503339e9554b771ad212767b34219d8cbb665165d0276509be16a5ad22a5dd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\continue_after_ram_gate.py": "cf46947afa9d9fcaed769250e9ffacd28b8e4d34f8746766937d473660c30d3a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_main_stall0_a0\\provenance.json": "f7d99d51a39ec73f100fae079b0ebf20ff0df364f903c899416e4bb4e15c6943"
+  },
+  "retained_failed_attempt": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_main_stall0_a0",
+  "failure": "Before xvlog launch, free RAM moved to1.18993GiB below1.2GiB gate. No vendor jobexecuted.",
+  "policy": "Wait withmargin and retryonly prelaunch memoryassertions; arithmetic/protocol/toolfailures propagate."
+}

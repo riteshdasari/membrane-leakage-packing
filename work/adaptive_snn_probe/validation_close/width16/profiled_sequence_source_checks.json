@@ -1,0 +1,33 @@
+{
+  "status": "pass_additive_profiled_sequence_source_checks",
+  "changes": [
+    {
+      "original_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_recovery_sequence.py",
+      "original_sha256": "c5bf3d1972a63ef279d1770d717fa3a8aae4400ce58bcccb032c928ee5812c76",
+      "profiled_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_sequence.py",
+      "profiled_sha256": "61449f4b5642901e7129265d91e41fea0a75b654cfe219ff75a68d38a346aa23",
+      "exact_reverse_launch_adapter_substitutions": true,
+      "acceptance_checks_changed": false
+    },
+    {
+      "original_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run_certified.py",
+      "original_sha256": "5bcf32b5c6347ff48cbabe6f25eb251d062072a6c2699b9ee53fb6fb40b2c2ef",
+      "profiled_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run_profiled.py",
+      "profiled_sha256": "dc99616fcf0c025053ba9c0ff876fd9b736dbe67e0bc5cb4bdc26eedbb87bf02",
+      "exact_reverse_launch_adapter_substitutions": true,
+      "acceptance_checks_changed": false
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_profiled_energy_sequences.py": "38ec753e1703151114708476fdf73e437277dd81390d4496da1a5f98c89b11e0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_child.py": "343272799da74d3442e27e7c3bfa39457eceda91a6590fbefad2185087025f4b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\completed_stage_memory_audit_a0.json": "76f8d136d47d3e791f3b6b20833de2863a8760b9f6bdc560348c66d68bd587b6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_recovery_sequence.py": "c5bf3d1972a63ef279d1770d717fa3a8aae4400ce58bcccb032c928ee5812c76",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run_certified.py": "5bcf32b5c6347ff48cbabe6f25eb251d062072a6c2699b9ee53fb6fb40b2c2ef"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_sequence.py": "61449f4b5642901e7129265d91e41fea0a75b654cfe219ff75a68d38a346aa23",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run_profiled.py": "dc99616fcf0c025053ba9c0ff876fd9b736dbe67e0bc5cb4bdc26eedbb87bf02"
+  },
+  "vendor_jobs_launched": false
+}

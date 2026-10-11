@@ -1,0 +1,366 @@
+{
+  "status": "pass",
+  "cohorts": [
+    {
+      "status": "pass",
+      "kind": "models",
+      "backpressure": false,
+      "rows": [
+        {
+          "status": "pass",
+          "engine": 2,
+          "requests": 82944,
+          "neurons": 635904,
+          "service_clocks": 92160,
+          "retirements": 82944,
+          "input_stalls": 0,
+          "output_stalls": 0,
+          "group_drains": 9216,
+          "physical_latency_histogram": {
+            "1": 82944
+          },
+          "numeric_retirement_sha256": "c7dcc5fb209d0f44d68fb3e8f10180f9c1762352ef4e71322dfd14eabe4b2ac0",
+          "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\frontier_out2.txt",
+          "retirement_sha256": "a3700bc05d42954e3cb899477cfe35bbe013c65738115e542ff2064ab687de3e",
+          "reset_samples": 6,
+          "prelude_samples": 25,
+          "take_histogram": {
+            "1": 0,
+            "2": 4608,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 78336
+          },
+          "saved_states_spikes_counts_classes_match": true,
+          "actual_IF_state_feedback_checked": true,
+          "currents_recomputed_from_actual_hidden_spikes": true,
+          "sampled_reference_accuracies": {
+            "0": 0.9583333333333334,
+            "1": 0.9791666666666666,
+            "2": 1.0
+          },
+          "scope": "Actual retired sums drive independent IF state/spike/count feedback for the unchanged first48images of each saved seed; full360 reference restoration is software-only.",
+          "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\frontier_trace2.txt",
+          "trace_sha256": "29de1f91f7a8df19ba0e1ef91e7c13927c5e037025b3cb125b5e4217d5bab7fd",
+          "trace_count": 92186,
+          "first_accept_trace_index": 26,
+          "last_retire_trace_index": 92185,
+          "trace_requests": 82944,
+          "trace_neurons": 635904
+        }
+      ],
+      "trace_columns": [
+        "idx",
+        "running",
+        "done",
+        "rst",
+        "in_valid",
+        "out_ready",
+        "available",
+        "U",
+        "I",
+        "in_ready",
+        "take",
+        "out_valid",
+        "out_count",
+        "out_data",
+        "narrow_mode",
+        "advance",
+        "accepted_thiscycle",
+        "retired_thiscycle"
+      ],
+      "source_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\verify_native.py": "78e0e792290ceb7db814bd9606f4ecc4c24b0ece928fb06ac1c99b2192ca1aa9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_preparation.json": "1400244cc548bb13380afb978e58a16ddf7859b34b22c7ed47d52f9b688e4a2d",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13.sv": "ad17bb3cdbbc5a5a5182e2d37a647de153e28fcb3d43bc914d629c6499cac73b",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\CONTRACT.md": "34e11d9065d734a417c66b18430b917c484390a4e3ad4abd60877077c6516808",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\original_if\\reference_ledger.json": "df2486e7bfab01c559c83c7465fc9cb56f67ea6c63d94d5dd76586d4223d2f5e",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\original_if\\profile.json": "afc7ae3e1e445697912f0108f0112881718bc30d45a96fedcff629ea0337f549"
+      },
+      "candidate_file_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\stream_stim.txt": "64f028231be06ad30bef5d6f7499267234e79746526f7d0716e5554ec84d15b3",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\workload.json": "45fedea98626f8e93f9bbf2ecf6da1c6cfc409e8549945f7930660e13cfbd4dc",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\tool_3.log": "cb3e9e6aa47e1557b255665795f248e14ff2e12fb3b3212e2d86d047657043f7",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\frontier_out2.txt": "a3700bc05d42954e3cb899477cfe35bbe013c65738115e542ff2064ab687de3e",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\frontier_trace2.txt": "29de1f91f7a8df19ba0e1ef91e7c13927c5e037025b3cb125b5e4217d5bab7fd"
+      },
+      "clock_period_ns": 6,
+      "useful_scalar_updates": 635904,
+      "exhaustive_scalar_pairs": 0,
+      "supply2_minimum_clocks": 317952,
+      "scope": "Exact U13/I8 integer addition, ordered prefix, zero tails, reset, stalls and1advancingclock; actualIF state/spike/count feedback on originalfirst48images. No full-neuronhardware or board claim.",
+      "check_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_0_a0\\native_checks.json"
+    },
+    {
+      "status": "pass",
+      "kind": "models",
+      "backpressure": true,
+      "rows": [
+        {
+          "status": "pass",
+          "engine": 2,
+          "requests": 82944,
+          "neurons": 635904,
+          "service_clocks": 123297,
+          "retirements": 82944,
+          "input_stalls": 22131,
+          "output_stalls": 25548,
+          "group_drains": 9216,
+          "physical_latency_histogram": {
+            "1": 67894,
+            "4": 1050,
+            "3": 8398,
+            "2": 5602
+          },
+          "numeric_retirement_sha256": "c7dcc5fb209d0f44d68fb3e8f10180f9c1762352ef4e71322dfd14eabe4b2ac0",
+          "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_1_a0\\frontier_out2.txt",
+          "retirement_sha256": "938c843e87f2055ca7029018224c7639e99247c764b902b98192afa9b9bb8713",
+          "reset_samples": 6,
+          "prelude_samples": 25,
+          "take_histogram": {
+            "1": 0,
+            "2": 4608,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 78336
+          },
+          "saved_states_spikes_counts_classes_match": true,
+          "actual_IF_state_feedback_checked": true,
+          "currents_recomputed_from_actual_hidden_spikes": true,
+          "sampled_reference_accuracies": {
+            "0": 0.9583333333333334,
+            "1": 0.9791666666666666,
+            "2": 1.0
+          },
+          "scope": "Actual retired sums drive independent IF state/spike/count feedback for the unchanged first48images of each saved seed; full360 reference restoration is software-only."
+        }
+      ],
+      "trace_columns": [
+        "idx",
+        "running",
+        "done",
+        "rst",
+        "in_valid",
+        "out_ready",
+        "available",
+        "U",
+        "I",
+        "in_ready",
+        "take",
+        "out_valid",
+        "out_count",
+        "out_data",
+        "narrow_mode",
+        "advance",
+        "accepted_thiscycle",
+        "retired_thiscycle"
+      ],
+      "source_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\verify_native.py": "78e0e792290ceb7db814bd9606f4ecc4c24b0ece928fb06ac1c99b2192ca1aa9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_preparation.json": "1400244cc548bb13380afb978e58a16ddf7859b34b22c7ed47d52f9b688e4a2d",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13.sv": "ad17bb3cdbbc5a5a5182e2d37a647de153e28fcb3d43bc914d629c6499cac73b",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\CONTRACT.md": "34e11d9065d734a417c66b18430b917c484390a4e3ad4abd60877077c6516808",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\original_if\\reference_ledger.json": "df2486e7bfab01c559c83c7465fc9cb56f67ea6c63d94d5dd76586d4223d2f5e",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\original_if\\profile.json": "afc7ae3e1e445697912f0108f0112881718bc30d45a96fedcff629ea0337f549"
+      },
+      "candidate_file_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_1_a0\\stream_stim.txt": "64f028231be06ad30bef5d6f7499267234e79746526f7d0716e5554ec84d15b3",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_1_a0\\workload.json": "7af013ceef9433f454aca13580a2040053ed845008cbb16bc1fb127b9172ad43",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_1_a0\\tool_3.log": "e54a30e237632a12b995bf3711bf3492e9fd027d0b7eb293f1012ffe1c7d44c5",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_1_a0\\frontier_out2.txt": "938c843e87f2055ca7029018224c7639e99247c764b902b98192afa9b9bb8713"
+      },
+      "clock_period_ns": 6,
+      "useful_scalar_updates": 635904,
+      "exhaustive_scalar_pairs": 0,
+      "supply2_minimum_clocks": 317952,
+      "scope": "Exact U13/I8 integer addition, ordered prefix, zero tails, reset, stalls and1advancingclock; actualIF state/spike/count feedback on originalfirst48images. No full-neuronhardware or board claim.",
+      "check_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_models_1_a0\\native_checks.json"
+    },
+    {
+      "status": "pass",
+      "kind": "main",
+      "backpressure": false,
+      "rows": [
+        {
+          "status": "pass",
+          "engine": 2,
+          "requests": 264536,
+          "neurons": 2114496,
+          "service_clocks": 273776,
+          "retirements": 264536,
+          "input_stalls": 0,
+          "output_stalls": 0,
+          "group_drains": 8792,
+          "physical_latency_histogram": {
+            "1": 264536
+          },
+          "numeric_retirement_sha256": "ef49909badbf916b11ca686689d516930643563f2977ca9ac4cfcaaa6b6341a1",
+          "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\frontier_out2.txt",
+          "retirement_sha256": "651586b1bde75eb23f1865c16a8f15611d65cba47a900d852d74f3de468a11d9",
+          "reset_samples": 6,
+          "prelude_samples": 25,
+          "take_histogram": {
+            "1": 64,
+            "2": 64,
+            "3": 64,
+            "4": 64,
+            "5": 64,
+            "6": 64,
+            "7": 64,
+            "8": 264088
+          }
+        }
+      ],
+      "trace_columns": [
+        "idx",
+        "running",
+        "done",
+        "rst",
+        "in_valid",
+        "out_ready",
+        "available",
+        "U",
+        "I",
+        "in_ready",
+        "take",
+        "out_valid",
+        "out_count",
+        "out_data",
+        "narrow_mode",
+        "advance",
+        "accepted_thiscycle",
+        "retired_thiscycle"
+      ],
+      "source_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\verify_native.py": "78e0e792290ceb7db814bd9606f4ecc4c24b0ece928fb06ac1c99b2192ca1aa9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_preparation.json": "1400244cc548bb13380afb978e58a16ddf7859b34b22c7ed47d52f9b688e4a2d",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13.sv": "ad17bb3cdbbc5a5a5182e2d37a647de153e28fcb3d43bc914d629c6499cac73b",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\CONTRACT.md": "34e11d9065d734a417c66b18430b917c484390a4e3ad4abd60877077c6516808"
+      },
+      "candidate_file_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\stream_stim.txt": "d348df55b3058c3528f334fd89b6004516d33011eef833c9b106b837fe87de55",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\workload.json": "de236e052bef9df851a4497b9f44494efb67c158d17aa794a15e05bf1b72981c",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\tool_3.log": "30ff3d7a36aee44cea19c91f35537ecbd30c90b4794cdd434494fb67345fe10e",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\frontier_out2.txt": "651586b1bde75eb23f1865c16a8f15611d65cba47a900d852d74f3de468a11d9"
+      },
+      "clock_period_ns": 6,
+      "useful_scalar_updates": 2114496,
+      "exhaustive_scalar_pairs": 2097152,
+      "supply2_minimum_clocks": 1057376,
+      "scope": "Exact U13/I8 integer addition, ordered prefix, zero tails, reset, stalls and1advancingclock; actualIF state/spike/count feedback on originalfirst48images. No full-neuronhardware or board claim.",
+      "check_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\native_checks.json"
+    },
+    {
+      "status": "pass",
+      "kind": "main",
+      "backpressure": true,
+      "rows": [
+        {
+          "status": "pass",
+          "engine": 2,
+          "requests": 264536,
+          "neurons": 2114496,
+          "service_clocks": 371414,
+          "retirements": 264536,
+          "input_stalls": 73398,
+          "output_stalls": 79865,
+          "group_drains": 8792,
+          "physical_latency_histogram": {
+            "1": 218614,
+            "4": 3536,
+            "3": 26871,
+            "2": 15515
+          },
+          "numeric_retirement_sha256": "ef49909badbf916b11ca686689d516930643563f2977ca9ac4cfcaaa6b6341a1",
+          "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\frontier_out2.txt",
+          "retirement_sha256": "7f7d579264152895183c62d00323c5f541577b1c2b4713df6a292b2a45c1c39e",
+          "reset_samples": 6,
+          "prelude_samples": 25,
+          "take_histogram": {
+            "1": 64,
+            "2": 64,
+            "3": 64,
+            "4": 64,
+            "5": 64,
+            "6": 64,
+            "7": 64,
+            "8": 264088
+          }
+        }
+      ],
+      "trace_columns": [
+        "idx",
+        "running",
+        "done",
+        "rst",
+        "in_valid",
+        "out_ready",
+        "available",
+        "U",
+        "I",
+        "in_ready",
+        "take",
+        "out_valid",
+        "out_count",
+        "out_data",
+        "narrow_mode",
+        "advance",
+        "accepted_thiscycle",
+        "retired_thiscycle"
+      ],
+      "source_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\verify_native.py": "78e0e792290ceb7db814bd9606f4ecc4c24b0ece928fb06ac1c99b2192ca1aa9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_preparation.json": "1400244cc548bb13380afb978e58a16ddf7859b34b22c7ed47d52f9b688e4a2d",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13.sv": "ad17bb3cdbbc5a5a5182e2d37a647de153e28fcb3d43bc914d629c6499cac73b",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\CONTRACT.md": "34e11d9065d734a417c66b18430b917c484390a4e3ad4abd60877077c6516808"
+      },
+      "candidate_file_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\stream_stim.txt": "d348df55b3058c3528f334fd89b6004516d33011eef833c9b106b837fe87de55",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\workload.json": "46cd3560192b254039eea7c160a0f28413d41b8759ca03905498648d19416b94",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\tool_3.log": "95fde7f7066617fcec746a3ffd7aa09b2ad3337b9f2e8c12c9d6e5dfa2785ff1",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\frontier_out2.txt": "7f7d579264152895183c62d00323c5f541577b1c2b4713df6a292b2a45c1c39e"
+      },
+      "clock_period_ns": 6,
+      "useful_scalar_updates": 2114496,
+      "exhaustive_scalar_pairs": 2097152,
+      "supply2_minimum_clocks": 1057376,
+      "scope": "Exact U13/I8 integer addition, ordered prefix, zero tails, reset, stalls and1advancingclock; actualIF state/spike/count feedback on originalfirst48images. No full-neuronhardware or board claim.",
+      "check_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\native_checks.json"
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\check_natural_lut_baseline.py": "95bb90b440ce698ebdc0bc1709bc66205936960e966e125b80796fbf628b4117",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\natural_lut.sv": "40a3970290d2647d8118aa95fb36013e7efb317379cd3da9e7a6baefced43f9b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\route.tcl": "ffbc86afe10213b49c39cef1811b3ee1bc7d2ab367256eaa79d50e6bfd6c39f7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\tb_native.sv": "44644f502c433f63ffe5317485dd4d1834dad012284818f0f96faf661299151b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\timing.sv": "4e8432a4f9df9ac4f3d4548ff31b97d6bf05871708390a8ca12f9f548db5da29",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\verify_native.py": "78e0e792290ceb7db814bd9606f4ecc4c24b0ece928fb06ac1c99b2192ca1aa9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\route_u13.tcl": "69758f5393810a87ae96840be1d914dea8f5e06be0c8d96778fbd9b59f56efa2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\verify_frontier_u13.py": "99bf3725456ccdb46d44e5ce0f849677783189ef9b8220acc9fe220a26e36224",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\continue_natural_lut_baseline.py": "2d6beb9e3877a4ed54120b5b187d477684c8d9f006dfdd4137d96c41e8f7c012",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\launch_verifier.py": "b961ecf96cab8c964fff086e6ef7d5942dc873906d64e63be8378ed0a5e0f3c2"
+  },
+  "retained_verifier_import_failure": true,
+  "scope": "Operation-equivalent one-edge baseline. Independent oracle changed only for declared latency and one instance. Original failed import, sources and completed model0 simulator outputs preserved."
+}

@@ -1,0 +1,170 @@
+{
+  "note": "Matched integer-reference comparison of saved block-exponent numerical design.\nSix signed8 mantissas share one exponent. No exponent RTL or hardware cost claim.\nUses original exponent update/threshold rounding, but integer-reference leakage,\nidentical input RNG, and spike-count-only classification for a matched baseline.\n",
+  "models": [
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "thresholds": [
+        9,
+        34
+      ],
+      "reference_accuracy": 0.9611111111111111,
+      "policies": [
+        {
+          "policy": "dps_mono",
+          "rounding": "trunc",
+          "accuracy": 0.9611111111111111,
+          "prediction_disagreements": 0,
+          "spike_disagreements": 0,
+          "state_disagreements": 0,
+          "max_state_difference": 0.0,
+          "upshift_events": 0,
+          "final_max_exponent": 0
+        },
+        {
+          "policy": "dps_mono",
+          "rounding": "rha",
+          "accuracy": 0.9611111111111111,
+          "prediction_disagreements": 0,
+          "spike_disagreements": 0,
+          "state_disagreements": 0,
+          "max_state_difference": 0.0,
+          "upshift_events": 0,
+          "final_max_exponent": 0
+        },
+        {
+          "policy": "dps_bi",
+          "rounding": "trunc",
+          "accuracy": 0.9611111111111111,
+          "prediction_disagreements": 0,
+          "spike_disagreements": 0,
+          "state_disagreements": 0,
+          "max_state_difference": 0.0,
+          "upshift_events": 0,
+          "final_max_exponent": 0
+        },
+        {
+          "policy": "dps_bi",
+          "rounding": "rha",
+          "accuracy": 0.9611111111111111,
+          "prediction_disagreements": 0,
+          "spike_disagreements": 0,
+          "state_disagreements": 0,
+          "max_state_difference": 0.0,
+          "upshift_events": 0,
+          "final_max_exponent": 0
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "thresholds": [
+        17,
+        69
+      ],
+      "reference_accuracy": 0.9611111111111111,
+      "policies": [
+        {
+          "policy": "dps_mono",
+          "rounding": "trunc",
+          "accuracy": 0.8916666666666667,
+          "prediction_disagreements": 26,
+          "spike_disagreements": 1527,
+          "state_disagreements": 56596,
+          "max_state_difference": 7706.0,
+          "upshift_events": 1330,
+          "final_max_exponent": 6
+        },
+        {
+          "policy": "dps_mono",
+          "rounding": "rha",
+          "accuracy": 0.9666666666666667,
+          "prediction_disagreements": 8,
+          "spike_disagreements": 2683,
+          "state_disagreements": 55233,
+          "max_state_difference": 156.0,
+          "upshift_events": 701,
+          "final_max_exponent": 2
+        },
+        {
+          "policy": "dps_bi",
+          "rounding": "trunc",
+          "accuracy": 0.8916666666666667,
+          "prediction_disagreements": 26,
+          "spike_disagreements": 1533,
+          "state_disagreements": 56572,
+          "max_state_difference": 7706.0,
+          "upshift_events": 1358,
+          "final_max_exponent": 6
+        },
+        {
+          "policy": "dps_bi",
+          "rounding": "rha",
+          "accuracy": 0.9666666666666667,
+          "prediction_disagreements": 10,
+          "spike_disagreements": 2635,
+          "state_disagreements": 54799,
+          "max_state_difference": 146.0,
+          "upshift_events": 1061,
+          "final_max_exponent": 2
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "thresholds": [
+        9,
+        34
+      ],
+      "reference_accuracy": 0.9611111111111111,
+      "policies": [
+        {
+          "policy": "dps_mono",
+          "rounding": "trunc",
+          "accuracy": 0.9,
+          "prediction_disagreements": 28,
+          "spike_disagreements": 112148,
+          "state_disagreements": 431949,
+          "max_state_difference": 4194225.0,
+          "upshift_events": 15293,
+          "final_max_exponent": 15
+        },
+        {
+          "policy": "dps_mono",
+          "rounding": "rha",
+          "accuracy": 0.9388888888888889,
+          "prediction_disagreements": 11,
+          "spike_disagreements": 43717,
+          "state_disagreements": 411928,
+          "max_state_difference": 1125.0,
+          "upshift_events": 8891,
+          "final_max_exponent": 4
+        },
+        {
+          "policy": "dps_bi",
+          "rounding": "trunc",
+          "accuracy": 0.9,
+          "prediction_disagreements": 28,
+          "spike_disagreements": 99998,
+          "state_disagreements": 429841,
+          "max_state_difference": 4194225.0,
+          "upshift_events": 34173,
+          "final_max_exponent": 15
+        },
+        {
+          "policy": "dps_bi",
+          "rounding": "rha",
+          "accuracy": 0.9388888888888889,
+          "prediction_disagreements": 11,
+          "spike_disagreements": 43396,
+          "state_disagreements": 410792,
+          "max_state_difference": 1125.0,
+          "upshift_events": 14807,
+          "final_max_exponent": 4
+        }
+      ]
+    }
+  ]
+}

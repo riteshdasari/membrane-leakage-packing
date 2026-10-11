@@ -1,0 +1,514 @@
+[
+  {
+    "canonical_index": 155,
+    "image": "val_155.JPEG",
+    "class_id": "n03599486",
+    "label": 111,
+    "jpeg_sha256": "a4cd8d7dcc244d43872ecb806273ff87fa225293a00f1c279f2c1c7afc15d1a5",
+    "poisson_seed": 2176
+  },
+  {
+    "canonical_index": 358,
+    "image": "val_358.JPEG",
+    "class_id": "n01882714",
+    "label": 12,
+    "jpeg_sha256": "1e2100c3231b6de97be5a29b9c423e021421f498c521c3ede9114f29ca57d6c7",
+    "poisson_seed": 2379
+  },
+  {
+    "canonical_index": 416,
+    "image": "val_416.JPEG",
+    "class_id": "n04328186",
+    "label": 155,
+    "jpeg_sha256": "3a17c0b1dd75954d8343fa7993065617cf00152fa48263542eaed419c5b87764",
+    "poisson_seed": 2437
+  },
+  {
+    "canonical_index": 446,
+    "image": "val_446.JPEG",
+    "class_id": "n01644900",
+    "label": 3,
+    "jpeg_sha256": "f693b97381def3cd60c35ec7981e43a0670b5a6c090fad923d0588a041e49fef",
+    "poisson_seed": 2467
+  },
+  {
+    "canonical_index": 464,
+    "image": "val_464.JPEG",
+    "class_id": "n04311004",
+    "label": 154,
+    "jpeg_sha256": "ad08635fcd6461d9d4a32aec7883860c56b34f31043127571f99751b2c255764",
+    "poisson_seed": 2485
+  },
+  {
+    "canonical_index": 468,
+    "image": "val_468.JPEG",
+    "class_id": "n03838899",
+    "label": 125,
+    "jpeg_sha256": "a790044fdd772f523b4c34e5a310ffdc71cd3eccab06164a618335ccabd65580",
+    "poisson_seed": 2489
+  },
+  {
+    "canonical_index": 469,
+    "image": "val_469.JPEG",
+    "class_id": "n03014705",
+    "label": 89,
+    "jpeg_sha256": "8e30fe56d28444ac05a45a0fbb43e26170e37b92e3c85e3bf7c1ac643f00a5aa",
+    "poisson_seed": 2490
+  },
+  {
+    "canonical_index": 612,
+    "image": "val_612.JPEG",
+    "class_id": "n03902125",
+    "label": 128,
+    "jpeg_sha256": "792f38f330d52adee0b4771eee2d2d8528e81d9939b2656e89c8b60fd1d62794",
+    "poisson_seed": 2633
+  },
+  {
+    "canonical_index": 671,
+    "image": "val_671.JPEG",
+    "class_id": "n02699494",
+    "label": 61,
+    "jpeg_sha256": "d1fb735fb57fb0730db0286e7d8e9dedc0f8a3f39cd59885b6e468bcffe103d1",
+    "poisson_seed": 2692
+  },
+  {
+    "canonical_index": 966,
+    "image": "val_966.JPEG",
+    "class_id": "n04265275",
+    "label": 151,
+    "jpeg_sha256": "46fc9a14145e10195886e0996a6ef5e8933d5986da9549376070654480af0f18",
+    "poisson_seed": 2987
+  },
+  {
+    "canonical_index": 1307,
+    "image": "val_1307.JPEG",
+    "class_id": "n01984695",
+    "label": 19,
+    "jpeg_sha256": "762baa96bd3c486c305bf60a0b443d429621bc53ab4dd3cc229c8761c95fa18c",
+    "poisson_seed": 3328
+  },
+  {
+    "canonical_index": 1447,
+    "image": "val_1447.JPEG",
+    "class_id": "n04366367",
+    "label": 157,
+    "jpeg_sha256": "5db7bdae2b7f6243787059de11a470b40cebef594112ba1df4c31689263157b8",
+    "poisson_seed": 3468
+  },
+  {
+    "canonical_index": 1464,
+    "image": "val_1464.JPEG",
+    "class_id": "n02950826",
+    "label": 84,
+    "jpeg_sha256": "bd234b32e0a173f21a2f27766cb5b5ef922a580bb06b0ab50a7f3b37d0b66d8f",
+    "poisson_seed": 3485
+  },
+  {
+    "canonical_index": 1586,
+    "image": "val_1586.JPEG",
+    "class_id": "n03796401",
+    "label": 121,
+    "jpeg_sha256": "d060296fb693ac1dfc775227306017b31ebec142a62bfa99a235383a3fda956c",
+    "poisson_seed": 3607
+  },
+  {
+    "canonical_index": 1653,
+    "image": "val_1653.JPEG",
+    "class_id": "n07875152",
+    "label": 192,
+    "jpeg_sha256": "25b24d79263a62170e57ba491d25e557761f6209fc42c588d422d5a8416b0408",
+    "poisson_seed": 3674
+  },
+  {
+    "canonical_index": 1703,
+    "image": "val_1703.JPEG",
+    "class_id": "n02403003",
+    "label": 49,
+    "jpeg_sha256": "ce15ed43c3d91c84d75c7c364cd836cf6749e9c235c5539339d529725e0e7fac",
+    "poisson_seed": 3724
+  },
+  {
+    "canonical_index": 1797,
+    "image": "val_1797.JPEG",
+    "class_id": "n02837789",
+    "label": 74,
+    "jpeg_sha256": "f6205800b97986d78103dc3b60e23624acb81b31bb16ec5ec2040deccec63e68",
+    "poisson_seed": 3818
+  },
+  {
+    "canonical_index": 1872,
+    "image": "val_1872.JPEG",
+    "class_id": "n01945685",
+    "label": 16,
+    "jpeg_sha256": "59e12c1b4193107b16d57fbd41a27808911765ae69e4c46b73b7c98a8fa40b1e",
+    "poisson_seed": 3893
+  },
+  {
+    "canonical_index": 2276,
+    "image": "val_2276.JPEG",
+    "class_id": "n04398044",
+    "label": 160,
+    "jpeg_sha256": "f3ab8c41d47ecc81197dc1d9c3e7a2e7ed2aa9a217a508ec7ee3ac46ad2d45ec",
+    "poisson_seed": 4297
+  },
+  {
+    "canonical_index": 2470,
+    "image": "val_2470.JPEG",
+    "class_id": "n01644900",
+    "label": 3,
+    "jpeg_sha256": "74d4d8b0f5ba036ba27bc0103663a17e20500f97db9cd1f5a262ddbc4822ee1b",
+    "poisson_seed": 4491
+  },
+  {
+    "canonical_index": 2536,
+    "image": "val_2536.JPEG",
+    "class_id": "n04371430",
+    "label": 158,
+    "jpeg_sha256": "c9363a57dee4ed888c11b2828cf3ed67939751c4180d5fac66076ca1e3419648",
+    "poisson_seed": 4557
+  },
+  {
+    "canonical_index": 2925,
+    "image": "val_2925.JPEG",
+    "class_id": "n02094433",
+    "label": 25,
+    "jpeg_sha256": "7a7b195c883ade1be90cd8d4699f0327709b645720cd2d234432074603c63018",
+    "poisson_seed": 4946
+  },
+  {
+    "canonical_index": 3104,
+    "image": "val_3104.JPEG",
+    "class_id": "n03400231",
+    "label": 104,
+    "jpeg_sha256": "887fa43ae6348c6754ad25fedc2b150051381fda9ea127c98b520ca2ea516ba0",
+    "poisson_seed": 5125
+  },
+  {
+    "canonical_index": 3595,
+    "image": "val_3595.JPEG",
+    "class_id": "n01983481",
+    "label": 18,
+    "jpeg_sha256": "33ef041dcb4a7069afa1d5518697eee02899d9c5d4f4f307ccaf9c38f2094409",
+    "poisson_seed": 5616
+  },
+  {
+    "canonical_index": 3627,
+    "image": "val_3627.JPEG",
+    "class_id": "n01910747",
+    "label": 13,
+    "jpeg_sha256": "a41b5956b26c8a59a6d12f499c4f4a7455f1ad020e0b42cb6783dc17faf63c3e",
+    "poisson_seed": 5648
+  },
+  {
+    "canonical_index": 3839,
+    "image": "val_3839.JPEG",
+    "class_id": "n02481823",
+    "label": 55,
+    "jpeg_sha256": "6e0e10d2447e505454f6dc4d2f99145ded8e82ac3fd29caaf0c3770821733546",
+    "poisson_seed": 5860
+  },
+  {
+    "canonical_index": 4092,
+    "image": "val_4092.JPEG",
+    "class_id": "n03424325",
+    "label": 106,
+    "jpeg_sha256": "8ef12349cd9ce62f59dbfcecc6d673a87a18a6bbe334fa58855a201885e23a13",
+    "poisson_seed": 6113
+  },
+  {
+    "canonical_index": 4126,
+    "image": "val_4126.JPEG",
+    "class_id": "n04532670",
+    "label": 170,
+    "jpeg_sha256": "f7e07156f86e800494da855a8ac0554fd6aaac87d1dde74f2df1449679439f6f",
+    "poisson_seed": 6147
+  },
+  {
+    "canonical_index": 4250,
+    "image": "val_4250.JPEG",
+    "class_id": "n02395406",
+    "label": 48,
+    "jpeg_sha256": "c640feb83bca662b94be96f36850095766d5b0483693c912a8d3f4d735fb77d9",
+    "poisson_seed": 6271
+  },
+  {
+    "canonical_index": 4269,
+    "image": "val_4269.JPEG",
+    "class_id": "n04118538",
+    "label": 143,
+    "jpeg_sha256": "1bf9bc288f6c996f7dadde72a0b5e50eeecbc0044bba7f2f92f9486bb05b2657",
+    "poisson_seed": 6290
+  },
+  {
+    "canonical_index": 4384,
+    "image": "val_4384.JPEG",
+    "class_id": "n07749582",
+    "label": 187,
+    "jpeg_sha256": "4a5cb29eb80ac39b4f71a74fee556ee3adddcc402541052f8cbec4013498520d",
+    "poisson_seed": 6405
+  },
+  {
+    "canonical_index": 4638,
+    "image": "val_4638.JPEG",
+    "class_id": "n01629819",
+    "label": 1,
+    "jpeg_sha256": "577462d8044685fd79b7dd9fee3d6f4f751df2f3daa83194dbe950ada2da4dc1",
+    "poisson_seed": 6659
+  },
+  {
+    "canonical_index": 4769,
+    "image": "val_4769.JPEG",
+    "class_id": "n07747607",
+    "label": 186,
+    "jpeg_sha256": "aaae58b976fbfeb81bd4c552fa035b7b39c78c2cf5f29d5a80ab977d43409177",
+    "poisson_seed": 6790
+  },
+  {
+    "canonical_index": 5409,
+    "image": "val_5409.JPEG",
+    "class_id": "n02415577",
+    "label": 51,
+    "jpeg_sha256": "717de32419073efe5c4f1141b127a9b7a55a5bc4be4845ab396b43d0c56c29a8",
+    "poisson_seed": 7430
+  },
+  {
+    "canonical_index": 5933,
+    "image": "val_5933.JPEG",
+    "class_id": "n04311004",
+    "label": 154,
+    "jpeg_sha256": "410c9edff8fc7e20e605e2bac59f9260ada976b5f788e43dec5112d605cd2e07",
+    "poisson_seed": 7954
+  },
+  {
+    "canonical_index": 5996,
+    "image": "val_5996.JPEG",
+    "class_id": "n03599486",
+    "label": 111,
+    "jpeg_sha256": "055487f3c7315d39b5365c5a218649a7cec0444b12400c431562ffd17098c929",
+    "poisson_seed": 8017
+  },
+  {
+    "canonical_index": 6438,
+    "image": "val_6438.JPEG",
+    "class_id": "n04532670",
+    "label": 170,
+    "jpeg_sha256": "90b7e1726b7c607fa8aa8dbe6ed8b26eb0f72faac7e82d36ae1ed1fd3c9561ca",
+    "poisson_seed": 8459
+  },
+  {
+    "canonical_index": 6496,
+    "image": "val_6496.JPEG",
+    "class_id": "n04008634",
+    "label": 137,
+    "jpeg_sha256": "4909a5fd8f65fe5631a8b687950216d26e09638de6b2e373fd5be2bee4afdee3",
+    "poisson_seed": 8517
+  },
+  {
+    "canonical_index": 6618,
+    "image": "val_6618.JPEG",
+    "class_id": "n03026506",
+    "label": 90,
+    "jpeg_sha256": "f6b1930a74a34ed2a006c557eae33c7bd82cd124eab55681b54710c89759b7dc",
+    "poisson_seed": 8639
+  },
+  {
+    "canonical_index": 6706,
+    "image": "val_6706.JPEG",
+    "class_id": "n07583066",
+    "label": 178,
+    "jpeg_sha256": "320e54aa89cac86b9f5b00220c4e154e0e4af8e94382a1a07be52789235becf9",
+    "poisson_seed": 8727
+  },
+  {
+    "canonical_index": 6767,
+    "image": "val_6767.JPEG",
+    "class_id": "n04371430",
+    "label": 158,
+    "jpeg_sha256": "47ac5af4d4af1fbd5e1c7d78f7c632c7fa9ae027fe03ef47be45d99e89da1efb",
+    "poisson_seed": 8788
+  },
+  {
+    "canonical_index": 7122,
+    "image": "val_7122.JPEG",
+    "class_id": "n02099712",
+    "label": 27,
+    "jpeg_sha256": "4b56a5518d84e43ea90525ad1ca4ea9fca80b7e6f60ddd3673409c27cefbd21d",
+    "poisson_seed": 9143
+  },
+  {
+    "canonical_index": 7264,
+    "image": "val_7264.JPEG",
+    "class_id": "n02056570",
+    "label": 21,
+    "jpeg_sha256": "5311bbbf5961ba846e66a6c0a843826e3115071bb476095537c792cd654ec1cf",
+    "poisson_seed": 9285
+  },
+  {
+    "canonical_index": 7397,
+    "image": "val_7397.JPEG",
+    "class_id": "n04099969",
+    "label": 142,
+    "jpeg_sha256": "187fb9a9b6899c503de885557976e20c675136fb5e1e0aff73dc562ebc0cd98c",
+    "poisson_seed": 9418
+  },
+  {
+    "canonical_index": 7621,
+    "image": "val_7621.JPEG",
+    "class_id": "n03763968",
+    "label": 119,
+    "jpeg_sha256": "9875716397a32f39b0095ec825fb1c7b3c3206131d55df184442e0a4bad160d9",
+    "poisson_seed": 9642
+  },
+  {
+    "canonical_index": 7653,
+    "image": "val_7653.JPEG",
+    "class_id": "n02788148",
+    "label": 64,
+    "jpeg_sha256": "cde73e1b10917dd3aad033a0eeb18cf1b4d197eacd7a972f7acbc6920f51c08d",
+    "poisson_seed": 9674
+  },
+  {
+    "canonical_index": 7959,
+    "image": "val_7959.JPEG",
+    "class_id": "n02125311",
+    "label": 33,
+    "jpeg_sha256": "5588226a65731d0000e43bbeee2ac05775e03813a53016bd3963fcc5c53b2124",
+    "poisson_seed": 9980
+  },
+  {
+    "canonical_index": 8015,
+    "image": "val_8015.JPEG",
+    "class_id": "n07734744",
+    "label": 185,
+    "jpeg_sha256": "ee321209d813fbc176cd0281add0f7630d941dc639eca4793cb7eb835e5c78e8",
+    "poisson_seed": 10036
+  },
+  {
+    "canonical_index": 8069,
+    "image": "val_8069.JPEG",
+    "class_id": "n04265275",
+    "label": 151,
+    "jpeg_sha256": "1a6059c6f51a63f4c64b3cdfac2ea70a102565fd8bc6d34512df4ef453addf23",
+    "poisson_seed": 10090
+  },
+  {
+    "canonical_index": 8138,
+    "image": "val_8138.JPEG",
+    "class_id": "n02132136",
+    "label": 35,
+    "jpeg_sha256": "a372974b3131b800e9ce3bf777c905f9f3563629f9b4bc3af6bea3fa5205c260",
+    "poisson_seed": 10159
+  },
+  {
+    "canonical_index": 8153,
+    "image": "val_8153.JPEG",
+    "class_id": "n01984695",
+    "label": 19,
+    "jpeg_sha256": "22647665989761fe4fa94bfdcf5e31a1076f0fde44f4ade49b998c194e1c712a",
+    "poisson_seed": 10174
+  },
+  {
+    "canonical_index": 8228,
+    "image": "val_8228.JPEG",
+    "class_id": "n04259630",
+    "label": 150,
+    "jpeg_sha256": "07e6a25a89b88cd1fa6cf1df318ac10f847435021557f837164b5069061a175a",
+    "poisson_seed": 10249
+  },
+  {
+    "canonical_index": 8441,
+    "image": "val_8441.JPEG",
+    "class_id": "n04465501",
+    "label": 164,
+    "jpeg_sha256": "d36bbf3259b8a183980692e55ea6057c75bde8d2268b6a87dcf757617f376d82",
+    "poisson_seed": 10462
+  },
+  {
+    "canonical_index": 8477,
+    "image": "val_8477.JPEG",
+    "class_id": "n01784675",
+    "label": 10,
+    "jpeg_sha256": "73a345b6a646be39d3ee2acc387e185e9a042b776892722dd5bfe1851cb6b494",
+    "poisson_seed": 10498
+  },
+  {
+    "canonical_index": 8514,
+    "image": "val_8514.JPEG",
+    "class_id": "n04501370",
+    "label": 167,
+    "jpeg_sha256": "30a215b88aa1b126f13c497268eb8eff25d46aaca4551db1567e239b7b316473",
+    "poisson_seed": 10535
+  },
+  {
+    "canonical_index": 8565,
+    "image": "val_8565.JPEG",
+    "class_id": "n01855672",
+    "label": 11,
+    "jpeg_sha256": "dfee565bfaa306256dfa649d784a5953f3f0dc5987281b943e294959ed4c76c2",
+    "poisson_seed": 10586
+  },
+  {
+    "canonical_index": 8850,
+    "image": "val_8850.JPEG",
+    "class_id": "n02132136",
+    "label": 35,
+    "jpeg_sha256": "811bcc1c6c6a172a5e41624855d2c3d314d90477673ddc3a4fe3a8527d7e55eb",
+    "poisson_seed": 10871
+  },
+  {
+    "canonical_index": 8910,
+    "image": "val_8910.JPEG",
+    "class_id": "n02415577",
+    "label": 51,
+    "jpeg_sha256": "dd19448f8152316402078fc35c2a376cfaad32567e8fff9e981feae032cacaa9",
+    "poisson_seed": 10931
+  },
+  {
+    "canonical_index": 9288,
+    "image": "val_9288.JPEG",
+    "class_id": "n02165456",
+    "label": 36,
+    "jpeg_sha256": "3c7544794ccae4b313bbcae7ca1d34a7749bbe9c8387c2a0d42aa1e791674cce",
+    "poisson_seed": 11309
+  },
+  {
+    "canonical_index": 9302,
+    "image": "val_9302.JPEG",
+    "class_id": "n02481823",
+    "label": 55,
+    "jpeg_sha256": "5b3ad59473a29ead80f7b4d8a7ff39b0ed29e4b20208bcbc54fbe438fd5a2c55",
+    "poisson_seed": 11323
+  },
+  {
+    "canonical_index": 9449,
+    "image": "val_9449.JPEG",
+    "class_id": "n02730930",
+    "label": 62,
+    "jpeg_sha256": "15630733bc4812a50586386898522d355eda522d341dfd6adde3362c1f9e32b9",
+    "poisson_seed": 11470
+  },
+  {
+    "canonical_index": 9536,
+    "image": "val_9536.JPEG",
+    "class_id": "n04254777",
+    "label": 149,
+    "jpeg_sha256": "6dc9f29714b764aace474096f3a94dda0b2ff82125e5654c54bd652ecc829324",
+    "poisson_seed": 11557
+  },
+  {
+    "canonical_index": 9726,
+    "image": "val_9726.JPEG",
+    "class_id": "n03089624",
+    "label": 93,
+    "jpeg_sha256": "23f67ef512da351da6c8e4ea4be940360d6ae8a660b206d2e21a8c27583b8443",
+    "poisson_seed": 11747
+  },
+  {
+    "canonical_index": 9883,
+    "image": "val_9883.JPEG",
+    "class_id": "n02788148",
+    "label": 64,
+    "jpeg_sha256": "281c695a2b4c48c0087d721d49be981a98854c60b2f88cd1f283eb12f5791ad5",
+    "poisson_seed": 11904
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "samples": 64,
+  "batch": 4,
+  "threads": 2,
+  "source_commit": "c15d5da05eea0c48e1fa837a4f8073297006d93f",
+  "checkpoint_sha256": "c66b1f886ae840d0e3fd969c3957bb929590fff305cc4d19b6d25e33170dd56f",
+  "data_sha256": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+  "contract_sha256": "3d16112e7cefc7f77a397b0b70abf495223e4faf25e39fac9950bc2c973a02ab",
+  "runner_sha256": "7f42c0dd032e6f37cb25a8ab6dc5ce159f77b433998b13f8c0fe113fc3d228aa",
+  "integer_sha256": "019c7054334335212e0535ccf245c8925bd2949d6a3183ef2e2c5354ef4ab836"
+}

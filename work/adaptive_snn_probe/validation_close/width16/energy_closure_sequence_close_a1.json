@@ -1,0 +1,560 @@
+{
+  "status": "running",
+  "B": 16,
+  "steps": [
+    {
+      "label": "E7_general_s0",
+      "returncode": 0,
+      "seconds": 211.05206871032715,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_general_s0_close_a0.log",
+      "log_sha256": "aff2f8100a91328768bfdd48baf6569353961e0df97e4573887467afb635749d",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_general_s0_close_a0\\acceptance.json",
+          "sha256": "404ac33d20595c779a40efc33065ea6d06f2a5f30ab11a173b27e75a7974efa8",
+          "status": "pass"
+        }
+      ],
+      "reused_from_sequence": true,
+      "reused_sequence_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json",
+      "reused_sequence_sha256": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+      "vendor_jobs_rerun": false,
+      "original_record": {
+        "label": "E7_general_s0",
+        "returncode": 0,
+        "seconds": 211.05206871032715,
+        "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_general_s0_close_a0.log",
+        "log_sha256": "aff2f8100a91328768bfdd48baf6569353961e0df97e4573887467afb635749d",
+        "status": "accepted_stage_gate",
+        "acceptance_gates": [
+          {
+            "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_general_s0_close_a0\\acceptance.json",
+            "sha256": "404ac33d20595c779a40efc33065ea6d06f2a5f30ab11a173b27e75a7974efa8",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "label": "E7_general_s1",
+      "returncode": 0,
+      "seconds": 295.2355885505676,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_general_s1_close_a0.log",
+      "log_sha256": "c5dad2cb2516741c7e4d17d0327104417533b8fa15d4e436f7751d90c047519d",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_general_s1_close_a0\\acceptance.json",
+          "sha256": "c43e5961adb3a123fff67ff219ebefed2e0f728483f092583cddca2135734e75",
+          "status": "pass"
+        }
+      ],
+      "reused_from_sequence": true,
+      "reused_sequence_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json",
+      "reused_sequence_sha256": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+      "vendor_jobs_rerun": false,
+      "original_record": {
+        "label": "E7_general_s1",
+        "returncode": 0,
+        "seconds": 295.2355885505676,
+        "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_general_s1_close_a0.log",
+        "log_sha256": "c5dad2cb2516741c7e4d17d0327104417533b8fa15d4e436f7751d90c047519d",
+        "status": "accepted_stage_gate",
+        "acceptance_gates": [
+          {
+            "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_general_s1_close_a0\\acceptance.json",
+            "sha256": "c43e5961adb3a123fff67ff219ebefed2e0f728483f092583cddca2135734e75",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "label": "E7_actual_glif_s0",
+      "returncode": 0,
+      "seconds": 393.0464503765106,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_actual_glif_s0_close_a0.log",
+      "log_sha256": "55dfabc65229b9cf083344b82870ce93e5ed74f52bddf100ac7a513a1dc5d4fb",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_actual_glif_s0_close_a0\\acceptance.json",
+          "sha256": "988a7dc3250b1476a2b52ca5f541e67ed653e6a5ad7a1ecf55f233a961d71419",
+          "status": "pass"
+        }
+      ],
+      "reused_from_sequence": true,
+      "reused_sequence_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json",
+      "reused_sequence_sha256": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+      "vendor_jobs_rerun": false,
+      "original_record": {
+        "label": "E7_actual_glif_s0",
+        "returncode": 0,
+        "seconds": 393.0464503765106,
+        "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_actual_glif_s0_close_a0.log",
+        "log_sha256": "55dfabc65229b9cf083344b82870ce93e5ed74f52bddf100ac7a513a1dc5d4fb",
+        "status": "accepted_stage_gate",
+        "acceptance_gates": [
+          {
+            "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_actual_glif_s0_close_a0\\acceptance.json",
+            "sha256": "988a7dc3250b1476a2b52ca5f541e67ed653e6a5ad7a1ecf55f233a961d71419",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "label": "E7_route12",
+      "returncode": 0,
+      "seconds": 396.54655599594116,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_route12_close_a0.log",
+      "log_sha256": "baa3ea7b1d6b238fbacc6e29569c46ed0571e0bf5d07418b482d806b39879dd8",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+          "sha256": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+          "status": "pass"
+        }
+      ],
+      "reused_from_sequence": true,
+      "reused_sequence_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json",
+      "reused_sequence_sha256": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+      "vendor_jobs_rerun": false,
+      "original_record": {
+        "label": "E7_route12",
+        "returncode": 0,
+        "seconds": 396.54655599594116,
+        "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_route12_close_a0.log",
+        "log_sha256": "baa3ea7b1d6b238fbacc6e29569c46ed0571e0bf5d07418b482d806b39879dd8",
+        "status": "accepted_stage_gate",
+        "acceptance_gates": [
+          {
+            "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+            "sha256": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "label": "E8_pair_s0",
+      "status": "accepted_stage_gate",
+      "seconds": 0.49751901626586914,
+      "reused_cached_native": true,
+      "vendor_jobs_rerun": false,
+      "imported_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json",
+      "imported_acceptance_sha256": "5f42c2816f0277bcee10cc667b503a7763078562beb9ed1057cc5cbc72175d75",
+      "independent_native_gate": {
+        "acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json",
+        "acceptance_sha256": "5f42c2816f0277bcee10cc667b503a7763078562beb9ed1057cc5cbc72175d75",
+        "cohort": "pair",
+        "stall": 0,
+        "rows": [
+          {
+            "engine": 5,
+            "operations": 271866,
+            "requests": 140272,
+            "min_latency": 2,
+            "max_latency": 2,
+            "output_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\out0.txt",
+            "output_sha256": "82ae3957a326f2ce17ab01e93bcae27d00b8b3194da001ac96eda398b444679e"
+          },
+          {
+            "engine": 8,
+            "operations": 271866,
+            "requests": 140272,
+            "min_latency": 2,
+            "max_latency": 2,
+            "output_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\out1.txt",
+            "output_sha256": "82ae3957a326f2ce17ab01e93bcae27d00b8b3194da001ac96eda398b444679e"
+          }
+        ]
+      },
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json",
+          "sha256": "5f42c2816f0277bcee10cc667b503a7763078562beb9ed1057cc5cbc72175d75",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "label": "E8_pair_s1",
+      "returncode": 0,
+      "seconds": 39.72516489028931,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E8_pair_s1_close_a1.log",
+      "log_sha256": "361a040b1dd82976e9bb0d45f587ee6acfb466599bd407780abd08180873b5f6",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s1_close_a1\\acceptance.json",
+          "sha256": "f8ba672e9b52f00b46ecad1f21ed9573043ddbaea3aeee150ce5137ec65bfddd",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "label": "E8_scalar_s0",
+      "returncode": 0,
+      "seconds": 34.33053183555603,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E8_scalar_s0_close_a1.log",
+      "log_sha256": "4ec0ac57f40e05cb852caee603a0965e224ecade7e7c8602bc5c7e14764ac4f9",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_scalar_s0_close_a1\\acceptance.json",
+          "sha256": "f74967b403cb6ddfbc7f3f588aebd70f75e43f6c7e13b04d7956f93c8610b568",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "label": "E8_scalar_s1",
+      "returncode": 0,
+      "seconds": 34.25224447250366,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E8_scalar_s1_close_a1.log",
+      "log_sha256": "c08ff277d3b116cf4111c15ae1e051d23f4a85a2f327d6a077f885b322bf26cb",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_scalar_s1_close_a1\\acceptance.json",
+          "sha256": "1915d6215904d439dedb5d80499e56041c48d6894b022c694ff4d1fc7920dc4f",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "label": "E8_route12",
+      "returncode": 0,
+      "seconds": 208.73943853378296,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E8_route12_close_a1.log",
+      "log_sha256": "58422254397c4a490c85c82abee61bdd0659dfb659fcb490980a4f8576c7030a",
+      "status": "accepted_stage_gate",
+      "acceptance_gates": [
+        {
+          "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\route12_e8_close_a1\\hardware.json",
+          "sha256": "e760c24a40907de16c87eeec67ebd84e432ba3902d9c11b6cd0bb0cf79474a34",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "label": "GLIF_energy_e5",
+      "returncode": 0,
+      "seconds": 116.76858139038086,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e5_close_a1.log",
+      "log_sha256": "274aba7d2c11ec19d9e3302cf6cd28a2c015b4c7c91b77eb9a7c5d038e585dca",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('C:\\\\Users\\\\Ritesh\\\\Documents\\\\Codex\\\\2026-10-08\\\\oka\\\\work\\\\adaptive_snn_probe\\\\validation_close\\\\width16\\\\energy12_glif_close_a1_e5_golden_export_replay_power_progress.json', 'completed_with_retained_failures'))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e1",
+      "returncode": 3221226091,
+      "seconds": 0.029004812240600586,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e1_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e2",
+      "returncode": 3221226091,
+      "seconds": 0.025995731353759766,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e2_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e0",
+      "returncode": 3221226091,
+      "seconds": 0.050995826721191406,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e0_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e3",
+      "returncode": 3221226091,
+      "seconds": 0.025002241134643555,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e3_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e4",
+      "returncode": 3221226091,
+      "seconds": 0.03799748420715332,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e4_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e7",
+      "returncode": 3221226091,
+      "seconds": 0.022001028060913086,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e7_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e5",
+      "returncode": 3221226091,
+      "seconds": 0.03299880027770996,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e5_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e1",
+      "returncode": 3221226091,
+      "seconds": 0.024003267288208008,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e1_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e2",
+      "returncode": 3221226091,
+      "seconds": 0.024997949600219727,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e2_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e6",
+      "returncode": 3221226091,
+      "seconds": 0.025999784469604492,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e6_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e0",
+      "returncode": 3221226091,
+      "seconds": 0.03299975395202637,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e0_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e3",
+      "returncode": 3221226091,
+      "seconds": 0.030003070831298828,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e3_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e4",
+      "returncode": 3221226091,
+      "seconds": 0.027001619338989258,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e4_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    }
+  ],
+  "failures": [
+    {
+      "label": "GLIF_energy_e5",
+      "returncode": 0,
+      "seconds": 116.76858139038086,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e5_close_a1.log",
+      "log_sha256": "274aba7d2c11ec19d9e3302cf6cd28a2c015b4c7c91b77eb9a7c5d038e585dca",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('C:\\\\Users\\\\Ritesh\\\\Documents\\\\Codex\\\\2026-10-08\\\\oka\\\\work\\\\adaptive_snn_probe\\\\validation_close\\\\width16\\\\energy12_glif_close_a1_e5_golden_export_replay_power_progress.json', 'completed_with_retained_failures'))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e1",
+      "returncode": 3221226091,
+      "seconds": 0.029004812240600586,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e1_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e2",
+      "returncode": 3221226091,
+      "seconds": 0.025995731353759766,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e2_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e0",
+      "returncode": 3221226091,
+      "seconds": 0.050995826721191406,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e0_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e3",
+      "returncode": 3221226091,
+      "seconds": 0.025002241134643555,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e3_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e4",
+      "returncode": 3221226091,
+      "seconds": 0.03799748420715332,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e4_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "GLIF_energy_e7",
+      "returncode": 3221226091,
+      "seconds": 0.022001028060913086,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_GLIF_energy_e7_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e5",
+      "returncode": 3221226091,
+      "seconds": 0.03299880027770996,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e5_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e1",
+      "returncode": 3221226091,
+      "seconds": 0.024003267288208008,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e1_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e2",
+      "returncode": 3221226091,
+      "seconds": 0.024997949600219727,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e2_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e6",
+      "returncode": 3221226091,
+      "seconds": 0.025999784469604492,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e6_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e0",
+      "returncode": 3221226091,
+      "seconds": 0.03299975395202637,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e0_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e3",
+      "returncode": 3221226091,
+      "seconds": 0.030003070831298828,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e3_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    },
+    {
+      "label": "OTTT_energy_e4",
+      "returncode": 3221226091,
+      "seconds": 0.027001619338989258,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_OTTT_energy_e4_close_a1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 3221226091))",
+      "acceptance_gates": []
+    }
+  ],
+  "source_sha256": {
+    "C:\\AMDDesignTools\\2025.2\\data\\verilog\\src\\glbl.v": "6270251cf35e1fce3119fc79f8fb968912f7983027e43cf030409ba68f048936",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\aggregate_hardwareclosure.py": "721fbf3fdcf17ef244174dfc4c1eab35c7cc8933826f2dd43651230161a02818",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_energy16_lutceil_12.py": "f1684fd31ae0f11ad7ef6e0b8a63ec9f3eb6fc2e9bed6c6c1ab771a1a7e0106f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_native16_lutceil_v2.py": "634e99076bba42f7941d290dcd76d32edcc83fc425ac34c2fabc91a1f98a837f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_route16_lutceil.py": "b2b5dd0ed1398dcb902443b6a46a4767075867c901b7a497fc773b345c08945b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy16_12.py": "9283502c8fa5eed29828b86189eb5fc10304a4c8920ad0c9de974f0382ba89ed",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_closure_sequence_v2.py": "f865f4b6d3e3b3d5999d6dfbbc081eb25c926fe318b106087506c021b35f30bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_closure_sequence_v3.py": "0518fa74034078fb7b755f971f4cae69cfd47fb9831e4e4c486174f3600f118e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\audit_closure_static9.py": "d363dbc097e0b9cf3dffd6e54b4ded7b8b8d1855e2524aa6b1493c33ec6d9dcb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\import_completed_native_cached.py": "7107394f6e5872c1256ffb25b1125feed165734ffca67ef6ac34dedf924561ae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_native_static9_v2.py": "abe50488ab28bf92cd97ddcc7f89c045903e23f098cdfc137f3270cddfd132bd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_route_static9.py": "353df2d0dba312dd34b4614609b4229cf6cb701637b3eb4191373330a5e51876",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_actual_glif_s0_close_a0.log": "55dfabc65229b9cf083344b82870ce93e5ed74f52bddf100ac7a513a1dc5d4fb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_general_s0_close_a0.log": "aff2f8100a91328768bfdd48baf6569353961e0df97e4573887467afb635749d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_general_s1_close_a0.log": "c5dad2cb2516741c7e4d17d0327104417533b8fa15d4e436f7751d90c047519d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_E7_route12_close_a0.log": "baa3ea7b1d6b238fbacc6e29569c46ed0571e0bf5d07418b482d806b39879dd8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_actual_glif_s0_close_a0\\acceptance.json": "988a7dc3250b1476a2b52ca5f541e67ed653e6a5ad7a1ecf55f233a961d71419",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_general_s0_close_a0\\acceptance.json": "404ac33d20595c779a40efc33065ea6d06f2a5f30ab11a173b27e75a7974efa8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_general_s1_close_a0\\acceptance.json": "c43e5961adb3a123fff67ff219ebefed2e0f728483f092583cddca2135734e75",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json": "5f42c2816f0277bcee10cc667b503a7763078562beb9ed1057cc5cbc72175d75"
+  },
+  "route_acceptance": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json",
+  "resume_sequence_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json",
+  "resume_sequence_sha256": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+  "prior_state_at_resume": "running",
+  "retained_prior_tail": [],
+  "retained_prior_failures": [],
+  "pair0_import": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json",
+  "current_stage": "OTTT_energy_e4"
+}

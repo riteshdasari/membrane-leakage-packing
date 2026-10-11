@@ -1,0 +1,75 @@
+{
+  "status": "pass_certified_additive_SDF_structure_derivative",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export_raw12_ottt_e4_ottt_stress_a0_e4\\routed.sdf",
+  "source_sha256": "a23b7ea0d667fd5f26df36af253cb08de2747db157d1ad7e9772a18cc55fc058",
+  "derivative": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_ottt_e4_ottt_stress_a0_e4\\routed.sdf",
+  "derivative_sha256": "475509777e76cb10bce0aa37d2b0798abafe1826827e546749636894ba00b589",
+  "exact_appended_hex": "0a2929290a",
+  "appended_closing_parentheses": 3,
+  "raw_source_modified": false,
+  "numerical_delays_modified": false,
+  "all_original_bytes_are_exact_prefix": true,
+  "all_original_lexical_tokens_are_exact_prefix": true,
+  "all_original_cell_paths_delays_timing_checks_PATHPULSE_unchanged": true,
+  "source_structural_audit": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export_raw12_ottt_e4_ottt_stress_a0_e4\\routed.sdf",
+    "source_sha256": "a23b7ea0d667fd5f26df36af253cb08de2747db157d1ad7e9772a18cc55fc058",
+    "bytes": 123789,
+    "lexical_tokens": 21205,
+    "strict_structurally_balanced": false,
+    "direct_root_cell_count": 148,
+    "complete_cell_count": 147,
+    "incomplete_cell_instances": [
+      ""
+    ],
+    "unclosed_expressions_at_EOF": [
+      {
+        "expression": "DELAYFILE",
+        "line": 1,
+        "column": 1,
+        "character_offset": 0,
+        "opening_line": "(DELAYFILE "
+      },
+      {
+        "expression": "CELL",
+        "line": 2494,
+        "column": 1,
+        "character_offset": 98748,
+        "opening_line": "(CELL "
+      },
+      {
+        "expression": "DELAY",
+        "line": 2497,
+        "column": 5,
+        "character_offset": 98820,
+        "opening_line": "    (DELAY"
+      }
+    ],
+    "EOF_only_added_closing_parentheses": 3,
+    "EOF_only_repair_preserves_every_original_token": true,
+    "EOF_only_repair_preserves_all_original_cell_atoms_paths_delays_checks": true,
+    "cell_instances_sha256": "98fb98d892f78a19afc578f34c302bacf03c882def038236ad1fc3a5dbe22c06",
+    "repair_is_not_original_SDF_acceptance": true
+  },
+  "derivative_structural_audit": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_ottt_e4_ottt_stress_a0_e4\\routed.sdf",
+    "source_sha256": "475509777e76cb10bce0aa37d2b0798abafe1826827e546749636894ba00b589",
+    "bytes": 123794,
+    "lexical_tokens": 21208,
+    "strict_structurally_balanced": true,
+    "direct_root_cell_count": 148,
+    "complete_cell_count": 148,
+    "incomplete_cell_instances": [],
+    "unclosed_expressions_at_EOF": [],
+    "EOF_only_added_closing_parentheses": 0,
+    "EOF_only_repair_preserves_every_original_token": true,
+    "EOF_only_repair_preserves_all_original_cell_atoms_paths_delays_checks": true,
+    "cell_instances_sha256": "98fb98d892f78a19afc578f34c302bacf03c882def038236ad1fc3a5dbe22c06",
+    "repair_is_not_original_SDF_acceptance": true
+  },
+  "helper_sha256": "028efcbb3cd68fa97eaab8d64f5f73eae64a0ae66301921e430fde26ab4f2908",
+  "parser_sha256": "8762e602e4cc932058548e451b3fd2e6de795386f17c3440655867d754927302",
+  "vendor_tools_launched": false,
+  "causal_replay_resolved": false,
+  "limitation": "This certifies an EOF-only syntax derivative, not SDF annotation, timing, replay, SAIF, energy, physical hardware, or the cause of any numerical discrepancy."
+}

@@ -1,0 +1,1937 @@
+{
+  "source_hashes": {
+    "adaptive_delta_leak.sv": "26969dcc2c4b8c28f7c727c6dfde464eddd27aa722e410156a55aa41c3c9581a",
+    "tb_adaptive_delta_leak.sv": "6d1fa413755beb158da24e785709ae104acd05da1e4dd5ae194cd911ee73cff3",
+    "adaptive_delta_compact.sv": "26748b22044533ebe8d1b11e0fd1e0a0ae06390b31c1438dcc84080b4bee241d",
+    "tb_adaptive_delta_compact.sv": "37f3a9c3b59fbfd685e95ad75c2b8bcfbdf58ca781c0014c36f0db1d471a3c29"
+  },
+  "files": [
+    {
+      "path": "outputs/adaptive_leakage_summary.json",
+      "bytes": 124273,
+      "sha256": "a5d9287f6442822da3d2a83c660768fc89c69abc30034815b8884b0ffa59ec6e"
+    },
+    {
+      "path": "outputs/adaptive_leakage_trial.md",
+      "bytes": 17887,
+      "sha256": "e8a0a4de1cf69ad5a8379cec5861c46c855fa99b8fe00c8e5f7cbd69c878762e"
+    },
+    {
+      "path": "adaptive_delta_compact.sv",
+      "bytes": 8399,
+      "sha256": "26748b22044533ebe8d1b11e0fd1e0a0ae06390b31c1438dcc84080b4bee241d"
+    },
+    {
+      "path": "adaptive_delta_leak.sv",
+      "bytes": 7569,
+      "sha256": "26969dcc2c4b8c28f7c727c6dfde464eddd27aa722e410156a55aa41c3c9581a"
+    },
+    {
+      "path": "analyze_delta_bandwidth.py",
+      "bytes": 1832,
+      "sha256": "f9f90702a15e59e67092bb15c6411767ffac3648b0b0c65b590286e4f6bd5879"
+    },
+    {
+      "path": "audit_adaptive_delta_bounds.py",
+      "bytes": 1906,
+      "sha256": "e4ab401668619e80396efb97a540598e25816964a303e61267a08626354a5dfb"
+    },
+    {
+      "path": "audit_delta_boundary.py",
+      "bytes": 1895,
+      "sha256": "c0768a7025fd9a6c7acff9bbf8f57f01c04e97759b084e09b255e13d431240f2"
+    },
+    {
+      "path": "audit_delta_boundary.tcl",
+      "bytes": 1153,
+      "sha256": "4861544aab5b1a8a0de64545bed1973667b2c465195755926c755b654ab4a304"
+    },
+    {
+      "path": "audit_delta_zero_pairs.py",
+      "bytes": 3797,
+      "sha256": "575a18fe986f37134559c68647830fa08f774c06797ec57b48528fc2c08fe70a"
+    },
+    {
+      "path": "audit_fixed_three_delta.py",
+      "bytes": 1397,
+      "sha256": "a4bcdb33198851b5b3ae2d0f236e2c7395987c65e213db93bbaff68b0de6b34c"
+    },
+    {
+      "path": "check_adaptive_delta_compact.py",
+      "bytes": 5482,
+      "sha256": "12a874303686a3bbaca14fd8a9d2c7d38b0b26f89c951591d07ca63789ca7609"
+    },
+    {
+      "path": "check_adaptive_delta_compact_trace.py",
+      "bytes": 4250,
+      "sha256": "e68b5e496877c8e312bac30f386e242c6eab5de19d793b17fb85b2aec5ca0cc9"
+    },
+    {
+      "path": "check_adaptive_delta_leak.py",
+      "bytes": 5354,
+      "sha256": "7dab0b0ac3486cce63424ce14f07fda8da6dd7a039a4b30d0e74ddaf97f3b3fb"
+    },
+    {
+      "path": "check_adaptive_delta_trace.py",
+      "bytes": 4168,
+      "sha256": "f751bae582caefcde7a9966a138e30499780e404f4c6439104ac130ad44c8b0c"
+    },
+    {
+      "path": "check_delta_packing.py",
+      "bytes": 863,
+      "sha256": "dfc5b972dea37b25712882dd2ec92c72f16c2b8ba371837f8dd6a73749e2b93b"
+    },
+    {
+      "path": "finish_adaptive_delta_routes.py",
+      "bytes": 928,
+      "sha256": "00749ce02849f31197750eb3e6018b3f82e79c09129b5e0d28d26defb6a9c52f"
+    },
+    {
+      "path": "make_adaptive_delta_compact.py",
+      "bytes": 3053,
+      "sha256": "51c54886683ee79b53bf40f76f025099a10fa836703a3b467523d7ee964d4829"
+    },
+    {
+      "path": "prepare_adaptive_delta_model.py",
+      "bytes": 6270,
+      "sha256": "6abf6147a57d906c00aede6545991b04ee9c790c631906f52348d7e6dd897d81"
+    },
+    {
+      "path": "publish_adaptive_delta_study.py",
+      "bytes": 25476,
+      "sha256": "d7ef2a275752e91a16196ba14c95eb2855d205c71e6ae8ece97324ce0d940b2d"
+    },
+    {
+      "path": "results/adaptive_delta_algebra.json",
+      "bytes": 65,
+      "sha256": "5cda563068c5adb1664779fd940e9b9581c4f4e9b3da7dd567c6338bfd9f868f"
+    },
+    {
+      "path": "results/adaptive_delta_bandwidth.json",
+      "bytes": 25630,
+      "sha256": "fe58a75214ece9f3333412c5f4f47f637ada45bc6f556b81fc92206bd7846236"
+    },
+    {
+      "path": "results/adaptive_delta_boundary.json",
+      "bytes": 4102,
+      "sha256": "5d47b96bbc0e73ead2cdf9dfc01934a50700906a6f2823c815921651de3efb0c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_algebra.json",
+      "bytes": 65,
+      "sha256": "5cda563068c5adb1664779fd940e9b9581c4f4e9b3da7dd567c6338bfd9f868f"
+    },
+    {
+      "path": "results/adaptive_delta_compact_hardware.json",
+      "bytes": 1566,
+      "sha256": "67821c1e5d20ef46134acf6e5d000e4ac439a6660a97a7854393b41ceee738dd"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/out0.txt",
+      "bytes": 3390056,
+      "sha256": "fe9a2afee0abf16b6522d4dbe00cb2278e6e4324a5d722723b80da08d824c2d6"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/out1.txt",
+      "bytes": 3390056,
+      "sha256": "bd7a7d31c5117f1055799d69c3e66c4e95ef086dbaba0f253d1b2c9bd16f1bbe"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/out2.txt",
+      "bytes": 3390056,
+      "sha256": "bd7a7d31c5117f1055799d69c3e66c4e95ef086dbaba0f253d1b2c9bd16f1bbe"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/out3.txt",
+      "bytes": 3361816,
+      "sha256": "fdf0c9755f6c63c61736373534f13529a418df106ebaaaf22b784340f749f731"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/stim.txt",
+      "bytes": 2432837,
+      "sha256": "f5dbf26d60c889e840d44869ed75163380893647e7a4d9f46e303c20df7dc230"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/tool_0.log",
+      "bytes": 1750,
+      "sha256": "2e0324ab2acfc7adbdc9a5826fbd86c7c208e580fafe6b4c83f1fbda01c33e9c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/tool_2.log",
+      "bytes": 1146,
+      "sha256": "4d722e5f039d50ac00b721be1b5baf5003a34b127765aa8f2cdf35e4e5277f0c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_0/tool_3.log",
+      "bytes": 1329,
+      "sha256": "8888ec12838eeea8793b1e72363852155af6aff179ad91a15cab6171b0340509"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/out0.txt",
+      "bytes": 3397116,
+      "sha256": "64ce387e5c5aee391d4d9a8e975498addafb6e7f2ff58f1776ab7103ac5c418a"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/out1.txt",
+      "bytes": 3397116,
+      "sha256": "9e9f341d7b26c8a0aa075054717629eb808863f20b75167f0708f369754d7df3"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/out2.txt",
+      "bytes": 3397116,
+      "sha256": "9e9f341d7b26c8a0aa075054717629eb808863f20b75167f0708f369754d7df3"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/out3.txt",
+      "bytes": 3379468,
+      "sha256": "8cdcb03781f1ddca2da4ff8411c7b0b35da88f8119e256562148b17a2e8681e7"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/stim.txt",
+      "bytes": 2432691,
+      "sha256": "7f0622ab8ac459650be0abb33063a9dc46925eb1f7b238e2807448aa3eec1fa7"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/tool_0.log",
+      "bytes": 1750,
+      "sha256": "2e0324ab2acfc7adbdc9a5826fbd86c7c208e580fafe6b4c83f1fbda01c33e9c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/tool_2.log",
+      "bytes": 1134,
+      "sha256": "08828eef8ccbf6251cc2dcff3ae19f032c0c6ae5f4b60410afede0495a93da90"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_-1_1/tool_3.log",
+      "bytes": 1329,
+      "sha256": "4c96fe569191fae0219ec8657724abcfd5e8d843a8022118753e36dc3243f46c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/out0.txt",
+      "bytes": 1294303,
+      "sha256": "6dcd36faa3d9fcda8285203a850cdf613cd2e57f4ee3343e2b09cc0cfcf5da13"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/out1.txt",
+      "bytes": 1303279,
+      "sha256": "501a9ead4a2c5de3e7435e5a565ca294ec7aff9055ac87811798aa3033375a3b"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/out2.txt",
+      "bytes": 1303279,
+      "sha256": "501a9ead4a2c5de3e7435e5a565ca294ec7aff9055ac87811798aa3033375a3b"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/out3.txt",
+      "bytes": 1273649,
+      "sha256": "e2bce0c1980fa14137fba10690ae3048183dba8ccfd4480016dd214610b7a1cb"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/out5.txt",
+      "bytes": 1303279,
+      "sha256": "501a9ead4a2c5de3e7435e5a565ca294ec7aff9055ac87811798aa3033375a3b"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/stim.txt",
+      "bytes": 929628,
+      "sha256": "87264495cf6e2dac88074312b8fecb55b88d48477d36d8b3b069b19596526f1c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/tool_0.log",
+      "bytes": 1750,
+      "sha256": "2e0324ab2acfc7adbdc9a5826fbd86c7c208e580fafe6b4c83f1fbda01c33e9c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/tool_2.log",
+      "bytes": 1227,
+      "sha256": "529dd26460fd614c814c2e6f3862a01ea436c99ae6461c36b6cde089497c1af5"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_0/tool_3.log",
+      "bytes": 1402,
+      "sha256": "728e6b23031de3d6680c3a71215341b2dbcb363c4ed9eb3cd756a02d25ba6b0b"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/out0.txt",
+      "bytes": 1304836,
+      "sha256": "81cee2fa61f257423ca2dd0c96a4066017264707bf968822897c18129ddf0b0d"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/out1.txt",
+      "bytes": 1310685,
+      "sha256": "7fd3f551484a4c9b347c9baec15ea8e79efa5361beacaa0a3819cd220f7aaf7c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/out2.txt",
+      "bytes": 1310685,
+      "sha256": "7fd3f551484a4c9b347c9baec15ea8e79efa5361beacaa0a3819cd220f7aaf7c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/out3.txt",
+      "bytes": 1292167,
+      "sha256": "5e60eb9daf9fc7f3dbea5e3c2766ee419a1f3320f6a8ee268fc9f0707b60cbd4"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/out5.txt",
+      "bytes": 1310685,
+      "sha256": "7fd3f551484a4c9b347c9baec15ea8e79efa5361beacaa0a3819cd220f7aaf7c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/stim.txt",
+      "bytes": 929529,
+      "sha256": "d0e4b96a6c24c31642c2f8d08a09725477b9f1cfb10e6e583fa8a963b0f99489"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/tool_0.log",
+      "bytes": 1750,
+      "sha256": "2e0324ab2acfc7adbdc9a5826fbd86c7c208e580fafe6b4c83f1fbda01c33e9c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/tool_2.log",
+      "bytes": 1203,
+      "sha256": "117026864370771a7b502744d8a023f44bd603414b2f64534f8281d39921c257"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_25_1/tool_3.log",
+      "bytes": 1402,
+      "sha256": "4b3910731d4776cf853fff45bea5259a801d0a64d989fa282d691bb626de6fc3"
+    },
+    {
+      "path": "results/adaptive_delta_compact_main_checks.json",
+      "bytes": 7273,
+      "sha256": "e7ff5bebffc4af3ec6511e5842ba6bc62ec1a439ae8af4a66ea670a64b6a1d50"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/expected.npz",
+      "bytes": 614119,
+      "sha256": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/out0.txt",
+      "bytes": 3603290,
+      "sha256": "0ed18efb78b5e601eb5a3ed46fa4f047574535ce171e167c46acd5676b7d982e"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/out1.txt",
+      "bytes": 3606722,
+      "sha256": "2ae3c0f5f9007b26b33657f9d25948e0c11bc9db89c89be0b8470d8e4e438615"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/out2.txt",
+      "bytes": 3606722,
+      "sha256": "2ae3c0f5f9007b26b33657f9d25948e0c11bc9db89c89be0b8470d8e4e438615"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/out3.txt",
+      "bytes": 3588749,
+      "sha256": "42bc0fde9c439ac1c65bf351fc292b91f21672714fe4e6da898d01519248e0cc"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/out5.txt",
+      "bytes": 3606722,
+      "sha256": "2ae3c0f5f9007b26b33657f9d25948e0c11bc9db89c89be0b8470d8e4e438615"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/stim.txt",
+      "bytes": 2335294,
+      "sha256": "41f98d52b48970fb3bfe0cd111e7c1bdf174983153ad704dc3284c09f18541be"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/tool_0.log",
+      "bytes": 1750,
+      "sha256": "2e0324ab2acfc7adbdc9a5826fbd86c7c208e580fafe6b4c83f1fbda01c33e9c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/tool_2.log",
+      "bytes": 1203,
+      "sha256": "117026864370771a7b502744d8a023f44bd603414b2f64534f8281d39921c257"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_25_1/tool_3.log",
+      "bytes": 1420,
+      "sha256": "1ae1fb0c8f4b933a324281aec5a8a48419b476b648acb7fe318ba2ee83fac99d"
+    },
+    {
+      "path": "results/adaptive_delta_compact_model_checks.json",
+      "bytes": 4694,
+      "sha256": "5fe6e5b5097dd876f90fc45faf6be31e3704a26954f03afa65e74cc80e6fa853"
+    },
+    {
+      "path": "results/adaptive_delta_compact_smoke_checks.json",
+      "bytes": 6895,
+      "sha256": "fabc478b02bbfc7c595196bc86e808a957954aa741b13875f66691af4502501f"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/expected.npz",
+      "bytes": 3220,
+      "sha256": "88f6e683def95ccf166548af350d79bad315422840da6ba324d1bb4cbc6f8148"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/out0.txt",
+      "bytes": 18175,
+      "sha256": "564977e2b053f52b0ad11e357fd67c4d5ae1d407649b90c65c68b9f2f5da931a"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/out1.txt",
+      "bytes": 18179,
+      "sha256": "b5ed5cddbf4dc80ded7551965d2765a2320d47050bf63c39a5660f1be3c033b6"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/out2.txt",
+      "bytes": 18179,
+      "sha256": "b5ed5cddbf4dc80ded7551965d2765a2320d47050bf63c39a5660f1be3c033b6"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/out3.txt",
+      "bytes": 17997,
+      "sha256": "25c780d30bd8c8139858e071c5c6d1b9e6472ec5095c9314ff3554b3009b54d5"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/out5.txt",
+      "bytes": 18179,
+      "sha256": "b5ed5cddbf4dc80ded7551965d2765a2320d47050bf63c39a5660f1be3c033b6"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/stim.txt",
+      "bytes": 14215,
+      "sha256": "905860dfa023d8e4dd1b323eba87cebe59fcd43c5be17fd722d7c6cd1fd19bf8"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/tool_0.log",
+      "bytes": 1750,
+      "sha256": "2e0324ab2acfc7adbdc9a5826fbd86c7c208e580fafe6b4c83f1fbda01c33e9c"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/tool_2.log",
+      "bytes": 1203,
+      "sha256": "117026864370771a7b502744d8a023f44bd603414b2f64534f8281d39921c257"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_25_1/tool_3.log",
+      "bytes": 1156,
+      "sha256": "a47c02184d38690730a1d1b01b664483eb7bf1eb6e55f7358ff5453ecffd94ac"
+    },
+    {
+      "path": "results/adaptive_delta_compact_stress_checks.json",
+      "bytes": 3095,
+      "sha256": "ff9d57e199a1fdc57cb3b460d966502e4dc9ccc8e97c87ef07c1207321593aca"
+    },
+    {
+      "path": "results/adaptive_delta_hardware.json",
+      "bytes": 3442,
+      "sha256": "a3adcef43fa61a02f12c62a0cdc795189f549e9af0f07530f835f99591b3de52"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/out0.txt",
+      "bytes": 3390056,
+      "sha256": "fe9a2afee0abf16b6522d4dbe00cb2278e6e4324a5d722723b80da08d824c2d6"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/out1.txt",
+      "bytes": 3390056,
+      "sha256": "bd7a7d31c5117f1055799d69c3e66c4e95ef086dbaba0f253d1b2c9bd16f1bbe"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/out2.txt",
+      "bytes": 3390056,
+      "sha256": "bd7a7d31c5117f1055799d69c3e66c4e95ef086dbaba0f253d1b2c9bd16f1bbe"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/out3.txt",
+      "bytes": 3361816,
+      "sha256": "fdf0c9755f6c63c61736373534f13529a418df106ebaaaf22b784340f749f731"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/stim.txt",
+      "bytes": 2432837,
+      "sha256": "f5dbf26d60c889e840d44869ed75163380893647e7a4d9f46e303c20df7dc230"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/tool_0.log",
+      "bytes": 1594,
+      "sha256": "5f644f91986bec47f8e384b77e3c5dee98a1c61dcad4646128b8a8c275cd756d"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/tool_2.log",
+      "bytes": 1128,
+      "sha256": "2f83de5c252f8e1f29ebeb3c086c4a0ee57aaf4e6f887413287625b084707f6d"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_0/tool_3.log",
+      "bytes": 1326,
+      "sha256": "59ebfd83888b5f2cd7eec919571f2d23a72f1b18c9feafc495f52d0659817e36"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/out0.txt",
+      "bytes": 3397116,
+      "sha256": "64ce387e5c5aee391d4d9a8e975498addafb6e7f2ff58f1776ab7103ac5c418a"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/out1.txt",
+      "bytes": 3397116,
+      "sha256": "9e9f341d7b26c8a0aa075054717629eb808863f20b75167f0708f369754d7df3"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/out2.txt",
+      "bytes": 3397116,
+      "sha256": "9e9f341d7b26c8a0aa075054717629eb808863f20b75167f0708f369754d7df3"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/out3.txt",
+      "bytes": 3379468,
+      "sha256": "8cdcb03781f1ddca2da4ff8411c7b0b35da88f8119e256562148b17a2e8681e7"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/stim.txt",
+      "bytes": 2432691,
+      "sha256": "7f0622ab8ac459650be0abb33063a9dc46925eb1f7b238e2807448aa3eec1fa7"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/tool_0.log",
+      "bytes": 1594,
+      "sha256": "5f644f91986bec47f8e384b77e3c5dee98a1c61dcad4646128b8a8c275cd756d"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/tool_2.log",
+      "bytes": 1102,
+      "sha256": "ac8c0823c8f6ed6e6e0cdc0df0f77cc986ad62347d1df1fe5776c12e6c0f6967"
+    },
+    {
+      "path": "results/adaptive_delta_main_-1_1/tool_3.log",
+      "bytes": 1326,
+      "sha256": "121d3a80cf77355d1c9bb47e26858f9cafdd172587ad4b21d74b558a1629b0e5"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/out0.txt",
+      "bytes": 1294303,
+      "sha256": "6dcd36faa3d9fcda8285203a850cdf613cd2e57f4ee3343e2b09cc0cfcf5da13"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/out1.txt",
+      "bytes": 1303279,
+      "sha256": "501a9ead4a2c5de3e7435e5a565ca294ec7aff9055ac87811798aa3033375a3b"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/out2.txt",
+      "bytes": 1303279,
+      "sha256": "501a9ead4a2c5de3e7435e5a565ca294ec7aff9055ac87811798aa3033375a3b"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/out3.txt",
+      "bytes": 1273649,
+      "sha256": "e2bce0c1980fa14137fba10690ae3048183dba8ccfd4480016dd214610b7a1cb"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/out5.txt",
+      "bytes": 1303279,
+      "sha256": "501a9ead4a2c5de3e7435e5a565ca294ec7aff9055ac87811798aa3033375a3b"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/stim.txt",
+      "bytes": 929628,
+      "sha256": "87264495cf6e2dac88074312b8fecb55b88d48477d36d8b3b069b19596526f1c"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/tool_0.log",
+      "bytes": 1594,
+      "sha256": "5f644f91986bec47f8e384b77e3c5dee98a1c61dcad4646128b8a8c275cd756d"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/tool_2.log",
+      "bytes": 1198,
+      "sha256": "98b668cfab84e01802b4bff9271aaed25de2372f500240d3fe54d42847f1e8df"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_0/tool_3.log",
+      "bytes": 1399,
+      "sha256": "1c02b5bddae2e78f8b12c68ff14111196864a6e9e1f65cfd04f37cdcaadab5e6"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/out0.txt",
+      "bytes": 1304836,
+      "sha256": "81cee2fa61f257423ca2dd0c96a4066017264707bf968822897c18129ddf0b0d"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/out1.txt",
+      "bytes": 1310685,
+      "sha256": "7fd3f551484a4c9b347c9baec15ea8e79efa5361beacaa0a3819cd220f7aaf7c"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/out2.txt",
+      "bytes": 1310685,
+      "sha256": "7fd3f551484a4c9b347c9baec15ea8e79efa5361beacaa0a3819cd220f7aaf7c"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/out3.txt",
+      "bytes": 1292167,
+      "sha256": "5e60eb9daf9fc7f3dbea5e3c2766ee419a1f3320f6a8ee268fc9f0707b60cbd4"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/out5.txt",
+      "bytes": 1310685,
+      "sha256": "7fd3f551484a4c9b347c9baec15ea8e79efa5361beacaa0a3819cd220f7aaf7c"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/stim.txt",
+      "bytes": 929529,
+      "sha256": "d0e4b96a6c24c31642c2f8d08a09725477b9f1cfb10e6e583fa8a963b0f99489"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/tool_0.log",
+      "bytes": 1594,
+      "sha256": "5f644f91986bec47f8e384b77e3c5dee98a1c61dcad4646128b8a8c275cd756d"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/tool_2.log",
+      "bytes": 1174,
+      "sha256": "1b497bd2e914546366e7a60e4d174a4b447930a3353a7d2e4a82aceaa17a2cd5"
+    },
+    {
+      "path": "results/adaptive_delta_main_25_1/tool_3.log",
+      "bytes": 1399,
+      "sha256": "a1eba0ba701e9df355d2890adaa1063d84463c4c44c4e7147cd8fd92a70acd4a"
+    },
+    {
+      "path": "results/adaptive_delta_main_checks.json",
+      "bytes": 7267,
+      "sha256": "083038f2a8331115b37370a796353399c8428b63309f1240b374ffa12f1fa36e"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/expected.npz",
+      "bytes": 614119,
+      "sha256": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/out0.txt",
+      "bytes": 3603290,
+      "sha256": "0ed18efb78b5e601eb5a3ed46fa4f047574535ce171e167c46acd5676b7d982e"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/out1.txt",
+      "bytes": 3606722,
+      "sha256": "2ae3c0f5f9007b26b33657f9d25948e0c11bc9db89c89be0b8470d8e4e438615"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/out2.txt",
+      "bytes": 3606722,
+      "sha256": "2ae3c0f5f9007b26b33657f9d25948e0c11bc9db89c89be0b8470d8e4e438615"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/out3.txt",
+      "bytes": 3588749,
+      "sha256": "42bc0fde9c439ac1c65bf351fc292b91f21672714fe4e6da898d01519248e0cc"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/out5.txt",
+      "bytes": 3606722,
+      "sha256": "2ae3c0f5f9007b26b33657f9d25948e0c11bc9db89c89be0b8470d8e4e438615"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/stim.txt",
+      "bytes": 2335294,
+      "sha256": "41f98d52b48970fb3bfe0cd111e7c1bdf174983153ad704dc3284c09f18541be"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/tool_0.log",
+      "bytes": 1594,
+      "sha256": "5f644f91986bec47f8e384b77e3c5dee98a1c61dcad4646128b8a8c275cd756d"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/tool_2.log",
+      "bytes": 1174,
+      "sha256": "1b497bd2e914546366e7a60e4d174a4b447930a3353a7d2e4a82aceaa17a2cd5"
+    },
+    {
+      "path": "results/adaptive_delta_model_25_1/tool_3.log",
+      "bytes": 1417,
+      "sha256": "5dbdf93df8e24973fe446b913166a44da329ccaaf00496118d8a3054c0770e0f"
+    },
+    {
+      "path": "results/adaptive_delta_model_bounds.json",
+      "bytes": 6493,
+      "sha256": "eca46bce9aaaa9e7bb0da4d7a8cdf11097a8243e1be9e17e4cfea303e8092ae7"
+    },
+    {
+      "path": "results/adaptive_delta_model_checks.json",
+      "bytes": 4688,
+      "sha256": "5ddc5c6ce2180efe421c744c3b05da50fca77c15470b7bca7655e6a115b25de6"
+    },
+    {
+      "path": "results/adaptive_delta_model_input.json",
+      "bytes": 5911745,
+      "sha256": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+    },
+    {
+      "path": "results/adaptive_delta_profile.json",
+      "bytes": 17427,
+      "sha256": "751e3ec958f86803a93397028b492d229dc47be5b420a7b2b3243de22384418e"
+    },
+    {
+      "path": "results/adaptive_delta_smoke_checks.json",
+      "bytes": 6889,
+      "sha256": "2ab1315a39cc2cee1f5ab90a5241f3f143d9ba859a8306051a678010e8e88666"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/expected.npz",
+      "bytes": 3220,
+      "sha256": "88f6e683def95ccf166548af350d79bad315422840da6ba324d1bb4cbc6f8148"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/out0.txt",
+      "bytes": 18175,
+      "sha256": "564977e2b053f52b0ad11e357fd67c4d5ae1d407649b90c65c68b9f2f5da931a"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/out1.txt",
+      "bytes": 18179,
+      "sha256": "b5ed5cddbf4dc80ded7551965d2765a2320d47050bf63c39a5660f1be3c033b6"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/out2.txt",
+      "bytes": 18179,
+      "sha256": "b5ed5cddbf4dc80ded7551965d2765a2320d47050bf63c39a5660f1be3c033b6"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/out3.txt",
+      "bytes": 17997,
+      "sha256": "25c780d30bd8c8139858e071c5c6d1b9e6472ec5095c9314ff3554b3009b54d5"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/out5.txt",
+      "bytes": 18179,
+      "sha256": "b5ed5cddbf4dc80ded7551965d2765a2320d47050bf63c39a5660f1be3c033b6"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/stim.txt",
+      "bytes": 14215,
+      "sha256": "905860dfa023d8e4dd1b323eba87cebe59fcd43c5be17fd722d7c6cd1fd19bf8"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/tool_0.log",
+      "bytes": 1594,
+      "sha256": "5f644f91986bec47f8e384b77e3c5dee98a1c61dcad4646128b8a8c275cd756d"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/tool_2.log",
+      "bytes": 1174,
+      "sha256": "1b497bd2e914546366e7a60e4d174a4b447930a3353a7d2e4a82aceaa17a2cd5"
+    },
+    {
+      "path": "results/adaptive_delta_stress_25_1/tool_3.log",
+      "bytes": 1153,
+      "sha256": "97cceffc8819c979250600248635a25c6636cae2f80ac0b0617e01882a9906a7"
+    },
+    {
+      "path": "results/adaptive_delta_stress_checks.json",
+      "bytes": 3089,
+      "sha256": "5f5fe23de405b539a322475d74faca31b84fdf5a2b517915ca105ea5181485b9"
+    },
+    {
+      "path": "results/adaptive_delta_stress_input.json",
+      "bytes": 517,
+      "sha256": "29b7ab3c4c05302f786a136896a79f1c7172afd25135030a252e64aff20a5782"
+    },
+    {
+      "path": "results/adaptive_delta_zero_pair_audit.json",
+      "bytes": 11684,
+      "sha256": "73168aede708e88749a51aaaa5a476daf1e02780115b08a939aacb1920455c7e"
+    },
+    {
+      "path": "results/delta_boundary_build.log",
+      "bytes": 44060,
+      "sha256": "b3fbcf0a768c204750b273465a2ff0aef43fba3071ed3a1bcf491274945e0b0d"
+    },
+    {
+      "path": "results/delta_boundary_vivado.jou",
+      "bytes": 1641,
+      "sha256": "2e136c6361ad198643c3d2505326f5a188ecfad4d1b74d6206dfa12b053016cb"
+    },
+    {
+      "path": "results/delta_boundary_vivado.log",
+      "bytes": 44704,
+      "sha256": "8be396d207da23007fea02ed2cb5a6a232f2aed1b2d8585dde77b5764c7b5ee3"
+    },
+    {
+      "path": "results/delta_boundary_vivado_25684.backup.jou",
+      "bytes": 1641,
+      "sha256": "15f28f25e07d6a2301ca843945cb098fabd4d5b69c5b32670e4a86838f8a6564"
+    },
+    {
+      "path": "results/delta_boundary_vivado_25684.backup.log",
+      "bytes": 5877,
+      "sha256": "9e3961357c695e1ddd83945d731c1772f6cc3afd7d2d342528492c37e99d0687"
+    },
+    {
+      "path": "results/delta_packing_algebra.json",
+      "bytes": 244,
+      "sha256": "a925c1e42fcf399e23ce923f8c96005cd89a360a5f7fec845e64e7f326fa9e0f"
+    },
+    {
+      "path": "results/final_selected.json",
+      "bytes": 30623,
+      "sha256": "84e94c7b54ec86cbd5d4022692f882d8f89154f71183be9b906c80da5c18a446"
+    },
+    {
+      "path": "results/fixed_three_delta_algebra.json",
+      "bytes": 410,
+      "sha256": "c8e34fae907f3dda07080d05c1393eb0b6e1b4c3c7b387684951596c80497602"
+    },
+    {
+      "path": "results/model_seed0.npz",
+      "bytes": 20893,
+      "sha256": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37"
+    },
+    {
+      "path": "results/model_seed1.npz",
+      "bytes": 20958,
+      "sha256": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665"
+    },
+    {
+      "path": "results/model_seed2.npz",
+      "bytes": 21034,
+      "sha256": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+    },
+    {
+      "path": "results/shared_offset_delta_screen.json",
+      "bytes": 8769,
+      "sha256": "1ac2a5a22798b3e6c88f58ca8b94c791fc6ef552d0356ce1db6c6382c27dcdcd"
+    },
+    {
+      "path": "results/top_delta_adapt_const_build.log",
+      "bytes": 72271,
+      "sha256": "bd33985b9783d40af007158ff708d192148382cf4d5d6d72b43dda5844089e02"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "16aaf22645a22ad1e23a72dd6c44634dee91037e2491ad04808d96b70ce3e9c7"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/boundary_timing.rpt",
+      "bytes": 17673,
+      "sha256": "52776a2dfee36c2485f0a4470a2fbb1c19d7a39b78d3d747d8008f0a4131760b"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/design.dcp",
+      "bytes": 380477,
+      "sha256": "569eb17613bd0523d78a796817be727a1657f718e1d95b4b722c4248d4e19015"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/hierarchical_util.rpt",
+      "bytes": 2300,
+      "sha256": "a580f50703393d41def00df1b0a072c3e3739945b3507720d05657cf649345f7"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/input_paths.rpt",
+      "bytes": 25234,
+      "sha256": "d05270b6b0310d9f0b20fde96d3cbfe8352bd3f5067092d55d9f65e9aac531a8"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/paths.rpt",
+      "bytes": 24938,
+      "sha256": "21187fc3cf5665773d8ce78d511e30a014e7c64940ad01744cdac572b7382168"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/range_monitor_paths.rpt",
+      "bytes": 4868,
+      "sha256": "a44ed6c9fb6e93530f363abc239071e1c2e820cc8f983d30b49949a269756545"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/slack.txt",
+      "bytes": 8,
+      "sha256": "c3e4dd6bf045e6c285b0f6ca24898066b2f24482e5859bc680657a685df0cb5a"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/timing.rpt",
+      "bytes": 17520,
+      "sha256": "e3caa40c5e2cce567ba2d1a180ec75694af8cb4c19e91127b59d58c7690b40fe"
+    },
+    {
+      "path": "results/top_delta_adapt_const_route/util.rpt",
+      "bytes": 10585,
+      "sha256": "0f43d7b9fac60b873ee3ad0ac3ab2d00fdcdcd9c084822c6602ae6f86bf7ee69"
+    },
+    {
+      "path": "results/top_delta_adapt_const_synth/design.dcp",
+      "bytes": 128959,
+      "sha256": "25036ca6fe6b81e1be1ba0bc35903dd8647e405aa5626c3f34c6a6e439e44af4"
+    },
+    {
+      "path": "results/top_delta_adapt_const_synth/util.rpt",
+      "bytes": 8401,
+      "sha256": "f4c058703719f5ae4ed57f677e59dfef2348cef66e8b2523646fb59c40660294"
+    },
+    {
+      "path": "results/top_delta_adapt_const_vivado.jou",
+      "bytes": 1393,
+      "sha256": "506c0dc3b40c26dbd56f8d57e970b9e9d1badde671b4590e0d9ac4cbdd5d4c01"
+    },
+    {
+      "path": "results/top_delta_adapt_const_vivado.log",
+      "bytes": 72205,
+      "sha256": "6d7f5397376b0bd0f240592fa1df76b6cdce41ae6fd4ab63d5eeab3aa1c06c3e"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_build.log",
+      "bytes": 72233,
+      "sha256": "8af355e5fee6adbccbd57d1e7953bd0a1d1552f54d35433a247ae2bec8bd74e6"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "d2f805cf55867a3b5318eba3c1ab58ed4974c9cbb4a3b154b693abba73840456"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/boundary_timing.rpt",
+      "bytes": 17667,
+      "sha256": "8979a86083de5f5f06b851d675a78ccddb062d0bc9061f935474c6f2ec5a69fd"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/design.dcp",
+      "bytes": 408015,
+      "sha256": "ad00944b5e676046136c81439332d8b2a37714cc79ba86e3c6ba7b3c1d3f24a0"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/hierarchical_util.rpt",
+      "bytes": 2288,
+      "sha256": "6bce2d000bf1b0e07ae01e0c985adb291159b8b9205c7f9af2893f55c97c1992"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/input_paths.rpt",
+      "bytes": 26026,
+      "sha256": "fb5c3023adab2499f96eabc770adb3315796c550fceb03370687bb0db6663d26"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/paths.rpt",
+      "bytes": 28299,
+      "sha256": "9d97f4d7bcb6f1ac803521d9a044a99ff334ae64e3dbb7ca5e544f8062dd5e26"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/range_monitor_paths.rpt",
+      "bytes": 4870,
+      "sha256": "850833820b898e1baab3d295463ede083ffebac1f6e7339b3b8d79e1604fc3a7"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/slack.txt",
+      "bytes": 8,
+      "sha256": "eb041f21d095d076b92862c86534313e6cca9dfee1edbcbea7a73bc8c2f1eff9"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/timing.rpt",
+      "bytes": 18234,
+      "sha256": "d7307e0b2bde488972c437bf0dcd7349759a15a55834b8cb0382947b6c905a6e"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_route/util.rpt",
+      "bytes": 10581,
+      "sha256": "f48ef97ea7aa6889a4fbc3a99ac5595f404203f6975a12522827165aeb76295e"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_synth/design.dcp",
+      "bytes": 146418,
+      "sha256": "7d7909be2b08d8430ba7e13c09b45e586db4d616a0ccaff6783708f8e0b98c07"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_synth/util.rpt",
+      "bytes": 8397,
+      "sha256": "4848069a74d8268bdb7150e84ec116a1bec7626be02be6bb1d2170300ea6bbc3"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_vivado.jou",
+      "bytes": 1389,
+      "sha256": "e8d1844e799ce487a51d0d4ba029d39d332016066385a79d5d333f9a215e13e8"
+    },
+    {
+      "path": "results/top_delta_adapt_prog_vivado.log",
+      "bytes": 72177,
+      "sha256": "7803c118e7784d2bb0e35fc9f0bc094b7dc2962f0b4010fd2527d33191951b99"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_build.log",
+      "bytes": 72217,
+      "sha256": "332d0f0c9e5d81a89a87ecdd3746b1a08e820ccf3965bb2625e2491299077687"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "b605b99689f6d7ba3a7fe85ef4232dd306e7e65dc649a15842b9af4639c0d31a"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/boundary_timing.rpt",
+      "bytes": 17716,
+      "sha256": "56c0cf9e104669d29b689bbabc8c8ca45988ad9cd2072bb1fc803950a2ad3625"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/design.dcp",
+      "bytes": 352194,
+      "sha256": "e26028205482d4212eb6162165b71fdbd37c8845c145622318850ec9e79d3218"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/hierarchical_util.rpt",
+      "bytes": 2420,
+      "sha256": "4379f8c98fd803085ebdeeabab8a531af29cbefcaefca1ce280070baa7376d9e"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/input_paths.rpt",
+      "bytes": 25684,
+      "sha256": "6a36b5334c8942495cb1f39eab5e2e0cf6aea7d36d7dae5fa1a3d6a88f2de87d"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/paths.rpt",
+      "bytes": 23979,
+      "sha256": "81b3403899af56552bccca862151de80fcd8dec8dd672c7ffe177655fce037c6"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/range_monitor_paths.rpt",
+      "bytes": 4906,
+      "sha256": "076b27b16ad25ee53b45077aa018c18090243a8a0aeaf5553df98fd41f7a4487"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/slack.txt",
+      "bytes": 8,
+      "sha256": "7d9b064f7dc044758b596181d123c22deb7953785bce6e578ec182dd0ba2ec7f"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/timing.rpt",
+      "bytes": 17706,
+      "sha256": "a5d1f3a2ceaa766bd8269acfc1ec325e3d02683ea11a31bc2d425aaef4478ea3"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_route/util.rpt",
+      "bytes": 10617,
+      "sha256": "83b6491dc9cbc1da441c70b645a9c0164a49ca5fd3e61dba43069994fb2f3a38"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_synth/design.dcp",
+      "bytes": 119649,
+      "sha256": "aa8fa795698af83249e1b74e4a80fb7684bddc5d96d3bc9f654368d121795272"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_synth/util.rpt",
+      "bytes": 8433,
+      "sha256": "4e873329f0187b3fedc492ddd1d6b7596a1fc578900c4b8ea3cdea6b19253a86"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_vivado.jou",
+      "bytes": 1440,
+      "sha256": "2f288f4caa3d69f8a2713b305179567b8baae0244927d13f104eae561dcd3313"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_const_vivado.log",
+      "bytes": 72206,
+      "sha256": "2ec224bca25790fdeefaa5b67c6d56b3047074dc62a82615db73d3ddc541a2ca"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_build.log",
+      "bytes": 18314,
+      "sha256": "4f818bd88d1e0f35ca3c8ac5866dd37ea16e96931b6df83af54c7dfbbbbf5374"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_resume_build.log",
+      "bytes": 57524,
+      "sha256": "e19146aeb57ed4b22ba7059924dca728ff43a9d04da96f5be6e0435d8387c54d"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_resume_vivado.jou",
+      "bytes": 1453,
+      "sha256": "625a25acc4a4ced291554a469e0ccf1949bdc90ff8d9645dc5e1f1ed35ef6d5f"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_resume_vivado.log",
+      "bytes": 57745,
+      "sha256": "bcc97dd8b415cfe59333e1a0ef68b840e9283244f08804818a6a0feb89fd22e8"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "a7d2d4c88b3a9fdeebbe59b193ed62e3e0ec46bc984151810a436fc82ea15a1d"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/boundary_timing.rpt",
+      "bytes": 19219,
+      "sha256": "1bef1e8460dfda391643e6a2a0d62aea48f4cdeae5e08a312c879d6006f6d72b"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/design.dcp",
+      "bytes": 388600,
+      "sha256": "6eb6e67b9a5f0114cd94fe00596841cf1bca66840face08d01e6f520ad97c3a9"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/hierarchical_util.rpt",
+      "bytes": 2408,
+      "sha256": "fd36dada9ed9c95ca0508609937183f468ce45927e4e0b6d3197f2a4b8834e9f"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/input_paths.rpt",
+      "bytes": 26710,
+      "sha256": "5c41e6243ebd7f507f2a5e1845e430bc06b8db4c968efed04698f01e90ec858d"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/paths.rpt",
+      "bytes": 32620,
+      "sha256": "07c9f2c9f69b6c5dd8198486a73400081d8aa2487229436ec2d1880fad98a692"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/range_monitor_paths.rpt",
+      "bytes": 5082,
+      "sha256": "657b1c64250ab26c74e46957df37d1719604d1d7059be30e562c8eb27a115235"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/slack.txt",
+      "bytes": 8,
+      "sha256": "1a15d06c54b0c6f589b844914fef857d103f6c84982b5512a33257d37175ce98"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/timing.rpt",
+      "bytes": 19342,
+      "sha256": "afd6e4362ab12ca9264838b3590fc2980ece381aa91b9f5b4dd96d694d9ef7ee"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_route/util.rpt",
+      "bytes": 10613,
+      "sha256": "f29f7b6bedae1151ccf18d72c7b3fbcefcd638b1b04ddd821d422cdfc59b52bf"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_synth/design.dcp",
+      "bytes": 139540,
+      "sha256": "254813b6b58f5e942def1759af38c1c0af23c9fd26401befd929c06a013b1f7c"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_synth/util.rpt",
+      "bytes": 8429,
+      "sha256": "b7220546d0fe551871dfd0bd617f3e4d23ab0472d4ed6a947d0f6e2f928b98cc"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_vivado.jou",
+      "bytes": 1434,
+      "sha256": "bfa417eac00c41e324bba277f7132fd59194756de676655ea85ccff200640950"
+    },
+    {
+      "path": "results/top_delta_compact_adapt_prog_vivado.log",
+      "bytes": 19030,
+      "sha256": "1c0b87cdef2b62a19dbf6324f79a1bebcba05d7d9f7a4d1661deb70c82ed7d7b"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_build.log",
+      "bytes": 71698,
+      "sha256": "60a90ed9e971c7f515377a67a34c2d43894e98241ea8a8ad6ae70dadc857a0e8"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "f55ec02f0aa17e00ec21b0db045725d240cbad6c39b4e56fbf7850831a1f9a4c"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/boundary_timing.rpt",
+      "bytes": 17545,
+      "sha256": "1dae46fb7f7066120c2446c36e885c52003e207ecdd52ff281a427c3c47243a6"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/design.dcp",
+      "bytes": 291233,
+      "sha256": "9b6e8ad443757b6e5694cc0ecbdae70a7500b22c49fe5e6e2e3aa1edaadf3388"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/hierarchical_util.rpt",
+      "bytes": 2452,
+      "sha256": "6559e7830e67135f07b119d532f69e094a483302117161be6a89e838c0029b71"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/input_paths.rpt",
+      "bytes": 24754,
+      "sha256": "99afd6666dbdab41a140a828933d999f49b30e3aab0133e66a69c7a099cff2e1"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/paths.rpt",
+      "bytes": 18702,
+      "sha256": "300d1378afc28d7e77b98afa037a5ee7d0cb281da9ff14f9c8a2f11503d9d4e9"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/slack.txt",
+      "bytes": 8,
+      "sha256": "7906c586524a8332f7590589594a637b084c8e3bbf421c3b992ff6fe469b8cac"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/timing.rpt",
+      "bytes": 16316,
+      "sha256": "260c497ee485708eec91d4cadb68510f44ab21fb676dafa8a0a9911deb98ef9a"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_route/util.rpt",
+      "bytes": 10617,
+      "sha256": "ddf406aae167eab76efe9ba8efa47ba06cdf5b8d25794e7b5179ff3821b6c9b8"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_synth/design.dcp",
+      "bytes": 87854,
+      "sha256": "e9b2d60ecab1c8b1f86f3edd5a0fb1ebdcfe94f5d5886c365a1c15ceacad1343"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_synth/util.rpt",
+      "bytes": 8433,
+      "sha256": "27cfdb27304d55ac91a03227a56557046c6a2fa4e79e9e09976f8d4924931cf7"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_vivado.jou",
+      "bytes": 1440,
+      "sha256": "99e93fa6c51db06b78bb858394c22766384593830f708d26532995f78beaa0a6"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_const_vivado.log",
+      "bytes": 71696,
+      "sha256": "073176f8d65b8109a62a01ca11957068f29be11608552568b63b003c427014c0"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_build.log",
+      "bytes": 72158,
+      "sha256": "4b9ec4448000771fa026f139369bc0d17be3504024cb22216ce1f12682a35701"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "ddecdb26d5067adb22215897360737fe68320674ed03746757fc7cdaa8c105a0"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/boundary_timing.rpt",
+      "bytes": 18648,
+      "sha256": "4014ff3a6a3117d7a52503b03f2e292026975de3cb227dc57367fc8b3e4ea5ce"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/design.dcp",
+      "bytes": 320150,
+      "sha256": "ac75b98e76b4d4076d3ecea67be2de6ba519a3d2d806b22862974dee01586769"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/hierarchical_util.rpt",
+      "bytes": 2440,
+      "sha256": "bf681a891b701a03c55561da3164777c17e1c3e6a33c96e80f122999db0645d1"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/input_paths.rpt",
+      "bytes": 25750,
+      "sha256": "3fcf341975edc528bb748a3b79467c6cd555184f1f3e1a85c1dfd152242c053e"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/paths.rpt",
+      "bytes": 29870,
+      "sha256": "4fc439beaf7162bd2d260c6c5775532613cd8fa32227461e5ee53a29679225e0"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/slack.txt",
+      "bytes": 8,
+      "sha256": "8873dbddf925de22d47a6193ba4564e8904213a2dd96fb893a17bacd346b2241"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/timing.rpt",
+      "bytes": 18577,
+      "sha256": "e6744d8438a8be4f1a2ca4cdd964409d531680aa5e3479681a500f1656790c25"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_route/util.rpt",
+      "bytes": 10613,
+      "sha256": "8fd26370d6018fb60147c206244ba07fc7b940fd4573529b5328bcb90f8344a1"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_synth/design.dcp",
+      "bytes": 103637,
+      "sha256": "fee4b7fe55a8270ca94954e3bfd3854f14a8c87aa1ba963ab137602cc38c6075"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_synth/util.rpt",
+      "bytes": 8429,
+      "sha256": "c8fce0cb1d112667f0b9bce4c6cbfc91ccf47cde1e4e42f14deb11b6b6e9fc8e"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_vivado.jou",
+      "bytes": 1435,
+      "sha256": "b990b1ab2f9ef257c8cc21569c096cef871459a5f63c7ac1793310ba3988d149"
+    },
+    {
+      "path": "results/top_delta_compact_fixed_prog_vivado.log",
+      "bytes": 72151,
+      "sha256": "343ac9eb2f3bf0fbb28494008894912d9ce8087a95800ab1c12d30a93f820514"
+    },
+    {
+      "path": "results/top_delta_fixed_const_build.log",
+      "bytes": 70556,
+      "sha256": "198d07bbde28a5aaf56f8d9521ca39a77ad88e9bb1132fe470c155b25859da79"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "964f895881f391014014638862fbd934452f970d7fdb30e1a937c61ae706f9d5"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/boundary_timing.rpt",
+      "bytes": 17498,
+      "sha256": "007b4fd5f9af0715fed67b6175253c672b2f3a058dc33482eb5c5b350b702e88"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/design.dcp",
+      "bytes": 313497,
+      "sha256": "be48338bfaeff97134ee379de23a083633b7040f6cd8c44fda47b3c22a408276"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/hierarchical_util.rpt",
+      "bytes": 2464,
+      "sha256": "67b96315ccf183840ae3e5cb0f7170d3794219301d1c53432f66ec6e6db77ba7"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/input_paths.rpt",
+      "bytes": 24658,
+      "sha256": "af276d89117c1965a3e0d0fc952645c1a053a1da4eb9ea9f7b86d619ef7fcf97"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/paths.rpt",
+      "bytes": 17811,
+      "sha256": "e37e9dee8bab156872410e72b8c17abcd10576ed716bb321002165533f74a275"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/slack.txt",
+      "bytes": 7,
+      "sha256": "441209bac92df379f8d11b1c3daec765139621f229209f5d584d34abe75eeda8"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/timing.rpt",
+      "bytes": 16231,
+      "sha256": "69797cdde38aa0ffa0c384dc7e5f0b958638d05555eaffa92ad5ba166e8dd43f"
+    },
+    {
+      "path": "results/top_delta_fixed_const_route/util.rpt",
+      "bytes": 10585,
+      "sha256": "1117e750913ce5a65d1cfc526da638d3280fb226f6540285293fda055aded529"
+    },
+    {
+      "path": "results/top_delta_fixed_const_synth/design.dcp",
+      "bytes": 96504,
+      "sha256": "914092d4ea67823e408845024e0bb7736440d6431c09d29887b6ee3836599520"
+    },
+    {
+      "path": "results/top_delta_fixed_const_synth/util.rpt",
+      "bytes": 8401,
+      "sha256": "8954dc9e21791f42a4dcada0197b4e2ca28b6d5d092682a8b50c45d78ba235dd"
+    },
+    {
+      "path": "results/top_delta_fixed_const_vivado.jou",
+      "bytes": 1394,
+      "sha256": "f708b954eb046773ae5e2144913caae49ce05b160cdcce45def68ff25fe5da46"
+    },
+    {
+      "path": "results/top_delta_fixed_const_vivado.log",
+      "bytes": 70536,
+      "sha256": "80d048ea49a78e1b6a602665bcd2e4d38b1fee4004a3510366058cfc1b7d27c7"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_build.log",
+      "bytes": 72224,
+      "sha256": "169da42d9d84c4f9ab3adc53bcc5d6b7704c30410454f24beec88eb88e9ec8dd"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "20e911c76f5d7d063bb15b1b58f4141c7fc343dec637127a29396aba70cab9d9"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/boundary_timing.rpt",
+      "bytes": 17689,
+      "sha256": "5d93ff1994286468f0bd63951b04a7acbbc56299569a5b18439fecaf07808172"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/design.dcp",
+      "bytes": 330074,
+      "sha256": "87ca0889119cce5fc6f2e627dc1f888c03a79578a6052cf199d121365828db27"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/hierarchical_util.rpt",
+      "bytes": 2451,
+      "sha256": "e195756f12fcc67ffa088a2717f176363b65c35a323210a84413cea309cc2dbe"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/input_paths.rpt",
+      "bytes": 25614,
+      "sha256": "26c2de808e84cf2004e89ecbc23f9d8547e10c82590c9184a7a7e96dcd1de034"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/paths.rpt",
+      "bytes": 26243,
+      "sha256": "9bf3c2d0aee063d827796848d196af1567e84379a0be1c0925a37b0a8b1cf593"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/slack.txt",
+      "bytes": 8,
+      "sha256": "3fc85affbf3a808d4236934293c6e293049ec555fdfb6b988fd6bf6ba602f220"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/timing.rpt",
+      "bytes": 17613,
+      "sha256": "184bd7b4501fef2b4bcbd2e7ac1758d35c331704f2fd5109c555361cada8a144"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_route/util.rpt",
+      "bytes": 10581,
+      "sha256": "d4e47b80eb3ff5bfd7f56371dde3ae3695c933fa6f444ea731d06d1d9a14c41f"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_synth/design.dcp",
+      "bytes": 110805,
+      "sha256": "d8cc25dd9f18bfea5f14f5d0504a6d9ef7cfb04bfd0bcd39116ff6c5bcfc008a"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_synth/util.rpt",
+      "bytes": 8397,
+      "sha256": "8d8cd9c5c81ad743930169b551cb6a2244b1a6932e34f8eefe0b066056dc9814"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_vivado.jou",
+      "bytes": 1389,
+      "sha256": "bc6b4b0a93b7673a4e056b5deb75447f272b0f8108bb8dee01ba4abcfa09066d"
+    },
+    {
+      "path": "results/top_delta_fixed_prog_vivado.log",
+      "bytes": 72164,
+      "sha256": "427e994cddc90754b941f8c1a22d14da50b2b2184881279660b1e57c2518024a"
+    },
+    {
+      "path": "results/top_delta_lut2_const_build.log",
+      "bytes": 68992,
+      "sha256": "f5d226536e890d90dd1ef542ad1db1e9d4ccdcf0c8140b371677c1e5665a2a00"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "7fa09812e5dd67ca2c4b21e3ac7496d83f8a4eeb130f5c203623158a17c4f687"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/boundary_timing.rpt",
+      "bytes": 17494,
+      "sha256": "873cea5107a926cc012ba80a0096beab77dcc16bcba001a158b95598dd85b6b9"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/design.dcp",
+      "bytes": 280110,
+      "sha256": "33f63904c7218ed83376f25d78c874046f2044c9a205b5ecf87777d8f9a86bf5"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/hierarchical_util.rpt",
+      "bytes": 2189,
+      "sha256": "8670f8661992c89ece5ca17186d8cbf7d5c9dfe323a8943b6a441db33103a3b9"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/input_paths.rpt",
+      "bytes": 24718,
+      "sha256": "2d89db9091650a53631e5ab39628a76b264d2dbb8bf9d80f077927d4c4d383d1"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/paths.rpt",
+      "bytes": 23370,
+      "sha256": "530ddee631be42a1a679163e3e0c2cbf89690ac92c166956cb2cd7d195eb20fb"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/slack.txt",
+      "bytes": 8,
+      "sha256": "47f81b32d0f496c76d56c9cd882f0256a9927c18b826c2fb1e417f3eb640f7cf"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/timing.rpt",
+      "bytes": 17438,
+      "sha256": "1fd90add45f85c53a4bdfc571d75fa912f3d046b8c614515c5a4fe372c935216"
+    },
+    {
+      "path": "results/top_delta_lut2_const_route/util.rpt",
+      "bytes": 10447,
+      "sha256": "28b1d03bed854ec8b6c749bc473cea120f33fbbf0d05f761f32df391d19438cb"
+    },
+    {
+      "path": "results/top_delta_lut2_const_synth/design.dcp",
+      "bytes": 79623,
+      "sha256": "9ff24c3752cfbfdc1ec1940b483406685ce70a78e759d305f463bd1747ee3b8a"
+    },
+    {
+      "path": "results/top_delta_lut2_const_synth/util.rpt",
+      "bytes": 8263,
+      "sha256": "2d8dfeb7a549ae5681fb3ba5accf5739857a8a99cbba4896585221d6e10cb6c8"
+    },
+    {
+      "path": "results/top_delta_lut2_const_vivado.jou",
+      "bytes": 1389,
+      "sha256": "cfff2288872a9fdb1d1cfeca2c8a7b4f0ac147c1688c874af7555622cfcc5f85"
+    },
+    {
+      "path": "results/top_delta_lut2_const_vivado.log",
+      "bytes": 68976,
+      "sha256": "f5f48264b7683843de55636c4cbc0f5ab813514dc41b393be1cfcbb1bd4c02ff"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_build.log",
+      "bytes": 69431,
+      "sha256": "ffc4ef647f8a3946a4a7a784a702d3154d48d07b588183ce7f88ea3df5e26338"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "a08ba460729b9a61fdd9fc6d9c5e3284c72a012413acca9b80c84fafcde92fa4"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/boundary_timing.rpt",
+      "bytes": 17662,
+      "sha256": "b7075b2a3fdc38d6fcd64c96b3e1b93897660d319a0429221cb5640871df82f2"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/design.dcp",
+      "bytes": 323998,
+      "sha256": "33f1f240fb79f6dfeac0d0b441d3453dc71cca27596b01058f843218c570a61f"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/hierarchical_util.rpt",
+      "bytes": 2178,
+      "sha256": "e419fd4dba20a08684943f3fb5b5213ba9791cd192dda138920c2a903c674096"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/input_paths.rpt",
+      "bytes": 25614,
+      "sha256": "f33615a7aebf707881b9f5459c7d9bf7056c8d04bedc3cfe8f40337e4a30f4fb"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/paths.rpt",
+      "bytes": 27603,
+      "sha256": "3bf16fa74540cb277dce0a95990b127076296705c97310096bb067b712675e1e"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/slack.txt",
+      "bytes": 8,
+      "sha256": "2140d0b103be1a108c1b41f83d341f7194f2821f434a166ea21e01717ed82bd8"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/timing.rpt",
+      "bytes": 18153,
+      "sha256": "55dd380d12f2b8fd962bd760269cfef87b1661a68e302547a637a4e971c40cc1"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_route/util.rpt",
+      "bytes": 10443,
+      "sha256": "5fbcb0fe39599786b95ebd633828dfec7a1f15b78c00783d898fea8fd16c1edc"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_synth/design.dcp",
+      "bytes": 104056,
+      "sha256": "d7524db76e9942ff0f55a906ed3dda2b1609f394474a53a8615b12255559df42"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_synth/util.rpt",
+      "bytes": 8259,
+      "sha256": "e3d0573e7364e93651e1c66af39f7a7d62a1bd14b6073bf066840dd622048f57"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_vivado.jou",
+      "bytes": 1383,
+      "sha256": "2ee8d82f68a26936ad36af0e3ae5ef7d5157196cdd2048746ab25f9b9d238167"
+    },
+    {
+      "path": "results/top_delta_lut2_prog_vivado.log",
+      "bytes": 69409,
+      "sha256": "f13a3594adfacc51bcab6d026f2ca43976d21fb159bafd685db3ca273badeeae"
+    },
+    {
+      "path": "results/top_delta_lut6_const_build.log",
+      "bytes": 16818,
+      "sha256": "1ee31b158770e016ae4d912405e95e33e6954872bf9b73c0e446cd1926d9127d"
+    },
+    {
+      "path": "results/top_delta_lut6_const_resume_build.log",
+      "bytes": 51975,
+      "sha256": "46963570cb536ca2dd41e6a8d3a69d27e929d1235a98870d67aa00f917975d8e"
+    },
+    {
+      "path": "results/top_delta_lut6_const_resume_vivado.jou",
+      "bytes": 1413,
+      "sha256": "d1ef963eb4bd858da7e1afb4b922d1770d9d032e5250c9c65f415594fd6e130f"
+    },
+    {
+      "path": "results/top_delta_lut6_const_resume_vivado.log",
+      "bytes": 52254,
+      "sha256": "27d8766e81688494bb08ec45737de725a1769cd7f8f611c7a6f6480774d44574"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "ffa0246ebc5bd30653b670f7d50851ec58671f8f9aa0de0abcba6b91fa12140a"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/boundary_timing.rpt",
+      "bytes": 17456,
+      "sha256": "19cf53c104c43e98361c0f62a19af7056548ef43ab9d7cbf899f57250e96094a"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/design.dcp",
+      "bytes": 348579,
+      "sha256": "f550d423e2fe55f76799d46fe063b39881ba633e239c869bef2f3bf3f56e1800"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/hierarchical_util.rpt",
+      "bytes": 2189,
+      "sha256": "f07a02753df456da2fd2997040fb702133433929120e8bca98f8be5f35dc3c42"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/input_paths.rpt",
+      "bytes": 24603,
+      "sha256": "4a60e20fcdadf58521e1cbc4f67bc36f7c6264dbc60fb1de9f05028914e70985"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/paths.rpt",
+      "bytes": 19303,
+      "sha256": "34ae82806d7044d495ec41e1179509ac7f00da54da6866c289379ddf88863374"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/slack.txt",
+      "bytes": 7,
+      "sha256": "7555e6d19215181b612caa9f0e6e7f1c7fa2cd8230169bd632a1579d9925495e"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/timing.rpt",
+      "bytes": 17236,
+      "sha256": "04c1f2ced5c624189f97095e89ddf0a764cf37e29141c84311183d3efe8a3ca8"
+    },
+    {
+      "path": "results/top_delta_lut6_const_route/util.rpt",
+      "bytes": 10447,
+      "sha256": "c2ed2e5273bc64aa03b8fecf0b9fa2f68f3b981d47bc2a8dc7d3e2ba1f4867dc"
+    },
+    {
+      "path": "results/top_delta_lut6_const_synth/design.dcp",
+      "bytes": 117344,
+      "sha256": "999258102b39d6834b43180a6c97db6ab574028d20acf9aa09495237040bb8ab"
+    },
+    {
+      "path": "results/top_delta_lut6_const_synth/util.rpt",
+      "bytes": 8263,
+      "sha256": "f349589aac0b350bbf228d742b382af1c8a1169009da2e62f8d3e0a0169ab625"
+    },
+    {
+      "path": "results/top_delta_lut6_const_vivado.jou",
+      "bytes": 1388,
+      "sha256": "3b33a0faa72e9402f1bc409a17a4e17e96fc035d7e910a7e369219c607314b4d"
+    },
+    {
+      "path": "results/top_delta_lut6_const_vivado.log",
+      "bytes": 17525,
+      "sha256": "e176ea572ea823301a3600d35cd9d5f40d32f01a5bae4dd380497de660d90ba4"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_build.log",
+      "bytes": 69965,
+      "sha256": "03548053130841e28410e6c9ffc73b50db17ec36d78899792daf8712e0f3ccd3"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "949504bb5db136dc10ff34665ab94e87b4c330790433ec7211cf83762dd5c3cd"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/boundary_timing.rpt",
+      "bytes": 17480,
+      "sha256": "8f52857b8652787ad537921be8fbf150600c361d882296effaaa0f2d6c1ddcb0"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/design.dcp",
+      "bytes": 463607,
+      "sha256": "4edecfbc79615413d4959cadc3c41ac7a780a2755320508667a9bb51da662aeb"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/hierarchical_util.rpt",
+      "bytes": 2178,
+      "sha256": "499a010673a14a8c445dea287d28402ae0c396faec7c3a197709e228a3409c64"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/input_paths.rpt",
+      "bytes": 24684,
+      "sha256": "e753ff0e551e30703261b8ee8f0f3cbd504ca93422938f5691e9848b490a324d"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/paths.rpt",
+      "bytes": 27104,
+      "sha256": "8e9a7d437e12fef9a6ba782a23b61f20051f8894ff9a83d9bd716e2946be754b"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/slack.txt",
+      "bytes": 8,
+      "sha256": "f0e5be0d1eeef623233493a34690554dec499909a9a135366788a487f6a57117"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/timing.rpt",
+      "bytes": 17980,
+      "sha256": "5a68efcf5dc0bfc213fef3e7f0408550d90e371c2aafe026c47f9518277f3c1d"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_route/util.rpt",
+      "bytes": 10443,
+      "sha256": "8c04a7bc0e2dce5def3f717ec5de88a96d5604b6489d7f082670b2525ac73d5e"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_synth/design.dcp",
+      "bytes": 178474,
+      "sha256": "2be38937565c03bbf3d7c8d60c019378e59b4efed0c698ec4bb4f7e4274e0fa4"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_synth/util.rpt",
+      "bytes": 8259,
+      "sha256": "2df29fde1b8932a623ef7c8202e81fd50b4a57014f03abd2f6c6673c245ba3a4"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_vivado.jou",
+      "bytes": 1384,
+      "sha256": "64b9d75b5c289e01bdd5071406bb4e1eef8e8c37224b50d99b65817fc46e5e53"
+    },
+    {
+      "path": "results/top_delta_lut6_prog_vivado.log",
+      "bytes": 69944,
+      "sha256": "ee1ad804d8dc6f70f18b4f795950a40b22b6e49366484cdef0f27481f6bc47d4"
+    },
+    {
+      "path": "results/top_delta_rom2_const_build.log",
+      "bytes": 66366,
+      "sha256": "b007ebf6aec3c01ca0919ea5928140aa8ee00dbfd1679d85f19eb94cb6584128"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/boundary_slack.txt",
+      "bytes": 16,
+      "sha256": "2908dea22d844c7d80918339bf982242b11eedafc01bc5608ba89b583ce59748"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/boundary_timing.rpt",
+      "bytes": 17729,
+      "sha256": "4cf763e6e9162a66768211aeb857b8b8d7be6139571060471563ae761627981e"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/design.dcp",
+      "bytes": 257886,
+      "sha256": "27fe11b8fc345354b36c2cd1a23d9007920997e76beb5f3a3b72150d01b35bf6"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/hierarchical_util.rpt",
+      "bytes": 2189,
+      "sha256": "3a86e3753492516b4259d688ed01d82040a11f4fa1d94c60c01c7159a9e5f856"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/input_paths.rpt",
+      "bytes": 24593,
+      "sha256": "9bc25282676abe20ac9815e9aae5050ec4e632831eaecf8d5f520358efc5b862"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/paths.rpt",
+      "bytes": 17462,
+      "sha256": "f49b014f7c172521d7bd68fe167751998a4785709a1595a7272954e3ade97b28"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/slack.txt",
+      "bytes": 7,
+      "sha256": "2ee7a16e939518f823e40665508cc7cf0b5a95f607763f2f679df15f6e43e56e"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/timing.rpt",
+      "bytes": 16248,
+      "sha256": "91939b157611e3035abbeb99d1ba4db0f6d5a2daa8ea35ec2c18e103abe5dca3"
+    },
+    {
+      "path": "results/top_delta_rom2_const_route/util.rpt",
+      "bytes": 10538,
+      "sha256": "5fe4cbb37c18eb23b09dda65aa8ba840c53d2e1a14bcc1d555af379d6370b4cf"
+    },
+    {
+      "path": "results/top_delta_rom2_const_synth/design.dcp",
+      "bytes": 70657,
+      "sha256": "a9fd391b96dabd37c783605c48cb07dd51ab45820fe4e651079696a6113fb61d"
+    },
+    {
+      "path": "results/top_delta_rom2_const_synth/util.rpt",
+      "bytes": 8354,
+      "sha256": "b9e4476207cf047dbe048dc29594d954b5541d8e987ffb8c3bf1d9e7e95313fc"
+    },
+    {
+      "path": "results/top_delta_rom2_const_vivado.jou",
+      "bytes": 1389,
+      "sha256": "9cb81806173e401884935aee2a12dd1e1d8abb611c9d0270b15000ae6fa96ce2"
+    },
+    {
+      "path": "results/top_delta_rom2_const_vivado.log",
+      "bytes": 66413,
+      "sha256": "7ece6b02d7778410fa55490f660ea8a8e70ee88608f12947c23f9dfd78f4173c"
+    },
+    {
+      "path": "route_adaptive_delta_compact.tcl",
+      "bytes": 824,
+      "sha256": "6d3a601e716e74ecddede35c6e45e90b41f2f4224393b53f9f7cc6c7d5bd19db"
+    },
+    {
+      "path": "route_adaptive_delta_leak.tcl",
+      "bytes": 798,
+      "sha256": "22ab290ce2781e5879239b7210f0d8266325349f323bedeb9d2b15074bbe0dc6"
+    },
+    {
+      "path": "route_neuron_alu_resume.tcl",
+      "bytes": 557,
+      "sha256": "a2308b928b159c5d562555444bb5187304e4a67d47683a2c304d3ddc26088a7b"
+    },
+    {
+      "path": "run_adaptive_delta_compact_route.py",
+      "bytes": 2740,
+      "sha256": "11c7a4e2003a20e6ec8446daaf1f3905aa09759a9535d77b3aa14682e76bae2b"
+    },
+    {
+      "path": "run_adaptive_delta_route.py",
+      "bytes": 2685,
+      "sha256": "24e1e9838a963b3b741526c1862299c237c9e309bb25eee92a877a41251869f8"
+    },
+    {
+      "path": "screen_shared_offset_delta.py",
+      "bytes": 4662,
+      "sha256": "438287688e71dedc1eb471fef1a530aad331a6c6de8cd721631b07b3cc6763e6"
+    },
+    {
+      "path": "tb_adaptive_delta_compact.sv",
+      "bytes": 2769,
+      "sha256": "37f3a9c3b59fbfd685e95ad75c2b8bcfbdf58ca781c0014c36f0db1d471a3c29"
+    },
+    {
+      "path": "tb_adaptive_delta_leak.sv",
+      "bytes": 2699,
+      "sha256": "6d1fa413755beb158da24e785709ae104acd05da1e4dd5ae194cd911ee73cff3"
+    }
+  ],
+  "metrics": {
+    "rtl_engine_configuration_runs": 56,
+    "rtl_six_neuron_group_checks": 3598368,
+    "model_trace_groups_per_implementation": 110592,
+    "model_replayed_images": 144,
+    "routed_cores": 13,
+    "mismatches": 0,
+    "sample_leakage_group_cycle_saving": 0.053884110134710284,
+    "complete_group_cycle_saving_range": [
+      0.03833753273365484,
+      0.09526410915822743
+    ],
+    "whole_update_proxy_saving_range": [
+      0.012002026469694433,
+      0.030374304547236854
+    ]
+  }
+}

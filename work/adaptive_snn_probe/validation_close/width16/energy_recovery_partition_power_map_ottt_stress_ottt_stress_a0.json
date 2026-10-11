@@ -1,0 +1,155 @@
+{
+  "status": "completed_partition_with_retained_failures_or_missing_controls",
+  "partition": "ottt_stress",
+  "power_paths": {
+    "glif": {},
+    "ottt": {
+      "5": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e5_ottt_stress_a0_e5\\power_audit.json",
+        "sha256": "c1085ec275881a7b6164eea4b4d51b752381c416d123ed54f2d1b3ea3359d40f"
+      },
+      "1": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e1_ottt_stress_a0_e1\\power_audit.json",
+        "sha256": "5a7ece8cceebcb5ac766da145718962716aa9cff489c398225b40966516b5cb0"
+      },
+      "6": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e6_ottt_stress_a0_e6\\power_audit.json",
+        "sha256": "e82f2952ec2503635e2e74f994f1087e7da0a2371fb4d301f8fda99ed52d60eb"
+      },
+      "0": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e0_ottt_stress_a0_e0\\power_audit.json",
+        "sha256": "82e53f9a7bf58e0d2082b5eb27a54a13a8e39e9376d59f56e3c57612d950816b"
+      },
+      "3": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e3_ottt_stress_a0_e3\\power_audit.json",
+        "sha256": "b39b2ab3f95854deb5e931b02e4836611de141576481a67028efad836a886764"
+      },
+      "4": {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e4_ottt_stress_a0_e4\\power_audit.json",
+        "sha256": "b36dbdf9f0ad55a9f6cd71bbb3e9d33306c6ad40fd652aca2e2f48461763e3f5"
+      }
+    }
+  },
+  "included_controls": [
+    {
+      "workload": "ottt",
+      "engine": 5
+    },
+    {
+      "workload": "ottt",
+      "engine": 1
+    },
+    {
+      "workload": "ottt",
+      "engine": 6
+    },
+    {
+      "workload": "ottt",
+      "engine": 0
+    },
+    {
+      "workload": "ottt",
+      "engine": 3
+    },
+    {
+      "workload": "ottt",
+      "engine": 4
+    },
+    {
+      "workload": "ottt",
+      "engine": 2
+    }
+  ],
+  "retained_failures": [
+    {
+      "label": "OTTT_energy_e2",
+      "returncode": 2,
+      "seconds": 78.57839870452881,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_OTTT_energy_e2_ottt_stress_a0.log",
+      "log_sha256": "2c508776e92bb5da6b2b82947025eea44501ba62439185e24b689e76bc920922",
+      "acceptance_gates": [],
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 2))",
+      "accepted_energy": false
+    }
+  ],
+  "explicit_child_receipts": [
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_ottt_e5_ottt_stress_a0_e5_progress.json",
+        "sha256": "7d196737c3fcf5a662f3ef33af0a5deaf9f37ad56e673a3fd45032465cf587ef",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e5_ottt_stress_a0_e5\\power_audit.json",
+        "sha256": "c1085ec275881a7b6164eea4b4d51b752381c416d123ed54f2d1b3ea3359d40f",
+        "status": "pass"
+      }
+    ],
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_ottt_e1_ottt_stress_a0_e1_progress.json",
+        "sha256": "123875609fcf3dcd4e1ce264601ffa54dc0bd064be5a70521126d8bd3eaeae72",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e1_ottt_stress_a0_e1\\power_audit.json",
+        "sha256": "5a7ece8cceebcb5ac766da145718962716aa9cff489c398225b40966516b5cb0",
+        "status": "pass"
+      }
+    ],
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_ottt_e6_ottt_stress_a0_e6_progress.json",
+        "sha256": "c4466f66fa3385121824937a242df37de4886fe17d368fdc6245590563b81481",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e6_ottt_stress_a0_e6\\power_audit.json",
+        "sha256": "e82f2952ec2503635e2e74f994f1087e7da0a2371fb4d301f8fda99ed52d60eb",
+        "status": "pass"
+      }
+    ],
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_ottt_e0_ottt_stress_a0_e0_progress.json",
+        "sha256": "ecd884aefc8b5eb4180688dbdedcba7023ab09fbe0ae86ee44f0ddfccaa9ca42",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e0_ottt_stress_a0_e0\\power_audit.json",
+        "sha256": "82e53f9a7bf58e0d2082b5eb27a54a13a8e39e9376d59f56e3c57612d950816b",
+        "status": "pass"
+      }
+    ],
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_ottt_e3_ottt_stress_a0_e3_progress.json",
+        "sha256": "d3cfdfd79d6749840c3675ea71f4359e9c689038276c72767fe83c3cfb67bcce",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e3_ottt_stress_a0_e3\\power_audit.json",
+        "sha256": "b39b2ab3f95854deb5e931b02e4836611de141576481a67028efad836a886764",
+        "status": "pass"
+      }
+    ],
+    [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_ottt_e4_ottt_stress_a0_e4_progress.json",
+        "sha256": "7dc55c949559820344013dca912e59742d7059f113141de35182b888255c3493",
+        "status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e4_ottt_stress_a0_e4\\power_audit.json",
+        "sha256": "b36dbdf9f0ad55a9f6cd71bbb3e9d33306c6ad40fd652aca2e2f48461763e3f5",
+        "status": "pass"
+      }
+    ]
+  ],
+  "all14_verifier_invoked": false,
+  "complete_all14_energy_claim": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_partition_ottt_stress_ottt_stress_a0_preaudit.json": "4b2d1323ac7a9e488542b6e72bf133b9100e8a4802bfaddb9a18556560b0526b"
+  }
+}

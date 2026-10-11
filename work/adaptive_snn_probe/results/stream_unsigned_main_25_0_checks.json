@@ -1,0 +1,81 @@
+{
+  "source_hashes": {
+    "stream_unsigned_leak.sv": "bc65e90bd4efc012e9e55b9300d5e6e17ac6880d7f516242ab256155160dccfd",
+    "tb_stream_unsigned_leak.sv": "65bb4a623b16a2b1cf896d12311ca66445851106b2b19ccc6e205f4c264279fa"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 166840,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 252877,
+      "neurons": 544431,
+      "arithmetic_issues": 250219,
+      "narrow_requests": 105383,
+      "bypass_requests": 2658,
+      "clocks": 253006,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 351583,
+      "neurons": 544431,
+      "arithmetic_issues": 348925,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 351712,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 351583,
+      "neurons": 544431,
+      "arithmetic_issues": 348925,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 351712,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 179859,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 182646,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 179859,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 182646,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 179859,
+      "narrow_requests": 0,
+      "bypass_requests": 2658,
+      "clocks": 182646,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 319799,
+      "neurons": 544431,
+      "arithmetic_issues": 317141,
+      "narrow_requests": 35177,
+      "bypass_requests": 2658,
+      "clocks": 319928,
+      "mismatches": 0
+    }
+  ]
+}

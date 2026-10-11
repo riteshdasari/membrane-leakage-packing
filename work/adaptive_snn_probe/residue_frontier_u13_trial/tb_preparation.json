@@ -1,0 +1,99 @@
+{
+  "source_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_f5_trial\\tb_frontier_compare.sv",
+  "source_sha256": "4d9ef96198f779d57b0255f1b0a370374919e521d6e52da27c17138a06151a72",
+  "generator_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_tb.py",
+  "generator_sha256": "bc05d4498638426015ece91e71d1edc655f746b5818c97c50b9c10df2ec3e837",
+  "output_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv",
+  "output_sha256": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+  "substitutions": [
+    [
+      "frontier_driver",
+      "frontier_u13_driver"
+    ],
+    [
+      "guard_add_frontier_f5",
+      "guard_add_frontier_u13"
+    ],
+    [
+      "tb_frontier_compare",
+      "tb_frontier_u13_compare"
+    ],
+    [
+      "[87:0]",
+      "[103:0]"
+    ],
+    [
+      "[95:0]",
+      "[111:0]"
+    ],
+    [
+      "[10:0]",
+      "[12:0]"
+    ],
+    [
+      "mem_i[k][10:8]!={3{mem_i[k][7]}}",
+      "mem_i[k][12:8]!={5{mem_i[k][7]}}"
+    ],
+    [
+      "U11/I8",
+      "U13/I8"
+    ],
+    [
+      "11*k+:11",
+      "13*k+:13"
+    ],
+    [
+      "11'd1023",
+      "13'd4095"
+    ],
+    [
+      "11'd127",
+      "13'd127"
+    ],
+    [
+      "11'h400",
+      "13'h1000"
+    ],
+    [
+      "11'h7ff",
+      "13'h1fff"
+    ],
+    [
+      "%022h",
+      "%026h"
+    ],
+    [
+      "%024h",
+      "%028h"
+    ],
+    [
+      "[55+:11]",
+      "[65+:13]"
+    ],
+    [
+      "[66+:11]",
+      "[78+:13]"
+    ],
+    [
+      "[77+:11]",
+      "[91+:13]"
+    ],
+    [
+      "12*k+:12",
+      "14*k+:14"
+    ],
+    [
+      "12'(uu+ii)",
+      "14'(uu+ii)"
+    ],
+    [
+      "reg clk=0;always #3 clk=~clk;",
+      "reg clk=0;initial begin #6;forever #3 clk=~clk;end"
+    ],
+    [
+      "FRONTIER_COMPARE PASS",
+      "FRONTIER_U13_COMPARE PASS"
+    ]
+  ],
+  "scope": "New widths and module names; preserved plain integer oracle, reset cancellation, stalls, source hold, output freeze, ordered prefix, poison tails and four-advance protocol."
+}

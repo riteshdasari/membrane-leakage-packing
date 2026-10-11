@@ -1,0 +1,12 @@
+{
+  "status": "prepared_execution_environment_retry",
+  "cause": "Bundled GCC fails to start inside sandbox with Illegal System DLL Relocation. Same GCC --version succeeds outside sandbox.",
+  "execution": "Run unchanged datapath, tb_native_v3 and stimulus through the reviewed unsandboxed command. Remove verbose2 diagnostics only.",
+  "pins": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_native_v4.py": "9d3ddc1d08f93a9996c857c8f8bf083518a0d561e8397429ce99b85be59a9365",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_native_v3.py": "82f39acf30d5eba537a5bc0d53c0b710741ee4b9f2b43052deaffb850db3714d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_native_v4.py": "290f35a776051c3f8b8c1253273c4ebb96aa906ef15558b8e6d289b9223ea5d1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_native_v3.sv": "8fb77b5d892b98b070035c30337713e71954576f344e21553712c4826ec46644",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a2\\tool_2.log": "eda95f484841c087f13b8d95556137c3d75379e4ce7847145e14bb16f884e307"
+  }
+}

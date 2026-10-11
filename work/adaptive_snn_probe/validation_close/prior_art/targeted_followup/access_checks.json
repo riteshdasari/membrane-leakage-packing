@@ -1,0 +1,80 @@
+{
+  "status": "completed_bounded_public_primary_followup",
+  "resources": [
+    {
+      "url": "https://pure.qub.ac.uk/en/publications/power-efficient-dynamic-range-utilisation-for-dsp-on-fpga/",
+      "primary_host": true,
+      "artifact": "mckeown_qub_record.html",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://eurasip.org/Proceedings/Eusipco/Eusipco2009/contents/papers/1569193849.pdf",
+      "primary_host": true,
+      "artifact": "mcallister_eusipco2009.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://eurasip.org/Proceedings/Eusipco/Eusipco2009/contents/papers/1569193849.pdf",
+      "bytes": 244809,
+      "sha256": "4ff932e10950f199d4e87ee0e3a411dc726336f0ae615b0e8c06f0fd6e1acfc8",
+      "pdf_magic": true
+    },
+    {
+      "url": "https://ime.um.edu.mo/zh-hans/people-zh-hans/weihan-yu/",
+      "primary_host": true,
+      "artifact": "yu_macau_author.html",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "bytes": 199,
+      "sha256": "5b13fb5957b84ef7bb9d0b6cd509c947ff6a37d67efdac2b896ddd3b908aad10",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://cs.ustc.edu.cn/2020/1203/c23239a462623/page.htm",
+      "primary_host": true,
+      "artifact": "gong_ustc_author.html",
+      "status": 200,
+      "content_type": "text/html",
+      "final_url": "https://cs.ustc.edu.cn/2020/1203/c23239a462623/page.htm",
+      "bytes": 31308,
+      "sha256": "77c110f4517ea1dce9e9d59aa6711c4764a7528090b801392109b68d19b45496",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.github.com/repos/wintermelon008/UDP/releases",
+      "primary_host": true,
+      "artifact": "udp_releases.json",
+      "status": 403,
+      "error": "HTTP Error 403: rate limit exceeded",
+      "bytes": 280,
+      "sha256": "b61312df83e1d210d389eb819a830f64caa48151e03fdc2745190f8f6a97b2b6",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.github.com/repos/wintermelon008/UDP/git/trees/main?recursive=1",
+      "primary_host": true,
+      "artifact": "udp_tree.json",
+      "status": 403,
+      "error": "HTTP Error 403: rate limit exceeded",
+      "bytes": 280,
+      "sha256": "c101f38c8824c506c86baccf978de561966fc4189fea9d2f95fc516985518695",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3748173.3779194",
+      "primary_host": true,
+      "artifact": "udp_publisher_pdf_response.bin",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "bytes": 5494,
+      "sha256": "282d67fee5ce4c46b34de7accbd160ce3ec94b6f1ffaf8dee97c9f72bab81262",
+      "pdf_magic": false
+    }
+  ],
+  "script_sha256": "09d3f26fcbfa2719c2fd0394d56d7c305eef83180cab12322c7bbc18ed27cb0e",
+  "authentication_attempted": false,
+  "access_restrictions_bypassed": false
+}

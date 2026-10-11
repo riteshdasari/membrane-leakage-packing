@@ -1,0 +1,25 @@
+{
+  "status": "pass_source_and_host_preparation_no_capture_no_vendor",
+  "byte_identical_source_copies": 7,
+  "AST_scripts": 4,
+  "native_mapping": {
+    "0": 5,
+    "1": 1,
+    "2": 6
+  },
+  "independent_existing7335_issue_counts_pass": true,
+  "boundary_count_tests": 4,
+  "failed_distribution_rejection_pass": true,
+  "energy_measurement_accepted": false,
+  "capture_measurement_accepted": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12.py": "90a83bb2c510ebfd34c7c466c8f640afac1291f7c81fe25dc4b4753804dd0dbf",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\check_preparation_sources.py": "c3640e11c1205ce52911ec8e29a355af70cc10ef9b4c28300a8b5b096c6144ee",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\energy16_preparation_rep3.json": "c8f5019945d8a98837c48871c01c9662952980271229b0e14669ebc96ad6da18",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\preparation_rep3.json": "0a2fd1a0844f2380bd9e845123447a87a00c80819b432995f20922a791ffa8d0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run.py": "8a9a5ca6b6bf8da6ef696add0f9356b54a00188d6dd1accd7eb05e70f0614ad6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\run_energy16_rep3_12.py": "0748a7fbc34635273a32e87c77abef00f36167a77667c61eb66f360a01c33570",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\run_native16_rep3.py": "237a5fd0ffa7428311d24ad8bd153643b6a2c0a3856aeaaf5c3d9e24c6f82ebb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\tb_native16_rep3.sv": "f7c0b793dcd5f5338db2883f881b82bde980a5d87182c6a590c7d3b8218b34c3"
+  }
+}

@@ -1,0 +1,759 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\replay_e2_a0\\activity.saif",
+  "source_sha256": "7d3f5742f3293a403f08caf133a99ea16f03341d3f7c37b056bb4b97366afe42",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\replay_e2_a0\\activity_named.saif",
+  "target_sha256": "8ed7423211e815d574a91e31a634d7aaae162dd47e1db3e6bd7548905f7dbd1c",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 149,
+  "changes": [
+    {
+      "line": 1165,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 1666,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1667,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1668,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1669,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1670,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 1671,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1672,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1673,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1674,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1675,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1676,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1677,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[0\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1678,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[1\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1679,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[2\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1680,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[3\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1681,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[4\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1682,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[5\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1683,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[6\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1684,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[7\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1685,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[8\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base0_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1687,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[0\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1688,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[1\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1689,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[2\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1690,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[3\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1691,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[4\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1692,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[5\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1693,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[6\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1694,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[7\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1695,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[8\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base1_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1697,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[0\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1698,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[1\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1699,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[2\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1700,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[3\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1701,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[4\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1702,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[5\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1703,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[6\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1704,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[7\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1705,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[8\\]\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[0\\]\\.full_lane\\.base2_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1724,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1725,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1726,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1727,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1728,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 1729,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1730,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1731,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1732,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1733,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1734,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[1\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1771,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1772,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1773,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1774,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1775,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 1776,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1777,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1778,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1779,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1780,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1781,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[2\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1818,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1819,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1820,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1821,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1822,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 1823,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1824,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1825,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1826,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1827,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1828,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[3\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1865,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1866,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1867,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1868,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1869,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 1870,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1871,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1872,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1873,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1874,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1875,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[4\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1912,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1913,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1914,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1915,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1916,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 1917,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1918,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1919,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1920,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1921,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1922,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[5\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1959,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1960,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1961,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1962,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1963,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 1964,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1965,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1966,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1967,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1968,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1969,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[6\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 2006,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 2007,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 2008,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 2009,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 2010,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[3\\]_i_6_n_0"
+    },
+    {
+      "line": 2011,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 2012,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 2013,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 2014,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 2015,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 2016,
+      "old": "\\\\residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0\\",
+      "new": "residue_eight\\.precomputed_metadata\\.lane\\[7\\]\\.full_lane\\.base0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 2036,
+      "old": "\\\\result_data\\[102\\]_i_1_n_0\\",
+      "new": "result_data\\[102\\]_i_1_n_0"
+    },
+    {
+      "line": 2037,
+      "old": "\\\\result_data\\[107\\]_i_2_n_0\\",
+      "new": "result_data\\[107\\]_i_2_n_0"
+    },
+    {
+      "line": 2038,
+      "old": "\\\\result_data\\[111\\]_i_1_n_0\\",
+      "new": "result_data\\[111\\]_i_1_n_0"
+    },
+    {
+      "line": 2039,
+      "old": "\\\\result_data\\[111\\]_i_3_n_0\\",
+      "new": "result_data\\[111\\]_i_3_n_0"
+    },
+    {
+      "line": 2040,
+      "old": "\\\\result_data\\[111\\]_i_4_n_0\\",
+      "new": "result_data\\[111\\]_i_4_n_0"
+    },
+    {
+      "line": 2041,
+      "old": "\\\\result_data\\[13\\]_i_2_n_0\\",
+      "new": "result_data\\[13\\]_i_2_n_0"
+    },
+    {
+      "line": 2042,
+      "old": "\\\\result_data\\[13\\]_i_3_n_0\\",
+      "new": "result_data\\[13\\]_i_3_n_0"
+    },
+    {
+      "line": 2043,
+      "old": "\\\\result_data\\[18\\]_i_1_n_0\\",
+      "new": "result_data\\[18\\]_i_1_n_0"
+    },
+    {
+      "line": 2044,
+      "old": "\\\\result_data\\[23\\]_i_2_n_0\\",
+      "new": "result_data\\[23\\]_i_2_n_0"
+    },
+    {
+      "line": 2045,
+      "old": "\\\\result_data\\[27\\]_i_2_n_0\\",
+      "new": "result_data\\[27\\]_i_2_n_0"
+    },
+    {
+      "line": 2046,
+      "old": "\\\\result_data\\[27\\]_i_3_n_0\\",
+      "new": "result_data\\[27\\]_i_3_n_0"
+    },
+    {
+      "line": 2047,
+      "old": "\\\\result_data\\[32\\]_i_1_n_0\\",
+      "new": "result_data\\[32\\]_i_1_n_0"
+    },
+    {
+      "line": 2048,
+      "old": "\\\\result_data\\[37\\]_i_2_n_0\\",
+      "new": "result_data\\[37\\]_i_2_n_0"
+    },
+    {
+      "line": 2049,
+      "old": "\\\\result_data\\[41\\]_i_2_n_0\\",
+      "new": "result_data\\[41\\]_i_2_n_0"
+    },
+    {
+      "line": 2050,
+      "old": "\\\\result_data\\[41\\]_i_3_n_0\\",
+      "new": "result_data\\[41\\]_i_3_n_0"
+    },
+    {
+      "line": 2051,
+      "old": "\\\\result_data\\[46\\]_i_1_n_0\\",
+      "new": "result_data\\[46\\]_i_1_n_0"
+    },
+    {
+      "line": 2052,
+      "old": "\\\\result_data\\[4\\]_i_1_n_0\\",
+      "new": "result_data\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 2053,
+      "old": "\\\\result_data\\[51\\]_i_2_n_0\\",
+      "new": "result_data\\[51\\]_i_2_n_0"
+    },
+    {
+      "line": 2054,
+      "old": "\\\\result_data\\[55\\]_i_2_n_0\\",
+      "new": "result_data\\[55\\]_i_2_n_0"
+    },
+    {
+      "line": 2055,
+      "old": "\\\\result_data\\[55\\]_i_3_n_0\\",
+      "new": "result_data\\[55\\]_i_3_n_0"
+    },
+    {
+      "line": 2056,
+      "old": "\\\\result_data\\[60\\]_i_1_n_0\\",
+      "new": "result_data\\[60\\]_i_1_n_0"
+    },
+    {
+      "line": 2057,
+      "old": "\\\\result_data\\[65\\]_i_2_n_0\\",
+      "new": "result_data\\[65\\]_i_2_n_0"
+    },
+    {
+      "line": 2058,
+      "old": "\\\\result_data\\[69\\]_i_2_n_0\\",
+      "new": "result_data\\[69\\]_i_2_n_0"
+    },
+    {
+      "line": 2059,
+      "old": "\\\\result_data\\[69\\]_i_3_n_0\\",
+      "new": "result_data\\[69\\]_i_3_n_0"
+    },
+    {
+      "line": 2060,
+      "old": "\\\\result_data\\[74\\]_i_1_n_0\\",
+      "new": "result_data\\[74\\]_i_1_n_0"
+    },
+    {
+      "line": 2061,
+      "old": "\\\\result_data\\[79\\]_i_2_n_0\\",
+      "new": "result_data\\[79\\]_i_2_n_0"
+    },
+    {
+      "line": 2062,
+      "old": "\\\\result_data\\[83\\]_i_2_n_0\\",
+      "new": "result_data\\[83\\]_i_2_n_0"
+    },
+    {
+      "line": 2063,
+      "old": "\\\\result_data\\[83\\]_i_3_n_0\\",
+      "new": "result_data\\[83\\]_i_3_n_0"
+    },
+    {
+      "line": 2064,
+      "old": "\\\\result_data\\[88\\]_i_1_n_0\\",
+      "new": "result_data\\[88\\]_i_1_n_0"
+    },
+    {
+      "line": 2065,
+      "old": "\\\\result_data\\[93\\]_i_2_n_0\\",
+      "new": "result_data\\[93\\]_i_2_n_0"
+    },
+    {
+      "line": 2066,
+      "old": "\\\\result_data\\[97\\]_i_2_n_0\\",
+      "new": "result_data\\[97\\]_i_2_n_0"
+    },
+    {
+      "line": 2067,
+      "old": "\\\\result_data\\[97\\]_i_3_n_0\\",
+      "new": "result_data\\[97\\]_i_3_n_0"
+    },
+    {
+      "line": 2068,
+      "old": "\\\\result_data\\[9\\]_i_2_n_0\\",
+      "new": "result_data\\[9\\]_i_2_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

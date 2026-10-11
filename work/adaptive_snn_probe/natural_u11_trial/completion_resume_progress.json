@@ -1,0 +1,47 @@
+{
+  "status": "all_checks_completed",
+  "native": [
+    [
+      "main",
+      0,
+      1
+    ],
+    [
+      "main",
+      1,
+      0
+    ],
+    [
+      "shift1",
+      0,
+      0
+    ],
+    [
+      "shift1",
+      1,
+      0
+    ],
+    [
+      "shift3",
+      0,
+      0
+    ],
+    [
+      "shift3",
+      1,
+      0
+    ]
+  ],
+  "routes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\continue_after_ram_gate.py": "cf46947afa9d9fcaed769250e9ffacd28b8e4d34f8746766937d473660c30d3a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\ram_gate_continuation.json": "5e497f375821abe0b527c1e63ba686811a6818eedbc6052b077f1ae92e5b20f8"
+  },
+  "unix_time": 1791620748.2910402
+}

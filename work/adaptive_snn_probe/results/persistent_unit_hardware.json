@@ -1,0 +1,50 @@
+[
+  {
+    "top": "top_persist_adaptive10_s3",
+    "LUT": 537,
+    "FF": 35,
+    "DSP": 1,
+    "WNS_ns": -7.564,
+    "seconds": 194.8,
+    "target_ns": 4,
+    "rtl_sha256": "071145f102f34589cf23ac2fe08dd89e383c1db1d23f0a5defc33d6eee56aa77",
+    "WHS_ns": 0.23,
+    "critical_period_estimate_ns": 11.564
+  },
+  {
+    "top": "top_persist_current10_s3",
+    "LUT": 320,
+    "FF": 68,
+    "DSP": 1,
+    "WNS_ns": -1.284,
+    "seconds": 302.8,
+    "target_ns": 4,
+    "rtl_sha256": "071145f102f34589cf23ac2fe08dd89e383c1db1d23f0a5defc33d6eee56aa77",
+    "WHS_ns": 0.498,
+    "critical_period_estimate_ns": 5.284
+  },
+  {
+    "top": "top_persist_lut10_s3",
+    "LUT": 249,
+    "FF": 68,
+    "DSP": 0,
+    "WNS_ns": -0.46,
+    "seconds": 120.3,
+    "target_ns": 4,
+    "rtl_sha256": "071145f102f34589cf23ac2fe08dd89e383c1db1d23f0a5defc33d6eee56aa77",
+    "WHS_ns": 0.314,
+    "critical_period_estimate_ns": 4.46
+  },
+  {
+    "top": "top_persist_fixed10_s3",
+    "LUT": 485,
+    "FF": 33,
+    "DSP": 1,
+    "WNS_ns": -4.082,
+    "seconds": 99.2,
+    "target_ns": 4,
+    "rtl_sha256": "071145f102f34589cf23ac2fe08dd89e383c1db1d23f0a5defc33d6eee56aa77",
+    "WHS_ns": 0.288,
+    "critical_period_estimate_ns": 8.082
+  }
+]

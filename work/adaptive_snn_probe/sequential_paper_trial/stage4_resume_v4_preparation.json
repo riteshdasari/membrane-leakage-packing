@@ -1,0 +1,9 @@
+{
+  "status": "prepared",
+  "reason": "Human interruption stopped route attempt a2. Preserve it and run fresh placement/routing in a3, reusing only source-pinned completed synthesis.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4_resume_v4.py": "84383a4f3ae1def1370cae839b06dc2b71add80d96e7d5123782f3b14432801c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_route_v4.py": "04a3ef2a1fc0eed8f3c70db4a71382d6892083a81cb6dd4b8fae3e29e6c2c88b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_route_v3.py": "ca666a8254e1db2c08ac7fdcdd38f9fcff5491f02e40d8625e005061d495b433"
+  }
+}

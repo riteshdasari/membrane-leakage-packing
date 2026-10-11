@@ -1,0 +1,812 @@
+[
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      9412,
+      6031,
+      3141
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      36404,
+      6031,
+      30133
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      7472,
+      6031,
+      1201
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      6271,
+      6031,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      3314,
+      794,
+      2280
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2235,
+      794,
+      1201
+    ]
+  },
+  {
+    "mode": 3,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      1034,
+      794,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      9412,
+      6031,
+      3141
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      43793,
+      6031,
+      37522
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      7472,
+      6031,
+      1201
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      6271,
+      6031,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      5006,
+      794,
+      3972
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2235,
+      794,
+      1201
+    ]
+  },
+  {
+    "mode": 3,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      1034,
+      794,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      9412,
+      6031,
+      3141
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      43927,
+      6031,
+      37656
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      7472,
+      6031,
+      1201
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      6271,
+      6031,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      7216,
+      794,
+      6182
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2235,
+      794,
+      1201
+    ]
+  },
+  {
+    "mode": 3,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 0,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      1034,
+      794,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      9412,
+      6031,
+      3141
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      36998,
+      6031,
+      30727
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      7472,
+      6031,
+      1201
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      6271,
+      6031,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      3314,
+      794,
+      2280
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2235,
+      794,
+      1201
+    ]
+  },
+  {
+    "mode": 3,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      1034,
+      794,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      9412,
+      6031,
+      3141
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      43647,
+      6031,
+      37376
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      7472,
+      6031,
+      1201
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      6271,
+      6031,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      5009,
+      794,
+      3975
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2235,
+      794,
+      1201
+    ]
+  },
+  {
+    "mode": 3,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 3,
+    "leak": 1,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      1034,
+      794,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      9412,
+      6031,
+      3141
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      43927,
+      6031,
+      37656
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      7472,
+      6031,
+      1201
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": false,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 800,
+    "cycles": [
+      6271,
+      6031,
+      0
+    ]
+  },
+  {
+    "mode": 0,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 1,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      7216,
+      794,
+      6182
+    ]
+  },
+  {
+    "mode": 2,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2235,
+      794,
+      1201
+    ]
+  },
+  {
+    "mode": 3,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      2715,
+      794,
+      1681
+    ]
+  },
+  {
+    "mode": 4,
+    "shift": 1,
+    "leak": 0,
+    "hard_reset": 1,
+    "bounded_current": true,
+    "timesteps": 120,
+    "mismatch_rows": 0,
+    "max_abs_current_prefix": 96,
+    "cycles": [
+      1034,
+      794,
+      0
+    ]
+  }
+]

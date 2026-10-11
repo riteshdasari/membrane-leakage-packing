@@ -1,0 +1,342 @@
+{
+  "status": "pass",
+  "kind": "shift1",
+  "backpressure": true,
+  "rows": [
+    {
+      "status": "pass",
+      "engine": 0,
+      "label": "adaptive5full_3U8_DSP",
+      "requests": 82944,
+      "retirements": 82944,
+      "neurons": 635904,
+      "service_clocks": 123297,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      },
+      "physical_latency_histogram": {
+        "1": 67894,
+        "4": 1050,
+        "3": 8398,
+        "2": 5602
+      },
+      "numeric_retirement_sha256": "19bcfa5024eeb2b610209e09f15fdf910d6142ede78e7bf466a337d7f238d844",
+      "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out0.txt",
+      "retirement_sha256": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+      "input_stalls": 22131,
+      "output_stalls": 25548,
+      "group_drains": 9216,
+      "reset_samples": 6,
+      "prelude_samples": 25,
+      "actual_retired_feedback": [
+        {
+          "seed": 0,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9611111111111111,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 1,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9555555555555556,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 2,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9791666666666666,
+          "all360_saved_software_reference_accuracy": 0.975,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        }
+      ],
+      "original_LIF_numeric_retirements_match": true
+    },
+    {
+      "status": "pass",
+      "engine": 1,
+      "label": "fixed8_precomputed_DSP",
+      "requests": 82944,
+      "retirements": 82944,
+      "neurons": 635904,
+      "service_clocks": 123297,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      },
+      "physical_latency_histogram": {
+        "1": 67894,
+        "4": 1050,
+        "3": 8398,
+        "2": 5602
+      },
+      "numeric_retirement_sha256": "19bcfa5024eeb2b610209e09f15fdf910d6142ede78e7bf466a337d7f238d844",
+      "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out1.txt",
+      "retirement_sha256": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+      "input_stalls": 22131,
+      "output_stalls": 25548,
+      "group_drains": 9216,
+      "reset_samples": 6,
+      "prelude_samples": 25,
+      "actual_retired_feedback": [
+        {
+          "seed": 0,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9611111111111111,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 1,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9555555555555556,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 2,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9791666666666666,
+          "all360_saved_software_reference_accuracy": 0.975,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        }
+      ],
+      "original_LIF_numeric_retirements_match": true
+    },
+    {
+      "status": "pass",
+      "engine": 2,
+      "label": "native_FOUR12_DSP4_LUT4",
+      "requests": 82944,
+      "retirements": 82944,
+      "neurons": 635904,
+      "service_clocks": 123297,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      },
+      "physical_latency_histogram": {
+        "1": 67894,
+        "4": 1050,
+        "3": 8398,
+        "2": 5602
+      },
+      "numeric_retirement_sha256": "19bcfa5024eeb2b610209e09f15fdf910d6142ede78e7bf466a337d7f238d844",
+      "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out2.txt",
+      "retirement_sha256": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+      "input_stalls": 22131,
+      "output_stalls": 25548,
+      "group_drains": 9216,
+      "reset_samples": 6,
+      "prelude_samples": 25,
+      "actual_retired_feedback": [
+        {
+          "seed": 0,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9611111111111111,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 1,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9555555555555556,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 2,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9791666666666666,
+          "all360_saved_software_reference_accuracy": 0.975,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        }
+      ],
+      "original_LIF_numeric_retirements_match": true
+    },
+    {
+      "status": "pass",
+      "engine": 3,
+      "label": "full_LUT8",
+      "requests": 82944,
+      "retirements": 82944,
+      "neurons": 635904,
+      "service_clocks": 123297,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      },
+      "physical_latency_histogram": {
+        "1": 67894,
+        "4": 1050,
+        "3": 8398,
+        "2": 5602
+      },
+      "numeric_retirement_sha256": "19bcfa5024eeb2b610209e09f15fdf910d6142ede78e7bf466a337d7f238d844",
+      "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out3.txt",
+      "retirement_sha256": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+      "input_stalls": 22131,
+      "output_stalls": 25548,
+      "group_drains": 9216,
+      "reset_samples": 6,
+      "prelude_samples": 25,
+      "actual_retired_feedback": [
+        {
+          "seed": 0,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9611111111111111,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 1,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9555555555555556,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 2,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9791666666666666,
+          "all360_saved_software_reference_accuracy": 0.975,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        }
+      ],
+      "original_LIF_numeric_retirements_match": true
+    },
+    {
+      "status": "pass",
+      "engine": 4,
+      "label": "adaptive5full_3U8_LUT",
+      "requests": 82944,
+      "retirements": 82944,
+      "neurons": 635904,
+      "service_clocks": 123297,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      },
+      "physical_latency_histogram": {
+        "1": 67894,
+        "4": 1050,
+        "3": 8398,
+        "2": 5602
+      },
+      "numeric_retirement_sha256": "19bcfa5024eeb2b610209e09f15fdf910d6142ede78e7bf466a337d7f238d844",
+      "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out4.txt",
+      "retirement_sha256": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+      "input_stalls": 22131,
+      "output_stalls": 25548,
+      "group_drains": 9216,
+      "reset_samples": 6,
+      "prelude_samples": 25,
+      "actual_retired_feedback": [
+        {
+          "seed": 0,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9611111111111111,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 1,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9583333333333334,
+          "all360_saved_software_reference_accuracy": 0.9555555555555556,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        },
+        {
+          "seed": 2,
+          "sampled_images": 48,
+          "sampled_accuracy": 0.9791666666666666,
+          "all360_saved_software_reference_accuracy": 0.975,
+          "original_leak_shift": 1,
+          "hard_reset": false,
+          "state_spike_count_class_disagreements": 0
+        }
+      ],
+      "original_LIF_numeric_retirements_match": true
+    }
+  ],
+  "latency_advancing_edges": 1,
+  "operand_domain": "signed11 U, sign-extended signed8 I; exact signed12 U+I",
+  "exhaustive_scalar_pairs": 0,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\verify_native.py": "6790fcf75be23a331773e1ef77bd843a79061bc13897b832892b7b045a7914e5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\workload.py": "3889136d9246c434a3301eef18ccf07c6a9ef015705e82618973a84776ba1780"
+  },
+  "candidate_file_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\stream_stim.txt": "503f4e3aefc3bdcf3753c26faf7dd21e8952114fd413f4bd90a4d36943293301",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\workload.json": "fc57efb51144ebc9fbbb2a9d7255a0065a2a299f311fca44f3dbb4291f41e332",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\tool_3.log": "e933b9c9f9326f9282cd34e1f522f1940e5c3a7d5b6e75179269f733d3f7a01c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\reference_ledger.json": "d3db34db7919f1f97425f0fc46220405a48220ea08ad8d50af07165066ed8bba",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\results\\native_shift1_stall1_a1\\native_checks.json": "7a541c855e0a03382c01d8765c22f1282a64ec6025cb101deaaac78950b80cf9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out0.txt": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out1.txt": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out2.txt": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out3.txt": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\results\\native_shift1_stall1_a0\\frontier_out4.txt": "98b0a1085a9687e708a0ca197943c2c9ec8ac21cd4b2c2f278365f2f3bfff78e"
+  },
+  "scope": "Native arithmetic/protocol and actual unchanged LIFfeedback only; no routed SDF or new power/accuracygain"
+}

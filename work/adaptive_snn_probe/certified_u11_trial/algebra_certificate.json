@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "scalar_pairs": 238592,
+  "narrow_pairs": 65536,
+  "packed_vectors": 20176,
+  "full_base_range": [
+    -26,
+    10
+  ],
+  "full_high_range": [
+    -26,
+    11
+  ],
+  "narrow_base_range": [
+    -8,
+    6
+  ],
+  "narrow_high_range": [
+    -8,
+    7
+  ],
+  "physical_guard_field_max": 62,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\check_algebra.py": "c03b4617ee6b27cf7159d986c7bc0b6bea0794226e6b5f596a842f2e66e2572b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\core.sv": "0e1b64cdba7be7ec54694af9ec6c478b6ce9053a92ce6e991b5cf199bd7bab73"
+  },
+  "scope": "Integer algebra certificate only; RTL/protocol/native/routedcost separately validated"
+}

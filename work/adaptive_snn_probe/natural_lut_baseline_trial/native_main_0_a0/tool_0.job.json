@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+    "-sv",
+    "-d",
+    "STALL=0",
+    "-d",
+    "CAPTURE_TRACE=0",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/natural_lut_baseline_trial/natural_lut.sv",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/natural_lut_baseline_trial/tb_native.sv"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0",
+  "returncode": 0,
+  "seconds": 2.09,
+  "free_GiB_at_start": 1.8289146423339844,
+  "sampled_min_free_GiB": 1.8286476135253906,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.009227752685546875,
+  "memory_samples": 2,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\check_natural_lut_baseline.py": "95bb90b440ce698ebdc0bc1709bc66205936960e966e125b80796fbf628b4117",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\natural_lut.sv": "40a3970290d2647d8118aa95fb36013e7efb317379cd3da9e7a6baefced43f9b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\route.tcl": "ffbc86afe10213b49c39cef1811b3ee1bc7d2ab367256eaa79d50e6bfd6c39f7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\tb_native.sv": "44644f502c433f63ffe5317485dd4d1834dad012284818f0f96faf661299151b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\timing.sv": "4e8432a4f9df9ac4f3d4548ff31b97d6bf05871708390a8ca12f9f548db5da29",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\verify_native.py": "78e0e792290ceb7db814bd9606f4ecc4c24b0ece928fb06ac1c99b2192ca1aa9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\route_u13.tcl": "69758f5393810a87ae96840be1d914dea8f5e06be0c8d96778fbd9b59f56efa2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\verify_frontier_u13.py": "99bf3725456ccdb46d44e5ce0f849677783189ef9b8220acc9fe220a26e36224",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\continue_natural_lut_baseline.py": "2d6beb9e3877a4ed54120b5b187d477684c8d9f006dfdd4137d96c41e8f7c012",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\launch_verifier.py": "b961ecf96cab8c964fff086e6ef7d5942dc873906d64e63be8378ed0a5e0f3c2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\stream_stim.txt": "d348df55b3058c3528f334fd89b6004516d33011eef833c9b106b837fe87de55",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_0_a0\\workload.json": "de236e052bef9df851a4497b9f44494efb67c158d17aa794a15e05bf1b72981c"
+  },
+  "log_sha256": "396341f47ea34a040e8e74c5755c5b298dd9a518c5dd3a1c44cca8085c736f4f"
+}

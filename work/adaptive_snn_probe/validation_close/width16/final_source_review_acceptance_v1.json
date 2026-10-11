@@ -1,0 +1,153 @@
+{
+  "status": "pass_source_review_checks_no_vendor_no_inference",
+  "AST_files": 4,
+  "route_template_checks": 27,
+  "final_root_cli_critical_findings": [],
+  "all4_E8_native_dependencies": true,
+  "per_stage_acceptance_receipts": true,
+  "explicit_selected_energy_auditor_prepared": true,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\resolve_routes16.py": "1209fc5a7fa8dcb624e31ae8c6523e57bd14876561fb8c4ad0c03ec2fde1bb9f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_closure_sequence_v2.py": "f865f4b6d3e3b3d5999d6dfbbc081eb25c926fe318b106087506c021b35f30bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\audit_closure_static9.py": "d363dbc097e0b9cf3dffd6e54b4ded7b8b8d1855e2524aa6b1493c33ec6d9dcb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence.py": "deba54c2c3135cf1fb35a145ae2b4ddc3169671746423d83295e479d7eb5da9f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\check_final_review_sources.py": "c8eed57f231d2016d0ea1d10b47c3de0347db0f8277bcda8df88e529e5e71408"
+  },
+  "checks": [
+    {
+      "engine": 0,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 0,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 0,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 1,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 1,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 1,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 2,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 2,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 2,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 3,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 3,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 3,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 4,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 4,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 4,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 5,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 5,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 5,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 6,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 6,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 6,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 7,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 7,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 7,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    },
+    {
+      "engine": 8,
+      "attempt": "a0",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0"
+    },
+    {
+      "engine": 8,
+      "attempt": "a1",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a1"
+    },
+    {
+      "engine": 8,
+      "attempt": "a0_checkpoint",
+      "template": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e{engine}_a0_checkpoint"
+    }
+  ]
+}

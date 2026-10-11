@@ -1,0 +1,19 @@
+{
+  "status": "prepared",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\check_certificates.py": "ef86d0e167fa97f09a20c307a2e58f18e9d899cfbc90f4b3c4a30be78bcfa6d7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\results.json": "b7e8520582bdf1132f32925c7d0d4a4995f819b378bd347c3ef25438424449e4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\screen.py": "240fd6f4a0241b7cadb2315c7cfb955a43c0c9f9d591787c72cc1c68869ceb0c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\final_selected.json": "84e94c7b54ec86cbd5d4022692f882d8f89154f71183be9b906c80da5c18a446",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+  },
+  "contracts": [
+    "generic full signed U-word and signed8 I",
+    "uniform certified postleak U interval and any signed8 I",
+    "certified per-neuron U and weight-derived I intervals"
+  ],
+  "rule": "Native FOUR12 is legal when both operands and their sum fit signed12. Required membrane width alone does not decide the SIMD mode.",
+  "scope": "Endpoint certificate and analytic explicit register storage only; no area/timing/energy or trained-model-generalization claim."
+}

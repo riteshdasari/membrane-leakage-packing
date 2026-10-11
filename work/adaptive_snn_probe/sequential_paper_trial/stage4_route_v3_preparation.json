@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "external_input_phase_ns": 3.0,
+  "reason": "Matched falling-edge input phase for all six registered OOC fixtures. Original failed/superseded files retained. Completed synthesis may be reused with exact source and checkpoint pins; placement and routing repeated.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4_route_v3.py": "10c3aa6720ff7f2071d4f7642584b17c3fb805d1d4ae6f9e91694dcfe6e8dd82",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\route_replay_phase3.tcl": "38ffdeadf02e7ffa996c627e197d22eabb27b2c5876ae3ef30358259f2658497",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_route_v3.py": "ca666a8254e1db2c08ac7fdcdd38f9fcff5491f02e40d8625e005061d495b433",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_route_a0_superseded.json": "d462ae59dcd59c5b9e0c857031b5cea6eea57a2fcaecf2f597273593d921c75f"
+  }
+}

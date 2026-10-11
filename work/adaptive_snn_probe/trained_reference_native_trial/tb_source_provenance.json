@@ -1,0 +1,13 @@
+{
+  "status": "created",
+  "source_tb_sha256": "fad4d478575bf084c50717c9827d330c0e5d49c41f5f60bc74221a3f1f0805fd",
+  "generated_tb_sha256": "3cdac3a45f21bfe48e6014536e68f0980133de3137736ef0ce79ff9c0a74766c",
+  "generator_sha256": "6f4ce56cfa3a334d62bbd535202fad9393cd45afb5fea7170c36e8b96d2c8ebe",
+  "changes": [
+    "Instantiate all6 original plus all6 F5 cores and optional staticU8 core",
+    "Independent prefix oracle for engine5 F6 and engine11 F5",
+    "Legal U127 in common reset-canceled in-flight prelude",
+    "Assert consumed staticU8 domain",
+    "Rename harness; reset/stall/poisoned-tail/four-advance body preserved"
+  ]
+}

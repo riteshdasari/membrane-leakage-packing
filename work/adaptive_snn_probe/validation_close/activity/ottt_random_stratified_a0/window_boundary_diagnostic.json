@@ -1,0 +1,14 @@
+{
+  "status": "diagnostic_only_no_gate_relaxation",
+  "sample_ops": 262440,
+  "windows": 5120,
+  "raw_sample_restart_gap": 0.5416817632850242,
+  "full_gap": 0.5549994181503934,
+  "unweighted_full_schedule_attributed_gap": 0.5521985977747295,
+  "weighted_full_schedule_attributed_gap": 0.5520584932173827,
+  "raw_sample_restart_vs_full_schedule_delta_adaptive_issues": 562.5,
+  "raw_sample_restart_vs_full_schedule_delta_fixed_issues": 1260.0,
+  "sample_fixed_odd_window_padding_issues": 1260.0,
+  "weighted_full_schedule_attributed_nonzero": 130823879.0,
+  "scope": "Assign half a full-stream pair to each endpoint when sampling cuts across its boundary. This diagnoses truncation/restart bias only; it does not turn the emitted restarting RTL workload into accepted representative energy."
+}

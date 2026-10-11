@@ -1,0 +1,18 @@
+{
+  "status": "completed_bounded_five_stage_trial_with_retained_gap",
+  "documents": [
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_final.md",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_paper_draft.tex",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_final.summary.json",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage1_leakage_addendum.md",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_lut_sdf_diagnosis.md",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_final_integrity.json",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_final_acceptance.json",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage5_methods_agent.md",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\freeze_writeup.py"
+  ],
+  "submission_ready": false,
+  "reviewed_by": "root and independent final_stage5_audit",
+  "manifest_sha256": "ed7e1f6f52fbd4f4a3c4fbbb15b53a28ef84cc4d6b2517b8089887a86212bc59",
+  "bundle_sha256": "306791450ae17defe17b11ed73207c28af8382b60098a418dcf625fd5d78af40"
+}

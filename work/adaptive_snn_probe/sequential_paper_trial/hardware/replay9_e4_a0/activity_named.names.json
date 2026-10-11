@@ -1,0 +1,29 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\replay9_e4_a0\\activity.saif",
+  "source_sha256": "97a0d219bb479d21e325b491c7f962020fe6b6ebcc22b4ca5be3fc223c43d02f",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\replay9_e4_a0\\activity_named.saif",
+  "target_sha256": "2490526019c3b5fe7233540cf0966399cfb643b6e14954b9d4f84b5d7e645dda",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 3,
+  "changes": [
+    {
+      "line": 317,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 361,
+      "old": "\\\\count1_reg_n_0_\\[0\\]\\",
+      "new": "count1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 362,
+      "old": "\\\\count2\\[0\\]_i_1_n_0\\",
+      "new": "count2\\[0\\]_i_1_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

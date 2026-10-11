@@ -1,0 +1,15 @@
+{
+  "status": "prepared_bounded_scoreboard_retry",
+  "retained_failure": "hardware/native_main_s0_a0/tool_2.log",
+  "reason": "Simulator generated C compilation failed without detailed C diagnostics. Retry uses an8-entry circular scoreboard instead of400001 entries per engine. The two-stage elastic core has at most2 outstanding requests; overflow is asserted.",
+  "unchanged_datapath": true,
+  "unchanged_stimulus_generation": true,
+  "pins": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_native_v2.py": "7589c09104ff55cf73160cd62281318eace152e49e40fdd5bfb391a06ae09473",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_native.sv": "1ced1eb74498543595677ebd449c7876b1471c19e61a7828148facf7a75280c6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_native_v2.sv": "58d18daa5ce200a491e07ed097df7b743a96c30aa5d6fc8036ed0d3f3dbe307c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_native.py": "0f81bcfa622a4d2cce2d9e7cf9337c7f0b5889ff2887eb1cce7aa4381d816800",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_native_v2.py": "6145db40b5a94bf5e1a8830d33ec2347ed27cc578f876fbab2d1cf922f424440",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a0\\tool_2.log": "ab9f449386b0369bc02f6275ddd86a70dd7a0e42d1c7d7786124ee84774dbc9e"
+  }
+}

@@ -1,0 +1,1124 @@
+{
+  "created_utc": "2026-10-09T16:18:37.471880+00:00",
+  "hash_algorithm": "SHA-256, streamed 1 MiB chunks",
+  "scope": "Current source/check/output/SNN replay and four 6 ns OOC route checkpoints/reports",
+  "current_source_sha256": {
+    "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+    "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+    "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+    "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+    "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+  },
+  "evidence": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\check_guard_add.py",
+      "bytes": 13644,
+      "sha256": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\check_guard_add_snn.py",
+      "bytes": 5436,
+      "sha256": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\guard_add.sv",
+      "bytes": 7638,
+      "sha256": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\guard_add_timing.sv",
+      "bytes": 3150,
+      "sha256": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\publish_guard_add_trial.py",
+      "bytes": 25005,
+      "sha256": "6ac27f2407744a8b4b7dd7ed7b243cae398706b747bd0f97e574b2f059e7c9a7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\adaptive_delta_model_25_1\\expected.npz",
+      "bytes": 614119,
+      "sha256": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\adaptive_delta_model_input.json",
+      "bytes": 5911745,
+      "sha256": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_hardware.json",
+      "bytes": 10488,
+      "sha256": "1f002077c02a51262fd8646566111fc057afde205ba508e821f0cb49728bb958"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\stream_out0.txt",
+      "bytes": 7746362,
+      "sha256": "f163e08da86876f7c714df10d8069b5bf564e48ad9d60d13c6cfd0cfbb96bd86"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\stream_out1.txt",
+      "bytes": 12532218,
+      "sha256": "c20d31eb0fab21a47c2491ceed2c578389a140d811a7f0164fe6e1d799dd02af"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\stream_out2.txt",
+      "bytes": 6365494,
+      "sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\stream_out3.txt",
+      "bytes": 6365494,
+      "sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\stream_stim.txt",
+      "bytes": 7946699,
+      "sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\tool_3.log",
+      "bytes": 1385,
+      "sha256": "d3e835d186f4b342c87eec2f6d894e2e93b0cac26ee28dc29511a0d441820e19"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0_checks.json",
+      "bytes": 3141,
+      "sha256": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_out0.txt",
+      "bytes": 7806391,
+      "sha256": "e7373269b01c5d83ec352dc85c463a08cc07a426bbe1cc845eb1adaf1a0d4276"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_out1.txt",
+      "bytes": 12592247,
+      "sha256": "de042dae819446abc61bb0cbb2b75fcde0d478a5ee9e12344c89a952f108b104"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_out2.txt",
+      "bytes": 6425523,
+      "sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_out3.txt",
+      "bytes": 6425523,
+      "sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_stim.txt",
+      "bytes": 7946699,
+      "sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\tool_3.log",
+      "bytes": 1417,
+      "sha256": "b8b941895c79652f6cbd452e5d50c66de838f136c889a26bcd58d134d76df8a8"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1_checks.json",
+      "bytes": 3172,
+      "sha256": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\manifest.json",
+      "bytes": 9299,
+      "sha256": "c4adb5ce40fbb30d830bdf1f3597bd56fc60883dbce8dd14c30cbc803f3e248e"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\stream_out0.txt",
+      "bytes": 7746362,
+      "sha256": "f163e08da86876f7c714df10d8069b5bf564e48ad9d60d13c6cfd0cfbb96bd86"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\stream_out1.txt",
+      "bytes": 12532218,
+      "sha256": "c20d31eb0fab21a47c2491ceed2c578389a140d811a7f0164fe6e1d799dd02af"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\stream_out2.txt",
+      "bytes": 6365494,
+      "sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\stream_out3.txt",
+      "bytes": 6365494,
+      "sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\stream_stim.txt",
+      "bytes": 7946699,
+      "sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0\\tool_3.log",
+      "bytes": 1385,
+      "sha256": "eefdd5268dc4412c59e7bfabd2c3437b4d5c2fb8312b7b8edd8d99150537d9f9"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_0_checks.json",
+      "bytes": 3141,
+      "sha256": "28bc51c5f33f20c35e1481efc521a40f4f967c10fb3b72e4b1d98ad585cc7826"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\stream_out0.txt",
+      "bytes": 7806391,
+      "sha256": "e7373269b01c5d83ec352dc85c463a08cc07a426bbe1cc845eb1adaf1a0d4276"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\stream_out1.txt",
+      "bytes": 12592247,
+      "sha256": "de042dae819446abc61bb0cbb2b75fcde0d478a5ee9e12344c89a952f108b104"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\stream_out2.txt",
+      "bytes": 6425523,
+      "sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\stream_out3.txt",
+      "bytes": 6425523,
+      "sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\stream_stim.txt",
+      "bytes": 7946699,
+      "sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1\\tool_3.log",
+      "bytes": 1417,
+      "sha256": "f920f15b23790d698b5d5ffcd787168ca81258dec2e17840c16b2799bf03924c"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_main_1_checks.json",
+      "bytes": 3172,
+      "sha256": "40cb2caa58b8219b846bb4f5381a3bd0ecd528bf1d01f947a0bcc21a578adf0b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\stream_out0.txt",
+      "bytes": 5320335,
+      "sha256": "31d6c57068b90548a5c5ab638d2789037411d190b1553d45382e92e13adbe78b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\stream_out1.txt",
+      "bytes": 7419478,
+      "sha256": "0416adc1c24f6e14b7c3e5879dfc52e128e826ff46df110bdd1a2ef7e54bd197"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\stream_out2.txt",
+      "bytes": 5076984,
+      "sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\stream_out3.txt",
+      "bytes": 5076984,
+      "sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\stream_stim.txt",
+      "bytes": 5783046,
+      "sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0\\tool_3.log",
+      "bytes": 1382,
+      "sha256": "c3ac6ab042a0b8100231f0f718147a51457cdbe51ffb9964a253d9319346a34c"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_0_checks.json",
+      "bytes": 3372,
+      "sha256": "81f0dd35f85398cb74de5cab863c84fe5b58ba1a2e5f27873e09986a5fc70749"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\stream_out0.txt",
+      "bytes": 5380364,
+      "sha256": "35a449ed67593cc295c6c36f2c29f439dd660d665244282d0770f2f6924ef875"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\stream_out1.txt",
+      "bytes": 7479507,
+      "sha256": "82421405295d16b17fbd9043121b64ea8bb304f0fa2c497c71ea1ddbc8ffe0f9"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\stream_out2.txt",
+      "bytes": 5137013,
+      "sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\stream_out3.txt",
+      "bytes": 5137013,
+      "sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\stream_stim.txt",
+      "bytes": 5783046,
+      "sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1\\tool_3.log",
+      "bytes": 1414,
+      "sha256": "cc319187f22c1f3c6d429f0bc12f677754ed06e8c8fa94f00774aa47719afc4e"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_models_1_checks.json",
+      "bytes": 3403,
+      "sha256": "594d5d5eb383720f679e4315e405e0cdfc7d6285de45aab1d437a4f1e4a7f1ff"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\results\\guard_add_snn_checks.json",
+      "bytes": 7161,
+      "sha256": "674bb39b06d60ed0b63b04955278970e5a118f182c4cc54c39427a0df7ad319a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\sources\\check_guard_add.py",
+      "bytes": 13644,
+      "sha256": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\sources\\check_guard_add_snn.py",
+      "bytes": 5436,
+      "sha256": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\sources\\guard_add.sv",
+      "bytes": 7521,
+      "sha256": "4d098563a894c15ad7852a022be722e71217b143a7624a478c2c5bd4f237af30"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\sources\\guard_add_timing.sv",
+      "bytes": 3150,
+      "sha256": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\sources\\route_guard_add.tcl",
+      "bytes": 6025,
+      "sha256": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\sources\\run_guard_add_route.py",
+      "bytes": 10992,
+      "sha256": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\sources\\tb_guard_add.sv",
+      "bytes": 5070,
+      "sha256": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\stream_out0.txt",
+      "bytes": 5320335,
+      "sha256": "31d6c57068b90548a5c5ab638d2789037411d190b1553d45382e92e13adbe78b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\stream_out1.txt",
+      "bytes": 7419478,
+      "sha256": "0416adc1c24f6e14b7c3e5879dfc52e128e826ff46df110bdd1a2ef7e54bd197"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\stream_out2.txt",
+      "bytes": 5076984,
+      "sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\stream_out3.txt",
+      "bytes": 5076984,
+      "sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\stream_stim.txt",
+      "bytes": 5783046,
+      "sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\tool_3.log",
+      "bytes": 1382,
+      "sha256": "a9b7d089434ea7a01012a055314c7fbf004fab211766ca3e3fc090ea72d2da78"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0_checks.json",
+      "bytes": 3372,
+      "sha256": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_out0.txt",
+      "bytes": 5380364,
+      "sha256": "35a449ed67593cc295c6c36f2c29f439dd660d665244282d0770f2f6924ef875"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_out1.txt",
+      "bytes": 7479507,
+      "sha256": "82421405295d16b17fbd9043121b64ea8bb304f0fa2c497c71ea1ddbc8ffe0f9"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_out2.txt",
+      "bytes": 5137013,
+      "sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_out3.txt",
+      "bytes": 5137013,
+      "sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_stim.txt",
+      "bytes": 5783046,
+      "sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\tool_0.log",
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\tool_1.log",
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\tool_2.log",
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\tool_3.log",
+      "bytes": 1414,
+      "sha256": "0817ece640953944ceb211c36870e474040cbf3984c6d6f06386f8b0268b4212"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1_checks.json",
+      "bytes": 3403,
+      "sha256": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_snn_checks.json",
+      "bytes": 7161,
+      "sha256": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_workload_screen.json",
+      "bytes": 4229,
+      "sha256": "b6c5f3c784a281e162533636537f0b6ab299fb6ec73531aa106252d93925955b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_build.log",
+      "bytes": 80983,
+      "sha256": "3ff165fa5f8c8dc9cde92108442760c8c021e2f9bf24a84db285e49e11d9925b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\boundary_slack.txt",
+      "bytes": 15,
+      "sha256": "b74b985592f0d5db38e8791dd0a8492d0027de51584d97225a980c36ad5d2491"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\boundary_timing.rpt",
+      "bytes": 17739,
+      "sha256": "01afe0eb2cd0d0bc9940a1217a7a5f4c5eecca55c7df02a14fb165b1e31c4d87"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\capture_paths_max.rpt",
+      "bytes": 36753,
+      "sha256": "60965ecec60486d5104a2610999293c9dfd347df63d207c5d5554b0dcabcf5ca"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\capture_paths_min.rpt",
+      "bytes": 29712,
+      "sha256": "57ea8ae47918ed2729d21fac8685765154da46c6c24b9d1dd4f9749f98f1be76"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\core_util.rpt",
+      "bytes": 10616,
+      "sha256": "df0446e88434339e09bf5b2bdc86c363a4b33e06f7f8c9e1def3d0e1237adaef"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\design.dcp",
+      "bytes": 365430,
+      "sha256": "4bc10fa2172ed2fb93810bd351a38c3b5812af4bb2e106f3c06567893fb74d98"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\fixture_accounting.txt",
+      "bytes": 250,
+      "sha256": "92a8f419e2f11b4cc393803735a2c2fdca3100b1b5297e19e984d4b07be3ffa6"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\hierarchical_util.rpt",
+      "bytes": 2483,
+      "sha256": "be3aaa91a1d1e7d71a039357477708e295eaaa2130b892f20943de8b7dcb75de"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\input_paths_max.rpt",
+      "bytes": 29682,
+      "sha256": "a42d1016a8df47ff672cabe705543e59c1dcf8983d9d563d2d701dc202e5023a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\input_paths_min.rpt",
+      "bytes": 29489,
+      "sha256": "10ab569365a5b5def110777775b2136ce2b4d34f9ebd1b1c348ab95fe237a43f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\launch_paths_max.rpt",
+      "bytes": 40320,
+      "sha256": "59aec4af336dd04d21401f947a8bf447fcd02d20115d890ab7f814d029b65428"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\launch_paths_min.rpt",
+      "bytes": 29542,
+      "sha256": "6195c82a6361509d7461de3bb4c6d666e9d77c2440060b75052e93dab375e918"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\output_paths_max.rpt",
+      "bytes": 29647,
+      "sha256": "65712d67a7a7613b3470b81741f089f6e8fe59ac5d6a50aa1b215c36660b161f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\output_paths_min.rpt",
+      "bytes": 29435,
+      "sha256": "331a007fbfb916fee9e80060436c3378264567ec4030e9c94c9cd264515554ea"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\paths_max.rpt",
+      "bytes": 40033,
+      "sha256": "07a002b755f8b8402e7e5ec899a3b65b40a3153c9e7bcffd1c61d43c3655e356"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\paths_min.rpt",
+      "bytes": 31054,
+      "sha256": "6ecac974e3622f65cf789af49a9a0e596052b84e9acdd8ba371153b0cbd9d948"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\provenance.txt",
+      "bytes": 150,
+      "sha256": "9ba51841236faa9b3509e5869670660519d6071f155637401ba783ff46f3403d"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\slack.txt",
+      "bytes": 14,
+      "sha256": "ad53d2c49164ef7b3137a1aa3ef3171f1dfd58c9b45fde57f1cfc0e231bc7f34"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\slice_sites.txt",
+      "bytes": 1630,
+      "sha256": "3b3e51591e6674ca4df3e6bc2765f0253085de1193232d823dcd37d7593d2469"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\timing.rpt",
+      "bytes": 25919,
+      "sha256": "8e7f612cf18724a2388287fe5e138254285e50ecf1fcaa66923b6c260e1954b5"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_route\\util.rpt",
+      "bytes": 10505,
+      "sha256": "66a5bc76f2cf4c44d1d9389afd8c5676793874b12605a979fd0c15f89af99476"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_synth\\design.dcp",
+      "bytes": 122143,
+      "sha256": "304afc8d8cb66a3d00d69c97c6bd1e489f95ecce059a5052422e25754a246e27"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_synth\\hierarchical_util.rpt",
+      "bytes": 2300,
+      "sha256": "8bbd316fab4a4e2653942c52df0bc31a02e0b6560758336ffc7745fc6c02c184"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_synth\\provenance.txt",
+      "bytes": 66,
+      "sha256": "95bb728300d86ea84fee773998dd084247e9dadf7615734c80a8662199cdd442"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_synth\\util.rpt",
+      "bytes": 8321,
+      "sha256": "cd8b4504880630f65f621fc11fda46e264026b05534496f392c013fce5310423"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_vivado.jou",
+      "bytes": 1454,
+      "sha256": "a7c7c852f69f7f45ec5c600aa92795d6b5a6930a90fcf4473d7eaf1c34b671e3"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_adaptive_vivado.log",
+      "bytes": 80970,
+      "sha256": "b58982d53cbc9ece374e8c6a7e7fd5e3d7bb452a8daf934e277e343bbe2e6589"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_build.log",
+      "bytes": 81107,
+      "sha256": "949bccb4df5b77b1b9fb5dd1f10048a7c2a982068481fa7b3c587ea4241fe505"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\boundary_slack.txt",
+      "bytes": 15,
+      "sha256": "9ba760d3e5b63cf2116e180806bae98aecc10bce5a263af71786229d5a46dee8"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\boundary_timing.rpt",
+      "bytes": 16601,
+      "sha256": "9697c9d1f1a1e1e02cd2e9145bdf314d0cfd4d5dcaaa430b09361a1054ec2b3b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\capture_paths_max.rpt",
+      "bytes": 34698,
+      "sha256": "6e9e2fb5ab2ee991e535aeb6d01632c596a11d51de1e4ce6a1d173e615256f16"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\capture_paths_min.rpt",
+      "bytes": 29724,
+      "sha256": "1c187acd3090e92b942001f981b507808c5a1591aeb1c52c713f3639415a2c30"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\core_util.rpt",
+      "bytes": 10608,
+      "sha256": "b449f52a0843bdabfeba1ebb49314f176b0f92360ebec35632af10c15383498f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\design.dcp",
+      "bytes": 308650,
+      "sha256": "faf7e7fb2521e89b0acdd97c0bdc8a4404349883e1e73f61845d528249181e51"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\fixture_accounting.txt",
+      "bytes": 250,
+      "sha256": "a9d3a446dd3aa38ae5785686f29ceb815c46f29ba2454ad9b56540a698d32d67"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\hierarchical_util.rpt",
+      "bytes": 2457,
+      "sha256": "a65166f1ddfbf5cbac79e60ccae49132893ed935a548022ec557f4b38eaf5f84"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\input_paths_max.rpt",
+      "bytes": 29667,
+      "sha256": "24aea28a3b4d0c2edfde0431cf09945cc55045d5445b3689fef7ba39b35943cb"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\input_paths_min.rpt",
+      "bytes": 29521,
+      "sha256": "17dad14a1ce7effa39635f338fd8a2d524d1e18acc2b8a59dfa4cda196e9ba65"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\launch_paths_max.rpt",
+      "bytes": 34110,
+      "sha256": "f277ff8a391745a201a98aef69e74a796ff24f55f20294bb62f93a83f71d9770"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\launch_paths_min.rpt",
+      "bytes": 29528,
+      "sha256": "86771bf02904ca6025141adea7739cd744b906a50f7bbce1cea0b5fe7e6cb727"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\output_paths_max.rpt",
+      "bytes": 29627,
+      "sha256": "df76444217899faafa433ae8fad26e46bdc57ae13d7b5a0b40882dd5069dcd6b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\output_paths_min.rpt",
+      "bytes": 29439,
+      "sha256": "8a19bd466b81f8c9b163c7ce704ff7008ad88dede68255dac2d02c616025cd77"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\paths_max.rpt",
+      "bytes": 33594,
+      "sha256": "1cfab562272176c4e20944050291aded7ae207bfdb1291eb6f72c7b2225e5061"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\paths_min.rpt",
+      "bytes": 30331,
+      "sha256": "16982ba47015df3c91851542218e0924980c5f423c0144b078464647a6975f9b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\provenance.txt",
+      "bytes": 148,
+      "sha256": "8d84b9796b8f32f345791310339de6d97efa09c36a9e75b022fc386d492e788a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\slack.txt",
+      "bytes": 14,
+      "sha256": "ef3f259e4c5ea1d0bf88f57a1bcf2ccf1ba08ba4c716f75d32c2d825beed1c7f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\slice_sites.txt",
+      "bytes": 1499,
+      "sha256": "038c4b578b1898de19a654f802e37c44776c8b99f3f46d77cb8fe184fb9e721a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\timing.rpt",
+      "bytes": 25083,
+      "sha256": "3f5b3c1e81c7e30f092913f7c8ae527d7f2b26bba25b4d0e75beee26626e0cae"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_route\\util.rpt",
+      "bytes": 10497,
+      "sha256": "c8ca2c730c6b24dc7f160d78eb45c8895036aa50109821430e21d4f4bb927fee"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_synth\\design.dcp",
+      "bytes": 95293,
+      "sha256": "f81b255d27734e650d453f9bea2dd1b87d1a29ba663a8100ea377e74ed0f7515"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_synth\\hierarchical_util.rpt",
+      "bytes": 2274,
+      "sha256": "b1f9ba2112716978fdbd31f24dbdc1e4464a7705aa3d5fab1ac2a3b9577d5989"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_synth\\provenance.txt",
+      "bytes": 66,
+      "sha256": "d84bcc7a6e344629128e1a59e934c529aa47938fb9fafbe8176cfd2f07d424ec"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_synth\\util.rpt",
+      "bytes": 8313,
+      "sha256": "9ceeac65230326f6d286fdd252b59c70fde12ea6630ef42a07f4373fc16482cd"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_vivado.jou",
+      "bytes": 1443,
+      "sha256": "0887851b89e086352d1446be83fc012f1ed09be69128410b021e0ef8b50aaadf"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_fixed4_vivado.log",
+      "bytes": 81090,
+      "sha256": "eb86f8279e39e8b55692cc3f3f553e3b019f619730edebaeae3baf32b5f0f9bb"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_build.log",
+      "bytes": 81164,
+      "sha256": "b6c13e7eeea16a28a684f508168d7b3e63999c3a62b8c6d92029cd94ba1eaedb"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\boundary_slack.txt",
+      "bytes": 15,
+      "sha256": "3a0f90365fa8dd11947cb26cd4988b10377f68373262d13de4a0b031b2d86665"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\boundary_timing.rpt",
+      "bytes": 16567,
+      "sha256": "169a72c4f327a59d74f3078abfdf69297e331aefa27fe7fa40112f9e5eff976b"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\capture_paths_max.rpt",
+      "bytes": 33468,
+      "sha256": "5df38cf813a1993b4c0183eb815a288bfe9fa8d63d4aca6ad11a73653d5488cd"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\capture_paths_min.rpt",
+      "bytes": 29748,
+      "sha256": "54100cca5146f21141745d24a8a9c6ff1667c63dfc6d596fffd385c7c8abae32"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\core_util.rpt",
+      "bytes": 10654,
+      "sha256": "bb9fcc9167519b5296d601c7a99e483016af9a266bb4b38f162c2da1bb76e0d0"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\design.dcp",
+      "bytes": 332960,
+      "sha256": "39af48782c2a44d49fd20a4091e8adeb71fde413448700284f2f97a638b23344"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\fixture_accounting.txt",
+      "bytes": 250,
+      "sha256": "3a31a6787e518e05e88f75b4a43e06768249ec974a1bf6edde19bef7e645b926"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\hierarchical_util.rpt",
+      "bytes": 2470,
+      "sha256": "50eeba267993668025588083b3febbebdae7c82fa442645976e08b07fbed35f3"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\input_paths_max.rpt",
+      "bytes": 29671,
+      "sha256": "79550cebbf00df03b2b2cc2f1aa02bb4c43ef2695d830648add9642f688a9d13"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\input_paths_min.rpt",
+      "bytes": 29485,
+      "sha256": "8053cf49a21f14e30271621993f010ddd947317bd3de99c001b6453c20e9d2a5"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\launch_paths_max.rpt",
+      "bytes": 33074,
+      "sha256": "6afc53258ade320ca34152951595818ec16e451b7273a33a4af1f73eb64e101a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\launch_paths_min.rpt",
+      "bytes": 29532,
+      "sha256": "f449e9ecf6c2e906f1a57fe64b6606e53cf6d321049bdde51f341a57453bd698"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\output_paths_max.rpt",
+      "bytes": 29655,
+      "sha256": "4a7e1d316f3e2d9b6657e61590f390a5751f43c57430406dce0942003122d06f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\output_paths_min.rpt",
+      "bytes": 29449,
+      "sha256": "8dc63f80005d0e01b1607c35e24fd577e7fd120d2c61420f1a3dd4abb6ddffc4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\paths_max.rpt",
+      "bytes": 32756,
+      "sha256": "d8aefdf400e4b57fc96f995edc2b1c0d9dab210b567eef43608afe6e930f6bdf"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\paths_min.rpt",
+      "bytes": 30431,
+      "sha256": "8ca64473e60cf2cfd9e49cdb34ad8e267ea83b677100ec378ef5b5f3afd61f2a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\provenance.txt",
+      "bytes": 149,
+      "sha256": "7508f72dd3700ddafd88a1496c493a3574883879e9f73aaf6451b08ee1c2a155"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\slack.txt",
+      "bytes": 14,
+      "sha256": "8d4508894f4be4a54f54c8102147ca06306cefc5947b70f01f46d7b634a9fb47"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\slice_sites.txt",
+      "bytes": 1408,
+      "sha256": "7b90fa80430fd4a561135f820a15fe68ea3e4910a07ed5774f13f02d94ea544f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\timing.rpt",
+      "bytes": 25119,
+      "sha256": "67cc436d6613e908ce251f1a3225d995d5bf55d33e91357956f3ddb6aa33c6cd"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_route\\util.rpt",
+      "bytes": 10543,
+      "sha256": "4678bddf77fa1a4e53c6c3256fc4b161949c8127670b22ba238c5a3af142ec19"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_synth\\design.dcp",
+      "bytes": 111158,
+      "sha256": "7392e986ae91f923873888e3f370e503d685fbc2a6ed5f95b08a06a9946efe39"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_synth\\hierarchical_util.rpt",
+      "bytes": 2287,
+      "sha256": "724ea77ed5007e59a4efcbecdafb68ff83b68dac4b9c01a4031650baa0b05d7a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_synth\\provenance.txt",
+      "bytes": 66,
+      "sha256": "faba702f764623802f13bf9d634327071ad9a6c3a0d6ae88dafdf0a1d7244ca6"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_synth\\util.rpt",
+      "bytes": 8359,
+      "sha256": "f0142df79e43b1f4ac33ca410c79c7b9a9dcfe46dea15eb73c3b1641176d2076"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_vivado.jou",
+      "bytes": 1449,
+      "sha256": "c742c2f14d887fe001a07a4a44f4db63836b956c5267db4100b7d216f50dda68"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_hybrid6_vivado.log",
+      "bytes": 81151,
+      "sha256": "3a55243c6bd14716fdc671071fd952cc9ed8f567518046ece2c188cc67c611a7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_build.log",
+      "bytes": 78554,
+      "sha256": "87f343cda86784db1527faaf1cb3d95ea34a87d91c190068fe0d2345b3536327"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\boundary_slack.txt",
+      "bytes": 15,
+      "sha256": "5277ba8ccafd07ee85a31faa7344129007f7cfce899c538689029dbcff902db7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\boundary_timing.rpt",
+      "bytes": 16513,
+      "sha256": "865b279069401cd012fdddc102eff39b8387d4bb1c0c49298c8f626f8ad3bdf9"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\capture_paths_max.rpt",
+      "bytes": 33461,
+      "sha256": "c0ffb5017d6f95082d487e30d8bfa6051cee30159728532f84ae0992e1002e16"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\capture_paths_min.rpt",
+      "bytes": 29664,
+      "sha256": "679b91434b5d55d12888a7b122b45336e9ce5b12644c261659251a57e91cb025"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\core_util.rpt",
+      "bytes": 10508,
+      "sha256": "2c516e891aa8922cb7161447aa81c7754039ddecab12c9fabca529f6ce37bee4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\design.dcp",
+      "bytes": 327696,
+      "sha256": "121516abc68ee6b055b4e877af54a824de1ab8abf216db8e88365eb0b798ef63"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\fixture_accounting.txt",
+      "bytes": 250,
+      "sha256": "17c8bcd084c64b8e0217a96f8f660007e9c3f7ca9efaab4c4e3f02fe7876f05c"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\hierarchical_util.rpt",
+      "bytes": 2309,
+      "sha256": "eeee21ce6368092d36541d929698af540ff4837a881f80b6edfed9493aff4050"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\input_paths_max.rpt",
+      "bytes": 29673,
+      "sha256": "bbe0d5402ab2d4ba2129ac584325f9fee3235f156fa65c0106b6f69441b2b31f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\input_paths_min.rpt",
+      "bytes": 29438,
+      "sha256": "739e558ec8ac05fe8f4d1f1ed29f13a65aa5c70298ac14f388c167f3e5814427"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\launch_paths_max.rpt",
+      "bytes": 35206,
+      "sha256": "53ccd753bddeb32ea4ef89f21c025a6037b97fe6cc22e72efbb8a98c106f22db"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\launch_paths_min.rpt",
+      "bytes": 29773,
+      "sha256": "b423b8d554e6836f3a6bbb5aaf556c209f7236de29ed5f1324328aa737b36e21"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\output_paths_max.rpt",
+      "bytes": 29595,
+      "sha256": "7c681bf96ac83c453e8e05e482d784e7fa376347c5febe2dabe2ed6aeaef57dd"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\output_paths_min.rpt",
+      "bytes": 29485,
+      "sha256": "971a266dc8f47ff54c47cedb8b4b31b853f9e6bff03b2b36d8e7441ffefce9da"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\paths_max.rpt",
+      "bytes": 34888,
+      "sha256": "fd9d1e5dddc1843d760f86b1f3b34700ca278a569ae42bb28fcf254b9d894453"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\paths_min.rpt",
+      "bytes": 35368,
+      "sha256": "cbb6c05fabb292785d42d9b32ffe4de461882460cb5762fc78dd079c86ee4686"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\provenance.txt",
+      "bytes": 146,
+      "sha256": "024a63a8a650fee5b543f8159987dc506a95ae8c47dc66639a8f7db1e6c7fc87"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\slack.txt",
+      "bytes": 14,
+      "sha256": "e412a3024d4feeb4ea72aaf445811c8b25674c6fcf82bf37896bd5ea4cc0a64c"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\slice_sites.txt",
+      "bytes": 1901,
+      "sha256": "6729ed12406e97c96fbfde7d35d19e6a0fd7775859b62373f78443e6a17cc203"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\timing.rpt",
+      "bytes": 26133,
+      "sha256": "bdac3b4df0986471fa079feadf5ee8277d74254b3d31fcdf31de5cfa3f5258e7"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_route\\util.rpt",
+      "bytes": 10397,
+      "sha256": "95c3646646ef761f05d69737ed27477c7a789038bd84d1c7e3a7ef02c02a0d87"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_synth\\design.dcp",
+      "bytes": 107805,
+      "sha256": "e21ebe4e6178adf1a984193d5bb53eed6380193462ee5e0ae461e7dad4d06426"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_synth\\hierarchical_util.rpt",
+      "bytes": 2126,
+      "sha256": "3e40cd3d8a30320c3d8f62528f7571a6aac6b6e6edb4892a95661aad2f142754"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_synth\\provenance.txt",
+      "bytes": 66,
+      "sha256": "97779ffae381fab2190abec4e165c3abb067e5cb0e0f273dcd59b793f20efd85"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_synth\\util.rpt",
+      "bytes": 8213,
+      "sha256": "02b260bf3ca75172dd8ed629dcb96eff89d759e014bdef158a4201ca732bead4"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_vivado.jou",
+      "bytes": 1434,
+      "sha256": "134b20e238c40ae65cd192ac9fdb685bbd2e1c2d76255033db0f15f5858b2fcb"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\top_guard_add_lut6_vivado.log",
+      "bytes": 78561,
+      "sha256": "64d4b9a0ab01cf08ec013203277664b624e7335da4761cbb255337371f76615e"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\route_guard_add.tcl",
+      "bytes": 6025,
+      "sha256": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\run_guard_add_route.py",
+      "bytes": 10992,
+      "sha256": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\screen_guard_add_models.py",
+      "bytes": 5796,
+      "sha256": "27ffc651df9011045140f88e145a3de7b0f21424db42ce952c275423469579e3"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\tb_guard_add.sv",
+      "bytes": 5070,
+      "sha256": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_addition_trial.md",
+      "bytes": 8144,
+      "sha256": "e7da32b176667d7cdd25680e3b38fa25c9c30c0428062f0ac919e0950cae9d21"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_addition_trial.summary.json",
+      "bytes": 16128,
+      "sha256": "874bd8c78fc03ef0ddcd98ff4c1a92d67e0dca0aa8d52e40b127b68a5e3a8f3e"
+    }
+  ],
+  "masked_snapshot": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894",
+    "scope": "Earlier masked arithmetic/control evidence; no routed hardware results",
+    "routed": false,
+    "metadata_files": [
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\manifest.json"
+    ],
+    "validated_archived_artifacts": 48,
+    "source_sha256": {
+      "sources\\guard_add.sv": "4d098563a894c15ad7852a022be722e71217b143a7624a478c2c5bd4f237af30",
+      "sources\\guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+      "sources\\tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351"
+    },
+    "manifest_sha256": {
+      "manifest.json": "c4adb5ce40fbb30d830bdf1f3597bd56fc60883dbce8dd14c30cbc803f3e248e"
+    }
+  },
+  "exclusions": [
+    "Simulator object directories, WDBs and temporary directories.",
+    "No board Fmax, power, host, memory or complete burst latency measurement."
+  ]
+}

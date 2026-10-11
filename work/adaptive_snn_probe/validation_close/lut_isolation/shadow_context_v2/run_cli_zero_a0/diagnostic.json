@@ -1,0 +1,28 @@
+{
+  "status": "rejected_incomplete_or_unverified_causal_diagnostic",
+  "gates": {
+    "work_CARRY4_bound": true,
+    "original_full_SDF_accepted": false,
+    "shadow_and_canary_SDF_accepted": true,
+    "SDF_not_ignored": true,
+    "elaboration_warnings_or_errors_absent": true,
+    "positive_228ps_timing_canary": false,
+    "snapshots_completed": false
+  },
+  "vendor_CARRY4_modified": false,
+  "original_netlist_or_SDF_modified": false,
+  "timing_checks_disabled": false,
+  "original_row914_replay_failure": false,
+  "observations": [],
+  "bounded_conclusion": "The added diagnostic does not reproduce the settled original failure; possible observer/elaboration sensitivity remains unresolved.",
+  "event_trace_limit": "Per-bit observer order is not an exact simulator region/delta dump.",
+  "log_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\tool_0.log": "c75629d31e195cb68e328dfe1997f44c9ed8b456ef3328cdef995cc1063d705d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\tool_1.log": "465e2cf5041302e79ae277ae29102aa941383ffed0912283017fcb5bfab95f97",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\tool_3.log": "bf399c66fee47e1e91f41b15fac00b4bc51295ae4710337d62a48e734c51d326",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\tool_4.log": "3c98982d2ec55c94dea1a57455b3e4ad84d9870d4312db426111faa2f2a38be0"
+  },
+  "hardware_acceptance": false,
+  "original_discrepancy_resolved": false
+}

@@ -1,0 +1,474 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\replay_e0_a0\\activity.saif",
+  "source_sha256": "5c67ce2486184d7022aa0ba32962e818568d45c768b52dd0d5be96146275d07e",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\replay_e0_a0\\activity_named.saif",
+  "target_sha256": "3774f4f2e60cc73a32881f78c7fc91d64a09938c78a7d0ea19d857b85812ad8b",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 92,
+  "changes": [
+    {
+      "line": 1281,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 1587,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0\\[1\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1588,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0\\[2\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1589,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0\\[3\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1590,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0\\[4\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 1591,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0\\[5\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0\\[5\\]_i_1_n_0"
+    },
+    {
+      "line": 1592,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0\\[6\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1593,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0\\[6\\]_i_2_n_0\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0\\[6\\]_i_2_n_0"
+    },
+    {
+      "line": 1594,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[0\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1595,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[1\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1596,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[2\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1597,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[3\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1598,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[4\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1599,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[5\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1600,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[6\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base0_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1602,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[0\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1603,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[1\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1604,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[2\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1605,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[3\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1606,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[4\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1607,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[5\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1608,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[6\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base1_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1610,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[0\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1611,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[1\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1612,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[2\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1613,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[3\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1614,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[4\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1615,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[5\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1616,
+      "old": "\\\\residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[6\\]\\",
+      "new": "residue_six\\.lane\\[0\\]\\.base2_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1625,
+      "old": "\\\\residue_six\\.lane\\[1\\]\\.base0\\[1\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[1\\]\\.base0\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1626,
+      "old": "\\\\residue_six\\.lane\\[1\\]\\.base0\\[2\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[1\\]\\.base0\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1627,
+      "old": "\\\\residue_six\\.lane\\[1\\]\\.base0\\[3\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[1\\]\\.base0\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1628,
+      "old": "\\\\residue_six\\.lane\\[1\\]\\.base0\\[4\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[1\\]\\.base0\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 1629,
+      "old": "\\\\residue_six\\.lane\\[1\\]\\.base0\\[5\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[1\\]\\.base0\\[5\\]_i_1_n_0"
+    },
+    {
+      "line": 1630,
+      "old": "\\\\residue_six\\.lane\\[1\\]\\.base0\\[6\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[1\\]\\.base0\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1631,
+      "old": "\\\\residue_six\\.lane\\[1\\]\\.base0\\[6\\]_i_2_n_0\\",
+      "new": "residue_six\\.lane\\[1\\]\\.base0\\[6\\]_i_2_n_0"
+    },
+    {
+      "line": 1654,
+      "old": "\\\\residue_six\\.lane\\[2\\]\\.base0\\[1\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[2\\]\\.base0\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1655,
+      "old": "\\\\residue_six\\.lane\\[2\\]\\.base0\\[2\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[2\\]\\.base0\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1656,
+      "old": "\\\\residue_six\\.lane\\[2\\]\\.base0\\[3\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[2\\]\\.base0\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1657,
+      "old": "\\\\residue_six\\.lane\\[2\\]\\.base0\\[4\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[2\\]\\.base0\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 1658,
+      "old": "\\\\residue_six\\.lane\\[2\\]\\.base0\\[5\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[2\\]\\.base0\\[5\\]_i_1_n_0"
+    },
+    {
+      "line": 1659,
+      "old": "\\\\residue_six\\.lane\\[2\\]\\.base0\\[6\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[2\\]\\.base0\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1660,
+      "old": "\\\\residue_six\\.lane\\[2\\]\\.base0\\[6\\]_i_2_n_0\\",
+      "new": "residue_six\\.lane\\[2\\]\\.base0\\[6\\]_i_2_n_0"
+    },
+    {
+      "line": 1683,
+      "old": "\\\\residue_six\\.lane\\[3\\]\\.base0\\[1\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[3\\]\\.base0\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1684,
+      "old": "\\\\residue_six\\.lane\\[3\\]\\.base0\\[2\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[3\\]\\.base0\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1685,
+      "old": "\\\\residue_six\\.lane\\[3\\]\\.base0\\[3\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[3\\]\\.base0\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1686,
+      "old": "\\\\residue_six\\.lane\\[3\\]\\.base0\\[4\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[3\\]\\.base0\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 1687,
+      "old": "\\\\residue_six\\.lane\\[3\\]\\.base0\\[5\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[3\\]\\.base0\\[5\\]_i_1_n_0"
+    },
+    {
+      "line": 1688,
+      "old": "\\\\residue_six\\.lane\\[3\\]\\.base0\\[6\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[3\\]\\.base0\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1689,
+      "old": "\\\\residue_six\\.lane\\[3\\]\\.base0\\[6\\]_i_2_n_0\\",
+      "new": "residue_six\\.lane\\[3\\]\\.base0\\[6\\]_i_2_n_0"
+    },
+    {
+      "line": 1712,
+      "old": "\\\\residue_six\\.lane\\[4\\]\\.base0\\[1\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[4\\]\\.base0\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1713,
+      "old": "\\\\residue_six\\.lane\\[4\\]\\.base0\\[2\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[4\\]\\.base0\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1714,
+      "old": "\\\\residue_six\\.lane\\[4\\]\\.base0\\[3\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[4\\]\\.base0\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1715,
+      "old": "\\\\residue_six\\.lane\\[4\\]\\.base0\\[4\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[4\\]\\.base0\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 1716,
+      "old": "\\\\residue_six\\.lane\\[4\\]\\.base0\\[5\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[4\\]\\.base0\\[5\\]_i_1_n_0"
+    },
+    {
+      "line": 1717,
+      "old": "\\\\residue_six\\.lane\\[4\\]\\.base0\\[6\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[4\\]\\.base0\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1718,
+      "old": "\\\\residue_six\\.lane\\[4\\]\\.base0\\[6\\]_i_2_n_0\\",
+      "new": "residue_six\\.lane\\[4\\]\\.base0\\[6\\]_i_2_n_0"
+    },
+    {
+      "line": 1741,
+      "old": "\\\\residue_six\\.lane\\[5\\]\\.base0\\[1\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[5\\]\\.base0\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1742,
+      "old": "\\\\residue_six\\.lane\\[5\\]\\.base0\\[2\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[5\\]\\.base0\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1743,
+      "old": "\\\\residue_six\\.lane\\[5\\]\\.base0\\[3\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[5\\]\\.base0\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1744,
+      "old": "\\\\residue_six\\.lane\\[5\\]\\.base0\\[4\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[5\\]\\.base0\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 1745,
+      "old": "\\\\residue_six\\.lane\\[5\\]\\.base0\\[5\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[5\\]\\.base0\\[5\\]_i_1_n_0"
+    },
+    {
+      "line": 1746,
+      "old": "\\\\residue_six\\.lane\\[5\\]\\.base0\\[6\\]_i_1_n_0\\",
+      "new": "residue_six\\.lane\\[5\\]\\.base0\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1747,
+      "old": "\\\\residue_six\\.lane\\[5\\]\\.base0\\[6\\]_i_2_n_0\\",
+      "new": "residue_six\\.lane\\[5\\]\\.base0\\[6\\]_i_2_n_0"
+    },
+    {
+      "line": 1810,
+      "old": "\\\\result_count\\[0\\]_i_1_n_0\\",
+      "new": "result_count\\[0\\]_i_1_n_0"
+    },
+    {
+      "line": 1811,
+      "old": "\\\\result_count\\[1\\]_i_1_n_0\\",
+      "new": "result_count\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1812,
+      "old": "\\\\result_count\\[2\\]_i_1_n_0\\",
+      "new": "result_count\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1890,
+      "old": "\\\\result_data\\[11\\]_i_2_n_0\\",
+      "new": "result_data\\[11\\]_i_2_n_0"
+    },
+    {
+      "line": 1891,
+      "old": "\\\\result_data\\[13\\]_i_2_n_0\\",
+      "new": "result_data\\[13\\]_i_2_n_0"
+    },
+    {
+      "line": 1892,
+      "old": "\\\\result_data\\[13\\]_i_3_n_0\\",
+      "new": "result_data\\[13\\]_i_3_n_0"
+    },
+    {
+      "line": 1893,
+      "old": "\\\\result_data\\[20\\]_i_1_n_0\\",
+      "new": "result_data\\[20\\]_i_1_n_0"
+    },
+    {
+      "line": 1894,
+      "old": "\\\\result_data\\[24\\]_i_2_n_0\\",
+      "new": "result_data\\[24\\]_i_2_n_0"
+    },
+    {
+      "line": 1895,
+      "old": "\\\\result_data\\[25\\]_i_2_n_0\\",
+      "new": "result_data\\[25\\]_i_2_n_0"
+    },
+    {
+      "line": 1896,
+      "old": "\\\\result_data\\[27\\]_i_2_n_0\\",
+      "new": "result_data\\[27\\]_i_2_n_0"
+    },
+    {
+      "line": 1897,
+      "old": "\\\\result_data\\[34\\]_i_1_n_0\\",
+      "new": "result_data\\[34\\]_i_1_n_0"
+    },
+    {
+      "line": 1898,
+      "old": "\\\\result_data\\[39\\]_i_2_n_0\\",
+      "new": "result_data\\[39\\]_i_2_n_0"
+    },
+    {
+      "line": 1899,
+      "old": "\\\\result_data\\[41\\]_i_2_n_0\\",
+      "new": "result_data\\[41\\]_i_2_n_0"
+    },
+    {
+      "line": 1900,
+      "old": "\\\\result_data\\[41\\]_i_3_n_0\\",
+      "new": "result_data\\[41\\]_i_3_n_0"
+    },
+    {
+      "line": 1901,
+      "old": "\\\\result_data\\[48\\]_i_1_n_0\\",
+      "new": "result_data\\[48\\]_i_1_n_0"
+    },
+    {
+      "line": 1902,
+      "old": "\\\\result_data\\[52\\]_i_2_n_0\\",
+      "new": "result_data\\[52\\]_i_2_n_0"
+    },
+    {
+      "line": 1903,
+      "old": "\\\\result_data\\[53\\]_i_2_n_0\\",
+      "new": "result_data\\[53\\]_i_2_n_0"
+    },
+    {
+      "line": 1904,
+      "old": "\\\\result_data\\[55\\]_i_2_n_0\\",
+      "new": "result_data\\[55\\]_i_2_n_0"
+    },
+    {
+      "line": 1905,
+      "old": "\\\\result_data\\[62\\]_i_1_n_0\\",
+      "new": "result_data\\[62\\]_i_1_n_0"
+    },
+    {
+      "line": 1906,
+      "old": "\\\\result_data\\[67\\]_i_2_n_0\\",
+      "new": "result_data\\[67\\]_i_2_n_0"
+    },
+    {
+      "line": 1907,
+      "old": "\\\\result_data\\[69\\]_i_2_n_0\\",
+      "new": "result_data\\[69\\]_i_2_n_0"
+    },
+    {
+      "line": 1908,
+      "old": "\\\\result_data\\[69\\]_i_3_n_0\\",
+      "new": "result_data\\[69\\]_i_3_n_0"
+    },
+    {
+      "line": 1909,
+      "old": "\\\\result_data\\[6\\]_i_1_n_0\\",
+      "new": "result_data\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1910,
+      "old": "\\\\result_data\\[76\\]_i_1_n_0\\",
+      "new": "result_data\\[76\\]_i_1_n_0"
+    },
+    {
+      "line": 1911,
+      "old": "\\\\result_data\\[80\\]_i_2_n_0\\",
+      "new": "result_data\\[80\\]_i_2_n_0"
+    },
+    {
+      "line": 1912,
+      "old": "\\\\result_data\\[81\\]_i_2_n_0\\",
+      "new": "result_data\\[81\\]_i_2_n_0"
+    },
+    {
+      "line": 1913,
+      "old": "\\\\result_data\\[83\\]_i_1_n_0\\",
+      "new": "result_data\\[83\\]_i_1_n_0"
+    },
+    {
+      "line": 1914,
+      "old": "\\\\result_data\\[83\\]_i_3_n_0\\",
+      "new": "result_data\\[83\\]_i_3_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

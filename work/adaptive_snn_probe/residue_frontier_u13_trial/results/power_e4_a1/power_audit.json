@@ -1,0 +1,131 @@
+{
+  "status": "pass",
+  "engine": 4,
+  "design_top": "top_guard_add_frontier_u13_e4",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\power_e4_a1",
+  "auditor_sha256": "c483724c3e3aa0bb8bda54c3d72f0c0db7581efc2ea52b4c18f845a464d1fff5",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 1283,
+  "physical_activity_source_counts": {
+    "S": 1917,
+    "C": 3,
+    "D": 5
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 1728,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 4,
+    "design_top": "top_guard_add_frontier_u13_e4",
+    "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\replay_e4_a1",
+    "auditor_sha256": "c483724c3e3aa0bb8bda54c3d72f0c0db7581efc2ea52b4c18f845a464d1fff5",
+    "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+    "replay_check_sha256": "5a9ee34195166a485b2763d942f4fe1896ee2f62010e2a87597b57e2384db3bc",
+    "duration_ps": 718860000,
+    "scalar_updates": 635904,
+    "requests": 82944,
+    "retirements": 82944,
+    "clock_transitions": 239620,
+    "service_clocks": 119808,
+    "raw_unknown_time_records": 1728,
+    "scope": "Exact trace/interval/SDF/SAIF checks; raw internal unknowns need separate physical-net audit"
+  },
+  "critical_dsp_activity": {},
+  "settled_constant_ffs": {
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.028337,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8141694999999996e-06,
+  "dynamic_energy_J": 2.037033582e-05,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 32.033665175875605,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.00318128819251019,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.028337",
+      "iccq": "0.014842",
+      "power": "0.043179"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.488729"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 6,
+  "fixture_FF": 338,
+  "power_xpe_sha256": "694d643abf9e3c484cd057579515d5ac84401b75316f9313bb3b43b11e8036c6",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\route_e4_a0\\hardware.json",
+  "routed_hardware_sha256": "da71cd3aa99137fc7da6e724765eed6f9f3e3d98f7e3687f15f12404f69567e3",
+  "core_resources": {
+    "LUT": 114,
+    "FF": 468,
+    "DSP": 0,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 132
+  },
+  "WNS_ns": 1.082,
+  "WHS_ns": 0.041,
+  "scope": "Vendor estimated dynamic energy of complete common 338-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error"
+}

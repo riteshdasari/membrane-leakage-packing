@@ -1,0 +1,10 @@
+{
+  "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\glif_cifar10_T2.pth.tar",
+  "url": "https://raw.githubusercontent.com/CAS-CLab/Gated-LIF/60638b28ff8b688b51867e7dd44f1e065d4892b0/trained%20models/resCifar18stand-CIFAR10-step2-CW.pth.tar",
+  "bytes": 45506777,
+  "sha256": "124b7b40d67dbe9a9a6641426c4330e5f8bbb69f4e6bea6b50a59ebcf45ed4dd",
+  "md5": "cc37674d0ae4e7a62793193e892a1df7",
+  "elapsed_seconds": 8.329000000001543,
+  "expected_git_blob": "5dade368f99281122f55933fe6b809fb999c0153",
+  "expected_md5": null
+}

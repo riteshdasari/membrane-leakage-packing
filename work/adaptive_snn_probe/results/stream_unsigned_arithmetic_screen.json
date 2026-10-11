@@ -1,0 +1,10 @@
+{
+  "packed_residual_pairs": 2097152,
+  "full_int11_scalar_corrections": 65536,
+  "mismatches": 0,
+  "notes": [
+    "All delta0..31 and every pair of unsigned8 residuals; product fields cannot carry into each other",
+    "All int11 scalar high corrections; exact ceil((256-delta)*U/256) and representable metadata",
+    "Applied to adaptive and matched fixed pair/hybrid; not a one-sided optimization"
+  ]
+}

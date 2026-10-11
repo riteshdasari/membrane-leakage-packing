@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "kind": "main",
+  "backpressure": false,
+  "rows": [
+    {
+      "status": "pass",
+      "engine": 5,
+      "requests": 424355,
+      "neurons": 2114496,
+      "service_clocks": 433595,
+      "retirements": 424355,
+      "input_stalls": 0,
+      "output_stalls": 0,
+      "group_drains": 8792,
+      "physical_latency_histogram": {
+        "1": 424355
+      },
+      "numeric_retirement_sha256": "ef49909badbf916b11ca686689d516930643563f2977ca9ac4cfcaaa6b6341a1",
+      "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adaptive_natural_lut_trial\\native_main_0_a0\\frontier_out5.txt",
+      "retirement_sha256": "127b8fb0010d61a1b5f144a113da04293c0875bf60b7acc5c9c27ef87009dd81",
+      "reset_samples": 6,
+      "prelude_samples": 25,
+      "take_histogram": {
+        "1": 8054,
+        "2": 118,
+        "3": 118,
+        "4": 96,
+        "5": 406796,
+        "6": 937,
+        "7": 22,
+        "8": 8214
+      }
+    }
+  ],
+  "trace_columns": [
+    "idx",
+    "running",
+    "done",
+    "rst",
+    "in_valid",
+    "out_ready",
+    "available",
+    "U",
+    "I",
+    "in_ready",
+    "take",
+    "out_valid",
+    "out_count",
+    "out_data",
+    "narrow_mode",
+    "advance",
+    "accepted_thiscycle",
+    "retired_thiscycle"
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adaptive_natural_lut_trial\\verify_native.py": "86db65bff46dc2f3b7b6f53d1f3cf1a61ea3c340004865ea2b16cdfaef2e557c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_preparation.json": "1400244cc548bb13380afb978e58a16ddf7859b34b22c7ed47d52f9b688e4a2d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13.sv": "ad17bb3cdbbc5a5a5182e2d37a647de153e28fcb3d43bc914d629c6499cac73b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\CONTRACT.md": "34e11d9065d734a417c66b18430b917c484390a4e3ad4abd60877077c6516808"
+  },
+  "candidate_file_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adaptive_natural_lut_trial\\native_main_0_a0\\stream_stim.txt": "d348df55b3058c3528f334fd89b6004516d33011eef833c9b106b837fe87de55",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adaptive_natural_lut_trial\\native_main_0_a0\\workload.json": "b0daad61d9239f33bed0d8a6aba7ff90428b68110c3585dddd3242a6804e5096",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adaptive_natural_lut_trial\\native_main_0_a0\\tool_3.log": "203cfb3e20f90974bbdf28425690296fc4ec6f1ac8899c633348d14cde880e0c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adaptive_natural_lut_trial\\native_main_0_a0\\frontier_out5.txt": "127b8fb0010d61a1b5f144a113da04293c0875bf60b7acc5c9c27ef87009dd81"
+  },
+  "clock_period_ns": 6,
+  "useful_scalar_updates": 2114496,
+  "exhaustive_scalar_pairs": 2097152,
+  "supply2_minimum_clocks": 1057376,
+  "scope": "Exact U13/I8 integer addition, ordered prefix, zero tails, reset, stalls and1advancingclock; actualIF state/spike/count feedback on originalfirst48images. No full-neuronhardware or board claim."
+}

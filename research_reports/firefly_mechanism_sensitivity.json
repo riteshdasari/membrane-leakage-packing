@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-08",
+  "status": "analytical_sensitivity_not_measured_speedups",
+  "formula": "r*(1-p)/(1-q6/2-q8/3+q16/3+h)",
+  "scope": "Same DSP budget and matched useful input/lane utilization; q are serviced work fractions after grouping and padding; p excludes separately counted wide work; memory and neuron-update cost differences excluded",
+  "scenarios": [
+    {
+      "label": "Packing-only ceiling",
+      "q8": 1,
+      "q16": 0,
+      "r": 1,
+      "p": 0,
+      "h": 0,
+      "compute_speed_ratio": 1.4999999999999998
+    },
+    {
+      "label": "80% narrow, no overhead",
+      "q8": 0.8,
+      "q16": 0,
+      "r": 1,
+      "p": 0,
+      "h": 0,
+      "compute_speed_ratio": 1.3636363636363635
+    },
+    {
+      "label": "80% narrow, modest overhead",
+      "q8": 0.8,
+      "q16": 0,
+      "r": 0.95,
+      "p": 0.05,
+      "h": 0.03,
+      "compute_speed_ratio": 1.1823144104803491
+    },
+    {
+      "label": "80% narrow, larger overhead",
+      "q8": 0.8,
+      "q16": 0,
+      "r": 0.9,
+      "p": 0.1,
+      "h": 0.05,
+      "compute_speed_ratio": 1.0340425531914892
+    },
+    {
+      "label": "50% narrow, larger overhead",
+      "q8": 0.5,
+      "q16": 0,
+      "r": 0.9,
+      "p": 0.1,
+      "h": 0.05,
+      "compute_speed_ratio": 0.9169811320754717
+    },
+    {
+      "label": "80% narrow, 10% sixteen-bit",
+      "q8": 0.8,
+      "q16": 0.1,
+      "r": 0.9,
+      "p": 0.1,
+      "h": 0.05,
+      "compute_speed_ratio": 0.9918367346938775
+    },
+    {
+      "label": "All narrow at half clock",
+      "q8": 1,
+      "q16": 0,
+      "r": 0.5,
+      "p": 0,
+      "h": 0,
+      "compute_speed_ratio": 0.7499999999999999
+    },
+    {
+      "label": "Hypothetical 6-bit extension: 30% six-bit, 50% eight-bit",
+      "q6": 0.3,
+      "q8": 0.5,
+      "q16": 0,
+      "r": 0.95,
+      "p": 0.05,
+      "h": 0.03,
+      "compute_speed_ratio": 1.2651869158878504
+    }
+  ],
+  "certificate_example": {
+    "outputs": 6,
+    "inputs": 16,
+    "work": 96,
+    "baseline_amortized_DSP_cycles": 12,
+    "candidate_compute_cycles": 8,
+    "unhidden_certificate_cycles": 6,
+    "speed_ratio": 0.8571428571428571
+  },
+  "sources": [
+    "https://arxiv.org/html/2301.01905v5",
+    "https://arxiv.org/pdf/2309.16158",
+    "https://arxiv.org/html/2505.12771v1",
+    "https://docs.amd.com/r/2024.2-English/ug974-vivado-ultrascale-libraries/DSP48E2"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\replay12_ottt_e3_ottt_stress_a0_e3\\activity.saif",
+  "source_sha256": "1d4407944af51dc7e907b77cee89de8ff893bafad81d217749b8c8d84c89ccb9",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\replay12_ottt_e3_ottt_stress_a0_e3\\activity_named.saif",
+  "target_sha256": "359c18989cf9937f8a9d53370229c8c40e335fc8f78270bf99b1bcd14cdae248",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 31,
+  "changes": [
+    {
+      "line": 347,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 368,
+      "old": "\\\\b1_q\\[0\\]_i_1_n_0\\",
+      "new": "b1_q\\[0\\]_i_1_n_0"
+    },
+    {
+      "line": 369,
+      "old": "\\\\b1_q\\[1\\]_i_1_n_0\\",
+      "new": "b1_q\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 370,
+      "old": "\\\\b1_q\\[2\\]_i_1_n_0\\",
+      "new": "b1_q\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 371,
+      "old": "\\\\b1_q\\[3\\]_i_1_n_0\\",
+      "new": "b1_q\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 372,
+      "old": "\\\\b1_q\\[4\\]_i_1_n_0\\",
+      "new": "b1_q\\[4\\]_i_1_n_0"
+    },
+    {
+      "line": 373,
+      "old": "\\\\b1_q\\[5\\]_i_1_n_0\\",
+      "new": "b1_q\\[5\\]_i_1_n_0"
+    },
+    {
+      "line": 374,
+      "old": "\\\\b1_q\\[6\\]_i_1_n_0\\",
+      "new": "b1_q\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 375,
+      "old": "\\\\b1_q\\[7\\]_i_1_n_0\\",
+      "new": "b1_q\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 376,
+      "old": "\\\\b1_q\\[8\\]_i_1_n_0\\",
+      "new": "b1_q\\[8\\]_i_1_n_0"
+    },
+    {
+      "line": 397,
+      "old": "\\\\count1_reg_n_0_\\[0\\]\\",
+      "new": "count1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 398,
+      "old": "\\\\count1_reg_n_0_\\[1\\]\\",
+      "new": "count1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 399,
+      "old": "\\\\count2\\[0\\]_i_1_n_0\\",
+      "new": "count2\\[0\\]_i_1_n_0"
+    },
+    {
+      "line": 400,
+      "old": "\\\\count2\\[1\\]_i_1_n_0\\",
+      "new": "count2\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 537,
+      "old": "\\\\u_q\\[16\\]_i_1_n_0\\",
+      "new": "u_q\\[16\\]_i_1_n_0"
+    },
+    {
+      "line": 538,
+      "old": "\\\\u_q\\[17\\]_i_1_n_0\\",
+      "new": "u_q\\[17\\]_i_1_n_0"
+    },
+    {
+      "line": 539,
+      "old": "\\\\u_q\\[18\\]_i_1_n_0\\",
+      "new": "u_q\\[18\\]_i_1_n_0"
+    },
+    {
+      "line": 540,
+      "old": "\\\\u_q\\[19\\]_i_1_n_0\\",
+      "new": "u_q\\[19\\]_i_1_n_0"
+    },
+    {
+      "line": 541,
+      "old": "\\\\u_q\\[20\\]_i_1_n_0\\",
+      "new": "u_q\\[20\\]_i_1_n_0"
+    },
+    {
+      "line": 542,
+      "old": "\\\\u_q\\[21\\]_i_1_n_0\\",
+      "new": "u_q\\[21\\]_i_1_n_0"
+    },
+    {
+      "line": 543,
+      "old": "\\\\u_q\\[22\\]_i_1_n_0\\",
+      "new": "u_q\\[22\\]_i_1_n_0"
+    },
+    {
+      "line": 544,
+      "old": "\\\\u_q\\[23\\]_i_1_n_0\\",
+      "new": "u_q\\[23\\]_i_1_n_0"
+    },
+    {
+      "line": 545,
+      "old": "\\\\u_q\\[24\\]_i_1_n_0\\",
+      "new": "u_q\\[24\\]_i_1_n_0"
+    },
+    {
+      "line": 546,
+      "old": "\\\\u_q\\[25\\]_i_1_n_0\\",
+      "new": "u_q\\[25\\]_i_1_n_0"
+    },
+    {
+      "line": 547,
+      "old": "\\\\u_q\\[26\\]_i_1_n_0\\",
+      "new": "u_q\\[26\\]_i_1_n_0"
+    },
+    {
+      "line": 548,
+      "old": "\\\\u_q\\[27\\]_i_1_n_0\\",
+      "new": "u_q\\[27\\]_i_1_n_0"
+    },
+    {
+      "line": 549,
+      "old": "\\\\u_q\\[28\\]_i_1_n_0\\",
+      "new": "u_q\\[28\\]_i_1_n_0"
+    },
+    {
+      "line": 550,
+      "old": "\\\\u_q\\[29\\]_i_1_n_0\\",
+      "new": "u_q\\[29\\]_i_1_n_0"
+    },
+    {
+      "line": 551,
+      "old": "\\\\u_q\\[30\\]_i_1_n_0\\",
+      "new": "u_q\\[30\\]_i_1_n_0"
+    },
+    {
+      "line": 552,
+      "old": "\\\\u_q\\[31\\]_i_2_n_0\\",
+      "new": "u_q\\[31\\]_i_2_n_0"
+    },
+    {
+      "line": 553,
+      "old": "\\\\u_q\\[31\\]_i_3_n_0\\",
+      "new": "u_q\\[31\\]_i_3_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

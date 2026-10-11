@@ -1,0 +1,17 @@
+{
+  "status": "prepared",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\tb_frontier_compare.sv": "fad4d478575bf084c50717c9827d330c0e5d49c41f5f60bc74221a3f1f0805fd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\guard_add_frontier_timing.sv": "eddfd750d8d87e7f0915d57198405852b0796e18c14d18eca20d63f1d860a838",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\route.tcl": "45a29b7b042a1024507cfff21c181b4c9f019f127ab3ceccd6dd76e854ebceeb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\prepare_sources.py": "b361e6d0bf5586d34af88476049f306a53792ff3a8dcf3b3e3aeeac3879af15d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\core.sv": "b3a2466db12c09582b85f3a940e78445ad5475dd836e4a35fb8412e370bb02c3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\CONTRACT.md": "d468d2a17c33ee3a0762ff4f58c820e2dfaeac4e57be6507185f34f2b3e1e0d8"
+  },
+  "generated_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\tb_native.sv": "0d1757ae4f13a42f8dd144c45b7d48330017a74605a689a20bcaf2023ab4d637",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\timing.sv": "94f699caa1c407e3fe895aa1665963ee20afa8aef50efb8c58bc37c00e2b7831",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\route.tcl": "11e6063a0fa902a0def4193275575f5b9e810a526582422e34c05de68f03f99b"
+  },
+  "scope": "New U11 one-edge trial only; parent sources remain read-only; plain integer TB oracle retained"
+}

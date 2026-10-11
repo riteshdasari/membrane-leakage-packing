@@ -1,0 +1,6066 @@
+{
+  "status": "pass_interval_certificate",
+  "rows": [
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 32,
+      "certified_U_range": [
+        -99,
+        34
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -227,
+            161
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            4
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -199,
+            104
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            3
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 128,
+      "certified_U_range": [
+        -99,
+        34
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -227,
+            161
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            4
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -199,
+            104
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            3
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 256,
+      "certified_U_range": [
+        -99,
+        34
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -227,
+            161
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            4
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -199,
+            104
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            3
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 32,
+      "certified_U_range": [
+        -686,
+        238
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -814,
+            365
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -786,
+            289
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            8
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": true,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 128,
+      "certified_U_range": [
+        -693,
+        238
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -821,
+            365
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -793,
+            289
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            8
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 256,
+      "certified_U_range": [
+        -693,
+        238
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -821,
+            365
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -793,
+            289
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            8
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 32,
+      "certified_U_range": [
+        -881,
+        306
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1009,
+            433
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            12
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -981,
+            357
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 128,
+      "certified_U_range": [
+        -914,
+        315
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1042,
+            442
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -33,
+            12
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1014,
+            366
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -33,
+            10
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": 3
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 256,
+      "certified_U_range": [
+        -914,
+        315
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1042,
+            442
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -33,
+            12
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1014,
+            366
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -33,
+            10
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": 3
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 32,
+      "certified_U_range": [
+        -1289,
+        447
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1417,
+            574
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -45,
+            16
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1389,
+            498
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -45,
+            14
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 128,
+      "certified_U_range": [
+        -1485,
+        510
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1613,
+            637
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            18
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1585,
+            561
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            16
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 256,
+      "certified_U_range": [
+        -1485,
+        510
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1613,
+            637
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            18
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1585,
+            561
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            16
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 32,
+      "certified_U_range": [
+        -1931,
+        670
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2059,
+            797
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -65,
+            23
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2031,
+            721
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -65,
+            21
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": 4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 128,
+      "certified_U_range": [
+        -3029,
+        1052
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3157,
+            1179
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -99,
+            35
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3129,
+            1103
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -99,
+            33
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 256,
+      "certified_U_range": [
+        -3069,
+        1054
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3197,
+            1181
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -100,
+            35
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3169,
+            1105
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -100,
+            33
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 32,
+      "certified_U_range": [
+        -2420,
+        839
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2548,
+            966
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -80,
+            29
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2520,
+            890
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -80,
+            27
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 128,
+      "certified_U_range": [
+        -5421,
+        1879
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -5549,
+            2006
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -174,
+            61
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -5521,
+            1930
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -174,
+            59
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 256,
+      "certified_U_range": [
+        -6155,
+        2136
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -6283,
+            2263
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -197,
+            69
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -6255,
+            2187
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -197,
+            67
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 32,
+      "certified_U_range": [
+        -2727,
+        944
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2855,
+            1071
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -90,
+            32
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2827,
+            995
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -90,
+            30
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 128,
+      "certified_U_range": [
+        -7969,
+        2763
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -8097,
+            2890
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -254,
+            89
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -8069,
+            2814
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -254,
+            87
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 256,
+      "certified_U_range": [
+        -10926,
+        3788
+      ],
+      "U_bits": 15,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -16512,
+            16510
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -516,
+            514
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -11054,
+            3915
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -346,
+            121
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -11026,
+            3839
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -346,
+            119
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 93,
+        "absolute_adaptive_DSP_metadata_FF": 72,
+        "union_adaptive_DSP_metadata_FF": 75,
+        "native_hybrid_FF": 101,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 32,
+      "certified_U_range": [
+        -3100,
+        1054
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3228,
+            1181
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -101,
+            35
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3200,
+            1105
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -101,
+            33
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 128,
+      "certified_U_range": [
+        -12700,
+        4318
+      ],
+      "U_bits": 15,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -16512,
+            16510
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -516,
+            514
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -12828,
+            4445
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -401,
+            137
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -12800,
+            4369
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -401,
+            135
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 93,
+        "absolute_adaptive_DSP_metadata_FF": 72,
+        "union_adaptive_DSP_metadata_FF": 75,
+        "native_hybrid_FF": 101,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 256,
+      "certified_U_range": [
+        -25500,
+        8670
+      ],
+      "U_bits": 16,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -32896,
+            32894
+          ],
+          "sum_bits": 17,
+          "precomputed_high_base_range": [
+            -1028,
+            1026
+          ],
+          "high_base_bits": 12,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 101,
+            "adaptive_absolute_DSP_FF": 77,
+            "adaptive_union_DSP_FF": 80,
+            "native_hybrid_FF": 107,
+            "full_LUT8_FF": 141,
+            "adaptive_minus_native_FF": -30
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -25628,
+            8797
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -801,
+            273
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -25600,
+            8721
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -801,
+            271
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 101,
+        "absolute_adaptive_DSP_metadata_FF": 77,
+        "union_adaptive_DSP_metadata_FF": 80,
+        "native_hybrid_FF": 107,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 32,
+      "certified_U_range": [
+        -99,
+        35
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -227,
+            162
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            4
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -199,
+            95
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            2
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 128,
+      "certified_U_range": [
+        -99,
+        35
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -227,
+            162
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            4
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -199,
+            95
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            2
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 256,
+      "certified_U_range": [
+        -99,
+        35
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -227,
+            162
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            4
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -199,
+            95
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            2
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 32,
+      "certified_U_range": [
+        -686,
+        245
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -814,
+            372
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -786,
+            288
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            8
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": true,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 128,
+      "certified_U_range": [
+        -693,
+        245
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -821,
+            372
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -793,
+            288
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            8
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 256,
+      "certified_U_range": [
+        -693,
+        245
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -821,
+            372
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -793,
+            288
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -26,
+            8
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 32,
+      "certified_U_range": [
+        -881,
+        315
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1009,
+            442
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            12
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -981,
+            358
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            10
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 128,
+      "certified_U_range": [
+        -914,
+        324
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1042,
+            451
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -33,
+            13
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1014,
+            367
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -33,
+            11
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": 3
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 256,
+      "certified_U_range": [
+        -914,
+        324
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1042,
+            451
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -33,
+            13
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1014,
+            367
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -33,
+            11
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": 3
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 32,
+      "certified_U_range": [
+        -1289,
+        460
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1417,
+            587
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -45,
+            17
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1389,
+            503
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -45,
+            15
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 128,
+      "certified_U_range": [
+        -1485,
+        525
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1613,
+            652
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            19
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1585,
+            568
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            17
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 256,
+      "certified_U_range": [
+        -1485,
+        525
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1613,
+            652
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            19
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1585,
+            568
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -51,
+            17
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 32,
+      "certified_U_range": [
+        -1931,
+        689
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2059,
+            816
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -65,
+            24
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2031,
+            732
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -65,
+            22
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": 4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 128,
+      "certified_U_range": [
+        -3029,
+        1082
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3157,
+            1209
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -99,
+            36
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3129,
+            1125
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -99,
+            34
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 256,
+      "certified_U_range": [
+        -3069,
+        1085
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3197,
+            1212
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -100,
+            36
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3169,
+            1128
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -100,
+            34
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 32,
+      "certified_U_range": [
+        -2420,
+        863
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2548,
+            990
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -80,
+            29
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2520,
+            906
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -80,
+            27
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 128,
+      "certified_U_range": [
+        -5421,
+        1932
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -5549,
+            2059
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -174,
+            63
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -5521,
+            1975
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -174,
+            61
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 256,
+      "certified_U_range": [
+        -6155,
+        2197
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -6283,
+            2324
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -197,
+            71
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -6255,
+            2240
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -197,
+            69
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 32,
+      "certified_U_range": [
+        -2727,
+        973
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2855,
+            1100
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -90,
+            33
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2827,
+            1016
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -90,
+            31
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 128,
+      "certified_U_range": [
+        -7969,
+        2844
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -8097,
+            2971
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -254,
+            91
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -8069,
+            2887
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -254,
+            89
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 256,
+      "certified_U_range": [
+        -10926,
+        3898
+      ],
+      "U_bits": 15,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -16512,
+            16510
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -516,
+            514
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -11054,
+            4025
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -346,
+            124
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -11026,
+            3941
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -346,
+            122
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 93,
+        "absolute_adaptive_DSP_metadata_FF": 72,
+        "union_adaptive_DSP_metadata_FF": 75,
+        "native_hybrid_FF": 101,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 32,
+      "certified_U_range": [
+        -3100,
+        1085
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3228,
+            1212
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -101,
+            36
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3200,
+            1128
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -101,
+            34
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 128,
+      "certified_U_range": [
+        -12700,
+        4445
+      ],
+      "U_bits": 15,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -16512,
+            16510
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -516,
+            514
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -12828,
+            4572
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -401,
+            141
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -12800,
+            4488
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -401,
+            139
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 93,
+        "absolute_adaptive_DSP_metadata_FF": 72,
+        "union_adaptive_DSP_metadata_FF": 75,
+        "native_hybrid_FF": 101,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 256,
+      "certified_U_range": [
+        -25500,
+        8925
+      ],
+      "U_bits": 16,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -32896,
+            32894
+          ],
+          "sum_bits": 17,
+          "precomputed_high_base_range": [
+            -1028,
+            1026
+          ],
+          "high_base_bits": 12,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 101,
+            "adaptive_absolute_DSP_FF": 77,
+            "adaptive_union_DSP_FF": 80,
+            "native_hybrid_FF": 107,
+            "full_LUT8_FF": 141,
+            "adaptive_minus_native_FF": -30
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -25628,
+            9052
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -801,
+            281
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -25600,
+            8968
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -801,
+            279
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 101,
+        "absolute_adaptive_DSP_metadata_FF": 77,
+        "union_adaptive_DSP_metadata_FF": 80,
+        "native_hybrid_FF": 107,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 32,
+      "certified_U_range": [
+        -96,
+        31
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -224,
+            158
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -7,
+            3
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -193,
+            98
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -7,
+            2
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 128,
+      "certified_U_range": [
+        -96,
+        31
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -224,
+            158
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -7,
+            3
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -193,
+            98
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -7,
+            2
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 256,
+      "certified_U_range": [
+        -96,
+        31
+      ],
+      "U_bits": 8,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -256,
+            254
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -8,
+            6
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -224,
+            158
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -7,
+            3
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -193,
+            98
+          ],
+          "sum_bits": 9,
+          "precomputed_high_base_range": [
+            -7,
+            2
+          ],
+          "high_base_bits": 4,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 37,
+            "adaptive_absolute_DSP_FF": 37,
+            "adaptive_union_DSP_FF": 40,
+            "native_hybrid_FF": 41,
+            "full_LUT8_FF": 77,
+            "adaptive_minus_native_FF": -4
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 37,
+        "absolute_adaptive_DSP_metadata_FF": 37,
+        "union_adaptive_DSP_metadata_FF": 40,
+        "native_hybrid_FF": 41,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 32,
+      "certified_U_range": [
+        -665,
+        210
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -793,
+            337
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -25,
+            9
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -762,
+            258
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -25,
+            7
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": true,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 128,
+      "certified_U_range": [
+        -672,
+        210
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -800,
+            337
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -25,
+            9
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -769,
+            258
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -25,
+            7
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 256,
+      "certified_U_range": [
+        -672,
+        210
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -800,
+            337
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -25,
+            9
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -769,
+            258
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -25,
+            7
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 32,
+      "certified_U_range": [
+        -854,
+        270
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -982,
+            397
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -31,
+            11
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -951,
+            318
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -31,
+            9
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 128,
+      "certified_U_range": [
+        -887,
+        278
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1015,
+            405
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            11
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -984,
+            326
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            9
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 256,
+      "certified_U_range": [
+        -887,
+        278
+      ],
+      "U_bits": 11,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -1152,
+            1150
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -36,
+            34
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1015,
+            405
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            11
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -984,
+            326
+          ],
+          "sum_bits": 11,
+          "precomputed_high_base_range": [
+            -32,
+            9
+          ],
+          "high_base_bits": 6,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 53,
+            "adaptive_absolute_DSP_FF": 47,
+            "adaptive_union_DSP_FF": 50,
+            "native_hybrid_FF": 49,
+            "full_LUT8_FF": 93,
+            "adaptive_minus_native_FF": -2
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 61,
+        "absolute_adaptive_DSP_metadata_FF": 52,
+        "union_adaptive_DSP_metadata_FF": 55,
+        "native_hybrid_FF": 53,
+        "native_DSP_lanes": 4,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 32,
+      "certified_U_range": [
+        -1252,
+        395
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1380,
+            522
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -44,
+            15
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1349,
+            443
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -44,
+            13
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 128,
+      "certified_U_range": [
+        -1440,
+        450
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1568,
+            577
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -49,
+            17
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1537,
+            498
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -49,
+            15
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 256,
+      "certified_U_range": [
+        -1440,
+        450
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -1568,
+            577
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -49,
+            17
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1537,
+            498
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -49,
+            15
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 32,
+      "certified_U_range": [
+        -1873,
+        593
+      ],
+      "U_bits": 12,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -2176,
+            2174
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -68,
+            66
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2001,
+            720
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -63,
+            21
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -1970,
+            641
+          ],
+          "sum_bits": 12,
+          "precomputed_high_base_range": [
+            -63,
+            19
+          ],
+          "high_base_bits": 7,
+          "storage": {
+            "native_DSP_lanes": 4,
+            "fixed8_DSP_FF": 61,
+            "adaptive_absolute_DSP_FF": 52,
+            "adaptive_union_DSP_FF": 55,
+            "native_hybrid_FF": 53,
+            "full_LUT8_FF": 101,
+            "adaptive_minus_native_FF": -1
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 69,
+        "absolute_adaptive_DSP_metadata_FF": 57,
+        "union_adaptive_DSP_metadata_FF": 60,
+        "native_hybrid_FF": 83,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 128,
+      "certified_U_range": [
+        -2938,
+        930
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3066,
+            1057
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -96,
+            32
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3035,
+            978
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -96,
+            30
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 256,
+      "certified_U_range": [
+        -2976,
+        930
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3104,
+            1057
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -97,
+            32
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3073,
+            978
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -97,
+            30
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 32,
+      "certified_U_range": [
+        -2347,
+        743
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2475,
+            870
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -78,
+            26
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2444,
+            791
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -78,
+            24
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 128,
+      "certified_U_range": [
+        -5258,
+        1661
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -5386,
+            1788
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -169,
+            54
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -5355,
+            1709
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -169,
+            52
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 256,
+      "certified_U_range": [
+        -5970,
+        1890
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -6098,
+            2017
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -191,
+            62
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -6067,
+            1938
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -191,
+            60
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 32,
+      "certified_U_range": [
+        -2645,
+        835
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -2773,
+            962
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -87,
+            29
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -2742,
+            883
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -87,
+            27
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 128,
+      "certified_U_range": [
+        -7729,
+        2441
+      ],
+      "U_bits": 14,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -8320,
+            8318
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -260,
+            258
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -7857,
+            2568
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -246,
+            79
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -7826,
+            2489
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -246,
+            77
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 85,
+        "absolute_adaptive_DSP_metadata_FF": 67,
+        "union_adaptive_DSP_metadata_FF": 70,
+        "native_hybrid_FF": 95,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 256,
+      "certified_U_range": [
+        -10595,
+        3346
+      ],
+      "U_bits": 15,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -16512,
+            16510
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -516,
+            514
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -10723,
+            3473
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -336,
+            107
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -10692,
+            3394
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -336,
+            105
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 93,
+        "absolute_adaptive_DSP_metadata_FF": 72,
+        "union_adaptive_DSP_metadata_FF": 75,
+        "native_hybrid_FF": 101,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 32,
+      "certified_U_range": [
+        -3007,
+        930
+      ],
+      "U_bits": 13,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -4224,
+            4222
+          ],
+          "sum_bits": 14,
+          "precomputed_high_base_range": [
+            -132,
+            130
+          ],
+          "high_base_bits": 9,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 77,
+            "adaptive_absolute_DSP_FF": 62,
+            "adaptive_union_DSP_FF": 65,
+            "native_hybrid_FF": 89,
+            "full_LUT8_FF": 117,
+            "adaptive_minus_native_FF": -27
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -3135,
+            1057
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -98,
+            32
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -3104,
+            978
+          ],
+          "sum_bits": 13,
+          "precomputed_high_base_range": [
+            -98,
+            30
+          ],
+          "high_base_bits": 8,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 69,
+            "adaptive_absolute_DSP_FF": 57,
+            "adaptive_union_DSP_FF": 60,
+            "native_hybrid_FF": 83,
+            "full_LUT8_FF": 109,
+            "adaptive_minus_native_FF": -26
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 77,
+        "absolute_adaptive_DSP_metadata_FF": 62,
+        "union_adaptive_DSP_metadata_FF": 65,
+        "native_hybrid_FF": 89,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 128,
+      "certified_U_range": [
+        -12319,
+        3810
+      ],
+      "U_bits": 15,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -16512,
+            16510
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -516,
+            514
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -12447,
+            3937
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -389,
+            122
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -12416,
+            3858
+          ],
+          "sum_bits": 15,
+          "precomputed_high_base_range": [
+            -389,
+            120
+          ],
+          "high_base_bits": 10,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 85,
+            "adaptive_absolute_DSP_FF": 67,
+            "adaptive_union_DSP_FF": 70,
+            "native_hybrid_FF": 95,
+            "full_LUT8_FF": 125,
+            "adaptive_minus_native_FF": -28
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 93,
+        "absolute_adaptive_DSP_metadata_FF": 72,
+        "union_adaptive_DSP_metadata_FF": 75,
+        "native_hybrid_FF": 101,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 256,
+      "certified_U_range": [
+        -24735,
+        7650
+      ],
+      "U_bits": 16,
+      "contracts": {
+        "generic_full_word": {
+          "sum_range": [
+            -32896,
+            32894
+          ],
+          "sum_bits": 17,
+          "precomputed_high_base_range": [
+            -1028,
+            1026
+          ],
+          "high_base_bits": 12,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 101,
+            "adaptive_absolute_DSP_FF": 77,
+            "adaptive_union_DSP_FF": 80,
+            "native_hybrid_FF": 107,
+            "full_LUT8_FF": 141,
+            "adaptive_minus_native_FF": -30
+          }
+        },
+        "uniform_U_any_I8": {
+          "sum_range": [
+            -24863,
+            7777
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -777,
+            242
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        },
+        "per_neuron_model": {
+          "sum_range": [
+            -24832,
+            7698
+          ],
+          "sum_bits": 16,
+          "precomputed_high_base_range": [
+            -777,
+            240
+          ],
+          "high_base_bits": 11,
+          "storage": {
+            "native_DSP_lanes": 2,
+            "fixed8_DSP_FF": 93,
+            "adaptive_absolute_DSP_FF": 72,
+            "adaptive_union_DSP_FF": 75,
+            "native_hybrid_FF": 101,
+            "full_LUT8_FF": 133,
+            "adaptive_minus_native_FF": -29
+          }
+        }
+      },
+      "unchanged_original_control": false,
+      "previous_analytic_storage": {
+        "fixed8_DSP_metadata_FF": 101,
+        "absolute_adaptive_DSP_metadata_FF": 77,
+        "union_adaptive_DSP_metadata_FF": 80,
+        "native_hybrid_FF": 107,
+        "native_DSP_lanes": 2,
+        "scope": "Analytic explicit fabric storage only; no LUT, slice, mapped timing or energy estimate. Static U8 specialization is stronger when the bound fits U8."
+      }
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\check_certificates.py": "ef86d0e167fa97f09a20c307a2e58f18e9d899cfbc90f4b3c4a30be78bcfa6d7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\results.json": "b7e8520582bdf1132f32925c7d0d4a4995f819b378bd347c3ef25438424449e4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\screen.py": "240fd6f4a0241b7cadb2315c7cfb955a43c0c9f9d591787c72cc1c68869ceb0c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\final_selected.json": "84e94c7b54ec86cbd5d4022692f882d8f89154f71183be9b906c80da5c18a446",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+  },
+  "plan_sha256": "925a9c518a2c167ee944b09c394348315341cabe6a28c1457608183f94c4db36",
+  "proof": "All initial states zero; leak is monotone ceil(beta U/256); independent per-neuron currents are bounded by sums of positive/negative weights; exact reset hull is propagated and intersected with independently checked invariants.",
+  "caution": "Specialized widths change the caller contract. Prior exhaustive full-word U11 tests do not authorize narrowing under that original generic contract. Hardware savings remain analytic and need a new bounded-domain RTL trial.",
+  "conclusion": "Use certified sum width and high-base width fairly in both adaptive and strongest fixed controls before selecting a precision-cliff hardware experiment."
+}

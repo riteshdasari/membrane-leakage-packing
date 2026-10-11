@@ -1,0 +1,30 @@
+{
+  "status": "completed_full_rendered_primary_method_inspection",
+  "title": "UDP: A Universal DSP Packing Framework for Low-bitwidth MAC Acceleration on FPGAs",
+  "doi": "10.1145/3748173.3779194",
+  "primary_url": "https://dl.acm.org/doi/epdf/10.1145/3748173.3779194",
+  "authors": ["Jundong Wu", "Zhendong Zheng", "Lei Gong", "Chao Wang", "Xuehai Zhou"],
+  "review_date_utc": "2026-10-11",
+  "access": "Normal public ACM browser reader; CC BY 4.0 article. Automatic site verification completed without agent intervention.",
+  "inspection_scope": "Rendered full text of all twelve article pages, including complete mathematical and implementation methods; no original PDF file acquired or hashed.",
+  "full_method_retrieved": true,
+  "original_pdf_file_acquired": false,
+  "rendered_page_characters": [4450,4509,6399,5736,5649,5763,5917,5920,4845,5536,10606,2139],
+  "printed_pages": "212-223",
+  "method_locations": [
+    {"section":"3.1", "printed_page":215, "finding":"Direct, offset and clip mappings with signed correction."},
+    {"section":"3.2-3.3", "printed_pages":"216-217", "finding":"Exact nonoverlapping product reconstruction; sign and most-negative-activation exceptional handling."},
+    {"section":"4", "printed_page":217, "finding":"Packing parallelism optimized subject to DSP port constraints and specified operand widths."},
+    {"section":"5.1-5.3", "printed_pages":"217-218", "finding":"User-chosen template parameters generate Chisel hardware; fixed-format cascading and two-DSP high/low fusion."},
+    {"section":"6", "printed_pages":"218-221", "finding":"Matrix and neural-network MAC evaluation; optional approximate correction omission."}
+  ],
+  "runtime_value_behavior_present": ["sign-dependent correction", "most-negative activation exception"],
+  "configured_widths_distinct_from_runtime_correction": true,
+  "equivalent_actual_membrane_admission_described": false,
+  "equivalence_scope": "No described actual signed16 membrane admission to signed9 shared-beta pair versus exact signed16 singleton. This is bounded inspection of UDP, not proof of absence in all prior work.",
+  "generic_exact_packing_prior_art": true,
+  "high_low_split_prior_art": true,
+  "Cui_original_method_closed_by_secondary_description": false,
+  "first_ever_established": false,
+  "hardware_energy_or_model_results_changed": false
+}

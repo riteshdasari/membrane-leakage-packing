@@ -1,0 +1,452 @@
+{
+  "decision": "The fixed packed ALU improves the previous fixed-current DSP core, but does not establish a hardware or service-cycle benefit over the matched LUT core. No new adaptive controller was built.",
+  "limitations": [
+    "Internal OOC timing only; unconstrained input/output delays",
+    "Pre-encoded DSP operands exclude encoder/storage/host costs",
+    "No power, board or full-network RTL accuracy measurement",
+    "8-bit and 10-bit groups have different neuron counts; compare within a group",
+    "No FireFly implementation or system throughput reproduction"
+  ],
+  "source_hashes": {
+    "packed_neuron_alu.sv": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "persistent_unit.sv": "071145f102f34589cf23ac2fe08dd89e383c1db1d23f0a5defc33d6eee56aa77"
+  },
+  "algebra": {
+    "cases": 180000,
+    "failures": 0
+  },
+  "rtl_checks": {
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "algebra_cases": 180000,
+    "rows": [
+      {
+        "engine": 0,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 0,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 0,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 0,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 0,
+        "bits": 12,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 12,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 12,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 0,
+        "bits": 12,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 12,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 12,
+        "neurons": 4,
+        "shift": 3,
+        "leak": 1,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 0,
+        "bits": 16,
+        "neurons": 3,
+        "shift": 1,
+        "leak": 0,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 16,
+        "neurons": 3,
+        "shift": 1,
+        "leak": 0,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 16,
+        "neurons": 3,
+        "shift": 1,
+        "leak": 0,
+        "hard_reset": 0,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 0,
+        "bits": 16,
+        "neurons": 3,
+        "shift": 1,
+        "leak": 0,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 1,
+        "bits": 16,
+        "neurons": 3,
+        "shift": 1,
+        "leak": 0,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      },
+      {
+        "engine": 2,
+        "bits": 16,
+        "neurons": 3,
+        "shift": 1,
+        "leak": 0,
+        "hard_reset": 1,
+        "steps": 320,
+        "mismatches": 0,
+        "cycles": 1206
+      }
+    ]
+  },
+  "model_replay": {
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "rows": [
+      {
+        "seed": 0,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "threshold": 9,
+        "engine": 0,
+        "images": 48,
+        "steps_per_image": 32,
+        "mismatches": 0,
+        "cycles": 18871
+      },
+      {
+        "seed": 0,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "threshold": 9,
+        "engine": 1,
+        "images": 48,
+        "steps_per_image": 32,
+        "mismatches": 0,
+        "cycles": 18871
+      },
+      {
+        "seed": 0,
+        "bits": 8,
+        "neurons": 6,
+        "shift": 1,
+        "threshold": 9,
+        "engine": 2,
+        "images": 48,
+        "steps_per_image": 32,
+        "mismatches": 0,
+        "cycles": 18871
+      },
+      {
+        "seed": 0,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "threshold": 17,
+        "engine": 0,
+        "images": 48,
+        "steps_per_image": 32,
+        "mismatches": 0,
+        "cycles": 18871
+      },
+      {
+        "seed": 0,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "threshold": 17,
+        "engine": 1,
+        "images": 48,
+        "steps_per_image": 32,
+        "mismatches": 0,
+        "cycles": 18871
+      },
+      {
+        "seed": 0,
+        "bits": 10,
+        "neurons": 4,
+        "shift": 3,
+        "threshold": 17,
+        "engine": 2,
+        "images": 48,
+        "steps_per_image": 32,
+        "mismatches": 0,
+        "cycles": 18871
+      }
+    ]
+  },
+  "hardware": [
+    {
+      "top": "top_neuron_dsp8",
+      "LUT": 133,
+      "FF": 8,
+      "DSP": 1,
+      "WNS_ns": -1.033,
+      "seconds": 213.9,
+      "target_ns": 4,
+      "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+      "WHS_ns": 0.279,
+      "critical_period_estimate_ns": 5.0329999999999995
+    },
+    {
+      "top": "top_neuron_lut8",
+      "LUT": 95,
+      "FF": 56,
+      "DSP": 0,
+      "WNS_ns": 0.654,
+      "seconds": 127.5,
+      "target_ns": 4,
+      "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+      "WHS_ns": 0.204,
+      "critical_period_estimate_ns": 3.346
+    },
+    {
+      "top": "top_neuron_current8",
+      "LUT": 266,
+      "FF": 56,
+      "DSP": 1,
+      "WNS_ns": -1.32,
+      "seconds": 105.4,
+      "target_ns": 4,
+      "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+      "WHS_ns": 0.532,
+      "critical_period_estimate_ns": 5.32
+    },
+    {
+      "top": "top_neuron_dsp10",
+      "LUT": 130,
+      "FF": 6,
+      "DSP": 1,
+      "WNS_ns": -1.022,
+      "seconds": 114.0,
+      "target_ns": 4,
+      "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+      "WHS_ns": 0.49,
+      "critical_period_estimate_ns": 5.022
+    },
+    {
+      "top": "top_neuron_lut10",
+      "LUT": 80,
+      "FF": 46,
+      "DSP": 0,
+      "WNS_ns": 0.575,
+      "seconds": 85.0,
+      "target_ns": 4,
+      "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+      "WHS_ns": 0.134,
+      "critical_period_estimate_ns": 3.425
+    },
+    {
+      "top": "top_neuron_current10",
+      "LUT": 216,
+      "FF": 46,
+      "DSP": 1,
+      "WNS_ns": -1.26,
+      "seconds": 93.6,
+      "target_ns": 4,
+      "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+      "build_note": "Reopened synthesis checkpoint after blank Vivado Synth 20-411 during opt_design; initial failure retained.",
+      "WHS_ns": 0.447,
+      "critical_period_estimate_ns": 5.26
+    }
+  ],
+  "metrics": {
+    "8": {
+      "dsp_lut_reduction_vs_fixed_current": 0.5,
+      "dsp_lut_increase_vs_lut": 0.3999999999999999,
+      "dsp_feedback_period_increase_vs_lut": 0.5041841004184098
+    },
+    "10": {
+      "dsp_lut_reduction_vs_fixed_current": 0.39814814814814814,
+      "dsp_lut_increase_vs_lut": 0.625,
+      "dsp_feedback_period_increase_vs_lut": 0.46627737226277377
+    }
+  }
+}

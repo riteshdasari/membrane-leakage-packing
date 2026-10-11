@@ -1,0 +1,251 @@
+{
+  "arithmetic_cases": 166560,
+  "arithmetic_failures": 0,
+  "rows": [
+    {
+      "seed": 0,
+      "saved_leak_shift": 1,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 9731,
+      "original_narrow_nonzero_groups": 64037,
+      "coherent_only_nonzero_groups": 35804,
+      "combined_narrow_nonzero_groups": 84532,
+      "original_ideal_issue_saving": 0.08002154334849115,
+      "combined_ideal_issue_saving": 0.10563238600082224
+    },
+    {
+      "seed": 0,
+      "saved_leak_shift": 1,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 11707,
+      "original_narrow_nonzero_groups": 137690,
+      "coherent_only_nonzero_groups": 50971,
+      "combined_narrow_nonzero_groups": 138569,
+      "original_ideal_issue_saving": 0.17334345521131939,
+      "combined_ideal_issue_saving": 0.17445006351352543
+    },
+    {
+      "seed": 0,
+      "saved_leak_shift": 3,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 9318,
+      "original_narrow_nonzero_groups": 106587,
+      "coherent_only_nonzero_groups": 61754,
+      "combined_narrow_nonzero_groups": 131240,
+      "original_ideal_issue_saving": 0.13298672715431087,
+      "combined_ideal_issue_saving": 0.1637458420983024
+    },
+    {
+      "seed": 0,
+      "saved_leak_shift": 3,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 9754,
+      "original_narrow_nonzero_groups": 114138,
+      "coherent_only_nonzero_groups": 60563,
+      "combined_narrow_nonzero_groups": 134126,
+      "original_ideal_issue_saving": 0.14264076243035925,
+      "combined_ideal_issue_saving": 0.16762020450449774
+    },
+    {
+      "seed": 0,
+      "saved_leak_shift": null,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 9731,
+      "original_narrow_nonzero_groups": 64037,
+      "coherent_only_nonzero_groups": 35804,
+      "combined_narrow_nonzero_groups": 84532,
+      "original_ideal_issue_saving": 0.08002154334849115,
+      "combined_ideal_issue_saving": 0.10563238600082224
+    },
+    {
+      "seed": 0,
+      "saved_leak_shift": null,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 11707,
+      "original_narrow_nonzero_groups": 137690,
+      "coherent_only_nonzero_groups": 50971,
+      "combined_narrow_nonzero_groups": 138569,
+      "original_ideal_issue_saving": 0.17334345521131939,
+      "combined_ideal_issue_saving": 0.17445006351352543
+    },
+    {
+      "seed": 1,
+      "saved_leak_shift": 1,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 8714,
+      "original_narrow_nonzero_groups": 61927,
+      "coherent_only_nonzero_groups": 39806,
+      "combined_narrow_nonzero_groups": 91529,
+      "original_ideal_issue_saving": 0.07709094258917612,
+      "combined_ideal_issue_saving": 0.1139415260588225
+    },
+    {
+      "seed": 1,
+      "saved_leak_shift": 1,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 12533,
+      "original_narrow_nonzero_groups": 152062,
+      "coherent_only_nonzero_groups": 56310,
+      "combined_narrow_nonzero_groups": 153285,
+      "original_ideal_issue_saving": 0.19203602743480067,
+      "combined_ideal_issue_saving": 0.1935805294244678
+    },
+    {
+      "seed": 1,
+      "saved_leak_shift": 3,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 8714,
+      "original_narrow_nonzero_groups": 61927,
+      "coherent_only_nonzero_groups": 39806,
+      "combined_narrow_nonzero_groups": 91529,
+      "original_ideal_issue_saving": 0.07709094258917612,
+      "combined_ideal_issue_saving": 0.1139415260588225
+    },
+    {
+      "seed": 1,
+      "saved_leak_shift": 3,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 12533,
+      "original_narrow_nonzero_groups": 152062,
+      "coherent_only_nonzero_groups": 56310,
+      "combined_narrow_nonzero_groups": 153285,
+      "original_ideal_issue_saving": 0.19203602743480067,
+      "combined_ideal_issue_saving": 0.1935805294244678
+    },
+    {
+      "seed": 1,
+      "saved_leak_shift": null,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 8714,
+      "original_narrow_nonzero_groups": 61927,
+      "coherent_only_nonzero_groups": 39806,
+      "combined_narrow_nonzero_groups": 91529,
+      "original_ideal_issue_saving": 0.07709094258917612,
+      "combined_ideal_issue_saving": 0.1139415260588225
+    },
+    {
+      "seed": 1,
+      "saved_leak_shift": null,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 12533,
+      "original_narrow_nonzero_groups": 152062,
+      "coherent_only_nonzero_groups": 56310,
+      "combined_narrow_nonzero_groups": 153285,
+      "original_ideal_issue_saving": 0.19203602743480067,
+      "combined_ideal_issue_saving": 0.1935805294244678
+    },
+    {
+      "seed": 2,
+      "saved_leak_shift": 1,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 8673,
+      "original_narrow_nonzero_groups": 62699,
+      "coherent_only_nonzero_groups": 46459,
+      "combined_narrow_nonzero_groups": 91992,
+      "original_ideal_issue_saving": 0.0780400313160846,
+      "combined_ideal_issue_saving": 0.1145003678021859
+    },
+    {
+      "seed": 2,
+      "saved_leak_shift": 1,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 14512,
+      "original_narrow_nonzero_groups": 148084,
+      "coherent_only_nonzero_groups": 62550,
+      "combined_narrow_nonzero_groups": 148974,
+      "original_ideal_issue_saving": 0.1884250493698976,
+      "combined_ideal_issue_saving": 0.1895575032064985
+    },
+    {
+      "seed": 2,
+      "saved_leak_shift": 3,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 8769,
+      "original_narrow_nonzero_groups": 91096,
+      "coherent_only_nonzero_groups": 79062,
+      "combined_narrow_nonzero_groups": 140373,
+      "original_ideal_issue_saving": 0.11342579622553176,
+      "combined_ideal_issue_saving": 0.17478176092876274
+    },
+    {
+      "seed": 2,
+      "saved_leak_shift": 3,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 10010,
+      "original_narrow_nonzero_groups": 98867,
+      "coherent_only_nonzero_groups": 76273,
+      "combined_narrow_nonzero_groups": 141502,
+      "original_ideal_issue_saving": 0.12367496028320887,
+      "combined_ideal_issue_saving": 0.1770080434320311
+    },
+    {
+      "seed": 2,
+      "saved_leak_shift": null,
+      "hard_reset": false,
+      "groups": 276480,
+      "zero_groups": 8769,
+      "original_narrow_nonzero_groups": 91096,
+      "coherent_only_nonzero_groups": 79062,
+      "combined_narrow_nonzero_groups": 140373,
+      "original_ideal_issue_saving": 0.11342579622553176,
+      "combined_ideal_issue_saving": 0.17478176092876274
+    },
+    {
+      "seed": 2,
+      "saved_leak_shift": null,
+      "hard_reset": true,
+      "groups": 276480,
+      "zero_groups": 10010,
+      "original_narrow_nonzero_groups": 98867,
+      "coherent_only_nonzero_groups": 76273,
+      "combined_narrow_nonzero_groups": 141502,
+      "original_ideal_issue_saving": 0.12367496028320887,
+      "combined_ideal_issue_saving": 0.1770080434320311
+    }
+  ],
+  "stress": [
+    {
+      "hard_reset": false,
+      "groups": 320,
+      "zero_groups": 2,
+      "original_narrow_nonzero_groups": 29,
+      "coherent_only_nonzero_groups": 156,
+      "combined_narrow_nonzero_groups": 165,
+      "original_ideal_issue_saving": 0.03039832285115304,
+      "combined_ideal_issue_saving": 0.17295597484276728
+    },
+    {
+      "hard_reset": true,
+      "groups": 320,
+      "zero_groups": 50,
+      "original_narrow_nonzero_groups": 21,
+      "coherent_only_nonzero_groups": 111,
+      "combined_narrow_nonzero_groups": 119,
+      "original_ideal_issue_saving": 0.025925925925925925,
+      "combined_ideal_issue_saving": 0.1469135802469136
+    }
+  ],
+  "formula": "Choose b=-16 for an int5 triple, else b=32*(U0//32) when all three upper parts agree. U=b+r, 0<=r<32; pack three delta*r products; exact floor correction uses one shared delta*b/256 quotient and a4-bit carry per lane.",
+  "limitations": [
+    "Arithmetic and opportunity screen only; no RTL, area, timing or overhead for the offset controller",
+    "Three full-range fixed residue packing with per-lane high corrections remains a necessary comparison",
+    "Correlated synthetic bursts have identical lanes in early phases; the larger stress opportunity is not evidence of natural-model burst acceleration",
+    "More eligible groups do not establish a net latency/resource gain"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "status": "technical_scope_review_pass_submission_preparation_supported",
+  "current_draft_sha256": "43820bbb5ceba8cda8cf24f25e4bd47b6be057b0c5d2cbda7f67d700113cd06f",
+  "current_draft_changed": true,
+  "historical_audit_snapshot_only": true,
+  "author_placeholder": "X",
+  "numbers": {
+    "GLIF": {
+      "adaptive_energy_pJ": 21.5994968,
+      "fixed_split_energy_pJ": 55.3083846,
+      "LUT_general_energy_pJ": 124.1983064,
+      "scalar1_energy_pJ": 24.6483755,
+      "scalar2_energy_pJ": 21.3710653,
+      "fixed_stream_issues": 42327032,
+      "adaptive_stream_issues": 42785698,
+      "scalar_stream_issues": 79246135
+    },
+    "OTTT": {
+      "adaptive_energy_pJ": 26.5796283,
+      "fixed_energy_pJ": 36.8075674,
+      "shift_energy_pJ": 13.657624
+    },
+    "E9": {
+      "core": {
+        "LUT": 375,
+        "FF": 82,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 114
+      },
+      "WNS_ns": 3.096,
+      "WHS_ns": 0.122,
+      "estimated_energy_pJ": 96.75809861043393,
+      "accepted_energy": true
+    }
+  },
+  "evidence_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_paper_draft.tex": "43820bbb5ceba8cda8cf24f25e4bd47b6be057b0c5d2cbda7f67d700113cd06f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\route12_a0\\hardware.json": "8d3446b3e352fbec3417910fbfdcf096110b86f9d4340fdbeb96a64b83cfcd06",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\independent_readiness_native_only_a0.json": "65ce121e9dde122defb248e67215aac203f60ab148d089760c3df337c3a06080",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\energy_energy_a0_golden_export_replay_power_progress.json": "5cb953d1ba6de128b4cdb2be69ad3928f2c024e17c09cb5f52b0494b7c5467d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\manuscript_scope_audit_v4.json": "f4f6d143d82dc6c1a6c1b1d09ca442942b3f5a16e82aad4de2d7af10538bf93e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\energy_recovery_a0_power_progress.json": "231ef1ec9f76e1537703f878d9387347c7e4b4d34c0daaaad904c234c0efca1a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\independent_readiness_full_a0.json": "b2d97d2dd5ce1c247b7f3c99f5997119790477384a99fe73cedf72cad9c3b78a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\power12_glif_mcm_energy_recovery_a0\\power_audit.json": "c113087665d700a9fdb5e370b35a93b2c7eba69d6b4489a8b66a1f1656e2b6e2"
+  },
+  "missing_submission_checks": [
+    "real author metadata",
+    "exported PDF font embedding/file size/visual check"
+  ],
+  "acceptance_established": false,
+  "worldwide_first_ever_established": false,
+  "builtin_latex_compile": {
+    "status": "success",
+    "compiler": "Codex desktop built-in LaTeX compiler",
+    "checked_at_utc": "2026-10-11T06:14:32.171193+00:00",
+    "source_sha256": "43820bbb5ceba8cda8cf24f25e4bd47b6be057b0c5d2cbda7f67d700113cd06f",
+    "four_technical_five_total_page_guards_passed": true,
+    "exported_pdf_fonts_size_visual_checked": false
+  }
+}

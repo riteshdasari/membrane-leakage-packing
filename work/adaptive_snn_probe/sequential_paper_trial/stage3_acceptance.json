@@ -1,0 +1,16 @@
+{
+  "status": "pass_and_proceed_to_RTL",
+  "source_pin_count": 11,
+  "samples": 64,
+  "all_logits_identical": true,
+  "raw_operations": 159383552,
+  "arithmetic_operations": 79246135,
+  "narrow9_fraction": 0.990188505723339,
+  "adaptive_issues": 42785698,
+  "fixed_split_issues": 42327032,
+  "issue_overhead_vs_fixed_split_fraction": 0.010836242900281734,
+  "decision_reason": "Only1.084% extra issues versus the strong one-DSP split control, while the candidate removes two high-part fabric products. A matched routed resource/energy experiment is justified. No win is assumed.",
+  "unfavorable_wide_bursts_retained": true,
+  "full_neuron_latency_measured": false,
+  "hardware_energy_measured": false
+}

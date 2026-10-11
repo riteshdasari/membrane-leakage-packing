@@ -1,0 +1,9 @@
+{
+  "status": "measured",
+  "samples": 64,
+  "elapsed_seconds": 17.687000000005355,
+  "class_disagreements": 0,
+  "max_logit_difference": 7.62939453125e-06,
+  "full_test_estimated_seconds": 2763.5937500008367,
+  "scope": "Batch-size and timing compatibility check, not an accuracy or hardware advantage"
+}

@@ -1,0 +1,214 @@
+{
+  "source_hashes": {
+    "guard_add.sv": "4d098563a894c15ad7852a022be722e71217b143a7624a478c2c5bd4f237af30",
+    "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+    "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+    "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+    "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+    "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+  },
+  "functional_check_sha256": {
+    "guard_add_main_0_checks.json": "28bc51c5f33f20c35e1481efc521a40f4f967c10fb3b72e4b1d98ad585cc7826",
+    "guard_add_main_1_checks.json": "40cb2caa58b8219b846bb4f5381a3bd0ecd528bf1d01f947a0bcc21a578adf0b",
+    "guard_add_models_0_checks.json": "81f0dd35f85398cb74de5cab863c84fe5b58ba1a2e5f27873e09986a5fc70749",
+    "guard_add_models_1_checks.json": "594d5d5eb383720f679e4315e405e0cdfc7d6285de45aab1d437a4f1e4a7f1ff",
+    "guard_add_snn_checks.json": "674bb39b06d60ed0b63b04955278970e5a118f182c4cc54c39427a0df7ad319a"
+  },
+  "artifact_hashes": {
+    "sources\\guard_add.sv": {
+      "bytes": 7521,
+      "sha256": "4d098563a894c15ad7852a022be722e71217b143a7624a478c2c5bd4f237af30"
+    },
+    "sources\\tb_guard_add.sv": {
+      "bytes": 5070,
+      "sha256": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351"
+    },
+    "sources\\check_guard_add.py": {
+      "bytes": 13644,
+      "sha256": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+    },
+    "sources\\check_guard_add_snn.py": {
+      "bytes": 5436,
+      "sha256": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb"
+    },
+    "sources\\guard_add_timing.sv": {
+      "bytes": 3150,
+      "sha256": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3"
+    },
+    "sources\\route_guard_add.tcl": {
+      "bytes": 6025,
+      "sha256": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2"
+    },
+    "sources\\run_guard_add_route.py": {
+      "bytes": 10992,
+      "sha256": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+    },
+    "results\\guard_add_main_0_checks.json": {
+      "bytes": 3141,
+      "sha256": "28bc51c5f33f20c35e1481efc521a40f4f967c10fb3b72e4b1d98ad585cc7826"
+    },
+    "results\\guard_add_main_0\\stream_stim.txt": {
+      "bytes": 7946699,
+      "sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7"
+    },
+    "results\\guard_add_main_0\\stream_out0.txt": {
+      "bytes": 7746362,
+      "sha256": "f163e08da86876f7c714df10d8069b5bf564e48ad9d60d13c6cfd0cfbb96bd86"
+    },
+    "results\\guard_add_main_0\\stream_out1.txt": {
+      "bytes": 12532218,
+      "sha256": "c20d31eb0fab21a47c2491ceed2c578389a140d811a7f0164fe6e1d799dd02af"
+    },
+    "results\\guard_add_main_0\\stream_out2.txt": {
+      "bytes": 6365494,
+      "sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    },
+    "results\\guard_add_main_0\\stream_out3.txt": {
+      "bytes": 6365494,
+      "sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    },
+    "results\\guard_add_main_0\\tool_0.log": {
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    "results\\guard_add_main_0\\tool_1.log": {
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    "results\\guard_add_main_0\\tool_2.log": {
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    "results\\guard_add_main_0\\tool_3.log": {
+      "bytes": 1385,
+      "sha256": "eefdd5268dc4412c59e7bfabd2c3437b4d5c2fb8312b7b8edd8d99150537d9f9"
+    },
+    "results\\guard_add_main_1_checks.json": {
+      "bytes": 3172,
+      "sha256": "40cb2caa58b8219b846bb4f5381a3bd0ecd528bf1d01f947a0bcc21a578adf0b"
+    },
+    "results\\guard_add_main_1\\stream_stim.txt": {
+      "bytes": 7946699,
+      "sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7"
+    },
+    "results\\guard_add_main_1\\stream_out0.txt": {
+      "bytes": 7806391,
+      "sha256": "e7373269b01c5d83ec352dc85c463a08cc07a426bbe1cc845eb1adaf1a0d4276"
+    },
+    "results\\guard_add_main_1\\stream_out1.txt": {
+      "bytes": 12592247,
+      "sha256": "de042dae819446abc61bb0cbb2b75fcde0d478a5ee9e12344c89a952f108b104"
+    },
+    "results\\guard_add_main_1\\stream_out2.txt": {
+      "bytes": 6425523,
+      "sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    "results\\guard_add_main_1\\stream_out3.txt": {
+      "bytes": 6425523,
+      "sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    "results\\guard_add_main_1\\tool_0.log": {
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    "results\\guard_add_main_1\\tool_1.log": {
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    "results\\guard_add_main_1\\tool_2.log": {
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    "results\\guard_add_main_1\\tool_3.log": {
+      "bytes": 1417,
+      "sha256": "f920f15b23790d698b5d5ffcd787168ca81258dec2e17840c16b2799bf03924c"
+    },
+    "results\\guard_add_models_0_checks.json": {
+      "bytes": 3372,
+      "sha256": "81f0dd35f85398cb74de5cab863c84fe5b58ba1a2e5f27873e09986a5fc70749"
+    },
+    "results\\guard_add_models_0\\stream_stim.txt": {
+      "bytes": 5783046,
+      "sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df"
+    },
+    "results\\guard_add_models_0\\stream_out0.txt": {
+      "bytes": 5320335,
+      "sha256": "31d6c57068b90548a5c5ab638d2789037411d190b1553d45382e92e13adbe78b"
+    },
+    "results\\guard_add_models_0\\stream_out1.txt": {
+      "bytes": 7419478,
+      "sha256": "0416adc1c24f6e14b7c3e5879dfc52e128e826ff46df110bdd1a2ef7e54bd197"
+    },
+    "results\\guard_add_models_0\\stream_out2.txt": {
+      "bytes": 5076984,
+      "sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac"
+    },
+    "results\\guard_add_models_0\\stream_out3.txt": {
+      "bytes": 5076984,
+      "sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac"
+    },
+    "results\\guard_add_models_0\\tool_0.log": {
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    "results\\guard_add_models_0\\tool_1.log": {
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    "results\\guard_add_models_0\\tool_2.log": {
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    "results\\guard_add_models_0\\tool_3.log": {
+      "bytes": 1382,
+      "sha256": "c3ac6ab042a0b8100231f0f718147a51457cdbe51ffb9964a253d9319346a34c"
+    },
+    "results\\guard_add_models_1_checks.json": {
+      "bytes": 3403,
+      "sha256": "594d5d5eb383720f679e4315e405e0cdfc7d6285de45aab1d437a4f1e4a7f1ff"
+    },
+    "results\\guard_add_models_1\\stream_stim.txt": {
+      "bytes": 5783046,
+      "sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df"
+    },
+    "results\\guard_add_models_1\\stream_out0.txt": {
+      "bytes": 5380364,
+      "sha256": "35a449ed67593cc295c6c36f2c29f439dd660d665244282d0770f2f6924ef875"
+    },
+    "results\\guard_add_models_1\\stream_out1.txt": {
+      "bytes": 7479507,
+      "sha256": "82421405295d16b17fbd9043121b64ea8bb304f0fa2c497c71ea1ddbc8ffe0f9"
+    },
+    "results\\guard_add_models_1\\stream_out2.txt": {
+      "bytes": 5137013,
+      "sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    "results\\guard_add_models_1\\stream_out3.txt": {
+      "bytes": 5137013,
+      "sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    "results\\guard_add_models_1\\tool_0.log": {
+      "bytes": 519,
+      "sha256": "218fc42ffb1068085b95390380b2aa6c6fa1c4314f34bed6d0d355417993a76f"
+    },
+    "results\\guard_add_models_1\\tool_1.log": {
+      "bytes": 157,
+      "sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+    },
+    "results\\guard_add_models_1\\tool_2.log": {
+      "bytes": 1163,
+      "sha256": "9f4a0264a18bbe6762c5751216fad46954d5fd67c7e738f7d5b5580be8c8741d"
+    },
+    "results\\guard_add_models_1\\tool_3.log": {
+      "bytes": 1414,
+      "sha256": "cc319187f22c1f3c6d429f0bc12f677754ed06e8c8fa94f00774aa47719afc4e"
+    },
+    "results\\guard_add_snn_checks.json": {
+      "bytes": 7161,
+      "sha256": "674bb39b06d60ed0b63b04955278970e5a118f182c4cc54c39427a0df7ad319a"
+    }
+  },
+  "routed": false,
+  "scope": "Original masked-input addition RTL verification snapshot; no hardware route"
+}

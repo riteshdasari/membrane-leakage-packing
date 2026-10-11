@@ -1,0 +1,126 @@
+{
+  "status": "full_evaluation_passed",
+  "runs": {
+    "cifar10_T6_n64_a2": {
+      "status": "passed",
+      "samples": 64,
+      "correct": {
+        "float": 60,
+        "integer": 60
+      },
+      "changed_predictions": 0,
+      "result_sha256": "6b0636ff334f21075742dcb0c2111b4a90fab6217e4ca1d5ae781c4dbe0e63e1",
+      "logits_sha256": "ef74bc4c8c4bb662cc0098f1a191a5e8881799b15acaae5795d03178929b14cb",
+      "packing_local_mismatches": 0,
+      "separate_integer_vs_packed_full_feedback": "passed; every state/spike and all logits",
+      "integer_vs_fp32_is_conversion": true,
+      "width_acceptance": {
+        "width": 16,
+        "old_operand_bounds_fit": true,
+        "every_post_reset_stored_state_bounds_fit": true,
+        "unsupported_old_layers": {},
+        "unsupported_post_reset_layers": {},
+        "post_reset_exception_count": 0,
+        "post_reset_count_derivation": "Global min/max covers every state in each forward, including zero leakage bypass. A bound violation is flagged unsupported; no count is invented."
+      },
+      "raw_updates": 157286400,
+      "nonzero_updates": 130823879,
+      "adaptive_issues": 101715765,
+      "fixed_two_lane_issues": 65412092,
+      "useful_nonzero_operations_per_adaptive_issue": 1.286171116149006,
+      "adaptive_issue_overhead_vs_fixed_two_lane_fraction": 0.5549994181503934,
+      "zero_DSP_exact_control": "ceil(U/2); shift and rounding bit",
+      "no_full_accelerator_performance_or_energy_claim": true
+    },
+    "profile16_a0": {
+      "status": "passed",
+      "samples": 16,
+      "correct": {
+        "float": 16,
+        "integer": 16
+      },
+      "changed_predictions": 0,
+      "result_sha256": "cb6c80d218c359bf14da663b7c7c3ec5ab7fdc8c3ce42dd30e42fff92d1d0298",
+      "logits_sha256": "f4bb3c35c554f49287764cdfeed5f88b489328e5d339b786ea23fcd2204752f5",
+      "packing_local_mismatches": 0,
+      "separate_integer_vs_packed_full_feedback": "64-image separate-execution evidence plus local scalar oracle on every full-run leakage result",
+      "integer_vs_fp32_is_conversion": true,
+      "width_acceptance": {
+        "width": 16,
+        "old_operand_bounds_fit": true,
+        "every_post_reset_stored_state_bounds_fit": true,
+        "unsupported_old_layers": {},
+        "unsupported_post_reset_layers": {},
+        "post_reset_exception_count": 0,
+        "post_reset_count_derivation": "Global min/max covers every state in each forward, including zero leakage bypass. A bound violation is flagged unsupported; no count is invented."
+      },
+      "raw_updates": 39321600,
+      "nonzero_updates": 32706585,
+      "adaptive_issues": 25520665,
+      "fixed_two_lane_issues": 16353317,
+      "useful_nonzero_operations_per_adaptive_issue": 1.2815726000870276,
+      "adaptive_issue_overhead_vs_fixed_two_lane_fraction": 0.5605803397561486,
+      "zero_DSP_exact_control": "ceil(U/2); shift and rounding bit",
+      "no_full_accelerator_performance_or_energy_claim": true
+    },
+    "cifar10_full10000_a0": {
+      "status": "passed",
+      "samples": 10000,
+      "correct": {
+        "float": 9349,
+        "integer": 9345
+      },
+      "changed_predictions": 104,
+      "result_sha256": "4bf8932895597cfb0b69736d130f21fabafe58610f916f1d16532076528f2f6d",
+      "logits_sha256": "c5a637fdfe9c599ad1d7a5fb12414d6cc33d1df4d7ea1a7004d6fd844b4f328f",
+      "packing_local_mismatches": 0,
+      "separate_integer_vs_packed_full_feedback": "64-image separate-execution evidence plus local scalar oracle on every full-run leakage result",
+      "integer_vs_fp32_is_conversion": true,
+      "width_acceptance": {
+        "width": 16,
+        "old_operand_bounds_fit": true,
+        "every_post_reset_stored_state_bounds_fit": true,
+        "unsupported_old_layers": {},
+        "unsupported_post_reset_layers": {},
+        "post_reset_exception_count": 0,
+        "post_reset_count_derivation": "Global min/max covers every state in each forward, including zero leakage bypass. A bound violation is flagged unsupported; no count is invented."
+      },
+      "raw_updates": 24576000000,
+      "nonzero_updates": 20440971113,
+      "adaptive_issues": 15836088695,
+      "fixed_two_lane_issues": 10220498016,
+      "useful_nonzero_operations_per_adaptive_issue": 1.2907840759602414,
+      "adaptive_issue_overhead_vs_fixed_two_lane_fraction": 0.5494439380751208,
+      "zero_DSP_exact_control": "ceil(U/2); shift and rounding bit",
+      "no_full_accelerator_performance_or_energy_claim": true
+    }
+  },
+  "public_mnist": {
+    "status": "downloaded_and_verified_only",
+    "inference_performed": false,
+    "files": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\mnist_public\\t10k-images-idx3-ubyte.gz",
+        "url": "https://storage.googleapis.com/cvdf-datasets/mnist/t10k-images-idx3-ubyte.gz",
+        "bytes": 1648877,
+        "md5": "9fb629c4189551a2d022fa330f9573f3",
+        "sha256": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6",
+        "count": 10000,
+        "idx_magic": 2051
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\mnist_public\\t10k-labels-idx1-ubyte.gz",
+        "url": "https://storage.googleapis.com/cvdf-datasets/mnist/t10k-labels-idx1-ubyte.gz",
+        "bytes": 4542,
+        "md5": "ec29112dd5afa0611ce80d1b7f02629c",
+        "sha256": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6",
+        "count": 10000,
+        "idx_magic": 2049
+      }
+    ]
+  },
+  "iir_admission": "excluded_from_actual_membrane_leakage_benchmark",
+  "source_manifest_sha256": "5a37fbcfdb1ddb0573b9dee9510673a7a23809dfc2d556984d4c31839ca6879c",
+  "audit_source_sha256": "7d1637e106557405c9d6b9ca3b9e89f82c0f59aba5656e515ca4b2736369cfdf",
+  "scope": "Exact packing preserves the declared integer neuron. Accuracy vs unmodified FP32 evaluates conversion, not packing; tau2 needs no DSP."
+}

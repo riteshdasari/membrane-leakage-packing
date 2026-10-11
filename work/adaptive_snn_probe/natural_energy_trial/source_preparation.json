@@ -1,0 +1,20 @@
+{
+  "status": "prepared",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\prepare.py": "7b8ec5eba52235d0d5fc6cd2774ff899f066c15c2c027ecb1e26399dc3863e5b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_route_replay.sv": "216de2c5d2d24a7806943e85e524f3502cbe0b4311001afe18bda7471a65fc0c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\export_u13.tcl": "bc005fed8ceab3ccd093fe4c733581d398e77d243e3690bc9901f16de3ad210e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\annotation_u13.tcl": "508bd3fe6bdc580256468480616df7839b9ce45d3b3f5106b2d8edce43c6dbd0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\audit_u13_power.py": "c483724c3e3aa0bb8bda54c3d72f0c0db7581efc2ea52b4c18f845a464d1fff5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\native_acceptance.json": "d56969dafe5851c82c372e1ea145924fe59d14e80295e74130b53c83eafb6430",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\hardware_acceptance.json": "4fbcbdb6df686b683cd43764b3f525be45c4c5e49e2b2b8ca1bfd691b05a52d5"
+  },
+  "generated_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\tb_replay.sv": "21e9fe31e0b80c4959ebf2571b70ef5a606c710699efecb97206f2dca31937fa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\export.tcl": "bc005fed8ceab3ccd093fe4c733581d398e77d243e3690bc9901f16de3ad210e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\power.tcl": "36826fb4037a568f822618327a9d5dd59bd1867395fabf713588f788e0a7a522",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\audit_power.py": "0e86b3785a9f0124419e7ffee9260d7dbd5aeb0414416ee95d321edf085a44ca",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\CONTRACT.md": "a26750a24acc19094b66ef9410bf3cf70f2db1ed2ba2816f8c453a8a13eb35ed"
+  },
+  "scope": "New width/fixture adapter only; no completed replay or energy claim."
+}

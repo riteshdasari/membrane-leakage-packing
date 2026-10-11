@@ -1,0 +1,9 @@
+{
+  "coefficient_high_cases": 128,
+  "mismatches": 0,
+  "policy_unchanged": true,
+  "notes": [
+    "Every delta0..31 and h=-2,-1,0,1; q_twoneg=-ceil(delta/4), q_neg=-ceil(delta/8)",
+    "All rounding tables are computed once per shared coefficient and selected by each membrane high part"
+  ]
+}

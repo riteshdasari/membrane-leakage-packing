@@ -1,0 +1,235 @@
+{
+  "source_hashes": {
+    "stream_fold_shared_leak.sv": "bfc89db097c197b96e2edc73308b829ee08a444a58d8f858645fe22bab96ffa4",
+    "tb_stream_fold_shared_leak.sv": "6c95f3c91357a132e98e87a6f296c3e8d8f002c40e79b8decdad6ba5e3b47641"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 9216,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 223472,
+      "neurons": 635904,
+      "arithmetic_issues": 216278,
+      "narrow_requests": 190377,
+      "bypass_requests": 7194,
+      "clocks": 223475,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 1,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304048,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 2,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304048,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 3,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216579,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 4,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216579,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 5,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216579,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 6,
+      "requests": 234697,
+      "neurons": 635904,
+      "arithmetic_issues": 227390,
+      "narrow_requests": 165423,
+      "bypass_requests": 7307,
+      "clocks": 234700,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ]
+}

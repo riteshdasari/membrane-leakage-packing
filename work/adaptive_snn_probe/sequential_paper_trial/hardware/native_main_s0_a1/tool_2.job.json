@@ -1,0 +1,40 @@
+{
+  "argv": [
+    "C:/AMDDesignTools/2025.2/Vivado/bin/xelab.bat",
+    "-mt",
+    "off",
+    "-debug",
+    "typical",
+    "-L",
+    "unisims_ver",
+    "tb_sequential_leak",
+    "glbl",
+    "-s",
+    "sim"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a1",
+  "returncode": 1,
+  "seconds": 16.05,
+  "free_GiB_at_start": 3.6578140258789062,
+  "sampled_min_free_GiB": 3.5507583618164062,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.1504058837890625,
+  "memory_samples": 16,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_core.sv": "a55839cc223ea88a859641686f409ef413c3be064463a11eef0915c9255e1bd7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\timing.sv": "3e4700e10943509a9d36bfa426e029457e782af893637684902053a4a4203769",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\route.tcl": "667095a793bb9d51b9003cec45e5f0f89e543af0bbf3cb13c9ae5c92f4d53600",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4.py": "b4b54a6b8cbca8cc59af4bb41dcaae5ede433e8353269f536cfff866f9ec8c53",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_acceptance.json": "908c60277bcc1eafd58e759634317b5bb2b2d98923adddf1a5285772a8cfca5a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\packed_leak.sv": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\route.tcl": "1ee16abe18029d9d809823e8d6a7895091b47b956d38d129011128795cf4f9f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\timing.sv": "bf7c4723bdbd8c4159f9aee43cfcade5cc30b656940a0bbf859336b6f00d05d1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_native_v2.py": "6145db40b5a94bf5e1a8830d33ec2347ed27cc578f876fbab2d1cf922f424440",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_actual_frames.txt": "343961fbf500e4aaaefc35bb4de0cd26d111303439bd2c43a4670605d344e0aa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_native_v2.sv": "58d18daa5ce200a491e07ed097df7b743a96c30aa5d6fc8036ed0d3f3dbe307c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a1\\stim.txt": "ffd0a55b81c1b421ea4a38260b6f9b9cfa4fd54d6aff7937f3e7309262532c97"
+  },
+  "log_sha256": "ab9f449386b0369bc02f6275ddd86a70dd7a0e42d1c7d7786124ee84774dbc9e"
+}

@@ -1,0 +1,56 @@
+{
+  "status": "incomplete_or_retained_control_failure",
+  "all14_verifier_invoked": true,
+  "selected_audit_returncode": 0,
+  "selected_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\selected_evidence_partitioned_all_a0.json",
+  "missing_all14": [
+    "glif/e2",
+    "ottt/e2"
+  ],
+  "retained_failures": [
+    {
+      "label": "GLIF_energy_e2",
+      "returncode": 2,
+      "seconds": 95.4818320274353,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_GLIF_energy_e2_glif_remaining_a0.log",
+      "log_sha256": "795fe6f33ea8914879297b2b712b2fc7bcd249f1f48fcd5d4a2f1a1ced3bb77a",
+      "acceptance_gates": [],
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 2))",
+      "accepted_energy": false
+    },
+    {
+      "label": "OTTT_energy_e2",
+      "returncode": 2,
+      "seconds": 78.57839870452881,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_OTTT_energy_e2_ottt_stress_a0.log",
+      "log_sha256": "2c508776e92bb5da6b2b82947025eea44501ba62439185e24b689e76bc920922",
+      "acceptance_gates": [],
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 2))",
+      "accepted_energy": false
+    }
+  ],
+  "accepted_control_count": 12,
+  "complete_all14_energy_claim": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\aggregate_energy_profiled_partitions.py": "20e659a0c036890671315e8a46896d8ca03b578de6f67911e6b948e1e08e9b80",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_source_checks.json": "d7cba80ad6172c565adbec0b2df5c9c0a66be7aa4e02eef5c77060a5bfccd0e3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_partitioned_all_a0_state0_snapshot.json": "144b114be845f8fec2b6bec7c3e32fdf9b8d833f2db521387c8da56d3e9a4de9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_partitioned_all_a0_state1_snapshot.json": "f4fc4dbeb84f6d20cd13f5ee02ae9bf56e6c3fe2c24890f9e3920f259fd7f68f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_partitioned_all_a0_state2_snapshot.json": "b35dd4bd49a9ee3442409cb683bf399cd1f02921a282554882de4cfd0e81f498",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\serial_to_partition_process_snapshot_a0.json": "338ff6f7159f7bc2f07e7c7a7ae83ae1738e104f8489c7cc8fb04522e2222668"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_power_map_partitioned_all_a0.json": "384977bc43752f5f2993140d4851e17dc192f68b95fd92855c0e6e2eac5456a2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_selected_audit_partitioned_all_a0.log": "a056efd4e3914eed440f11bd5036fec8bd0d78154b2f1ea68fdbef326d95279b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_partitioned_all_a0_state0_snapshot.json": "144b114be845f8fec2b6bec7c3e32fdf9b8d833f2db521387c8da56d3e9a4de9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_partitioned_all_a0_state1_snapshot.json": "f4fc4dbeb84f6d20cd13f5ee02ae9bf56e6c3fe2c24890f9e3920f259fd7f68f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_partitioned_all_a0_state2_snapshot.json": "b35dd4bd49a9ee3442409cb683bf399cd1f02921a282554882de4cfd0e81f498",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\selected_evidence_partitioned_all_a0.json": "56435dfb827096f0227dc64d6c2a626728f200f0ff3c10b7a557e311b7ba7a07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\selected_evidence_partitioned_all_a0.md": "b54768066cd0ce4a28db5c90056194869ee50644beffbcafe633cf398bbeb0a7"
+  },
+  "vendor_or_model_jobs_launched": false
+}

@@ -1,0 +1,30 @@
+{
+  "reason": "Superseded raw-input timing contract; preserve existing files and checkpoints, reroute under matched falling-edge stimulus",
+  "processes": [
+    {
+      "ProcessId": 4544,
+      "ParentProcessId": 14476,
+      "Name": "python.exe",
+      "CommandLine": "\"C:\\Users\\Ritesh\\rn_dps\\.venv\\Scripts\\python.exe\" -B work/adaptive_snn_probe/sequential_paper_trial/run_stage4_route.py"
+    },
+    {
+      "ProcessId": 31836,
+      "ParentProcessId": 4544,
+      "Name": "python.exe",
+      "CommandLine": "\"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python.exe\"  -B work/adaptive_snn_probe/sequential_paper_trial/run_stage4_route.py"
+    },
+    {
+      "ProcessId": 32920,
+      "ParentProcessId": 31836,
+      "Name": "cmd.exe",
+      "CommandLine": "C:\\WINDOWS\\system32\\cmd.exe /c \"\"C:/AMDDesignTools/2025.2/Vivado/bin/vivado.bat\" \"-mode\" \"batch\" \"-log\" \"vivado.log\" \"-journal\" \"vivado.jou\" \"-source\" \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/route.tcl\" \"-tclargs\" \"top_sequential_leak_e2\" \"6\" \"0026ff403cf11f1d0e1f2fe62a213df6b1a6acdf8037d6cb211864a2bc83a751\" \"fresh\" \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/route_e2_a0\"\""
+    },
+    {
+      "ProcessId": 27640,
+      "ParentProcessId": 32920,
+      "Name": "vivado.exe",
+      "CommandLine": "\"C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/vivado.exe\"   \"-mode\" \"batch\" \"-log\" \"vivado.log\" \"-journal\" \"vivado.jou\" \"-source\" \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/route.tcl\" \"-tclargs\" \"top_sequential_leak_e2\" \"6\" \"0026ff403cf11f1d0e1f2fe62a213df6b1a6acdf8037d6cb211864a2bc83a751\" \"fresh\" \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/route_e2_a0\""
+    }
+  ],
+  "time": "2026-10-10T19:21:18.2029144+05:30"
+}

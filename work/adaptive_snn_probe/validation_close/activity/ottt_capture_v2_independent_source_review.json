@@ -1,0 +1,61 @@
+{
+  "status": "pass_independent_second_capture_source_review",
+  "four_declared_replacements_only": true,
+  "exact_reverse_substitution_reproduces_first_source": true,
+  "all_prior_source_checkpoint_data_and_reference_pins_verified": true,
+  "prior_source_pin_count": 14,
+  "fixed_seed": 417839,
+  "target_scalar_operands": 262144,
+  "windows_per_nonzero_frame": 2,
+  "output_attempt": "ottt_random_stratified_a1",
+  "unchanged_distribution_gates": {
+    "weighted_beta_TV_at_most": 0.05,
+    "weighted_previous_spike_TV_at_most": 0.05,
+    "weighted_U_coarse_TV_at_most": 0.05,
+    "absolute_narrow9_fraction_difference_at_most": 0.01,
+    "layer_time_TV_at_most": 0.005,
+    "adaptive_fixed_issue_gap_difference_at_most": 0.01
+  },
+  "unchanged_checks": [
+    "All 64 logits equal the accepted plain integer and packed reference.",
+    "Every raw leakage/state/spike follows an independent scalar oracle and fixed signed16 bounds.",
+    "All complete arithmetic counts must equal the prior accepted 64-image execution.",
+    "Model source, checkpoint, images, beta128, unit256, T6, batch4 and two threads remain pinned.",
+    "Each selected window preserves original operand order; cross-window pairs remain disallowed.",
+    "All six representativeness limits, the fixed sample budget and deterministic per-frame seed are retained."
+  ],
+  "inference_launched": false,
+  "vendor_jobs_launched": false,
+  "representative_result_accepted": false,
+  "limitation": "The second sampling protocol follows a retained failed first protocol; it is not an independent statistical confidence claim. Fresh execution must still pass every original gate.",
+  "consumer_followup": "The original hardware consumer assumes eight windows and the v1 capture source pin. Use an additive v2 consumer with two-window weighting and explicit v1-to-v2 source admission; do not silently edit the frozen consumer.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\review_ottt_capture_protocol_v2.py": "3a2dd3da9e6304322c2b78c5e998f8c5838ec3aa3a6137a70041a46df58ed681",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\capture_ottt_representative.py": "8c10ea097f4345f6c167ad37817160b906e564eba3d5ead064a38bc785f4db5d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\capture_ottt_representative_v2.py": "eea73047b9cea3c49a73ead17c21ba4ab74a07935a5842e9e34580b990d8f082",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_capture_preparation_v2.json": "8ca6cfb5f98010e5805bf51e4e9d2796e4ff264dc91f2b87f8ad76b34b88bd69",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\results.json": "6df63c3f3724701e9fd778bd8cecf61ea77113fd11048a3dddb6da88c70c8129",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\window_boundary_diagnostic.json": "635df8c45cef3fc7df061da2320ed88887437e0eaa0b3257d78d3f8fe736446d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\run_ottt_v3.py": "395a8ae68c063dd09f8c589dde7de5519e40e755043d7e46c5668654f5d95efa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_integer_v3.py": "4f4d9e05b79893af72af8bca621b4e5e3371507bb8efd4ecbed796786d4767ae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_integer_v2.py": "e77052d271929affc5eb7f09307f1d13c22aab6178b127d8fb39363d645389dd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_contract.md": "3d16112e7cefc7f77a397b0b70abf495223e4faf25e39fac9950bc2c973a02ab",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_T6_n64_a2\\logits.npz": "ef74bc4c8c4bb662cc0098f1a191a5e8881799b15acaae5795d03178929b14cb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_T6_n64_a2\\results.json": "6b0636ff334f21075742dcb0c2111b4a90fab6217e4ca1d5ae781c4dbe0e63e1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_ottta.pth": "c66b1f886ae840d0e3fd969c3957bb929590fff305cc4d19b6d25e33170dd56f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test10000.npz": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_source\\models\\spiking_vgg.py": "924b8c748d3627c29dd3d5531f3f17ecc336dda72c4306d2dd66ecfda791c8d5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_source\\modules\\base.py": "539f6b137ec29f60418f315887ea1c311f1a75e7daf376691b1447caa6f2b2c3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_source\\modules\\configure.py": "796609bfd2f96bad1b71eff8a11c164ca5087945c732a431a23e08c82d9de7ea",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_source\\modules\\neuron.py": "df86572f5d4e1a53d686f89f23bd9eac8e8383adce4e847c5fb4df41f7e42525",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_source\\modules\\neuron_spikingjelly.py": "88dbcc7a5cbc4529d96d651717dd19c1fcd979745b8b7a063da9e6a2858ffbc5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\ottt_source\\modules\\surrogate.py": "8c2aaeb5adf069be176d1ba62a881c24d8f7b8f744bbcec5c57d9a1fe93a16d7"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\plan.json": "7c4d485b795b572b2afed9a140a289dd13c6e2045054c0a47e90dc7daef5d0a0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\representative_actual_frames.txt": "3cba6e40132ab944d0e854f07b84651b78c1c10125e95e0af3dad8fc36c7bbe6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\representative_stim.txt": "49e2ca349090eea51c0327689ddbecb13b99d5331df1b7791951ba842205ec2d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\activity_operands.npz": "bce0481e6d4f2ca26e64ecd89eb1a02cc2866e20156e2254f8e27d8a5dd1c542",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\activity_histograms.npz": "c6cdd39d8b3567b611e2cb7ef6556cdec9f8f31fc2e6a637a551c3a4695478fb"
+  }
+}

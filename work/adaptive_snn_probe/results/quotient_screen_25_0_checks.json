@@ -1,0 +1,16 @@
+{
+  "dc": 25,
+  "stalled": false,
+  "requests": 65536,
+  "comparisons": 196608,
+  "clocks": 65540,
+  "input_stalls": 0,
+  "output_stalls": 0,
+  "mismatches": 0,
+  "source_sha256": {
+    "quotient_screen.sv": "2031d374e88568d063af78d5ca327365363240fafa5984bd1c4db15d00566f4d",
+    "tb_quotient_screen.sv": "10ddc7c41f7940f44f547b226efa7617a134e94c25637d749d248c30c59fde27",
+    "screen_pipeline_quotients.py": "ce27dc959e5b201ad93074ce032c06eb25acd90b6c3b67038d82e4047a6d4ba4",
+    "screen_pipeline_quotients.tcl": "b604258be139e8cd266f5fa588adc5f81a6d5c6e5c4a6468ca41bc62acb40d24"
+  }
+}

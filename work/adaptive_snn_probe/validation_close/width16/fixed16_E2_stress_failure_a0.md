@@ -1,0 +1,9 @@
+The new full signed16 E2 OTTT stress attempt fails numerical delayed replay. Its complete golden replay, certified balanced SDF, original-DUT annotation and all compile/elaboration/simulation job receipts pass their checks. Timing checks remain enabled with slow/max delays and zero pulse limits; no warning or timing-violation lines are observed.
+
+At the first failure,row2175 at26258ns,the result data is006d4064 instead of006d0064. Decoded signed16 lanes are16484/109 instead of100/109: the low lane differs by+16384 while the other lane and every control field match. Recorded acceptance at row2173 supplies(U,beta)=(200,128) and(218,128), whose independently calculated ceiling leakage values are100 and109. The next failure at row2176 gives16483/74 instead of99/74, again+16384 in the low lane.
+
+The actual SAIF duration is26090001ps, short of the requested44100000ps. Tcl continues after the first fatal and prints the requested interval before a subsequent failing row; that printed constant does not prove complete capture. No full delayed-replay pass, replay acceptance receipt or power audit exists for this attempt. Its partial SAIF is rejected for energy.
+
+This records only the new fixed16 observation. Its exact simulator, internal-cell or physical cause remains unmeasured; no common cause with the historical signed12 error is inferred. All original exports, receipts and traces are preserved. The selected route and raw/derived SDF/Verilog certificates are hash-bound in the JSON report.
+
+Previously accepted primary comparisons retain their own gates, but the all14-controls gate cannot pass with this retained E2 failure. The separate GLIF E2 attempt remains outside this workload audit. Keep both statuses explicit in the final report; E7 acceptance does not repair or replace E2.

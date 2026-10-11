@@ -1,0 +1,166 @@
+{
+  "status": "completed_optimization_diagnostic",
+  "gates": {
+    "work_CARRY4_bound": true,
+    "one_full_annotation": true,
+    "annotation_not_ignored": true,
+    "no_elaboration_warning": true,
+    "no_runtime_timing_warning": true,
+    "delayed_canary_pass": true,
+    "snapshots_complete": true
+  },
+  "disable_simulator_optimizations": false,
+  "mask_ci": true,
+  "commands": [
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "-d",
+      "XIL_TIMING",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_ci_mask_/a0/CARRY4_vendor.v"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "-sv",
+      "-d",
+      "ENGINE_ID=2",
+      "-d",
+      "DUT_TOP=top_sequential_leak_e2",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/export12_e2_a0/routed.v",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_ci_mask_/a0/monitor_shadow.sv"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "C:/AMDDesignTools/2025.2/Vivado/data/verilog/src/glbl.v"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xelab.bat",
+      "-mt",
+      "off",
+      "-debug",
+      "all",
+      "-maxdelay",
+      "-sdfmax",
+      "tb_sequential_energy_replay=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_ci_mask_/a0/original_and_shadow_full.sdf",
+      "-transport_int_delays",
+      "-pulse_r",
+      "0",
+      "-pulse_int_r",
+      "0",
+      "-pulse_e",
+      "0",
+      "-pulse_int_e",
+      "0",
+      "-L",
+      "work",
+      "-L",
+      "simprims_ver",
+      "-L",
+      "secureip",
+      "-L",
+      "unisims_ver",
+      "tb_sequential_energy_replay",
+      "glbl",
+      "-s",
+      "sim"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xsim.bat",
+      "sim",
+      "-testplusarg",
+      "TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/native_actual_s0_a3/trace2.txt",
+      "-testplusarg",
+      "ROWS=17413",
+      "-testplusarg",
+      "ROI_FIRST=3",
+      "-testplusarg",
+      "ROI_LAST=17413",
+      "-tclbatch",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_ci_mask_/a0/run.tcl",
+      "-testplusarg",
+      "MASK_CI"
+    ]
+  ],
+  "observations": [
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11082.001 ROW913 ORIG_AGE7.038 SHADOW_AGE7.038 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q1",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11094.001 ROW914 ORIG_AGE6.761 SHADOW_AGE6.761 ORIG_S0 SHADOW_S0 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O0 EXPECT_O0 EXPECT_CO0 D0 Q1",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT after_last_glitch T11100.500 ROW914 ORIG_AGE1.260 SHADOW_AGE1.260 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT plus500ps T11101.000 ROW914 ORIG_AGE1.760 SHADOW_AGE1.760 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT before_capture T11105.999 ROW915 ORIG_AGE6.759 SHADOW_AGE6.759 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT after_capture T11106.001 ROW915 ORIG_AGE6.761 SHADOW_AGE6.761 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11106.001 ROW915 ORIG_AGE6.761 SHADOW_AGE6.761 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    }
+  ],
+  "bounded_conclusion": "The added diagnostic does not reproduce the settled original failure; possible observer/elaboration sensitivity remains unresolved.",
+  "replay_mismatches": [
+    {
+      "row": 2836,
+      "got": "6dfec486",
+      "expected": "6dfec086"
+    }
+  ],
+  "full_original_known_row_replay_pass": false,
+  "diagnostic_only": true,
+  "hardware_or_energy_acceptance": false,
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_0.log": "be74dc0bc0314e316e44b21a4ab8fb7cbc1554457c1d6d15c0429d47d1512aac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_1.log": "3aa5b544c81834f24767af6c8f702f6363cfcf74542e80886ec7710c43974b9a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_3.log": "ca137638ced0d706469aad63c7ea0107b048dbfbdbbdbabba92716f2230266fd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_4.log": "ae97ed509b1a7f831c0594d972fe5ecf697c1383715ce9f3e2e12cd9ae823b49"
+  }
+}

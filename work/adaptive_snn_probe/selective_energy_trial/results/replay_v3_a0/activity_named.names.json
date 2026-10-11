@@ -1,0 +1,784 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\activity.saif",
+  "source_sha256": "9c1c7097226f640cee4d3c3204183bf6420e284dd12648563aec1f01e0a3fc73",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\activity_named.saif",
+  "target_sha256": "51d25f97fd689f44569ae7c61578acb19f9753ea3f26c7619d4f0396cbb26e82",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 154,
+  "changes": [
+    {
+      "line": 765,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 890,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[0\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 891,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[1\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 892,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[2\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 893,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[3\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 894,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[4\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 895,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[5\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 897,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[0\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 898,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[1\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 899,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[2\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 900,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[3\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 901,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[4\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 902,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[5\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 904,
+      "old": "\\\\current8_metadata\\.sign_i2_reg_n_0_\\[0\\]\\",
+      "new": "current8_metadata\\.sign_i2_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 905,
+      "old": "\\\\current8_metadata\\.sign_i2_reg_n_0_\\[2\\]\\",
+      "new": "current8_metadata\\.sign_i2_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 906,
+      "old": "\\\\current8_metadata\\.sign_i2_reg_n_0_\\[3\\]\\",
+      "new": "current8_metadata\\.sign_i2_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 907,
+      "old": "\\\\current8_metadata\\.sign_i2_reg_n_0_\\[4\\]\\",
+      "new": "current8_metadata\\.sign_i2_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 908,
+      "old": "\\\\current8_metadata\\.sign_i2_reg_n_0_\\[5\\]\\",
+      "new": "current8_metadata\\.sign_i2_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1000,
+      "old": "\\\\high_u2_reg_n_0_\\[0\\]\\",
+      "new": "high_u2_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1001,
+      "old": "\\\\high_u2_reg_n_0_\\[10\\]\\",
+      "new": "high_u2_reg_n_0_\\[10\\]"
+    },
+    {
+      "line": 1002,
+      "old": "\\\\high_u2_reg_n_0_\\[11\\]\\",
+      "new": "high_u2_reg_n_0_\\[11\\]"
+    },
+    {
+      "line": 1003,
+      "old": "\\\\high_u2_reg_n_0_\\[12\\]\\",
+      "new": "high_u2_reg_n_0_\\[12\\]"
+    },
+    {
+      "line": 1004,
+      "old": "\\\\high_u2_reg_n_0_\\[13\\]\\",
+      "new": "high_u2_reg_n_0_\\[13\\]"
+    },
+    {
+      "line": 1005,
+      "old": "\\\\high_u2_reg_n_0_\\[14\\]\\",
+      "new": "high_u2_reg_n_0_\\[14\\]"
+    },
+    {
+      "line": 1006,
+      "old": "\\\\high_u2_reg_n_0_\\[15\\]\\",
+      "new": "high_u2_reg_n_0_\\[15\\]"
+    },
+    {
+      "line": 1007,
+      "old": "\\\\high_u2_reg_n_0_\\[16\\]\\",
+      "new": "high_u2_reg_n_0_\\[16\\]"
+    },
+    {
+      "line": 1008,
+      "old": "\\\\high_u2_reg_n_0_\\[17\\]\\",
+      "new": "high_u2_reg_n_0_\\[17\\]"
+    },
+    {
+      "line": 1009,
+      "old": "\\\\high_u2_reg_n_0_\\[18\\]\\",
+      "new": "high_u2_reg_n_0_\\[18\\]"
+    },
+    {
+      "line": 1010,
+      "old": "\\\\high_u2_reg_n_0_\\[19\\]\\",
+      "new": "high_u2_reg_n_0_\\[19\\]"
+    },
+    {
+      "line": 1011,
+      "old": "\\\\high_u2_reg_n_0_\\[1\\]\\",
+      "new": "high_u2_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1012,
+      "old": "\\\\high_u2_reg_n_0_\\[20\\]\\",
+      "new": "high_u2_reg_n_0_\\[20\\]"
+    },
+    {
+      "line": 1013,
+      "old": "\\\\high_u2_reg_n_0_\\[21\\]\\",
+      "new": "high_u2_reg_n_0_\\[21\\]"
+    },
+    {
+      "line": 1014,
+      "old": "\\\\high_u2_reg_n_0_\\[22\\]\\",
+      "new": "high_u2_reg_n_0_\\[22\\]"
+    },
+    {
+      "line": 1015,
+      "old": "\\\\high_u2_reg_n_0_\\[23\\]\\",
+      "new": "high_u2_reg_n_0_\\[23\\]"
+    },
+    {
+      "line": 1016,
+      "old": "\\\\high_u2_reg_n_0_\\[2\\]\\",
+      "new": "high_u2_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1017,
+      "old": "\\\\high_u2_reg_n_0_\\[3\\]\\",
+      "new": "high_u2_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1018,
+      "old": "\\\\high_u2_reg_n_0_\\[4\\]\\",
+      "new": "high_u2_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1019,
+      "old": "\\\\high_u2_reg_n_0_\\[5\\]\\",
+      "new": "high_u2_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1020,
+      "old": "\\\\high_u2_reg_n_0_\\[6\\]\\",
+      "new": "high_u2_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1021,
+      "old": "\\\\high_u2_reg_n_0_\\[7\\]\\",
+      "new": "high_u2_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1022,
+      "old": "\\\\high_u2_reg_n_0_\\[8\\]\\",
+      "new": "high_u2_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1023,
+      "old": "\\\\high_u2_reg_n_0_\\[9\\]\\",
+      "new": "high_u2_reg_n_0_\\[9\\]"
+    },
+    {
+      "line": 1101,
+      "old": "\\\\lane\\[0\\]\\.fast_small\\",
+      "new": "lane\\[0\\]\\.fast_small"
+    },
+    {
+      "line": 1102,
+      "old": "\\\\lane\\[0\\]\\.residue_carry\\",
+      "new": "lane\\[0\\]\\.residue_carry"
+    },
+    {
+      "line": 1106,
+      "old": "\\\\lane\\[1\\]\\.fast_small\\",
+      "new": "lane\\[1\\]\\.fast_small"
+    },
+    {
+      "line": 1107,
+      "old": "\\\\lane\\[1\\]\\.residue_carry\\",
+      "new": "lane\\[1\\]\\.residue_carry"
+    },
+    {
+      "line": 1111,
+      "old": "\\\\lane\\[2\\]\\.fast_small\\",
+      "new": "lane\\[2\\]\\.fast_small"
+    },
+    {
+      "line": 1112,
+      "old": "\\\\lane\\[2\\]\\.residue_carry\\",
+      "new": "lane\\[2\\]\\.residue_carry"
+    },
+    {
+      "line": 1116,
+      "old": "\\\\lane\\[3\\]\\.fast_small\\",
+      "new": "lane\\[3\\]\\.fast_small"
+    },
+    {
+      "line": 1117,
+      "old": "\\\\lane\\[3\\]\\.residue_carry\\",
+      "new": "lane\\[3\\]\\.residue_carry"
+    },
+    {
+      "line": 1121,
+      "old": "\\\\lane\\[4\\]\\.fast_small\\",
+      "new": "lane\\[4\\]\\.fast_small"
+    },
+    {
+      "line": 1122,
+      "old": "\\\\lane\\[4\\]\\.residue_carry\\",
+      "new": "lane\\[4\\]\\.residue_carry"
+    },
+    {
+      "line": 1126,
+      "old": "\\\\lane\\[5\\]\\.fast_small\\",
+      "new": "lane\\[5\\]\\.fast_small"
+    },
+    {
+      "line": 1127,
+      "old": "\\\\lane\\[5\\]\\.residue_carry\\",
+      "new": "lane\\[5\\]\\.residue_carry"
+    },
+    {
+      "line": 1137,
+      "old": "\\\\out_count\\[0\\]_i_1_n_0\\",
+      "new": "out_count\\[0\\]_i_1_n_0"
+    },
+    {
+      "line": 1138,
+      "old": "\\\\out_count\\[1\\]_i_1_n_0\\",
+      "new": "out_count\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1139,
+      "old": "\\\\out_count\\[2\\]_i_1_n_0\\",
+      "new": "out_count\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1140,
+      "old": "\\\\out_count\\[2\\]_i_2_n_0\\",
+      "new": "out_count\\[2\\]_i_2_n_0"
+    },
+    {
+      "line": 1217,
+      "old": "\\\\out_data\\[10\\]_i_1_n_0\\",
+      "new": "out_data\\[10\\]_i_1_n_0"
+    },
+    {
+      "line": 1218,
+      "old": "\\\\out_data\\[11\\]_i_1_n_0\\",
+      "new": "out_data\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1219,
+      "old": "\\\\out_data\\[11\\]_i_2_n_0\\",
+      "new": "out_data\\[11\\]_i_2_n_0"
+    },
+    {
+      "line": 1220,
+      "old": "\\\\out_data\\[12\\]_i_1_n_0\\",
+      "new": "out_data\\[12\\]_i_1_n_0"
+    },
+    {
+      "line": 1221,
+      "old": "\\\\out_data\\[13\\]_i_1_n_0\\",
+      "new": "out_data\\[13\\]_i_1_n_0"
+    },
+    {
+      "line": 1222,
+      "old": "\\\\out_data\\[14\\]_i_1_n_0\\",
+      "new": "out_data\\[14\\]_i_1_n_0"
+    },
+    {
+      "line": 1223,
+      "old": "\\\\out_data\\[15\\]_i_1_n_0\\",
+      "new": "out_data\\[15\\]_i_1_n_0"
+    },
+    {
+      "line": 1224,
+      "old": "\\\\out_data\\[16\\]_i_1_n_0\\",
+      "new": "out_data\\[16\\]_i_1_n_0"
+    },
+    {
+      "line": 1225,
+      "old": "\\\\out_data\\[17\\]_i_1_n_0\\",
+      "new": "out_data\\[17\\]_i_1_n_0"
+    },
+    {
+      "line": 1226,
+      "old": "\\\\out_data\\[18\\]_i_1_n_0\\",
+      "new": "out_data\\[18\\]_i_1_n_0"
+    },
+    {
+      "line": 1227,
+      "old": "\\\\out_data\\[19\\]_i_1_n_0\\",
+      "new": "out_data\\[19\\]_i_1_n_0"
+    },
+    {
+      "line": 1228,
+      "old": "\\\\out_data\\[20\\]_i_1_n_0\\",
+      "new": "out_data\\[20\\]_i_1_n_0"
+    },
+    {
+      "line": 1229,
+      "old": "\\\\out_data\\[21\\]_i_1_n_0\\",
+      "new": "out_data\\[21\\]_i_1_n_0"
+    },
+    {
+      "line": 1230,
+      "old": "\\\\out_data\\[22\\]_i_1_n_0\\",
+      "new": "out_data\\[22\\]_i_1_n_0"
+    },
+    {
+      "line": 1231,
+      "old": "\\\\out_data\\[23\\]_i_1_n_0\\",
+      "new": "out_data\\[23\\]_i_1_n_0"
+    },
+    {
+      "line": 1232,
+      "old": "\\\\out_data\\[23\\]_i_2_n_0\\",
+      "new": "out_data\\[23\\]_i_2_n_0"
+    },
+    {
+      "line": 1233,
+      "old": "\\\\out_data\\[23\\]_i_4_n_0\\",
+      "new": "out_data\\[23\\]_i_4_n_0"
+    },
+    {
+      "line": 1234,
+      "old": "\\\\out_data\\[24\\]_i_1_n_0\\",
+      "new": "out_data\\[24\\]_i_1_n_0"
+    },
+    {
+      "line": 1235,
+      "old": "\\\\out_data\\[25\\]_i_1_n_0\\",
+      "new": "out_data\\[25\\]_i_1_n_0"
+    },
+    {
+      "line": 1236,
+      "old": "\\\\out_data\\[26\\]_i_1_n_0\\",
+      "new": "out_data\\[26\\]_i_1_n_0"
+    },
+    {
+      "line": 1237,
+      "old": "\\\\out_data\\[27\\]_i_1_n_0\\",
+      "new": "out_data\\[27\\]_i_1_n_0"
+    },
+    {
+      "line": 1238,
+      "old": "\\\\out_data\\[28\\]_i_1_n_0\\",
+      "new": "out_data\\[28\\]_i_1_n_0"
+    },
+    {
+      "line": 1239,
+      "old": "\\\\out_data\\[29\\]_i_1_n_0\\",
+      "new": "out_data\\[29\\]_i_1_n_0"
+    },
+    {
+      "line": 1240,
+      "old": "\\\\out_data\\[30\\]_i_1_n_0\\",
+      "new": "out_data\\[30\\]_i_1_n_0"
+    },
+    {
+      "line": 1241,
+      "old": "\\\\out_data\\[31\\]_i_1_n_0\\",
+      "new": "out_data\\[31\\]_i_1_n_0"
+    },
+    {
+      "line": 1242,
+      "old": "\\\\out_data\\[32\\]_i_1_n_0\\",
+      "new": "out_data\\[32\\]_i_1_n_0"
+    },
+    {
+      "line": 1243,
+      "old": "\\\\out_data\\[33\\]_i_1_n_0\\",
+      "new": "out_data\\[33\\]_i_1_n_0"
+    },
+    {
+      "line": 1244,
+      "old": "\\\\out_data\\[34\\]_i_1_n_0\\",
+      "new": "out_data\\[34\\]_i_1_n_0"
+    },
+    {
+      "line": 1245,
+      "old": "\\\\out_data\\[35\\]_i_1_n_0\\",
+      "new": "out_data\\[35\\]_i_1_n_0"
+    },
+    {
+      "line": 1246,
+      "old": "\\\\out_data\\[35\\]_i_2_n_0\\",
+      "new": "out_data\\[35\\]_i_2_n_0"
+    },
+    {
+      "line": 1247,
+      "old": "\\\\out_data\\[35\\]_i_4_n_0\\",
+      "new": "out_data\\[35\\]_i_4_n_0"
+    },
+    {
+      "line": 1248,
+      "old": "\\\\out_data\\[36\\]_i_1_n_0\\",
+      "new": "out_data\\[36\\]_i_1_n_0"
+    },
+    {
+      "line": 1249,
+      "old": "\\\\out_data\\[37\\]_i_1_n_0\\",
+      "new": "out_data\\[37\\]_i_1_n_0"
+    },
+    {
+      "line": 1250,
+      "old": "\\\\out_data\\[38\\]_i_1_n_0\\",
+      "new": "out_data\\[38\\]_i_1_n_0"
+    },
+    {
+      "line": 1251,
+      "old": "\\\\out_data\\[39\\]_i_1_n_0\\",
+      "new": "out_data\\[39\\]_i_1_n_0"
+    },
+    {
+      "line": 1252,
+      "old": "\\\\out_data\\[40\\]_i_1_n_0\\",
+      "new": "out_data\\[40\\]_i_1_n_0"
+    },
+    {
+      "line": 1253,
+      "old": "\\\\out_data\\[41\\]_i_1_n_0\\",
+      "new": "out_data\\[41\\]_i_1_n_0"
+    },
+    {
+      "line": 1254,
+      "old": "\\\\out_data\\[42\\]_i_1_n_0\\",
+      "new": "out_data\\[42\\]_i_1_n_0"
+    },
+    {
+      "line": 1255,
+      "old": "\\\\out_data\\[43\\]_i_1_n_0\\",
+      "new": "out_data\\[43\\]_i_1_n_0"
+    },
+    {
+      "line": 1256,
+      "old": "\\\\out_data\\[44\\]_i_1_n_0\\",
+      "new": "out_data\\[44\\]_i_1_n_0"
+    },
+    {
+      "line": 1257,
+      "old": "\\\\out_data\\[45\\]_i_1_n_0\\",
+      "new": "out_data\\[45\\]_i_1_n_0"
+    },
+    {
+      "line": 1258,
+      "old": "\\\\out_data\\[46\\]_i_1_n_0\\",
+      "new": "out_data\\[46\\]_i_1_n_0"
+    },
+    {
+      "line": 1259,
+      "old": "\\\\out_data\\[47\\]_i_1_n_0\\",
+      "new": "out_data\\[47\\]_i_1_n_0"
+    },
+    {
+      "line": 1260,
+      "old": "\\\\out_data\\[47\\]_i_2_n_0\\",
+      "new": "out_data\\[47\\]_i_2_n_0"
+    },
+    {
+      "line": 1261,
+      "old": "\\\\out_data\\[47\\]_i_4_n_0\\",
+      "new": "out_data\\[47\\]_i_4_n_0"
+    },
+    {
+      "line": 1262,
+      "old": "\\\\out_data\\[48\\]_i_1_n_0\\",
+      "new": "out_data\\[48\\]_i_1_n_0"
+    },
+    {
+      "line": 1263,
+      "old": "\\\\out_data\\[49\\]_i_1_n_0\\",
+      "new": "out_data\\[49\\]_i_1_n_0"
+    },
+    {
+      "line": 1264,
+      "old": "\\\\out_data\\[50\\]_i_1_n_0\\",
+      "new": "out_data\\[50\\]_i_1_n_0"
+    },
+    {
+      "line": 1265,
+      "old": "\\\\out_data\\[51\\]_i_1_n_0\\",
+      "new": "out_data\\[51\\]_i_1_n_0"
+    },
+    {
+      "line": 1266,
+      "old": "\\\\out_data\\[52\\]_i_1_n_0\\",
+      "new": "out_data\\[52\\]_i_1_n_0"
+    },
+    {
+      "line": 1267,
+      "old": "\\\\out_data\\[53\\]_i_1_n_0\\",
+      "new": "out_data\\[53\\]_i_1_n_0"
+    },
+    {
+      "line": 1268,
+      "old": "\\\\out_data\\[54\\]_i_1_n_0\\",
+      "new": "out_data\\[54\\]_i_1_n_0"
+    },
+    {
+      "line": 1269,
+      "old": "\\\\out_data\\[55\\]_i_1_n_0\\",
+      "new": "out_data\\[55\\]_i_1_n_0"
+    },
+    {
+      "line": 1270,
+      "old": "\\\\out_data\\[56\\]_i_1_n_0\\",
+      "new": "out_data\\[56\\]_i_1_n_0"
+    },
+    {
+      "line": 1271,
+      "old": "\\\\out_data\\[57\\]_i_1_n_0\\",
+      "new": "out_data\\[57\\]_i_1_n_0"
+    },
+    {
+      "line": 1272,
+      "old": "\\\\out_data\\[58\\]_i_1_n_0\\",
+      "new": "out_data\\[58\\]_i_1_n_0"
+    },
+    {
+      "line": 1273,
+      "old": "\\\\out_data\\[59\\]_i_1_n_0\\",
+      "new": "out_data\\[59\\]_i_1_n_0"
+    },
+    {
+      "line": 1274,
+      "old": "\\\\out_data\\[59\\]_i_2_n_0\\",
+      "new": "out_data\\[59\\]_i_2_n_0"
+    },
+    {
+      "line": 1275,
+      "old": "\\\\out_data\\[59\\]_i_5_n_0\\",
+      "new": "out_data\\[59\\]_i_5_n_0"
+    },
+    {
+      "line": 1276,
+      "old": "\\\\out_data\\[59\\]_i_6_n_0\\",
+      "new": "out_data\\[59\\]_i_6_n_0"
+    },
+    {
+      "line": 1277,
+      "old": "\\\\out_data\\[59\\]_i_7_n_0\\",
+      "new": "out_data\\[59\\]_i_7_n_0"
+    },
+    {
+      "line": 1278,
+      "old": "\\\\out_data\\[60\\]_i_1_n_0\\",
+      "new": "out_data\\[60\\]_i_1_n_0"
+    },
+    {
+      "line": 1279,
+      "old": "\\\\out_data\\[61\\]_i_1_n_0\\",
+      "new": "out_data\\[61\\]_i_1_n_0"
+    },
+    {
+      "line": 1280,
+      "old": "\\\\out_data\\[62\\]_i_1_n_0\\",
+      "new": "out_data\\[62\\]_i_1_n_0"
+    },
+    {
+      "line": 1281,
+      "old": "\\\\out_data\\[63\\]_i_1_n_0\\",
+      "new": "out_data\\[63\\]_i_1_n_0"
+    },
+    {
+      "line": 1282,
+      "old": "\\\\out_data\\[64\\]_i_1_n_0\\",
+      "new": "out_data\\[64\\]_i_1_n_0"
+    },
+    {
+      "line": 1283,
+      "old": "\\\\out_data\\[65\\]_i_1_n_0\\",
+      "new": "out_data\\[65\\]_i_1_n_0"
+    },
+    {
+      "line": 1284,
+      "old": "\\\\out_data\\[66\\]_i_1_n_0\\",
+      "new": "out_data\\[66\\]_i_1_n_0"
+    },
+    {
+      "line": 1285,
+      "old": "\\\\out_data\\[66\\]_i_2_n_0\\",
+      "new": "out_data\\[66\\]_i_2_n_0"
+    },
+    {
+      "line": 1286,
+      "old": "\\\\out_data\\[67\\]_i_1_n_0\\",
+      "new": "out_data\\[67\\]_i_1_n_0"
+    },
+    {
+      "line": 1287,
+      "old": "\\\\out_data\\[67\\]_i_5_n_0\\",
+      "new": "out_data\\[67\\]_i_5_n_0"
+    },
+    {
+      "line": 1288,
+      "old": "\\\\out_data\\[67\\]_i_6_n_0\\",
+      "new": "out_data\\[67\\]_i_6_n_0"
+    },
+    {
+      "line": 1289,
+      "old": "\\\\out_data\\[68\\]_i_1_n_0\\",
+      "new": "out_data\\[68\\]_i_1_n_0"
+    },
+    {
+      "line": 1290,
+      "old": "\\\\out_data\\[69\\]_i_1_n_0\\",
+      "new": "out_data\\[69\\]_i_1_n_0"
+    },
+    {
+      "line": 1291,
+      "old": "\\\\out_data\\[70\\]_i_1_n_0\\",
+      "new": "out_data\\[70\\]_i_1_n_0"
+    },
+    {
+      "line": 1292,
+      "old": "\\\\out_data\\[70\\]_i_2_n_0\\",
+      "new": "out_data\\[70\\]_i_2_n_0"
+    },
+    {
+      "line": 1293,
+      "old": "\\\\out_data\\[71\\]_i_11_n_0\\",
+      "new": "out_data\\[71\\]_i_11_n_0"
+    },
+    {
+      "line": 1294,
+      "old": "\\\\out_data\\[71\\]_i_12_n_0\\",
+      "new": "out_data\\[71\\]_i_12_n_0"
+    },
+    {
+      "line": 1295,
+      "old": "\\\\out_data\\[71\\]_i_13_n_0\\",
+      "new": "out_data\\[71\\]_i_13_n_0"
+    },
+    {
+      "line": 1296,
+      "old": "\\\\out_data\\[71\\]_i_14_n_0\\",
+      "new": "out_data\\[71\\]_i_14_n_0"
+    },
+    {
+      "line": 1297,
+      "old": "\\\\out_data\\[71\\]_i_15_n_0\\",
+      "new": "out_data\\[71\\]_i_15_n_0"
+    },
+    {
+      "line": 1298,
+      "old": "\\\\out_data\\[71\\]_i_16_n_0\\",
+      "new": "out_data\\[71\\]_i_16_n_0"
+    },
+    {
+      "line": 1299,
+      "old": "\\\\out_data\\[71\\]_i_17_n_0\\",
+      "new": "out_data\\[71\\]_i_17_n_0"
+    },
+    {
+      "line": 1300,
+      "old": "\\\\out_data\\[71\\]_i_18_n_0\\",
+      "new": "out_data\\[71\\]_i_18_n_0"
+    },
+    {
+      "line": 1301,
+      "old": "\\\\out_data\\[71\\]_i_1_n_0\\",
+      "new": "out_data\\[71\\]_i_1_n_0"
+    },
+    {
+      "line": 1302,
+      "old": "\\\\out_data\\[71\\]_i_2_n_0\\",
+      "new": "out_data\\[71\\]_i_2_n_0"
+    },
+    {
+      "line": 1303,
+      "old": "\\\\out_data\\[71\\]_i_4_n_0\\",
+      "new": "out_data\\[71\\]_i_4_n_0"
+    },
+    {
+      "line": 1304,
+      "old": "\\\\out_data\\[71\\]_i_5_n_0\\",
+      "new": "out_data\\[71\\]_i_5_n_0"
+    },
+    {
+      "line": 1305,
+      "old": "\\\\out_data\\[7\\]_i_1_n_0\\",
+      "new": "out_data\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1306,
+      "old": "\\\\out_data\\[8\\]_i_1_n_0\\",
+      "new": "out_data\\[8\\]_i_1_n_0"
+    },
+    {
+      "line": 1307,
+      "old": "\\\\out_data\\[9\\]_i_1_n_0\\",
+      "new": "out_data\\[9\\]_i_1_n_0"
+    },
+    {
+      "line": 1322,
+      "old": "\\\\pending_mask_reg_n_0_\\[1\\]\\",
+      "new": "pending_mask_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1323,
+      "old": "\\\\pending_mask_reg_n_0_\\[2\\]\\",
+      "new": "pending_mask_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1324,
+      "old": "\\\\pending_mask_reg_n_0_\\[3\\]\\",
+      "new": "pending_mask_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1325,
+      "old": "\\\\pending_mask_reg_n_0_\\[4\\]\\",
+      "new": "pending_mask_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1326,
+      "old": "\\\\pending_mask_reg_n_0_\\[5\\]\\",
+      "new": "pending_mask_reg_n_0_\\[5\\]"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

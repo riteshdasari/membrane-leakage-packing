@@ -1,0 +1,249 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\activity.saif",
+  "source_sha256": "fb153fc9746e8a295c5b168bfa62037cdcb15748efeb44a0b4e962ff5aaf94f5",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\activity_named.saif",
+  "target_sha256": "9449893533ad5b1acddf37850aaaa009c709e68831b425daaba1b3b9a3fe0bbc",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 47,
+  "changes": [
+    {
+      "line": 765,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 874,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[0\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 875,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[1\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 876,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[2\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 877,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[3\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 878,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[4\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 879,
+      "old": "\\\\current8_metadata\\.sign_i0_reg_n_0_\\[5\\]\\",
+      "new": "current8_metadata\\.sign_i0_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 881,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[0\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 882,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[1\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 883,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[2\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 884,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[3\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 885,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[4\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 886,
+      "old": "\\\\current8_metadata\\.sign_i1_reg_n_0_\\[5\\]\\",
+      "new": "current8_metadata\\.sign_i1_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 888,
+      "old": "\\\\current8_metadata\\.sign_i2_reg_n_0_\\[0\\]\\",
+      "new": "current8_metadata\\.sign_i2_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1051,
+      "old": "\\\\lane\\[0\\]\\.residue_carry\\",
+      "new": "lane\\[0\\]\\.residue_carry"
+    },
+    {
+      "line": 1052,
+      "old": "\\\\lane\\[1\\]\\.hi50\\",
+      "new": "lane\\[1\\]\\.hi50"
+    },
+    {
+      "line": 1057,
+      "old": "\\\\lane\\[1\\]\\.residue_carry\\",
+      "new": "lane\\[1\\]\\.residue_carry"
+    },
+    {
+      "line": 1058,
+      "old": "\\\\lane\\[2\\]\\.hi50\\",
+      "new": "lane\\[2\\]\\.hi50"
+    },
+    {
+      "line": 1063,
+      "old": "\\\\lane\\[2\\]\\.residue_carry\\",
+      "new": "lane\\[2\\]\\.residue_carry"
+    },
+    {
+      "line": 1064,
+      "old": "\\\\lane\\[3\\]\\.hi50\\",
+      "new": "lane\\[3\\]\\.hi50"
+    },
+    {
+      "line": 1069,
+      "old": "\\\\lane\\[3\\]\\.residue_carry\\",
+      "new": "lane\\[3\\]\\.residue_carry"
+    },
+    {
+      "line": 1070,
+      "old": "\\\\lane\\[4\\]\\.hi50\\",
+      "new": "lane\\[4\\]\\.hi50"
+    },
+    {
+      "line": 1075,
+      "old": "\\\\lane\\[4\\]\\.residue_carry\\",
+      "new": "lane\\[4\\]\\.residue_carry"
+    },
+    {
+      "line": 1076,
+      "old": "\\\\lane\\[5\\]\\.hi50\\",
+      "new": "lane\\[5\\]\\.hi50"
+    },
+    {
+      "line": 1081,
+      "old": "\\\\lane\\[5\\]\\.residue_carry\\",
+      "new": "lane\\[5\\]\\.residue_carry"
+    },
+    {
+      "line": 1085,
+      "old": "\\\\out_count\\[0\\]_i_1_n_0\\",
+      "new": "out_count\\[0\\]_i_1_n_0"
+    },
+    {
+      "line": 1086,
+      "old": "\\\\out_count\\[1\\]_i_1_n_0\\",
+      "new": "out_count\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 1087,
+      "old": "\\\\out_count\\[2\\]_i_1_n_0\\",
+      "new": "out_count\\[2\\]_i_1_n_0"
+    },
+    {
+      "line": 1160,
+      "old": "\\\\out_data\\[11\\]_i_2_n_0\\",
+      "new": "out_data\\[11\\]_i_2_n_0"
+    },
+    {
+      "line": 1161,
+      "old": "\\\\out_data\\[11\\]_i_3_n_0\\",
+      "new": "out_data\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1162,
+      "old": "\\\\out_data\\[18\\]_i_1_n_0\\",
+      "new": "out_data\\[18\\]_i_1_n_0"
+    },
+    {
+      "line": 1163,
+      "old": "\\\\out_data\\[21\\]_i_2_n_0\\",
+      "new": "out_data\\[21\\]_i_2_n_0"
+    },
+    {
+      "line": 1164,
+      "old": "\\\\out_data\\[23\\]_i_2_n_0\\",
+      "new": "out_data\\[23\\]_i_2_n_0"
+    },
+    {
+      "line": 1165,
+      "old": "\\\\out_data\\[30\\]_i_1_n_0\\",
+      "new": "out_data\\[30\\]_i_1_n_0"
+    },
+    {
+      "line": 1166,
+      "old": "\\\\out_data\\[35\\]_i_2_n_0\\",
+      "new": "out_data\\[35\\]_i_2_n_0"
+    },
+    {
+      "line": 1167,
+      "old": "\\\\out_data\\[35\\]_i_3_n_0\\",
+      "new": "out_data\\[35\\]_i_3_n_0"
+    },
+    {
+      "line": 1168,
+      "old": "\\\\out_data\\[42\\]_i_1_n_0\\",
+      "new": "out_data\\[42\\]_i_1_n_0"
+    },
+    {
+      "line": 1169,
+      "old": "\\\\out_data\\[45\\]_i_2_n_0\\",
+      "new": "out_data\\[45\\]_i_2_n_0"
+    },
+    {
+      "line": 1170,
+      "old": "\\\\out_data\\[47\\]_i_2_n_0\\",
+      "new": "out_data\\[47\\]_i_2_n_0"
+    },
+    {
+      "line": 1171,
+      "old": "\\\\out_data\\[54\\]_i_1_n_0\\",
+      "new": "out_data\\[54\\]_i_1_n_0"
+    },
+    {
+      "line": 1172,
+      "old": "\\\\out_data\\[59\\]_i_2_n_0\\",
+      "new": "out_data\\[59\\]_i_2_n_0"
+    },
+    {
+      "line": 1173,
+      "old": "\\\\out_data\\[59\\]_i_3_n_0\\",
+      "new": "out_data\\[59\\]_i_3_n_0"
+    },
+    {
+      "line": 1174,
+      "old": "\\\\out_data\\[66\\]_i_1_n_0\\",
+      "new": "out_data\\[66\\]_i_1_n_0"
+    },
+    {
+      "line": 1175,
+      "old": "\\\\out_data\\[69\\]_i_2_n_0\\",
+      "new": "out_data\\[69\\]_i_2_n_0"
+    },
+    {
+      "line": 1176,
+      "old": "\\\\out_data\\[6\\]_i_1_n_0\\",
+      "new": "out_data\\[6\\]_i_1_n_0"
+    },
+    {
+      "line": 1177,
+      "old": "\\\\out_data\\[71\\]_i_1_n_0\\",
+      "new": "out_data\\[71\\]_i_1_n_0"
+    },
+    {
+      "line": 1178,
+      "old": "\\\\out_data\\[71\\]_i_3_n_0\\",
+      "new": "out_data\\[71\\]_i_3_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

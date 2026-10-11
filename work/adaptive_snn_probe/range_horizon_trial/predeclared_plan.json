@@ -1,0 +1,36 @@
+{
+  "status": "prepared",
+  "betas": [
+    128,
+    224,
+    231,
+    240,
+    248,
+    252,
+    254,
+    256
+  ],
+  "horizons": [
+    32,
+    128,
+    256
+  ],
+  "policies": [
+    "absolute_U8",
+    "shared_high_only",
+    "union_U8_shared_high"
+  ],
+  "threshold_source": "Saved shift3 per-seed thresholds; no retuning",
+  "equation": "U_leak=U-floor((256-beta)*U/256)=ceil(beta*U/256); S=U_leak+I; fire=(S>=theta); U_next=S-fire*theta",
+  "scope": "Other than beta224/T32, these are changed numerical benchmark variants, not unchanged original trained-model accuracy; one saved converted architecture, no retraining/download.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\screen.py": "240fd6f4a0241b7cadb2315c7cfb955a43c0c9f9d591787c72cc1c68869ceb0c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\probe.py": "0a8c8cb843594c1c0820c8a489eac95bec8ef62a7037b90d5eeaf28f9e1acc95",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\base.py": "9fbf1583b409f3c38e83251fbebaf1889b38c7861cc1cf8478d13d33ac809a7a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\final_selected.json": "84e94c7b54ec86cbd5d4022692f882d8f89154f71183be9b906c80da5c18a446",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\native_acceptance.json": "d56969dafe5851c82c372e1ea145924fe59d14e80295e74130b53c83eafb6430",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+  }
+}

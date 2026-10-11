@@ -1,0 +1,117 @@
+{
+  "source_hashes": {
+    "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+    "tb_guard_add_common.sv": "60fae68dd5e8c104ec70472d2ba6e8b894afcccd2371558ca69a4dc8f7189138",
+    "check_guard_add_common.py": "0489d08765f37f56664a415d7fbc3ee779a1156dcf12e08b49e7273d169278b7",
+    "check_guard_add_common_snn.py": "58acceea544554854b584568dcc820752ef42e50a81480961731b4f98caa89f3",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+  },
+  "backpressure": true,
+  "frames": 9216,
+  "rows": [
+    {
+      "variant": 0,
+      "reference_engine": 2,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "variant": 1,
+      "reference_engine": 3,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "variant": 2,
+      "reference_engine": 2,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "variant": 3,
+      "reference_engine": 3,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 0,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    }
+  ],
+  "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+  "stimulus_file": "common_models_1/stream_stim.txt",
+  "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_stim.txt",
+  "matched_original_stimulus": true,
+  "outputs_byte_identical": true,
+  "tested_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "expected_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "model_input_sha256": {
+    "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+    "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+  },
+  "model_input_base": "../results",
+  "validation_kind": "saved_model_addition_replay",
+  "source_contract": "valid and both entire raw six-value payloads held until acceptance; input valid low during reset",
+  "acceptance_to_handshake_advances": 4,
+  "integer_operation": "signed11 U + signed11 I -> exact signed12 sum",
+  "reference_variants": [
+    2,
+    3
+  ],
+  "reference_operation": "Retimed guard_add_retime E2/E3 instantiated directly in the testbench",
+  "retirement_columns": [
+    "frame",
+    "position",
+    "count",
+    "coefficient_placeholder0",
+    "out72_hex",
+    "acceptance_clock",
+    "retirement_clock",
+    "narrow_mode"
+  ],
+  "scope": "Fixed common-layout high-part correction equivalence; no memory, power, board or trained-accuracy claim"
+}

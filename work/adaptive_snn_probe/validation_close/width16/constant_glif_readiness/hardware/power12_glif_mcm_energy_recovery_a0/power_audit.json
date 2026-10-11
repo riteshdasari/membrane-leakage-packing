@@ -1,0 +1,139 @@
+{
+  "status": "pass",
+  "engine": 9,
+  "design_top": "top_sequential_leak16_glif_mcm",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\power12_glif_mcm_energy_recovery_a0",
+  "auditor_sha256": "6db1e41a3f0f833fac90ee9ca00aca53c5c0bdd15a998799ac2e252b494eee03",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 977,
+  "physical_activity_source_counts": {
+    "S": 1233,
+    "C": 3,
+    "D": 9
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 803,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 9,
+    "design_top": "top_sequential_leak16_glif_mcm",
+    "duration_ps": 1575984000,
+    "scalar_updates": 262528,
+    "requests": 131328,
+    "retirements": 131328,
+    "clock_transitions": 262664,
+    "raw_unknown_time_records": 803,
+    "scope": "Full captured runtime selected GLIF coefficients, fullsigned16 membranes, fixed independent pair consumption; every known pin row through golden and complete certified full-interconnect SDF replay; exact SAIF ROI"
+  },
+  "critical_dsp_activity": {},
+  "settled_constant_ffs": {
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.016118,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8080599999999996e-06,
+  "dynamic_energy_J": 2.5401710112e-05,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 96.75809861043393,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.01685708812408581,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.016118",
+      "iccq": "0.014842",
+      "power": "0.030959"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.544485"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 12,
+  "fixture_FF": 94,
+  "power_xpe_sha256": "48326fb85d19a9db6866314a194b4b85f848909ab162343fc7775ef453328793",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\route12_a0\\hardware.json",
+  "routed_hardware_sha256": "8d3446b3e352fbec3417910fbfdcf096110b86f9d4340fdbeb96a64b83cfcd06",
+  "core_resources": {
+    "LUT": 375,
+    "FF": 82,
+    "DSP": 0,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 114
+  },
+  "WNS_ns": 3.096,
+  "WHS_ns": 0.122,
+  "scope": "Vendor estimated dynamic energy of complete common 94-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error",
+  "certified_export_audit": {
+    "status": "pass_exact_derived_export_reproduction",
+    "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\export12_glif_mcm_energy_a0\\export_binding_certificate.json",
+    "export_binding_sha256": "ab4b1355d552d73766504f2bbb9f482cca68f6e27e645567cc7bd091fa4c0b22",
+    "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\export12_glif_mcm_energy_a0\\sdf_structure_certificate.json",
+    "SDF_structure_certificate_sha256": "e6412224df08ba1720f9bbe744cab2508461141dc0386b791fdfa8fd69ad8854",
+    "raw_SDF_sha256": "bb47570544f75a9eb64bd5cf895dca6bf954d40204b9e8d696d00752f99cacf3",
+    "derived_SDF_sha256": "7462bfcdce5d989ac3350e2e04da2d347faaeb9af3d7ead91e082953228f524f",
+    "appended_closing_parentheses": 3,
+    "numerical_timing_changes": 0,
+    "annotation_path_string_changes": 1,
+    "causal_discrepancy_resolution_claimed": false
+  }
+}

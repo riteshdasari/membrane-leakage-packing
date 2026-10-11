@@ -1,0 +1,38 @@
+{
+  "repository": "https://github.com/pkuxmq/OTTT-SNN",
+  "commit": "c15d5da05eea0c48e1fa837a4f8073297006d93f",
+  "downloaded_source_sha256": {
+    "ottt_source/datasets/augmentation.py": "8c5316d4efcc31ff84eefe651ada5fe93ec88b627e5cfc038e949a30b092ca00",
+    "ottt_source/datasets/cifar10_dvs.py": "3b4b1f115a4912422e5f11cd2460198718d646424ec095b9a3683e2abb352a0e",
+    "ottt_source/datasets/configure.py": "796609bfd2f96bad1b71eff8a11c164ca5087945c732a431a23e08c82d9de7ea",
+    "ottt_source/datasets/dataset_utils.py": "e115aa0fd49474d4e989909946bb00abcdc74e333ecfbc51293d6a18d488dab9",
+    "ottt_source/datasets/datasets.py": "0d319fbbc6391a623682d8d5bc6f246137d8d5a521eacde51e4dbc547a86ff12",
+    "ottt_source/get_rate_cifar.py": "347625115c9ef68a42d806744ac6e573d0d2008f20e17af7c7332873446fd1e7",
+    "ottt_source/get_rate_cifar10dvs.py": "198366a3437aa90a1d1cb94405f1e0c995679b9f3e97c150e0d45c2de4dca7c0",
+    "ottt_source/models/spiking_vgg.py": "924b8c748d3627c29dd3d5531f3f17ecc336dda72c4306d2dd66ecfda791c8d5",
+    "ottt_source/modules/base.py": "539f6b137ec29f60418f315887ea1c311f1a75e7daf376691b1447caa6f2b2c3",
+    "ottt_source/modules/configure.py": "796609bfd2f96bad1b71eff8a11c164ca5087945c732a431a23e08c82d9de7ea",
+    "ottt_source/modules/neuron.py": "df86572f5d4e1a53d686f89f23bd9eac8e8383adce4e847c5fb4df41f7e42525",
+    "ottt_source/modules/neuron_spikingjelly.py": "88dbcc7a5cbc4529d96d651717dd19c1fcd979745b8b7a063da9e6a2858ffbc5",
+    "ottt_source/modules/surrogate.py": "8c2aaeb5adf069be176d1ba62a881c24d8f7b8f744bbcec5c57d9a1fe93a16d7",
+    "ottt_source/train_cifar.py": "a7095aff90462f0c2bdeb0ec274e7697af76e403549a8a52f2e09fcee5c40968",
+    "ottt_source/train_cifar10dvs.py": "cd76fe4a724fdb925ae4be8db5bb6f19e7a727f0839bdc5096acc5d4e13bd86f"
+  },
+  "checkpoint": {
+    "official_readme_folder": "https://drive.google.com/drive/folders/1eDn3mVgfBHTLBfb--WawgA5Qms4oFbZ4",
+    "file_id": "1Zgp4UAaTKdbkQ2Xrff7G5DoCg7n2GHI0",
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_ottta.pth",
+    "sha256": "c66b1f886ae840d0e3fd969c3957bb929590fff305cc4d19b6d25e33170dd56f"
+  },
+  "original_model": "online_spiking_vgg11_ws, vanilla OnlineLIF, tau=2, T=6, threshold1 with >= firing, immediate subtractive reset",
+  "conversion": "FP32 synapses/readout; neuron currents RNE to unit1/256, ceil(U/2), threshold256, subtract256 reset; no retuning",
+  "dataset": {
+    "canonical_url": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+    "original_archive_sha256": "6d958be074577803d12ecdefd02955f39262c83c16fe9348329d7fe0b5c001ce",
+    "original_pixel_sha256": "f9b1e2130bab680db56eb06d886f7f1ad0f1183907ceff4659d1735c890f5b04",
+    "original_label_sha256": "cbb7365de8ed11f05cc4c3a1e7f78144127c5e851efd83762fb18202461230bb",
+    "npz_sha256": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+    "all10000_test_images_in_original_order": true,
+    "preview_pilot_rejected": true
+  }
+}

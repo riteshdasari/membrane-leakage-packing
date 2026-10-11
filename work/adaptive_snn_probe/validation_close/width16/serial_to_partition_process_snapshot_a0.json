@@ -1,0 +1,14 @@
+[
+  {
+    "ProcessId": 2692,
+    "ParentProcessId": 19912,
+    "Name": "python.exe",
+    "CommandLine": "\"C:\\Users\\Ritesh\\rn_dps\\.venv\\Scripts\\python.exe\" -B work/adaptive_snn_probe/validation_close/width16/run_energy_profiled_sequence.py --route-acceptance work/adaptive_snn_probe/validation_close/width16/route_resolved_acceptance_a1.json --e7-hardware work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/route12_e7_close_a0/hardware.json --e7-native-acceptance work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/native_actual_glif_s0_close_a0/acceptance.json --attempt profiled_all_a0 --reuse-child-progress work/adaptive_snn_probe/validation_close/width16/energy_recovery_glif_e5_recovery_a0_e5_progress.json --run"
+  },
+  {
+    "ProcessId": 28164,
+    "ParentProcessId": 2692,
+    "Name": "python.exe",
+    "CommandLine": "\"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python.exe\"  -B work/adaptive_snn_probe/validation_close/width16/run_energy_profiled_sequence.py --route-acceptance work/adaptive_snn_probe/validation_close/width16/route_resolved_acceptance_a1.json --e7-hardware work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/route12_e7_close_a0/hardware.json --e7-native-acceptance work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/native_actual_glif_s0_close_a0/acceptance.json --attempt profiled_all_a0 --reuse-child-progress work/adaptive_snn_probe/validation_close/width16/energy_recovery_glif_e5_recovery_a0_e5_progress.json --run"
+  }
+]

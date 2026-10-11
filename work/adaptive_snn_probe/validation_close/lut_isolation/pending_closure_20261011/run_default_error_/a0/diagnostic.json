@@ -1,0 +1,99 @@
+{
+  "status": "rejected_diagnostic",
+  "gates": {
+    "work_CARRY4_bound": true,
+    "one_full_annotation": true,
+    "annotation_not_ignored": true,
+    "no_elaboration_warning": true,
+    "no_runtime_timing_warning": true,
+    "delayed_canary_pass": true,
+    "snapshots_complete": false
+  },
+  "disable_simulator_optimizations": false,
+  "commands": [
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "-d",
+      "XIL_TIMING",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_default_error_/a0/CARRY4_vendor.v"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "-sv",
+      "-d",
+      "ENGINE_ID=2",
+      "-d",
+      "DUT_TOP=top_sequential_leak_e2",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/export12_e2_a0/routed.v",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_default_error_/a0/monitor_shadow.sv"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "C:/AMDDesignTools/2025.2/Vivado/data/verilog/src/glbl.v"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xelab.bat",
+      "-mt",
+      "off",
+      "-debug",
+      "all",
+      "-maxdelay",
+      "-sdfmax",
+      "tb_sequential_energy_replay=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_default_error_/a0/original_and_shadow_full.sdf",
+      "-transport_int_delays",
+      "-pulse_r",
+      "0",
+      "-pulse_int_r",
+      "0",
+      "-pulse_e",
+      "100",
+      "-pulse_int_e",
+      "100",
+      "-L",
+      "work",
+      "-L",
+      "simprims_ver",
+      "-L",
+      "secureip",
+      "-L",
+      "unisims_ver",
+      "tb_sequential_energy_replay",
+      "glbl",
+      "-s",
+      "sim"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xsim.bat",
+      "sim",
+      "-testplusarg",
+      "TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/native_actual_s0_a3/trace2.txt",
+      "-testplusarg",
+      "ROWS=17413",
+      "-testplusarg",
+      "ROI_FIRST=3",
+      "-testplusarg",
+      "ROI_LAST=17413",
+      "-tclbatch",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_default_error_/a0/run.tcl"
+    ]
+  ],
+  "observations": [],
+  "bounded_conclusion": "The added diagnostic does not reproduce the settled original failure; possible observer/elaboration sensitivity remains unresolved.",
+  "replay_mismatches": [
+    {
+      "row": 5,
+      "got": "6c0XxxX6",
+      "expected": "6c02e016"
+    }
+  ],
+  "full_original_known_row_replay_pass": false,
+  "diagnostic_only": true,
+  "hardware_or_energy_acceptance": false,
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_error_\\a0\\tool_0.log": "a3961ee78972067005f922f65cead5854d2e743bef842cd6bfebc9465afc01c1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_error_\\a0\\tool_1.log": "e16e89e4ca7e2d51e9915f1494c087aae9697ded9d28f00a26ebfae9f6228d85",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_error_\\a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_error_\\a0\\tool_3.log": "200340954d1483dac9c4662000e16f39c209c6f709bd79157e61c569d36a93d3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_error_\\a0\\tool_4.log": "066bd80eb3344fddbf1a1c0d0ad19f89880d81c55a2167cef8eaba355c303c1b"
+  }
+}

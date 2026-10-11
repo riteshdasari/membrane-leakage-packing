@@ -1,0 +1,79 @@
+{
+  "status": "pass",
+  "kind": "main",
+  "backpressure": true,
+  "rows": [
+    {
+      "status": "pass",
+      "engine": 2,
+      "requests": 264536,
+      "neurons": 2114496,
+      "service_clocks": 371414,
+      "retirements": 264536,
+      "input_stalls": 73398,
+      "output_stalls": 79865,
+      "group_drains": 8792,
+      "physical_latency_histogram": {
+        "1": 218614,
+        "4": 3536,
+        "3": 26871,
+        "2": 15515
+      },
+      "numeric_retirement_sha256": "ef49909badbf916b11ca686689d516930643563f2977ca9ac4cfcaaa6b6341a1",
+      "retirement_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\frontier_out2.txt",
+      "retirement_sha256": "7f7d579264152895183c62d00323c5f541577b1c2b4713df6a292b2a45c1c39e",
+      "reset_samples": 6,
+      "prelude_samples": 25,
+      "take_histogram": {
+        "1": 64,
+        "2": 64,
+        "3": 64,
+        "4": 64,
+        "5": 64,
+        "6": 64,
+        "7": 64,
+        "8": 264088
+      }
+    }
+  ],
+  "trace_columns": [
+    "idx",
+    "running",
+    "done",
+    "rst",
+    "in_valid",
+    "out_ready",
+    "available",
+    "U",
+    "I",
+    "in_ready",
+    "take",
+    "out_valid",
+    "out_count",
+    "out_data",
+    "narrow_mode",
+    "advance",
+    "accepted_thiscycle",
+    "retired_thiscycle"
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\verify_native.py": "78e0e792290ceb7db814bd9606f4ecc4c24b0ece928fb06ac1c99b2192ca1aa9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_preparation.json": "1400244cc548bb13380afb978e58a16ddf7859b34b22c7ed47d52f9b688e4a2d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13.sv": "ad17bb3cdbbc5a5a5182e2d37a647de153e28fcb3d43bc914d629c6499cac73b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\CONTRACT.md": "34e11d9065d734a417c66b18430b917c484390a4e3ad4abd60877077c6516808"
+  },
+  "candidate_file_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\stream_stim.txt": "d348df55b3058c3528f334fd89b6004516d33011eef833c9b106b837fe87de55",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\workload.json": "46cd3560192b254039eea7c160a0f28413d41b8759ca03905498648d19416b94",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\tool_3.log": "95fde7f7066617fcec746a3ffd7aa09b2ad3337b9f2e8c12c9d6e5dfa2785ff1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_lut_baseline_trial\\native_main_1_a0\\frontier_out2.txt": "7f7d579264152895183c62d00323c5f541577b1c2b4713df6a292b2a45c1c39e"
+  },
+  "clock_period_ns": 6,
+  "useful_scalar_updates": 2114496,
+  "exhaustive_scalar_pairs": 2097152,
+  "supply2_minimum_clocks": 1057376,
+  "scope": "Exact U13/I8 integer addition, ordered prefix, zero tails, reset, stalls and1advancingclock; actualIF state/spike/count feedback on originalfirst48images. No full-neuronhardware or board claim."
+}

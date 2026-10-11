@@ -1,0 +1,33 @@
+{
+  "name": "ou_um_thesis_detail",
+  "url": "https://libdigital.um.edu.mo/um-theses/show/991010450375306306?from=author",
+  "retrieved_utc": "2026-10-11T04:40:41.964606+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "http_status": 200,
+  "final_url": "https://libdigital.um.edu.mo/um-theses/show/991010450375306306?from=author",
+  "content_type": "text/html; charset=UTF-8",
+  "response_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_um_thesis_detail.response",
+  "sha256": "579833751541aa74f2d969d423889a042e636f8e8d520a3b11368db89008a876",
+  "bytes": 7295,
+  "kind": "HTML or API response; not assumed full paper",
+  "links": [
+    "https://www.um.edu.mo/",
+    "https://library.um.edu.mo/",
+    "/",
+    "https://libdigital.um.edu.mo/home",
+    "https://libdigital.um.edu.mo/um-theses/author",
+    "https://libdigital.um.edu.mo/um-theses/list/by-author?filter=Ou%2C%20Yao%20Zhong%2C",
+    "/um-theses/download/A8v%2B6%2B0HELoLLWYLUXLWFPcMlxGyHCzaQ7P29QBlI9Hbq3sOQiL7Qzhlo6zHmVm%2B9lNB8caMEsAXxH%2BHBRr3TGRtLXoglx8XqU8Avk5Fed%2F4T2GYQAt0d4ezPyJANIBf",
+    "https://umlibrary.primo.exlibrisgroup.com/permalink/853UOM_INST/1g8mu8o/alma991010450375306306"
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-81VP5816WT",
+    "/js/core/jquery.min.js",
+    "/js/core/popper.min.js",
+    "/js/core/bootstrap-material-design.min.js",
+    "/js/plugins/perfect-scrollbar.jquery.min.js",
+    "/js/material-dashboard.min.js?v=2.1.2",
+    "/js/app.js?id=7c7653238a4cf0980f9041c64df536bc"
+  ],
+  "extracted_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_um_thesis_detail.extracted.txt"
+}

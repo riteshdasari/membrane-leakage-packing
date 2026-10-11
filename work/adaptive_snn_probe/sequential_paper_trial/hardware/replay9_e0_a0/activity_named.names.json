@@ -1,0 +1,129 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\replay9_e0_a0\\activity.saif",
+  "source_sha256": "7d7a0e53788a58b0540f0f00ce075908b3a4997a46aee749f671bc56b0f11d78",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\replay9_e0_a0\\activity_named.saif",
+  "target_sha256": "da98f63520b17fa1170706ef085f98c2379ee6f85896b111ab9b0658489ef82c",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 23,
+  "changes": [
+    {
+      "line": 337,
+      "old": "\\\\a_q\\[10\\]_i_1_n_0\\",
+      "new": "a_q\\[10\\]_i_1_n_0"
+    },
+    {
+      "line": 338,
+      "old": "\\\\a_q\\[15\\]_i_1_n_0\\",
+      "new": "a_q\\[15\\]_i_1_n_0"
+    },
+    {
+      "line": 339,
+      "old": "\\\\a_q\\[9\\]_i_1_n_0\\",
+      "new": "a_q\\[9\\]_i_1_n_0"
+    },
+    {
+      "line": 372,
+      "old": "\\\\count1_reg_n_0_\\[0\\]\\",
+      "new": "count1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 373,
+      "old": "\\\\count1_reg_n_0_\\[1\\]\\",
+      "new": "count1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 374,
+      "old": "\\\\count2\\[0\\]_i_1_n_0\\",
+      "new": "count2\\[0\\]_i_1_n_0"
+    },
+    {
+      "line": 375,
+      "old": "\\\\count2\\[1\\]_i_1_n_0\\",
+      "new": "count2\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 404,
+      "old": "\\\\one_dsp\\.dsp_i_10_n_0\\",
+      "new": "one_dsp\\.dsp_i_10_n_0"
+    },
+    {
+      "line": 405,
+      "old": "\\\\one_dsp\\.dsp_i_11_n_0\\",
+      "new": "one_dsp\\.dsp_i_11_n_0"
+    },
+    {
+      "line": 406,
+      "old": "\\\\one_dsp\\.dsp_i_12_n_0\\",
+      "new": "one_dsp\\.dsp_i_12_n_0"
+    },
+    {
+      "line": 407,
+      "old": "\\\\one_dsp\\.dsp_i_1_n_0\\",
+      "new": "one_dsp\\.dsp_i_1_n_0"
+    },
+    {
+      "line": 408,
+      "old": "\\\\one_dsp\\.dsp_i_2_n_0\\",
+      "new": "one_dsp\\.dsp_i_2_n_0"
+    },
+    {
+      "line": 409,
+      "old": "\\\\one_dsp\\.dsp_i_3_n_0\\",
+      "new": "one_dsp\\.dsp_i_3_n_0"
+    },
+    {
+      "line": 410,
+      "old": "\\\\one_dsp\\.dsp_i_4_n_0\\",
+      "new": "one_dsp\\.dsp_i_4_n_0"
+    },
+    {
+      "line": 411,
+      "old": "\\\\one_dsp\\.dsp_i_5_n_0\\",
+      "new": "one_dsp\\.dsp_i_5_n_0"
+    },
+    {
+      "line": 412,
+      "old": "\\\\one_dsp\\.dsp_i_6_n_0\\",
+      "new": "one_dsp\\.dsp_i_6_n_0"
+    },
+    {
+      "line": 413,
+      "old": "\\\\one_dsp\\.dsp_i_7_n_0\\",
+      "new": "one_dsp\\.dsp_i_7_n_0"
+    },
+    {
+      "line": 414,
+      "old": "\\\\one_dsp\\.dsp_i_8_n_0\\",
+      "new": "one_dsp\\.dsp_i_8_n_0"
+    },
+    {
+      "line": 415,
+      "old": "\\\\one_dsp\\.dsp_i_9_n_0\\",
+      "new": "one_dsp\\.dsp_i_9_n_0"
+    },
+    {
+      "line": 497,
+      "old": "\\\\take\\[1\\]_INST_0_i_4_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_4_n_0"
+    },
+    {
+      "line": 498,
+      "old": "\\\\take\\[1\\]_INST_0_i_5_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_5_n_0"
+    },
+    {
+      "line": 499,
+      "old": "\\\\take\\[1\\]_INST_0_i_6_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_6_n_0"
+    },
+    {
+      "line": 500,
+      "old": "\\\\take\\[1\\]_INST_0_i_7_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_7_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

@@ -1,0 +1,69 @@
+{
+  "time_utc": "2026-10-10T23:44:19.6086679Z",
+  "processes": null,
+  "files": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\tool_3.log",
+      "length": 1977,
+      "last_write_utc": "2026-10-10T23:44:05.1372319Z",
+      "sha256": null,
+      "hash_status": "active_file_metadata_only_no_content_hash"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\activity.saif",
+      "length": 10347652,
+      "last_write_utc": "2026-10-10T23:43:23.2967155Z",
+      "sha256": null,
+      "hash_status": "active_file_metadata_only_no_content_hash"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\sim.wdb",
+      "length": 1594279,
+      "last_write_utc": "2026-10-10T23:44:05.1201933Z",
+      "sha256": null,
+      "hash_status": "active_file_metadata_only_no_content_hash"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\xsim.log",
+      "length": 2954,
+      "last_write_utc": "2026-10-10T23:44:05.1372319Z",
+      "sha256": null,
+      "hash_status": "active_file_metadata_only_no_content_hash"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\xsim.jou",
+      "length": 1612,
+      "last_write_utc": "2026-10-10T23:26:44.2436781Z",
+      "sha256": null,
+      "hash_status": "active_file_metadata_only_no_content_hash"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\activity.tcl",
+      "length": 261,
+      "last_write_utc": "2026-10-10T23:26:17.8692495Z",
+      "sha256": "f5939a36208da28839b670489c12729c6cff0bb3332afbbdb6c0dc867be6fd69",
+      "hash_status": "saved_source_content_hashed"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\provenance.json",
+      "length": 13569,
+      "last_write_utc": "2026-10-10T23:26:17.8833074Z",
+      "sha256": "e2cd0ce98b4490fe12868ad83ca41ca2923d214cc3316b655843ee1e16e2ade8",
+      "hash_status": "saved_source_content_hashed"
+    }
+  ],
+  "job_receipt_present": true,
+  "last_log_lines": [
+    "## puts \"FRONTIER_SAIF_CLOSED START_PS 167999 END_PS 1576151999 DURATION_PS 1575984000\"",
+    "FRONTIER_SAIF_CLOSED START_PS 167999 END_PS 1576151999 DURATION_PS 1575984000",
+    "## run 1574424001 ps",
+    "FRONTIER_ROUTE_REPLAY PASS E7 ROWS 262533 CHECKED 262533 VALID_ROWS 131328 TIME_NS 3150542.000",
+    "run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:41 . Memory (MB): peak = 216.695 ; gain = 0.000",
+    "## quit",
+    "INFO: xsimkernel Simulation Memory Usage: 1711424 KB (Peak: 1711424 KB), Simulation CPU Usage: 1013859 ms",
+    "INFO: [Common 17-206] Exiting xsim at Sun Oct 11 05:14:05 2026..."
+  ],
+  "read_only_running_job": true,
+  "process_control_performed": false,
+  "notes": "Process counters indicate activity, not simulated-time advancement. Active file metadata is sampled; buffered/locked contents are not a completion record."
+}

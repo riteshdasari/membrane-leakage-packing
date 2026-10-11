@@ -1,0 +1,71 @@
+{
+  "source_hashes": {
+    "stream_offset_leak.sv": "8fbdaa1616170939ca9c448636fb619277fecc06bcfb99104f07ac749591178b",
+    "tb_stream_offset_leak.sv": "88a13900e423f3d7995e0d3c49fe5a8a9086bdea619b7ab947de41e197c68dac"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 640,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 1582,
+      "neurons": 3840,
+      "arithmetic_issues": 1478,
+      "narrow_requests": 840,
+      "bypass_requests": 104,
+      "clocks": 1585,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 1868,
+      "neurons": 3840,
+      "arithmetic_issues": 1764,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1871,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 1868,
+      "neurons": 3840,
+      "arithmetic_issues": 1764,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1871,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1283,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1283,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 1814,
+      "neurons": 3840,
+      "arithmetic_issues": 1707,
+      "narrow_requests": 312,
+      "bypass_requests": 107,
+      "clocks": 1817,
+      "mismatches": 0
+    }
+  ]
+}

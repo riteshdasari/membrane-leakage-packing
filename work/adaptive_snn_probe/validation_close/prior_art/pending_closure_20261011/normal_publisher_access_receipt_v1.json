@@ -1,0 +1,15 @@
+{
+  "status": "normal_browser_publisher_access_checked_three_methods_still_unread",
+  "review_date_utc": "2026-10-11",
+  "mechanism": "Ordinary background in-app-browser navigation to each exact publisher document page, followed by visible accessibility-state inspection.",
+  "papers": [
+    {"id":"McKeown2008", "url":"https://ieeexplore.ieee.org/document/4671768", "doi":"10.1109/SIPS.2008.4671768", "publisher_title_verified":true, "PDF_access_help":"You do not have access to this PDF", "visible_reading_gate":"Sign in to Continue Reading", "scope":"Abstract, outline and first introduction paragraph; original method not read", "full_method_retrieved":false},
+    {"id":"Ou2024", "url":"https://ieeexplore.ieee.org/document/10472602", "doi":"10.1109/TCSII.2024.3377356", "publisher_title_verified":true, "PDF_access_help":"You do not have access to this PDF", "scope":"Abstract and bibliographic metadata only; original method not read", "full_method_retrieved":false},
+    {"id":"Cui2024", "url":"https://ieeexplore.ieee.org/document/11113473", "doi":"10.1109/ICFPT64416.2024.11113473", "publisher_title_verified":true, "PDF_access_help":"You do not have access to this PDF", "scope":"Abstract and bibliographic metadata only; original method not read", "full_method_retrieved":false}
+  ],
+  "login_attempted":false,
+  "purchase_attempted":false,
+  "access_controls_bypassed":false,
+  "necessary_next_input":"Authorized original PDFs or legitimate author manuscripts; abstract-only access cannot establish method equivalence.",
+  "first_ever_established":false
+}

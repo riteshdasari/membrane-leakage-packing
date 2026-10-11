@@ -1,0 +1,143 @@
+{
+  "status": "read_only_completion_snapshot_not_acceptance",
+  "utc": "2026-10-10T17:53:20.717507+00:00",
+  "B": 16,
+  "period_ns": 12,
+  "fixture_FF": 94,
+  "receipts": {
+    "arithmetic": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+        "exists": true,
+        "sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+        "saved_receipt_status": "pass_mathematics_and_stimulus_preparation_no_RTL_run"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\preparation_v2.json",
+        "exists": true,
+        "sha256": "becfde4b992cb54076d4e8468bdda7d9fc1ea37b59906bbec5a984fa9d8e8422",
+        "saved_receipt_status": "prepared_uncompiled_unrouted_v2"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_algebra.json",
+        "exists": true,
+        "sha256": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+        "saved_receipt_status": "pass"
+      }
+    ],
+    "model": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage2_acceptance.json",
+        "exists": true,
+        "sha256": "df8ee92d58f510ad9aee58c96cf2711fe88215a18c29d84a262414314c1ebb1c",
+        "saved_receipt_status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_results.json",
+        "exists": true,
+        "sha256": "d861823ebccd85d5a0b0ea7e2d37766b6c5a990f6ab552ba7add86285b092e2f",
+        "saved_receipt_status": "pass_exact_packed_feedback_and_stream_screen"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_T6_n64_a2\\results.json",
+        "exists": true,
+        "sha256": "6b0636ff334f21075742dcb0c2111b4a90fab6217e4ca1d5ae781c4dbe0e63e1",
+        "saved_receipt_status": "no_status_field"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_full10000_a0\\results.json",
+        "exists": true,
+        "sha256": "4bf8932895597cfb0b69736d130f21fabafe58610f916f1d16532076528f2f6d",
+        "saved_receipt_status": "no_status_field"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\benchmark_acceptance.json",
+        "exists": true,
+        "sha256": "3ddef7de9c71140284144200641187dbd4b8dc5566758cc77e2e693db1308c98",
+        "saved_receipt_status": "full_evaluation_passed"
+      }
+    ],
+    "representative_activity": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\acceptance.json",
+        "exists": true,
+        "sha256": "c25208b11d9ba1aa1853062761b8b69d2a97e8bef920ea7bac08fffdb6d811e2",
+        "saved_receipt_status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\representativeness_acceptance.json",
+        "exists": true,
+        "sha256": "3a8993e28a4ff0254f40d24b94306e5293eb4eb06df5a4e71891eac4bcfc121a",
+        "saved_receipt_status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\results.json",
+        "exists": false
+      }
+    ],
+    "routes": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json",
+        "exists": true,
+        "sha256": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+        "saved_receipt_status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+        "exists": true,
+        "sha256": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+        "saved_receipt_status": "pass"
+      }
+    ],
+    "E8": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json",
+        "exists": true,
+        "sha256": "5f42c2816f0277bcee10cc667b503a7763078562beb9ed1057cc5cbc72175d75",
+        "saved_receipt_status": "pass"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\cached_native_v2_gate.json",
+        "exists": true,
+        "sha256": "5b498065fc0dc89ecd7ea6108d1cc5dde5bd7121c53ce673947062c21e13bbdb",
+        "saved_receipt_status": "cached_native_v2_source_gate_pass"
+      }
+    ],
+    "separate_unresolved": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\isolation_audit.json",
+        "exists": true,
+        "sha256": "9e998eb16dbf2db5a28bde81ee09d0f02cabef818b65d451a0d0d82b1fcc0128",
+        "saved_receipt_status": "audit_complete_cause_localized_not_fully_resolved"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\equivalence_audit.json",
+        "exists": true,
+        "sha256": "d0dfefdf8269f880cf0a0455c623951009f048744d810f4466322aa85f1a8750",
+        "saved_receipt_status": "no_status_field"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\followup_manifest.json",
+        "exists": true,
+        "sha256": "9fa27cf2f9f8a273a01086d15f18cca0474cf34fb330b2ecdc950f0fe7585ed6",
+        "saved_receipt_status": "bounded_targeted_followup_complete_method_equivalence_not_closed"
+      }
+    ]
+  },
+  "fixed16_power_audits": [],
+  "missing_gates": [
+    "E8 pair stalled, scalar unstalled/stalled and selected route plus explicit closure audit",
+    "All matched fixed16 golden/SDF/physical-SAIF/power stages and explicit selected-evidence audit",
+    "True representative OTTT accepted capture and E5/E1/E6 matched energy",
+    "Full OTTT independent final verification and broader BNTT accepted experiment"
+  ],
+  "separate_limits": [
+    "Original E2 delayed numerical discrepancy remains separately unresolved",
+    "Four prior-work full-method access gaps preclude a first-ever equivalence claim"
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\snapshot_final_evidence_a0.py": "aae840ffb7f25fdfa1d30c89e68406b8004f2421be925cd5a20d8bba22049256",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\fixed16_final_evidence_checklist_a0.md": "6368088ea7cfd5b586bbe578e19869a0d3a9c0d76b063c045f5fbedb2a3776d6"
+  },
+  "scope": "Availability and saved status only, not a fresh verification of all referenced evidence. Progress records are not treated as final accuracy. No vendor/model job launched."
+}

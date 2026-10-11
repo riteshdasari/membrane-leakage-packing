@@ -1,0 +1,506 @@
+{
+  "status": "audited_signed12_optimization_and_connected_CI_intervention",
+  "matched_optimization_difference_only": "xelab --O0",
+  "optimization_disabled_first_failure_unchanged": true,
+  "matched_mask_difference_only": "xsim -testplusarg MASK_CI",
+  "exact_same_bench_SDF_vendor_trace_and_comparisons": true,
+  "mask_window_ns": [
+    11098,
+    11107
+  ],
+  "observed_target_S_port_and_S_in_sequences_identical": {
+    "S_port": {
+      "identical": true,
+      "event_count_each": 28,
+      "events": [
+        {
+          "time_ns": "11098.003",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.005",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.017",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.022",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.023",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.023",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.033",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.115",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.115",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.115",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.147",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.208",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.208",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.390",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.390",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.390",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.598",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.598",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.666",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.821",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.969",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.969",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        },
+        {
+          "time_ns": "11099.152",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11099.152",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11099.152",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11099.240",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11099.240",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11099.240",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        }
+      ]
+    },
+    "S_in": {
+      "identical": true,
+      "event_count_each": 28,
+      "events": [
+        {
+          "time_ns": "11098.003",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.005",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.017",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.022",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.023",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.023",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.033",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.115",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.115",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.115",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.147",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.208",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.208",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.390",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.390",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.390",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.598",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.598",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.666",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11098.821",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.969",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11098.969",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        },
+        {
+          "time_ns": "11099.152",
+          "row": 914,
+          "bit": 0,
+          "value": "0"
+        },
+        {
+          "time_ns": "11099.152",
+          "row": 914,
+          "bit": 1,
+          "value": "0"
+        },
+        {
+          "time_ns": "11099.152",
+          "row": 914,
+          "bit": 2,
+          "value": "0"
+        },
+        {
+          "time_ns": "11099.240",
+          "row": 914,
+          "bit": 0,
+          "value": "1"
+        },
+        {
+          "time_ns": "11099.240",
+          "row": 914,
+          "bit": 1,
+          "value": "1"
+        },
+        {
+          "time_ns": "11099.240",
+          "row": 914,
+          "bit": 2,
+          "value": "1"
+        }
+      ]
+    },
+    "DI_port": {
+      "identical": true,
+      "event_count_each": 0,
+      "events": []
+    }
+  },
+  "observed_DI_has_zero_transitions": true,
+  "observed_CI_port_and_internal_same_timestamp_pulse_removed": [
+    {
+      "time_ns": "11099.374",
+      "row": 914,
+      "bit": 0,
+      "value": "1"
+    },
+    {
+      "time_ns": "11099.374",
+      "row": 914,
+      "bit": 0,
+      "value": "0"
+    }
+  ],
+  "first_wrong_settled_O_and_row914_disappear_under_connected_CI_mask": true,
+  "later_first_failure_row": 2836,
+  "full_original_replay_pass": false,
+  "force_is_proven_pin_local": false,
+  "upstream_net_occurrences": [
+    {
+      "line": 280,
+      "text": "wire \\lut.lane[0].r_reg[8]_i_2_n_0 ;"
+    },
+    {
+      "line": 2265,
+      "text": "(.CI(\\lut.lane[0].r_reg[8]_i_2_n_0 ),"
+    },
+    {
+      "line": 2400,
+      "text": ".CO({\\lut.lane[0].r_reg[8]_i_2_n_0 ,\\NLW_lut.lane[0].r_reg[8]_i_2_CO_UNCONNECTED [2:0]}),"
+    }
+  ],
+  "port_net_collapse_caveat": "The forced CI is a wire connected to the upstream CARRY4 CO[3] and the live shadow CI. Force may propagate through collapsed nets or change path scheduling. This run did not independently log the upstream CO[3] signal; pin-local isolation is not established.",
+  "relevant_static_boundary": "The parent net is declared once and appears only as upstream CO[3] and target CI in the original netlist. CO[3] is excluded from the upstream model CO_fb={CO[2:0],CI}, but this does not prove simulator isolation of the force.",
+  "supported_causal_claim": "Suppressing the target CI-connected net in this window is sufficient to prevent the first settled output discrepancy and row914 failure, with identical observed S/DI events. This implicates the CI path/pulse treatment as the trigger within this diagnostic context; it does not uniquely identify a simulator event-region defect or prove physical FPGA correctness.",
+  "exact_pulse_necessary_cause_unconditionally_established": false,
+  "hardware_energy_acceptance": false,
+  "original_evidence_modified": false,
+  "vendor_jobs_launched": false,
+  "checked_hash_count": 97,
+  "evidence_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\diagnostic.json": "711fa5f8198af421285c0ed32ac4dbb649e76532a92d46f74184de5ecab24558",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_0.log": "6d390c1187eeb7fa73d74421dc1fbd0706932c30c894b91f5b6fb77c1ce0953a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_1.log": "82cf35443e1a543cc84ae48f02415ac711488c81313d01dd5d71660f6092de45",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_3.log": "2e5d4baaaf967ad9b60833f407d09f314ad93a14d29adaa59c78892463b11f6a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_4.log": "f7540dcd73ca09021d4b49efb4c85d047dd9b73a84a3198b8d50cd36bddad74b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\provenance.json": "bce8d341e133c94abf92eb307e571d4c955e58d74c65aeca3703535c1192bc4a",
+    "C:\\AMDDesignTools\\2025.2\\data\\verilog\\src\\glbl.v": "6270251cf35e1fce3119fc79f8fb968912f7983027e43cf030409ba68f048936",
+    "C:\\AMDDesignTools\\2025.2\\data\\verilog\\src\\unisims\\CARRY4.v": "a9fbbf068a2f99d44b6293053c526a2af9efd9ce42c8ef5ddde2a897194d413e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.sdf": "9b025cf32a05e1cbc9845d5a9f03ae7631c9197eb2f1f37b6136bc10dfcfe2a5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.v": "193072bebe51a9dc6c9af342acbba155de1378d2bb49a3824f8e693ee8fe6712",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_actual_s0_a3\\trace2.txt": "000f7f466713ac6f020ab468be3b1f4c20553a68451dd3713e738d2adae86785",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\create_eof_only_sdf_derivative.py": "028efcbb3cd68fa97eaab8d64f5f73eae64a0ae66301921e430fde26ab4f2908",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\original_EOF_only_balanced.sdf": "6a34876158946305a87bfb4fa5694b4c00463e047b4431b4defdb842f1d9db1a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\original_sdf_EOF_only_certificate.json": "74a5c8ebbf31bebc0fa7cc7ca43b96fc39e63cc97a0f2877a040975295ab07ba",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\CARRY4_vendor.v": "a9fbbf068a2f99d44b6293053c526a2af9efd9ce42c8ef5ddde2a897194d413e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\monitor_shadow.sv": "10f9cf811514ac013a63f9ebe10ff1700fb412375a8eaad5499f1a43dcd99d4b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\original_and_shadow_full.sdf": "176e6b863f6a28c5c9d279fef28a7ddf092dbd312b93680d4817778cf8fc03d9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\run.tcl": "503ca0d0ca78d6613828dae63abed8f78294a559bd087b12bfbb64489535e951",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_optimization_control.py": "d42e1bc0d56e88e0bb19afa6093effcfd85d02cdb9b1cfd1ffd1dd4b43cc5d49",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\prepare_shadow_context_v5.py": "e102f3578e2907dfabb33b4f00af433b762deb65614daec84883d76a66dc98e3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_shadow_context_v3.py": "17c75844d710702f33cfecc3ffeb2b18717f39707fa6f5ba13bc7672abae90b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_shadow_context_v5.py": "d3ad9c973b22a598f70ca4cbed0929a735bab00c474eb29e1a3939e012ffdaad",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\sdf_structure_audit_v1.py": "8762e602e4cc932058548e451b3fd2e6de795386f17c3440655867d754927302",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v1\\run_a0\\diagnostic.json": "480d4db2ef7e103a29ecb3d03d3a652b1687b8ebbbdb10367c008672cd7417c6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v1\\run_a0\\tool_3.log": "9918e68c3ae2b33abafd20b5da6b21c779f0998228b3bc4722265a390c28048e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v1\\run_a0\\tool_4.log": "1ba681fed4addc4c6b62a63784600540ad57227d1b7e6d2f4f52acb80316edde",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\monitor_shadow.sv": "c87528d698d3f15b33d2635914323a6dbd2aff72e384801dc7014b42463ddf7a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\preparation.json": "92521d4b81aaab8397e1c69f4f166d6bd31cec705e6fb9400d30f83138fdec34",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_a0\\diagnostic.json": "f2982a9615e3e109707bd49d281e2287a17d70e2f809c521bb46f114eae1ad98",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_a0\\tool_3.log": "9918e68c3ae2b33abafd20b5da6b21c779f0998228b3bc4722265a390c28048e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_a0\\tool_4.log": "99f8554363317767863e88b07bb3d2aac35db4d90127b197298c6bf88caae565",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\diagnostic.json": "7d8c349ecfee7c2741af19fbe0e2340be492895e08226d0fb75e651d647f4f38",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\tool_3.log": "bf399c66fee47e1e91f41b15fac00b4bc51295ae4710337d62a48e734c51d326",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\run_cli_zero_a0\\tool_4.log": "3c98982d2ec55c94dea1a57455b3e4ad84d9870d4312db426111faa2f2a38be0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v2\\shadow_paths.sdf": "914510fef6e625cb4f988581acbb0558d72e5c29831da80727ca1343cfa8a3c2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\preparation.json": "80476e4fb4d2e7e01b96087ae26325252f968f597bd2079488a14961a4f14331",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\verify_eof_only_sdf_derivative_v1.py": "4f32cac218f4eb523093200ababec59e47a9ca5e2dac3568af4a80dbae8e4f07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_0.job.json": "9161fff2af4fe34df62734ffa1fbb6b802d5f7059aaa02352fc26dbb7f441447",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_1.job.json": "6eaa1b8814460718eeecd95eb0391e3488acddf1a48121d97649f8afd1b04bc8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_2.job.json": "70efea38ab56115fefb7d237e9e63e89d18f4a686a67d6da1601522c06cd29a8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_3.job.json": "6c702446b5e402c12d297cedf17e9d5c4d3b26d9045e8e7a79913803bbef7092",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_default_\\a0\\tool_4.job.json": "c352e3e1a9f0be2a68da961a6b116202ac80c137484b23b8180d81a7be21c8e0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\diagnostic.json": "38c4672ea6073d309dacd8c24f45720751a2453ab2c6e3caac99d35d0ba1b906",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_0.log": "942ee91747cd0167758d3ac1922868acae52f1451d77a3a58a3371111585023c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_1.log": "153c957eb4e93e148e342860fd7fdb3fd6900d5c13350b96d38548eece3fc534",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_3.log": "da98993ad59f75fd1e8a533c7a2dee6311c7edac55f12a17336e6dbcb8ca3321",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_4.log": "265d81cfd032826e8f621a81c041be96310e06a5ac7a78a8c3bf3b8d7ca426fe",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\provenance.json": "4ecc9e56fb35eb006322cef675169596b95463a0236fd98b1ab373c598674977",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\CARRY4_vendor.v": "a9fbbf068a2f99d44b6293053c526a2af9efd9ce42c8ef5ddde2a897194d413e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\monitor_shadow.sv": "10f9cf811514ac013a63f9ebe10ff1700fb412375a8eaad5499f1a43dcd99d4b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\original_and_shadow_full.sdf": "176e6b863f6a28c5c9d279fef28a7ddf092dbd312b93680d4817778cf8fc03d9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\run.tcl": "503ca0d0ca78d6613828dae63abed8f78294a559bd087b12bfbb64489535e951",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_0.job.json": "4c5538b8db367cc622863c50ea8ba66fc2c034aa7969c508c8563e1f2c4f28e7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_1.job.json": "a6ace08237f439bdef2fd11045632ecdee902789e746eef9173042add708baae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_2.job.json": "c1af857e4d54ad5a8a23865e58cd239b99b7817d666ec8e1c89883ca353a77d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_3.job.json": "4c801aa7e0d589344ad464b0b687f473e04769c66d241c2646e8152b59582a47",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_o0_\\a0\\tool_4.job.json": "0e6184a86a9e909e1be8485ddf9617bf4d6957a031bd886d8d7f160c0e33b982",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\diagnostic.json": "092dcf1476a685d76044356c96a5325df96e03386957cfb2128e5238d5e53759",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_0.log": "dd5f106e4455a93f4d131c3c0e7c33acd723ca2390289eaeb4c5a2cc663af538",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_1.log": "1e91309b2e915217b8758718a484ec95ee90c4e79e172b8c8bff595a5817cedd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_3.log": "73107ad3b19cb7407990ba68cab851ad322a221a67f79b94a963ac46d9b361d9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_4.log": "869e8ccc5cf0e0eddd866f24545cd89b2f6fe772101634fe5700064558c88ab2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\provenance.json": "d38c50b7db72b59d668867dfc972e5fdae2972785563d74a0a165696a1a7ca9b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\ci_control_prepared\\preparation.json": "9ac5bb9211e26427aa41e030c0d964cf888b50b5434682650ee2aca2b42ee9e2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\prepare_ci_control.py": "62018dc81e0f0ec33fa3b82df32bd2e8273c17477ba60238cecf5a65d03a6ef2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_control.py": "422957d8fde3a6061e5d9ec55a5803bec1c47e7157dade68ad9b2735b83a6c0b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\CARRY4_vendor.v": "a9fbbf068a2f99d44b6293053c526a2af9efd9ce42c8ef5ddde2a897194d413e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\monitor_shadow.sv": "48ab7d88bf9c1f77b0366325729a1a32680896e62b5d99865c26e403c745b648",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\original_and_shadow_full.sdf": "176e6b863f6a28c5c9d279fef28a7ddf092dbd312b93680d4817778cf8fc03d9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\run.tcl": "503ca0d0ca78d6613828dae63abed8f78294a559bd087b12bfbb64489535e951",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_0.job.json": "de805505ebd68a3c39e4a39f65f80f90b4038d70eab39220088c79ef0c2f3c43",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_1.job.json": "c9f9967ea77d2dbe1cbd398e4a685cce4fe2850b392a3e24d0235347df15b23c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_2.job.json": "4585b48cc62d899a57ac47ce56a36765a893f99db26cf39886ab9f273e1da5e9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_3.job.json": "fcc06d8332d6f8ffe511547bbfc396228a2e588c191fb090cea57125d1519115",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_unmasked_\\a0\\tool_4.job.json": "cec751fca8daae3835c8abc81ee8c9f73fb15d3429461d2888320be4e9bf8713",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\diagnostic.json": "9a24146ceb722e30fc8483f2aa42a2e0b08db84a5c12913499282610f4dc43c1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_0.log": "be74dc0bc0314e316e44b21a4ab8fb7cbc1554457c1d6d15c0429d47d1512aac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_1.log": "3aa5b544c81834f24767af6c8f702f6363cfcf74542e80886ec7710c43974b9a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_3.log": "ca137638ced0d706469aad63c7ea0107b048dbfbdbbdbabba92716f2230266fd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_4.log": "ae97ed509b1a7f831c0594d972fe5ecf697c1383715ce9f3e2e12cd9ae823b49",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\provenance.json": "b5d85b1b7678a7fd77c9dc36476719e41f59fa9238a9959f81b31ab1581e5faa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\CARRY4_vendor.v": "a9fbbf068a2f99d44b6293053c526a2af9efd9ce42c8ef5ddde2a897194d413e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\monitor_shadow.sv": "48ab7d88bf9c1f77b0366325729a1a32680896e62b5d99865c26e403c745b648",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\original_and_shadow_full.sdf": "176e6b863f6a28c5c9d279fef28a7ddf092dbd312b93680d4817778cf8fc03d9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\run.tcl": "503ca0d0ca78d6613828dae63abed8f78294a559bd087b12bfbb64489535e951",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_0.job.json": "e70a4d5b975ac64f8864da38b1c508e91449f333531708b01ddc07295ef97d10",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_1.job.json": "5b69a31fe3dab6ac62c7473e5a125d556c4b7c3d03391bf6ff4647c9d7c1e3d9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_2.job.json": "da57d566f44841cc50e5bfa425bc243a2308d03fec9d3f6a273889eabe4962d7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_3.job.json": "e44479b84f300bea3f3b2ca2c8701238bb56137250ac2bee6e3b52037fe167ca",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_ci_mask_\\a0\\tool_4.job.json": "8c1cf92d05525944c7ca5f7e56c0b1664aead9324e302e37e5e8483702bc1d1b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\CARRY4_vendor.v": "a9fbbf068a2f99d44b6293053c526a2af9efd9ce42c8ef5ddde2a897194d413e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\audit_signed12_controls_v1.py": "125d47bd234bfe43eb94f5c2728c941c04bc82f2fa2f1b76e668033bb42fd1cb"
+  }
+}

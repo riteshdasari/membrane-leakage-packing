@@ -1,0 +1,21 @@
+{
+  "status": "audit_complete_cause_localized_not_fully_resolved",
+  "original_E2_timing_replay_accepted": false,
+  "prior_run_a0": "invalid_SDF_annotation_ignored_functional_only",
+  "corrected_minimal_SDF": "10_checks_0_failures_does_not_reproduce_full_error",
+  "original_internal_probe": "reproduces_row914_delayed_O_wrong_at_capture",
+  "exact_alternative_B16_cases": 16842752,
+  "exact_alternative_failures": 0,
+  "source_artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\isolation_report.md": "b4ec9edf80a57801a144c293587b1a91aa90e4d57f3d2578c3cea49042b4150a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\ceil_identity.json": "7f915c49927fc0747074cbba483550288d07d6b4734edbeb4b23d9879657a6e1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\diagnostic.json": "44e5b554419a664585309a3ea4ea7ed45b9cc6722b967b0bc9b930d7cf4c576a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_3.log": "639ad1428abdac97615a5c39c80f87770bcb14766ea9ed5796aa5474ef40ab41",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_4.log": "7a6b4439e39a165100d6da0a948fa3507dce448e84feadf0b5e93e80d560a5b6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_6.log": "458c419b6eb2b88c5fbaf048e2eeb794c3928beafa4009d1feca85bff79ea1f2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_7.log": "db18657d85623dc9e9f24e510326e44246be590b30e3ac9a955b9e543ca9593b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\diagnostic.json": "8b45361de68c03e81b99d29da265d93ac3c34f679f157f32896705ac51f71035",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_3.log": "9918e68c3ae2b33abafd20b5da6b21c779f0998228b3bc4722265a390c28048e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_4.log": "70da62214494640c128cb6d43cf4bb699db81b6da87337b45e2a4d6ddbe8d937"
+  }
+}

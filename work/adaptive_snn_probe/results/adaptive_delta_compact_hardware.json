@@ -1,0 +1,62 @@
+[
+  {
+    "top": "top_delta_compact_adapt_const",
+    "LUT": 278,
+    "FF": 215,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "WNS_ns": -0.68,
+    "seconds": 537.9,
+    "target_ns": 4,
+    "rtl_sha256": "26748b22044533ebe8d1b11e0fd1e0a0ae06390b31c1438dcc84080b4bee241d",
+    "retried_checkpoint": false,
+    "WHS_ns": 0.144,
+    "internal_period_estimate_ns": 4.68
+  },
+  {
+    "top": "top_delta_compact_fixed_const",
+    "LUT": 176,
+    "FF": 189,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "WNS_ns": -0.024,
+    "seconds": 174.6,
+    "target_ns": 4,
+    "rtl_sha256": "26748b22044533ebe8d1b11e0fd1e0a0ae06390b31c1438dcc84080b4bee241d",
+    "retried_checkpoint": false,
+    "WHS_ns": 0.159,
+    "internal_period_estimate_ns": 4.024
+  },
+  {
+    "top": "top_delta_compact_adapt_prog",
+    "LUT": 392,
+    "FF": 207,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "WNS_ns": -3.976,
+    "seconds": 136.1,
+    "target_ns": 4,
+    "rtl_sha256": "26748b22044533ebe8d1b11e0fd1e0a0ae06390b31c1438dcc84080b4bee241d",
+    "retried_checkpoint": true,
+    "WHS_ns": 0.176,
+    "internal_period_estimate_ns": 7.976
+  },
+  {
+    "top": "top_delta_compact_fixed_prog",
+    "LUT": 227,
+    "FF": 194,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "WNS_ns": -3.074,
+    "seconds": 117.5,
+    "target_ns": 4,
+    "rtl_sha256": "26748b22044533ebe8d1b11e0fd1e0a0ae06390b31c1438dcc84080b4bee241d",
+    "retried_checkpoint": false,
+    "WHS_ns": 0.157,
+    "internal_period_estimate_ns": 7.074
+  }
+]

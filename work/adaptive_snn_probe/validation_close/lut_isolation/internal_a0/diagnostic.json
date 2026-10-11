@@ -1,0 +1,23 @@
+{
+  "status": "internal_probe_diagnostic_not_acceptance",
+  "library_binding": "work.CARRY4 explicitly compiled",
+  "vendor_source_modified": false,
+  "timing_checks_disabled": false,
+  "maxdelay": true,
+  "transport_int_delays": true,
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_0.log": "b91b8967b8645bf37c119c1492afab4d98a8c0abac7dae79dce11d40618cc930",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_1.log": "3a0d4a88509e1e41890bd2b19940409e0b265e5d9f22ed2b09c87ececb58a6a8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_3.log": "9918e68c3ae2b33abafd20b5da6b21c779f0998228b3bc4722265a390c28048e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_4.log": "70da62214494640c128cb6d43cf4bb699db81b6da87337b45e2a4d6ddbe8d937"
+  },
+  "edges": [
+    "EDGE T11082.000 ROW913 CI_IN0 S_IN7 CO_FB0 O7 TRUTH_O7 D1 Q1",
+    "EDGE T11094.000 ROW914 CI_IN0 S_IN0 CO_FB0 O0 TRUTH_O0 D0 Q1",
+    "EDGE T11106.000 ROW915 CI_IN0 S_IN7 CO_FB0 O0 TRUTH_O7 D0 Q0"
+  ],
+  "fatal_lines": [
+    "Fatal: REPLAY mismatch E2 row914 got6c0843fa expected6c085ffa"
+  ]
+}

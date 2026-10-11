@@ -1,0 +1,17 @@
+{
+  "status": "running",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\resolve_routes16.py": "1209fc5a7fa8dcb624e31ae8c6523e57bd14876561fb8c4ad0c03ec2fde1bb9f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_closure_sequence_v2.py": "f865f4b6d3e3b3d5999d6dfbbc081eb25c926fe318b106087506c021b35f30bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_hardware_autoclose.py": "da431832107bbb15ba50d4447de03f24973615a61ebe08f1e60788c55c41dbab"
+  },
+  "stages": [
+    {
+      "stage": "resolution",
+      "returncode": 0,
+      "log": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\autoclose_resolution_a0.log",
+      "log_sha256": "fccf5b4778530c1e5f28ea4d1ab6b526e02c33452a2bcb364f44a1e4e987d306"
+    }
+  ],
+  "current_stage": "energy"
+}

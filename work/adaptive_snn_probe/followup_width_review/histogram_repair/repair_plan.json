@@ -1,0 +1,26 @@
+{
+  "status": "prepared",
+  "changes": [
+    "Preserve ROOT as original adaptive_snn_probe; use new local output directory",
+    "Deep-copy nested take_histogram when taking each horizon snapshot"
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\screen.py": "240fd6f4a0241b7cadb2315c7cfb955a43c0c9f9d591787c72cc1c68869ceb0c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\results.json": "b7e8520582bdf1132f32925c7d0d4a4995f819b378bd347c3ef25438424449e4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\predeclared_plan.json": "ae66c17e3cd708b47e055931858c4d9a0cef2013cc1b65a4f50dc20f10c25fe1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\certificates.json": "3ca4fc60cc25d391d92661e5c7de784bba2eba8c2cb1df6feba3b7444f41fa08",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\plan.json": "925a9c518a2c167ee944b09c394348315341cabe6a28c1457608183f94c4db36",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\probe.py": "0a8c8cb843594c1c0820c8a489eac95bec8ef62a7037b90d5eeaf28f9e1acc95",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\base.py": "9fbf1583b409f3c38e83251fbebaf1889b38c7861cc1cf8478d13d33ac809a7a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\final_selected.json": "84e94c7b54ec86cbd5d4022692f882d8f89154f71183be9b906c80da5c18a446",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\native_acceptance.json": "d56969dafe5851c82c372e1ea145924fe59d14e80295e74130b53c83eafb6430",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\prepare_repair.py": "06ad90ddf4d26965ff9828f6d9928faadd6a71a7e6ae80de7192af7944fd2c6a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\screen.py": "cd74afa9ff9545e55bddfd2f7e666f6fa1f0425b6c3d606fb1e3cea6ea6c1fba",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\verify_repair.py": "51245c9903c0b61c1810f8177d405d3159d113249a21760b6afec06b4d9ae85d"
+  },
+  "required": "Rerun all 72 unchanged coefficient/horizon/seed cases; every non-histogram result value must match the original exactly",
+  "scope": "Corrected software snapshot evidence only; original screen/results remain immutable; no native/vendor jobs, retraining, or architecture selection"
+}

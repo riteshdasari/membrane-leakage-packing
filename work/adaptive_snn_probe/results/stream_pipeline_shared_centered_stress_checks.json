@@ -1,0 +1,113 @@
+{
+  "source_hashes": {
+    "stream_pipeline_shared_leak.sv": "e6f7465cc530ec050313c9d2a6680eaf23d1c70061b1df1523572658add5a1c8",
+    "tb_stream_pipeline_shared_leak.sv": "62b0d78236267d505fc86128667f36ef15350e6a3c3276b74ba876a0f3332e6d",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 640,
+  "tested_engines": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stimulus_sha256": "c9eed8c4dc14c441aab7b7a88ef69a7b858bf451483e12a5412706dd9e260747",
+  "matched_original_stimulus": true,
+  "centered_wide": true,
+  "wide_residual_encoding": "centered",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "real_neurons": 3840,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 1455,
+      "neurons": 3840,
+      "arithmetic_issues": 1351,
+      "narrow_requests": 933,
+      "bypass_requests": 104,
+      "clocks": 1459,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 1868,
+      "neurons": 3840,
+      "arithmetic_issues": 1764,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1872,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 1868,
+      "neurons": 3840,
+      "arithmetic_issues": 1764,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1872,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 1678,
+      "neurons": 3840,
+      "arithmetic_issues": 1572,
+      "narrow_requests": 627,
+      "bypass_requests": 106,
+      "clocks": 1682,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    }
+  ]
+}

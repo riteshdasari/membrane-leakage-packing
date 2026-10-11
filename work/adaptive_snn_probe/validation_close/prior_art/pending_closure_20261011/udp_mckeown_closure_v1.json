@@ -1,0 +1,276 @@
+{
+  "status": "bounded_new_primary_routes_complete_original_full_method_still_unresolved",
+  "written_utc": "2026-10-11T04:39:58.403377+00:00",
+  "scope": "McKeown SiPS 2008 original only; UDP full-paper reader audit is owned by parent after its normal-browser access succeeded.",
+  "doi": "10.1109/SIPS.2008.4671768",
+  "title": "Power efficient dynamic-range utilisation for DSP on FPGA",
+  "original_pages": "233-238",
+  "original_full_method_retrieved": false,
+  "new_full_methods_retrieved_by_this_agent": 0,
+  "original_equations_or_sections_inspected": null,
+  "bibliographic_identity": {
+    "crossref_author_initials": [
+      "S. McKeown",
+      "R. Woods",
+      "J. McAllister"
+    ],
+    "proceedings_toc_first_author": "Stephen McKeown",
+    "qub_record_first_author": "Michael McKeown",
+    "handling": "Retain DOI and S. McKeown from publisher-supplied Crossref; do not silently resolve QUB full-name inconsistency."
+  },
+  "resources": [
+    {
+      "url": "https://api.crossref.org/works/10.1109%2FSIPS.2008.4671768",
+      "artifact": "mckeown_crossref.json",
+      "started_utc": "2026-10-11T01:13:21.159116+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1109%2FSIPS.2008.4671768",
+      "content_type": "application/json",
+      "bytes": 3064,
+      "sha256": "d914a0c8cc68f98354916936c6dc9f7367c8074327101aef1eb9e5b8a93c86c0",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1109/SIPS.2008.4671768",
+      "artifact": "mckeown_openalex.json",
+      "started_utc": "2026-10-11T01:13:21.159116+00:00",
+      "status": 200,
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1109/SIPS.2008.4671768",
+      "content_type": "application/json",
+      "bytes": 15033,
+      "sha256": "172973fe5c06f28dfc2353ae01881df833121d81ae5a15c521c055359bf05108",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4671768",
+      "artifact": "mckeown_ieee_stamp_response.bin",
+      "started_utc": "2026-10-11T01:13:22.955382+00:00",
+      "status": 418,
+      "error": "HTTP Error 418: Unknown Code",
+      "content_type": "text/html",
+      "bytes": 15410,
+      "sha256": "86911314407f500ee81e43d0a7007355b94fb93a461d0b766f01cdb70d8d44cf",
+      "pdf_magic": false,
+      "content_observation": "HTTP 418 HTML response, PDF magic absent; no methods."
+    },
+    {
+      "url": "https://www.proceedings.com/content/004/004087webtoc.pdf",
+      "artifact": "mckeown_proceedings_toc.pdf",
+      "started_utc": "2026-10-11T01:13:22.960382+00:00",
+      "status": 200,
+      "final_url": "https://www.proceedings.com/content/004/004087webtoc.pdf",
+      "content_type": "application/pdf",
+      "bytes": 125206,
+      "sha256": "ee5f188d36c8b85411b3ad558e0ed8d39dc56936fa08eadba661005a0e1b1f9c",
+      "pdf_magic": true,
+      "content_observation": "Six-page table of contents only, not original six-page paper. Item L-DM.1 starts at proceedings p.233; next paper starts at p.239."
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/ielx5/4667697/4671720/04671768.pdf?arnumber=4671768",
+      "artifact": "mckeown_ieee_pdf_response.bin",
+      "started_utc": "2026-10-11T04:37:37.807461+00:00",
+      "status": 418,
+      "error": "HTTP Error 418: Unknown Code",
+      "content_type": "text/html",
+      "bytes": 15410,
+      "sha256": "0823bb55720ec466981be6327bfb055692cddd32b31c1df4c6e5445f6296eb18",
+      "pdf_magic": false,
+      "content_observation": "HTTP 418 HTML response, PDF magic absent; no methods."
+    },
+    {
+      "url": "http://xplorestaging.ieee.org/ielx5/4667697/4671720/04671768.pdf?arnumber=4671768",
+      "artifact": "mckeown_crossref_pdf_response.bin",
+      "started_utc": "2026-10-11T04:37:37.808500+00:00",
+      "status": 418,
+      "error": "HTTP Error 418: Unknown Code",
+      "content_type": "text/html",
+      "bytes": 15410,
+      "sha256": "7df4835297ebcb53653df14b6a672e25ac12b8b05cccfd958cd4c5e00f8a1a14",
+      "pdf_magic": false,
+      "content_observation": "HTTP 418 HTML response, PDF magic absent; no methods."
+    },
+    {
+      "url": "https://pure.qub.ac.uk/en/publications/power-efficient-dynamic-range-utilisation-for-dsp-on-fpga/",
+      "artifact": "mckeown_qub_current.html",
+      "started_utc": "2026-10-11T04:37:37.809481+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/plain; charset=UTF-8",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "pdf_magic": false,
+      "content_observation": "Shell response is 403. Normal web reader separately returned the institutional metadata/abstract record, with DOI only in Access to Document."
+    },
+    {
+      "url": "https://pure.qub.ac.uk/en/publications/061f6949-b501-4002-879f-c1533e3cd224",
+      "artifact": "mckeown_qub_uuid.html",
+      "started_utc": "2026-10-11T04:37:37.809481+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/plain; charset=UTF-8",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "pdf_magic": false,
+      "content_observation": "Shell response is 403. Normal web reader separately returned the institutional metadata/abstract record, with DOI only in Access to Document."
+    },
+    {
+      "url": "https://pure.qub.ac.uk/portal/en/publications/power-efficient-dynamic-range-utilisation-for-dsp-on-fpga(061f6949-b501-4002-879f-c1533e3cd224).html",
+      "artifact": "mckeown_qub_legacy.html",
+      "started_utc": "2026-10-11T04:37:38.099328+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/plain; charset=UTF-8",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "pdf_magic": false,
+      "content_observation": "Shell response is 403. Normal web reader separately returned the institutional metadata/abstract record, with DOI only in Access to Document."
+    },
+    {
+      "url": "https://www.proceedings.com/04087.html",
+      "artifact": "mckeown_proceedings_listing.html",
+      "started_utc": "2026-10-11T04:37:38.099328+00:00",
+      "status": 200,
+      "final_url": "https://www.proceedings.com/04087.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 555980,
+      "sha256": "bc2a9b2d81a17fe0dd8ff41dda25f50680f8914d97356d71dde89e9be97beb2b",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://dblp.org/rec/conf/sips/McKeownWM08.html",
+      "artifact": "mckeown_dblp_original.html",
+      "started_utc": "2026-10-11T04:37:38.165794+00:00",
+      "status": 200,
+      "final_url": "https://dblp.org/rec/conf/sips/McKeownWM08.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2934,
+      "sha256": "7d7b1dea718016f87e4d2d822830cbb6eb1cc16d63af96615a5eb37e52e477d7",
+      "pdf_magic": false,
+      "content_observation": "HTTP 200 contains bot-verification HTML, not bibliographic/full method content."
+    },
+    {
+      "url": "https://pub.orcid.org/v3.0/0000-0001-5832-4022/works",
+      "artifact": "mckeown_orcid.json",
+      "started_utc": "2026-10-11T04:37:38.908955+00:00",
+      "status": 200,
+      "final_url": "https://pub.orcid.org/v3.0/0000-0001-5832-4022/works",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 12972,
+      "sha256": "3eea339ff5b45efb1df4dbe5c67768a0ba9c1512df9583240e58f3169d7d62c4",
+      "pdf_magic": false,
+      "content_observation": "Public works list has target DOI and Scopus URL, no manuscript URL."
+    }
+  ],
+  "metadata_findings": {
+    "crossref_original_pdf_link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/4667697/4671720/04671768.pdf?arnumber=4671768",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "openalex_location_count": 2,
+    "openalex_pdf_urls": [
+      null,
+      null
+    ],
+    "openalex_open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "orcid_target_url": {
+      "value": "http://www.scopus.com/inward/record.url?eid=2-s2.0-57849108103&partnerID=MN8TOARS"
+    },
+    "caveat": "No PDF URL in these metadata records is not proof that no author manuscript exists."
+  },
+  "web_reader_observations": [
+    {
+      "url": "https://pure.qub.ac.uk/en/publications/power-efficient-dynamic-range-utilisation-for-dsp-on-fpga/",
+      "observation": "Institutional abstract and metadata readable; no attached manuscript link in returned access section."
+    },
+    {
+      "url": "https://pure.qub.ac.uk/en/persons/roger-woods/",
+      "observation": "Author institutional profile and public CV route inspected; no newly identified original-paper PDF link."
+    },
+    {
+      "url": "https://pure.qub.ac.uk/en/persons/john-mcallister/",
+      "observation": "Coauthor institutional profile inspected; no newly identified original-paper PDF link."
+    },
+    {
+      "url": "https://www.proceedings.com/04087.html",
+      "observation": "Official distribution record lists a 298-page printed volume with ISBN 9781424429233 and a public TOC; does not supply original full text."
+    }
+  ],
+  "bounded_search_scope": [
+    "Exact DOI/title, hyphenless title, initials/full author names with PDF/PhD/thesis filters.",
+    "QUB original/current/legacy identifiers and coauthor profiles; author ORCID public works.",
+    "Publisher normal stamp and standard PDF routes; exact Crossref PDF URL.",
+    "Proceedings catalog/TOC and public repository/preprint discovery; no new original primary manuscript found."
+  ],
+  "original_method_questions": [
+    {
+      "question": "Does actual operand magnitude select packed lane count at runtime, or are widths/stream modes configured?",
+      "status": "unresolved_original_full_method"
+    },
+    {
+      "question": "How are values outside the packed range handled, and is a full-width path exact for the same declared integer computation?",
+      "status": "unresolved_original_full_method"
+    },
+    {
+      "question": "Is there an algebraically equivalent shared-beta signed ceil(beta*U/256) quotient/borrow decoder?",
+      "status": "unresolved_original_full_method"
+    }
+  ],
+  "retained_follow_on_evidence": {
+    "title": "Evolutionary Requirements for Next-Generation Dataflow-Based FPGA System Design",
+    "url": "https://eurasip.org/Proceedings/Eusipco/Eusipco2009/contents/papers/1569193849.pdf",
+    "author": "John McAllister",
+    "sections": "3.3, Figures 8-9, Table 3; reference 13 cites the original.",
+    "observation": "Primary coauthor follow-on describes packing multiple fixed-point FFT input streams using their underused dynamic range, and resource/power results. It does not expose the original runtime lane admission, exceptional full-range handling or exact rounded leakage decoder.",
+    "equivalence_status": "Conceptual prior art; not original full-method closure.",
+    "pins": [
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\mcallister_eusipco2009.pdf",
+        "sha256": "4ff932e10950f199d4e87ee0e3a411dc726336f0ae615b0e8c06f0fd6e1acfc8"
+      },
+      {
+        "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\mcallister_eusipco2009.txt",
+        "sha256": "390d6439badddeeaa34f19bbe75626b01bb3e62b882e753c3c721a9930c937f9"
+      }
+    ]
+  },
+  "access_needed_to_close": "An authorized IEEE/library copy of original proceedings pp.233-238 (DOI 10.1109/SIPS.2008.4671768), or a legitimate author-accepted manuscript of those methods. Need complete arithmetic representation, range selection, exceptional-value handling, and decoding sections/equations, not abstract or 2009 follow-on alone.",
+  "claim_boundary": "Do not assert no equivalent prior work, first-ever range-aware packing, or fully closed equivalence from this access outcome. Keep the exact rounded membrane leakage specialization and measured implementation comparisons; describe original McKeown method comparison as pending access.",
+  "no_authentication_or_access_bypass": true,
+  "no_author_messages": true,
+  "no_vendor_model_or_editor_operations": true,
+  "prior_and_script_pins": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\final_contribution_boundary.md",
+      "sha256": "0529a2bdd0ceee6b14d597c9b4d0bc6bf9574e795101913693921e5aabd47af0"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\bounded_final_access_20261011\\access_closure.json",
+      "sha256": "0603bd3e81c3df8e2479981cf2bd506c7eb3217f60797cba36551c6e1a6001f5"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\udp_mckeown_fetch_primary_v1.json",
+      "sha256": "038e330bf24bb613c816bad05402e5113e48c0221feeab17a08a1bac80e6ff5c"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\udp_mckeown_fetch_secondary_v1.json",
+      "sha256": "1c9d5f20de08ac3663a12c38a7bc1b0f8d0c5fb72c76cc0e72bfc7beaf7841ea"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\mckeown_proceedings_toc.txt",
+      "sha256": "7fd85593275c0cf1f03f940a385519a4e0e4bdc1c6b809408ef7ce72e5cc9bd9"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\udp_mckeown_write_closure_v1.py",
+      "sha256": "977cf3fa56442a76645879cfd30426065b9c09bd27b188015680a563a1ccadc2"
+    }
+  ]
+}

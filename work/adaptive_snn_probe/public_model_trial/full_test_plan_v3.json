@@ -1,0 +1,10 @@
+{
+  "samples": 10000,
+  "indices": "0..9999 in original order",
+  "threads": 8,
+  "batch": 4,
+  "free_RAM_floor_GiB": 1.2,
+  "reference": "Unmodified pinned original GLIF code/checkpoint, CPU FP32. No quantization or hardware replay.",
+  "selection": "Fastest measured pilot setting with bit-identical logits",
+  "full_dataset_integrity_required": true
+}

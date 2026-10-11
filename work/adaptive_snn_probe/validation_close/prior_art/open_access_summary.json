@@ -1,0 +1,66 @@
+[
+  {
+    "doi": "https://doi.org/10.1109/icfpt64416.2024.11113473",
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      [
+        "https://doi.org/10.1109/icfpt64416.2024.11113473",
+        null
+      ]
+    ]
+  },
+  {
+    "doi": "https://doi.org/10.1109/sips.2008.4671768",
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      [
+        "https://doi.org/10.1109/sips.2008.4671768",
+        null
+      ],
+      [
+        "http://www.scopus.com/inward/record.url?scp=57849108103&partnerID=8YFLogxK",
+        null
+      ]
+    ]
+  },
+  {
+    "doi": "https://doi.org/10.1109/tcsii.2024.3377356",
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      [
+        "https://doi.org/10.1109/tcsii.2024.3377356",
+        null
+      ]
+    ]
+  },
+  {
+    "doi": "https://doi.org/10.1145/3748173.3779194",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1145/3748173.3779194",
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      [
+        "https://doi.org/10.1145/3748173.3779194",
+        null
+      ]
+    ]
+  }
+]

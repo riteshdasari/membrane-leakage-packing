@@ -1,0 +1,128 @@
+{
+  "status": "prepared",
+  "source_url": "https://brian2.readthedocs.io/en/stable/examples/frompapers.Naud_et_al_2008_adex_firing_patterns.html",
+  "parameters": {
+    "tonic spiking": [
+      200,
+      10,
+      -70,
+      -50,
+      2,
+      2,
+      30,
+      0,
+      -58,
+      500
+    ],
+    "adaptation": [
+      200,
+      12,
+      -70,
+      -50,
+      2,
+      2,
+      300,
+      60,
+      -58,
+      500
+    ],
+    "initial burst": [
+      130,
+      18,
+      -58,
+      -50,
+      2,
+      4,
+      150,
+      120,
+      -50,
+      400
+    ],
+    "regular bursting": [
+      200,
+      10,
+      -58,
+      -50,
+      2,
+      2,
+      120,
+      100,
+      -46,
+      210
+    ],
+    "delayed accelerating": [
+      200,
+      12,
+      -70,
+      -50,
+      2,
+      -10,
+      300,
+      0,
+      -58,
+      300
+    ],
+    "delayed regular bursting": [
+      100,
+      10,
+      -65,
+      -50,
+      2,
+      -10,
+      90,
+      30,
+      -47,
+      110
+    ],
+    "transient spiking": [
+      100,
+      10,
+      -65,
+      -50,
+      2,
+      10,
+      90,
+      100,
+      -47,
+      180
+    ],
+    "irregular spiking": [
+      100,
+      12,
+      -60,
+      -50,
+      2,
+      -11,
+      130,
+      30,
+      -48,
+      160
+    ]
+  },
+  "units": [
+    "pF",
+    "nS",
+    "mV",
+    "mV",
+    "mV",
+    "nS",
+    "ms",
+    "pA",
+    "mV",
+    "pA"
+  ],
+  "dt_ms": 0.1,
+  "steps": 6000,
+  "initial": "V=EL,w=0",
+  "threshold": "after simultaneous Euler update V>0mV",
+  "reset": "V=Vr,w+=b; no clipping of dynamics",
+  "comparison": "Scalar math.exp versus vector NumPy Euler, both use old V/w in both derivatives",
+  "illustrative_monitor_units_mV": [
+    1,
+    0.25
+  ],
+  "scope": "No trained network/accuracy, no Brian2 runtime comparison, no fixed-point exactness, no range proof, no fabricated eight-lane scheduling or resource/energy result",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\screen.py": "f78367ff4a450591dd151a2345a5c1f305eaf22e3ad872ca64662377b11848af"
+  }
+}

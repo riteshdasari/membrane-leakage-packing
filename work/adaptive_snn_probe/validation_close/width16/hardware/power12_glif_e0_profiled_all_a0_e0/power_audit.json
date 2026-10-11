@@ -1,0 +1,177 @@
+{
+  "status": "pass",
+  "engine": 0,
+  "design_top": "top_sequential_leak16_e0",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e0_profiled_all_a0_e0",
+  "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 324,
+  "physical_activity_source_counts": {
+    "S": 582,
+    "D": 6,
+    "C": 4
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 785,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 0,
+    "design_top": "top_sequential_leak16_e0",
+    "duration_ps": 1703868000,
+    "scalar_updates": 262528,
+    "requests": 141985,
+    "retirements": 141985,
+    "clock_transitions": 283978,
+    "raw_unknown_time_records": 785,
+    "scope": "Fixed16 actual source operands, signed9 pair metadata, golden fixture, exact routed/SDF replay and SAIF interval audit"
+  },
+  "critical_dsp_activity": {
+    "fixture/core/one_dsp.dsp/d": {
+      "CLK": {
+        "fixture/core/one_dsp.dsp/clk": {
+          "static_probability": 0.5,
+          "signal_rate_Mtransitions_per_s": 166.667,
+          "toggle_rate_percent": 200.0,
+          "source": "C"
+        }
+      },
+      "CEA2": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEB2": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEC": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEP": {
+        "fixture/core/one_dsp.dsp/ce": {
+          "static_probability": 0.999972,
+          "signal_rate_Mtransitions_per_s": 0.0011738,
+          "toggle_rate_percent": 0.00140856,
+          "source": "S"
+        }
+      }
+    }
+  },
+  "settled_constant_ffs": {},
+  "dynamic_power_W": 0.003384,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.801693e-06,
+  "dynamic_energy_J": 5.7658893119999995e-06,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 21.962949902486592,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.018183641548802414,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.003384",
+      "iccq": "0.014842",
+      "power": "0.018226"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.602585"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 12,
+  "fixture_FF": 94,
+  "power_xpe_sha256": "bb8836f755e08cf163de3a1a1fef587600bb57bf8aa89c3976bda920530e7677",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e0_a0\\hardware.json",
+  "routed_hardware_sha256": "5c062e71385a7f466e9589cfbf0b0db708bd43e9cf6433066d5f9e0843d00ad6",
+  "core_resources": {
+    "LUT": 71,
+    "FF": 44,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 22
+  },
+  "WNS_ns": 6.055,
+  "WHS_ns": 0.151,
+  "scope": "Vendor estimated dynamic energy of complete common 94-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error",
+  "certified_export_audit": {
+    "status": "pass_exact_derived_export_reproduction",
+    "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e0_profiled_all_a0_e0\\export_binding_certificate.json",
+    "export_binding_sha256": "5cfd20d00ce28921e8259175b2c9aff2af40e8b2e00bb70ac77df45d9c75dafe",
+    "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e0_profiled_all_a0_e0\\sdf_structure_certificate.json",
+    "SDF_structure_certificate_sha256": "06ceff2e689d40e5ae1f2342da8ffe21b067450d67704e040f6dd2d778be51fc",
+    "raw_SDF_sha256": "593778eeec0032bd472373c841c9d20afde961e48cd32add25a3da7d8968a2c9",
+    "derived_SDF_sha256": "c6b53fa7d34ab508a1180c00c03188d064d42ed7d9e43b0d661da48b92171791",
+    "appended_closing_parentheses": 3,
+    "numerical_timing_changes": 0,
+    "annotation_path_string_changes": 1,
+    "causal_discrepancy_resolution_claimed": false
+  }
+}

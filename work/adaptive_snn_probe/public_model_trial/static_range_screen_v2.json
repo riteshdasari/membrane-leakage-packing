@@ -1,0 +1,1170 @@
+{
+  "status": "pass_real_arithmetic_envelope_screen",
+  "layers": 17,
+  "rows": [
+    {
+      "layer": "conv1.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03291914621527628,
+          "base_max": -0.02841825048109146,
+          "current_min": -17.685292790059854,
+          "current_max": 18.347811234608674,
+          "state_min": -17.714995717471755,
+          "state_max": 18.318108307196773
+        },
+        {
+          "timestep": 1,
+          "base_min": -11.175760874040439,
+          "base_max": 5.583266196431479,
+          "current_min": -16.01475295527872,
+          "current_max": 16.614690391639876,
+          "state_min": -27.19051382931916,
+          "state_max": 21.948713288296247
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 9,
+          "I_screen_bits": 10,
+          "U_screen_min": -179,
+          "U_screen_max": 90,
+          "I_screen_min": -283,
+          "I_screen_max": 294,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 11,
+          "I_screen_bits": 12,
+          "U_screen_min": -716,
+          "U_screen_max": 358,
+          "I_screen_min": -1132,
+          "I_screen_max": 1175,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 13,
+          "I_screen_bits": 14,
+          "U_screen_min": -2861,
+          "U_screen_max": 1430,
+          "I_screen_min": -4528,
+          "I_screen_max": 4698,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 15,
+          "I_screen_bits": 16,
+          "U_screen_min": -11444,
+          "U_screen_max": 5718,
+          "I_screen_min": -18110,
+          "I_screen_max": 18789,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.5995704323341586,
+      "decay_coefficient_max": 0.6415634781691575
+    },
+    {
+      "layer": "features.0.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.032852193199851706,
+          "base_max": -0.028286107291697817,
+          "current_min": -4.37024700765762,
+          "current_max": 3.9936619543788465,
+          "state_min": -4.401793437609921,
+          "state_max": 3.960980362595234
+        },
+        {
+          "timestep": 1,
+          "base_min": -2.825062032938828,
+          "base_max": 1.2561415370771196,
+          "current_min": -4.1267461019131835,
+          "current_max": 3.673884442397258,
+          "state_min": -6.951808134852012,
+          "state_max": 4.603384251716183
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 7,
+          "I_screen_bits": 8,
+          "U_screen_min": -46,
+          "U_screen_max": 21,
+          "I_screen_min": -70,
+          "I_screen_max": 64,
+          "existing_I8_contract_covered_by_real_envelope": true
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 9,
+          "I_screen_bits": 10,
+          "U_screen_min": -181,
+          "U_screen_max": 81,
+          "I_screen_min": -280,
+          "I_screen_max": 256,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 11,
+          "I_screen_bits": 12,
+          "U_screen_min": -724,
+          "U_screen_max": 322,
+          "I_screen_min": -1119,
+          "I_screen_max": 1023,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 13,
+          "I_screen_bits": 14,
+          "U_screen_min": -2893,
+          "U_screen_max": 1287,
+          "I_screen_min": -4476,
+          "I_screen_max": 4090,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6028537393916831,
+      "decay_coefficient_max": 0.6435146365160141
+    },
+    {
+      "layer": "features.0.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.032817924418959664,
+          "base_max": -0.02882615282989021,
+          "current_min": -4.130884954034146,
+          "current_max": 14.322123958426031,
+          "state_min": -4.162377243865465,
+          "state_max": 14.292368103332988
+        },
+        {
+          "timestep": 1,
+          "base_min": -2.67292465053739,
+          "base_max": 4.178114320250352,
+          "current_min": -3.788850931296381,
+          "current_max": 13.375358042376728,
+          "state_min": -6.461775581833771,
+          "state_max": 17.30985540157024
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 8,
+          "I_screen_bits": 9,
+          "U_screen_min": -43,
+          "U_screen_max": 67,
+          "I_screen_min": -67,
+          "I_screen_max": 230,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 10,
+          "I_screen_bits": 11,
+          "U_screen_min": -172,
+          "U_screen_max": 268,
+          "I_screen_min": -265,
+          "I_screen_max": 917,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 12,
+          "I_screen_bits": 13,
+          "U_screen_min": -685,
+          "U_screen_max": 1070,
+          "I_screen_min": -1058,
+          "I_screen_max": 3667,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 14,
+          "I_screen_bits": 15,
+          "U_screen_min": -2738,
+          "U_screen_max": 4279,
+          "I_screen_min": -4231,
+          "I_screen_max": 14666,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6000498689506688,
+      "decay_coefficient_max": 0.6524652970438642
+    },
+    {
+      "layer": "features.1.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03337287909378229,
+          "base_max": -0.0284282119084626,
+          "current_min": -4.877712742586353,
+          "current_max": 4.613564894624408,
+          "state_min": -4.908067252281133,
+          "state_max": 4.581148872206973
+        },
+        {
+          "timestep": 1,
+          "base_min": -3.092768529119637,
+          "base_max": 1.4190806607671858,
+          "current_min": -4.637171622000204,
+          "current_max": 4.355753595832738,
+          "state_min": -7.654950835179758,
+          "state_max": 5.510340912210584
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 7,
+          "I_screen_bits": 8,
+          "U_screen_min": -50,
+          "U_screen_max": 23,
+          "I_screen_min": -79,
+          "I_screen_max": 74,
+          "existing_I8_contract_covered_by_real_envelope": true
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 9,
+          "I_screen_bits": 10,
+          "U_screen_min": -198,
+          "U_screen_max": 91,
+          "I_screen_min": -313,
+          "I_screen_max": 296,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 11,
+          "I_screen_bits": 12,
+          "U_screen_min": -792,
+          "U_screen_max": 364,
+          "I_screen_min": -1249,
+          "I_screen_max": 1182,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 13,
+          "I_screen_bits": 14,
+          "U_screen_min": -3167,
+          "U_screen_max": 1454,
+          "I_screen_min": -4995,
+          "I_screen_max": 4725,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6077365861537738,
+      "decay_coefficient_max": 0.6459695804670784
+    },
+    {
+      "layer": "features.1.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03257536869438752,
+          "base_max": -0.028705831165719453,
+          "current_min": -5.028772288517301,
+          "current_max": 5.84974415128393,
+          "state_min": -5.059732678148679,
+          "state_max": 5.817267457833932
+        },
+        {
+          "timestep": 1,
+          "base_min": -3.2113714357884238,
+          "base_max": 1.9435700589497646,
+          "current_min": -4.38545810615357,
+          "current_max": 5.063426441527677,
+          "state_min": -7.596829541941994,
+          "state_max": 6.610232835516104
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 7,
+          "I_screen_bits": 8,
+          "U_screen_min": -52,
+          "U_screen_max": 32,
+          "I_screen_min": -81,
+          "I_screen_max": 94,
+          "existing_I8_contract_covered_by_real_envelope": true
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 9,
+          "I_screen_bits": 10,
+          "U_screen_min": -206,
+          "U_screen_max": 125,
+          "I_screen_min": -322,
+          "I_screen_max": 375,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 11,
+          "I_screen_bits": 12,
+          "U_screen_min": -823,
+          "U_screen_max": 498,
+          "I_screen_min": -1288,
+          "I_screen_max": 1498,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 13,
+          "I_screen_bits": 14,
+          "U_screen_min": -3289,
+          "U_screen_max": 1991,
+          "I_screen_min": -5150,
+          "I_screen_max": 5991,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.5984923021580262,
+      "decay_coefficient_max": 0.6598297788362805
+    },
+    {
+      "layer": "features.2.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.033597804491171036,
+          "base_max": -0.029831816330748148,
+          "current_min": -5.230205229943007,
+          "current_max": 5.141486062314309,
+          "state_min": -5.262811110382799,
+          "state_max": 5.109391426053926
+        },
+        {
+          "timestep": 1,
+          "base_min": -3.376831193974004,
+          "base_max": 1.576108406549725,
+          "current_min": -4.897357412043857,
+          "current_max": 4.963755344853252,
+          "state_min": -8.274188606017862,
+          "state_max": 6.288678454049823
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 7,
+          "I_screen_bits": 8,
+          "U_screen_min": -55,
+          "U_screen_max": 26,
+          "I_screen_min": -84,
+          "I_screen_max": 83,
+          "existing_I8_contract_covered_by_real_envelope": true
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 9,
+          "I_screen_bits": 10,
+          "U_screen_min": -217,
+          "U_screen_max": 101,
+          "I_screen_min": -335,
+          "I_screen_max": 330,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 11,
+          "I_screen_bits": 12,
+          "U_screen_min": -865,
+          "U_screen_max": 404,
+          "I_screen_min": -1339,
+          "I_screen_max": 1317,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 13,
+          "I_screen_bits": 14,
+          "U_screen_min": -3458,
+          "U_screen_max": 1614,
+          "I_screen_min": -5356,
+          "I_screen_max": 5265,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6093468259051873,
+      "decay_coefficient_max": 0.6553660131219878
+    },
+    {
+      "layer": "features.2.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.0329633177966724,
+          "base_max": -0.028562115439586398,
+          "current_min": -9.393453876312075,
+          "current_max": 9.850458548225044,
+          "state_min": -9.425146063352484,
+          "state_max": 9.818766361184634
+        },
+        {
+          "timestep": 1,
+          "base_min": -6.059719268874604,
+          "base_max": 3.060285146146903,
+          "current_min": -8.248355387911623,
+          "current_max": 8.493857269752523,
+          "state_min": -14.153605872776833,
+          "state_max": 11.15208491724506
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 8,
+          "I_screen_bits": 9,
+          "U_screen_min": -97,
+          "U_screen_max": 49,
+          "I_screen_min": -151,
+          "I_screen_max": 158,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 10,
+          "I_screen_bits": 11,
+          "U_screen_min": -388,
+          "U_screen_max": 196,
+          "I_screen_min": -602,
+          "I_screen_max": 631,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 12,
+          "I_screen_bits": 13,
+          "U_screen_min": -1552,
+          "U_screen_max": 784,
+          "I_screen_min": -2405,
+          "I_screen_max": 2522,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 14,
+          "I_screen_bits": 15,
+          "U_screen_min": -6206,
+          "U_screen_max": 3134,
+          "I_screen_min": -9619,
+          "I_screen_max": 10087,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6060234121170259,
+      "decay_coefficient_max": 0.6499183599494807
+    },
+    {
+      "layer": "features.3.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.034395555097819754,
+          "base_max": -0.03039220910943074,
+          "current_min": -9.53568372936965,
+          "current_max": 7.0008663075398845,
+          "state_min": -9.57007928446747,
+          "state_max": 6.968830217892323
+        },
+        {
+          "timestep": 1,
+          "base_min": -6.200525652777894,
+          "base_max": 2.0834186640935473,
+          "current_min": -8.938385882052806,
+          "current_max": 6.738346162826182,
+          "state_min": -15.1389115348307,
+          "state_max": 8.5534165961926
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 8,
+          "I_screen_bits": 9,
+          "U_screen_min": -100,
+          "U_screen_max": 34,
+          "I_screen_min": -153,
+          "I_screen_max": 113,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 10,
+          "I_screen_bits": 11,
+          "U_screen_min": -397,
+          "U_screen_max": 134,
+          "I_screen_min": -611,
+          "I_screen_max": 449,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 12,
+          "I_screen_bits": 13,
+          "U_screen_min": -1588,
+          "U_screen_max": 534,
+          "I_screen_min": -2442,
+          "I_screen_max": 1793,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 14,
+          "I_screen_bits": 15,
+          "U_screen_min": -6350,
+          "U_screen_max": 2134,
+          "I_screen_min": -9765,
+          "I_screen_max": 7169,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6076444755132484,
+      "decay_coefficient_max": 0.6484500852265053
+    },
+    {
+      "layer": "features.3.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.033020844154025425,
+          "base_max": -0.028595794763734226,
+          "current_min": -11.082389898848055,
+          "current_max": 11.940408005860153,
+          "state_min": -11.113920085119208,
+          "state_max": 11.908198830990692
+        },
+        {
+          "timestep": 1,
+          "base_min": -7.037718177165649,
+          "base_max": 3.828880814692708,
+          "current_min": -9.674289147321048,
+          "current_max": 10.624485628390685,
+          "state_min": -16.7120073244867,
+          "state_max": 14.210437307608089
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 8,
+          "I_screen_bits": 9,
+          "U_screen_min": -113,
+          "U_screen_max": 62,
+          "I_screen_min": -178,
+          "I_screen_max": 192,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 10,
+          "I_screen_bits": 11,
+          "U_screen_min": -451,
+          "U_screen_max": 246,
+          "I_screen_min": -710,
+          "I_screen_max": 765,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 12,
+          "I_screen_bits": 13,
+          "U_screen_min": -1802,
+          "U_screen_max": 981,
+          "I_screen_min": -2838,
+          "I_screen_max": 3057,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 14,
+          "I_screen_bits": 15,
+          "U_screen_min": -7207,
+          "U_screen_max": 3921,
+          "I_screen_min": -11349,
+          "I_screen_max": 12227,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6005809821976688,
+      "decay_coefficient_max": 0.6605873594342893
+    },
+    {
+      "layer": "features.4.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03330689287882149,
+          "base_max": -0.029070310744483064,
+          "current_min": -7.284790034119963,
+          "current_max": 7.518091801158902,
+          "state_min": -7.315806540250267,
+          "state_max": 7.487011410105685
+        },
+        {
+          "timestep": 1,
+          "base_min": -4.659616301756106,
+          "base_max": 2.358573386672724,
+          "current_min": -6.903442317195362,
+          "current_max": 7.137977881797543,
+          "state_min": -11.541176613933661,
+          "state_max": 9.24852495963558
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 8,
+          "I_screen_bits": 8,
+          "U_screen_min": -75,
+          "U_screen_max": 38,
+          "I_screen_min": -117,
+          "I_screen_max": 121,
+          "existing_I8_contract_covered_by_real_envelope": true
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 10,
+          "I_screen_bits": 10,
+          "U_screen_min": -299,
+          "U_screen_max": 151,
+          "I_screen_min": -467,
+          "I_screen_max": 482,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 12,
+          "I_screen_bits": 12,
+          "U_screen_min": -1193,
+          "U_screen_max": 604,
+          "I_screen_min": -1865,
+          "I_screen_max": 1925,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 14,
+          "I_screen_bits": 14,
+          "U_screen_min": -4772,
+          "U_screen_max": 2416,
+          "I_screen_min": -7460,
+          "I_screen_max": 7699,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6027436226566435,
+      "decay_coefficient_max": 0.6524248063008933
+    },
+    {
+      "layer": "features.4.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03348351084546751,
+          "base_max": -0.028807146331503653,
+          "current_min": -12.749620334971041,
+          "current_max": 10.85829650364094,
+          "state_min": -12.780567486493293,
+          "state_max": 10.826142485556822
+        },
+        {
+          "timestep": 1,
+          "base_min": -8.07523481687736,
+          "base_max": 3.4599525297445815,
+          "current_min": -11.606274720607686,
+          "current_max": 10.193821880374612,
+          "state_min": -19.68150953748505,
+          "state_max": 13.175631315484633
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 9,
+          "I_screen_bits": 9,
+          "U_screen_min": -130,
+          "U_screen_max": 56,
+          "I_screen_min": -204,
+          "I_screen_max": 174,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 11,
+          "I_screen_bits": 11,
+          "U_screen_min": -517,
+          "U_screen_max": 222,
+          "I_screen_min": -816,
+          "I_screen_max": 695,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 13,
+          "I_screen_bits": 13,
+          "U_screen_min": -2068,
+          "U_screen_max": 886,
+          "I_screen_min": -3264,
+          "I_screen_max": 2780,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 15,
+          "I_screen_bits": 15,
+          "U_screen_min": -8270,
+          "U_screen_max": 3543,
+          "I_screen_min": -13056,
+          "I_screen_max": 11119,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6097797243170343,
+      "decay_coefficient_max": 0.6556618274832352
+    },
+    {
+      "layer": "features.5.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03575759290724315,
+          "base_max": -0.030525180782707433,
+          "current_min": -16.28626237045926,
+          "current_max": 13.113596530522626,
+          "state_min": -16.320313700103156,
+          "state_max": 13.080162341479538
+        },
+        {
+          "timestep": 1,
+          "base_min": -10.446430538771315,
+          "base_max": 4.287785433109928,
+          "current_min": -15.329967879266915,
+          "current_max": 12.206899876359232,
+          "state_min": -25.74669991820409,
+          "state_max": 15.97534632487517
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 9,
+          "I_screen_bits": 10,
+          "U_screen_min": -168,
+          "U_screen_max": 69,
+          "I_screen_min": -261,
+          "I_screen_max": 210,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 11,
+          "I_screen_bits": 12,
+          "U_screen_min": -669,
+          "U_screen_max": 275,
+          "I_screen_min": -1043,
+          "I_screen_max": 840,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 13,
+          "I_screen_bits": 14,
+          "U_screen_min": -2675,
+          "U_screen_max": 1098,
+          "I_screen_min": -4170,
+          "I_screen_max": 3358,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 15,
+          "I_screen_bits": 16,
+          "U_screen_min": -10698,
+          "U_screen_max": 4391,
+          "I_screen_min": -16678,
+          "I_screen_max": 13429,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6083105255663327,
+      "decay_coefficient_max": 0.6595424381988588
+    },
+    {
+      "layer": "features.5.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.033397142277361326,
+          "base_max": -0.029202453185369837,
+          "current_min": -22.898321307134655,
+          "current_max": 19.7461828529578,
+          "state_min": -22.930294946368637,
+          "state_max": 19.71502427773296
+        },
+        {
+          "timestep": 1,
+          "base_min": -14.701633868461377,
+          "base_max": 6.247685989796922,
+          "current_min": -20.08709226071839,
+          "current_max": 17.9451494406997,
+          "state_min": -34.788726129179764,
+          "state_max": 23.841401460376176
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 9,
+          "I_screen_bits": 10,
+          "U_screen_min": -236,
+          "U_screen_max": 100,
+          "I_screen_min": -367,
+          "I_screen_max": 316,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 11,
+          "I_screen_bits": 12,
+          "U_screen_min": -941,
+          "U_screen_max": 400,
+          "I_screen_min": -1466,
+          "I_screen_max": 1264,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 13,
+          "I_screen_bits": 14,
+          "U_screen_min": -3764,
+          "U_screen_max": 1600,
+          "I_screen_min": -5862,
+          "I_screen_max": 5056,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 15,
+          "I_screen_bits": 16,
+          "U_screen_min": -15055,
+          "U_screen_max": 6398,
+          "I_screen_min": -23448,
+          "I_screen_max": 20221,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6144726152077369,
+      "decay_coefficient_max": 0.6608513122506563
+    },
+    {
+      "layer": "features.6.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.033816445807587865,
+          "base_max": -0.029965820220628735,
+          "current_min": -12.935021240414825,
+          "current_max": 11.988054348762693,
+          "state_min": -12.965845896239893,
+          "state_max": 11.956239417105612
+        },
+        {
+          "timestep": 1,
+          "base_min": -8.030221505501192,
+          "base_max": 3.861461672581225,
+          "current_min": -12.148236778636242,
+          "current_max": 11.073150717321314,
+          "state_min": -20.178458284137434,
+          "state_max": 14.688589029656791
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 9,
+          "I_screen_bits": 9,
+          "U_screen_min": -129,
+          "U_screen_max": 62,
+          "I_screen_min": -207,
+          "I_screen_max": 192,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 11,
+          "I_screen_bits": 11,
+          "U_screen_min": -514,
+          "U_screen_max": 248,
+          "I_screen_min": -828,
+          "I_screen_max": 768,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 13,
+          "I_screen_bits": 13,
+          "U_screen_min": -2056,
+          "U_screen_max": 989,
+          "I_screen_min": -3312,
+          "I_screen_max": 3069,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 15,
+          "I_screen_bits": 15,
+          "U_screen_min": -8223,
+          "U_screen_max": 3955,
+          "I_screen_min": -13246,
+          "I_screen_max": 12276,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6107423739476855,
+      "decay_coefficient_max": 0.6523809209508316
+    },
+    {
+      "layer": "features.6.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03417103437467921,
+          "base_max": -0.02966583755631973,
+          "current_min": -25.48323640221519,
+          "current_max": 23.325004483767223,
+          "state_min": -25.51740743658987,
+          "state_max": 23.291220506046514
+        },
+        {
+          "timestep": 1,
+          "base_min": -16.8285322621091,
+          "base_max": 7.664575243491436,
+          "current_min": -23.905866238418135,
+          "current_max": 21.99018804591351,
+          "state_min": -40.4080204871493,
+          "state_max": 29.42517300093029
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 10,
+          "I_screen_bits": 10,
+          "U_screen_min": -270,
+          "U_screen_max": 123,
+          "I_screen_min": -408,
+          "I_screen_max": 374,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 12,
+          "I_screen_bits": 12,
+          "U_screen_min": -1078,
+          "U_screen_max": 491,
+          "I_screen_min": -1631,
+          "I_screen_max": 1493,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 14,
+          "I_screen_bits": 14,
+          "U_screen_min": -4309,
+          "U_screen_max": 1963,
+          "I_screen_min": -6524,
+          "I_screen_max": 5972,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 16,
+          "I_screen_bits": 16,
+          "U_screen_min": -17233,
+          "U_screen_max": 7849,
+          "I_screen_min": -26095,
+          "I_screen_max": 23885,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6149027303765009,
+      "decay_coefficient_max": 0.6600833411500959
+    },
+    {
+      "layer": "features.7.body.1",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.03513058366962681,
+          "base_max": -0.028679885537285215,
+          "current_min": -38.65376117433676,
+          "current_max": 31.217937395331322,
+          "state_min": -38.688891758006385,
+          "state_max": 31.185547873069936
+        },
+        {
+          "timestep": 1,
+          "base_min": -25.78566554611719,
+          "base_max": 10.362708072720222,
+          "current_min": -35.707444896370426,
+          "current_max": 29.310475442738422,
+          "state_min": -61.49311044248762,
+          "state_max": 39.4343097031762
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 10,
+          "I_screen_bits": 11,
+          "U_screen_min": -413,
+          "U_screen_max": 166,
+          "I_screen_min": -619,
+          "I_screen_max": 500,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 12,
+          "I_screen_bits": 13,
+          "U_screen_min": -1651,
+          "U_screen_max": 664,
+          "I_screen_min": -2474,
+          "I_screen_max": 1998,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 14,
+          "I_screen_bits": 15,
+          "U_screen_min": -6602,
+          "U_screen_max": 2653,
+          "I_screen_min": -9896,
+          "I_screen_max": 7992,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 16,
+          "I_screen_bits": 17,
+          "U_screen_min": -26405,
+          "U_screen_max": 10612,
+          "I_screen_min": -39582,
+          "I_screen_max": 31968,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6111793780973998,
+      "decay_coefficient_max": 0.6655795447311741
+    },
+    {
+      "layer": "features.7.lif",
+      "steps": [
+        {
+          "timestep": 0,
+          "base_min": -0.034189195004376734,
+          "base_max": -0.029944364040664032,
+          "current_min": -44.694847446791535,
+          "current_max": 30.273265253992317,
+          "state_min": -44.72827478525828,
+          "state_max": 30.2405658881238
+        },
+        {
+          "timestep": 1,
+          "base_min": -29.796027646886845,
+          "base_max": 10.214481969473422,
+          "current_min": -40.64301251041719,
+          "current_max": 28.819332845417414,
+          "state_min": -70.43904015730404,
+          "state_max": 38.63748487798255
+        }
+      ],
+      "unit_screens": [
+        {
+          "scale": 16,
+          "U_screen_bits": 10,
+          "I_screen_bits": 11,
+          "U_screen_min": -477,
+          "U_screen_max": 164,
+          "I_screen_min": -716,
+          "I_screen_max": 485,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 64,
+          "U_screen_bits": 12,
+          "I_screen_bits": 13,
+          "U_screen_min": -1907,
+          "U_screen_max": 654,
+          "I_screen_min": -2861,
+          "I_screen_max": 1938,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 256,
+          "U_screen_bits": 14,
+          "I_screen_bits": 15,
+          "U_screen_min": -7628,
+          "U_screen_max": 2615,
+          "I_screen_min": -11442,
+          "I_screen_max": 7750,
+          "existing_I8_contract_covered_by_real_envelope": false
+        },
+        {
+          "scale": 1024,
+          "U_screen_bits": 16,
+          "I_screen_bits": 17,
+          "U_screen_min": -30512,
+          "U_screen_max": 10460,
+          "I_screen_min": -45768,
+          "I_screen_max": 31000,
+          "existing_I8_contract_covered_by_real_envelope": false
+        }
+      ],
+      "pilot_inside_real_envelopes": true,
+      "decay_coefficient_min": 0.6095422601824723,
+      "decay_coefficient_max": 0.6654090829863479
+    }
+  ],
+  "pilot_operand_envelope_violations": 0,
+  "scope": "Real-valued affine/convolution envelopes for all allowed input pixels and binary intermediate spikes, plus correlated previous-spike GLIF bounds atT2. Separate states and currents covered. Not a certified IEEE32 bound, integer neuron equation, RTL width certificate or accuracy-preserving quantization. No additional numerical model is executed.",
+  "pins": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\static_range_screen_v2.py": "5c6d31550b86f12d67a8453bc1c68c4a1e843ed30a82dcc9f93ef61cca5d8c91",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\checkpoint_arrays.npz": "d21d744bb7450ab51e16d9b33a0c0c7a838e8cc4f79861f835745b790d273d40",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_results.json": "fae562b7cbe9ad93aeb92e36b305a30189c26e29e3310646f7a2cfc6f1dfc8c1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\static_range_screen.py": "e0a0871aea8a166232f2947fe2686a8dc8e1b5d2fa2c71d17fb9e6b6a097e5ff"
+  }
+}

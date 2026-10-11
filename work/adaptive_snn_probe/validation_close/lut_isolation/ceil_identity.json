@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "contract": "signed16 U; beta integer 0..256; ceil(beta*U/256)",
+  "cases": 16842752,
+  "coefficients": 257,
+  "failures": 0,
+  "seconds": 0.6924548149108887,
+  "identity": "ceil(p/256)=(p arithmetic-shift-right 8)+OR(p[7:0])",
+  "negative_product_rule": "arithmetic shift implements floor; nonzero low byte adds one even for negative p",
+  "RTL_sizing": "B+9-bit signed product; B+1-bit signed floor quotient plus explicitly signed zero-extended one-bit increment; truncate only after proven B-bit result bounds",
+  "source_sha256": "07380824ba12bd4122d1d13adeeab9d09dbdb7b5065db182e75465f471df43c8"
+}

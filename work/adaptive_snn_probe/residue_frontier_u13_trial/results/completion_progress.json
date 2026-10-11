@@ -1,0 +1,56 @@
+{
+  "status": "completed_with_retained_failures",
+  "routes": [
+    5,
+    2,
+    3,
+    4,
+    0,
+    1
+  ],
+  "exports": [
+    5,
+    2,
+    3,
+    4,
+    0,
+    1
+  ],
+  "replays": [
+    5,
+    2,
+    0,
+    1
+  ],
+  "powers": [
+    5,
+    2
+  ],
+  "failures": [
+    {
+      "stage": "replay",
+      "engine": 3,
+      "error": "AssertionError(('Insufficient free RAM', 'tool_3', 2.2683143615722656, 2.3))",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\finish_u13_trial.py\", line 40, in <module>\n    future.result();state['replays'].append(engine);publish()\n    ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\finish_u13_trial.py\", line 33, in replay\n    run.replay(engine,0,P/'results'/f'route_e{engine}_a0',P/'results'/f'export_e{engine}_a0')\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 151, in replay\n    logs=[tool(command,wd,f'tool_{n}',stamps) for n,command in enumerate(commands)]\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 43, in tool\n    return base.job([str(arg).replace('\\\\','/') for arg in command],wd,label,stamps,gate)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py\", line 165, in job\n    assert available > gate, ('Insufficient free RAM', label, available, gate)\n           ^^^^^^^^^^^^^^^^\nAssertionError: ('Insufficient free RAM', 'tool_3', 2.2683143615722656, 2.3)\n"
+    },
+    {
+      "stage": "replay",
+      "engine": 4,
+      "error": "AssertionError(('Insufficient free RAM', 'tool_0', 2.2487030029296875, 2.3))",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\finish_u13_trial.py\", line 40, in <module>\n    future.result();state['replays'].append(engine);publish()\n    ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\finish_u13_trial.py\", line 33, in replay\n    run.replay(engine,0,P/'results'/f'route_e{engine}_a0',P/'results'/f'export_e{engine}_a0')\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 151, in replay\n    logs=[tool(command,wd,f'tool_{n}',stamps) for n,command in enumerate(commands)]\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 43, in tool\n    return base.job([str(arg).replace('\\\\','/') for arg in command],wd,label,stamps,gate)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py\", line 165, in job\n    assert available > gate, ('Insufficient free RAM', label, available, gate)\n           ^^^^^^^^^^^^^^^^\nAssertionError: ('Insufficient free RAM', 'tool_0', 2.2487030029296875, 2.3)\n"
+    },
+    {
+      "stage": "power_audit",
+      "engine": 0,
+      "error": "AssertionError(('Insufficient free RAM', 'annotation', 1.9978752136230469, 2.3))",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\finish_u13_trial.py\", line 45, in <module>\n    run.power(engine,0,P/'results'/f'route_e{engine}_a0',P/'results'/f'replay_e{engine}_a0')\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 187, in power\n    log=tool([base.VIVADO/'bin/vivado.bat','-mode','batch','-log','vivado.log','-journal','vivado.jou',\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 43, in tool\n    return base.job([str(arg).replace('\\\\','/') for arg in command],wd,label,stamps,gate)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py\", line 165, in job\n    assert available > gate, ('Insufficient free RAM', label, available, gate)\n           ^^^^^^^^^^^^^^^^\nAssertionError: ('Insufficient free RAM', 'annotation', 1.9978752136230469, 2.3)\n"
+    },
+    {
+      "stage": "power_audit",
+      "engine": 1,
+      "error": "AssertionError(('Insufficient free RAM', 'annotation', 2.26751708984375, 2.3))",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\finish_u13_trial.py\", line 45, in <module>\n    run.power(engine,0,P/'results'/f'route_e{engine}_a0',P/'results'/f'replay_e{engine}_a0')\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 187, in power\n    log=tool([base.VIVADO/'bin/vivado.bat','-mode','batch','-log','vivado.log','-journal','vivado.jou',\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py\", line 43, in tool\n    return base.job([str(arg).replace('\\\\','/') for arg in command],wd,label,stamps,gate)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py\", line 165, in job\n    assert available > gate, ('Insufficient free RAM', label, available, gate)\n           ^^^^^^^^^^^^^^^^\nAssertionError: ('Insufficient free RAM', 'annotation', 2.26751708984375, 2.3)\n"
+    }
+  ],
+  "unix_time": 1791615347.9464297
+}

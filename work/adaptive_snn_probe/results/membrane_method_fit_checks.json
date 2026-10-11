@@ -1,0 +1,198 @@
+{
+  "created_utc": "2026-10-09T11:01:00.402980+00:00",
+  "scope": "Numerical representation and threshold method-fit; no RTL simulation, trained-model approximation study, hardware or literature result",
+  "source_sha256": {
+    "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d"
+  },
+  "script_sha256": {
+    "screen_membrane_method_fit.py": "468654a62fa3c72de287ef1f531eb92f7f41385f5fd2168ff7419f4402af4cd8"
+  },
+  "current_mechanism": {
+    "operation": "U-floor(delta*U/256), exact signed int11 leakage",
+    "state": "Full signed-int11 U remains in the original integer unit. It is not divided or multiplied during format adaptation.",
+    "selection": "Three signed7 membranes if delta<=25 and all U are within[-64,63]; otherwise three signed6 membranes if all U are within[-32,31]; otherwise two full-range membranes.",
+    "guard": "Safety is checked before issue. It does not deliberately overflow a packed lane and then recover an unknown carry.",
+    "fallback": "The same original int11 membranes use the wide two-lane arithmetic; there is no persistent wider state migration."
+  },
+  "experiments": [
+    {
+      "name": "Generic exact mantissa plus residue leakage identity",
+      "cases": 5767168,
+      "mismatches": 0,
+      "domain": {
+        "U": [
+          -1024,
+          1023
+        ],
+        "delta": [
+          0,
+          255
+        ],
+        "e": [
+          0,
+          10
+        ]
+      },
+      "equation": "U=2^e*m+r,0<=r<2^e; H=delta*2^e*m; Q=floor(H/256),F=H mod256; leak(U)=U-Q-floor((F+delta*r)/256)",
+      "distinction": "This experiment proves generic algebra. Current DSP RTL supports delta0..31 only.",
+      "fit": "Exact if all residue/carry bits and their correction are retained; overhead and lane-safety still need hardware measurement."
+    },
+    {
+      "name": "Exact signed narrow payload plus high spill",
+      "cases": 65536,
+      "mismatches": 0,
+      "equation": "low=((U+64) mod128)-64; high=(U-low)/128; U=128*high+low",
+      "fit": "An exact high/low spill can preserve U, but spill bandwidth/storage/control is added work. It is not a new novelty claim by itself."
+    },
+    {
+      "name": "Discarding one mantissa residue bit",
+      "scalar_inputs": 2048,
+      "changed_leak_outputs": 928,
+      "examples": [
+        {
+          "U": -1023,
+          "compressed_m": -512,
+          "reconstructed_U": -1024,
+          "reference_leak": -923,
+          "discarded_residue_leak": -924
+        },
+        {
+          "U": -1021,
+          "compressed_m": -511,
+          "reconstructed_U": -1022,
+          "reference_leak": -921,
+          "discarded_residue_leak": -922
+        },
+        {
+          "U": -1019,
+          "compressed_m": -510,
+          "reconstructed_U": -1020,
+          "reference_leak": -919,
+          "discarded_residue_leak": -920
+        },
+        {
+          "U": -1017,
+          "compressed_m": -509,
+          "reconstructed_U": -1018,
+          "reference_leak": -917,
+          "discarded_residue_leak": -918
+        },
+        {
+          "U": -1015,
+          "compressed_m": -508,
+          "reconstructed_U": -1016,
+          "reference_leak": -915,
+          "discarded_residue_leak": -916
+        }
+      ],
+      "threshold_counterexample": {
+        "U": 15,
+        "delta": 25,
+        "threshold": 14,
+        "exact_leak": 14,
+        "shift_drop_leak": 13,
+        "exact_spike": true,
+        "shift_drop_spike": false
+      },
+      "fit": "Fails current exact-output contract whenever discarded bits matter; retaining residue repairs arithmetic."
+    },
+    {
+      "name": "Leakage rounding does not commute with exact state scaling",
+      "even_inputs": 1024,
+      "differing_scaled_leak_outputs": 512,
+      "examples": [
+        {
+          "U": -1012,
+          "m": -506,
+          "reference_leak": -913,
+          "scaled_unit_leak": -912
+        },
+        {
+          "U": -1010,
+          "m": -505,
+          "reference_leak": -911,
+          "scaled_unit_leak": -910
+        },
+        {
+          "U": -1008,
+          "m": -504,
+          "reference_leak": -909,
+          "scaled_unit_leak": -908
+        },
+        {
+          "U": -1006,
+          "m": -503,
+          "reference_leak": -907,
+          "scaled_unit_leak": -906
+        },
+        {
+          "U": -1004,
+          "m": -502,
+          "reference_leak": -905,
+          "scaled_unit_leak": -904
+        }
+      ],
+      "threshold_counterexample": {
+        "U": 12,
+        "delta": 25,
+        "threshold": 12,
+        "exact_leak": 11,
+        "naive_double_leak_of_half": 12,
+        "exact_spike": false,
+        "naive_spike": true
+      },
+      "fit": "Even when U is exactly divisible by2, ordinary integer leakage in the half unit is not generally the same update. Residue/correction or aligned rounding conditions are required."
+    },
+    {
+      "name": "Stochastic divide2 is unbiased but spikes differ",
+      "scalar_inputs": 2048,
+      "unbiased_reconstruction_mismatches": 0,
+      "odd_inputs_with_threshold_disagreement": 1024,
+      "counterexample": {
+        "U": 15,
+        "threshold": 15,
+        "lower_membrane": 14,
+        "upper_membrane": 16,
+        "each_probability": 0.5,
+        "expected_membrane": 15,
+        "reference_spike": true,
+        "rounded_spike_probability": 0.5
+      },
+      "leakage_rounding_counterexample": {
+        "U": 15,
+        "beta_q8": 231,
+        "real_leak_numerator": 3465,
+        "real_leak_denominator": 256,
+        "stochastic_lower": 13,
+        "stochastic_upper": 14,
+        "upper_probability_numerator": 137,
+        "upper_probability_denominator": 256,
+        "threshold": 14,
+        "declared_ceiling_reference_spike": true,
+        "stochastic_spike_probability": 0.53515625
+      },
+      "fit": "Possible approximate SNN direction with separate training/accuracy/statistical evaluation; not exact recovery or a drop-in exact-output optimization."
+    },
+    {
+      "name": "Constant times1.5",
+      "scalar_inputs": 2048,
+      "shift_add_mismatches": 0,
+      "odd_inputs_requiring_half_fraction": 1024,
+      "exact_fractional_encoding": "Keep numerator3U=(U<<1)+U with one fractional bit.",
+      "floored_integer_encoding": "floor(1.5U)=U+floor(U/2).",
+      "fit": "Constant1.5 does not inherently require a general real multiplier. Discarding the half bit or changing state units without matching every update/threshold/reset can change SNN behavior."
+    }
+  ],
+  "strongest_exact_integration": "Use actual U to choose a proved-safe packed format; retain full integer state and exact high/low or spill correction. Test the same correction machinery in fixed DSP and LUT baselines. A persistent exponent with residue is a representation option, not a free hardware gain.",
+  "novelty_limits": [
+    "This screen does not read or verify the mentor's guard-bit paper. Root literature review must identify its precise contract and compare that mechanism.",
+    "Exact spill, guard bits, split products, mantissa/exponent and stochastic rounding are broad established concepts. A literal first-ever claim is unsupported here.",
+    "The local LUT triple and fixed hybrid are matched primitive baselines, not reproduced FireFly accelerators."
+  ],
+  "limitations": [
+    "No downloads or models modified.",
+    "No FPGA synthesis, routing, occupancy, speed, power or accelerator measurement.",
+    "No general SNN classification-loss prediction follows from the numerical threshold counterexamples.",
+    "Exponent/residue spills may simply relocate reconstruction cost to the consumer; fair end-to-end cost is required."
+  ]
+}

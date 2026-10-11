@@ -1,0 +1,44 @@
+{
+  "source_hashes": {
+    "split_leak.sv": "1871f31a0fd6840a785c3e04383ea9dd6c04729a6bee64eebfd9cfdfc6b1360d",
+    "packed_leak.sv": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1"
+  },
+  "rows": [
+    {
+      "constant_beta": 231,
+      "engine": 0,
+      "requests": 7986,
+      "mismatches": 0,
+      "driver_cycles": 9029,
+      "accepted": 7986,
+      "outputs": 7986
+    },
+    {
+      "constant_beta": 231,
+      "engine": 1,
+      "requests": 7986,
+      "mismatches": 0,
+      "driver_cycles": 9029,
+      "accepted": 7986,
+      "outputs": 7986
+    },
+    {
+      "constant_beta": -1,
+      "engine": 0,
+      "requests": 270085,
+      "mismatches": 0,
+      "driver_cycles": 271173,
+      "accepted": 270085,
+      "outputs": 270085
+    },
+    {
+      "constant_beta": -1,
+      "engine": 1,
+      "requests": 270085,
+      "mismatches": 0,
+      "driver_cycles": 271173,
+      "accepted": 270085,
+      "outputs": 270085
+    }
+  ]
+}

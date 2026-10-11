@@ -1,0 +1,8 @@
+{
+  "status": "prepared_before_follow_up_inference",
+  "reason": "prevent coefficient/channel layout aliasing, not favor selected hardware results",
+  "original_capture": "43b05e90527a86cfbd55a923169f9c85d98e0b90a3593d3d9150502fea88fff2",
+  "new_capture": "47c0f540d71bd52722176d62463ddd49fec452dc7fa24ce37e68237a69ea5db4",
+  "new_verifier": "c2e8ae203b902d94114bfd0dfe8875d40726f8b07efd36b6a71b1e6bee537478",
+  "seed": 417839
+}

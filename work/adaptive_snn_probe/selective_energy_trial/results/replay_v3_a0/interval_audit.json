@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "variant": 3,
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0",
+  "replay_check_sha256": "f475f5f1b7c29d77f6976ce03303ef4d7ac4fc588c9393a35b11d4038b75884d",
+  "duration_ps": 664272000,
+  "scalar_updates": 635904,
+  "requests": 110592,
+  "correction_steps": 1008,
+  "correction_freezes": 114,
+  "clock_transitions": 221424,
+  "raw_unknown_time_records": 1458,
+  "scope": "Exact trace/interval/SDF/SAIF checks; power relevance of raw unknown records requires mapped-net audit"
+}

@@ -1,0 +1,81 @@
+{
+  "source_hashes": {
+    "stream_fold_shared_leak.sv": "bfc89db097c197b96e2edc73308b829ee08a444a58d8f858645fe22bab96ffa4",
+    "tb_stream_fold_shared_leak.sv": "6c95f3c91357a132e98e87a6f296c3e8d8f002c40e79b8decdad6ba5e3b47641"
+  },
+  "constant_delta": -1,
+  "backpressure": true,
+  "frames": 166840,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 312578,
+      "neurons": 544431,
+      "arithmetic_issues": 305288,
+      "narrow_requests": 39347,
+      "bypass_requests": 7290,
+      "clocks": 433847,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 347274,
+      "neurons": 544431,
+      "arithmetic_issues": 339984,
+      "narrow_requests": 0,
+      "bypass_requests": 7290,
+      "clocks": 481983,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 347274,
+      "neurons": 544431,
+      "arithmetic_issues": 339984,
+      "narrow_requests": 0,
+      "bypass_requests": 7290,
+      "clocks": 481983,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 175227,
+      "narrow_requests": 0,
+      "bypass_requests": 7290,
+      "clocks": 253376,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 175227,
+      "narrow_requests": 0,
+      "bypass_requests": 7290,
+      "clocks": 253376,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 182517,
+      "neurons": 544431,
+      "arithmetic_issues": 175227,
+      "narrow_requests": 0,
+      "bypass_requests": 7290,
+      "clocks": 253376,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 314382,
+      "neurons": 544431,
+      "arithmetic_issues": 307092,
+      "narrow_requests": 37404,
+      "bypass_requests": 7290,
+      "clocks": 436341,
+      "mismatches": 0
+    }
+  ]
+}

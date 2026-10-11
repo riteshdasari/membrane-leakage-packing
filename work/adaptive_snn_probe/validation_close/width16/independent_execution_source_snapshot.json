@@ -1,0 +1,14 @@
+{
+  "status": "review_time_snapshot_not_retroactive_job_pin",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\replay_selective_energy.py": "377b565869a690ca7b8b984ee73818ec513c22ae14db98c922b68cc66eaa64af",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\normalize_saif_names.py": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\audit_selective_energy.py": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+    "C:\\AMDDesignTools\\2025.2\\Vivado\\data\\verilog\\src\\glbl.v": "6270251cf35e1fce3119fc79f8fb968912f7983027e43cf030409ba68f048936",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\independent_pipeline_checks.py": "92da76bf8bf3721753da7aadbff5a4667dc00d487fb3c953bea761dc30c0d4ac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\independent_pipeline_checks.json": "e059df17a46e50faed77472e9f08e904ab6bca2ba535448b33be77a294cfd4f1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\independent_pipeline_review.md": "6f911d8a6986f14f4ea31f6edf23ae388f7e3bf8caae06371c2320f1ddc402bf"
+  },
+  "no_vendor_tools_launched_by_review": true
+}

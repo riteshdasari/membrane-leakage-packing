@@ -1,0 +1,7 @@
+{
+  "source_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\tb_native.sv",
+  "source_sha256": "278e125ebb6d69d0bf5f44c85bdb04310e868ea62e2c7a44013ba4b906e48a54",
+  "generator_sha256": "615499c17da7bdeb1180c4348938f8c0cee3e8e2f430b04ff437a8ac2089db17",
+  "generated_tb_sha256": "11086fa54e20bae76de9ebdb9520773038e9832e7c621dba651b59d345e8f68c",
+  "scope": "Only core mapping to four one-edge comparators and completion top change; integer/protocol oracle retained"
+}

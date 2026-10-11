@@ -1,0 +1,55 @@
+[
+  {
+    "top": "top_leak_split10_const",
+    "LUT": 44,
+    "FF": 63,
+    "DSP": 1,
+    "WNS_ns": -1.107,
+    "seconds": 118.1,
+    "target_ns": 4,
+    "rtl_sha256": "1871f31a0fd6840a785c3e04383ea9dd6c04729a6bee64eebfd9cfdfc6b1360d",
+    "base_rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.238,
+    "internal_period_estimate_ns": 5.107
+  },
+  {
+    "top": "top_leak_lut10_pipe_const",
+    "LUT": 118,
+    "FF": 79,
+    "DSP": 0,
+    "WNS_ns": -0.579,
+    "seconds": 133.3,
+    "target_ns": 4,
+    "rtl_sha256": "1871f31a0fd6840a785c3e04383ea9dd6c04729a6bee64eebfd9cfdfc6b1360d",
+    "base_rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.207,
+    "internal_period_estimate_ns": 4.579
+  },
+  {
+    "top": "top_leak_split10_prog",
+    "LUT": 73,
+    "FF": 72,
+    "DSP": 1,
+    "WNS_ns": -1.229,
+    "seconds": 86.9,
+    "target_ns": 4,
+    "rtl_sha256": "1871f31a0fd6840a785c3e04383ea9dd6c04729a6bee64eebfd9cfdfc6b1360d",
+    "base_rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.185,
+    "internal_period_estimate_ns": 5.229,
+    "build_note": "Reopened unchanged synthesis checkpoint after tool failure; failure retained."
+  },
+  {
+    "top": "top_leak_lut10_pipe_prog",
+    "LUT": 218,
+    "FF": 88,
+    "DSP": 0,
+    "WNS_ns": -3.584,
+    "seconds": 121.2,
+    "target_ns": 4,
+    "rtl_sha256": "1871f31a0fd6840a785c3e04383ea9dd6c04729a6bee64eebfd9cfdfc6b1360d",
+    "base_rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.247,
+    "internal_period_estimate_ns": 7.584
+  }
+]

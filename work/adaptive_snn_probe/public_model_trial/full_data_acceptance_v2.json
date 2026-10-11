@@ -1,0 +1,10 @@
+{
+  "status": "pass_original_test10000_integrity",
+  "samples": 10000,
+  "original_archive_sha256": "6d958be074577803d12ecdefd02955f39262c83c16fe9348329d7fe0b5c001ce",
+  "pixel_sha256": "f9b1e2130bab680db56eb06d886f7f1ad0f1183907ceff4659d1735c890f5b04",
+  "label_sha256": "cbb7365de8ed11f05cc4c3a1e7f78144127c5e851efd83762fb18202461230bb",
+  "preview_pilot_rejected": true,
+  "primary_test64_exact_slice_of_primary_test10000": true,
+  "runner_sha256": "1728cea8f8c933b190a57106e5775b76fd1fb1b3e3f032b59cb7c44f94ce7256"
+}

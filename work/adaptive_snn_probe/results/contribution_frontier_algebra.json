@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "domain": "U signed11, I signed8, exact signed12 result",
+  "source_sha256": "cee499f21c3dbbe29d38e0e0f81bc968016de7d59cebed5e8d2edc5e4332c0d0",
+  "random_seed": 20261010,
+  "layouts": [
+    {
+      "residue_bits": 7,
+      "field_bits": 8,
+      "lanes": 6,
+      "exhaustive_scalar_pairs": 524288,
+      "structured_random_packed_vectors": 20176,
+      "high_range": [
+        -9,
+        8
+      ],
+      "signed_high_width": 5,
+      "mismatches": 0
+    },
+    {
+      "residue_bits": 5,
+      "field_bits": 6,
+      "lanes": 8,
+      "exhaustive_scalar_pairs": 524288,
+      "structured_random_packed_vectors": 20176,
+      "high_range": [
+        -36,
+        35
+      ],
+      "signed_high_width": 7,
+      "mismatches": 0
+    }
+  ],
+  "certificate": "Each unsigned residue sum is <=2^(b+1)-2; no field overflows. The complete result is2^b*(hU+hI+carry)+low for every full-domain operand.",
+  "implication": "Fixed8 using5-bit residues supports the same full input domain as fixed6 using7-bit residues. More lanes are not uniquely enabled by runtime membrane range selection.",
+  "scope": "Algebra and software vector audit only. No RTL, routing, scheduling, memory bandwidth, resource, power or model-accuracy claim."
+}

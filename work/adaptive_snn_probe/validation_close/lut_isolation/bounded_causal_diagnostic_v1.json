@@ -1,0 +1,94 @@
+{
+  "status": "bounded_causal_diagnostic_complete_original_numerical_issue_unresolved",
+  "discrepancies": [
+    {
+      "policy_percent": 0,
+      "row": 914,
+      "got": {
+        "data_hex": "0421fd",
+        "lane0": 509,
+        "lane1": 66,
+        "controls": {
+          "in_ready": 1,
+          "take": 2,
+          "out_valid": 1,
+          "out_count": 2,
+          "narrow_mode": 0
+        }
+      },
+      "expected": {
+        "data_hex": "042ffd",
+        "lane0": -3,
+        "lane1": 66,
+        "controls": {
+          "in_ready": 1,
+          "take": 2,
+          "out_valid": 1,
+          "out_count": 2,
+          "narrow_mode": 0
+        }
+      },
+      "lane0_error": 512,
+      "lane1_error": 0
+    },
+    {
+      "policy_percent": 100,
+      "row": 5701,
+      "got": {
+        "data_hex": "df9ff7",
+        "lane0": -9,
+        "lane1": -519,
+        "controls": {
+          "in_ready": 1,
+          "take": 2,
+          "out_valid": 1,
+          "out_count": 2,
+          "narrow_mode": 0
+        }
+      },
+      "expected": {
+        "data_hex": "ff9ff7",
+        "lane0": -9,
+        "lane1": -7,
+        "controls": {
+          "in_ready": 1,
+          "take": 2,
+          "out_valid": 1,
+          "out_count": 2,
+          "narrow_mode": 0
+        }
+      },
+      "lane0_error": 0,
+      "lane1_error": -512
+    }
+  ],
+  "all_replay_control_fields_equal": true,
+  "same_error_in_historical_raw_and_EOF_only_balanced": true,
+  "exactly_four_pulse_limit_arguments_changed": true,
+  "zero_original_only_settled_error_under_matching_live_shadow_inputs": true,
+  "pulse100_full_replay_still_fails": true,
+  "next_control_source_only": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\port_context_v1\\preparation.json",
+  "timing_checks_waived": false,
+  "original_raw_evidence_modified": false,
+  "original_discrepancy_resolved": false,
+  "hardware_or_energy_acceptance": false,
+  "scope": "The E2 delayed replay diagnosis remains open. Separately audited E7 energy and fixed16 packing evidence must retain their own acceptance gates.",
+  "bounded_conclusions": [
+    "The zero-limit combined replay reproduces row914. The original cell has a settled Boolean discrepancy while the flat live-input shadow is correct under matching observed inputs, localizing a context/port-path/event-treatment difference rather than erroneous leakage algebra.",
+    "Explicit100 limits remove the first row914 failure but leave a later full-replay failure. Simulation behavior is pulse-policy sensitive; the numerical replay is not fixed.",
+    "Per-bit observer ordering is not an event-region/delta trace; effective short-pulse rejection and a simulator or physical hardware defect remain unproved."
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\write_bounded_causal_report_v1.py": "373c559dc2476566381e3bb589908625611d331268b0be2d3f8993a02e185f82",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\paired_pulse_audit_v1.json": "e89a8f7ef34cf88bef7cb3f8deccbf23ed9b6163227b737b9ff117e6d109f993",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\historical_discrepancy_fields_v1.json": "777587bd03701a4c08ccc637a8f9d16c1c43e645a293483de1a3febcf9820478",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\port_context_v1\\source_checks_v1.json": "a02bc64d9aa2a09d6ef9e142bc22eb98a52e8e13bf56088b401e84c1e39ecb8e"
+  },
+  "unclosed_gates": [
+    "Exact simulator event-region/port-path cause has not been identified.",
+    "No original full known-row delayed replay passes under either tested policy.",
+    "The local output concatenation control is prepared and source-checked but not executed.",
+    "Representative model energy and final selected energy require separate accepted closures.",
+    "Four inaccessible complete prior methods retain the previously declared novelty limit; no first-ever claim is established."
+  ]
+}

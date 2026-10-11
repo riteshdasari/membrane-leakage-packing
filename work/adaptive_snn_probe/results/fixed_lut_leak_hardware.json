@@ -1,0 +1,26 @@
+[
+  {
+    "top": "top_leak_lut8_factored",
+    "LUT": 43,
+    "FF": 34,
+    "DSP": 0,
+    "WNS_ns": -0.517,
+    "seconds": 103.1,
+    "target_ns": 4,
+    "rtl_sha256": "079a6529ee80906a9cf74600320b21315f75efb17e679c8ebf7de6cceb33656b",
+    "WHS_ns": 0.313,
+    "internal_period_estimate_ns": 4.517
+  },
+  {
+    "top": "top_leak_lut8_rom",
+    "LUT": 6,
+    "FF": 10,
+    "DSP": 0,
+    "WNS_ns": 1.289,
+    "seconds": 92.6,
+    "target_ns": 4,
+    "rtl_sha256": "079a6529ee80906a9cf74600320b21315f75efb17e679c8ebf7de6cceb33656b",
+    "WHS_ns": 0.166,
+    "internal_period_estimate_ns": 2.7110000000000003
+  }
+]

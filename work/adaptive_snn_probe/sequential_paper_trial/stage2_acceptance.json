@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "samples": 10000,
+  "correct": 9405,
+  "float_correct": 9403,
+  "class_disagreements": 371,
+  "neuron_updates": 24903680000,
+  "checked_pin_count": 10,
+  "observed_old_state_range": [
+    -1378,
+    1529
+  ],
+  "observed_next_state_range": [
+    -2038,
+    1752
+  ],
+  "scope": "Artifact integrity, full-test classification accounting, observed bounds and first-batch independent numerical checks. Not full-model integer-synapse or hardware verification."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "prepared_only",
+  "vendor_jobs_launched": false,
+  "original_runner_sha256": "b7078c7d1c70175fc892cd60bd549ad90ecc58081553927b0a30fdd647f805e2",
+  "new_runner_sha256": "ab726f1749d7b7a5b55535b67bfe99a33265364ae0811de75128512ecd161c54",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_shadow_context_v2.py": "b7078c7d1c70175fc892cd60bd549ad90ecc58081553927b0a30fdd647f805e2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_shadow_context_v2_pulse100.py": "ab726f1749d7b7a5b55535b67bfe99a33265364ae0811de75128512ecd161c54",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\prepare_pulse_sensitivity.py": "7b52b0ffe3c040a1583177712cbec894412b8bd51df33435a1260c8024a05ffb"
+  },
+  "only_source_changes": [
+    [
+      "'-pulse_r', '0'",
+      "'-pulse_r', '100'"
+    ],
+    [
+      "'-pulse_int_r', '0'",
+      "'-pulse_int_r', '100'"
+    ],
+    [
+      "'-pulse_e', '0'",
+      "'-pulse_e', '100'"
+    ],
+    [
+      "'-pulse_int_e', '0'",
+      "'-pulse_int_e', '100'"
+    ]
+  ],
+  "pulse_limits_percent": 100,
+  "unchanged_transport_SDF_checks_rows_canary": true,
+  "scope": "Sensitivity diagnostic only; cannot replace zero-limit replay acceptance."
+}

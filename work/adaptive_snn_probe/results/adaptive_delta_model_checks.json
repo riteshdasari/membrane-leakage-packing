@@ -1,0 +1,183 @@
+{
+  "source_hashes": {
+    "adaptive_delta_leak.sv": "26969dcc2c4b8c28f7c727c6dfde464eddd27aa722e410156a55aa41c3c9581a",
+    "tb_adaptive_delta_leak.sv": "6d1fa413755beb158da24e785709ae104acd05da1e4dd5ae194cd911ee73cff3"
+  },
+  "rows": [
+    {
+      "engine": 0,
+      "groups": 110592,
+      "neuron_operations": 663552,
+      "mismatches": 0,
+      "cycles": 610890,
+      "issue_slots": 286262,
+      "narrow_groups": 34792,
+      "bypass_groups": 3574,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 200362
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 207205
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 203323
+        }
+      ],
+      "state_mismatches": 0,
+      "spike_mismatches": 0
+    },
+    {
+      "engine": 1,
+      "groups": 110592,
+      "neuron_operations": 663552,
+      "mismatches": 0,
+      "cycles": 645682,
+      "issue_slots": 321054,
+      "narrow_groups": 0,
+      "bypass_groups": 3574,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 214939
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 215374
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 215369
+        }
+      ],
+      "state_mismatches": 0,
+      "spike_mismatches": 0
+    },
+    {
+      "engine": 2,
+      "groups": 110592,
+      "neuron_operations": 663552,
+      "mismatches": 0,
+      "cycles": 645682,
+      "issue_slots": 321054,
+      "narrow_groups": 0,
+      "bypass_groups": 3574,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 214939
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 215374
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 215369
+        }
+      ],
+      "state_mismatches": 0,
+      "spike_mismatches": 0
+    },
+    {
+      "engine": 3,
+      "groups": 110592,
+      "neuron_operations": 663552,
+      "mismatches": 0,
+      "cycles": 431646,
+      "issue_slots": 107018,
+      "narrow_groups": 0,
+      "bypass_groups": 3574,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 143709
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 143970
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 143967
+        }
+      ],
+      "state_mismatches": 0,
+      "spike_mismatches": 0
+    },
+    {
+      "engine": 5,
+      "groups": 110592,
+      "neuron_operations": 663552,
+      "mismatches": 0,
+      "cycles": 645682,
+      "issue_slots": 321054,
+      "narrow_groups": 0,
+      "bypass_groups": 3574,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 214939
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 215374
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "exact_spike_counts": true,
+          "trace_group_cycles": 215369
+        }
+      ],
+      "state_mismatches": 0,
+      "spike_mismatches": 0
+    }
+  ]
+}

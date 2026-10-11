@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "C:/Users/Ritesh/rn_dps/.venv/Scripts/python.exe",
+    "-B",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/residue_frontier_u13_trial/audit_u13_power.py",
+    "--power-dir",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/residue_frontier_u13_trial/results/power_e0_a1",
+    "--output",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/residue_frontier_u13_trial/results/power_e0_a1/power_audit.json"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\power_e0_a1",
+  "returncode": 0,
+  "seconds": 5.12,
+  "free_GiB_at_start": 2.99029541015625,
+  "sampled_min_free_GiB": 2.8359107971191406,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.10772705078125,
+  "memory_samples": 5,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\finish_interrupted_hardware_queue.py": "e1930fc171ece79c339dcd20fc22d2ced68ffddb9039e82ef19be2d87b55f993",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\audit_u13_power.py": "c483724c3e3aa0bb8bda54c3d72f0c0db7581efc2ea52b4c18f845a464d1fff5"
+  },
+  "log_sha256": "d96ad2bb3c33efe68498d3470c0d9e6f3ca1ab5d274b10ca2fd5b71dde06f5a6"
+}

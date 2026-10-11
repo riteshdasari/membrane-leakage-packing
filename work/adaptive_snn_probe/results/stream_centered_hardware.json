@@ -1,0 +1,38 @@
+[
+  {
+    "top": "top_stream_centered_offset_const",
+    "LUT": 241,
+    "FF": 131,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "WNS_ns": -0.402,
+    "WHS_ns": 0.154,
+    "internal_period_estimate_ns": 4.402,
+    "boundary_WNS_ns": -7.882,
+    "boundary_WHS_ns": -0.258,
+    "boundary_period_estimate_ns": 11.882,
+    "target_ns": 4,
+    "seconds": 126.5,
+    "rtl_sha256": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+    "retried_checkpoint": false
+  },
+  {
+    "top": "top_stream_centered_offset_prog",
+    "LUT": 306,
+    "FF": 131,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "WNS_ns": -0.516,
+    "WHS_ns": 0.184,
+    "internal_period_estimate_ns": 4.516,
+    "boundary_WNS_ns": -9.291,
+    "boundary_WHS_ns": -0.258,
+    "boundary_period_estimate_ns": 13.291,
+    "target_ns": 4,
+    "seconds": 151.5,
+    "rtl_sha256": "060ed5be4f84e7fccebd7f997cb4d2ef039c28bb37030d554e49d38444449206",
+    "retried_checkpoint": true
+  }
+]

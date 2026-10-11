@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "coefficient": 253,
+  "domain": [
+    -32768,
+    32767
+  ],
+  "cases": 65536,
+  "mismatches": 0,
+  "equation": "ceil(253U/256)=U-floor(3U/256)",
+  "implementation": "3U=(U<<1)+U at signed18; arithmetic shift8 for floor; exact subtract",
+  "inference_performed": false
+}

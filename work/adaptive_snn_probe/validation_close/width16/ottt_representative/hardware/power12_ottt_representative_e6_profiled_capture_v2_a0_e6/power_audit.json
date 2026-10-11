@@ -1,0 +1,139 @@
+{
+  "status": "pass",
+  "engine": 6,
+  "design_top": "top_sequential_leak16_e6",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\hardware\\power12_ottt_representative_e6_profiled_capture_v2_a0_e6",
+  "auditor_sha256": "521f0ee5d4271a0e5e6ca98124b592ce354e84173366869e709e8646dd1d1651",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 319,
+  "physical_activity_source_counts": {
+    "S": 487,
+    "C": 3,
+    "D": 5
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 339,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 6,
+    "design_top": "top_sequential_leak16_e6",
+    "duration_ps": 1577904000,
+    "scalar_updates": 262144,
+    "requests": 131488,
+    "retirements": 131488,
+    "clock_transitions": 262984,
+    "raw_unknown_time_records": 339,
+    "scope": "Representative OTTT64 fixed16 actual source operands, signed9 pair metadata, golden fixture, exact routed/SDF replay and SAIF interval audit"
+  },
+  "critical_dsp_activity": {},
+  "settled_constant_ffs": {
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.002269,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8011354999999998e-06,
+  "dynamic_energy_J": 3.5802641760000003e-06,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 13.657623962402345,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.016860667839019773,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.002269",
+      "iccq": "0.014842",
+      "power": "0.017110"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.607674"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 12,
+  "fixture_FF": 94,
+  "power_xpe_sha256": "54c7d8f365ee7e980de2b26f3590855f5e60c0b3eb0e771ea63e17cf341390f1",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json",
+  "routed_hardware_sha256": "904b63b53aebb0c164c79db53ea07d691dab3f9203a0ae7abd9a918ab3f44c6c",
+  "core_resources": {
+    "LUT": 35,
+    "FF": 70,
+    "DSP": 0,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 23
+  },
+  "WNS_ns": 6.041,
+  "WHS_ns": 0.155,
+  "scope": "Representative OTTT64 after common zero filtering: vendor estimated dynamic energy of complete common 94-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error",
+  "certified_export_audit": {
+    "status": "pass_exact_derived_export_reproduction",
+    "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\hardware\\export12_ottt_representative_e6_profiled_capture_v2_a0_e6\\export_binding_certificate.json",
+    "export_binding_sha256": "39c4c043aab905ec996dfc56cea91a45d029941f0eba28dbbb3e8b3235b6fa86",
+    "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\hardware\\export12_ottt_representative_e6_profiled_capture_v2_a0_e6\\sdf_structure_certificate.json",
+    "SDF_structure_certificate_sha256": "fba9443db8414fc8e815894e811c31241a0bc83b989e352598bdd4cdcd55b26f",
+    "raw_SDF_sha256": "86c363c9defa735339b86ea0585218f5cfd0b9b1537aa650edbe627c8f6b1511",
+    "derived_SDF_sha256": "88a7ab92a037616162629d92ec73d2bc34baf7850f6a28316e0d025c9f33269e",
+    "appended_closing_parentheses": 3,
+    "numerical_timing_changes": 0,
+    "annotation_path_string_changes": 1,
+    "causal_discrepancy_resolution_claimed": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "time_utc": "2026-10-10T23:42:36.7308966Z",
+  "processes": [
+    {
+      "ProcessId": 30100,
+      "ParentProcessId": 21628,
+      "Name": "xsim.exe",
+      "KernelModeTime": 29687500,
+      "UserModeTime": 20312500,
+      "WorkingSetSize": 209502208,
+      "CreationDate": "2026-10-11T04:56:42.355726+05:30",
+      "CommandLine": "\"C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xsim.exe\"   \"sim\" \"-testplusarg\" \"TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/native_actual_glif_s0_close_a0/trace6.txt\" \"-testplusarg\" \"ROWS=262533\" \"-testplusarg\" \"ROI_FIRST=3\" \"-testplusarg\" \"ROI_LAST=131332\" \"-tclbatch\" \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/replay12_glif_e7_profiled_all_a0_e7/activity.tcl\""
+    },
+    {
+      "ProcessId": 28692,
+      "ParentProcessId": 30100,
+      "Name": "xsimk.exe",
+      "KernelModeTime": 81093750,
+      "UserModeTime": 9201250000,
+      "WorkingSetSize": 1658441728,
+      "CreationDate": "2026-10-11T04:56:43.166365+05:30",
+      "CommandLine": "xsim.dir/sim/xsimk.exe -simmode gui -testplusarg TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/native_actual_glif_s0_close_a0/trace6.txt -testplusarg ROWS=262533 -testplusarg ROI_FIRST=3 -testplusarg ROI_LAST=131332 -wdb sim.wdb -simrunnum 0 -socket 51901"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\activity.tcl",
+      "length": 261,
+      "last_write_utc": "2026-10-10T23:26:17.8692495Z",
+      "sha256": "f5939a36208da28839b670489c12729c6cff0bb3332afbbdb6c0dc867be6fd69"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\provenance.json",
+      "length": 13569,
+      "last_write_utc": "2026-10-10T23:26:17.8833074Z",
+      "sha256": "e2cd0ce98b4490fe12868ad83ca41ca2923d214cc3316b655843ee1e16e2ade8"
+    }
+  ],
+  "job_receipt_present": false,
+  "last_log_lines": [
+    "Time resolution is 1 ps",
+    "source C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/width16/lutceil_e7/hardware/replay12_glif_e7_profiled_all_a0_e7/activity.tcl",
+    "## run 167999 ps",
+    "## open_saif activity.saif",
+    "## current_scope /tb_sequential_energy_replay16/dut",
+    "## log_saif [get_objects -r *]",
+    "## run 1575984000 ps",
+    "REPLAY ROI_START V7 TIME_NS 168.000 ROW 3"
+  ]
+}

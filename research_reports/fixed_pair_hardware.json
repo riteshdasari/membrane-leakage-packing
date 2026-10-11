@@ -1,0 +1,42 @@
+[
+  {
+    "top": "top_pair6",
+    "LUT": 1269,
+    "FF": 1552,
+    "DSP": 3,
+    "WNS_ns": -0.522,
+    "seconds": 415.2,
+    "target_ns": 4,
+    "critical_period_estimate_ns": 4.522
+  },
+  {
+    "top": "top_pair8",
+    "LUT": 1129,
+    "FF": 1260,
+    "DSP": 4,
+    "WNS_ns": -0.396,
+    "seconds": 424.9,
+    "target_ns": 4,
+    "critical_period_estimate_ns": 4.396
+  },
+  {
+    "top": "top_pair12",
+    "LUT": 1021,
+    "FF": 1288,
+    "DSP": 6,
+    "WNS_ns": -0.577,
+    "seconds": 254.4,
+    "target_ns": 4,
+    "critical_period_estimate_ns": 4.577
+  },
+  {
+    "top": "top_pairlut",
+    "LUT": 1170,
+    "FF": 1384,
+    "DSP": 0,
+    "WNS_ns": -0.381,
+    "seconds": 143.8,
+    "target_ns": 4,
+    "critical_period_estimate_ns": 4.381
+  }
+]

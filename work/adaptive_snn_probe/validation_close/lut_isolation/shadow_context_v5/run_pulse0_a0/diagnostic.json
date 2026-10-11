@@ -1,0 +1,106 @@
+{
+  "status": "completed_bounded_combined_shadow_diagnostic",
+  "gates": {
+    "work_CARRY4_bound": true,
+    "one_combined_full_SDF_accepted_at_TB_root": true,
+    "annotation_not_ignored": true,
+    "no_elaboration_warning_or_error": true,
+    "no_runtime_timing_warning_or_error": true,
+    "positive50ps_settled600ps_canary": true,
+    "causal_snapshots_completed": true
+  },
+  "pulse_limit_percent": 0,
+  "original_netlist_and_raw_SDF_modified": false,
+  "combined_SDF_explicit_EOF_completion_and_INSTANCE_relocation": true,
+  "vendor_CARRY4_modified": false,
+  "timing_checks_disabled": false,
+  "original_row914_failure": true,
+  "full_original_known_row_replay_pass": false,
+  "replay_mismatches": [
+    {
+      "row": 914,
+      "got": "6c0843fa",
+      "expected": "6c085ffa"
+    }
+  ],
+  "observations": [
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11082.001 ROW913 ORIG_AGE7.038 SHADOW_AGE7.038 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q1",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11094.001 ROW914 ORIG_AGE6.761 SHADOW_AGE6.761 ORIG_S0 SHADOW_S0 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O0 EXPECT_O0 EXPECT_CO0 D0 Q1",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT after_last_glitch T11100.500 ROW914 ORIG_AGE1.126 SHADOW_AGE1.126 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D0 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": true,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT plus500ps T11101.000 ROW914 ORIG_AGE1.626 SHADOW_AGE1.626 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D0 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": true,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT before_capture T11105.999 ROW915 ORIG_AGE6.625 SHADOW_AGE6.625 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D0 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": true,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT after_capture T11106.001 ROW915 ORIG_AGE6.627 SHADOW_AGE6.627 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D0 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": true,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11106.001 ROW915 ORIG_AGE6.627 SHADOW_AGE6.627 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D0 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": true,
+      "shadow_wrong": false
+    }
+  ],
+  "bounded_conclusion": "Original-only settled discrepancy under matching observed inputs implicates context/delta or port-path treatment; not an arithmetic or hardware fix.",
+  "annotation_success_lines": [
+    "INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/shadow_context_v5/run_pulse0_a0/original_and_shadow_full.sdf\", for root module \"tb_sequential_energy_replay\"."
+  ],
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse0_a0\\tool_0.log": "78becad1a4bf8e4f82b259713aca5d84410887b3b919d49a428e84a1299b8dbf",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse0_a0\\tool_1.log": "f4546ddd890aa83b4135e550fed31ea94e38ff1ba1b336e0e63c9f76f18e34e5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse0_a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse0_a0\\tool_3.log": "3a03ea2cbaf78b9cd626596c875ac34fe5e648e1bda6de3c6d172ce1c1e683ae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse0_a0\\tool_4.log": "49ae4c570641ae65068911b35e697c0e9a9d1b6f9ff73373e5e2cff46bc15175"
+  },
+  "diagnostic_only": true,
+  "original_discrepancy_resolved": false,
+  "hardware_or_energy_acceptance": false,
+  "event_trace_limit": "Per-bit observer order is not an exact simulator region/delta dump."
+}

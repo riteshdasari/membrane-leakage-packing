@@ -1,0 +1,48 @@
+{
+  "source_hashes": {
+    "stream_pipeline_strong_leak.sv": "83a887e1f52d1cecc9e046148467155b4d5528ea9a1341bcd0d46c700b45e391",
+    "tb_stream_pipeline_strong_leak.sv": "a0276acae3daf818b2f0dcded648b2d58927fac86d0a94c54e6c252ad601f528",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 236522,
+  "tested_engines": [
+    3,
+    5
+  ],
+  "stimulus_sha256": "101a1d4312e01de0062de510e78140d8cc3edfd0e213b1a3c65c33cd08293bde",
+  "matched_original_stimulus": true,
+  "centered_wide": false,
+  "wide_residual_encoding": "unsigned",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "real_neurons": 753861,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 3,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 249759,
+      "narrow_requests": 0,
+      "bypass_requests": 2664,
+      "clocks": 252633,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 249759,
+      "narrow_requests": 0,
+      "bypass_requests": 2664,
+      "clocks": 252633,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    }
+  ]
+}

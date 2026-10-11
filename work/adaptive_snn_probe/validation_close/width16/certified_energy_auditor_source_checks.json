@@ -1,0 +1,52 @@
+{
+  "status": "pass_additive_certified_energy_auditor_source_checks",
+  "changes": [
+    {
+      "cached_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_cached.py",
+      "cached_sha256": "c580d3156ac076f4c16fc96274c0587e8a8d8e5072fc77c6bea01f4a070b4e0f",
+      "certified_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "certified_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "cached_checks_unchanged_as_exact_prefix": true,
+      "addition": "Before original strict annotation audit, independently reproduce EOF-only SDF and exact one-string annotation-path binding certificates."
+    },
+    {
+      "cached_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_cached.py",
+      "cached_sha256": "ba8c3537bfdc8a32ee09e8099c6ec77b7c66f9aff292373448ea5b5ecbc9173a",
+      "certified_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_certified.py",
+      "certified_sha256": "57d8ee7b1700dec06595ebb809ab383f831bf094f007e3efa8dd311eee0a9917",
+      "cached_checks_unchanged_as_exact_prefix": true,
+      "addition": "Before original strict annotation audit, independently reproduce EOF-only SDF and exact one-string annotation-path binding certificates."
+    },
+    {
+      "cached_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12_cached.py",
+      "cached_sha256": "59bc0b347c758315752a24da56a2b85159f9ff68d98a50cd1d8c3d9f575a220f",
+      "certified_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12_certified.py",
+      "certified_sha256": "521f0ee5d4271a0e5e6ca98124b592ce354e84173366869e709e8646dd1d1651",
+      "cached_checks_unchanged_as_exact_prefix": true,
+      "addition": "Before original strict annotation audit, independently reproduce EOF-only SDF and exact one-string annotation-path binding certificates."
+    }
+  ],
+  "selected_verifier": {
+    "original_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence.py",
+    "original_sha256": "deba54c2c3135cf1fb35a145ae2b4ddc3169671746423d83295e479d7eb5da9f",
+    "new_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence_certified.py",
+    "new_sha256": "ad8053174af02caa11d805f7d577c5bc5578bc8c8439b241c725a4a1efe3e484",
+    "exact_reverse_two_path_substitutions": true
+  },
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_certified_energy_auditors.py": "a7e6f9d6f845a5fa8b66ab047a6c070009d978063cd28d7be1b96d5478586814",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\cached_energy_auditor_source_equivalence.json": "32876bc6c2c861e121ba071ac7c2bfa0083f6da95ba2311244cb8f2116738775",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\certify_energy_export.py": "ae05621f97cf175bb601a1ece56577eef84d1122f9d6f662d2d33d5a71073dae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence.py": "deba54c2c3135cf1fb35a145ae2b4ddc3169671746423d83295e479d7eb5da9f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_cached.py": "c580d3156ac076f4c16fc96274c0587e8a8d8e5072fc77c6bea01f4a070b4e0f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_cached.py": "ba8c3537bfdc8a32ee09e8099c6ec77b7c66f9aff292373448ea5b5ecbc9173a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12_cached.py": "59bc0b347c758315752a24da56a2b85159f9ff68d98a50cd1d8c3d9f575a220f"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence_certified.py": "ad8053174af02caa11d805f7d577c5bc5578bc8c8439b241c725a4a1efe3e484",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_certified.py": "57d8ee7b1700dec06595ebb809ab383f831bf094f007e3efa8dd311eee0a9917",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12_certified.py": "521f0ee5d4271a0e5e6ca98124b592ce354e84173366869e709e8646dd1d1651"
+  },
+  "vendor_jobs_launched": false
+}

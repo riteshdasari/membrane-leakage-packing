@@ -1,0 +1,116 @@
+{
+  "source_hashes": {
+    "guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+    "tb_guard_add_retime.sv": "776d1fbea25692c3310fafdf6134fa3572f5498e3b87dc920bd09883fd65dc98",
+    "check_guard_add_retime.py": "9c1aea14a7806e88ec58530b340219a584eac3247c1cd7717e519fa607348304",
+    "check_guard_add_retime_snn.py": "11561071b10f349f8c4367b7113a87d40f0fb6d5406874deac75f0fbc4294df9",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+  },
+  "backpressure": true,
+  "frames": 9216,
+  "rows": [
+    {
+      "variant": 0,
+      "reference_engine": 2,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "variant": 1,
+      "reference_engine": 3,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 0,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "variant": 2,
+      "reference_engine": 2,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    {
+      "variant": 3,
+      "reference_engine": 3,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 0,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 151549,
+      "input_stall_checks": 31977,
+      "output_stall_checks": 33471,
+      "latency_checks": 110592,
+      "mismatches": 0,
+      "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    }
+  ],
+  "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+  "stimulus_file": "retime_models_1/stream_stim.txt",
+  "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_stim.txt",
+  "matched_original_stimulus": true,
+  "outputs_byte_identical": true,
+  "tested_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "expected_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "model_input_sha256": {
+    "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+    "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+  },
+  "model_input_base": "../results",
+  "validation_kind": "saved_model_addition_replay",
+  "source_contract": "valid and both entire raw six-value payloads held until acceptance; input valid low during reset",
+  "acceptance_to_handshake_advances": 4,
+  "integer_operation": "signed11 U + signed11 I -> exact signed12 sum",
+  "reference_variants": [
+    2,
+    3
+  ],
+  "reference_operation": "Original guard_add E2/E3 instantiated directly in the testbench",
+  "retirement_columns": [
+    "frame",
+    "position",
+    "count",
+    "coefficient_placeholder0",
+    "out72_hex",
+    "acceptance_clock",
+    "retirement_clock",
+    "narrow_mode"
+  ],
+  "scope": "Exact hybrid/LUT baseline-retiming equivalence; no memory, power, board or trained-accuracy claim"
+}

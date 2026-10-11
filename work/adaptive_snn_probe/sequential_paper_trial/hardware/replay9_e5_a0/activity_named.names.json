@@ -1,0 +1,164 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\replay9_e5_a0\\activity.saif",
+  "source_sha256": "cc1dd6160a6d14d0b634ecc257475bdb66ee74be2bd679cf4c9a1d7bf224101a",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\replay9_e5_a0\\activity_named.saif",
+  "target_sha256": "7e6c0b3fd87e545d05248e8ec47bccdb0a0e438187a6b656bd1d008308431c82",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 30,
+  "changes": [
+    {
+      "line": 337,
+      "old": "\\\\a_q\\[10\\]_i_1_n_0\\",
+      "new": "a_q\\[10\\]_i_1_n_0"
+    },
+    {
+      "line": 338,
+      "old": "\\\\a_q\\[15\\]_i_1_n_0\\",
+      "new": "a_q\\[15\\]_i_1_n_0"
+    },
+    {
+      "line": 339,
+      "old": "\\\\a_q\\[9\\]_i_1_n_0\\",
+      "new": "a_q\\[9\\]_i_1_n_0"
+    },
+    {
+      "line": 372,
+      "old": "\\\\count1_reg_n_0_\\[0\\]\\",
+      "new": "count1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 373,
+      "old": "\\\\count1_reg_n_0_\\[1\\]\\",
+      "new": "count1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 374,
+      "old": "\\\\count2\\[0\\]_i_1_n_0\\",
+      "new": "count2\\[0\\]_i_1_n_0"
+    },
+    {
+      "line": 375,
+      "old": "\\\\count2\\[1\\]_i_1_n_0\\",
+      "new": "count2\\[1\\]_i_1_n_0"
+    },
+    {
+      "line": 379,
+      "old": "\\\\one_dsp\\.dsp_i_10_n_0\\",
+      "new": "one_dsp\\.dsp_i_10_n_0"
+    },
+    {
+      "line": 380,
+      "old": "\\\\one_dsp\\.dsp_i_11_n_0\\",
+      "new": "one_dsp\\.dsp_i_11_n_0"
+    },
+    {
+      "line": 381,
+      "old": "\\\\one_dsp\\.dsp_i_12_n_0\\",
+      "new": "one_dsp\\.dsp_i_12_n_0"
+    },
+    {
+      "line": 382,
+      "old": "\\\\one_dsp\\.dsp_i_1_n_0\\",
+      "new": "one_dsp\\.dsp_i_1_n_0"
+    },
+    {
+      "line": 383,
+      "old": "\\\\one_dsp\\.dsp_i_2_n_0\\",
+      "new": "one_dsp\\.dsp_i_2_n_0"
+    },
+    {
+      "line": 384,
+      "old": "\\\\one_dsp\\.dsp_i_3_n_0\\",
+      "new": "one_dsp\\.dsp_i_3_n_0"
+    },
+    {
+      "line": 385,
+      "old": "\\\\one_dsp\\.dsp_i_4_n_0\\",
+      "new": "one_dsp\\.dsp_i_4_n_0"
+    },
+    {
+      "line": 386,
+      "old": "\\\\one_dsp\\.dsp_i_5_n_0\\",
+      "new": "one_dsp\\.dsp_i_5_n_0"
+    },
+    {
+      "line": 387,
+      "old": "\\\\one_dsp\\.dsp_i_6_n_0\\",
+      "new": "one_dsp\\.dsp_i_6_n_0"
+    },
+    {
+      "line": 388,
+      "old": "\\\\one_dsp\\.dsp_i_7_n_0\\",
+      "new": "one_dsp\\.dsp_i_7_n_0"
+    },
+    {
+      "line": 389,
+      "old": "\\\\one_dsp\\.dsp_i_8_n_0\\",
+      "new": "one_dsp\\.dsp_i_8_n_0"
+    },
+    {
+      "line": 390,
+      "old": "\\\\one_dsp\\.dsp_i_9_n_0\\",
+      "new": "one_dsp\\.dsp_i_9_n_0"
+    },
+    {
+      "line": 442,
+      "old": "\\\\out_data\\[14\\]_INST_0_i_2_n_0\\",
+      "new": "out_data\\[14\\]_INST_0_i_2_n_0"
+    },
+    {
+      "line": 443,
+      "old": "\\\\out_data\\[15\\]_INST_0_i_1_n_0\\",
+      "new": "out_data\\[15\\]_INST_0_i_1_n_0"
+    },
+    {
+      "line": 444,
+      "old": "\\\\out_data\\[16\\]_INST_0_i_1_n_0\\",
+      "new": "out_data\\[16\\]_INST_0_i_1_n_0"
+    },
+    {
+      "line": 445,
+      "old": "\\\\out_data\\[19\\]_INST_0_i_1_n_0\\",
+      "new": "out_data\\[19\\]_INST_0_i_1_n_0"
+    },
+    {
+      "line": 446,
+      "old": "\\\\out_data\\[20\\]_INST_0_i_1_n_0\\",
+      "new": "out_data\\[20\\]_INST_0_i_1_n_0"
+    },
+    {
+      "line": 447,
+      "old": "\\\\out_data\\[20\\]_INST_0_i_2_n_0\\",
+      "new": "out_data\\[20\\]_INST_0_i_2_n_0"
+    },
+    {
+      "line": 448,
+      "old": "\\\\out_data\\[20\\]_INST_0_i_3_n_0\\",
+      "new": "out_data\\[20\\]_INST_0_i_3_n_0"
+    },
+    {
+      "line": 481,
+      "old": "\\\\take\\[1\\]_INST_0_i_2_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_2_n_0"
+    },
+    {
+      "line": 482,
+      "old": "\\\\take\\[1\\]_INST_0_i_4_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_4_n_0"
+    },
+    {
+      "line": 483,
+      "old": "\\\\take\\[1\\]_INST_0_i_5_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_5_n_0"
+    },
+    {
+      "line": 484,
+      "old": "\\\\take\\[1\\]_INST_0_i_6_n_0\\",
+      "new": "take\\[1\\]_INST_0_i_6_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

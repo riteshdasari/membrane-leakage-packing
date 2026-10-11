@@ -1,0 +1,19 @@
+{
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_f5_trial\\guard_add_frontier_f5.sv": "40bd9ae237af5a19321e658e113e31cf2edaece6f5c420939ac304f19627617f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_f5_trial\\guard_add_frontier_f5_timing.sv": "03149a963a386b72310abf84cf19156c82a2472dbc8118a9b76feb63895b6dd1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\route_frontier.tcl": "b44289517a6bf910676741f905734f340697234f7eb5e7e5db1339c61e8d75b1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\export_frontier.tcl": "bc005fed8ceab3ccd093fe4c733581d398e77d243e3690bc9901f16de3ad210e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\tb_frontier_route_replay.sv": "72dadf6424679599cf1945258457534fd016bc4c8fc7b454cd4ba2d99c278854",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_rtl.py": "ed8525b7007d0b1ef48ddb7f399d748245db788b7d184b82c688117304157071"
+  },
+  "prepared_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13.sv": "ad17bb3cdbbc5a5a5182e2d37a647de153e28fcb3d43bc914d629c6499cac73b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\route_u13.tcl": "69758f5393810a87ae96840be1d914dea8f5e06be0c8d96778fbd9b59f56efa2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\export_u13.tcl": "bc005fed8ceab3ccd093fe4c733581d398e77d243e3690bc9901f16de3ad210e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_route_replay.sv": "216de2c5d2d24a7806943e85e524f3502cbe0b4311001afe18bda7471a65fc0c"
+  },
+  "scope": "Preparation only; no compiler, route, replay or power execution"
+}

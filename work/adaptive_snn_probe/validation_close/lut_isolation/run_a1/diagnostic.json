@@ -1,0 +1,32 @@
+{
+  "status": "completed_diagnostic_not_hardware_acceptance",
+  "maxdelay": true,
+  "transport_int_delays": true,
+  "pulse_filter": "all_0_original",
+  "vendor_source_modified": false,
+  "timing_checks_disabled": false,
+  "tool_artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_0.log": "67c2313b323a23f7753d4bb71d937d6a361ad7bc86c3aa5ece2e1718b5ec982b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_1.log": "22c4c56aecd20e925ca1fbabe56ac5ac92a08932b1f7d35f03adbde27c59a902",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_3.log": "639ad1428abdac97615a5c39c80f87770bcb14766ea9ed5796aa5474ef40ab41",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_4.log": "7a6b4439e39a165100d6da0a948fa3507dce448e84feadf0b5e93e80d560a5b6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_5.log": "22c4c56aecd20e925ca1fbabe56ac5ac92a08932b1f7d35f03adbde27c59a902",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_6.log": "458c419b6eb2b88c5fbaf048e2eeb794c3928beafa4009d1feca85bff79ea1f2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a1\\tool_7.log": "db18657d85623dc9e9f24e510326e44246be590b30e3ac9a955b9e543ca9593b"
+  },
+  "cases": [
+    {
+      "kind": "SDF",
+      "checks": 10,
+      "failures": 0,
+      "failure_lines": []
+    },
+    {
+      "kind": "functional_control",
+      "checks": 10,
+      "failures": 0,
+      "failure_lines": []
+    }
+  ]
+}

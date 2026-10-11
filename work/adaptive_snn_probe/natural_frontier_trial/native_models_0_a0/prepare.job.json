@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "C:/Users/Ritesh/rn_dps/.venv/Scripts/python.exe",
+    "-B",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/residue_frontier_u13_trial/prepare_u13_work.py",
+    "--kind",
+    "models",
+    "--directory",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/natural_frontier_trial/native_models_0_a0"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\native_models_0_a0",
+  "returncode": 0,
+  "seconds": 8.49,
+  "free_GiB_at_start": 3.9189414978027344,
+  "sampled_min_free_GiB": 3.81427001953125,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.13893508911132812,
+  "memory_samples": 8,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\check_natural_frontier.py": "8f059e5146346ff915f45620b6040b8324a6184cb8048197cba93015af0b36ff",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\frontier_natural.sv": "c86b8aaaa8a0456ad23043eb5557c04f0e547a0940337b50444ca190ae1b82be",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\launch_verifier.py": "55cc3613a376090fc754f8852648d424796d5f307bb560f9a941cda0548e785c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\route.tcl": "45a29b7b042a1024507cfff21c181b4c9f019f127ab3ceccd6dd76e854ebceeb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\tb_native.sv": "278e125ebb6d69d0bf5f44c85bdb04310e868ea62e2c7a44013ba4b906e48a54",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\timing.sv": "bf71321302632646624b40f7a96b40c183a3a138f0097c0c63175153187d2dfd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_frontier_trial\\verify_native.py": "78d44edc97fa76c0ba06a6254e0254f15b1ea691f2f6815e1463d607139d36d8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\guard_add_frontier_u13_timing.sv": "e40c837f5c9158b8837e58d7ef02ecc3b45fac8bb67168b1909ce9b96ac2c1b9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_work.py": "869d7e3a747aedda4c283e47af4b4812b97f0201debb939bf75984f45062ca03",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\route_u13.tcl": "69758f5393810a87ae96840be1d914dea8f5e06be0c8d96778fbd9b59f56efa2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\tb_frontier_u13_compare.sv": "06bcb87c21354df75c7d25b81f84af5bddec210cc6c649222b3275e27baf586c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\verify_frontier_u13.py": "99bf3725456ccdb46d44e5ce0f849677783189ef9b8220acc9fe220a26e36224"
+  },
+  "log_sha256": "dc8e96c90212d25a15d79cc5e5a77aba7505b707d80d66a1c6f7ae1fcfa822cc"
+}

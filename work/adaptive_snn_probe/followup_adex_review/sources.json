@@ -1,0 +1,24 @@
+{
+  "review_date": "2026-10-10",
+  "source_policy": "Primary papers, author textbook and official simulator documentation only; summaries rather than archived copyrighted full text.",
+  "sources": [
+    {"id":"brette2005","title":"Adaptive Exponential Integrate-and-Fire Model as an Effective Description of Neuronal Activity","url":"https://journals.physiology.org/doi/abs/10.1152/jn.00686.2005","supports":"Original two-dimensional AdEx model; no packing novelty claim."},
+    {"id":"textbook61","title":"Neuronal Dynamics6.1: Adaptive Exponential Integrate-and-Fire","url":"https://neuronaldynamics.epfl.ch/online/Ch6.S1.html","supports":"Coupled voltage/adaptation equations, exponential term, voltage reset and adaptation jump."},
+    {"id":"naud2008","title":"Firing patterns in the adaptive exponential integrate-and-fire model","url":"https://lcnwww.epfl.ch/gerstner/PUBLICATIONS/Naud08.pdf","supports":"Two-state/reset model and parameter-dependent firing patterns; author-hosted primary paper."},
+    {"id":"brian_example","title":"Brian2 Naud_et_al_2008_adex_firing_patterns official example","url":"https://brian2.readthedocs.io/en/stable/examples/frompapers.Naud_et_al_2008_adex_firing_patterns.html","supports":"Eight complete adapted parameter sets, Euler0.1ms,0.6s, threshold/reset and initial conditions; plotting clipping is not the dynamics."},
+    {"id":"nest_current","title":"NEST aeif_psc_exp","url":"https://nest-simulator.readthedocs.io/en/stable/models/aeif_psc_exp.html","supports":"Filtered excitatory/inhibitory current states and adaptive RKF solver; refractory/within-step spike distinction."},
+    {"id":"nest_conductance","title":"NEST aeif_cond_exp","url":"https://nest-simulator.readthedocs.io/en/stable/models/aeif_cond_exp.html","supports":"Conductance states and voltage-dependent synaptic products."},
+    {"id":"neuroflow","title":"NeuroFlow: A General Purpose Spiking Neural Network Simulation Platform using Customizable Processors","url":"https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2015.00516/full","supports":"Established FPGA AdEx support, floating-point neuron kernel and separate synaptic integration; not a reproduced local cost baseline."},
+    {"id":"dsp_packing","title":"DSP-Packing: Squeezing Low-precision Arithmetic into FPGA DSP Blocks","url":"https://arxiv.org/html/2203.11028","supports":"Packed low-precision arithmetic and packed SNN additions are established."},
+    {"id":"arithmetic2026","title":"Arithmetic Packing on Wide Integer Datapaths in DSP Primitives of Modern FPGA Devices","url":"https://arxiv.org/html/2606.11065v1","supports":"Signed pre-adder packing and exact external spill tracking for MAC; reviewed sectionIII, not identified as an actual-membrane admission controller."}
+  ],
+  "searches": [
+    "Brette Gerstner2005 adaptive exponential integrate fire effective description neuronal activity",
+    "FPGA adaptive exponential integrate fire fixed point exponential implementation",
+    "AdEx DSP packing",
+    "membrane potential adaptive DSP packing",
+    "Naud Marcille Clopath Gerstner2008 firing patterns parameters",
+    "DSP packing SNN membrane adaptive leakage"
+  ],
+  "search_limit": "This was a focused applicability review, not an exhaustive patent/publication novelty search. Keyword absence is not evidence of no prior work. No full AdEx integer/hardware execution occurred."
+}

@@ -1,0 +1,65 @@
+{
+  "status": "pass_source_and_readonly_resume_import_validation_no_vendor",
+  "attempt": "close_a1",
+  "read_only_validation_returncode": 0,
+  "read_only_validation_wall_seconds": 6.9074068,
+  "old_E7_prefix_reused": [
+    "E7_general_s0",
+    "E7_general_s1",
+    "E7_actual_glif_s0",
+    "E7_route12"
+  ],
+  "cached_pair0_import_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json",
+  "first_planned_vendor_stage": "E8_pair_s1",
+  "native_remaining": [
+    [
+      "pair",
+      1
+    ],
+    [
+      "scalar",
+      0
+    ],
+    [
+      "scalar",
+      1
+    ]
+  ],
+  "energy_order_unchanged_from_v2": {
+    "glif": [
+      5,
+      1,
+      2,
+      0,
+      3,
+      4,
+      7
+    ],
+    "ottt_stress": [
+      5,
+      1,
+      2,
+      6,
+      0,
+      3,
+      4
+    ]
+  },
+  "strict_aggregation_unchanged": true,
+  "root_owns_vendor_launch": true,
+  "vendor_jobs_launched": false,
+  "model_jobs_launched": false,
+  "original_v2_or_producer_files_edited": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_closure_sequence_v3.py": "0518fa74034078fb7b755f971f4cae69cfd47fb9831e4e4c486174f3600f118e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_closure_sequence_v2.py": "f865f4b6d3e3b3d5999d6dfbbc081eb25c926fe318b106087506c021b35f30bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_native_static9_v2.py": "abe50488ab28bf92cd97ddcc7f89c045903e23f098cdfc137f3270cddfd132bd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\cached_native_v2_gate.json": "5b498065fc0dc89ecd7ea6108d1cc5dde5bd7121c53ce673947062c21e13bbdb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\import_completed_native_cached.py": "7107394f6e5872c1256ffb25b1125feed165734ffca67ef6ac34dedf924561ae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\audit_closure_static9.py": "d363dbc097e0b9cf3dffd6e54b4ded7b8b8d1855e2524aa6b1493c33ec6d9dcb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\hardware\\native_pair_s0_close_a0\\acceptance_cached_cached_review_a0.json": "5f42c2816f0277bcee10cc667b503a7763078562beb9ed1057cc5cbc72175d75"
+  },
+  "limitations": "Source/read-only validation is not acceptance of the remaining native, route, SDF, activity or energy stages."
+}

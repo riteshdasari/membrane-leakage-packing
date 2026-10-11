@@ -1,0 +1,95 @@
+{
+  "status": "completed_mechanism_readiness_review",
+  "date": "2026-10-11",
+  "review_basis": "Current manuscript, current accepted scope audit, directly inspected current RTL, and already saved prior-method/access records; no new broad literature search.",
+  "new_building_blocks_required": false,
+  "new_nontrivial_mechanism_combination_can_contribute": true,
+  "strongest_claim": "A DSP48E1 exact rounded-leakage kernel combining compact stride16 borrow/quotient decoding with actual signed9 shared-beta pair admission and exact signed16 singleton execution under a fixed stored-state contract, with measured implementation and SNN-workload trade-offs.",
+  "one_integrated_contribution": true,
+  "independently_new_fixed_split_established": false,
+  "actual_adaptation_implemented_inside_core": true,
+  "domain": {
+    "stored_U": "signed16",
+    "pair_U": "signed9 [-256,255]",
+    "beta": "unsigned Q8 integer0..256",
+    "operation": "ceil(beta*U/256)",
+    "admission": "next two available values both fit signed9 and have equal beta",
+    "fallback": "exact signed16 singleton; original order and state units preserved"
+  },
+  "algebra_review": {
+    "fatal_issue_found": false,
+    "A_min": -16777216,
+    "A_max": 16712191,
+    "x_min": -65281,
+    "x_max": 65535,
+    "lower_spill_states": [
+      0,
+      -1
+    ],
+    "upper_T_min": -65282,
+    "upper_T_max": 65535,
+    "pair_exhaustive_cases_reused": 67371008,
+    "signed16_scalar_and_split_cases_reused": 16842752,
+    "new_exhaustive_run": false,
+    "universal_port_width_lower_bound_claim_valid": false,
+    "complete_products_also_reconstructable": true
+  },
+  "evidence_support": {
+    "core": {
+      "LUT": 62,
+      "FF": 44,
+      "DSP": 1
+    },
+    "GLIF_full64_issue_reduction_vs_scalar1_percent": 46.0091,
+    "GLIF_representative_dynamic_energy_reduction_vs_scalar1_percent": 12.3695,
+    "GLIF_representative_dynamic_energy_reduction_vs_fixed_split_percent": 60.9472,
+    "GLIF_representative_dynamic_energy_increase_vs_scalar2_percent": 1.0689,
+    "OTTT_representative_dynamic_energy_increase_vs_half_leak_shift_percent": 94.6139,
+    "E5_minus_E8_combined_admission_wide_support": {
+      "LUT": 15,
+      "FF": 8
+    },
+    "energy_scope": "Vendor estimated representative common-fixture dynamic energy, not board or complete neuron-update energy"
+  },
+  "novelty_status": "Plausible specialized implementable mechanism, not established first-ever priority; no equivalent conjunction described in inspected methods, with three relevant originals unread.",
+  "UDP_full_method_gap_closed": true,
+  "remaining_unread_originals": [
+    "Ou TCAS-II2024",
+    "Cui ICFPT2024",
+    "McKeown SiPS2008"
+  ],
+  "submission_interpretation": "First-ever proof is unnecessary for writing a contribution paper. The combined mechanism must demonstrate a specific technical difference and benefit; missing original methods are a priority-risk limitation, not automatic invalidation. Strong-submission sufficiency remains conditional on the strongest applicable model-specific baseline and a clear scope.",
+  "main_technical_risks": [
+    "Value-driven admission and modulo spill correction already have direct prior art; membrane naming alone cannot establish novelty.",
+    "Current decoder is a rounded-output specialization of established correction, and a generic full-product-reconstruction control with the same admission has not been measured to isolate decoder savings.",
+    "GLIF coefficients select from two fixed per-channel values; an optimized model-specialized constant/CSD bank remains unmeasured.",
+    "Zero filtering and variable-consumption source/memory integration are outside reported kernel area and energy.",
+    "Vanilla LIF half leakage is already cheaper through exact shifts; BNTT beta253 has an exact cheap constant expression."
+  ],
+  "readiness_verdict": "Ready to develop a focused primitive manuscript; no algebraic reason to discard it. The mechanism can constitute the contribution, but evidence does not justify universal superiority, independent E1 novelty, or a guaranteed strong ISCAS outcome.",
+  "draft_edited": false,
+  "vendor_or_model_jobs_launched": false,
+  "source_bindings": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_paper_draft.tex": "e3bc0a6afd4fa108b3eca9d00a447334617eb200e992a58e36366b66f40f7e32",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_pending_closure_20261011.md": "7643574111cbde471241a635225b14c8c72ad51a11e732452e6ab13b994308da",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_pending_closure_20261011.json": "5b3e5755e6817600c3b3807461959f4de1370a6478e488846d21239c0f1ac6cb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\manuscript_scope_audit_v4.md": "15d5852b1e2fc36d92bbac5c86bbc38e0822c6dcbb1d7c4ad40255ff9cc80676",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\manuscript_scope_audit_v4.json": "f4f6d143d82dc6c1a6c1b1d09ca442942b3f5a16e82aad4de2d7af10538bf93e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\final_contribution_boundary.md": "0529a2bdd0ceee6b14d597c9b4d0bc6bf9574e795101913693921e5aabd47af0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\equivalence_audit.md": "95b2116f95206b9b1654f4d99eacba74be13a67695fdeb429c3a16ea6dd50c0d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\udp_full_reader_inspection_v1.md": "e5646e322d8db96633fa8a076646ab2bef98baf91c0982253461233e43bbc5fe",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\udp_full_reader_inspection_v1.json": "bffe3fac1256d278a0fdeabe9bd23ae5d4e07e5eb32ad545e2ba0a469f2ffdb6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_cui_access_equivalence_report_v1.md": "870a89084ee46e8e377b58e727dd41aa41cf89ae094fc1dde2a5938c8636491b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_cui_access_equivalence_report_v1.json": "50727773afe9fdcdcba947e17ef91919f616bcbd9f43dc45df68e88ba2d55bf0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\udp_mckeown_closure_v1.md": "795418eca216f504e34293af9484415e9554174b320430b3c272b7984992a4ba",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\udp_mckeown_closure_v1.json": "0963eda44d82d9b1b45d0403c52e21422a43cb6a05aaf0be464f5c5f58b5e067",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\leak_core16.sv": "0b3fa7efe359916898202542be2efda84dbc6330583c885932f687b69028fe20",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_algebra.json": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_results.json": "d861823ebccd85d5a0b0ea7e2d37766b6c5a990f6ab552ba7add86285b092e2f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\selected_evidence_partitioned_all_a0.md": "b54768066cd0ce4a28db5c90056194869ee50644beffbcafe633cf398bbeb0a7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\selected_evidence_partitioned_all_a0.json": "56435dfb827096f0227dc64d6c2a626728f200f0ff3c10b7a557e311b7ba7a07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\write_mechanism_readiness_20261011.py": "07d4d21c33d4309d0d74a4225d19f1e85ecd6b036ab3ef71020a0258e2615ef6"
+  },
+  "report_sha256": "3d6488f1de62a682bbeedc3d585c7cb26576bb59024d32d09400ef382e477a13"
+}

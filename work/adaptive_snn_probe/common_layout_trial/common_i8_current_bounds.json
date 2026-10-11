@@ -1,0 +1,77 @@
+{
+  "created_utc": "2026-10-09T18:06:25.798195+00:00",
+  "script_sha256": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce",
+  "model_input_sha256": {
+    "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+    "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+  },
+  "weight_files_sha256": {
+    "model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+    "model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+    "model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+  },
+  "rows": [
+    {
+      "seed": 0,
+      "layer": 0,
+      "inputs": 64,
+      "outputs": 128,
+      "minimum_current": -49,
+      "maximum_current": 51,
+      "all_neuron_binary_spike_currents_fit_signed8": true
+    },
+    {
+      "seed": 0,
+      "layer": 1,
+      "inputs": 128,
+      "outputs": 10,
+      "minimum_current": -100,
+      "maximum_current": 70,
+      "all_neuron_binary_spike_currents_fit_signed8": true
+    },
+    {
+      "seed": 1,
+      "layer": 0,
+      "inputs": 64,
+      "outputs": 128,
+      "minimum_current": -39,
+      "maximum_current": 43,
+      "all_neuron_binary_spike_currents_fit_signed8": true
+    },
+    {
+      "seed": 1,
+      "layer": 1,
+      "inputs": 128,
+      "outputs": 10,
+      "minimum_current": -100,
+      "maximum_current": 64,
+      "all_neuron_binary_spike_currents_fit_signed8": true
+    },
+    {
+      "seed": 2,
+      "layer": 0,
+      "inputs": 64,
+      "outputs": 128,
+      "minimum_current": -47,
+      "maximum_current": 48,
+      "all_neuron_binary_spike_currents_fit_signed8": true
+    },
+    {
+      "seed": 2,
+      "layer": 1,
+      "inputs": 128,
+      "outputs": 10,
+      "minimum_current": -97,
+      "maximum_current": 67,
+      "all_neuron_binary_spike_currents_fit_signed8": true
+    }
+  ],
+  "failures": 0,
+  "prior_bound_artifact_sha256": {
+    "audit_adaptive_delta_bounds.py": "e4ab401668619e80396efb97a540598e25816964a303e61267a08626354a5dfb",
+    "results/adaptive_delta_model_bounds.json": "eca46bce9aaaa9e7bb0da4d7a8cdf11097a8243e1be9e17e4cfea303e8092ae7"
+  },
+  "proof": "For any x_j in {0,1}, sum_j min(w_j,0) <= sum_j x_j*w_j <= sum_j max(w_j,0).",
+  "qualification": "Exact for these saved integer weights and binary spikes/current prefixes; unrelated weights, nonbinary spikes or additional currents need their own bounds.",
+  "hardware_implication": "A separately declared signed11-U/signed8-I baseline may statically implement H = hU + c - signI without a runtime I8 detector. General signed11-U/signed11-I hardware still requires fallback."
+}

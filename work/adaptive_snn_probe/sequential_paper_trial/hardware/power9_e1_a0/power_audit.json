@@ -1,0 +1,170 @@
+{
+  "status": "pass",
+  "engine": 1,
+  "design_top": "top_sequential_leak_e1",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\power9_e1_a0",
+  "auditor_sha256": "eec3e6b21a9b6d59d07f08aeeaa54f1d75402c142d402c6cc241c0e5c7711669",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 458,
+  "physical_activity_source_counts": {
+    "S": 655,
+    "D": 7,
+    "C": 4
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 937,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 1,
+    "design_top": "top_sequential_leak_e1",
+    "duration_ps": 83862000,
+    "scalar_updates": 17408,
+    "requests": 9314,
+    "retirements": 9314,
+    "clock_transitions": 18636,
+    "raw_unknown_time_records": 937,
+    "scope": "New leakage trace, golden fixture, exact routed/SDF replay and SAIF interval audit"
+  },
+  "critical_dsp_activity": {
+    "fixture/core/one_dsp.dsp/d": {
+      "CLK": {
+        "fixture/core/one_dsp.dsp/clk": {
+          "static_probability": 0.5,
+          "signal_rate_Mtransitions_per_s": 222.222,
+          "toggle_rate_percent": 200.0,
+          "source": "C"
+        }
+      },
+      "CEA2": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEB2": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEC": {
+        "fixture/core/one_dsp.dsp/<const0>": {
+          "static_probability": 0.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "D"
+        }
+      },
+      "CEP": {
+        "fixture/core/one_dsp.dsp/ce": {
+          "static_probability": 0.999571,
+          "signal_rate_Mtransitions_per_s": 0.0238487,
+          "toggle_rate_percent": 0.0214638,
+          "source": "S"
+        }
+      }
+    }
+  },
+  "settled_constant_ffs": {
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.00629,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8031459999999995e-06,
+  "dynamic_energy_J": 5.2749198e-07,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 30.30169921875,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.013503988387637866,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.006290",
+      "iccq": "0.014842",
+      "power": "0.021131"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.589327"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 9,
+  "fixture_FF": 78,
+  "power_xpe_sha256": "5c4d6f28c147297692445d8f6553a3b96f19192c14735ccdeb26849abbf84cb0",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\common9_e1_a0\\hardware.json",
+  "routed_hardware_sha256": "d454489798edbc89ce29782e87302224e23239444fba7d5120b03c7d88062ec2",
+  "core_resources": {
+    "LUT": 122,
+    "FF": 63,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 44,
+    "occupied_slices_reported": 44
+  },
+  "WNS_ns": 3.475,
+  "WHS_ns": 0.137,
+  "scope": "Vendor estimated dynamic energy of complete common 78-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error"
+}

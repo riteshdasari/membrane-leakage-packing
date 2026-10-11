@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "rows": [
+    {
+      "arithmetic": "int64",
+      "elapsed_seconds": 16.79699999999866,
+      "correct": 60,
+      "all_logits_bit_identical": true,
+      "independent_state_spike_audit": true,
+      "updates": 159383552
+    },
+    {
+      "arithmetic": "int32",
+      "elapsed_seconds": 18.468999999997322,
+      "correct": 60,
+      "all_logits_bit_identical": true,
+      "independent_state_spike_audit": true,
+      "updates": 159383552
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "source_repository": "https://github.com/Intelligent-Computing-Lab-Panda/Visual-Explanations-from-Spiking-Neural-Networks-using-Interspike-Intervals",
+  "source_commit": "178789c74fef72b9c25bd31d65ac598c987e1de9",
+  "official_checkpoint_readme": "https://github.com/Intelligent-Computing-Lab-Panda/Visual-Explanations-from-Spiking-Neural-Networks-using-Interspike-Intervals/blob/178789c74fef72b9c25bd31d65ac598c987e1de9/README.md",
+  "inference_performed": false,
+  "assets": [
+    {
+      "filename": "bntt_pretrained_tiny_t30.pth.tar",
+      "url": "https://drive.usercontent.google.com/download?id=11ybFXqRB3edxsFMUrPrwwH5_HlAAHNUp&export=download&confirm=t",
+      "bytes": 51198934,
+      "sha256": "9e398932a4f815219a30ee96fe187698e18f899f42405e5e5e622f80d3826aca",
+      "download_elapsed_s": 8.46345829963684,
+      "http_headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "51198934",
+        "Content-Disposition": "attachment; filename=\"pretrained_tiny_t30.pth.tar\"",
+        "Last-Modified": "Sat, 27 Nov 2021 06:27:04 GMT"
+      }
+    },
+    {
+      "filename": "tiny-imagenet-200.zip",
+      "url": "https://cs231n.stanford.edu/tiny-imagenet-200.zip",
+      "bytes": 248100043,
+      "sha256": "6198c8ae015e2b3e007c7841da39ec069199b9aa3bfa943a462022fe5e43c821",
+      "download_elapsed_s": 221.9313406944275,
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "248100043",
+        "Content-Disposition": null,
+        "Last-Modified": "Mon, 09 Feb 2015 04:52:33 GMT"
+      }
+    }
+  ],
+  "validation_inventory": {
+    "images": 10000,
+    "classes": 200,
+    "annotation_sha256": "c37765a8b40fce4f28962bf1847a2537e2781753974cbb2447eeb50ff31130a2",
+    "wnids_sha256": "d9cb11f6be1439ac299ac5047acf001cda5f4dcc9cd17c7323b08389cd3ab7ea",
+    "heldout_split": "All10000 val_annotations entries; never train or unlabeled test",
+    "storage": "Compressed archive read directly; no full dataset extraction"
+  },
+  "source_files_sha256": {
+    "main.py": "08f5e4119cc6ba505b3305b3aa1119d8f6dec9b4f33d039f0c6242dc79d39ac6",
+    "model.py": "09d66684ce64f043096d6feb89de008a247c8c4da842057c49063257d1fb3273",
+    "README.md": "7854b8a1acc68f9e609ae81455e05e1318caa5f2dc0c474e5fe29ea55e7d6c84",
+    "utils.py": "eaabdef1b84703105db107ae063774118f3f11c944a92489fdf4b9c5e617da8e"
+  }
+}

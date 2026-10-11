@@ -1,0 +1,13 @@
+# Read-only contribution sanity review
+
+Receipt: `final_contribution_sanity_review_v1.json` pins the reviewed manuscript and thirteen model, route, ablation, capture and prior-boundary records. No inference, vendor job, verification rerun, architecture/model change or manuscript edit occurred.
+
+**The mechanism is adaptive.** Actual U determines whether two adjacent signed9 operations or one signed16 operation share the DSP. Stored units, precision and the declared integer neuron equation stay fixed. This is lane-count adaptation; it is not spike prediction or precision rescaling.
+
+**A scoped result survives without an energy win.** The matched general one-DSP core uses62 LUTs/44 FFs versus202/79 for fixed E1 at the same legal16-bit domain and12ns fixture. The recorded GLIF stream pays1.0836% extra issues. This supports a compact exact leakage circuit and conditional fabric/rate trade-off. It does not establish universal area superiority or measured speed/latency superiority; E3/E4 remain legitimate competing resource points. OTTT and BNTT require54.9444% and27.0303% more adaptive issues, respectively, and all-wide matching-coefficient bursts favor E1. Kernel issues exclude memory and complete-neuron scheduling.
+
+Treat this as **one integrated candidate contribution**: the specialized exact rounded decoder with range admission/fallback and measured implementation trade-off. Arithmetic exactness, E8 ablation, model validation and the constructive fixed split are supporting evidence. They are not three independently novel inventions. Exactness is relative to the declared integer model, also preserved by exact baselines; it is not an accuracy advantage. Generic value-based packing and spill correction already have prior art, and four unavailable full methods prevent a priority/absence conclusion.
+
+The strongest remaining model-specific comparison gaps are the proven beta253 zero-DSP shift/add/sub control's unmeasured hardware area/energy and a possible GLIF checkpoint-specialized constant bank/shift-add selector. Learned per-channel coefficients do not automatically require a general multiplier. These gaps limit model-specific superiority claims; they do not invalidate matched general-runtime-coefficient comparisons. E8's15 LUT/eight FF difference remains combined range-admission plus full-width support, not isolated controller area.
+
+Before final freeze, update pending energy statuses only from accepted explicit audits, and add the independently reviewed OTTT v2 a1 capture with its bounded64 scope and retained failed a0. If energy is neutral or worse, state that result directly and retain the scoped circuit trade-off. No publication acceptance prediction follows from this review.

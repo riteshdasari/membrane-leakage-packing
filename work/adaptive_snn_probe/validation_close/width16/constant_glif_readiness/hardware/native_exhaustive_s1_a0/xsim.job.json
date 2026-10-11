@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "C:\\AMDDesignTools\\2025.2\\Vivado\\bin\\xsim.bat",
+    "sim",
+    "-runall"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_exhaustive_s1_a0",
+  "returncode": 0,
+  "seconds": 75.16,
+  "free_GiB_at_start": 2.2734336853027344,
+  "sampled_min_free_GiB": 1.8613243103027344,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.23674392700195312,
+  "memory_samples": 73,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\prepare_shared_mcm.py": "46476bb681c383613498cf8adddd836e2e5e73b72fa79e8459e42b810c92562f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\leak_glif_mcm.sv": "5e0dbea62fc5118d4ed7dc94e4a215a9be82d6c07e8f4aa6b6ff31882cd0e882",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\timing_glif_mcm.sv": "9ed37115686b545679ca61495d666afa43a7ee2d6134785e227f24818f3cb4d6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\route_glif_mcm.tcl": "bc34492896ad1331964591c3c1b2712437dff030adbc3ba590ba77cd5749fef4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\tb_glif_mcm_template.sv": "31ed5a6a3a1ffcc403c1424e397886a3f79eb527cdea303e342a23adf5141e69",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\tb_glif_mcm.sv": "792f10cbee72f44323d1545686025ecbf54388f06d6866c49bdd3117a308dded",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\run_native_glif_mcm.py": "10cd369e7d54a08293924134a7a1787c0217a7ba6cea6d119bdc44986cd4ad94",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\run_route_glif_mcm.py": "22381b35d1c46ff8d88d54858117eaaac2e8fe0eb51fe746addbcfbbf231d504",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage2_results.json": "3f688e27d954bc8ead958101efc6ddf99a0aef69e4f3f11665c5ba4354b1fe35",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\results.json": "ff3ec141b2140b06f5a090d37cadba23dbf62ef6aef2360e573a2ddd1cf6c013",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\activity_operands.npz": "7102ee38f45684410ec2c2531a4692684571974d404f5ffbe91803d6880c74d0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_stim.txt": "d2633a6fdba08ac4c4de956d38817dce2a15a74753fd8c50b7ba607cf8bd4db3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\timing16.sv": "89198b1eaa6889cc19014fd28aa2d88ac25664d8bdb50ad436a3194eeb4b5be1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route16.tcl": "ec63d6422489b4fe9c83c69a2bb7d25dc10a3ea0a9f6d1777cff7670b7c29caa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\run_guard_add_selective_route.py": "f3c6f32cbffc7662970fa41b39bac5f0de00c1adacac7ed0d00477f6e2a02ae3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\preparation.json": "c5b0bbb709c482598b66fa2da20ad41321642285e2c2f300fd682ae837870e41"
+  },
+  "log_sha256": "8903c58c8d5c0288606593da14f0429c97795d878d901f8820a264d2cc7db562"
+}

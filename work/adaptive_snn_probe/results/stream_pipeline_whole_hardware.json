@@ -1,0 +1,1012 @@
+[
+  {
+    "top": "top_stream_pipeline_whole_adaptive_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 150,
+      "FF": 204,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 59
+    },
+    "core": {
+      "LUT": 150,
+      "FF": 121,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 51,
+      "occupied_slices_reported": 51
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 59,
+      "core_slices_touched": 51,
+      "fixture_slices_touched": 24,
+      "shared_slices": 16,
+      "core_exclusive_slices": 35,
+      "fixture_exclusive_slices": 8,
+      "core_primitive_cells": 337,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.77,
+    "WHS_ns": 0.12,
+    "clock_to_clock_period_estimate_ns": 5.23,
+    "boundary_WNS_ns": 0.77,
+    "boundary_WHS_ns": -1.055,
+    "boundary_period_estimate_ns": 5.23,
+    "seconds": 109.4,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8"
+    },
+    "provenance_sha256": "7014d738bb24d3d105f19420d7bd18b954dbe41757d639c93c0530b004ab0dbd",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_adaptive6_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 136,
+      "FF": 202,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 53
+    },
+    "core": {
+      "LUT": 136,
+      "FF": 119,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 46,
+      "occupied_slices_reported": 46
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 53,
+      "core_slices_touched": 46,
+      "fixture_slices_touched": 23,
+      "shared_slices": 16,
+      "core_exclusive_slices": 30,
+      "fixture_exclusive_slices": 7,
+      "core_primitive_cells": 301,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.95,
+    "WHS_ns": 0.066,
+    "clock_to_clock_period_estimate_ns": 5.05,
+    "boundary_WNS_ns": 0.95,
+    "boundary_WHS_ns": -1.06,
+    "boundary_period_estimate_ns": 5.05,
+    "seconds": 110.9,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8"
+    },
+    "provenance_sha256": "0136f8beeed257440b4085381b1710e526213014bf06e583ccd26f4634aa681b",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_fixed2_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 55,
+      "FF": 186,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 53
+    },
+    "core": {
+      "LUT": 55,
+      "FF": 103,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 34,
+      "occupied_slices_reported": 34
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 53,
+      "core_slices_touched": 34,
+      "fixture_slices_touched": 23,
+      "shared_slices": 4,
+      "core_exclusive_slices": 30,
+      "fixture_exclusive_slices": 19,
+      "core_primitive_cells": 183,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.884,
+    "WHS_ns": 0.032,
+    "clock_to_clock_period_estimate_ns": 5.116,
+    "boundary_WNS_ns": 0.884,
+    "boundary_WHS_ns": -1.138,
+    "boundary_period_estimate_ns": 5.116,
+    "seconds": 100.5,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8"
+    },
+    "provenance_sha256": "e2f4bc1e13194e8cd609a88c1c14894acb1d3e45b79310b2c06f55cd72c49c09",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_lut2_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 61,
+      "FF": 199,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 50
+    },
+    "core": {
+      "LUT": 61,
+      "FF": 116,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 32,
+      "occupied_slices_reported": 32
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 50,
+      "core_slices_touched": 32,
+      "fixture_slices_touched": 22,
+      "shared_slices": 4,
+      "core_exclusive_slices": 28,
+      "fixture_exclusive_slices": 18,
+      "core_primitive_cells": 216,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 2.431,
+    "WHS_ns": 0.153,
+    "clock_to_clock_period_estimate_ns": 3.569,
+    "boundary_WNS_ns": 1.753,
+    "boundary_WHS_ns": -1.073,
+    "boundary_period_estimate_ns": 4.247,
+    "seconds": 142.9,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8"
+    },
+    "provenance_sha256": "7afd56a89c0d943f5f6145266eed015991af67d7638644f04d05057c15647c14",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_lut3_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 95,
+      "FF": 251,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 66
+    },
+    "core": {
+      "LUT": 95,
+      "FF": 168,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 47,
+      "occupied_slices_reported": 47
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 66,
+      "core_slices_touched": 47,
+      "fixture_slices_touched": 22,
+      "shared_slices": 3,
+      "core_exclusive_slices": 44,
+      "fixture_exclusive_slices": 19,
+      "core_primitive_cells": 328,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 2.291,
+    "WHS_ns": 0.133,
+    "clock_to_clock_period_estimate_ns": 3.709,
+    "boundary_WNS_ns": 1.845,
+    "boundary_WHS_ns": -1.06,
+    "boundary_period_estimate_ns": 4.155,
+    "seconds": 444.3,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8"
+    },
+    "provenance_sha256": "6b9cdc40be434fd067c8cc18f5741fa893e16b1a20d32659ab6e3afb6afebc9e",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_fixed3_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 136,
+      "FF": 230,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 63
+    },
+    "core": {
+      "LUT": 136,
+      "FF": 147,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 50,
+      "occupied_slices_reported": 50
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 63,
+      "core_slices_touched": 50,
+      "fixture_slices_touched": 21,
+      "shared_slices": 8,
+      "core_exclusive_slices": 42,
+      "fixture_exclusive_slices": 13,
+      "core_primitive_cells": 353,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 1.271,
+    "WHS_ns": 0.13,
+    "clock_to_clock_period_estimate_ns": 4.729,
+    "boundary_WNS_ns": 1.271,
+    "boundary_WHS_ns": -1.063,
+    "boundary_period_estimate_ns": 4.729,
+    "seconds": 573.9,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8"
+    },
+    "provenance_sha256": "a700f3c5b5cee3ba7b7ed4338dfdf6cd07716b0272ff322d97142b6815168ac9",
+    "retried_checkpoint": true,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_hybrid_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 95,
+      "FF": 238,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 70
+    },
+    "core": {
+      "LUT": 95,
+      "FF": 155,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 54,
+      "occupied_slices_reported": 54
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 70,
+      "core_slices_touched": 54,
+      "fixture_slices_touched": 20,
+      "shared_slices": 4,
+      "core_exclusive_slices": 50,
+      "fixture_exclusive_slices": 16,
+      "core_primitive_cells": 307,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.935,
+    "WHS_ns": 0.151,
+    "clock_to_clock_period_estimate_ns": 5.0649999999999995,
+    "boundary_WNS_ns": 0.935,
+    "boundary_WHS_ns": -1.073,
+    "boundary_period_estimate_ns": 5.0649999999999995,
+    "seconds": 433.0,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8"
+    },
+    "provenance_sha256": "b536cb9d7469dbf686c04f61dba275cd2cdd761d42aff3e7d9fc975ffa4f7c01",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_adaptive_cw_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 178,
+      "FF": 204,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 64
+    },
+    "core": {
+      "LUT": 178,
+      "FF": 121,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 56,
+      "occupied_slices_reported": 56
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 64,
+      "core_slices_touched": 56,
+      "fixture_slices_touched": 25,
+      "shared_slices": 17,
+      "core_exclusive_slices": 39,
+      "fixture_exclusive_slices": 8,
+      "core_primitive_cells": 380,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.796,
+    "WHS_ns": 0.108,
+    "clock_to_clock_period_estimate_ns": 5.204,
+    "boundary_WNS_ns": 0.796,
+    "boundary_WHS_ns": -1.075,
+    "boundary_period_estimate_ns": 5.204,
+    "seconds": 441.2,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_centered_main_25_0_checks.json": "bc12eea0649f0b20cd14a005bc34776c756a10c5cdf9b38b65618f570757463d"
+    },
+    "provenance_sha256": "7481aeb43e53ed2a6bc2b2cd11b7ed72d7ef93c13f298c159322bdf74618c7db",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_fixed2_cw_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 86,
+      "FF": 187,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 48
+    },
+    "core": {
+      "LUT": 86,
+      "FF": 104,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 36,
+      "occupied_slices_reported": 36
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 48,
+      "core_slices_touched": 36,
+      "fixture_slices_touched": 21,
+      "shared_slices": 9,
+      "core_exclusive_slices": 27,
+      "fixture_exclusive_slices": 12,
+      "core_primitive_cells": 228,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.672,
+    "WHS_ns": 0.155,
+    "clock_to_clock_period_estimate_ns": 5.328,
+    "boundary_WNS_ns": 0.672,
+    "boundary_WHS_ns": -1.086,
+    "boundary_period_estimate_ns": 5.328,
+    "seconds": 433.0,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_centered_main_25_0_checks.json": "bc12eea0649f0b20cd14a005bc34776c756a10c5cdf9b38b65618f570757463d"
+    },
+    "provenance_sha256": "1f242c4c74b5c436b7a15bc10c28ffc43c4a03cda05f28e95bc1993ccf444861",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_hybrid_cw_const",
+    "target_ns": 6.0,
+    "full_fixture": {
+      "LUT": 125,
+      "FF": 239,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 73
+    },
+    "core": {
+      "LUT": 125,
+      "FF": 156,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 58,
+      "occupied_slices_reported": 58
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 73,
+      "core_slices_touched": 58,
+      "fixture_slices_touched": 27,
+      "shared_slices": 12,
+      "core_exclusive_slices": 46,
+      "fixture_exclusive_slices": 15,
+      "core_primitive_cells": 352,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.853,
+    "WHS_ns": 0.05,
+    "clock_to_clock_period_estimate_ns": 5.147,
+    "boundary_WNS_ns": 0.853,
+    "boundary_WHS_ns": -1.131,
+    "boundary_period_estimate_ns": 5.147,
+    "seconds": 239.1,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_centered_main_25_0_checks.json": "bc12eea0649f0b20cd14a005bc34776c756a10c5cdf9b38b65618f570757463d"
+    },
+    "provenance_sha256": "cc72a7cd0efb91704bc9cb4390bab19a2dfd7e86a38ceccdcbede8d0a9374345",
+    "retried_checkpoint": true,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_adaptive_prog",
+    "target_ns": 8.0,
+    "full_fixture": {
+      "LUT": 222,
+      "FF": 208,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 80
+    },
+    "core": {
+      "LUT": 222,
+      "FF": 125,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 68,
+      "occupied_slices_reported": 68
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 80,
+      "core_slices_touched": 68,
+      "fixture_slices_touched": 31,
+      "shared_slices": 19,
+      "core_exclusive_slices": 49,
+      "fixture_exclusive_slices": 12,
+      "core_primitive_cells": 442,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 1.127,
+    "WHS_ns": 0.148,
+    "clock_to_clock_period_estimate_ns": 6.873,
+    "boundary_WNS_ns": 1.127,
+    "boundary_WHS_ns": -1.151,
+    "boundary_period_estimate_ns": 6.873,
+    "seconds": 126.0,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8",
+      "stream_pipeline_whole_main_-1_1_checks.json": "d05380f4ae79b4aefe48ddc28f47fae559a3cef6df052f89dc9790b694d418a3"
+    },
+    "provenance_sha256": "c8c8b9e20483d68dce6b717b02d76d480cf25b672d3d619d17311225be0b06fb",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_adaptive6_prog",
+    "target_ns": 8.0,
+    "full_fixture": {
+      "LUT": 197,
+      "FF": 206,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 75
+    },
+    "core": {
+      "LUT": 197,
+      "FF": 123,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 68,
+      "occupied_slices_reported": 68
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 75,
+      "core_slices_touched": 68,
+      "fixture_slices_touched": 28,
+      "shared_slices": 21,
+      "core_exclusive_slices": 47,
+      "fixture_exclusive_slices": 7,
+      "core_primitive_cells": 397,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 1.314,
+    "WHS_ns": 0.117,
+    "clock_to_clock_period_estimate_ns": 6.686,
+    "boundary_WNS_ns": 1.314,
+    "boundary_WHS_ns": -1.075,
+    "boundary_period_estimate_ns": 6.686,
+    "seconds": 71.2,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8",
+      "stream_pipeline_whole_main_-1_1_checks.json": "d05380f4ae79b4aefe48ddc28f47fae559a3cef6df052f89dc9790b694d418a3"
+    },
+    "provenance_sha256": "65901353d69b8857d128dd66e5a94d79fda87979602971254751db6e46e6e8ce",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_fixed2_prog",
+    "target_ns": 8.0,
+    "full_fixture": {
+      "LUT": 88,
+      "FF": 191,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 64
+    },
+    "core": {
+      "LUT": 88,
+      "FF": 108,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 46,
+      "occupied_slices_reported": 46
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 64,
+      "core_slices_touched": 46,
+      "fixture_slices_touched": 24,
+      "shared_slices": 6,
+      "core_exclusive_slices": 40,
+      "fixture_exclusive_slices": 18,
+      "core_primitive_cells": 236,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 1.524,
+    "WHS_ns": 0.147,
+    "clock_to_clock_period_estimate_ns": 6.476,
+    "boundary_WNS_ns": 1.524,
+    "boundary_WHS_ns": -1.09,
+    "boundary_period_estimate_ns": 6.476,
+    "seconds": 76.1,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8",
+      "stream_pipeline_whole_main_-1_1_checks.json": "d05380f4ae79b4aefe48ddc28f47fae559a3cef6df052f89dc9790b694d418a3"
+    },
+    "provenance_sha256": "fc657a8c128dae17f7676cd20029ce8a18c8f492c85c47c2051756e31eb2ca0a",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_lut2_prog",
+    "target_ns": 8.0,
+    "full_fixture": {
+      "LUT": 134,
+      "FF": 204,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 81
+    },
+    "core": {
+      "LUT": 134,
+      "FF": 121,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 63,
+      "occupied_slices_reported": 63
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 81,
+      "core_slices_touched": 63,
+      "fixture_slices_touched": 27,
+      "shared_slices": 9,
+      "core_exclusive_slices": 54,
+      "fixture_exclusive_slices": 18,
+      "core_primitive_cells": 338,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 2.466,
+    "WHS_ns": 0.02,
+    "clock_to_clock_period_estimate_ns": 5.534,
+    "boundary_WNS_ns": 2.466,
+    "boundary_WHS_ns": -1.154,
+    "boundary_period_estimate_ns": 5.534,
+    "seconds": 76.6,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8",
+      "stream_pipeline_whole_main_-1_1_checks.json": "d05380f4ae79b4aefe48ddc28f47fae559a3cef6df052f89dc9790b694d418a3"
+    },
+    "provenance_sha256": "4f974f74bd49f273b1f0a83a2041bba405d7c600c87c6b4e85317b63e0e38205",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_lut3_prog",
+    "target_ns": 8.0,
+    "full_fixture": {
+      "LUT": 207,
+      "FF": 256,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 102
+    },
+    "core": {
+      "LUT": 207,
+      "FF": 173,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 82,
+      "occupied_slices_reported": 82
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 102,
+      "core_slices_touched": 82,
+      "fixture_slices_touched": 28,
+      "shared_slices": 8,
+      "core_exclusive_slices": 74,
+      "fixture_exclusive_slices": 20,
+      "core_primitive_cells": 512,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 2.354,
+    "WHS_ns": 0.151,
+    "clock_to_clock_period_estimate_ns": 5.646,
+    "boundary_WNS_ns": 2.354,
+    "boundary_WHS_ns": -1.154,
+    "boundary_period_estimate_ns": 5.646,
+    "seconds": 75.5,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8",
+      "stream_pipeline_whole_main_-1_1_checks.json": "d05380f4ae79b4aefe48ddc28f47fae559a3cef6df052f89dc9790b694d418a3"
+    },
+    "provenance_sha256": "7324f941e09233864d5763af6ba454f506212141ac5474a584f39da7e800b05f",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_fixed3_prog",
+    "target_ns": 8.0,
+    "full_fixture": {
+      "LUT": 248,
+      "FF": 283,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 107
+    },
+    "core": {
+      "LUT": 248,
+      "FF": 200,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 97,
+      "occupied_slices_reported": 97
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 107,
+      "core_slices_touched": 97,
+      "fixture_slices_touched": 26,
+      "shared_slices": 16,
+      "core_exclusive_slices": 81,
+      "fixture_exclusive_slices": 10,
+      "core_primitive_cells": 572,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 0.452,
+    "WHS_ns": 0.115,
+    "clock_to_clock_period_estimate_ns": 7.548,
+    "boundary_WNS_ns": 0.452,
+    "boundary_WHS_ns": -1.092,
+    "boundary_period_estimate_ns": 7.548,
+    "seconds": 80.8,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8",
+      "stream_pipeline_whole_main_-1_1_checks.json": "d05380f4ae79b4aefe48ddc28f47fae559a3cef6df052f89dc9790b694d418a3"
+    },
+    "provenance_sha256": "56e34951f08009ffe3e09b5051712a593d9459b456a1b83828b3193601bfc951",
+    "retried_checkpoint": false,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  },
+  {
+    "top": "top_stream_pipeline_whole_hybrid_prog",
+    "target_ns": 8.0,
+    "full_fixture": {
+      "LUT": 154,
+      "FF": 243,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 78
+    },
+    "core": {
+      "LUT": 154,
+      "FF": 160,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 66,
+      "occupied_slices_reported": 66
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 83,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 43,
+      "capture_FF": 40,
+      "fixture_FF": 83,
+      "full_occupied_slices": 78,
+      "core_slices_touched": 66,
+      "fixture_slices_touched": 26,
+      "shared_slices": 14,
+      "core_exclusive_slices": 52,
+      "fixture_exclusive_slices": 12,
+      "core_primitive_cells": 401,
+      "fixture_primitive_cells": 85
+    },
+    "WNS_ns": 1.752,
+    "WHS_ns": 0.103,
+    "clock_to_clock_period_estimate_ns": 6.248,
+    "boundary_WNS_ns": 1.752,
+    "boundary_WHS_ns": -1.08,
+    "boundary_period_estimate_ns": 6.248,
+    "seconds": 101.0,
+    "source_sha256": {
+      "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+      "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+      "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+      "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+    },
+    "functional_check_sha256": {
+      "stream_pipeline_whole_main_25_0_checks.json": "ed11d322d11e01b9677a94350951a08712d2a5d45a396897145faa16415429b8",
+      "stream_pipeline_whole_main_-1_1_checks.json": "d05380f4ae79b4aefe48ddc28f47fae559a3cef6df052f89dc9790b694d418a3"
+    },
+    "provenance_sha256": "090481297d95e16e4a42cd7e221bb66b2e8210f6b5fbf8fd19131be5ec0f6ef5",
+    "retried_checkpoint": true,
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "scope": "registered OOC timing fixture; not a production interface or board measurement"
+  }
+]

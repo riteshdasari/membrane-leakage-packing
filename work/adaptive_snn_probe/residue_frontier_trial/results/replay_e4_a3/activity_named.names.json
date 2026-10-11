@@ -1,0 +1,2039 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\replay_e4_a3\\activity.saif",
+  "source_sha256": "7161a78bb35f0492b365195b4f64e43d4d86ccf7c6015c4c659510cb7cb9ce94",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\replay_e4_a3\\activity_named.saif",
+  "target_sha256": "f5306d1395714a0c1e942807553cb9e6eb5e27459661d44f9c63fac9ad4daaba",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 405,
+  "changes": [
+    {
+      "line": 1005,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 1011,
+      "old": "\\\\eight_window\\.accept\\",
+      "new": "eight_window\\.accept"
+    },
+    {
+      "line": 1120,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[11\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[11\\]_i_2_n_0"
+    },
+    {
+      "line": 1121,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[11\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1122,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[11\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1123,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[11\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1124,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[15\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[15\\]_i_2_n_0"
+    },
+    {
+      "line": 1125,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[15\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[15\\]_i_3_n_0"
+    },
+    {
+      "line": 1126,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[15\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[15\\]_i_4_n_0"
+    },
+    {
+      "line": 1127,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[15\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[15\\]_i_5_n_0"
+    },
+    {
+      "line": 1128,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[19\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[19\\]_i_2_n_0"
+    },
+    {
+      "line": 1129,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[19\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[19\\]_i_3_n_0"
+    },
+    {
+      "line": 1130,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[19\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[19\\]_i_4_n_0"
+    },
+    {
+      "line": 1131,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[19\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[19\\]_i_5_n_0"
+    },
+    {
+      "line": 1132,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[23\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[23\\]_i_2_n_0"
+    },
+    {
+      "line": 1133,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[23\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[23\\]_i_3_n_0"
+    },
+    {
+      "line": 1134,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[23\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[23\\]_i_4_n_0"
+    },
+    {
+      "line": 1135,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[23\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[23\\]_i_5_n_0"
+    },
+    {
+      "line": 1136,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[27\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[27\\]_i_2_n_0"
+    },
+    {
+      "line": 1137,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[27\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[27\\]_i_3_n_0"
+    },
+    {
+      "line": 1138,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[27\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[27\\]_i_4_n_0"
+    },
+    {
+      "line": 1139,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[27\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[27\\]_i_5_n_0"
+    },
+    {
+      "line": 1140,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[31\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[31\\]_i_2_n_0"
+    },
+    {
+      "line": 1141,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[31\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[31\\]_i_3_n_0"
+    },
+    {
+      "line": 1142,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[31\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[31\\]_i_4_n_0"
+    },
+    {
+      "line": 1143,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[31\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[31\\]_i_5_n_0"
+    },
+    {
+      "line": 1144,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[35\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[35\\]_i_2_n_0"
+    },
+    {
+      "line": 1145,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[35\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[35\\]_i_3_n_0"
+    },
+    {
+      "line": 1146,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[35\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[35\\]_i_4_n_0"
+    },
+    {
+      "line": 1147,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[35\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[35\\]_i_5_n_0"
+    },
+    {
+      "line": 1148,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[39\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[39\\]_i_2_n_0"
+    },
+    {
+      "line": 1149,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[39\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[39\\]_i_3_n_0"
+    },
+    {
+      "line": 1150,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[39\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[39\\]_i_4_n_0"
+    },
+    {
+      "line": 1151,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[39\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[39\\]_i_5_n_0"
+    },
+    {
+      "line": 1152,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[3\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1153,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[3\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1154,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[3\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1155,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[3\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1156,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[43\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[43\\]_i_2_n_0"
+    },
+    {
+      "line": 1157,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[43\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[43\\]_i_3_n_0"
+    },
+    {
+      "line": 1158,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[43\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[43\\]_i_4_n_0"
+    },
+    {
+      "line": 1159,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[43\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[43\\]_i_5_n_0"
+    },
+    {
+      "line": 1160,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[47\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[47\\]_i_2_n_0"
+    },
+    {
+      "line": 1161,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[47\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[47\\]_i_3_n_0"
+    },
+    {
+      "line": 1162,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[47\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[47\\]_i_4_n_0"
+    },
+    {
+      "line": 1163,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[47\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[47\\]_i_5_n_0"
+    },
+    {
+      "line": 1164,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[51\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[51\\]_i_2_n_0"
+    },
+    {
+      "line": 1165,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[51\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[51\\]_i_3_n_0"
+    },
+    {
+      "line": 1166,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[51\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[51\\]_i_4_n_0"
+    },
+    {
+      "line": 1167,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[51\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[51\\]_i_5_n_0"
+    },
+    {
+      "line": 1168,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[55\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[55\\]_i_2_n_0"
+    },
+    {
+      "line": 1169,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[55\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[55\\]_i_3_n_0"
+    },
+    {
+      "line": 1170,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[55\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[55\\]_i_4_n_0"
+    },
+    {
+      "line": 1171,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[55\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[55\\]_i_5_n_0"
+    },
+    {
+      "line": 1172,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[59\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[59\\]_i_2_n_0"
+    },
+    {
+      "line": 1173,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[59\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[59\\]_i_3_n_0"
+    },
+    {
+      "line": 1174,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[59\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[59\\]_i_4_n_0"
+    },
+    {
+      "line": 1175,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[59\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[59\\]_i_5_n_0"
+    },
+    {
+      "line": 1176,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[63\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[63\\]_i_2_n_0"
+    },
+    {
+      "line": 1177,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[63\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[63\\]_i_3_n_0"
+    },
+    {
+      "line": 1178,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[63\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[63\\]_i_4_n_0"
+    },
+    {
+      "line": 1179,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[63\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[63\\]_i_5_n_0"
+    },
+    {
+      "line": 1180,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[67\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[67\\]_i_2_n_0"
+    },
+    {
+      "line": 1181,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[67\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[67\\]_i_3_n_0"
+    },
+    {
+      "line": 1182,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[67\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[67\\]_i_4_n_0"
+    },
+    {
+      "line": 1183,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[67\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[67\\]_i_5_n_0"
+    },
+    {
+      "line": 1184,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[71\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[71\\]_i_2_n_0"
+    },
+    {
+      "line": 1185,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[71\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[71\\]_i_3_n_0"
+    },
+    {
+      "line": 1186,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[71\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[71\\]_i_4_n_0"
+    },
+    {
+      "line": 1187,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[71\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[71\\]_i_5_n_0"
+    },
+    {
+      "line": 1188,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[75\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[75\\]_i_2_n_0"
+    },
+    {
+      "line": 1189,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[75\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[75\\]_i_3_n_0"
+    },
+    {
+      "line": 1190,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[75\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[75\\]_i_4_n_0"
+    },
+    {
+      "line": 1191,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[75\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[75\\]_i_5_n_0"
+    },
+    {
+      "line": 1192,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[79\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[79\\]_i_2_n_0"
+    },
+    {
+      "line": 1193,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[79\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[79\\]_i_3_n_0"
+    },
+    {
+      "line": 1194,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[79\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[79\\]_i_4_n_0"
+    },
+    {
+      "line": 1195,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[79\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[79\\]_i_5_n_0"
+    },
+    {
+      "line": 1196,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[7\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1197,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[7\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1198,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[7\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1199,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[7\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1200,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[83\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[83\\]_i_2_n_0"
+    },
+    {
+      "line": 1201,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[83\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[83\\]_i_3_n_0"
+    },
+    {
+      "line": 1202,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[83\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[83\\]_i_4_n_0"
+    },
+    {
+      "line": 1203,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[83\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[83\\]_i_5_n_0"
+    },
+    {
+      "line": 1204,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[87\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[87\\]_i_2_n_0"
+    },
+    {
+      "line": 1205,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[87\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[87\\]_i_3_n_0"
+    },
+    {
+      "line": 1206,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[87\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[87\\]_i_4_n_0"
+    },
+    {
+      "line": 1207,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[87\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[87\\]_i_5_n_0"
+    },
+    {
+      "line": 1208,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[91\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[91\\]_i_2_n_0"
+    },
+    {
+      "line": 1209,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[91\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[91\\]_i_3_n_0"
+    },
+    {
+      "line": 1210,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[91\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[91\\]_i_4_n_0"
+    },
+    {
+      "line": 1211,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[91\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[91\\]_i_5_n_0"
+    },
+    {
+      "line": 1212,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[95\\]_i_2_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[95\\]_i_2_n_0"
+    },
+    {
+      "line": 1213,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[95\\]_i_3_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[95\\]_i_3_n_0"
+    },
+    {
+      "line": 1214,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[95\\]_i_4_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[95\\]_i_4_n_0"
+    },
+    {
+      "line": 1215,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0\\[95\\]_i_5_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0\\[95\\]_i_5_n_0"
+    },
+    {
+      "line": 1216,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[15\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[15\\]_i_1_n_0"
+    },
+    {
+      "line": 1217,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[19\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[19\\]_i_1_n_0"
+    },
+    {
+      "line": 1218,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[27\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[27\\]_i_1_n_0"
+    },
+    {
+      "line": 1219,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[31\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[31\\]_i_1_n_0"
+    },
+    {
+      "line": 1220,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[39\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[39\\]_i_1_n_0"
+    },
+    {
+      "line": 1221,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[3\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1222,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[43\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[43\\]_i_1_n_0"
+    },
+    {
+      "line": 1223,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[51\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[51\\]_i_1_n_0"
+    },
+    {
+      "line": 1224,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[55\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[55\\]_i_1_n_0"
+    },
+    {
+      "line": 1225,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[63\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[63\\]_i_1_n_0"
+    },
+    {
+      "line": 1226,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[67\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[67\\]_i_1_n_0"
+    },
+    {
+      "line": 1227,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[75\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[75\\]_i_1_n_0"
+    },
+    {
+      "line": 1228,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[79\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[79\\]_i_1_n_0"
+    },
+    {
+      "line": 1229,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[7\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1230,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[87\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[87\\]_i_1_n_0"
+    },
+    {
+      "line": 1231,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg\\[91\\]_i_1_n_0\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg\\[91\\]_i_1_n_0"
+    },
+    {
+      "line": 1232,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[0\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1233,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[10\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[10\\]"
+    },
+    {
+      "line": 1234,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[11\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[11\\]"
+    },
+    {
+      "line": 1235,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[12\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[12\\]"
+    },
+    {
+      "line": 1236,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[13\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[13\\]"
+    },
+    {
+      "line": 1237,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[14\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[14\\]"
+    },
+    {
+      "line": 1238,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[15\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[15\\]"
+    },
+    {
+      "line": 1239,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[16\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[16\\]"
+    },
+    {
+      "line": 1240,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[17\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[17\\]"
+    },
+    {
+      "line": 1241,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[18\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[18\\]"
+    },
+    {
+      "line": 1242,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[19\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[19\\]"
+    },
+    {
+      "line": 1243,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[1\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1244,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[20\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[20\\]"
+    },
+    {
+      "line": 1245,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[21\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[21\\]"
+    },
+    {
+      "line": 1246,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[22\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[22\\]"
+    },
+    {
+      "line": 1247,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[23\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[23\\]"
+    },
+    {
+      "line": 1248,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[24\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[24\\]"
+    },
+    {
+      "line": 1249,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[25\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[25\\]"
+    },
+    {
+      "line": 1250,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[26\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[26\\]"
+    },
+    {
+      "line": 1251,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[27\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[27\\]"
+    },
+    {
+      "line": 1252,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[28\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[28\\]"
+    },
+    {
+      "line": 1253,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[29\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[29\\]"
+    },
+    {
+      "line": 1254,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[2\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1255,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[30\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[30\\]"
+    },
+    {
+      "line": 1256,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[31\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[31\\]"
+    },
+    {
+      "line": 1257,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[32\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[32\\]"
+    },
+    {
+      "line": 1258,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[33\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[33\\]"
+    },
+    {
+      "line": 1259,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[34\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[34\\]"
+    },
+    {
+      "line": 1260,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[35\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[35\\]"
+    },
+    {
+      "line": 1261,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[36\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[36\\]"
+    },
+    {
+      "line": 1262,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[37\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[37\\]"
+    },
+    {
+      "line": 1263,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[38\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[38\\]"
+    },
+    {
+      "line": 1264,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[39\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[39\\]"
+    },
+    {
+      "line": 1265,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[3\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1266,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[40\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[40\\]"
+    },
+    {
+      "line": 1267,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[41\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[41\\]"
+    },
+    {
+      "line": 1268,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[42\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[42\\]"
+    },
+    {
+      "line": 1269,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[43\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[43\\]"
+    },
+    {
+      "line": 1270,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[44\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[44\\]"
+    },
+    {
+      "line": 1271,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[45\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[45\\]"
+    },
+    {
+      "line": 1272,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[46\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[46\\]"
+    },
+    {
+      "line": 1273,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[47\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[47\\]"
+    },
+    {
+      "line": 1274,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[48\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[48\\]"
+    },
+    {
+      "line": 1275,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[49\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[49\\]"
+    },
+    {
+      "line": 1276,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[4\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1277,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[50\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[50\\]"
+    },
+    {
+      "line": 1278,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[51\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[51\\]"
+    },
+    {
+      "line": 1279,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[52\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[52\\]"
+    },
+    {
+      "line": 1280,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[53\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[53\\]"
+    },
+    {
+      "line": 1281,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[54\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[54\\]"
+    },
+    {
+      "line": 1282,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[55\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[55\\]"
+    },
+    {
+      "line": 1283,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[56\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[56\\]"
+    },
+    {
+      "line": 1284,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[57\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[57\\]"
+    },
+    {
+      "line": 1285,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[58\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[58\\]"
+    },
+    {
+      "line": 1286,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[59\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[59\\]"
+    },
+    {
+      "line": 1287,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[5\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1288,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[60\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[60\\]"
+    },
+    {
+      "line": 1289,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[61\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[61\\]"
+    },
+    {
+      "line": 1290,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[62\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[62\\]"
+    },
+    {
+      "line": 1291,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[63\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[63\\]"
+    },
+    {
+      "line": 1292,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[64\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[64\\]"
+    },
+    {
+      "line": 1293,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[65\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[65\\]"
+    },
+    {
+      "line": 1294,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[66\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[66\\]"
+    },
+    {
+      "line": 1295,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[67\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[67\\]"
+    },
+    {
+      "line": 1296,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[68\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[68\\]"
+    },
+    {
+      "line": 1297,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[69\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[69\\]"
+    },
+    {
+      "line": 1298,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[6\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1299,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[70\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[70\\]"
+    },
+    {
+      "line": 1300,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[71\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[71\\]"
+    },
+    {
+      "line": 1301,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[72\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[72\\]"
+    },
+    {
+      "line": 1302,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[73\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[73\\]"
+    },
+    {
+      "line": 1303,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[74\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[74\\]"
+    },
+    {
+      "line": 1304,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[75\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[75\\]"
+    },
+    {
+      "line": 1305,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[76\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[76\\]"
+    },
+    {
+      "line": 1306,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[77\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[77\\]"
+    },
+    {
+      "line": 1307,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[78\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[78\\]"
+    },
+    {
+      "line": 1308,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[79\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[79\\]"
+    },
+    {
+      "line": 1309,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[7\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1310,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[80\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[80\\]"
+    },
+    {
+      "line": 1311,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[81\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[81\\]"
+    },
+    {
+      "line": 1312,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[82\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[82\\]"
+    },
+    {
+      "line": 1313,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[83\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[83\\]"
+    },
+    {
+      "line": 1314,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[84\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[84\\]"
+    },
+    {
+      "line": 1315,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[85\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[85\\]"
+    },
+    {
+      "line": 1316,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[86\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[86\\]"
+    },
+    {
+      "line": 1317,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[87\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[87\\]"
+    },
+    {
+      "line": 1318,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[88\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[88\\]"
+    },
+    {
+      "line": 1319,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[89\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[89\\]"
+    },
+    {
+      "line": 1320,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[8\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1321,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[90\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[90\\]"
+    },
+    {
+      "line": 1322,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[91\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[91\\]"
+    },
+    {
+      "line": 1323,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[92\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[92\\]"
+    },
+    {
+      "line": 1324,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[93\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[93\\]"
+    },
+    {
+      "line": 1325,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[94\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[94\\]"
+    },
+    {
+      "line": 1326,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[95\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[95\\]"
+    },
+    {
+      "line": 1327,
+      "old": "\\\\eight_window\\.fabric_all\\.sum0_reg_n_0_\\[9\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum0_reg_n_0_\\[9\\]"
+    },
+    {
+      "line": 1329,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[0\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1330,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[10\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[10\\]"
+    },
+    {
+      "line": 1331,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[11\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[11\\]"
+    },
+    {
+      "line": 1332,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[12\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[12\\]"
+    },
+    {
+      "line": 1333,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[13\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[13\\]"
+    },
+    {
+      "line": 1334,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[14\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[14\\]"
+    },
+    {
+      "line": 1335,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[15\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[15\\]"
+    },
+    {
+      "line": 1336,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[16\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[16\\]"
+    },
+    {
+      "line": 1337,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[17\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[17\\]"
+    },
+    {
+      "line": 1338,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[18\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[18\\]"
+    },
+    {
+      "line": 1339,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[19\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[19\\]"
+    },
+    {
+      "line": 1340,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[1\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1341,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[20\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[20\\]"
+    },
+    {
+      "line": 1342,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[21\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[21\\]"
+    },
+    {
+      "line": 1343,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[22\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[22\\]"
+    },
+    {
+      "line": 1344,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[23\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[23\\]"
+    },
+    {
+      "line": 1345,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[24\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[24\\]"
+    },
+    {
+      "line": 1346,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[25\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[25\\]"
+    },
+    {
+      "line": 1347,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[26\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[26\\]"
+    },
+    {
+      "line": 1348,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[27\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[27\\]"
+    },
+    {
+      "line": 1349,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[28\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[28\\]"
+    },
+    {
+      "line": 1350,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[29\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[29\\]"
+    },
+    {
+      "line": 1351,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[2\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1352,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[30\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[30\\]"
+    },
+    {
+      "line": 1353,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[31\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[31\\]"
+    },
+    {
+      "line": 1354,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[32\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[32\\]"
+    },
+    {
+      "line": 1355,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[33\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[33\\]"
+    },
+    {
+      "line": 1356,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[34\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[34\\]"
+    },
+    {
+      "line": 1357,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[35\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[35\\]"
+    },
+    {
+      "line": 1358,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[36\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[36\\]"
+    },
+    {
+      "line": 1359,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[37\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[37\\]"
+    },
+    {
+      "line": 1360,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[38\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[38\\]"
+    },
+    {
+      "line": 1361,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[39\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[39\\]"
+    },
+    {
+      "line": 1362,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[3\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1363,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[40\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[40\\]"
+    },
+    {
+      "line": 1364,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[41\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[41\\]"
+    },
+    {
+      "line": 1365,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[42\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[42\\]"
+    },
+    {
+      "line": 1366,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[43\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[43\\]"
+    },
+    {
+      "line": 1367,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[44\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[44\\]"
+    },
+    {
+      "line": 1368,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[45\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[45\\]"
+    },
+    {
+      "line": 1369,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[46\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[46\\]"
+    },
+    {
+      "line": 1370,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[47\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[47\\]"
+    },
+    {
+      "line": 1371,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[48\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[48\\]"
+    },
+    {
+      "line": 1372,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[49\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[49\\]"
+    },
+    {
+      "line": 1373,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[4\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1374,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[50\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[50\\]"
+    },
+    {
+      "line": 1375,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[51\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[51\\]"
+    },
+    {
+      "line": 1376,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[52\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[52\\]"
+    },
+    {
+      "line": 1377,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[53\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[53\\]"
+    },
+    {
+      "line": 1378,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[54\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[54\\]"
+    },
+    {
+      "line": 1379,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[55\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[55\\]"
+    },
+    {
+      "line": 1380,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[56\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[56\\]"
+    },
+    {
+      "line": 1381,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[57\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[57\\]"
+    },
+    {
+      "line": 1382,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[58\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[58\\]"
+    },
+    {
+      "line": 1383,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[59\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[59\\]"
+    },
+    {
+      "line": 1384,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[5\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1385,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[60\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[60\\]"
+    },
+    {
+      "line": 1386,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[61\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[61\\]"
+    },
+    {
+      "line": 1387,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[62\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[62\\]"
+    },
+    {
+      "line": 1388,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[63\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[63\\]"
+    },
+    {
+      "line": 1389,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[64\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[64\\]"
+    },
+    {
+      "line": 1390,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[65\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[65\\]"
+    },
+    {
+      "line": 1391,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[66\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[66\\]"
+    },
+    {
+      "line": 1392,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[67\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[67\\]"
+    },
+    {
+      "line": 1393,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[68\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[68\\]"
+    },
+    {
+      "line": 1394,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[69\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[69\\]"
+    },
+    {
+      "line": 1395,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[6\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1396,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[70\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[70\\]"
+    },
+    {
+      "line": 1397,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[71\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[71\\]"
+    },
+    {
+      "line": 1398,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[72\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[72\\]"
+    },
+    {
+      "line": 1399,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[73\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[73\\]"
+    },
+    {
+      "line": 1400,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[74\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[74\\]"
+    },
+    {
+      "line": 1401,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[75\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[75\\]"
+    },
+    {
+      "line": 1402,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[76\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[76\\]"
+    },
+    {
+      "line": 1403,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[77\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[77\\]"
+    },
+    {
+      "line": 1404,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[78\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[78\\]"
+    },
+    {
+      "line": 1405,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[79\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[79\\]"
+    },
+    {
+      "line": 1406,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[7\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1407,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[80\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[80\\]"
+    },
+    {
+      "line": 1408,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[81\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[81\\]"
+    },
+    {
+      "line": 1409,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[82\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[82\\]"
+    },
+    {
+      "line": 1410,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[83\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[83\\]"
+    },
+    {
+      "line": 1411,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[84\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[84\\]"
+    },
+    {
+      "line": 1412,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[85\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[85\\]"
+    },
+    {
+      "line": 1413,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[86\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[86\\]"
+    },
+    {
+      "line": 1414,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[87\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[87\\]"
+    },
+    {
+      "line": 1415,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[88\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[88\\]"
+    },
+    {
+      "line": 1416,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[89\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[89\\]"
+    },
+    {
+      "line": 1417,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[8\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1418,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[90\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[90\\]"
+    },
+    {
+      "line": 1419,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[91\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[91\\]"
+    },
+    {
+      "line": 1420,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[92\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[92\\]"
+    },
+    {
+      "line": 1421,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[93\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[93\\]"
+    },
+    {
+      "line": 1422,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[94\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[94\\]"
+    },
+    {
+      "line": 1423,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[95\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[95\\]"
+    },
+    {
+      "line": 1424,
+      "old": "\\\\eight_window\\.fabric_all\\.sum1_reg_n_0_\\[9\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum1_reg_n_0_\\[9\\]"
+    },
+    {
+      "line": 1426,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[0\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1427,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[10\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[10\\]"
+    },
+    {
+      "line": 1428,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[11\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[11\\]"
+    },
+    {
+      "line": 1429,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[12\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[12\\]"
+    },
+    {
+      "line": 1430,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[13\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[13\\]"
+    },
+    {
+      "line": 1431,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[14\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[14\\]"
+    },
+    {
+      "line": 1432,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[15\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[15\\]"
+    },
+    {
+      "line": 1433,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[16\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[16\\]"
+    },
+    {
+      "line": 1434,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[17\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[17\\]"
+    },
+    {
+      "line": 1435,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[18\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[18\\]"
+    },
+    {
+      "line": 1436,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[19\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[19\\]"
+    },
+    {
+      "line": 1437,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[1\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1438,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[20\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[20\\]"
+    },
+    {
+      "line": 1439,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[21\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[21\\]"
+    },
+    {
+      "line": 1440,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[22\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[22\\]"
+    },
+    {
+      "line": 1441,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[23\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[23\\]"
+    },
+    {
+      "line": 1442,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[24\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[24\\]"
+    },
+    {
+      "line": 1443,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[25\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[25\\]"
+    },
+    {
+      "line": 1444,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[26\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[26\\]"
+    },
+    {
+      "line": 1445,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[27\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[27\\]"
+    },
+    {
+      "line": 1446,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[28\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[28\\]"
+    },
+    {
+      "line": 1447,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[29\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[29\\]"
+    },
+    {
+      "line": 1448,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[2\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1449,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[30\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[30\\]"
+    },
+    {
+      "line": 1450,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[31\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[31\\]"
+    },
+    {
+      "line": 1451,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[32\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[32\\]"
+    },
+    {
+      "line": 1452,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[33\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[33\\]"
+    },
+    {
+      "line": 1453,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[34\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[34\\]"
+    },
+    {
+      "line": 1454,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[35\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[35\\]"
+    },
+    {
+      "line": 1455,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[36\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[36\\]"
+    },
+    {
+      "line": 1456,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[37\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[37\\]"
+    },
+    {
+      "line": 1457,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[38\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[38\\]"
+    },
+    {
+      "line": 1458,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[39\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[39\\]"
+    },
+    {
+      "line": 1459,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[3\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1460,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[40\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[40\\]"
+    },
+    {
+      "line": 1461,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[41\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[41\\]"
+    },
+    {
+      "line": 1462,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[42\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[42\\]"
+    },
+    {
+      "line": 1463,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[43\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[43\\]"
+    },
+    {
+      "line": 1464,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[44\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[44\\]"
+    },
+    {
+      "line": 1465,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[45\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[45\\]"
+    },
+    {
+      "line": 1466,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[46\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[46\\]"
+    },
+    {
+      "line": 1467,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[47\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[47\\]"
+    },
+    {
+      "line": 1468,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[48\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[48\\]"
+    },
+    {
+      "line": 1469,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[49\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[49\\]"
+    },
+    {
+      "line": 1470,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[4\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1471,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[50\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[50\\]"
+    },
+    {
+      "line": 1472,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[51\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[51\\]"
+    },
+    {
+      "line": 1473,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[52\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[52\\]"
+    },
+    {
+      "line": 1474,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[53\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[53\\]"
+    },
+    {
+      "line": 1475,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[54\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[54\\]"
+    },
+    {
+      "line": 1476,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[55\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[55\\]"
+    },
+    {
+      "line": 1477,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[56\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[56\\]"
+    },
+    {
+      "line": 1478,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[57\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[57\\]"
+    },
+    {
+      "line": 1479,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[58\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[58\\]"
+    },
+    {
+      "line": 1480,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[59\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[59\\]"
+    },
+    {
+      "line": 1481,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[5\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1482,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[60\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[60\\]"
+    },
+    {
+      "line": 1483,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[61\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[61\\]"
+    },
+    {
+      "line": 1484,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[62\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[62\\]"
+    },
+    {
+      "line": 1485,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[63\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[63\\]"
+    },
+    {
+      "line": 1486,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[64\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[64\\]"
+    },
+    {
+      "line": 1487,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[65\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[65\\]"
+    },
+    {
+      "line": 1488,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[66\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[66\\]"
+    },
+    {
+      "line": 1489,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[67\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[67\\]"
+    },
+    {
+      "line": 1490,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[68\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[68\\]"
+    },
+    {
+      "line": 1491,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[69\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[69\\]"
+    },
+    {
+      "line": 1492,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[6\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1493,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[70\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[70\\]"
+    },
+    {
+      "line": 1494,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[71\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[71\\]"
+    },
+    {
+      "line": 1495,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[72\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[72\\]"
+    },
+    {
+      "line": 1496,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[73\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[73\\]"
+    },
+    {
+      "line": 1497,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[74\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[74\\]"
+    },
+    {
+      "line": 1498,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[75\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[75\\]"
+    },
+    {
+      "line": 1499,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[76\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[76\\]"
+    },
+    {
+      "line": 1500,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[77\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[77\\]"
+    },
+    {
+      "line": 1501,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[78\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[78\\]"
+    },
+    {
+      "line": 1502,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[79\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[79\\]"
+    },
+    {
+      "line": 1503,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[7\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1504,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[80\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[80\\]"
+    },
+    {
+      "line": 1505,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[81\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[81\\]"
+    },
+    {
+      "line": 1506,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[82\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[82\\]"
+    },
+    {
+      "line": 1507,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[83\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[83\\]"
+    },
+    {
+      "line": 1508,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[84\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[84\\]"
+    },
+    {
+      "line": 1509,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[85\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[85\\]"
+    },
+    {
+      "line": 1510,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[86\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[86\\]"
+    },
+    {
+      "line": 1511,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[87\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[87\\]"
+    },
+    {
+      "line": 1512,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[88\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[88\\]"
+    },
+    {
+      "line": 1513,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[89\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[89\\]"
+    },
+    {
+      "line": 1514,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[8\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1515,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[90\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[90\\]"
+    },
+    {
+      "line": 1516,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[91\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[91\\]"
+    },
+    {
+      "line": 1517,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[92\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[92\\]"
+    },
+    {
+      "line": 1518,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[93\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[93\\]"
+    },
+    {
+      "line": 1519,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[94\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[94\\]"
+    },
+    {
+      "line": 1520,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[95\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[95\\]"
+    },
+    {
+      "line": 1521,
+      "old": "\\\\eight_window\\.fabric_all\\.sum2_reg_n_0_\\[9\\]\\",
+      "new": "eight_window\\.fabric_all\\.sum2_reg_n_0_\\[9\\]"
+    },
+    {
+      "line": 1523,
+      "old": "\\\\eight_window\\.v0\\",
+      "new": "eight_window\\.v0"
+    },
+    {
+      "line": 1524,
+      "old": "\\\\eight_window\\.v1\\",
+      "new": "eight_window\\.v1"
+    },
+    {
+      "line": 1525,
+      "old": "\\\\eight_window\\.v2\\",
+      "new": "eight_window\\.v2"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

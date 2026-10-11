@@ -1,0 +1,110 @@
+{
+  "samples": 64,
+  "batch": 4,
+  "threads": 2,
+  "source_commit": "c15d5da05eea0c48e1fa837a4f8073297006d93f",
+  "checkpoint_sha256": "c66b1f886ae840d0e3fd969c3957bb929590fff305cc4d19b6d25e33170dd56f",
+  "data_sha256": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+  "contract_sha256": "3d16112e7cefc7f77a397b0b70abf495223e4faf25e39fac9950bc2c973a02ab",
+  "runner_sha256": "395a8ae68c063dd09f8c589dde7de5519e40e755043d7e46c5668654f5d95efa",
+  "integer_sha256": "e77052d271929affc5eb7f09307f1d13c22aab6178b127d8fb39363d645389dd",
+  "integer_synapse_layout": "contiguous neuron spikes in both integer variants",
+  "elapsed_s": 127.91047477722168,
+  "checkpoint_saved_max_accuracy": 0.9358,
+  "correct": {
+    "float": 60,
+    "integer": 60,
+    "packed": 60
+  },
+  "integer_vs_float_changed_classes": 0,
+  "packed_vs_integer_changed_classes": 0,
+  "packed_vs_integer_logits_equal": true,
+  "state_mismatches": 0,
+  "spike_mismatches": 0,
+  "range_by_layer": {
+    "features.1": {
+      "old_min": -10220,
+      "old_max": 10562,
+      "current_min": -5275,
+      "current_max": 5707,
+      "state_min": -10385,
+      "state_max": 10732
+    },
+    "features.4": {
+      "old_min": -9887,
+      "old_max": 8604,
+      "current_min": -5277,
+      "current_max": 4898,
+      "state_min": -10108,
+      "state_max": 8738
+    },
+    "features.8": {
+      "old_min": -3888,
+      "old_max": 3625,
+      "current_min": -2119,
+      "current_max": 2183,
+      "state_min": -3967,
+      "state_max": 3649
+    },
+    "features.11": {
+      "old_min": -4764,
+      "old_max": 5375,
+      "current_min": -2622,
+      "current_max": 3159,
+      "state_min": -4764,
+      "state_max": 5375
+    },
+    "features.15": {
+      "old_min": -4190,
+      "old_max": 2945,
+      "current_min": -2260,
+      "current_max": 2099,
+      "state_min": -4190,
+      "state_max": 2945
+    },
+    "features.18": {
+      "old_min": -4642,
+      "old_max": 3446,
+      "current_min": -2573,
+      "current_max": 2167,
+      "state_min": -4833,
+      "state_max": 3464
+    },
+    "features.22": {
+      "old_min": -3574,
+      "old_max": 3511,
+      "current_min": -1939,
+      "current_max": 2174,
+      "state_min": -3574,
+      "state_max": 3511
+    },
+    "features.25": {
+      "old_min": -5413,
+      "old_max": 3457,
+      "current_min": -2893,
+      "current_max": 2155,
+      "state_min": -5504,
+      "state_max": 3457
+    }
+  },
+  "operation_counts": {
+    "raw": 157286400,
+    "zero": 26462521,
+    "nonzero": 130823879,
+    "signed12_exceptions": 1932634,
+    "narrow": 69779994,
+    "pairs": 29108114,
+    "issues_adaptive": 101715765,
+    "issues_fixed_split": 65412092,
+    "issues_scalar": 130823879,
+    "issues_LUT2": 65412092,
+    "packed_mismatches": 0
+  },
+  "leak": {
+    "beta_q8": 128,
+    "tau": 2,
+    "exact_shift_control": "ceil(U/2), zero DSP"
+  },
+  "hardware_domain_coverage": 0.9852272076415041,
+  "scope": "Software full feedback; FP32 synapses/readout; no FPGA performance or energy claim"
+}

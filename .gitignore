@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.build/
+.venv/
+node_modules/
+*.dcp
+*.saif
+*.pth
+*.pth.tar
+*.pt
+*.zip
+.Xil/
+xsim.dir/

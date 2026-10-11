@@ -1,0 +1,661 @@
+{
+  "created_utc": "2026-10-09T17:30:13.987976+00:00",
+  "status": "Completed exact matched fixed-baseline retiming trial",
+  "findings": {
+    "adaptive_variant": 1,
+    "adaptive_core": {
+      "LUT": 130,
+      "FF": 247,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 72,
+      "occupied_slices_reported": 72
+    },
+    "adaptive_supplied_window_clocks": 115758,
+    "adaptive_registered_timing_pass": true,
+    "retimed": {
+      "2": {
+        "core": {
+          "LUT": 66,
+          "FF": 248,
+          "DSP": 1,
+          "RAMB18": 0,
+          "RAMB36": 0,
+          "occupied_slices": 43,
+          "occupied_slices_reported": 43
+        },
+        "registered_timing_pass": true,
+        "change_vs_original_fixed": {
+          "LUT": 0,
+          "FF": -20,
+          "DSP": 0
+        },
+        "adaptive_minus_retimed": {
+          "LUT": 64,
+          "FF": -1,
+          "DSP": 0
+        },
+        "supplied_window_clocks": 110596,
+        "adaptive_clock_increase": 0.046674382436977746,
+        "adaptive_service_rate_change": -0.04459303028732353,
+        "adaptive_ff_normalized_service_change": -0.040724985875531305,
+        "adaptive_ff_normalized_service_change_vs_original_fixed": 0.03663590236031289,
+        "fixed_ff_break_even_for_adaptive_ff_normalized_service": 258.52857246193355,
+        "minimum_integer_fixed_ff_for_adaptive_ff_normalized_gain": 259,
+        "rate_comparison_supported_at_common_target": true,
+        "retimed_resource_vector_and_schedule_dominates_adaptive": false,
+        "hybrid_faster_and_fewer_luts_at_one_extra_ff": true
+      },
+      "3": {
+        "core": {
+          "LUT": 79,
+          "FF": 304,
+          "DSP": 0,
+          "RAMB18": 0,
+          "RAMB36": 0,
+          "occupied_slices": 81,
+          "occupied_slices_reported": 81
+        },
+        "registered_timing_pass": true,
+        "change_vs_original_fixed": {
+          "LUT": 0,
+          "FF": -60,
+          "DSP": 0
+        },
+        "adaptive_minus_retimed": {
+          "LUT": 51,
+          "FF": -57,
+          "DSP": 1
+        },
+        "supplied_window_clocks": 110596,
+        "adaptive_clock_increase": 0.046674382436977746,
+        "adaptive_service_rate_change": -0.04459303028732353,
+        "adaptive_ff_normalized_service_change": 0.1758855011848326,
+        "adaptive_ff_normalized_service_change_vs_original_fixed": 0.4079681658923653,
+        "fixed_ff_break_even_for_adaptive_ff_normalized_service": 258.52857246193355,
+        "minimum_integer_fixed_ff_for_adaptive_ff_normalized_gain": 259,
+        "rate_comparison_supported_at_common_target": true,
+        "retimed_resource_vector_and_schedule_dominates_adaptive": false,
+        "hybrid_faster_and_fewer_luts_at_one_extra_ff": false
+      }
+    },
+    "adaptive_minus_native4": {
+      "LUT": 105,
+      "FF": 7,
+      "DSP": 0
+    },
+    "adaptive_clock_reduction_vs_native4": 0.27442647611884163,
+    "adaptive_service_rate_change_vs_native4": 0.37822007982169703,
+    "ff_normalization": "Equal-work supplied-window service at 6 ns per core FF; ratio = fixed_clocks * fixed_FF / (adaptive_clocks * adaptive_FF) - 1. Excludes fixture FFs and does not measure replicated placement or memory supply.",
+    "overall_win_claim": false,
+    "research_question_resolved": false
+  },
+  "source_sha256": {
+    "guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+    "tb_guard_add_retime.sv": "776d1fbea25692c3310fafdf6134fa3572f5498e3b87dc920bd09883fd65dc98",
+    "check_guard_add_retime.py": "9c1aea14a7806e88ec58530b340219a584eac3247c1cd7717e519fa607348304",
+    "check_guard_add_retime_snn.py": "11561071b10f349f8c4367b7113a87d40f0fb6d5406874deac75f0fbc4294df9",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "guard_add_retime_timing.sv": "37913af38b0b9b202a9d6ff003592f0c0219f2fafaaa0bdd3dd0a150dcaf0c7a",
+    "route_guard_add_retime.tcl": "a492e740a353edc0e4c5fa43aeebc883cb004e023841b28788b514ea30eb8d6e",
+    "run_guard_add_retime_route.py": "e01f826c7097b0a769cdafd8dbe79eb12e78eaab173b6a3e366aa68b079d9eec"
+  },
+  "functional_check_sha256": {
+    "retime_main_0_checks.json": "d9b612a686e4ddc8a8480958ecedfe19d42e279a03410a6065c69a02484cef91",
+    "retime_main_1_checks.json": "9344f960cb3a7b819ec52321519f833f188d527d63ec8f9e442090fbe9d1f695",
+    "retime_models_0_checks.json": "22641a7f100bc4fea7001d74581334c1e8f720498cb4099fae08c07dc0794f5f",
+    "retime_models_1_checks.json": "4ccc3caee1554cf0aaafc2ff6849fb01460c0dfd4269d40b8605cc13652e994c",
+    "retime_snn_checks.json": "917361ad41fb56b3ec427478d9d060fde2b4c3f48b533821cc919233c6c4250a"
+  },
+  "hardware": [
+    {
+      "top": "top_guard_add_retime_hybrid",
+      "engine": 2,
+      "variant": 0,
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 66,
+        "FF": 248,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 43,
+        "occupied_slices_reported": 43
+      },
+      "full_fixture": {
+        "LUT": 66,
+        "FF": 467,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 80
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 80,
+        "core_slices_touched": 43,
+        "fixture_slices_touched": 38,
+        "shared_slices": 1,
+        "core_exclusive_slices": 42,
+        "fixture_exclusive_slices": 37,
+        "core_primitive_cells": 366,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.599,
+      "WHS_ns": 0.122,
+      "boundary_WNS_ns": 1.826,
+      "boundary_WHS_ns": -1.076,
+      "source_sha256": {
+        "guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "tb_guard_add_retime.sv": "776d1fbea25692c3310fafdf6134fa3572f5498e3b87dc920bd09883fd65dc98",
+        "check_guard_add_retime.py": "9c1aea14a7806e88ec58530b340219a584eac3247c1cd7717e519fa607348304",
+        "check_guard_add_retime_snn.py": "11561071b10f349f8c4367b7113a87d40f0fb6d5406874deac75f0fbc4294df9",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "guard_add_retime_timing.sv": "37913af38b0b9b202a9d6ff003592f0c0219f2fafaaa0bdd3dd0a150dcaf0c7a",
+        "route_guard_add_retime.tcl": "a492e740a353edc0e4c5fa43aeebc883cb004e023841b28788b514ea30eb8d6e",
+        "run_guard_add_retime_route.py": "e01f826c7097b0a769cdafd8dbe79eb12e78eaab173b6a3e366aa68b079d9eec"
+      },
+      "functional_check_sha256": {
+        "retime_main_0_checks.json": "d9b612a686e4ddc8a8480958ecedfe19d42e279a03410a6065c69a02484cef91",
+        "retime_main_1_checks.json": "9344f960cb3a7b819ec52321519f833f188d527d63ec8f9e442090fbe9d1f695",
+        "retime_models_0_checks.json": "22641a7f100bc4fea7001d74581334c1e8f720498cb4099fae08c07dc0794f5f",
+        "retime_models_1_checks.json": "4ccc3caee1554cf0aaafc2ff6849fb01460c0dfd4269d40b8605cc13652e994c",
+        "retime_snn_checks.json": "917361ad41fb56b3ec427478d9d060fde2b4c3f48b533821cc919233c6c4250a"
+      },
+      "provenance_sha256": "534725c8b20d0d56388612eb27a97b0a6f42aac4ab479c748b513207c3b55345",
+      "route_artifact_sha256": {
+        "results\\top_guard_add_retime_hybrid_synth\\design.dcp": "f787b071994c586360cb24dcd78ec0324a4a54634848610bf6bd4e786499a999",
+        "results\\top_guard_add_retime_hybrid_synth\\hierarchical_util.rpt": "150634642f4fcf84c0892cdd153a65dedce5bd06f7a3c6ff2586568d34dd08cf",
+        "results\\top_guard_add_retime_hybrid_synth\\provenance.txt": "855734b437d1f453263efce3bda7030aaeec5c3b88d8a43fec8440e0e0709ba2",
+        "results\\top_guard_add_retime_hybrid_synth\\util.rpt": "9b54d826c67e0adf5403ec52cd0441ab7771447a8de746d7af7bb1d88a9c3986",
+        "results\\top_guard_add_retime_hybrid_route\\boundary_slack.txt": "9f0ecd861aee12ede2db5995e8ade7cde63f8847a20f3ca88c399da370d4fb70",
+        "results\\top_guard_add_retime_hybrid_route\\boundary_timing.rpt": "983638b889ea42380caa717b1e8fa4694eb44117ca873253cb6a6f248d097e66",
+        "results\\top_guard_add_retime_hybrid_route\\capture_paths_max.rpt": "065f9a519860020e74fcc63e2600461df55b413b33f67e3d333a39d479143cfe",
+        "results\\top_guard_add_retime_hybrid_route\\capture_paths_min.rpt": "2c2258e1329686bbce8baab376a2264de247a1001dd0fa305792c27c49e946f1",
+        "results\\top_guard_add_retime_hybrid_route\\core_util.rpt": "f6c61a3da41cc4401cf2ec6787836d1f35a1ae3fae50796e7eb47ac2186b13c6",
+        "results\\top_guard_add_retime_hybrid_route\\design.dcp": "edbf3ee73844cd17e171c524e5406876942acdc0d05d2b772216b724a5e6523c",
+        "results\\top_guard_add_retime_hybrid_route\\fixture_accounting.txt": "10f5951191ef912f5d4ac37df00ec73ed79fa7b1ebd39630c94848b7d82ce430",
+        "results\\top_guard_add_retime_hybrid_route\\hierarchical_util.rpt": "ac07dbf260477bf91e09684415111c76ffb9fdd6f95d5ada9c0fb50e36c15f58",
+        "results\\top_guard_add_retime_hybrid_route\\input_paths_max.rpt": "40c5b6e148b8c35f256c6b4522ee4d7d820d71272dba3d5fde02f9852d57fcf7",
+        "results\\top_guard_add_retime_hybrid_route\\input_paths_min.rpt": "2b23ff8127562f8ddd25d6cb8caa229ca972d5fcb47cb711eb3e325e4d5e7e1f",
+        "results\\top_guard_add_retime_hybrid_route\\launch_paths_max.rpt": "eb9e2f2ae20a7932da4ba8a4b0b0296f48a9a55a5f48c3f7694c5c5a2702995c",
+        "results\\top_guard_add_retime_hybrid_route\\launch_paths_min.rpt": "92729ae5201a084d284cb2fd486b0a049eabad0bf396066dbaccb5ddeee5cedb",
+        "results\\top_guard_add_retime_hybrid_route\\output_paths_max.rpt": "3f346616ed235188c60781238d9f8733035a69732f21a013e9a4ef71adf488c9",
+        "results\\top_guard_add_retime_hybrid_route\\output_paths_min.rpt": "ce55e6637d205e573daa597e38f98e1c5a078cd43b0df67a1b59a2e3bbcf582e",
+        "results\\top_guard_add_retime_hybrid_route\\paths_max.rpt": "675614389fa3d6b0ddeb191d7f4e484f5a94c82c5efc6238c9043abaa4c9a49c",
+        "results\\top_guard_add_retime_hybrid_route\\paths_min.rpt": "ad67100a91c8e1debdfe8c112ccd1d463268aedf47ac41c85d5d248285a894cd",
+        "results\\top_guard_add_retime_hybrid_route\\provenance.txt": "c8c36fdcf1ae80b09962941f06807a9449ef98e83561aa7a07a09d0efd544f78",
+        "results\\top_guard_add_retime_hybrid_route\\slack.txt": "106452b35093864dc794f6e08df7ec005e455f531b8dacb6f70d8124e9dea540",
+        "results\\top_guard_add_retime_hybrid_route\\slice_sites.txt": "e02b37959cb75c82f3056e92a1fb327c2b67e8631e8f01d36ab9fcb81b43e392",
+        "results\\top_guard_add_retime_hybrid_route\\timing.rpt": "65597220b9582b209df500b555d46287fafc59ace7a025cb7c0d3baf3a5b823a",
+        "results\\top_guard_add_retime_hybrid_route\\util.rpt": "26b903c8e84f69eae5c07458138d76b142b5134f2c08ab86bc1b3115e9c9aa7b"
+      },
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 75.4,
+      "scope": "Exact retimed fixed guard-add baseline in matched 219-FF registered OOC fixture; same always-six operation and four-advance contract; no board, memory, power or complete neuron-update measurement"
+    },
+    {
+      "top": "top_guard_add_retime_lut",
+      "engine": 3,
+      "variant": 1,
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 79,
+        "FF": 304,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 81,
+        "occupied_slices_reported": 81
+      },
+      "full_fixture": {
+        "LUT": 79,
+        "FF": 523,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 131
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 131,
+        "core_slices_touched": 81,
+        "fixture_slices_touched": 52,
+        "shared_slices": 2,
+        "core_exclusive_slices": 79,
+        "fixture_exclusive_slices": 50,
+        "core_primitive_cells": 411,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 1.607,
+      "WHS_ns": 0.147,
+      "boundary_WNS_ns": 1.607,
+      "boundary_WHS_ns": -1.064,
+      "source_sha256": {
+        "guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "tb_guard_add_retime.sv": "776d1fbea25692c3310fafdf6134fa3572f5498e3b87dc920bd09883fd65dc98",
+        "check_guard_add_retime.py": "9c1aea14a7806e88ec58530b340219a584eac3247c1cd7717e519fa607348304",
+        "check_guard_add_retime_snn.py": "11561071b10f349f8c4367b7113a87d40f0fb6d5406874deac75f0fbc4294df9",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "guard_add_retime_timing.sv": "37913af38b0b9b202a9d6ff003592f0c0219f2fafaaa0bdd3dd0a150dcaf0c7a",
+        "route_guard_add_retime.tcl": "a492e740a353edc0e4c5fa43aeebc883cb004e023841b28788b514ea30eb8d6e",
+        "run_guard_add_retime_route.py": "e01f826c7097b0a769cdafd8dbe79eb12e78eaab173b6a3e366aa68b079d9eec"
+      },
+      "functional_check_sha256": {
+        "retime_main_0_checks.json": "d9b612a686e4ddc8a8480958ecedfe19d42e279a03410a6065c69a02484cef91",
+        "retime_main_1_checks.json": "9344f960cb3a7b819ec52321519f833f188d527d63ec8f9e442090fbe9d1f695",
+        "retime_models_0_checks.json": "22641a7f100bc4fea7001d74581334c1e8f720498cb4099fae08c07dc0794f5f",
+        "retime_models_1_checks.json": "4ccc3caee1554cf0aaafc2ff6849fb01460c0dfd4269d40b8605cc13652e994c",
+        "retime_snn_checks.json": "917361ad41fb56b3ec427478d9d060fde2b4c3f48b533821cc919233c6c4250a"
+      },
+      "provenance_sha256": "103bcf951571c3b47f8edba13c4e444d695bfa2d2e7b29a05c8c2c13f85c6b19",
+      "route_artifact_sha256": {
+        "results\\top_guard_add_retime_lut_synth\\design.dcp": "26a2493e8ee335ef7cbb15c1e13fb0cd726cb52824779c4cb683ab7be15705aa",
+        "results\\top_guard_add_retime_lut_synth\\hierarchical_util.rpt": "cd6dfef98c225368dde7dc293f09e3bfc7e2ad2eb88bf82fa5332b5af7f64625",
+        "results\\top_guard_add_retime_lut_synth\\provenance.txt": "56addc7764da0bf3efbe620fb9d8c17ac0ae377c6a310657a4ba116753a929e2",
+        "results\\top_guard_add_retime_lut_synth\\util.rpt": "be7950cb3f725338fe8aa06a2f1dc0e0459beff32b644efee5cf86ed0c6b639f",
+        "results\\top_guard_add_retime_lut_route\\boundary_slack.txt": "fbd201b12e5bfd8f90471d608e30f647e0513fa83a11eb347ca0b07a48fe2109",
+        "results\\top_guard_add_retime_lut_route\\boundary_timing.rpt": "1f6d07c09b23792dd24840543482e0c86af2cf67cd7d386184ccc4881697b0ee",
+        "results\\top_guard_add_retime_lut_route\\capture_paths_max.rpt": "9380f8bb539d436576c07f7b01f089b7600283d73ba888d494535517198cfc23",
+        "results\\top_guard_add_retime_lut_route\\capture_paths_min.rpt": "a63165b445ca1b7806b8ecca4c615eb88ac302f2e5d8405051a4d40ff10d4817",
+        "results\\top_guard_add_retime_lut_route\\core_util.rpt": "71c1ad8735763982f14bf28d96bca1dc7bef44b6c5177ff0465764d343597260",
+        "results\\top_guard_add_retime_lut_route\\design.dcp": "318190ea15ff483a6e9de0793ddfd942556ff7e41dd16514aa629fb93f49f470",
+        "results\\top_guard_add_retime_lut_route\\fixture_accounting.txt": "b32fe2d41cb784881ea77b89eb81ff908bbe12f47e4b6cda2ba0d1bcc74e6436",
+        "results\\top_guard_add_retime_lut_route\\hierarchical_util.rpt": "3b8f6a567d29a01c7580f8f7e3cfbd8b124a76a87c0f3c22c591a6f45a121cf7",
+        "results\\top_guard_add_retime_lut_route\\input_paths_max.rpt": "894faa64dfabaf435f6fddf7fe477b2621cdfb6c4947d41a6b8aa61d85df93ad",
+        "results\\top_guard_add_retime_lut_route\\input_paths_min.rpt": "b196fb1660f38850e2ed1740ed10a2aa69337c69bf7e94b97a11f9eb3d3bc103",
+        "results\\top_guard_add_retime_lut_route\\launch_paths_max.rpt": "97551d025c102049310bdbd0455581251358acb6fa02bc38d0f7decde6e7fbca",
+        "results\\top_guard_add_retime_lut_route\\launch_paths_min.rpt": "237158984f2f6f548840cd1d4b8786329373f8dad7030e5f7fc572d0f35b6e1a",
+        "results\\top_guard_add_retime_lut_route\\output_paths_max.rpt": "4365fdb045c4f234a9a7506843f2c30b5a38f909f47eb1cc37b6ecfa10dc2006",
+        "results\\top_guard_add_retime_lut_route\\output_paths_min.rpt": "ba83764c866e161389fd2caf401f4190fb66d7482c94bb4f5336ff9376d3e02a",
+        "results\\top_guard_add_retime_lut_route\\paths_max.rpt": "b83ade965febb17bd2a508899d9cdd3637dfa8c323d8516d55623738269d5d27",
+        "results\\top_guard_add_retime_lut_route\\paths_min.rpt": "1260dbd87b3b1de37950ecd82c6e6cee00661dd98b63379a2d070940d4befaa2",
+        "results\\top_guard_add_retime_lut_route\\provenance.txt": "2f7b1aa05019c3bc6020ae2f3ef4300512dfc94b40c0e5cdc0219e00dbd0cc9e",
+        "results\\top_guard_add_retime_lut_route\\slack.txt": "30de7be0d577ab5cd7666d1d7700efa64d6cbe338409fd5e6755e660be714770",
+        "results\\top_guard_add_retime_lut_route\\slice_sites.txt": "b387c3211bac406df0b83cd46a67e38ad9743290e88690183337903b4c147b41",
+        "results\\top_guard_add_retime_lut_route\\timing.rpt": "8f62ecd25d4fcc3772962134aef174c081f6a2e4dafe39f64088ebe5c971d36a",
+        "results\\top_guard_add_retime_lut_route\\util.rpt": "033ac5a3aa5cba860dd555730217772a42ee5aeed44d4ec0ca717b6389be8cd9"
+      },
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 203.6,
+      "scope": "Exact retimed fixed guard-add baseline in matched 219-FF registered OOC fixture; same always-six operation and four-advance contract; no board, memory, power or complete neuron-update measurement"
+    }
+  ],
+  "adaptive_layout_hardware": {
+    "top": "top_guard_add_layout_v1",
+    "variant": 1,
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 130,
+      "FF": 247,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 72,
+      "occupied_slices_reported": 72
+    },
+    "full_fixture": {
+      "LUT": 130,
+      "FF": 466,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 107
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 219,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 138,
+      "capture_FF": 81,
+      "fixture_FF": 219,
+      "full_occupied_slices": 107,
+      "core_slices_touched": 72,
+      "fixture_slices_touched": 44,
+      "shared_slices": 9,
+      "core_exclusive_slices": 63,
+      "fixture_exclusive_slices": 35,
+      "core_primitive_cells": 431,
+      "fixture_primitive_cells": 221
+    },
+    "WNS_ns": 0.67,
+    "WHS_ns": 0.02,
+    "boundary_WNS_ns": 0.67,
+    "boundary_WHS_ns": -1.139,
+    "source_sha256": {
+      "guard_add_layout.sv": "d4f8a37f2b4684ef4ec1c592d13fbcfd1f7eefa15d4fff71dc57ead235460471",
+      "tb_guard_add_layout.sv": "5a2f5b4dd80d0285a4b66876918c2f75b291f50c48366cde4c3f176e92ee3176",
+      "check_guard_add_layout.py": "c2abb64c072a24189623fcf0dafde4ddb8f44ec38002e87d4ce25e6f969439de",
+      "check_guard_add_layout_snn.py": "4633aef31cac8d0ce18a4973df449f33708e9ccfa2f0cd1d6f5048280a6d1726",
+      "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+      "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+      "guard_add_layout_timing.sv": "bd5d7098da29c4055d3feb8991e1bd46297393fc6f72dc3a9a8b0462fbcf6807",
+      "route_guard_add_layout.tcl": "fd736aa0f5beac7cf066db492f2d5dd96c0b4e693fd62f7ba396381511eafd26",
+      "run_guard_add_layout_route.py": "69f431a06e25560a4f16205f715dc440c30a6ce709bb7c13014413e5785df687"
+    },
+    "functional_check_sha256": {
+      "layout_main_0_checks.json": "cde4903e65130e06366e8095c3110e9b4f025fa5b4a670c11c5d8ad5fe640430",
+      "layout_main_1_checks.json": "f3b94e0fc3af18953c6974135dd76ad30f538a4db04c537d3669517584a3d586",
+      "layout_models_0_checks.json": "8afcbac02ebcadc92a761c279c9e5d8ba0919c2ab1171aa9599ef80f45c82120",
+      "layout_models_1_checks.json": "5f5e7b0c70ed9300bb180df347ace49898c1434031d7048d2b608b0e5badcfe4",
+      "layout_snn_checks.json": "23dd2da34c68f4614dbdd1063ef5ec44746f00e1cfe3d9c2c2e704953c0ea5f7"
+    },
+    "provenance_sha256": "83ae2f66026941c3c3af7485fd020f67c25ed5f5ad83be204298161748beb2fc",
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "retried_checkpoint": false,
+    "seconds": 242.5,
+    "scope": "Exact adaptive guard-add layout variant in matched 219-FF registered OOC fixture; combined offset-binary/permutation transformation, not isolated attribution; no board, memory, power or complete neuron-update measurement"
+  },
+  "original_reference_hardware": [
+    {
+      "top": "top_guard_add_adaptive",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 157,
+        "FF": 267,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 70,
+        "occupied_slices_reported": 70
+      },
+      "full_fixture": {
+        "LUT": 157,
+        "FF": 486,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 108
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 108,
+        "core_slices_touched": 70,
+        "fixture_slices_touched": 45,
+        "shared_slices": 7,
+        "core_exclusive_slices": 63,
+        "fixture_exclusive_slices": 38,
+        "core_primitive_cells": 490,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 1.036,
+      "WHS_ns": 0.013,
+      "boundary_WNS_ns": 1.036,
+      "boundary_WHS_ns": -1.138,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "78c4bacecb9c1ffb78b5c1a97373d6b8da2dd53a416f7d042649f8e9f59115a8",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 372.0,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    },
+    {
+      "top": "top_guard_add_fixed4",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 25,
+        "FF": 240,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 62,
+        "occupied_slices_reported": 62
+      },
+      "full_fixture": {
+        "LUT": 25,
+        "FF": 459,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 109
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 109,
+        "core_slices_touched": 62,
+        "fixture_slices_touched": 52,
+        "shared_slices": 5,
+        "core_exclusive_slices": 57,
+        "fixture_exclusive_slices": 47,
+        "core_primitive_cells": 280,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.074,
+      "WHS_ns": 0.108,
+      "boundary_WNS_ns": 1.754,
+      "boundary_WHS_ns": -1.084,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "6d7a84154600f0fbaf797fc5c2bd74a8492e2f6953f2c222cb67b0c18fd95e31",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 437.1,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    },
+    {
+      "top": "top_guard_add_hybrid6",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 66,
+        "FF": 268,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 59,
+        "occupied_slices_reported": 59
+      },
+      "full_fixture": {
+        "LUT": 66,
+        "FF": 487,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 105
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 105,
+        "core_slices_touched": 59,
+        "fixture_slices_touched": 48,
+        "shared_slices": 2,
+        "core_exclusive_slices": 57,
+        "fixture_exclusive_slices": 46,
+        "core_primitive_cells": 386,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.32,
+      "WHS_ns": 0.103,
+      "boundary_WNS_ns": 1.827,
+      "boundary_WHS_ns": -1.089,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "50e7b78e48f5894f636d3f006284560dd6977f2952c2d4ec703f990e119a3934",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 356.6,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    },
+    {
+      "top": "top_guard_add_lut6",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 79,
+        "FF": 364,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 82,
+        "occupied_slices_reported": 82
+      },
+      "full_fixture": {
+        "LUT": 79,
+        "FF": 583,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 138
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 138,
+        "core_slices_touched": 82,
+        "fixture_slices_touched": 57,
+        "shared_slices": 1,
+        "core_exclusive_slices": 81,
+        "fixture_exclusive_slices": 56,
+        "core_primitive_cells": 471,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.007,
+      "WHS_ns": 0.08,
+      "boundary_WNS_ns": 1.749,
+      "boundary_WHS_ns": -1.151,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "467a7ed4723004f895ae5a5be4623da1e099ae000c952f6303b266837e0ad865",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 417.9,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    }
+  ],
+  "original_publication_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_addition_trial.md": "e7da32b176667d7cdd25680e3b38fa25c9c30c0428062f0ac919e0950cae9d21",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_addition_trial.summary.json": "874bd8c78fc03ef0ddcd98ff4c1a92d67e0dca0aa8d52e40b127b68a5e3a8f3e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_addition_trial.manifest.json": "01b2792a3a2a977263b48e678a7cb67cbfb03534fdf14d8ab4536630beabb360"
+  },
+  "layout_publication_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_layout_trial.md": "4efabe6ea8f156ad29de5649600cedf9a74d9921013cc7543f8c169eae35f915",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_layout_trial.summary.json": "182bd2906b98b1674e8bfdcd673aa44bf83ceaacb1f05711e67b6f02211d28b4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\guarded_membrane_layout_trial.manifest.json": "c699c7f402376f5c352463c69b5b24232d1bff7d77baf0f6d37f24bd5d680ede"
+  },
+  "checked_scalar_outputs": 11579320,
+  "distinct_input_sets": 2,
+  "input_scalar_pairs": {
+    "stress": 811511,
+    "models": 635904
+  },
+  "repeated_variant_and_stall_inputs": true,
+  "reference_variant_to_original_engine": {
+    "0": 2,
+    "1": 3,
+    "2": 2,
+    "3": 3
+  },
+  "model_images": 144,
+  "model_seeds": 3,
+  "beta_q8": 231,
+  "beta": 0.90234375,
+  "acceptance_to_handshake_advances": 4,
+  "model_fixed_service_clocks": 110596,
+  "model_adaptive_service_clocks": 115758,
+  "trained_model_accuracy_preservation_claim": false,
+  "scope": "Exact signed11 U + signed11 I -> signed12; fixed baseline input-stage retiming; matched registered 6 ns routes; Python leakage/threshold/reset replay"
+}

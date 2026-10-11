@@ -1,0 +1,34 @@
+{
+  "argv": [
+    "C:/AMDDesignTools/2025.2/Vivado/bin/xsim.bat",
+    "sim",
+    "-testplusarg",
+    "TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/sequential_paper_trial/hardware/native_actual_s0_a3/trace2.txt",
+    "-testplusarg",
+    "ROWS=950",
+    "-testplusarg",
+    "ROI_FIRST=3",
+    "-testplusarg",
+    "ROI_LAST=950",
+    "-tclbatch",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_diag_a1/run.tcl"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1",
+  "returncode": 0,
+  "seconds": 32.4,
+  "free_GiB_at_start": 2.738475799560547,
+  "sampled_min_free_GiB": 2.387737274169922,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.25812530517578125,
+  "memory_samples": 31,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.sdf": "9b025cf32a05e1cbc9845d5a9f03ae7631c9197eb2f1f37b6136bc10dfcfe2a5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.v": "193072bebe51a9dc6c9af342acbba155de1378d2bb49a3824f8e693ee8fe6712",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_actual_s0_a3\\trace2.txt": "000f7f466713ac6f020ab468be3b1f4c20553a68451dd3713e738d2adae86785",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\diagnose_lut_monitor.py": "63e3ae129bd0bfa77f1374ff8abf8aac68a81408a7758261a50d142485ac470a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\monitor.sv": "464a80c0d58140947881edcff70585a12e86fc95683670e151fa48fb1b888cac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\run.tcl": "2cd7b85d4cac30634fb764575a4a83a13484bc9ecb95acf4ec1cb86cf83b00c9"
+  },
+  "log_sha256": "6052a2bf04accb1bed6fd32315df9d88f06177ccd1231fa1f7df994f62f83b25"
+}

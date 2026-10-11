@@ -1,0 +1,132 @@
+{
+  "scope": "Independent beta231 numerical issue/lane recount; no toggle or hardware utilization measurement",
+  "reviewed_report_sha256": "a10dc296f4ac507b9d732489c134f53183b20aeda95b3bc388cb5508f1b28d2d",
+  "script_sha256": "ac40a0fa72691b362de1613c7415b5a9727b3c1598137182b0fe5a1cee4e510d",
+  "source_sha256": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+  "findings": [
+    "All reported issue/numerator/capacity counts and quoted ratios independently match.",
+    "Zero-third-copy and LUT-third totals include bypass windows. They overlap bypassed-neuron totals, so those reported categories must not be added as disjoint counts.",
+    "The extra rows here split active and bypass extra lanes; DSP valid operations + bypassed neurons + active extra lanes exactly equals real neurons.",
+    "Completed WHOLE CW0 model/stress RTL schedules independently match the accounting.",
+    "Changing is numerical U differs from exact ceiling-leaked U. Nonzero and numerical changing work are distinct; neither is measured DSP-clock utilization.",
+    "Hybrid DSP usefulness excludes its separate LUT-third work and cannot alone determine total core throughput."
+  ],
+  "audited": [
+    {
+      "dataset": "models",
+      "rows": [
+        {
+          "engine": 0,
+          "zero_third_active_operations": 687,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 635904,
+          "changed_operations_per_issue": 1.3865672883973406,
+          "changed_fraction_of_capacity": 0.48660033361242544
+        },
+        {
+          "engine": 6,
+          "zero_third_active_operations": 3046,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 635904,
+          "changed_operations_per_issue": 1.3188090945072342,
+          "changed_fraction_of_capacity": 0.4887375751520969
+        },
+        {
+          "engine": 1,
+          "zero_third_active_operations": 22626,
+          "zero_third_bypass_operations": 6518,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 635904,
+          "changed_operations_per_issue": 1.0090818850211147,
+          "changed_fraction_of_capacity": 0.5045409425105574
+        },
+        {
+          "engine": 4,
+          "zero_third_active_operations": 0,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 635904,
+          "changed_operations_per_issue": 1.4315570385858383,
+          "changed_fraction_of_capacity": 0.4771856795286128
+        },
+        {
+          "engine": 5,
+          "zero_third_active_operations": 0,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 200702,
+          "lut_third_bypass_operations": 6658,
+          "disjoint_neuron_accounting": 635904,
+          "changed_operations_per_issue": 0.9565593060945862,
+          "changed_fraction_of_capacity": 0.4782796530472931
+        }
+      ],
+      "whole_completed_simulation": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\stream_pipeline_whole_models_checks.json",
+      "whole_completed_simulation_sha256": "88fabef4c01de5bae47546fe11be337ef030032a658d8160572d02b46ff412e3",
+      "whole_schedule_crosscheck": true
+    },
+    {
+      "dataset": "stress",
+      "rows": [
+        {
+          "engine": 0,
+          "zero_third_active_operations": 0,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 3840,
+          "changed_operations_per_issue": 2.2731310140636567,
+          "changed_fraction_of_capacity": 0.869725290286038
+        },
+        {
+          "engine": 6,
+          "zero_third_active_operations": 8,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 3840,
+          "changed_operations_per_issue": 1.9535623409669212,
+          "changed_fraction_of_capacity": 0.8374693209708208
+        },
+        {
+          "engine": 1,
+          "zero_third_active_operations": 14,
+          "zero_third_bypass_operations": 104,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 3840,
+          "changed_operations_per_issue": 1.7409297052154196,
+          "changed_fraction_of_capacity": 0.8704648526077098
+        },
+        {
+          "engine": 4,
+          "zero_third_active_operations": 0,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 0,
+          "lut_third_bypass_operations": 0,
+          "disjoint_neuron_accounting": 3840,
+          "changed_operations_per_issue": 2.6113945578231292,
+          "changed_fraction_of_capacity": 0.8704648526077098
+        },
+        {
+          "engine": 5,
+          "zero_third_active_operations": 0,
+          "zero_third_bypass_operations": 0,
+          "lut_third_active_operations": 1176,
+          "lut_third_bypass_operations": 104,
+          "disjoint_neuron_accounting": 3840,
+          "changed_operations_per_issue": 1.7508503401360545,
+          "changed_fraction_of_capacity": 0.8754251700680272
+        }
+      ],
+      "whole_completed_simulation": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\stream_pipeline_whole_stress_checks.json",
+      "whole_completed_simulation_sha256": "0cc818254266245c16cb7b5a4b4ad8844a1fa3af3551a48f320e9e57344a8ef4",
+      "whole_schedule_crosscheck": true
+    }
+  ]
+}

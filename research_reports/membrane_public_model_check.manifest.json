@@ -1,0 +1,1113 @@
+{
+  "status": "pass_public_stage_hash_closure",
+  "files": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\acquire_assets.py": {
+      "sha256": "c26ba389a2a7e5ebd2a125cfeee614a538345e7d7e3c5dfdbedeefbc39e0cd9a",
+      "bytes": 2137
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\acquire_assets_stopped.json": {
+      "sha256": "e3c60ffabf5aa42e2edcc6286991ff738415f096f880d4a47e85c959daa0788d",
+      "bytes": 219
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\acquire_data_ranges.py": {
+      "sha256": "351a796c5c058024e4bd1c7a47edb495a2e469d2354a00b79a25d8d3c02eb902",
+      "bytes": 2542
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\acquire_framework.py": {
+      "sha256": "6a382b786bdfd6dc2dd644a028aecde3790c626076ae9eb3d82ef0e9397280d4",
+      "bytes": 1377
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\acquire_pilot_data.py": {
+      "sha256": "6f4882c9a01f51673ac628f465f721ae87da965ca3b4e12d5b824ce72c3f61f7",
+      "bytes": 2354
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\acquire_sources.py": {
+      "sha256": "c99180620ca70ae13b3ebabd1b88d9c5e1ea5e392ca31e2e01160e438b0f6240",
+      "bytes": 1699
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\analyze_original_pilot_v2.py": {
+      "sha256": "612babe523c248f037f478a641f31191f96e23ccb17738a09b079eaa094d8497",
+      "bytes": 2844
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\analyze_pilot.py": {
+      "sha256": "cbafe8b9d88de663d646d49fb819221f5276327206a3bccdb8c1bda3d6ecd02f",
+      "bytes": 2810
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assist_missing_ranges_v4.py": {
+      "sha256": "9933b8b92302c1f62caf0cecc7590f6dfd7283bd8f8af2f1ef2daaacfd6400c3",
+      "bytes": 1720
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\batch32_screen.json": {
+      "sha256": "f7ba7d7002d96920ab855d4a4a087b3feb4b0bd05ae9c0967a208c94be24cfa3",
+      "bytes": 315
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\checkpoint_arrays.npz": {
+      "sha256": "d21d744bb7450ab51e16d9b33a0c0c7a838e8cc4f79861f835745b790d273d40",
+      "bytes": 42250367
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\checkpoint_arrays_v3.npz": {
+      "sha256": "d21d744bb7450ab51e16d9b33a0c0c7a838e8cc4f79861f835745b790d273d40",
+      "bytes": 42250367
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\coefficient_scope_screen.json": {
+      "sha256": "4d2c7dd5ca9b4d4a358df1e20062ec351ad50e439b81da2db7f2dffee7950d7d",
+      "bytes": 17916
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\coefficient_scope_screen.py": {
+      "sha256": "7f73047e35d33f9be198a4239d15c133654a5f0e50fea4f1ec31e60d0d77b563",
+      "bytes": 2379
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\commit_response.json": {
+      "sha256": "dcb34d1213655579a1b506f2292c02f4a4e3c000673d2f0663ecca5f5360b26c",
+      "bytes": 6455
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\framework_acquisition.json": {
+      "sha256": "58c3fd0be5481d20540f641ff2898528d7b3f560afa62f98855146378b2791ec",
+      "bytes": 561
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_data_acceptance_v2.json": {
+      "sha256": "e81db054cceb7a47ae24531db48451f2cf914982bdf0fb348c13745648f7b5b2",
+      "bytes": 531
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test10000.npz": {
+      "sha256": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+      "bytes": 28267759
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test_logits_v3.npz": {
+      "sha256": "af4059b734563eca9aeddb996607b48307c8f893da447e3afef586f5784abe1c",
+      "bytes": 400716
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test_plan_v2.json": {
+      "sha256": "6f87332bc9dd652ab53076ce6bc5f45581e60e8aa1b331b23c0bb07a7c09b864",
+      "bytes": 365
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test_plan_v3.json": {
+      "sha256": "6f87332bc9dd652ab53076ce6bc5f45581e60e8aa1b331b23c0bb07a7c09b864",
+      "bytes": 365
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test_progress_v3.json": {
+      "sha256": "8facd9b35fc7e67421f0038c3d24bcf011b5424d818999fb61d0c0297f0a9bbd",
+      "bytes": 95
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\full_test_results_v3.json": {
+      "sha256": "17af7919eaa2d76924c2dce227e60da375d4968bf3839195294cb66b46d7dc05",
+      "bytes": 9319
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\glif_cifar10_T2.pth.tar.download.json": {
+      "sha256": "103db496902b5bf077088412731364be5ab25e8ddb83394f267e4ae9ce102aa5",
+      "bytes": 599
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\hf_dataset_metadata.json": {
+      "sha256": "c422185bfef80273fedf36e66c65cc3a271c9243952daa6baa340fe3485ad25e",
+      "bytes": 2508
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\hf_pilot_rows.json": {
+      "sha256": "f9a260846c13b792a9400015ff07a9d18502d9c046ff81ff663ab8451b9fa8bd",
+      "bytes": 41427
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\next_operation_gate.md": {
+      "sha256": "170d15bfb7716158a4691bc29a76281cd605efbb35d3bddc3301d2fdf6def829",
+      "bytes": 3299
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\original_pilot_interpretation_v2.json": {
+      "sha256": "5434ba01ad544053de5ca65e264534107e4a2110f881e0d657cce5d82b4e9eab",
+      "bytes": 17945
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\original_pilot_logits_v2.npz": {
+      "sha256": "1805148a5d780e23cf9000dc6cd8077e8ee23a8231727fbec464aaa6c0f42cd5",
+      "bytes": 3507
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\original_pilot_plan_v2.json": {
+      "sha256": "2da03daf9b7c16e462f7efaad1bcfd6851cbcc87edbc60458d6a967c3450ffa1",
+      "bytes": 1204
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\original_pilot_results_v2.json": {
+      "sha256": "3e59abd5868d3a9ca3be4a60bdb78accae76647e4b6449a2914237d4b871781f",
+      "bytes": 54493
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\original_test64.npz": {
+      "sha256": "91a781e08c8f19dedc93e90b04d949fe27a1776a5a842a5845d6e6d50e2c3db8",
+      "bytes": 184925
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_data_acquisition.json": {
+      "sha256": "46adfaadf09db3bf5f7c753d31d9a57991f06a0c385f5c190c0c6c72f94bff19",
+      "bytes": 60196
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_interpretation.json": {
+      "sha256": "308f88580ef86192da9cb06cd5767b56d5e5457ce9977bc206677cbef02127f6",
+      "bytes": 17947
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_logits.npz": {
+      "sha256": "f0f1942f5403ea5a7f5273f54c17c6751ae1010683db6410b3c11ad4b7e1b656",
+      "bytes": 3505
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_plan.json": {
+      "sha256": "ac246dc5230a70903dcc3fd05e13b9e1db0e59cf5e20cca9cce285197285af95",
+      "bytes": 1035
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_results.json": {
+      "sha256": "fae562b7cbe9ad93aeb92e36b305a30189c26e29e3310646f7a2cfc6f1dfc8c1",
+      "bytes": 54455
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_test64.npz": {
+      "sha256": "c621192737a5a8117a9061ccac175595bac41dba2e4518f21bf4d389e71626bf",
+      "bytes": 185296
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\prepare_full_data.py": {
+      "sha256": "6f1f58a93a7440202ac7c3bdb21c9c95da8beba94767d53768391880650708cf",
+      "bytes": 2052
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\prepare_original_data_v2.py": {
+      "sha256": "1728cea8f8c933b190a57106e5775b76fd1fb1b3e3f032b59cb7c44f94ce7256",
+      "bytes": 3336
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\prepare_original_runners_v3.py": {
+      "sha256": "e048485fe104181ec0a0f99c128b96382757a459b02fe09d79b0a19c9bd3e28d",
+      "bytes": 1955
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\preview_pilot_rejection.json": {
+      "sha256": "3116ea8adb25e1da103d0852587c3914de7f0dbd007b2ba7a47870a24a2cec1f",
+      "bytes": 610
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\publish_public_benchmark.py": {
+      "sha256": "b5834934dfccd1433b7327dd98b4f65b08925d7662835bdfb0f9da6895fb711d",
+      "bytes": 12115
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\range_assistance_v4.json": {
+      "sha256": "6695e4b78f803e48c98d2e9d25e816430924b914f6554996c483e5dffc71f136",
+      "bytes": 1230
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\range_download_acceptance.json": {
+      "sha256": "e552c50fca37d022a54d65576aeb309ad6e5c063f235966c333a2a0c2f5ed938",
+      "bytes": 12260
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\range_download_plan.json": {
+      "sha256": "2cae78d8cd7a72f2bf5390d6211752c041f310f1978407bb7c52f2106196526a",
+      "bytes": 351
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\recover_complete_ranges_v2.py": {
+      "sha256": "4ffaed2ca28792038ca6d6bd4682a4893115405f006a807f0719ec3ab860dd27",
+      "bytes": 1762
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\reference_runner_switch.json": {
+      "sha256": "ce05bb5cb01e29fb9c8fff5708f756b20468fa8193ecec8d51558c97b212e9f0",
+      "bytes": 284
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\resume_dataset_v3.py": {
+      "sha256": "7a13937fd619122a6858d4d3abc2cc4b0984e9fecc6289a3a7d3d200a791a063",
+      "bytes": 2431
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\run_full_v2.py": {
+      "sha256": "2fbe394f243b9612edc91192a37df931df60a4955c04e423c91fa0271b5036f9",
+      "bytes": 4868
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\run_full_v2_stopped.json": {
+      "sha256": "5aa61649133322eed550d1ef43cd61a327d5485ce7ef30e24d1b9929e3bbff25",
+      "bytes": 215
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\run_full_v3.py": {
+      "sha256": "f46585e3c7d57b6768665770d250b35774eade6a32a2c30ac46ff817b5f750fc",
+      "bytes": 5031
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\run_original_pilot_v2.py": {
+      "sha256": "7afbf9398699603fb51e29f28dc68b2c392b57757c449e70ed1dc7c2c062518b",
+      "bytes": 6580
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\run_pilot.py": {
+      "sha256": "f83c770975e3e9528ece1d69ffac3ad1ea394002a099be6e25dcf788bd1d3fea",
+      "bytes": 6411
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\run_reference.py": {
+      "sha256": "9583adbb6b4b9906f6702c2700e338f0ae0d21b2f94770df05bfdc22f8b2abe0",
+      "bytes": 3922
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\source_acquisition.json": {
+      "sha256": "fc5b205387e74c1c04163b6896f2ffa6528cd4ec94d93402e3ff485b2cb9c22d",
+      "bytes": 4449
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\spikingjelly_pypi_metadata.json": {
+      "sha256": "cc906f023f05cb401fae086f14ee3b4a80d4561f226a7db9f125658d76ce2672",
+      "bytes": 15824
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\static_range_screen.py": {
+      "sha256": "e0a0871aea8a166232f2947fe2686a8dc8e1b5d2fa2c71d17fb9e6b6a097e5ff",
+      "bytes": 5747
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\static_range_screen_v2.json": {
+      "sha256": "dde453e0944fcad2cbbba5a27e96f27eefb472742fe94b62c85bd9fb15b64ec6",
+      "bytes": 37446
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\static_range_screen_v2.py": {
+      "sha256": "5c6d31550b86f12d67a8453bc1c68c4a1e843ed30a82dcc9f93ef61cca5d8c91",
+      "bytes": 5775
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\static_range_screen_v3.json": {
+      "sha256": "428373f24d0001877daeaea5b084174096c2f09abbc5a976fb060b1a2e720e00",
+      "bytes": 37458
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\static_range_screen_v3.py": {
+      "sha256": "7b8e1a0e6259ecd82e19d112acdda6b33bf2c3d7bc94e510e2a6397e3fa92e58",
+      "bytes": 5801
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\thread_timing_v2.json": {
+      "sha256": "e2f0a89ae41c97abc151b9670b95e4b4aeb7bc6a4294e1b362a783e3f9265e12",
+      "bytes": 651
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\timing_threads_v2.py": {
+      "sha256": "d99f5d72df1b57947ed612590a60af2464a8198b19479c8d61cd25e4ca4f6da4",
+      "bytes": 1564
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\tree.json": {
+      "sha256": "e07653ceab114455331f1f285555855838fc86cc557d0e6aff23ad4067302fd7",
+      "bytes": 12487
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\unmodified_control_acceptance.json": {
+      "sha256": "37a0e803bd8c85580ef628a079eadb2dd10644b0ce363658502479dfbecefe0e",
+      "bytes": 464
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\verify_public_benchmark.py": {
+      "sha256": "b4c2420efb73d311704b25ced500d388527d5a0eacdf439d79a6a85b1853c071",
+      "bytes": 4087
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\cifar-10-python-complete-v3.tar.gz": {
+      "sha256": "6d958be074577803d12ecdefd02955f39262c83c16fe9348329d7fe0b5c001ce",
+      "bytes": 170498071
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\cifar-10-python-ranged.tar.gz": {
+      "sha256": "bcf40f32c5fe022d36f80686b41fc54f3f31d308ff947bffc05f03164d149af9",
+      "bytes": 96468992
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\cifar-10-python.tar.gz": {
+      "sha256": "a0adea144b062019be3d07ea88742ef3e65030c3b4a1e134871e2f10e3c86c14",
+      "bytes": 132120576
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\glif_cifar10_T2.pth.tar": {
+      "sha256": "124b7b40d67dbe9a9a6641426c4330e5f8bbb69f4e6bea6b50a59ebcf45ed4dd",
+      "bytes": 45506777
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\assets\\spikingjelly-0.0.0.0.10-py3-none-any.whl": {
+      "sha256": "131137856942949206a3bca88308f14b56d34e3d1fe5ecee83be20d2ff9ed128",
+      "bytes": 227450
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\000.bin": {
+      "sha256": "1e8261d7e1d5903d6c38a54ee237880bf9c2f06bb35e2081d5da32180fcfcffa",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\001.bin": {
+      "sha256": "e180d562e9268eb97bcb0b1ab66ac93e30dd5c889ac0860e203c725348adbbc0",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\002.bin": {
+      "sha256": "0bfe823051d9e0cf9d26f750bbfbcd1986c4cc2fa290819dea61dc3f4667ddb0",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\003.bin": {
+      "sha256": "3113eb4c2c04fd630b19b6a9ba20a953e2badb4d6a9e43c3b37c55ca3ec936ce",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\004.bin": {
+      "sha256": "172f9397ee3a90e7c63a20dedc5a991d770a96bd24652a44407d55eafa10b6b0",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\005.bin": {
+      "sha256": "a99c34ee59aeb5969c61245657485efa8bc619833c848d2aa1c7152c023913ed",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\006.bin": {
+      "sha256": "c3b6696aa0321f38884df2ae4a6ab04adcb40df93372ed13f12cd35f12cf7bfe",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\007.bin": {
+      "sha256": "0cfa033f63de66bfa8d2b8f372bd116e9f62cf00cf2736c4967adec9bb3772c6",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\008.bin": {
+      "sha256": "4a72ac684bbf8dec3297ae843cde2986d1b3a316d016b4e53f4a400171ad2323",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\009.bin": {
+      "sha256": "f836601bcd26539620f634cbb70c1384b9aff0c4d1f29dd78d46321edb7465f6",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\010.bin": {
+      "sha256": "bad36787589d4fc06490f73d86d7e9cdfedf7d5aeebbcc658230f2d9f34eed65",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\011.bin": {
+      "sha256": "73574b72a0b20ef9396d0e6059a48c8414afb21e52e4046a856caa2736b73d96",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\012.bin": {
+      "sha256": "1aadf899bde620f30d59a85be4e7cbba488c1e983a3bfb1cb0a0c27de1b0b3fb",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\013.bin": {
+      "sha256": "b79d54cfcb2b0bdd1045a121a1aebab989ed3cae8e27a629c98f117faafcb849",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\014.bin": {
+      "sha256": "fdc802cdc35d937a2ed9668d8ae1f760f6878604e8d32acf1fc0a61bc6cb6f77",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\015.bin": {
+      "sha256": "3251f8b4c8a047d6e5486cc1d66490d7bbdc939421079ad9d204fab95f27c79b",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\016.bin": {
+      "sha256": "97dd724cf92630b8787f4e164633fb3627add0be44226ef010ca5f077c9b57a1",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\017.bin": {
+      "sha256": "e81e0a8abbdbb1fcea9a5e18db9ee33773411ec393daefc4a8c1d13930767896",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\018.bin": {
+      "sha256": "712efad056faa1563ba367d3a9215504178e1ff7beaf014d6f837ff061338b71",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\019.bin": {
+      "sha256": "225aa59ae50a2c42e5481b535619745fcc435a08134bf5be8dd6bfcb14412d8b",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\020.bin": {
+      "sha256": "b1482f70347edea120a4a0907deee63375cb9bb3d7fe7aca1c864e2388ca3e17",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\021.bin": {
+      "sha256": "acc12ef620943e124c5462d0d167494483f6b5cb98df7fd4491c73006771fdb0",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\022.bin": {
+      "sha256": "5c77de938a68c401e68a6022d06f7e70bd8688987588abd84047dc692dbb6309",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\031.bin": {
+      "sha256": "a7011c9e2b7a12f6dbaf1001e818f823b7d2003711598d162231758d31271631",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\032.bin": {
+      "sha256": "990524e5908c9d119df4c14b4552806b2b53f60c454bdd36f25aab1b541f000d",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\033.bin": {
+      "sha256": "e8d8dbe5686090c56e324c0b2ba5c93de1ae04bf73e41e8b5691513431f34fa1",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\034.bin": {
+      "sha256": "06b72e3f56dc0e00525b46d4a4afdbf0b353a5854d7efa8deb75702ee3f13b8d",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\035.bin": {
+      "sha256": "97a1399fd022cca95d1b09e07066019bd6bdf0c07104f4a5348bc7b7be69823c",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\036.bin": {
+      "sha256": "815ceb57c39384d42732dff79dd25bb8cd740dd0a0b62775a45e9a4298310f25",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\037.bin": {
+      "sha256": "44941a487338f09b1e48515f410a22a908d3a0daa8f4a61ba42ac5935b2ad25d",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\038.bin": {
+      "sha256": "ee4c366007c4a8fadd8b9b46144b09498f56794867860fb4c9561c93181b513b",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\039.bin": {
+      "sha256": "0a1867bd6dbe05d5edc81daa14cb17d67fde8889141d5c0e83022d3a5c232f9e",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\040.bin": {
+      "sha256": "40140d0b1674b67496a87c1fab2ef55ce874a088d756a001104c16d27fd73d5c",
+      "bytes": 2725911
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\023.bin": {
+      "sha256": "fef54c19ed0dbebc5fdb9e81e96c78a1ea692f896deeb046292f9ba2122115dc",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\024.bin": {
+      "sha256": "92772a5c112e5762e0cb71d1b4a1835fd4f8e959181e1552c4084e7e1cf3338e",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\025.bin": {
+      "sha256": "f6e881960e9b70d72b4cf40605e6f188b6c12a4062e6e24f480a408baeac8dbe",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\026.bin": {
+      "sha256": "8625d7950abc01c3664ffb24e06f2f527116e98ec04422e2fff5e7845f4c96ec",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\027.bin": {
+      "sha256": "40cfe1ca1b481b689175d4486bb08414e4b12edd5c732e6b5f72debab8b81a81",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\028.bin": {
+      "sha256": "ad0510dacdfc924cecbcc1199d4fc019fee0f2904c37f8c19d68352051d684e8",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\029.bin": {
+      "sha256": "2a6ea624b957d957d0842d1e46fae07602be6b7ad5dcf666358227062a571498",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\030.bin": {
+      "sha256": "64f9281d9067dab80cc4a35a7204a9459f404271a4a6dacb5dde7fa3b734788b",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges_v3\\031.bin": {
+      "sha256": "a7011c9e2b7a12f6dbaf1001e818f823b7d2003711598d162231758d31271631",
+      "bytes": 4194304
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00000.png": {
+      "sha256": "f65f3c5a08208d134ec71b920355b5b1736177b23ba22dad28c288d17805d26d",
+      "bytes": 971
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00001.png": {
+      "sha256": "88a6f93eb584a412e9c127e38c389d9b6d8c854c10a83dbc3bd6f81a26b4a789",
+      "bytes": 914
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00002.png": {
+      "sha256": "b39181bcf3646d33871bbce4ba34ebdb2654bb7f6b32d504c20ecc708bd3c3bf",
+      "bytes": 912
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00003.png": {
+      "sha256": "1fa4894a3d2d46cf9def3a0d9cf54c034ced7f837f76b595ef59879cc2049a1c",
+      "bytes": 891
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00004.png": {
+      "sha256": "c4860187a8c89848f33e8bfbcecf7184e4b0ead653c2d57a38a0e19caee703fa",
+      "bytes": 957
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00005.png": {
+      "sha256": "d7c07f3e39545ce8cadb3e95a0930f5c1416b51512fa1c736c6b945597cdc7a0",
+      "bytes": 910
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00006.png": {
+      "sha256": "08308c4e090d03905ad45858f76c7ae1f36693bbe4e25f09c06e3ab869ec2182",
+      "bytes": 978
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00007.png": {
+      "sha256": "cb956d60dd29112425ae5538f76f17f7b083de2aeb1c0cb94beeac7a7e770846",
+      "bytes": 872
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00008.png": {
+      "sha256": "d6bbd80bcc79dc231e4b8be14c4656c6e7761ebbf8503d76d7b10cf0c382248d",
+      "bytes": 902
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00009.png": {
+      "sha256": "55c766a4cf799802e5c4a096f9c9c4e0a95bcf24556f2e1b0aea311698f32b78",
+      "bytes": 965
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00010.png": {
+      "sha256": "e0ad4aa35e441e7493e0c6865680fec94b76a4925648cb6376c3e2213fd86a32",
+      "bytes": 865
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00011.png": {
+      "sha256": "3b50c3f7c354788e571f32f94819f572b02c29252646e6bd70d9f5275f26d112",
+      "bytes": 1005
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00012.png": {
+      "sha256": "2d0843055587b292237dfbcba5fe3133c37536388d5390c026deb530a1e7125d",
+      "bytes": 940
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00013.png": {
+      "sha256": "991b500aea99d53fc695adbef0a73f4eb7481604dce75a6bb90fe92dc745375c",
+      "bytes": 993
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00014.png": {
+      "sha256": "d9ce9fbe40643d3bc7ce25cc28a42ba5f28a0e89c02402e494bf4117cfbbfba5",
+      "bytes": 1000
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00015.png": {
+      "sha256": "006ff34552c3b3bf48616bbc377bf796679ef8bd334e5d913bd844a06132cfc7",
+      "bytes": 964
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00016.png": {
+      "sha256": "64b7b23079523301e013353b1defa4fa4db59d25bb2f19a6795481bcf8e58a5f",
+      "bytes": 989
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00017.png": {
+      "sha256": "b573da8cabf7e1c1a67ce874ae37e65097aa7f49c60cdf4297be57768e06a624",
+      "bytes": 968
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00018.png": {
+      "sha256": "d35fef0377e3b4c4e2a171925cb0135d188156459e8cb9faec2498e0e59cc8c8",
+      "bytes": 902
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00019.png": {
+      "sha256": "36feb665fe252e56bdfa520f27688a430acd8e8f4eb920944459ca1a0b6eb89a",
+      "bytes": 959
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00020.png": {
+      "sha256": "089cb86cbc5af872b2b5c1af7bb8e09b0112891ab847ef669d9af457b857b71e",
+      "bytes": 966
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00021.png": {
+      "sha256": "b331cd8b6487aad0028b74382b37e12f42f29c57789e7b04cac469b3a7c2b2ab",
+      "bytes": 833
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00022.png": {
+      "sha256": "b560a2c9eed84ff48198cb52d8622c8d440c8ab1d7cbaee45600e202680b450e",
+      "bytes": 812
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00023.png": {
+      "sha256": "e3ebca52a99f4a9b880fa51ff69045814b1b2e6509f11cba7253f6f42c264e1a",
+      "bytes": 1037
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00024.png": {
+      "sha256": "69d810c1339cee6e4ffc934904cf5c8f4711143b8bc66b0cee2a0e92943889f1",
+      "bytes": 905
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00025.png": {
+      "sha256": "a17a083eaf3824ba9c04f68ff2020584b8c3db81ba64748e76214d08effddc5e",
+      "bytes": 930
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00026.png": {
+      "sha256": "6c1b35039ca9314a545d432e8edf30155a7bc623f340585fe8508c909fcdb424",
+      "bytes": 914
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00027.png": {
+      "sha256": "8bdb872fba58a8b54bafb0a2066a4ea775a59f76f9650befe14967feeb4715d6",
+      "bytes": 926
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00028.png": {
+      "sha256": "736b93abd4a164d4c0824c5d5c8ceefc77c3d64b2d45aec9181671ccf0f61454",
+      "bytes": 1005
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00029.png": {
+      "sha256": "b59f2b7c3aa68b3b4303442e6c52590a8ae1d7ffaefdf058e9b04c57536702b9",
+      "bytes": 949
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00030.png": {
+      "sha256": "475cc5e661f2f03c11013f7d467a444eed92d31149dff75150e6f5e3928375c1",
+      "bytes": 924
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00031.png": {
+      "sha256": "bdf96af04379f29eaa24f2bc33849888b7c45affd9828c502bf109460856eabc",
+      "bytes": 852
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00032.png": {
+      "sha256": "54e7e5cc42a5b5b93277870fdf0066b8cbfb96c3d0c995dfc06a5fcb531889c1",
+      "bytes": 898
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00033.png": {
+      "sha256": "8eeaa5aed634c82c6be62e7597dceb82b396701609b2d4f9a0691b1ff1db83e4",
+      "bytes": 921
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00034.png": {
+      "sha256": "eabae2334e3a3fad09a68e53034a2d3a40bcf384e0faf55cf4dff98b1b5edafd",
+      "bytes": 882
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00035.png": {
+      "sha256": "188cb95aa97144dbcd3186d2dfa8740aab187ce34a25ff64a455954ab26c34d7",
+      "bytes": 937
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00036.png": {
+      "sha256": "1cf34ff9df7b0cc8dbbfc8cbfede9b3071d42af331b2dc7b3e138939affa12e9",
+      "bytes": 908
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00037.png": {
+      "sha256": "286f006ee10817601a82f8b5f28452b2015ac8cfaf1083064b59ad7fe46df410",
+      "bytes": 1006
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00038.png": {
+      "sha256": "120884055c2a2718c70d5b1e0973c1ede144a31cca3a66a2dc7e84644c40fe36",
+      "bytes": 1012
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00039.png": {
+      "sha256": "8903f6becb2e6b9259391776c799e31d018ce1ca2183dcd0c7c5e1ee98ef6d39",
+      "bytes": 934
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00040.png": {
+      "sha256": "2445eeaf4ee81dc7b7f82961a8b11f461dd8d39be6c8f57abca12cfda983ff7e",
+      "bytes": 966
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00041.png": {
+      "sha256": "66f396c279375e3ec1407efc5973993183e684388136b11e449e1d6d20093902",
+      "bytes": 969
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00042.png": {
+      "sha256": "e4786300ff35ab7378fc139c8614cbaa7050b9f2fe1a8abd9ee0409b6f5c2c07",
+      "bytes": 946
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00043.png": {
+      "sha256": "0c22890204e6715c23fc38e4fccaed7464d4bc0ee16c7c0d660588844a0bc878",
+      "bytes": 902
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00044.png": {
+      "sha256": "51b49e3042079b01961a1bb64f6d6a0c4dd1dd28d4d67907460c871ac0f49df4",
+      "bytes": 877
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00045.png": {
+      "sha256": "ed8cd6f0a9db5693a5cfaca5cc02b9091786d57283efe07ea6afd9069e0749a7",
+      "bytes": 960
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00046.png": {
+      "sha256": "625380dd847791aace872c5bd23aa35311f485543df9f9e01ecfdc44e15062da",
+      "bytes": 894
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00047.png": {
+      "sha256": "6af7f633df42fcdc2e90990d33b9fc1ed4f3a0263e94727ed827649e1c34d008",
+      "bytes": 973
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00048.png": {
+      "sha256": "bb8a902872b0a77f703b9bb22c3d2c0d50db84805821e8c45c685eb16864f331",
+      "bytes": 898
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00049.png": {
+      "sha256": "e0df9bc29b09e7838ea36c3e8ed43cc9a3e3edcbd18d4435e99fee8a27c3ad2b",
+      "bytes": 864
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00050.png": {
+      "sha256": "9913adb62fef5d5d47e0e2c9ed584a747184b7de473b3703c220aa6396f326e0",
+      "bytes": 951
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00051.png": {
+      "sha256": "676ec77062b42891b07bb80d615f163cfa2c9117b15688cda29fd034fc214069",
+      "bytes": 900
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00052.png": {
+      "sha256": "5267e2fb05aceb5ea3a3edf89109070160be0ec452d38d4c1e4e14dbe46bed38",
+      "bytes": 906
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00053.png": {
+      "sha256": "354304d91f541012b178cc90a3f0de933b5188c97a1d786d4c4872e2252a1d94",
+      "bytes": 957
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00054.png": {
+      "sha256": "645747c5d57be76a61354c7c387f4776536c274464929a2e8bf6619e6bcd9159",
+      "bytes": 888
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00055.png": {
+      "sha256": "06bbb0ddb76da127337dd9a0df56ef32ded9e298696b148a1e2b687cac8cac47",
+      "bytes": 764
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00056.png": {
+      "sha256": "41a73c49d4f5171565b08f74e4cb9e5724eb859e52eec3cd010569b821946083",
+      "bytes": 1043
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00057.png": {
+      "sha256": "97f40af0ce715d9d979f87faeaab022e4335438fbbbd0063cc1577dea5a7522c",
+      "bytes": 919
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00058.png": {
+      "sha256": "e0313ed7645d8e7c97f1844ece4b229a58c0372514d99df2a6b319ce2cb276ca",
+      "bytes": 923
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00059.png": {
+      "sha256": "f81b4555b545c2eefe6d1ed327f4319d5945e3cf49b701524f4156e5e741a9fa",
+      "bytes": 927
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00060.png": {
+      "sha256": "df7343051269541a24470987e76ae9488d660955374ff74c710bc3e0aad0baba",
+      "bytes": 928
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00061.png": {
+      "sha256": "859b86ed614f737016b51ead5aaf600b80a06366c8a67515c7813fa6fe4bfaef",
+      "bytes": 900
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00062.png": {
+      "sha256": "ef940a1ed988c7a0cec3e5b6584101f89d6249f62688369531dac842e9c7202c",
+      "bytes": 960
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\pilot_images\\00063.png": {
+      "sha256": "e69081454db8c798061e9d10f9c596af4741d18213d07b9f99f71d6f0c2b9088",
+      "bytes": 907
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\blocks.py": {
+      "sha256": "fa1c39350e16dedf06b026ebb59d0d9e8bbf926a2184c0293a350fdbbcec44f1",
+      "bytes": 16425
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\data_builder.py": {
+      "sha256": "f35ab523a2edd62ecea6cf241124507282229286783d1b2db2ba2cadff9395ab",
+      "bytes": 10198
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\layers.py": {
+      "sha256": "a81c9b9e4a5a7d848150de5f7e87fe63f4fea6b8c3146cf9c53873f4a0484f1a",
+      "bytes": 15956
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\LICENSE": {
+      "sha256": "6a96abbc2b5dd39f7c8793790bf52cd051c3ad9f582e7231ad0a242f2adbc9ea",
+      "bytes": 1064
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\networks_for_CIFAR.py": {
+      "sha256": "05266d44f35b3226247ae24a6dba219ac4ed9a454093e15d316180d8350e2ce8",
+      "bytes": 31965
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\README.md": {
+      "sha256": "9e6f1b4655009ffb1f52580324e5accdceba76bdc0da61beeb6a34a48ffbbd44",
+      "bytes": 9802
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\train.py": {
+      "sha256": "910778b81554848667758fd62461a6ce75d50b2984bdebd5569ec903f1d60bc9",
+      "bytes": 18885
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\sources\\utils.py": {
+      "sha256": "ebb406079684368fb61bc5a0f76db4f247ecd0eb7c65858a6fc6ff9cc682ade6",
+      "bytes": 5033
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\configure.py": {
+      "sha256": "f84722ff6e401786847573b9cf952b044a5738adaae1bef68ceab6559a242ad9",
+      "bytes": 2471
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly-0.0.0.0.10.dist-info\\LICENSE": {
+      "sha256": "016957af6005ada130f4d5a05624e15941e3d78454b26b3bd9a14ac58500ff8c",
+      "bytes": 5933
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly-0.0.0.0.10.dist-info\\LICENSE-CN": {
+      "sha256": "6de992083cbdc147b9311c96028df55615636d4546a5d2e39e1fdc45628aefcb",
+      "bytes": 5192
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly-0.0.0.0.10.dist-info\\METADATA": {
+      "sha256": "ef85983fdef2ae5e069ee13ea8d2c221e728a81fec1b15ad95dcbf3dd3b8e712",
+      "bytes": 13413
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly-0.0.0.0.10.dist-info\\RECORD": {
+      "sha256": "1a48fef638951e016e3bb578383da9239159fa890802ebb98222cd90483f598b",
+      "bytes": 8690
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly-0.0.0.0.10.dist-info\\top_level.txt": {
+      "sha256": "6392ebf3b2932c2f827398d1904f8047d9e38ff6fcd382d02fb599161da3b757",
+      "bytes": 13
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly-0.0.0.0.10.dist-info\\WHEEL": {
+      "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+      "bytes": 92
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\cext\\functional.py": {
+      "sha256": "5859bab49c5190d1cb4ea78cc7a0cccf0870833bc8454d0f97538f7ede910440",
+      "bytes": 3115
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\cext\\layer.py": {
+      "sha256": "ca491658acd4b7ec9b11d242bb7a5623e047486dd96bb6091d924460c9001daa",
+      "bytes": 12685
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\cext\\__init__.py": {
+      "sha256": "9337d93940e5b672a63c3ced0e982f61d822d53610221dfb407a98b30a15e62a",
+      "bytes": 689
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\base.py": {
+      "sha256": "9623557dd0e40c6ce5f7fa9e4a64f4020f2e1566f2fe0a5acfbeeec037d59e40",
+      "bytes": 5059
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\cu_kernel_opt.py": {
+      "sha256": "1770f7f53ff2c77daed0d07915bdbbfe4d3af86c3e50068c48f8d9686b51fb9b",
+      "bytes": 3646
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\encoding.py": {
+      "sha256": "2ec6f0d82a476ee9130ed549276beede8091e24e105ff8b34c13720fdae2c65a",
+      "bytes": 15874
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\functional.py": {
+      "sha256": "3b0211d15732de0ea7f249d72319fa48325ff4e21385d9f2285c0a5d14d9b57e",
+      "bytes": 41706
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\layer.py": {
+      "sha256": "36a82322a273e290ba3d4e44640eb9b3447e432b66bcb264df429245e9fc740e",
+      "bytes": 54143
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\monitor.py": {
+      "sha256": "30a327cc3d164bf2aae70f865c85d4c2d92babc291685a5fe68c09d0eb78384e",
+      "bytes": 9142
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\neuron.py": {
+      "sha256": "8a92b20f7fd127b153640c1a4c6d879312e58e6897ff62cbdc63cf3c472b192f",
+      "bytes": 52463
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\neuron_kernel.py": {
+      "sha256": "803ab932ed98d290a22638808462312806fa6a29b921290d44416da1f3863a5e",
+      "bytes": 86959
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\rnn.py": {
+      "sha256": "5edd06b49ab7be5a9d54550c90291f56f04b4cab9710a177038e57aa7d33d12d",
+      "bytes": 41120
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\spike_op.py": {
+      "sha256": "a4cd2bff1eea0da45fcff93984cd23d30733b15b941bac0710cb4bae1400ee68",
+      "bytes": 8721
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\surrogate.py": {
+      "sha256": "dfa64eb97f72e917db1ac90d03206781c92d14a9c5a691e618466e976c161600",
+      "bytes": 57976
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\tensor_cache.py": {
+      "sha256": "f2c2fa1d4f558f1a82ab8b9de09478a6f3730c7344975f0acb6b9da12085f5ba",
+      "bytes": 7502
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\torch_inline.py": {
+      "sha256": "e54682846c16307bf48f5db8230aa5a95a9d94f2c5d7ad62617013102dd67da1",
+      "bytes": 7634
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\asl_dvs.py": {
+      "sha256": "27616c13c3aba480a8d4cfc0c507d58fc0efd7520caba3870fed9259bf4888ec",
+      "bytes": 6069
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\cifar10_dvs.py": {
+      "sha256": "508167a520f5ac63a00ec799984172dc06d01653f9da72c091c784afe71e62e5",
+      "bytes": 9645
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\dvs128_gesture.py": {
+      "sha256": "9427e94bc5a5be8edfb53fef888c294b506754aff4250e6aa009ca9301dc19d4",
+      "bytes": 9345
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\es_imagenet.py": {
+      "sha256": "6f55fa7a00ee99330d5ecea395e4aba7fda5255b293db3a3cec0aca1c1931db1",
+      "bytes": 11111
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\nav_gesture.py": {
+      "sha256": "810c1b63cd5ea3747ffe629ce9b396b82700812357ec2cddda7d1a180726d939",
+      "bytes": 13397
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\n_caltech101.py": {
+      "sha256": "80b6cbb1c34655fe16d8af424faa5fcfcf28365b6838a870540f51a894bdc053",
+      "bytes": 5626
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\n_mnist.py": {
+      "sha256": "912b3c04307fc611f14eedcee4213f68ab0e339fe833b71b36adf29742403967",
+      "bytes": 5912
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\speechcommands.py": {
+      "sha256": "c8b6d28dcf4b7a1d95398dd7fa4a4a95365a0e970d2ee3b573952851f9ea5752",
+      "bytes": 9021
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\datasets\\__init__.py": {
+      "sha256": "311f4e9535e73ab9e431c43de2095c8916c56b19ce2651eb41597a3a652d72fb",
+      "bytes": 45803
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\event_driven\\encoding.py": {
+      "sha256": "6df6a45043c11184378f030b92d296a4e091893421bb1c7d790597fb7ba67981",
+      "bytes": 2625
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\event_driven\\neuron.py": {
+      "sha256": "aa55ef8f24e5d0e38977c0133bd8dfb26b92f7a3fa64b4f6b17368585b24ceaa",
+      "bytes": 5534
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\event_driven\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\visualizing\\__init__.py": {
+      "sha256": "76ec11e1ab4db20c7d2fbb82e7b03d01865ff5f1a87fd97d1494d3e6a4e43a1e",
+      "bytes": 14629
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\converter.py": {
+      "sha256": "51d5129450547d46be2fe8e13db8baf88d2bdbab415fc91cd3437c372f6f7c07",
+      "bytes": 1935
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\modules.py": {
+      "sha256": "814a5eddd538ca5771160357cccc43754e6e1fbd4a4bcbd3fa5c9b68b54d7ca3",
+      "bytes": 1121
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\utils.py": {
+      "sha256": "1c8b0bc769a5cc8df22be3c9aa6d50e45a1e8bd14952de84479b94519b639625",
+      "bytes": 967
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\__init__.py": {
+      "sha256": "68c88df6affb3a45982f048fdad5885524926ca6b6d050f3be305f927cbfb5ea",
+      "bytes": 131
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\csrc\\py_wrapper.py": {
+      "sha256": "eb98693a5ba52289aad4b44076e005b41d3cbfc8a32112af2e0c2569daa6d8de",
+      "bytes": 6331
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\csrc\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\A2C.py": {
+      "sha256": "469ffc33d12a22f2edc3163370fda0b839cb0faaabf22641d244f25ffd1fe492",
+      "bytes": 4912
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\cifar10_r11_enabling_spikebased_backpropagation.py": {
+      "sha256": "ffdf56104ed5602dbf0f043bcac984b29c1828977a3ce882f84abea00f4101ad",
+      "bytes": 11638
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\classify_dvsg.py": {
+      "sha256": "90fb46265932ff0676ecfe78df37120fb557bb32ae4ab0af795344ee76facda3",
+      "bytes": 19085
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\conv_fashion_mnist.py": {
+      "sha256": "69f36582ca2a34294b3298a134c3ecebb220e4ce295de55d13d3bbbcc4c40fd8",
+      "bytes": 13630
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\dqn_cart_pole.py": {
+      "sha256": "bdbedd10c7c311fc15183592bb7d876c225d0ca352503570a6e73a2aa0cd95f8",
+      "bytes": 10646
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\DQN_state.py": {
+      "sha256": "35d469fde773c02dda1a9c292e53580da81c220c1b3ac0c94422f801441ccd65",
+      "bytes": 5944
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\lif_fc_mnist.py": {
+      "sha256": "a989855507b74666da115189b2e91d9891f023e45a4601db1f661cf305f59405",
+      "bytes": 8583
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\PPO.py": {
+      "sha256": "f1216f1cb13e929a59692e65297cc651f7bfa110e02b8be5fee6030bf4aa05a0",
+      "bytes": 6591
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\rsnn_sequential_fmnist.py": {
+      "sha256": "a4fb51a56afb6ebfaedf1f49a7f998173f0bc984048c29c93bf64aa1eae31e44",
+      "bytes": 8802
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\speechcommands.py": {
+      "sha256": "63a8a9b04ac082fec4f30f63758df7926baf9b029a84f3cd02a201f00be1203c",
+      "bytes": 19583
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\Spiking_A2C.py": {
+      "sha256": "ca9fdde85d79736a335e99572abcf89cbfcbc7fa2faec31880ace6ecab4729c8",
+      "bytes": 5497
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\Spiking_DQN_state.py": {
+      "sha256": "0c5f653aaaa7be47a237792791ab6892fd75afa9ecc29262a90fbc5688dc2737",
+      "bytes": 11214
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\spiking_lstm_sequential_mnist.py": {
+      "sha256": "026dac1b357fc518f3f856e4ab3baf99c7bffcdb638b515d08e0d6c7072571e2",
+      "bytes": 4379
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\spiking_lstm_text.py": {
+      "sha256": "85a81f1b60709bf0347f1281a9ed7a0f0dd0e4e29ebde6131c8318af4d1ea17f",
+      "bytes": 11543
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\Spiking_PPO.py": {
+      "sha256": "5b62137a71e138621ffefa65c5583414754c3e563b4f5232bdde6b536e6293b5",
+      "bytes": 7524
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\model\\parametric_lif_net.py": {
+      "sha256": "5cc90a9afa7332fc8bc62b3b9d638e1f1b27e76c71e48c9e8cde3d6a14adec49",
+      "bytes": 17630
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\model\\sew_resnet.py": {
+      "sha256": "1b300777e21cc68f3f0402325fe9112cb24048dd9fecdd9477bb8b0a8d95e2d1",
+      "bytes": 41390
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\model\\spiking_resnet.py": {
+      "sha256": "6a5e82bad2eeaf7752412b4325b02dd1ea50eac6bb50e503a318410aeb8cfdbc",
+      "bytes": 36500
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\model\\spiking_vgg.py": {
+      "sha256": "652fd4b3c30fe737b0d8b33b0c00aefaa992aa0cb334af6caf40b58194d212a0",
+      "bytes": 23096
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\model\\train_classify.py": {
+      "sha256": "6d20f0d05754295af2516ef2b21dad0c07ccd79a8879fda70d5ade646336309e",
+      "bytes": 11093
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\model\\train_imagenet.py": {
+      "sha256": "9f1b9b214285487a3ee773dfa0f6a15f850327e036e403964cecf274ff8932e0",
+      "bytes": 9246
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\model\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\cnn_fashionmnist.py": {
+      "sha256": "36621347da9a1d86c5ac18d1a1f20d6eb855efa8bdabcd7cdf8febeeb9298cdd",
+      "bytes": 7472
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\cnn_mnist.py": {
+      "sha256": "440063cc0f6c80646d2064a26789384c562140e203fee960200a70a642745c7e",
+      "bytes": 9738
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\resnet18_cifar10.py": {
+      "sha256": "a295bd4c8648205abe959b97c5f605bf1f194e50876825a92f1d0b6f7685a9ce",
+      "bytes": 4576
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\utils.py": {
+      "sha256": "49daa180e219531a5a1989c187ec00214be74ac1beea7f716cd55ce04db6de75",
+      "bytes": 5742
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\kernels\\onnx.py": {
+      "sha256": "89babde9caa2d3f7f5720b9e6bda24739e1b98ee66d97ac85af9f5e5a9cfff65",
+      "bytes": 51519
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\kernels\\pytorch.py": {
+      "sha256": "898d0d4aaa2ab254701f0b446ed00b96b1df9038adf68ef0c511136843bc32f3",
+      "bytes": 6381
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\kernels\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\model_sample\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\model_sample\\cifar10\\resnet.py": {
+      "sha256": "b63f90df8852f63b45f6bae0d81d4c81f92a899b8cc7b0959016455e75f10546",
+      "bytes": 4379
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\model_sample\\cifar10\\vgg.py": {
+      "sha256": "44b38af05b4de02523b9959ae33d9d444768385f1dc423d3d34c064448c70abb",
+      "bytes": 2358
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\model_sample\\cifar10\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\model_sample\\imagenet\\resnet.py": {
+      "sha256": "a27d589b08683f8063ced35af6ff3e7ad426179e964bae244f6f5c4ea9f2b034",
+      "bytes": 13517
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\ann2snn\\examples\\model_sample\\imagenet\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\common\\multiprocessing_env.py": {
+      "sha256": "17ad59ba54806f3b0eed30073977c7e51f16bdccc50e9e0dcc2cbcd1f2fca584",
+      "bytes": 5048
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\clock_driven\\examples\\common\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\event_driven\\examples\\tempotron_mnist.py": {
+      "sha256": "22a110e13426c2f940894ae91d722f324274a762718bab24bf8624951cb6b22f",
+      "bytes": 7053
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\deps\\spikingjelly\\event_driven\\examples\\__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_public_model_check.summary.json": {
+      "sha256": "bdd536e4a03ac7f21693ff29be99b746194892a3b22c20bcf07d0c9ae6b72eb1",
+      "bytes": 153797
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_public_model_check.md": {
+      "sha256": "0ada4c2f04ee40499be89364b92b5cea160001f4df4bc80635266c2cc114e97c",
+      "bytes": 7368
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_adaptive_extended_checks_v2.md": {
+      "sha256": "0cb0c3760470f03f34e2c4d1844ccd301f091db25c3a4dc9135e60f7bc0884fb",
+      "bytes": 7116
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_adaptive_extended_checks_v2.summary.json": {
+      "sha256": "e563d6009d195a480a80050a4e101d1b388c3a182bddff9b26de846639853a31",
+      "bytes": 706811
+    },
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_adaptive_extended_checks_v2.manifest.json": {
+      "sha256": "64edd45eb6037f3c504597c2c8b6529071b886ac8b380e7b076ec96ca6ec5c9b",
+      "bytes": 689362
+    }
+  },
+  "bytes": 736302021,
+  "report_sha256": "0ada4c2f04ee40499be89364b92b5cea160001f4df4bc80635266c2cc114e97c",
+  "summary_sha256": "bdd536e4a03ac7f21693ff29be99b746194892a3b22c20bcf07d0c9ae6b72eb1",
+  "scope": "All retained public-stage sources, assets, rejected previews, failures and accepted original reference results; prior bounded evidence manifest referenced separately. No live processes modify these files after complete full-test status."
+}

@@ -1,0 +1,92 @@
+{
+  "source_hashes": {
+    "stream_pipeline_strong_leak.sv": "83a887e1f52d1cecc9e046148467155b4d5528ea9a1341bcd0d46c700b45e391",
+    "tb_stream_pipeline_strong_leak.sv": "a0276acae3daf818b2f0dcded648b2d58927fac86d0a94c54e6c252ad601f528",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 9216,
+  "tested_engines": [
+    3,
+    5
+  ],
+  "stimulus_sha256": "f53494d7f47b8e3990eaa6219760a006a93e799bf2e7eb2b29a349e883fe567b",
+  "matched_original_stimulus": true,
+  "centered_wide": true,
+  "wide_residual_encoding": "centered",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "real_neurons": 635904,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 3,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 5,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ]
+}

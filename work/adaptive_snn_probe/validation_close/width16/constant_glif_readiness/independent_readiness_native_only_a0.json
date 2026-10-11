@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "source_audit": {
+    "status": "pass",
+    "immutable_preparation_bindings": 17,
+    "immutable_energy_bindings": 27,
+    "physical_parser_and_connectivity_functions_AST_identical": true,
+    "complete_physical_annotation_changes_exactly_declared": true,
+    "known_pin_fixture_bench_and_export_bytes_identical": true,
+    "new_measurement_identity": "engine9/top_sequential_leak16_glif_mcm"
+  },
+  "native_audits": [
+    {
+      "status": "pass",
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_exhaustive_s0_a0\\acceptance.json",
+      "sha256": "79aca6ee90227a5cf17807f87d24592653668194f2abce44933d04a04fb263e5",
+      "cohort": "exhaustive",
+      "stall": 0,
+      "scalars": 2162688,
+      "requests": 1081344,
+      "full_raw_output_oracle": "pass"
+    },
+    {
+      "status": "pass",
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_exhaustive_s1_a0\\acceptance.json",
+      "sha256": "8dbf79c9c953d3e7aed27b892473c75a5954d2d0bc7cb6789795357eed01c026",
+      "cohort": "exhaustive",
+      "stall": 1,
+      "scalars": 2162688,
+      "requests": 1081344,
+      "full_raw_output_oracle": "pass"
+    },
+    {
+      "status": "pass",
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_actual_glif_s0_a0\\acceptance.json",
+      "sha256": "0896c19c30f41206eaf788e81988090b7f37c6b16e74ec5577422ee6023898dd",
+      "cohort": "actual_glif",
+      "stall": 0,
+      "scalars": 262528,
+      "requests": 131328,
+      "full_raw_output_oracle": "pass"
+    },
+    {
+      "status": "pass",
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_actual_glif_s1_a0\\acceptance.json",
+      "sha256": "8176b5c05417b7c2175fc1f4cf492dd2a9c516e7bf1e7af57ab0dfbb2b1f8add",
+      "cohort": "actual_glif",
+      "stall": 1,
+      "scalars": 262528,
+      "requests": 131328,
+      "full_raw_output_oracle": "pass"
+    }
+  ],
+  "route_audit": null,
+  "energy_audit": null,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\audit_readiness_glif_mcm.py": "d17bd0f42c0d0a130300e74393e83155c2f96ace79784436b3fccd318f5f3cb8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\energy_preparation.json": "4e1a3998bffaa80a7dbddc6ea28666b10f7c1c11b5d80392acc197bd42c824e3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\preparation.json": "c5b0bbb709c482598b66fa2da20ad41321642285e2c2f300fd682ae837870e41",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_exhaustive_s0_a0\\acceptance.json": "79aca6ee90227a5cf17807f87d24592653668194f2abce44933d04a04fb263e5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_exhaustive_s1_a0\\acceptance.json": "8dbf79c9c953d3e7aed27b892473c75a5954d2d0bc7cb6789795357eed01c026",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_actual_glif_s0_a0\\acceptance.json": "0896c19c30f41206eaf788e81988090b7f37c6b16e74ec5577422ee6023898dd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\hardware\\native_actual_glif_s1_a0\\acceptance.json": "8176b5c05417b7c2175fc1f4cf492dd2a9c516e7bf1e7af57ab0dfbb2b1f8add"
+  },
+  "scope": "Independent full raw RTL output and source-equivalence recheck; measured route/energy included only when explicitly supplied. No first-ever novelty/board claim."
+}

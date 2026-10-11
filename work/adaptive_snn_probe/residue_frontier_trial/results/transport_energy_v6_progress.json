@@ -1,0 +1,43 @@
+{
+  "completed": [
+    {
+      "family": "original",
+      "engine": 3,
+      "power_dir": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\power_e3_a1"
+    },
+    {
+      "family": "original",
+      "engine": 0,
+      "power_dir": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\power_e0_a1"
+    },
+    {
+      "family": "original",
+      "engine": 1,
+      "power_dir": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\power_e1_a1"
+    },
+    {
+      "family": "original",
+      "engine": 4,
+      "power_dir": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\power_e4_a1"
+    }
+  ],
+  "failures": [
+    {
+      "family": "f5",
+      "engine": 5,
+      "error": "AssertionError()"
+    },
+    {
+      "family": "original",
+      "engine": 2,
+      "error": "AssertionError()"
+    },
+    {
+      "family": "original",
+      "engine": 5,
+      "error": "AssertionError()"
+    }
+  ],
+  "total": 7,
+  "unix_time": 1791606363.7547703
+}

@@ -1,0 +1,140 @@
+{
+  "record_written_utc": "2026-10-11T01:13:25.178730+00:00",
+  "resources": [
+    {
+      "url": "https://api.crossref.org/works/10.1145%2F3748173.3779194",
+      "artifact": "udp_crossref.json",
+      "started_utc": "2026-10-11T01:13:21.158133+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1145%2F3748173.3779194",
+      "content_type": "application/json",
+      "bytes": 10932,
+      "sha256": "c08428fe6f60f85a4f4d7038569d7fe59476af9fd6cd3e68d9122277ea0c350e",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1109%2FSIPS.2008.4671768",
+      "artifact": "mckeown_crossref.json",
+      "started_utc": "2026-10-11T01:13:21.159116+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1109%2FSIPS.2008.4671768",
+      "content_type": "application/json",
+      "bytes": 3064,
+      "sha256": "d914a0c8cc68f98354916936c6dc9f7367c8074327101aef1eb9e5b8a93c86c0",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1145/3748173.3779194",
+      "artifact": "udp_openalex.json",
+      "started_utc": "2026-10-11T01:13:21.159116+00:00",
+      "status": 200,
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1145/3748173.3779194",
+      "content_type": "application/json",
+      "bytes": 17596,
+      "sha256": "021608d521b38924f0fd07d05410c9cab2acd5a9360184f1f3c117069c60aa6f",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1109/SIPS.2008.4671768",
+      "artifact": "mckeown_openalex.json",
+      "started_utc": "2026-10-11T01:13:21.159116+00:00",
+      "status": 200,
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1109/SIPS.2008.4671768",
+      "content_type": "application/json",
+      "bytes": 15033,
+      "sha256": "172973fe5c06f28dfc2353ae01881df833121d81ae5a15c521c055359bf05108",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.github.com/repos/wintermelon008/UDP/git/trees/main?recursive=1",
+      "artifact": "udp_current_tree.json",
+      "started_utc": "2026-10-11T01:13:22.375449+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/wintermelon008/UDP/git/trees/main?recursive=1",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 2790,
+      "sha256": "55a72f0f402fb65688c8368205535443ada08c29a3b2b5cb46fe790cb4dadfb5",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.github.com/repos/wintermelon008/UDP/releases",
+      "artifact": "udp_current_releases.json",
+      "started_utc": "2026-10-11T01:13:22.685573+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/wintermelon008/UDP/releases",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wintermelon008/UDP/main/README.md",
+      "artifact": "udp_current_readme.md",
+      "started_utc": "2026-10-11T01:13:22.817886+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/wintermelon008/UDP/main/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 896,
+      "sha256": "b4d14eea8ffaaf701d44a740c367f21cbde695a4257df3b1425e67bc3d9fccf6",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3748173.3779194",
+      "artifact": "udp_acm_pdf_response.bin",
+      "started_utc": "2026-10-11T01:13:22.855965+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5494,
+      "sha256": "a4efa69b91b47334d4667ad6e14788fa6e6504df6c3b5d03a98a13a27ff68fce",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4671768",
+      "artifact": "mckeown_ieee_stamp_response.bin",
+      "started_utc": "2026-10-11T01:13:22.955382+00:00",
+      "status": 418,
+      "error": "HTTP Error 418: Unknown Code",
+      "content_type": "text/html",
+      "bytes": 15410,
+      "sha256": "86911314407f500ee81e43d0a7007355b94fb93a461d0b766f01cdb70d8d44cf",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://www.proceedings.com/content/004/004087webtoc.pdf",
+      "artifact": "mckeown_proceedings_toc.pdf",
+      "started_utc": "2026-10-11T01:13:22.960382+00:00",
+      "status": 200,
+      "final_url": "https://www.proceedings.com/content/004/004087webtoc.pdf",
+      "content_type": "application/pdf",
+      "bytes": 125206,
+      "sha256": "ee5f188d36c8b85411b3ad558e0ed8d39dc56936fa08eadba661005a0e1b1f9c",
+      "pdf_magic": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zcy-001-001/Ultra-DSP-MICRO26-AE/main/README.md",
+      "artifact": "udp_ultradsp_readme.md",
+      "started_utc": "2026-10-11T01:13:23.054742+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/zcy-001-001/Ultra-DSP-MICRO26-AE/main/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6782,
+      "sha256": "dbdaeea6fcb60a7e8cfb3c99327a3477c9f11a155dc52b5859e37913f53af53e",
+      "pdf_magic": false
+    },
+    {
+      "url": "https://api.github.com/repos/zcy-001-001/Ultra-DSP-MICRO26-AE/git/trees/main?recursive=1",
+      "artifact": "udp_ultradsp_tree.json",
+      "started_utc": "2026-10-11T01:13:23.237063+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/zcy-001-001/Ultra-DSP-MICRO26-AE/git/trees/main?recursive=1",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 990599,
+      "sha256": "65fa537629ab0f47ee1d71305af3e56f0c2316ac4b1c55a88a1729acb5ff75b0",
+      "pdf_magic": false
+    }
+  ],
+  "script_sha256": "aa70cec9b61762eb97e1a0cb0426eefc5f868eb9a8f19d08d20fbad4d47eef3a",
+  "authentication_or_access_bypass_attempted": false,
+  "scope": "Read-only legal public primary/discovery routes, two pending original papers only."
+}

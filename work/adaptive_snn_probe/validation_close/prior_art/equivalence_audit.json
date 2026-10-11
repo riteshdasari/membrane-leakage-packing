@@ -1,0 +1,310 @@
+{
+  "audit_date": "2026-10-10",
+  "target": "E5 exact signed9-pair / signed12 scalar ceil-leakage primitive",
+  "blanket_method_equivalence_closed": false,
+  "exact_same_policy_found_in_accessible_methods": false,
+  "absence_proof": false,
+  "established_prior_concepts": [
+    "actual-operand narrowness-driven dynamic operation packing",
+    "arbitrary-width multiplication packing",
+    "exact signed-product correction",
+    "modulo-reference spill reconstruction",
+    "runtime datatype-dependent DSP packing"
+  ],
+  "potential_specific_contribution": "Exact rounded-leakage specialization and membrane admission with measured SNN implementation trade-offs",
+  "sources": [
+    {
+      "id": "dsp_packing",
+      "url": "https://arxiv.org/html/2203.11028",
+      "status": "full_primary_method_checked",
+      "sections": [
+        "IV",
+        "V",
+        "VI-B",
+        "VII"
+      ]
+    },
+    {
+      "id": "arithmetic_packing",
+      "url": "https://arxiv.org/html/2606.11065",
+      "status": "full_primary_method_checked",
+      "sections": [
+        "III-B",
+        "III-C",
+        "III-D",
+        "V"
+      ]
+    },
+    {
+      "id": "xtramac",
+      "url": "https://arxiv.org/html/2605.06052",
+      "status": "full_primary_method_checked",
+      "sections": [
+        "III-C",
+        "IV",
+        "VI"
+      ]
+    },
+    {
+      "id": "brooks2000",
+      "url": "https://mrmgroup.cs.princeton.edu/papers/dbrooks-tocs2000.pdf",
+      "status": "full_primary_method_checked",
+      "sections": [
+        "5.1",
+        "5.2",
+        "5.4",
+        "6.2"
+      ]
+    },
+    {
+      "id": "udp",
+      "url": "https://doi.org/10.1145/3748173.3779194",
+      "source_url": "https://github.com/wintermelon008/UDP",
+      "revision": "f5a6b4f2522e54a815f5026b67cf7f78b7438160",
+      "status": "complete_released_module_checked_full_paper_unavailable",
+      "method_file": "src/main/scala/UDP.scala"
+    },
+    {
+      "id": "six_signed",
+      "url": "https://doi.org/10.1109/ICFPT64416.2024.11113473",
+      "status": "primary_abstract_and_outline_only_full_method_unresolved"
+    },
+    {
+      "id": "ou_dynamic_packing",
+      "url": "https://doi.org/10.1109/TCSII.2024.3377356",
+      "status": "primary_existence_verified_full_method_unresolved"
+    },
+    {
+      "id": "mckeown_range",
+      "url": "https://doi.org/10.1109/SIPS.2008.4671768",
+      "status": "primary_existence_verified_full_method_unresolved"
+    },
+    {
+      "id": "skipopu",
+      "url": "https://arxiv.org/html/2603.14785",
+      "status": "full_primary_packing_method_checked",
+      "sections": [
+        "3.2"
+      ]
+    }
+  ],
+  "primary_pdfs": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\arxiv_2203.11028.pdf",
+      "bytes": 595798,
+      "sha256": "50230af0e3761c9dfbfdafeb5c9ffbeb74b523b6c5e2d73031267b8f216df752",
+      "version_footer": "arXiv:2203.11028v1"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\arxiv_2301.01905.pdf",
+      "bytes": 631095,
+      "sha256": "7f1cd2b9c37f2afaacc806fb3a65373230d21047a9fc49dd94aa6781e9ae675f",
+      "version_footer": "arXiv:2301.01905v5"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\arxiv_2309.16158.pdf",
+      "bytes": 781768,
+      "sha256": "34a0084ffb71e907d6e3e29335e9fedc7ead634a47a983d5445b19622aebf0be",
+      "version_footer": "arXiv:2309.16158v1"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\arxiv_2408.15578.pdf",
+      "bytes": 3107152,
+      "sha256": "fe3399d7d9bc7fc79d2a7fd2242a6193e17b13cd2b8a34d719aa2aa127f7a4d0",
+      "version_footer": "arXiv:2408.15578v3"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\arxiv_2603.14785.pdf",
+      "bytes": 4994131,
+      "sha256": "14fb70e26373649be5d00e58f1f83a27edf3f303a5ac61b3c2a95449bea53a86",
+      "version_footer": "arXiv:2603.14785v2"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\arxiv_2605.06052.pdf",
+      "bytes": 1319487,
+      "sha256": "e44b845e218984c129a21b5da62b02f5d26cc0b3e8292453c0b0a8dddfe0d75e",
+      "version_footer": "arXiv:2605.06052v1"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\arxiv_2606.11065.pdf",
+      "bytes": 880576,
+      "sha256": "2ab208cd0dfed6242304b0fc20b263dc711309182fa9c8b357ca2a3eda1c5028",
+      "version_footer": "arXiv:2606.11065v1"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\brooks2000.pdf",
+      "bytes": 368746,
+      "sha256": "1baa6d497f488232a931cadb4ad49c71fecde953af81cbc7b97f12994689dbbd",
+      "version_footer": null
+    }
+  ],
+  "udp_source_files": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\.gitignore",
+      "bytes": 284,
+      "sha256": "c4d03a83a44fd6ffd1f31a2788bc969e4d80fbe98a922826f5a27f6942ee3dd0"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\build.sbt",
+      "bytes": 418,
+      "sha256": "40c947d50780834164a0f772492c6dddd39a856c0e9e51daba1f406a05a7104a"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\CITATION.cff",
+      "bytes": 1558,
+      "sha256": "99045cd1caae458d7ed99c57de03ab39b40a7ae2add58734d6ffba10102e1b42"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\LICENSE",
+      "bytes": 1388,
+      "sha256": "9ce82ccd0b5d8250d967c367adc4d6093bb406d9c2b09f939fff8fa7158b0c25"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\README.md",
+      "bytes": 896,
+      "sha256": "b4d14eea8ffaaf701d44a740c367f21cbde695a4257df3b1425e67bc3d9fccf6"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\src\\main\\scala\\UDP.scala",
+      "bytes": 4935,
+      "sha256": "0c01df5ed1e22b2a887f734bf4cf257c3a9c6cfec3c765491e25052a8e47d74c"
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\src\\test\\scala\\UDP_MUL_tb.scala",
+      "bytes": 2642,
+      "sha256": "3323a71e3234f8bf9b588920f18a7b8f74651b41c4890572fb41fb64089c470a"
+    }
+  ],
+  "udp_commit_raw_module": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_pinned.scala",
+    "bytes": 4935,
+    "sha256": "0c01df5ed1e22b2a887f734bf4cf257c3a9c6cfec3c765491e25052a8e47d74c"
+  },
+  "udp_module_matches_pinned_revision": true,
+  "e5_source": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_core.sv",
+    "bytes": 4513,
+    "sha256": "a55839cc223ea88a859641686f409ef413c3be064463a11eef0915c9255e1bd7"
+  },
+  "report": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\equivalence_audit.md",
+    "bytes": 12355,
+    "sha256": "95b2116f95206b9b1654f4d99eacba74be13a67695fdeb429c3a16ea6dd50c0d"
+  },
+  "access_limits": "UDP full PDF challenge; six-signed, Ou2024, McKeown2008 primary methods inaccessible. No messages or restricted-access bypass.",
+  "benchmarks": [
+    {
+      "paper": "FireFly",
+      "url": "https://arxiv.org/html/2301.01905v5",
+      "section": "V-C Table III",
+      "model_dataset": [
+        [
+          "SCNN5",
+          "MNIST"
+        ],
+        [
+          "SCNN7",
+          "CIFAR10"
+        ],
+        [
+          "SCNN11",
+          "CIFAR100"
+        ],
+        [
+          "SCNN9",
+          "DVS-CIFAR10"
+        ],
+        [
+          "SCNN9",
+          "DVS-Gesture"
+        ]
+      ],
+      "stated_lif_training": {
+        "tau": 2.0,
+        "threshold": 0.5,
+        "time_steps": 4
+      },
+      "hardware": "IF/LIF with shift approximation to leakage"
+    },
+    {
+      "paper": "FireFly v2",
+      "url": "https://arxiv.org/html/2309.16158",
+      "section": "VI Tables IV-VI",
+      "model_dataset": [
+        [
+          "SNN5",
+          "MNIST"
+        ],
+        [
+          "SNN7",
+          "CIFAR10"
+        ],
+        [
+          "SNN11",
+          "CIFAR100"
+        ],
+        [
+          "SNN9",
+          "DVS-CIFAR10"
+        ],
+        [
+          "SNN9",
+          "DVS-Gesture"
+        ],
+        [
+          "CIFAR-Net",
+          "CIFAR10"
+        ],
+        [
+          "CIFAR-Net",
+          "CIFAR100"
+        ],
+        [
+          "SEW-ResNet34",
+          "ImageNet"
+        ]
+      ],
+      "hardware": "IF/LIF/residual membrane potential support; equation per row not established"
+    },
+    {
+      "paper": "FireFly-S",
+      "url": "https://arxiv.org/html/2408.15578v1",
+      "section": "VI-A Table II",
+      "model_dataset": [
+        [
+          "SCNN5",
+          "MNIST"
+        ],
+        [
+          "SCNN7",
+          "DVS-Gesture"
+        ],
+        [
+          "SCNN9",
+          "CIFAR10"
+        ]
+      ],
+      "hardware": "IF/LIF; sparse 4-bit models differ from original FireFly topologies"
+    },
+    {
+      "paper": "FireFly-T",
+      "url": "https://arxiv.org/html/2505.12771",
+      "section": "V-A",
+      "model_dataset": [
+        [
+          "CIFAR-Net",
+          "CIFAR10"
+        ],
+        [
+          "Spikingformer-4-256",
+          "CIFAR10"
+        ],
+        [
+          "Spikingformer-8-512",
+          "ImageNet"
+        ]
+      ],
+      "hardware": "BrainCog models; 4-bit quantization"
+    }
+  ]
+}

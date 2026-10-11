@@ -1,0 +1,21 @@
+{
+  "status": "bounded_targeted_followup_complete_method_equivalence_not_closed",
+  "new_full_primary_source": "McAllister_EUSIPCO2009_Sec3.3_explicit_summary_of_McKeown_SiPS2008",
+  "remaining_full_method_access_gaps": [
+    "Ou2024",
+    "Cui_ICFPT2024",
+    "UDP2026_full_paper",
+    "McKeown2008_original_paper_runtime_and_overflow_details"
+  ],
+  "claim": "Narrow_rounded_leakage_specialization_and_measured_tradeoffs_only_no_first_ever",
+  "sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\targeted_equivalence_followup.md": "470c2a0f7efd0d68bcc4e3f65efc1de9dcadd70c093942a62f9aa223a780b2d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\access_checks.json": "af9481af9ad397649659b097afdcf374a7e065ab6e63c2a96cd2b609e5dc73e9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\mcallister_eusipco2009.pdf": "4ff932e10950f199d4e87ee0e3a411dc726336f0ae615b0e8c06f0fd6e1acfc8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\mcallister_eusipco2009.txt": "390d6439badddeeaa34f19bbe75626b01bb3e62b882e753c3c721a9930c937f9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\gong_ustc_author.html": "77c110f4517ea1dce9e9d59aa6711c4764a7528090b801392109b68d19b45496",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_pinned.scala": "0c01df5ed1e22b2a887f734bf4cf257c3a9c6cfec3c765491e25052a8e47d74c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\README.md": "b4d14eea8ffaaf701d44a740c367f21cbde695a4257df3b1425e67bc3d9fccf6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\udp_source\\UDP-main\\CITATION.cff": "99045cd1caae458d7ed99c57de03ab39b40a7ae2add58734d6ffba10102e1b42"
+  }
+}

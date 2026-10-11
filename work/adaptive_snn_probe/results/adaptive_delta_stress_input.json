@@ -1,0 +1,24 @@
+[
+  {
+    "hard_reset": false,
+    "start": 0,
+    "groups": 320,
+    "narrow_groups": 29,
+    "zero_groups": 2,
+    "fixed_group_cycles": 1910,
+    "adaptive_group_cycles": 1881,
+    "common_add_cycles": 560,
+    "common_finish_cycles": 320
+  },
+  {
+    "hard_reset": true,
+    "start": 320,
+    "groups": 320,
+    "narrow_groups": 21,
+    "zero_groups": 50,
+    "fixed_group_cycles": 1670,
+    "adaptive_group_cycles": 1649,
+    "common_add_cycles": 560,
+    "common_finish_cycles": 320
+  }
+]

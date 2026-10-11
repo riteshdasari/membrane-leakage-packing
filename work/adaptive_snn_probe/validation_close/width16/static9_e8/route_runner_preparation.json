@@ -1,0 +1,19 @@
+{
+  "status": "prepared_unexecuted",
+  "engine": 8,
+  "native_index": 1,
+  "legal_state_signed_bits": 9,
+  "full_port_bits": 16,
+  "fixture_FF": 94,
+  "expected_DSP": 1,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\prepare_route_runner.py": "ca8fe58de9f9fc9c07cb321042519c86527e699642529babaf5842d42d2fa84c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_route16_lutceil.py": "b2b5dd0ed1398dcb902443b6a46a4767075867c901b7a497fc773b345c08945b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\preparation.json": "ac62792cefaca63ce9b737a01c8825308eb6ab6d5de9417467314b9980e567d5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\scalar_cohort.json": "88be0d473b12ff89c2b2fd4c6a430dcf93baed471886c95afd2b92635b6a57ba"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_route_static9.py": "353df2d0dba312dd34b4614609b4229cf6cb701637b3eb4191373330a5e51876"
+  },
+  "command": "run_route_static9.py --native-acceptance ABS_PAIR_NATIVE_ACCEPTANCE --attempt a0; optional --resume-synth-from FAILED_ROUTE_DIR"
+}

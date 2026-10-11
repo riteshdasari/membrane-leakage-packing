@@ -1,0 +1,639 @@
+{
+  "created_utc": "2026-10-09T11:12:04.595511+00:00",
+  "source_hashes": {
+    "screen_mixed_third_leakage.py": "dba1d147baf647ee1ee34bd4718e9238e61131386bc836753fb5cd7c91fc1a77",
+    "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+    "results/adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+    "results/adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3",
+    "results/adaptive_delta_stress_25_1/expected.npz": "88f6e683def95ccf166548af350d79bad315422840da6ba324d1bb4cbc6f8148",
+    "results/adaptive_delta_stress_input.json": "29b7ab3c4c05302f786a136896a79f1c7172afd25135030a252e64aff20a5782",
+    "results/stream_pipeline_whole_models_checks.json": "88fabef4c01de5bae47546fe11be337ef030032a658d8160572d02b46ff412e3",
+    "results/stream_pipeline_whole_stress_checks.json": "0cc818254266245c16cb7b5a4b4ad8844a1fa3af3551a48f320e9e57344a8ef4"
+  },
+  "scope": "Exact mixed-third packing algebra and greedy saved-trace schedules; hardware not implemented",
+  "contract": {
+    "delta_le25": "First two signed7 membranes; designated third arbitrary signedint11; all use five-bit residuals and fractional DSP C.",
+    "delta_gt25": "Three only if all actual membranes fit signed6, matching the current narrower safety condition.",
+    "correction": "U=32h+r,0<=r<32; hp=delta*h; pre=U-floor(hp/8),phi=hp mod8; Pfield=delta*r+32phi; result=pre-floor(Pfield/256).",
+    "metadata": "firsttwo pre values signed7 each; third pre signed11:25 bits versus current21-bit triple metadata. Full originalint11 state remains unchanged.",
+    "source_order": "Designated-third policy processes ordered windows with no neuron reordering or rotations.",
+    "ideal_any_outlier": "At leasttwo of the three membranes fit signed7; mapping the sole wide membrane to the third DSP lane requires selector/output-order hardware not implemented here."
+  },
+  "arithmetic": {
+    "full_int11_scalar_cases": 53248,
+    "narrow6_scalar_cases": 2048,
+    "packed_adversarial_triples": 129960,
+    "mismatches": 0,
+    "field_min": 0,
+    "field_max": 999,
+    "pre_min": -1024,
+    "pre_max": 1023,
+    "proof": "For delta<=25,r<=31,phi<=7: field<=31*25+32*7=999<1024. Centering the top product by16 and adding16*delta in its C field reconstructs the same nonnegative field, so no interlane carry."
+  },
+  "models": {
+    "rows": [
+      {
+        "policy": "current_adaptive",
+        "frames": 9216,
+        "neurons": 635904,
+        "requests": 223472,
+        "triple_requests": 190377,
+        "bypass_requests": 7194,
+        "arithmetic_issues": 216278,
+        "triple_issues": 183728,
+        "zero_third_requests": 687,
+        "continuous_clocks_proxy": 223476,
+        "frame_drained_clocks_proxy": 260336
+      },
+      {
+        "policy": "fixed_pair",
+        "frames": 9216,
+        "neurons": 635904,
+        "requests": 304045,
+        "triple_requests": 0,
+        "bypass_requests": 6860,
+        "arithmetic_issues": 297185,
+        "triple_issues": 0,
+        "zero_third_requests": 29144,
+        "continuous_clocks_proxy": 304049,
+        "frame_drained_clocks_proxy": 340909
+      },
+      {
+        "policy": "fixed_triple",
+        "frames": 9216,
+        "neurons": 635904,
+        "requests": 216576,
+        "triple_requests": 207360,
+        "bypass_requests": 7095,
+        "arithmetic_issues": 209481,
+        "triple_issues": 200702,
+        "continuous_clocks_proxy": 216580,
+        "frame_drained_clocks_proxy": 253440
+      },
+      {
+        "policy": "mixed_designated_third",
+        "frames": 9216,
+        "neurons": 635904,
+        "requests": 220696,
+        "triple_requests": 196395,
+        "bypass_requests": 7188,
+        "arithmetic_issues": 213508,
+        "triple_issues": 189741,
+        "mixed_wide_third_requests": 4815,
+        "zero_third_requests": 512,
+        "continuous_clocks_proxy": 220700,
+        "frame_drained_clocks_proxy": 257560
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "frames": 9216,
+        "neurons": 635904,
+        "requests": 218320,
+        "triple_requests": 201546,
+        "bypass_requests": 7084,
+        "arithmetic_issues": 211236,
+        "triple_issues": 194886,
+        "mixed_wide_third_requests": 13041,
+        "requests_needing_lane_selection": 9535,
+        "zero_third_requests": 29,
+        "continuous_clocks_proxy": 218324,
+        "frame_drained_clocks_proxy": 255184
+      }
+    ],
+    "comparisons": [
+      {
+        "policy": "mixed_designated_third",
+        "baseline": "current_adaptive",
+        "request_saving_fraction": 0.012422137896470287,
+        "issue_saving_fraction": 0.012807590231091459,
+        "continuous_clock_saving_fraction": 0.012421915552453089,
+        "frame_drained_clock_saving_fraction": 0.010663143015180343
+      },
+      {
+        "policy": "mixed_designated_third",
+        "baseline": "fixed_pair",
+        "request_saving_fraction": 0.27413376309427884,
+        "issue_saving_fraction": 0.281565354913606,
+        "continuous_clock_saving_fraction": 0.2741301566523817,
+        "frame_drained_clock_saving_fraction": 0.24449046519745743
+      },
+      {
+        "policy": "mixed_designated_third",
+        "baseline": "fixed_triple",
+        "request_saving_fraction": -0.01902334515366433,
+        "issue_saving_fraction": -0.019223700478802286,
+        "continuous_clock_saving_fraction": -0.01902299381290984,
+        "frame_drained_clock_saving_fraction": -0.01625631313131315
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "baseline": "current_adaptive",
+        "request_saving_fraction": 0.023054342378463488,
+        "issue_saving_fraction": 0.023312588427856773,
+        "continuous_clock_saving_fraction": 0.023053929728471978,
+        "frame_drained_clock_saving_fraction": 0.01978981009157399
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "baseline": "fixed_pair",
+        "request_saving_fraction": 0.28194839579667486,
+        "issue_saving_fraction": 0.2892104244830661,
+        "continuous_clock_saving_fraction": 0.28194468654723415,
+        "frame_drained_clock_saving_fraction": 0.25146006705601787
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "baseline": "fixed_triple",
+        "request_saving_fraction": -0.008052600472813198,
+        "issue_saving_fraction": -0.008377848110329822,
+        "continuous_clock_saving_fraction": -0.008052451749930745,
+        "frame_drained_clock_saving_fraction": -0.006881313131313238
+      }
+    ],
+    "completed_reference": "stream_pipeline_whole_models_checks.json",
+    "baseline_schedule_crosscheck": true,
+    "by_seed": [
+      {
+        "seed": 0,
+        "rows": [
+          {
+            "policy": "current_adaptive",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 73944,
+            "triple_requests": 64511,
+            "bypass_requests": 2472,
+            "arithmetic_issues": 71472,
+            "triple_issues": 62313,
+            "zero_third_requests": 154,
+            "continuous_clocks_proxy": 73948,
+            "frame_drained_clocks_proxy": 86232
+          },
+          {
+            "policy": "fixed_pair",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 101204,
+            "triple_requests": 0,
+            "bypass_requests": 2308,
+            "arithmetic_issues": 98896,
+            "triple_issues": 0,
+            "zero_third_requests": 9684,
+            "continuous_clocks_proxy": 101208,
+            "frame_drained_clocks_proxy": 113492
+          },
+          {
+            "policy": "fixed_triple",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 72192,
+            "triple_requests": 69120,
+            "bypass_requests": 2405,
+            "arithmetic_issues": 69787,
+            "triple_issues": 66922,
+            "continuous_clocks_proxy": 72196,
+            "frame_drained_clocks_proxy": 84480
+          },
+          {
+            "policy": "mixed_designated_third",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 73337,
+            "triple_requests": 65904,
+            "bypass_requests": 2476,
+            "arithmetic_issues": 70861,
+            "triple_issues": 63707,
+            "mixed_wide_third_requests": 1183,
+            "zero_third_requests": 140,
+            "continuous_clocks_proxy": 73341,
+            "frame_drained_clocks_proxy": 85625
+          },
+          {
+            "policy": "mixed_any_outlier_ideal",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 72637,
+            "triple_requests": 67423,
+            "bypass_requests": 2398,
+            "arithmetic_issues": 70239,
+            "triple_issues": 65224,
+            "mixed_wide_third_requests": 3476,
+            "requests_needing_lane_selection": 2868,
+            "zero_third_requests": 6,
+            "continuous_clocks_proxy": 72641,
+            "frame_drained_clocks_proxy": 84925
+          }
+        ]
+      },
+      {
+        "seed": 1,
+        "rows": [
+          {
+            "policy": "current_adaptive",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 75173,
+            "triple_requests": 61821,
+            "bypass_requests": 2407,
+            "arithmetic_issues": 72766,
+            "triple_issues": 59556,
+            "zero_third_requests": 372,
+            "continuous_clocks_proxy": 75177,
+            "frame_drained_clocks_proxy": 87461
+          },
+          {
+            "policy": "fixed_pair",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 100245,
+            "triple_requests": 0,
+            "bypass_requests": 2274,
+            "arithmetic_issues": 97971,
+            "triple_issues": 0,
+            "zero_third_requests": 11978,
+            "continuous_clocks_proxy": 100249,
+            "frame_drained_clocks_proxy": 112533
+          },
+          {
+            "policy": "fixed_triple",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 72192,
+            "triple_requests": 69120,
+            "bypass_requests": 2379,
+            "arithmetic_issues": 69813,
+            "triple_issues": 66851,
+            "continuous_clocks_proxy": 72196,
+            "frame_drained_clocks_proxy": 84480
+          },
+          {
+            "policy": "mixed_designated_third",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 74259,
+            "triple_requests": 63950,
+            "bypass_requests": 2404,
+            "arithmetic_issues": 71855,
+            "triple_issues": 61680,
+            "mixed_wide_third_requests": 1714,
+            "zero_third_requests": 266,
+            "continuous_clocks_proxy": 74263,
+            "frame_drained_clocks_proxy": 86547
+          },
+          {
+            "policy": "mixed_any_outlier_ideal",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 73350,
+            "triple_requests": 66015,
+            "bypass_requests": 2379,
+            "arithmetic_issues": 70971,
+            "triple_issues": 63745,
+            "mixed_wide_third_requests": 4954,
+            "requests_needing_lane_selection": 3586,
+            "zero_third_requests": 19,
+            "continuous_clocks_proxy": 73354,
+            "frame_drained_clocks_proxy": 85638
+          }
+        ]
+      },
+      {
+        "seed": 2,
+        "rows": [
+          {
+            "policy": "current_adaptive",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 74355,
+            "triple_requests": 64045,
+            "bypass_requests": 2315,
+            "arithmetic_issues": 72040,
+            "triple_issues": 61859,
+            "zero_third_requests": 161,
+            "continuous_clocks_proxy": 74359,
+            "frame_drained_clocks_proxy": 86643
+          },
+          {
+            "policy": "fixed_pair",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 102596,
+            "triple_requests": 0,
+            "bypass_requests": 2278,
+            "arithmetic_issues": 100318,
+            "triple_issues": 0,
+            "zero_third_requests": 7482,
+            "continuous_clocks_proxy": 102600,
+            "frame_drained_clocks_proxy": 114884
+          },
+          {
+            "policy": "fixed_triple",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 72192,
+            "triple_requests": 69120,
+            "bypass_requests": 2311,
+            "arithmetic_issues": 69881,
+            "triple_issues": 66929,
+            "continuous_clocks_proxy": 72196,
+            "frame_drained_clocks_proxy": 84480
+          },
+          {
+            "policy": "mixed_designated_third",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 73100,
+            "triple_requests": 66541,
+            "bypass_requests": 2308,
+            "arithmetic_issues": 70792,
+            "triple_issues": 64354,
+            "mixed_wide_third_requests": 1918,
+            "zero_third_requests": 106,
+            "continuous_clocks_proxy": 73104,
+            "frame_drained_clocks_proxy": 85388
+          },
+          {
+            "policy": "mixed_any_outlier_ideal",
+            "frames": 3072,
+            "neurons": 211968,
+            "requests": 72333,
+            "triple_requests": 68108,
+            "bypass_requests": 2307,
+            "arithmetic_issues": 70026,
+            "triple_issues": 65917,
+            "mixed_wide_third_requests": 4611,
+            "requests_needing_lane_selection": 3081,
+            "zero_third_requests": 4,
+            "continuous_clocks_proxy": 72337,
+            "frame_drained_clocks_proxy": 84621
+          }
+        ]
+      }
+    ]
+  },
+  "stress": {
+    "rows": [
+      {
+        "policy": "current_adaptive",
+        "frames": 640,
+        "neurons": 3840,
+        "requests": 1455,
+        "triple_requests": 933,
+        "bypass_requests": 104,
+        "arithmetic_issues": 1351,
+        "triple_issues": 829,
+        "continuous_clocks_proxy": 1459,
+        "frame_drained_clocks_proxy": 4015
+      },
+      {
+        "policy": "fixed_pair",
+        "frames": 640,
+        "neurons": 3840,
+        "requests": 1868,
+        "triple_requests": 0,
+        "bypass_requests": 104,
+        "arithmetic_issues": 1764,
+        "triple_issues": 0,
+        "zero_third_requests": 118,
+        "continuous_clocks_proxy": 1872,
+        "frame_drained_clocks_proxy": 4428
+      },
+      {
+        "policy": "fixed_triple",
+        "frames": 640,
+        "neurons": 3840,
+        "requests": 1280,
+        "triple_requests": 1280,
+        "bypass_requests": 104,
+        "arithmetic_issues": 1176,
+        "triple_issues": 1176,
+        "continuous_clocks_proxy": 1284,
+        "frame_drained_clocks_proxy": 3840
+      },
+      {
+        "policy": "mixed_designated_third",
+        "frames": 640,
+        "neurons": 3840,
+        "requests": 1455,
+        "triple_requests": 933,
+        "bypass_requests": 104,
+        "arithmetic_issues": 1351,
+        "triple_issues": 829,
+        "continuous_clocks_proxy": 1459,
+        "frame_drained_clocks_proxy": 4015
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "frames": 640,
+        "neurons": 3840,
+        "requests": 1452,
+        "triple_requests": 936,
+        "bypass_requests": 104,
+        "arithmetic_issues": 1348,
+        "triple_issues": 832,
+        "mixed_wide_third_requests": 3,
+        "requests_needing_lane_selection": 3,
+        "continuous_clocks_proxy": 1456,
+        "frame_drained_clocks_proxy": 4012
+      }
+    ],
+    "comparisons": [
+      {
+        "policy": "mixed_designated_third",
+        "baseline": "current_adaptive",
+        "request_saving_fraction": 0.0,
+        "issue_saving_fraction": 0.0,
+        "continuous_clock_saving_fraction": 0.0,
+        "frame_drained_clock_saving_fraction": 0.0
+      },
+      {
+        "policy": "mixed_designated_third",
+        "baseline": "fixed_pair",
+        "request_saving_fraction": 0.22109207708779444,
+        "issue_saving_fraction": 0.23412698412698407,
+        "continuous_clock_saving_fraction": 0.2206196581196581,
+        "frame_drained_clock_saving_fraction": 0.0932700993676604
+      },
+      {
+        "policy": "mixed_designated_third",
+        "baseline": "fixed_triple",
+        "request_saving_fraction": -0.13671875,
+        "issue_saving_fraction": -0.14880952380952372,
+        "continuous_clock_saving_fraction": -0.13629283489096577,
+        "frame_drained_clock_saving_fraction": -0.04557291666666674
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "baseline": "current_adaptive",
+        "request_saving_fraction": 0.0020618556701030855,
+        "issue_saving_fraction": 0.0022205773501110526,
+        "continuous_clock_saving_fraction": 0.0020562028786840214,
+        "frame_drained_clock_saving_fraction": 0.0007471980074720275
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "baseline": "fixed_pair",
+        "request_saving_fraction": 0.2226980728051392,
+        "issue_saving_fraction": 0.23582766439909297,
+        "continuous_clock_saving_fraction": 0.2222222222222222,
+        "frame_drained_clock_saving_fraction": 0.09394760614272812
+      },
+      {
+        "policy": "mixed_any_outlier_ideal",
+        "baseline": "fixed_triple",
+        "request_saving_fraction": -0.1343749999999999,
+        "issue_saving_fraction": -0.1462585034013606,
+        "continuous_clock_saving_fraction": -0.1339563862928348,
+        "frame_drained_clock_saving_fraction": -0.04479166666666656
+      }
+    ],
+    "completed_reference": "stream_pipeline_whole_stress_checks.json",
+    "baseline_schedule_crosscheck": true,
+    "by_reset": [
+      {
+        "reset": "subtractive",
+        "rows": [
+          {
+            "policy": "current_adaptive",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 728,
+            "triple_requests": 466,
+            "bypass_requests": 4,
+            "arithmetic_issues": 724,
+            "triple_issues": 462,
+            "continuous_clocks_proxy": 732,
+            "frame_drained_clocks_proxy": 2008
+          },
+          {
+            "policy": "fixed_pair",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 958,
+            "triple_requests": 0,
+            "bypass_requests": 4,
+            "arithmetic_issues": 954,
+            "triple_issues": 0,
+            "zero_third_requests": 11,
+            "continuous_clocks_proxy": 962,
+            "frame_drained_clocks_proxy": 2238
+          },
+          {
+            "policy": "fixed_triple",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 640,
+            "triple_requests": 640,
+            "bypass_requests": 4,
+            "arithmetic_issues": 636,
+            "triple_issues": 636,
+            "continuous_clocks_proxy": 644,
+            "frame_drained_clocks_proxy": 1920
+          },
+          {
+            "policy": "mixed_designated_third",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 728,
+            "triple_requests": 466,
+            "bypass_requests": 4,
+            "arithmetic_issues": 724,
+            "triple_issues": 462,
+            "continuous_clocks_proxy": 732,
+            "frame_drained_clocks_proxy": 2008
+          },
+          {
+            "policy": "mixed_any_outlier_ideal",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 726,
+            "triple_requests": 468,
+            "bypass_requests": 4,
+            "arithmetic_issues": 722,
+            "triple_issues": 464,
+            "mixed_wide_third_requests": 2,
+            "requests_needing_lane_selection": 2,
+            "continuous_clocks_proxy": 730,
+            "frame_drained_clocks_proxy": 2006
+          }
+        ]
+      },
+      {
+        "reset": "hard",
+        "rows": [
+          {
+            "policy": "current_adaptive",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 727,
+            "triple_requests": 467,
+            "bypass_requests": 100,
+            "arithmetic_issues": 627,
+            "triple_issues": 367,
+            "continuous_clocks_proxy": 731,
+            "frame_drained_clocks_proxy": 2007
+          },
+          {
+            "policy": "fixed_pair",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 910,
+            "triple_requests": 0,
+            "bypass_requests": 100,
+            "arithmetic_issues": 810,
+            "triple_issues": 0,
+            "zero_third_requests": 107,
+            "continuous_clocks_proxy": 914,
+            "frame_drained_clocks_proxy": 2190
+          },
+          {
+            "policy": "fixed_triple",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 640,
+            "triple_requests": 640,
+            "bypass_requests": 100,
+            "arithmetic_issues": 540,
+            "triple_issues": 540,
+            "continuous_clocks_proxy": 644,
+            "frame_drained_clocks_proxy": 1920
+          },
+          {
+            "policy": "mixed_designated_third",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 727,
+            "triple_requests": 467,
+            "bypass_requests": 100,
+            "arithmetic_issues": 627,
+            "triple_issues": 367,
+            "continuous_clocks_proxy": 731,
+            "frame_drained_clocks_proxy": 2007
+          },
+          {
+            "policy": "mixed_any_outlier_ideal",
+            "frames": 320,
+            "neurons": 1920,
+            "requests": 726,
+            "triple_requests": 468,
+            "bypass_requests": 100,
+            "arithmetic_issues": 626,
+            "triple_issues": 368,
+            "mixed_wide_third_requests": 1,
+            "requests_needing_lane_selection": 1,
+            "continuous_clocks_proxy": 730,
+            "frame_drained_clocks_proxy": 2006
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "No RTL implementation, scheduling controller synthesis, route, bandwidth, power or total neuron-update latency measured.",
+    "The additional third full-width correction, wider metadata and full-width output subtraction cost hardware; reduced issue count alone is not a win.",
+    "Fixed full-range triple already uses the same algebra atdelta25; this candidate is its asymmetric mixed-width correction variant, not arithmetic packing first-ever novelty.",
+    "Optional any-outlier reference requires lane selection and restoration of source order; no free reordering assumed in the designated-third result.",
+    "Saved beta231 model traces reflect changed reference leakage parameters and contain no new training/model download.",
+    "Four-clock drain proxies exclude source lookahead, address movement, state memory and dependent neuron updates."
+  ]
+}

@@ -1,0 +1,962 @@
+{
+  "status": "pass_selected_primary_hardware_energy_comparisons",
+  "B": 16,
+  "clock_ns": 12,
+  "fixture_FF": 94,
+  "part": "xc7a100tcsg324-1",
+  "selection_policy": "Explicit main resolved manifest and supplied E7 hardware; explicit power map or accepted sequence receipts. No latest/best attempt selection.",
+  "required_primary": {
+    "glif": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7
+    ],
+    "ottt": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "all_attempted": {
+    "glif": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "ottt": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "missing_primary": [],
+  "missing_all_attempted": [
+    "glif/e2",
+    "ottt/e2"
+  ],
+  "primary_comparison_status": "pass",
+  "all_attempted_control_status": "incomplete_or_retained_E2_failure",
+  "selected_routes": {
+    "0": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e0_a0\\hardware.json",
+      "sha256": "5c062e71385a7f466e9589cfbf0b0db708bd43e9cf6433066d5f9e0843d00ad6",
+      "core": {
+        "LUT": 71,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 22
+      }
+    },
+    "1": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json",
+      "sha256": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+      "core": {
+        "LUT": 202,
+        "FF": 79,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 71
+      }
+    },
+    "2": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e2_a1\\hardware.json",
+      "sha256": "f546e99df1670548d0571142ec7ed0227f8b2d29c71197affb46fc0a42363084",
+      "core": {
+        "LUT": 340,
+        "FF": 88,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 118
+      }
+    },
+    "3": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json",
+      "sha256": "926efc7a9c829c900ae50b8052e908d92dbf718cedfc1bd350201f2045730567",
+      "core": {
+        "LUT": 35,
+        "FF": 56,
+        "DSP": 2,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 19
+      }
+    },
+    "4": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json",
+      "sha256": "a1998ec14d20073e437bc8c0d60322a507d9d681202426ee73f6aa067be0fea3",
+      "core": {
+        "LUT": 13,
+        "FF": 29,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 10
+      }
+    },
+    "5": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "sha256": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+      "core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      }
+    },
+    "6": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json",
+      "sha256": "904b63b53aebb0c164c79db53ea07d691dab3f9203a0ae7abd9a918ab3f44c6c",
+      "core": {
+        "LUT": 35,
+        "FF": 70,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 23
+      }
+    },
+    "7": {
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+      "sha256": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+      "core": {
+        "LUT": 330,
+        "FF": 88,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 113
+      }
+    }
+  },
+  "accepted_power": {
+    "glif/e0": {
+      "workload": "glif",
+      "engine": 0,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e0_profiled_all_a0_e0\\power_audit.json",
+      "power_audit_sha256": "ac15f248814fc3479d8cbba8e0db26157850fd00ff134d775cc800e274059f25",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e0_a0\\hardware.json",
+      "routed_hardware_sha256": "5c062e71385a7f466e9589cfbf0b0db708bd43e9cf6433066d5f9e0843d00ad6",
+      "core_resources": {
+        "LUT": 71,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 22
+      },
+      "dynamic_power_W": 0.003384,
+      "ROI_duration_ps": 1703868000,
+      "scalar_updates": 262528,
+      "requests": 141985,
+      "retirements": 141985,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 423,
+        "denominator": 125000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 180184041,
+        "denominator": 8204000
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 21.962949902486592,
+      "dynamic_energy_J": 5.7658893119999995e-06,
+      "export_rounding_bound_pJ": 0.018183641548802414,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual_glif_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "f2d8b932970e4339143eae0f06e0a0ecb822d6ccb7b6d424167e99a3e90fff85",
+      "cohort": "actual_glif",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif/e1": {
+      "workload": "glif",
+      "engine": 1,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power_audit.json",
+      "power_audit_sha256": "dac8e759a0d404d5eab8804db8fb7ebe8a68587b325bbf385033dbcd230f4175",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json",
+      "routed_hardware_sha256": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+      "core_resources": {
+        "LUT": 202,
+        "FF": 79,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 71
+      },
+      "dynamic_power_W": 0.008614,
+      "ROI_duration_ps": 1685628000,
+      "scalar_updates": 262528,
+      "requests": 140465,
+      "retirements": 140465,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 4307,
+        "denominator": 500000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 259285707,
+        "denominator": 4688000
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 55.30838459897611,
+      "dynamic_energy_J": 1.4519999592e-05,
+      "export_rounding_bound_pJ": 0.018005774947525595,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual_glif_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "f2d8b932970e4339143eae0f06e0a0ecb822d6ccb7b6d424167e99a3e90fff85",
+      "cohort": "actual_glif",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif/e3": {
+      "workload": "glif",
+      "engine": 3,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e3_glif_remaining_a0_e3\\power_audit.json",
+      "power_audit_sha256": "885b6e46ded4cb3c58e1b64510a165efe9fc3bc563730328b80a0221953e1d2b",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json",
+      "routed_hardware_sha256": "926efc7a9c829c900ae50b8052e908d92dbf718cedfc1bd350201f2045730567",
+      "core_resources": {
+        "LUT": 35,
+        "FF": 56,
+        "DSP": 2,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 19
+      },
+      "dynamic_power_W": 0.00356,
+      "ROI_duration_ps": 1575984000,
+      "scalar_updates": 262528,
+      "requests": 131328,
+      "retirements": 131328,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 89,
+        "denominator": 25000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 8766411,
+        "denominator": 410200
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 21.371065333983424,
+      "dynamic_energy_J": 5.61050304e-06,
+      "export_rounding_bound_pJ": 0.016819394607447583,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual_glif_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "f2d8b932970e4339143eae0f06e0a0ecb822d6ccb7b6d424167e99a3e90fff85",
+      "cohort": "actual_glif",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif/e4": {
+      "workload": "glif",
+      "engine": 4,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e4_glif_remaining_a0_e4\\power_audit.json",
+      "power_audit_sha256": "df9a28167575e802d625947d59f8120805d0cb5109e7b43dfbd5f68c43a65264",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json",
+      "routed_hardware_sha256": "a1998ec14d20073e437bc8c0d60322a507d9d681202426ee73f6aa067be0fea3",
+      "core_resources": {
+        "LUT": 13,
+        "FF": 29,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 10
+      },
+      "dynamic_power_W": 0.002054,
+      "ROI_duration_ps": 3150384000,
+      "scalar_updates": 262528,
+      "requests": 262528,
+      "retirements": 262528,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 1027,
+        "denominator": 500000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 202215273,
+        "denominator": 8204000
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 24.64837554851292,
+      "dynamic_energy_J": 6.470888735999999e-06,
+      "export_rounding_bound_pJ": 0.03361284813334958,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual_glif_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "f2d8b932970e4339143eae0f06e0a0ecb822d6ccb7b6d424167e99a3e90fff85",
+      "cohort": "actual_glif",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif/e5": {
+      "workload": "glif",
+      "engine": 5,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power_audit.json",
+      "power_audit_sha256": "df6122e8a5ec90e3c3a37b6a7ebf35dba5dd6b89499721d4d6cdd534f9298eb7",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "routed_hardware_sha256": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+      "core_resources": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "dynamic_power_W": 0.003328,
+      "ROI_duration_ps": 1703868000,
+      "scalar_updates": 262528,
+      "requests": 141985,
+      "retirements": 141985,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 52,
+        "denominator": 15625
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 5537571,
+        "denominator": 256375
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 21.599496830814235,
+      "dynamic_energy_J": 5.670472703999999e-06,
+      "export_rounding_bound_pJ": 0.018183459822266577,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual_glif_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "f2d8b932970e4339143eae0f06e0a0ecb822d6ccb7b6d424167e99a3e90fff85",
+      "cohort": "actual_glif",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif/e7": {
+      "workload": "glif",
+      "engine": 7,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\power_audit.json",
+      "power_audit_sha256": "82341475eed086bb9152dd4afb721d90e6decd676e186e13f7afb6774ffd1634",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_certified.py",
+      "auditor_sha256": "57d8ee7b1700dec06595ebb809ab383f831bf094f007e3efa8dd311eee0a9917",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+      "routed_hardware_sha256": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+      "core_resources": {
+        "LUT": 330,
+        "FF": 88,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 113
+      },
+      "dynamic_power_W": 0.020689,
+      "ROI_duration_ps": 1575984000,
+      "scalar_updates": 262528,
+      "requests": 131328,
+      "retirements": 131328,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 20689,
+        "denominator": 1000000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 2037845811,
+        "denominator": 16408000
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 124.19830637493905,
+      "dynamic_energy_J": 3.2605532976e-05,
+      "export_rounding_bound_pJ": 0.016870808227968062,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_actual_glif_s0_close_a0\\acceptance.json",
+      "native_acceptance_sha256": "988a7dc3250b1476a2b52ca5f541e67ed653e6a5ad7a1ecf55f233a961d71419",
+      "cohort": "actual_glif",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "ottt/e0": {
+      "workload": "ottt",
+      "engine": 0,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e0_ottt_stress_a0_e0\\power_audit.json",
+      "power_audit_sha256": "82e53f9a7bf58e0d2082b5eb27a54a13a8e39e9376d59f56e3c57612d950816b",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e0_a0\\hardware.json",
+      "routed_hardware_sha256": "5c062e71385a7f466e9589cfbf0b0db708bd43e9cf6433066d5f9e0843d00ad6",
+      "core_resources": {
+        "LUT": 71,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 22
+      },
+      "dynamic_power_W": 0.002641,
+      "ROI_duration_ps": 75432000,
+      "scalar_updates": 7335,
+      "requests": 6282,
+      "retirements": 6282,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 2641,
+        "denominator": 1000000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 8300663,
+        "denominator": 305625
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 27.159633537832313,
+      "dynamic_energy_J": 1.99215912e-07,
+      "export_rounding_bound_pJ": 0.028808354926789365,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual128_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "44ba9b4e795e858f72297f065a5caa07e959fba8a4e928e86e033f18586c4629",
+      "cohort": "actual128",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz",
+      "expected_outputs_sha256": "bd46acf0f1b85e861fad6aa5b3509cd0c8fcd387434c853412439fa640c8b8c8",
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt/e1": {
+      "workload": "ottt",
+      "engine": 1,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e1_ottt_stress_a0_e1\\power_audit.json",
+      "power_audit_sha256": "5a7ece8cceebcb5ac766da145718962716aa9cff489c398225b40966516b5cb0",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json",
+      "routed_hardware_sha256": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+      "core_resources": {
+        "LUT": 202,
+        "FF": 79,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 71
+      },
+      "dynamic_power_W": 0.005744,
+      "ROI_duration_ps": 44100000,
+      "scalar_updates": 7335,
+      "requests": 3671,
+      "retirements": 3671,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 359,
+        "denominator": 62500
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 140728,
+        "denominator": 4075
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 34.53447852760736,
+      "dynamic_energy_J": 2.533104e-07,
+      "export_rounding_bound_pJ": 0.0168516290797546,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual128_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "44ba9b4e795e858f72297f065a5caa07e959fba8a4e928e86e033f18586c4629",
+      "cohort": "actual128",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz",
+      "expected_outputs_sha256": "bd46acf0f1b85e861fad6aa5b3509cd0c8fcd387434c853412439fa640c8b8c8",
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt/e3": {
+      "workload": "ottt",
+      "engine": 3,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e3_ottt_stress_a0_e3\\power_audit.json",
+      "power_audit_sha256": "b39b2ab3f95854deb5e931b02e4836611de141576481a67028efad836a886764",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json",
+      "routed_hardware_sha256": "926efc7a9c829c900ae50b8052e908d92dbf718cedfc1bd350201f2045730567",
+      "core_resources": {
+        "LUT": 35,
+        "FF": 56,
+        "DSP": 2,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 19
+      },
+      "dynamic_power_W": 0.00354,
+      "ROI_duration_ps": 44100000,
+      "scalar_updates": 7335,
+      "requests": 3671,
+      "retirements": 3671,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 177,
+        "denominator": 50000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 17346,
+        "denominator": 815
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 21.283435582822086,
+      "dynamic_energy_J": 1.56114e-07,
+      "export_rounding_bound_pJ": 0.016845003558282206,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual128_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "44ba9b4e795e858f72297f065a5caa07e959fba8a4e928e86e033f18586c4629",
+      "cohort": "actual128",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz",
+      "expected_outputs_sha256": "bd46acf0f1b85e861fad6aa5b3509cd0c8fcd387434c853412439fa640c8b8c8",
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt/e4": {
+      "workload": "ottt",
+      "engine": 4,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e4_ottt_stress_a0_e4\\power_audit.json",
+      "power_audit_sha256": "b36dbdf9f0ad55a9f6cd71bbb3e9d33306c6ad40fd652aca2e2f48461763e3f5",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json",
+      "routed_hardware_sha256": "a1998ec14d20073e437bc8c0d60322a507d9d681202426ee73f6aa067be0fea3",
+      "core_resources": {
+        "LUT": 13,
+        "FF": 29,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 10
+      },
+      "dynamic_power_W": 0.002079,
+      "ROI_duration_ps": 88068000,
+      "scalar_updates": 7335,
+      "requests": 7335,
+      "retirements": 7335,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 2079,
+        "denominator": 1000000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 5085927,
+        "denominator": 203750
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 24.96160490797546,
+      "dynamic_energy_J": 1.83093372e-07,
+      "export_rounding_bound_pJ": 0.033630815917382414,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual128_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "44ba9b4e795e858f72297f065a5caa07e959fba8a4e928e86e033f18586c4629",
+      "cohort": "actual128",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz",
+      "expected_outputs_sha256": "bd46acf0f1b85e861fad6aa5b3509cd0c8fcd387434c853412439fa640c8b8c8",
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt/e5": {
+      "workload": "ottt",
+      "engine": 5,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e5_ottt_stress_a0_e5\\power_audit.json",
+      "power_audit_sha256": "c1085ec275881a7b6164eea4b4d51b752381c416d123ed54f2d1b3ea3359d40f",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "routed_hardware_sha256": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+      "core_resources": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "dynamic_power_W": 0.002566,
+      "ROI_duration_ps": 75432000,
+      "scalar_updates": 7335,
+      "requests": 6282,
+      "retirements": 6282,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 1283,
+        "denominator": 500000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 8064938,
+        "denominator": 305625
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 26.38834519427403,
+      "dynamic_energy_J": 1.9355851200000002e-07,
+      "export_rounding_bound_pJ": 0.028807969282617585,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual128_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "44ba9b4e795e858f72297f065a5caa07e959fba8a4e928e86e033f18586c4629",
+      "cohort": "actual128",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz",
+      "expected_outputs_sha256": "bd46acf0f1b85e861fad6aa5b3509cd0c8fcd387434c853412439fa640c8b8c8",
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt/e6": {
+      "workload": "ottt",
+      "engine": 6,
+      "power_audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e6_ottt_stress_a0_e6\\power_audit.json",
+      "power_audit_sha256": "e82f2952ec2503635e2e74f994f1087e7da0a2371fb4d301f8fda99ed52d60eb",
+      "auditor_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py",
+      "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+      "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json",
+      "routed_hardware_sha256": "904b63b53aebb0c164c79db53ea07d691dab3f9203a0ae7abd9a918ab3f44c6c",
+      "core_resources": {
+        "LUT": 35,
+        "FF": 70,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 23
+      },
+      "dynamic_power_W": 0.002229,
+      "ROI_duration_ps": 44100000,
+      "scalar_updates": 7335,
+      "requests": 3671,
+      "retirements": 3671,
+      "energy_formula": "dynamic_power_W * ROI_duration_ps / scalar_updates = pJ per scalar leakage result",
+      "serialized_exact_dynamic_W_fraction": {
+        "numerator": 2229,
+        "denominator": 1000000
+      },
+      "serialized_exact_energy_pJ_fraction": {
+        "numerator": 109221,
+        "denominator": 8150
+      },
+      "estimated_dynamic_energy_pJ_per_scalar_update": 13.401349693251534,
+      "dynamic_energy_J": 9.829890000000001e-08,
+      "export_rounding_bound_pJ": 0.016841062515337422,
+      "native_acceptance_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual128_s0_a0\\acceptance.json",
+      "native_acceptance_sha256": "44ba9b4e795e858f72297f065a5caa07e959fba8a4e928e86e033f18586c4629",
+      "cohort": "actual128",
+      "source_operand_expectation_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json",
+      "source_operand_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz",
+      "expected_outputs_sha256": "bd46acf0f1b85e861fad6aa5b3509cd0c8fcd387434c853412439fa640c8b8c8",
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    }
+  },
+  "comparisons": {
+    "glif_E5_vs_E1": {
+      "adaptive_pJ": 21.599496830814235,
+      "baseline_pJ": 55.30838459897611,
+      "energy_fraction_change": -0.609471565885978,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 202,
+        "FF": 79,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 71
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif_E5_vs_E3": {
+      "adaptive_pJ": 21.599496830814235,
+      "baseline_pJ": 21.371065333983424,
+      "energy_fraction_change": 0.01068882122912096,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 35,
+        "FF": 56,
+        "DSP": 2,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 19
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif_E5_vs_E4": {
+      "adaptive_pJ": 21.599496830814235,
+      "baseline_pJ": 24.64837554851292,
+      "energy_fraction_change": -0.12369491497311391,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 13,
+        "FF": 29,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 10
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "glif_E5_vs_E7": {
+      "adaptive_pJ": 21.599496830814235,
+      "baseline_pJ": 124.19830637493905,
+      "energy_fraction_change": -0.8260886363006588,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 330,
+        "FF": 88,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 113
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Bounded representative GLIF64 arithmetic capture after common zero filtering"
+    },
+    "ottt_E5_vs_E1": {
+      "adaptive_pJ": 26.38834519427403,
+      "baseline_pJ": 34.53447852760736,
+      "energy_fraction_change": -0.23588406950523932,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 202,
+        "FF": 79,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 71
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt_E5_vs_E3": {
+      "adaptive_pJ": 26.38834519427403,
+      "baseline_pJ": 21.283435582822086,
+      "energy_fraction_change": 0.2398536454129676,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 35,
+        "FF": 56,
+        "DSP": 2,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 19
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt_E5_vs_E4": {
+      "adaptive_pJ": 26.38834519427403,
+      "baseline_pJ": 24.96160490797546,
+      "energy_fraction_change": 0.057157393988024996,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 13,
+        "FF": 29,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 10
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    },
+    "ottt_E5_vs_E6": {
+      "adaptive_pJ": 26.38834519427403,
+      "baseline_pJ": 13.401349693251534,
+      "energy_fraction_change": 0.9690811596060587,
+      "adaptive_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "baseline_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json",
+      "adaptive_core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "baseline_core": {
+        "LUT": 35,
+        "FF": 70,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 23
+      },
+      "same_declared_scalar_operands": true,
+      "scope": "Deliberately selected OTTT16 wide-value stress/coverage capture; not representative energy"
+    }
+  },
+  "evidence_issues": [],
+  "retained_failures": [
+    {
+      "label": "GLIF_energy_e2",
+      "returncode": 2,
+      "seconds": 95.4818320274353,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_GLIF_energy_e2_glif_remaining_a0.log",
+      "log_sha256": "795fe6f33ea8914879297b2b712b2fc7bcd249f1f48fcd5d4a2f1a1ced3bb77a",
+      "acceptance_gates": [],
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 2))",
+      "accepted_energy": false
+    },
+    {
+      "label": "OTTT_energy_e2",
+      "returncode": 2,
+      "seconds": 78.57839870452881,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_recovery_OTTT_energy_e2_ottt_stress_a0.log",
+      "log_sha256": "2c508776e92bb5da6b2b82947025eea44501ba62439185e24b689e76bc920922",
+      "acceptance_gates": [],
+      "status": "retained_stage_failure",
+      "reason": "AssertionError(('child returncode', 2))",
+      "accepted_energy": false
+    }
+  ],
+  "nonhardware_closure_context": {
+    "original_E2": {
+      "status": "audit_complete_cause_localized_not_fully_resolved",
+      "original_timing_replay_accepted": false,
+      "scope": "Localized wrong annotated CARRY4 output; minimal bench does not reproduce full-netlist error. E7 acceptance does not resolve this diagnostic.",
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\isolation_audit.json",
+      "sha256": "9e998eb16dbf2db5a28bde81ee09d0f02cabef818b65d451a0d0d82b1fcc0128"
+    },
+    "prior_work": {
+      "status": "bounded_targeted_followup_complete_method_equivalence_not_closed",
+      "method_equivalence_closed": false,
+      "absence_proof": false,
+      "access_limited_methods": [
+        "Ou2024",
+        "Cui_ICFPT2024",
+        "UDP2026_full_paper",
+        "McKeown2008_original_paper_runtime_and_overflow_details"
+      ],
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\followup_manifest.json",
+      "sha256": "9fa27cf2f9f8a273a01086d15f18cca0474cf34fb330b2ecdc950f0fe7585ed6"
+    },
+    "public_models": {
+      "status": "full_evaluation_passed",
+      "file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\benchmark_acceptance.json",
+      "sha256": "3ddef7de9c71140284144200641187dbd4b8dc5566758cc77e2e693db1308c98",
+      "scope": "Model-agent acceptance status snapshot; this script audits selected hardware energy, not model inference or full-test accuracy."
+    }
+  },
+  "publication_ready": false,
+  "limitations": [
+    "Original E2 discrepancy is a separate unresolved diagnostic; E7 may close the fair generic LUT comparison only after its own full acceptance.",
+    "Method equivalence remains access-limited; this hardware audit does not establish first-ever novelty.",
+    "Current OTTT energy is stress/coverage only; GLIF energy is bounded representative64-image arithmetic activity.",
+    "Energy is vendor-estimated dynamic energy of common94FF fixture, not measured board or complete-neuron energy.",
+    "Serialized-source exact fractions and rounding bounds concern report serialization, not physical/model accuracy."
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence_certified.py": "ad8053174af02caa11d805f7d577c5bc5578bc8c8439b241c725a4a1efe3e484",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_partition_aggregate_power_map_partitioned_all_a0.json": "384977bc43752f5f2993140d4851e17dc192f68b95fd92855c0e6e2eac5456a2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\isolation_audit.json": "9e998eb16dbf2db5a28bde81ee09d0f02cabef818b65d451a0d0d82b1fcc0128",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\targeted_followup\\followup_manifest.json": "9fa27cf2f9f8a273a01086d15f18cca0474cf34fb330b2ecdc950f0fe7585ed6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\benchmark_acceptance.json": "3ddef7de9c71140284144200641187dbd4b8dc5566758cc77e2e693db1308c98"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e0_a0\\hardware.json": "5c062e71385a7f466e9589cfbf0b0db708bd43e9cf6433066d5f9e0843d00ad6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e2_a1\\hardware.json": "f546e99df1670548d0571142ec7ed0227f8b2d29c71197affb46fc0a42363084",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json": "926efc7a9c829c900ae50b8052e908d92dbf718cedfc1bd350201f2045730567",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json": "a1998ec14d20073e437bc8c0d60322a507d9d681202426ee73f6aa067be0fea3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json": "904b63b53aebb0c164c79db53ea07d691dab3f9203a0ae7abd9a918ab3f44c6c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e0_profiled_all_a0_e0\\power_audit.json": "ac15f248814fc3479d8cbba8e0db26157850fd00ff134d775cc800e274059f25",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power_audit.json": "dac8e759a0d404d5eab8804db8fb7ebe8a68587b325bbf385033dbcd230f4175",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e3_glif_remaining_a0_e3\\power_audit.json": "885b6e46ded4cb3c58e1b64510a165efe9fc3bc563730328b80a0221953e1d2b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e4_glif_remaining_a0_e4\\power_audit.json": "df9a28167575e802d625947d59f8120805d0cb5109e7b43dfbd5f68c43a65264",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power_audit.json": "df6122e8a5ec90e3c3a37b6a7ebf35dba5dd6b89499721d4d6cdd534f9298eb7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\power_audit.json": "82341475eed086bb9152dd4afb721d90e6decd676e186e13f7afb6774ffd1634",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e0_ottt_stress_a0_e0\\power_audit.json": "82e53f9a7bf58e0d2082b5eb27a54a13a8e39e9376d59f56e3c57612d950816b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e1_ottt_stress_a0_e1\\power_audit.json": "5a7ece8cceebcb5ac766da145718962716aa9cff489c398225b40966516b5cb0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e3_ottt_stress_a0_e3\\power_audit.json": "b39b2ab3f95854deb5e931b02e4836611de141576481a67028efad836a886764",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e4_ottt_stress_a0_e4\\power_audit.json": "b36dbdf9f0ad55a9f6cd71bbb3e9d33306c6ad40fd652aca2e2f48461763e3f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e5_ottt_stress_a0_e5\\power_audit.json": "c1085ec275881a7b6164eea4b4d51b752381c416d123ed54f2d1b3ea3359d40f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e6_ottt_stress_a0_e6\\power_audit.json": "e82f2952ec2503635e2e74f994f1087e7da0a2371fb4d301f8fda99ed52d60eb"
+  }
+}

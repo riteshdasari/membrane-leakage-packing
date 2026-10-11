@@ -1,0 +1,30 @@
+{
+  "status": "completed_diagnostic_not_hardware_acceptance",
+  "maxdelay": true,
+  "transport_int_delays": true,
+  "pulse_filter": "all_0_original",
+  "vendor_source_modified": false,
+  "timing_checks_disabled": false,
+  "tool_artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a0\\tool_0.log": "95ec0e2157e705f024d0863f0661dfead19208db4c811981c4868c9e63938737",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a0\\tool_1.log": "67eade4a53e44e70e56e5a6339f89d55317603da916cd3c9aad3c603a39782bc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a0\\tool_3.log": "26fffab62a1806d2c7ff5ff87828636c376dbc6c90f3bdd20a08e787cd515160",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a0\\tool_4.log": "c5547987fccf7cf0e8981b4e9eedc6343265a0f7b02a877efd25b72f76990e77",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\run_a0\\tool_5.log": "2ae20f4a509e9b9c352f580ba3ec2af708cff7c7289c024078a0050626612b39"
+  },
+  "cases": [
+    {
+      "kind": "SDF",
+      "checks": 10,
+      "failures": 0,
+      "failure_lines": []
+    },
+    {
+      "kind": "functional_control",
+      "checks": 10,
+      "failures": 0,
+      "failure_lines": []
+    }
+  ]
+}

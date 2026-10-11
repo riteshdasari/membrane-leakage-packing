@@ -1,0 +1,254 @@
+{
+  "source_hashes": {
+    "stream_pipeline_leak.sv": "0154fd5a854c54ba32c3f2de6fdeccd01ab3baad42c5d9bc5ee5985e6792833f",
+    "tb_stream_pipeline_leak.sv": "7ee95b2c4cdc3cce9a1302804756cc5af13a50a744db21cef1a012ce1269bf5f"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 9216,
+  "centered_wide": false,
+  "wide_residual_encoding": "unsigned",
+  "real_neurons": 635904,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 223472,
+      "neurons": 635904,
+      "arithmetic_issues": 216278,
+      "narrow_requests": 190377,
+      "bypass_requests": 7194,
+      "clocks": 223476,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 1,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304049,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 2,
+      "requests": 304045,
+      "neurons": 635904,
+      "arithmetic_issues": 297185,
+      "narrow_requests": 0,
+      "bypass_requests": 6860,
+      "clocks": 304049,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 3,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 4,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 5,
+      "requests": 216576,
+      "neurons": 635904,
+      "arithmetic_issues": 209481,
+      "narrow_requests": 0,
+      "bypass_requests": 7095,
+      "clocks": 216580,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 6,
+      "requests": 234697,
+      "neurons": 635904,
+      "arithmetic_issues": 227390,
+      "narrow_requests": 165423,
+      "bypass_requests": 7307,
+      "clocks": 234701,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ]
+}

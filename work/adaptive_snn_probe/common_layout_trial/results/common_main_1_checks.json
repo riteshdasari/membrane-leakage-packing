@@ -1,0 +1,114 @@
+{
+  "source_hashes": {
+    "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+    "tb_guard_add_common.sv": "60fae68dd5e8c104ec70472d2ba6e8b894afcccd2371558ca69a4dc8f7189138",
+    "check_guard_add_common.py": "0489d08765f37f56664a415d7fbc3ee779a1156dcf12e08b49e7273d169278b7",
+    "check_guard_add_common_snn.py": "58acceea544554854b584568dcc820752ef42e50a81480961731b4f98caa89f3",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+  },
+  "backpressure": true,
+  "frames": 128148,
+  "rows": [
+    {
+      "variant": 0,
+      "reference_engine": 2,
+      "requests": 136591,
+      "neurons": 811511,
+      "arithmetic_issues": 136591,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 187826,
+      "input_stall_checks": 39285,
+      "output_stall_checks": 41305,
+      "latency_checks": 136591,
+      "mismatches": 0,
+      "output_sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    {
+      "variant": 1,
+      "reference_engine": 3,
+      "requests": 136591,
+      "neurons": 811511,
+      "arithmetic_issues": 136591,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 187826,
+      "input_stall_checks": 39285,
+      "output_stall_checks": 41305,
+      "latency_checks": 136591,
+      "mismatches": 0,
+      "output_sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    {
+      "variant": 2,
+      "reference_engine": 2,
+      "requests": 136591,
+      "neurons": 811511,
+      "arithmetic_issues": 136591,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 187826,
+      "input_stall_checks": 39285,
+      "output_stall_checks": 41305,
+      "latency_checks": 136591,
+      "mismatches": 0,
+      "output_sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    },
+    {
+      "variant": 3,
+      "reference_engine": 3,
+      "requests": 136591,
+      "neurons": 811511,
+      "arithmetic_issues": 0,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 187826,
+      "input_stall_checks": 39285,
+      "output_stall_checks": 41305,
+      "latency_checks": 136591,
+      "mismatches": 0,
+      "output_sha256": "4c27e6d88233d5005af0cc756f5ebc4e0545876be3eddffeb0ca53052e7d5a65"
+    }
+  ],
+  "stimulus_sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7",
+  "stimulus_file": "common_main_1/stream_stim.txt",
+  "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_stim.txt",
+  "matched_original_stimulus": true,
+  "outputs_byte_identical": true,
+  "tested_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "expected_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "model_input_sha256": null,
+  "model_input_base": "../results",
+  "validation_kind": "full_integer_stress",
+  "source_contract": "valid and both entire raw six-value payloads held until acceptance; input valid low during reset",
+  "acceptance_to_handshake_advances": 4,
+  "integer_operation": "signed11 U + signed11 I -> exact signed12 sum",
+  "reference_variants": [
+    2,
+    3
+  ],
+  "reference_operation": "Retimed guard_add_retime E2/E3 instantiated directly in the testbench",
+  "retirement_columns": [
+    "frame",
+    "position",
+    "count",
+    "coefficient_placeholder0",
+    "out72_hex",
+    "acceptance_clock",
+    "retirement_clock",
+    "narrow_mode"
+  ],
+  "scope": "Fixed common-layout high-part correction equivalence; no memory, power, board or trained-accuracy claim"
+}

@@ -1,0 +1,90 @@
+{
+  "source_hashes": {
+    "guard_add_layout.sv": "d4f8a37f2b4684ef4ec1c592d13fbcfd1f7eefa15d4fff71dc57ead235460471",
+    "tb_guard_add_layout.sv": "5a2f5b4dd80d0285a4b66876918c2f75b291f50c48366cde4c3f176e92ee3176",
+    "check_guard_add_layout.py": "c2abb64c072a24189623fcf0dafde4ddb8f44ec38002e87d4ce25e6f969439de",
+    "check_guard_add_layout_snn.py": "4633aef31cac8d0ce18a4973df449f33708e9ccfa2f0cd1d6f5048280a6d1726",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+  },
+  "backpressure": true,
+  "frames": 128148,
+  "rows": [
+    {
+      "variant": 0,
+      "requests": 165520,
+      "neurons": 811511,
+      "arithmetic_issues": 165520,
+      "narrow_requests": 99938,
+      "copy_requests": 30103,
+      "clocks": 227524,
+      "input_stall_checks": 47706,
+      "output_stall_checks": 50094,
+      "latency_checks": 165520,
+      "mismatches": 0,
+      "output_sha256": "e7373269b01c5d83ec352dc85c463a08cc07a426bbe1cc845eb1adaf1a0d4276"
+    },
+    {
+      "variant": 1,
+      "requests": 165520,
+      "neurons": 811511,
+      "arithmetic_issues": 165520,
+      "narrow_requests": 99938,
+      "copy_requests": 30103,
+      "clocks": 227524,
+      "input_stall_checks": 47706,
+      "output_stall_checks": 50094,
+      "latency_checks": 165520,
+      "mismatches": 0,
+      "output_sha256": "e7373269b01c5d83ec352dc85c463a08cc07a426bbe1cc845eb1adaf1a0d4276"
+    },
+    {
+      "variant": 2,
+      "requests": 165520,
+      "neurons": 811511,
+      "arithmetic_issues": 165520,
+      "narrow_requests": 99938,
+      "copy_requests": 30103,
+      "clocks": 227524,
+      "input_stall_checks": 47706,
+      "output_stall_checks": 50094,
+      "latency_checks": 165520,
+      "mismatches": 0,
+      "output_sha256": "e7373269b01c5d83ec352dc85c463a08cc07a426bbe1cc845eb1adaf1a0d4276"
+    }
+  ],
+  "stimulus_sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7",
+  "stimulus_file": "layout_main_1/stream_stim.txt",
+  "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_stim.txt",
+  "matched_original_stimulus": true,
+  "outputs_byte_identical": true,
+  "tested_variants": [
+    0,
+    1,
+    2
+  ],
+  "expected_variants": [
+    0,
+    1,
+    2
+  ],
+  "model_input_sha256": null,
+  "model_input_base": "../results",
+  "validation_kind": "full_integer_stress",
+  "source_contract": "valid and both entire raw six-value payloads held until acceptance; input valid low during reset",
+  "acceptance_to_handshake_advances": 4,
+  "integer_operation": "signed11 U + signed11 I -> exact signed12 sum",
+  "reference_variant": 2,
+  "reference_operation": "Original guard_add E0 instantiated directly in the testbench",
+  "retirement_columns": [
+    "frame",
+    "position",
+    "count",
+    "coefficient_placeholder0",
+    "out72_hex",
+    "acceptance_clock",
+    "retirement_clock",
+    "narrow_mode"
+  ],
+  "scope": "Physical-layout/stage-placement equivalence trial; no memory, power, board or trained-accuracy claim"
+}

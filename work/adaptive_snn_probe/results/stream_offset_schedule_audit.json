@@ -1,0 +1,595 @@
+{
+  "model_frames": 9216,
+  "model_neurons": 635904,
+  "model_nonzero_membranes": 568948,
+  "model_changed_membranes": 299884,
+  "rows": [
+    {
+      "variant": "offset",
+      "engine": 0,
+      "requests": 245975,
+      "measured_continuous_clocks": 245978,
+      "frame_drained_clock_proxy": 273623,
+      "nonzero_products_per_arithmetic_issue": 2.384306560166288,
+      "changed_membranes_per_arithmetic_issue": 1.2567324052266764,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 80703,
+          "continuous_clock_proxy": 80706,
+          "frame_drained_clock_proxy": 89919,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 84579,
+          "continuous_clock_proxy": 84582,
+          "frame_drained_clock_proxy": 93795,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 80693,
+          "continuous_clock_proxy": 80696,
+          "frame_drained_clock_proxy": 89909,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "offset",
+      "engine": 1,
+      "requests": 304045,
+      "measured_continuous_clocks": 304048,
+      "frame_drained_clock_proxy": 331693,
+      "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+      "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 101204,
+          "continuous_clock_proxy": 101207,
+          "frame_drained_clock_proxy": 110420,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 100245,
+          "continuous_clock_proxy": 100248,
+          "frame_drained_clock_proxy": 109461,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 102596,
+          "continuous_clock_proxy": 102599,
+          "frame_drained_clock_proxy": 111812,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "offset",
+      "engine": 2,
+      "requests": 304045,
+      "measured_continuous_clocks": 304048,
+      "frame_drained_clock_proxy": 331693,
+      "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+      "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 101204,
+          "continuous_clock_proxy": 101207,
+          "frame_drained_clock_proxy": 110420,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 100245,
+          "continuous_clock_proxy": 100248,
+          "frame_drained_clock_proxy": 109461,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 102596,
+          "continuous_clock_proxy": 102599,
+          "frame_drained_clock_proxy": 111812,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "offset",
+      "engine": 3,
+      "requests": 216576,
+      "measured_continuous_clocks": 216579,
+      "frame_drained_clock_proxy": 244224,
+      "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+      "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "offset",
+      "engine": 4,
+      "requests": 216576,
+      "measured_continuous_clocks": 216579,
+      "frame_drained_clock_proxy": 244224,
+      "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+      "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "offset",
+      "engine": 6,
+      "requests": 255558,
+      "measured_continuous_clocks": 255561,
+      "frame_drained_clock_proxy": 283206,
+      "nonzero_products_per_arithmetic_issue": 2.291890237024863,
+      "changed_membranes_per_arithmetic_issue": 1.2080211404908074,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 83008,
+          "continuous_clock_proxy": 83011,
+          "frame_drained_clock_proxy": 92224,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 87611,
+          "continuous_clock_proxy": 87614,
+          "frame_drained_clock_proxy": 96827,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 84939,
+          "continuous_clock_proxy": 84942,
+          "frame_drained_clock_proxy": 94155,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "centered",
+      "engine": 0,
+      "requests": 255320,
+      "measured_continuous_clocks": 255323,
+      "frame_drained_clock_proxy": 282968,
+      "nonzero_products_per_arithmetic_issue": 2.294006410902566,
+      "changed_membranes_per_arithmetic_issue": 1.2091365441606354,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 82978,
+          "continuous_clock_proxy": 82981,
+          "frame_drained_clock_proxy": 92194,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 87475,
+          "continuous_clock_proxy": 87478,
+          "frame_drained_clock_proxy": 96691,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 84867,
+          "continuous_clock_proxy": 84870,
+          "frame_drained_clock_proxy": 94083,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "centered",
+      "engine": 1,
+      "requests": 304045,
+      "measured_continuous_clocks": 304048,
+      "frame_drained_clock_proxy": 331693,
+      "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+      "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 101204,
+          "continuous_clock_proxy": 101207,
+          "frame_drained_clock_proxy": 110420,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 100245,
+          "continuous_clock_proxy": 100248,
+          "frame_drained_clock_proxy": 109461,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 102596,
+          "continuous_clock_proxy": 102599,
+          "frame_drained_clock_proxy": 111812,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "centered",
+      "engine": 2,
+      "requests": 304045,
+      "measured_continuous_clocks": 304048,
+      "frame_drained_clock_proxy": 331693,
+      "nonzero_products_per_arithmetic_issue": 1.9144573245621415,
+      "changed_membranes_per_arithmetic_issue": 1.0090818850211147,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 101204,
+          "continuous_clock_proxy": 101207,
+          "frame_drained_clock_proxy": 110420,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 100245,
+          "continuous_clock_proxy": 100248,
+          "frame_drained_clock_proxy": 109461,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 102596,
+          "continuous_clock_proxy": 102599,
+          "frame_drained_clock_proxy": 111812,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "centered",
+      "engine": 3,
+      "requests": 216576,
+      "measured_continuous_clocks": 216579,
+      "frame_drained_clock_proxy": 244224,
+      "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+      "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "centered",
+      "engine": 4,
+      "requests": 216576,
+      "measured_continuous_clocks": 216579,
+      "frame_drained_clock_proxy": 244224,
+      "nonzero_products_per_arithmetic_issue": 2.715988562208506,
+      "changed_membranes_per_arithmetic_issue": 1.4315570385858383,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 72192,
+          "continuous_clock_proxy": 72195,
+          "frame_drained_clock_proxy": 81408,
+          "frames": 3072
+        }
+      ]
+    },
+    {
+      "variant": "centered",
+      "engine": 6,
+      "requests": 255558,
+      "measured_continuous_clocks": 255561,
+      "frame_drained_clock_proxy": 283206,
+      "nonzero_products_per_arithmetic_issue": 2.291890237024863,
+      "changed_membranes_per_arithmetic_issue": 1.2080211404908074,
+      "seeds": [
+        {
+          "seed": 0,
+          "requests": 83008,
+          "continuous_clock_proxy": 83011,
+          "frame_drained_clock_proxy": 92224,
+          "frames": 3072
+        },
+        {
+          "seed": 1,
+          "requests": 87611,
+          "continuous_clock_proxy": 87614,
+          "frame_drained_clock_proxy": 96827,
+          "frames": 3072
+        },
+        {
+          "seed": 2,
+          "requests": 84939,
+          "continuous_clock_proxy": 84942,
+          "frame_drained_clock_proxy": 94155,
+          "frames": 3072
+        }
+      ]
+    }
+  ],
+  "stress": [
+    {
+      "variant": "offset",
+      "engine": 0,
+      "hard_reset": false,
+      "requests": 791,
+      "continuous_clock_proxy": 794,
+      "frame_drained_clock_proxy": 1751
+    },
+    {
+      "variant": "offset",
+      "engine": 0,
+      "hard_reset": true,
+      "requests": 791,
+      "continuous_clock_proxy": 794,
+      "frame_drained_clock_proxy": 1751
+    },
+    {
+      "variant": "offset",
+      "engine": 1,
+      "hard_reset": false,
+      "requests": 958,
+      "continuous_clock_proxy": 961,
+      "frame_drained_clock_proxy": 1918
+    },
+    {
+      "variant": "offset",
+      "engine": 1,
+      "hard_reset": true,
+      "requests": 910,
+      "continuous_clock_proxy": 913,
+      "frame_drained_clock_proxy": 1870
+    },
+    {
+      "variant": "offset",
+      "engine": 2,
+      "hard_reset": false,
+      "requests": 958,
+      "continuous_clock_proxy": 961,
+      "frame_drained_clock_proxy": 1918
+    },
+    {
+      "variant": "offset",
+      "engine": 2,
+      "hard_reset": true,
+      "requests": 910,
+      "continuous_clock_proxy": 913,
+      "frame_drained_clock_proxy": 1870
+    },
+    {
+      "variant": "offset",
+      "engine": 3,
+      "hard_reset": false,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "offset",
+      "engine": 3,
+      "hard_reset": true,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "offset",
+      "engine": 4,
+      "hard_reset": false,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "offset",
+      "engine": 4,
+      "hard_reset": true,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "offset",
+      "engine": 6,
+      "hard_reset": false,
+      "requests": 925,
+      "continuous_clock_proxy": 928,
+      "frame_drained_clock_proxy": 1885
+    },
+    {
+      "variant": "offset",
+      "engine": 6,
+      "hard_reset": true,
+      "requests": 889,
+      "continuous_clock_proxy": 892,
+      "frame_drained_clock_proxy": 1849
+    },
+    {
+      "variant": "centered",
+      "engine": 0,
+      "hard_reset": false,
+      "requests": 802,
+      "continuous_clock_proxy": 805,
+      "frame_drained_clock_proxy": 1762
+    },
+    {
+      "variant": "centered",
+      "engine": 0,
+      "hard_reset": true,
+      "requests": 795,
+      "continuous_clock_proxy": 798,
+      "frame_drained_clock_proxy": 1755
+    },
+    {
+      "variant": "centered",
+      "engine": 1,
+      "hard_reset": false,
+      "requests": 958,
+      "continuous_clock_proxy": 961,
+      "frame_drained_clock_proxy": 1918
+    },
+    {
+      "variant": "centered",
+      "engine": 1,
+      "hard_reset": true,
+      "requests": 910,
+      "continuous_clock_proxy": 913,
+      "frame_drained_clock_proxy": 1870
+    },
+    {
+      "variant": "centered",
+      "engine": 2,
+      "hard_reset": false,
+      "requests": 958,
+      "continuous_clock_proxy": 961,
+      "frame_drained_clock_proxy": 1918
+    },
+    {
+      "variant": "centered",
+      "engine": 2,
+      "hard_reset": true,
+      "requests": 910,
+      "continuous_clock_proxy": 913,
+      "frame_drained_clock_proxy": 1870
+    },
+    {
+      "variant": "centered",
+      "engine": 3,
+      "hard_reset": false,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "centered",
+      "engine": 3,
+      "hard_reset": true,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "centered",
+      "engine": 4,
+      "hard_reset": false,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "centered",
+      "engine": 4,
+      "hard_reset": true,
+      "requests": 640,
+      "continuous_clock_proxy": 643,
+      "frame_drained_clock_proxy": 1600
+    },
+    {
+      "variant": "centered",
+      "engine": 6,
+      "hard_reset": false,
+      "requests": 925,
+      "continuous_clock_proxy": 928,
+      "frame_drained_clock_proxy": 1885
+    },
+    {
+      "variant": "centered",
+      "engine": 6,
+      "hard_reset": true,
+      "requests": 889,
+      "continuous_clock_proxy": 892,
+      "frame_drained_clock_proxy": 1849
+    }
+  ],
+  "identity_aware_fixed2_requests": 289624,
+  "identity_aware_fixed2_continuous_clock_proxy": 289627,
+  "notes": [
+    "Frame-drained proxies add three clocks per neuron-array frame; no RTL frame barrier or synaptic/threshold schedule was built",
+    "The no-change interval for delta25 is U in[0,10]; an identity-aware two-lane schedule can return three copies for such windows. Its extra monitor is not implemented or routed",
+    "Nonzero products and changed updates are two declared usefulness measures, not DSP power estimates",
+    "Raw three-value windows require state ports/lookahead handling outside the measured core. No memory controller, pointer update or bank rotation is included",
+    "At most two state reads/writes per clock caps sustained updates at two neurons per clock for all cores; three-lane issue savings need sufficient bandwidth"
+  ]
+}

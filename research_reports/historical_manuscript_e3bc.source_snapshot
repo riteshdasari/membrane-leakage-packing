@@ -1,0 +1,183 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[a4paper,margin=0.68in,columnsep=0.23in]{geometry}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+\sloppy
+\title{Exact Adaptive DSP Packing\newline for SNN Membrane Leakage}
+\author{Working research draft: authors and affiliations to be supplied}
+\date{Validation snapshot: 11 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We evaluate an exact FPGA leakage primitive that selects two narrow membrane operations or one wide operation from actual membrane values. All general comparisons retain signed sixteen-bit storage and interfaces, unsigned Q8 coefficients $\beta\in[0,256]$, and the declared result $\lceil\beta U/256\rceil$. Two consecutive signed nine-bit values sharing a coefficient occupy one DSP issue; other values use an exact sixteen-bit scalar fallback. On Artix-7, the selected implementation uses 62 LUTs, 44 FFs and one DSP, compared with 202 LUTs, 79 FFs and one DSP for a fixed full-domain split control. A 64-image GLIF stream requires 46.01\% fewer leakage issues than a one-DSP scalar control and 1.08\% more than fixed split packing. Its bounded representative capture uses 12.37\% and 60.95\% less estimated fixture dynamic energy than those controls, respectively. Against a two-DSP scalar pair, DSP count halves at 1.07\% higher estimated energy. On representative vanilla LIF activity, adaptive leakage uses 94.61\% more energy than exact half-leakage shifting. Exhaustive arithmetic proofs and fed-back integer-neuron checks support exactness relative to the declared integer update. The result is a scoped resource and energy trade-off; generic value-dependent packing and spill reconstruction are established prior art.
+\end{abstract}
+
+\section{Question and contribution boundary}
+The question is whether actual membrane range can reduce the cost of exact leakage arithmetic while preserving a fixed wider legal domain. This targets membrane leakage multiplication within a neuron update. Synaptic accumulation, state memory, threshold/reset hardware and full accelerator integration are outside the measured primitive.
+
+Stored membrane precision and voltage units are fixed. Adaptation changes the number of operations sharing a DSP issue. It does not halve membrane values, change an exponent, round away overflow bits, predict spikes or retune a trained coefficient. Numerical exactness is relative to the declared integer neuron; quantization relative to an original FP32 model is evaluated separately.
+
+Actual-value narrowness detection and operation packing already appear in Brooks and Martonosi~\cite{brooks}. DSP multiplication packing and signed correction~\cite{dsppack}, modulo spill recovery~\cite{wide}, and runtime datatype packing~\cite{xtramac} are also established. The candidate contribution is the specific leakage decoder, membrane admission/fallback contract, and measured implementation/workload trade-off. We make no first-use claim.
+
+\section{Fixed arithmetic contract}
+Every new general core accepts the same operation:
+\begin{equation}
+ L(U,\beta)=\left\lceil\frac{\beta U}{256}\right\rceil,
+ \quad -32768\le U\le32767,\quad0\le\beta\le256.
+ \label{eq:leak}
+\end{equation}
+The membrane interface is signed sixteen-bit; the coefficient is unsigned nine-bit Q8. The intermediate product is sufficiently wide, and an arithmetic shift of $\beta U+255$ by eight implements ceiling for both signs. The result fits signed sixteen-bit. No saturation or wrapping is permitted by the reference.
+
+Two consecutive available operands in the stream after stable common zero filtering are paired when both actual membranes fit $[-256,255]$ and their coefficients match. Otherwise the first is issued alone. No matching search or reordering is used. A common two-stage elastic valid/ready interface retains result order under stalls. Common filtering bypasses $U=0$ or $\beta=0$ for all scheduling controls; its integration and bandwidth cost are outside the kernel energy comparison.
+
+The counted RTL computes both signed-range tests and coefficient equality from the two raw operands, selects pair or singleton arithmetic, and returns a consume count of two or one. There is no externally supplied packing decision. The source must advance by that count and re-present an unconsumed operand. Validation supplies this source behavior and frame/window boundaries externally; source queues, operand memory and variable-consumption integration are not included in the reported core area or energy.
+
+\section{Exact packed leakage}
+For an admitted pair $(u_0,u_1)$ and common coefficient, the DSP computes
+\begin{align}
+ A&=(u_0+256)+2^{16}u_1,\\
+ C&=255-256\beta+255\,2^{16},\\
+ P&=A\beta+C=x+2^{16}y,\label{eq:packed}
+\end{align}
+where $x=\beta u_0+255$ and $y=\beta u_1+255$. The multiplicand fits the signed twenty-five-bit DSP48E1 input; the coefficient fits its eighteen-bit input. Since $-65536<x<65536$, the lower field contributes no spill or one negative borrow. Let $n=\mathbf1\{x<0\}$. The upper field is $T=\lfloor P/2^{16}\rfloor=y-n$.
+
+The parity reference $r=(\beta_0\land (u_1)_0)\oplus1$ yields $n=P_{16}\oplus r$, where subscripts denote bits. The exact leakage results are
+\begin{align}
+ L_0&=\operatorname{uint}(P_{15:8})-256n,\\
+ L_1&=\operatorname{int9}(P_{32:24})+
+       \mathbf1\{n\land P_{23:16}=255\}.
+\end{align}
+The first expression restores the signed quotient from its low byte. In the second, adding the borrow changes the quotient only at the indicated byte boundary. Both include $\beta=0,256$ and the signed endpoints. Results are sign-extended to the common sixteen-bit interface. The same DSP computes a full-width singleton when admission fails.
+
+A conventional nonoverlapping full-product layout at stride eighteen needs twenty-seven multiplicand bits; exploiting this restricted coefficient range reduces that straightforward requirement to twenty-six bits at stride seventeen. These are layout comparisons, not universal lower bounds. The same spill reference in~(\ref{eq:packed}) also reconstructs complete products via $x=(P\bmod2^{16})-2^{16}n$ and $y=\lfloor P/2^{16}\rfloor+n$. The useful specialization here is compact rounded-result decoding, not unique feasibility of exact packing.
+
+E0 predicts the lower borrow before the DSP for $\beta\ge64$, using $u_0\le-4$ or the corner conditions $(-3,\beta\ge86)$, $(-2,\beta\ge128)$ and $(-1,256)$. E5 uses post-correction and admits all coefficients. These are implementation controls, not distinct generic arithmetic inventions.
+
+\section{Matched fixed and fabric controls}
+The primary one-DSP fixed control E1 decomposes $U=256h+r$, $0\le r\le255$:
+\begin{equation}
+ L(U,\beta)=\beta h+\left\lceil\beta r/256\right\rceil.
+\end{equation}
+Two unsigned residue products share the DSP; two fabric products recover the high contributions. E1 admits full sixteen-bit pairs when coefficients match. The identity is a strong constructive baseline, not an independently established novelty claim.
+
+E2 uses two general LUT multipliers; E3 uses two scalar DSPs; E4 uses one scalar DSP. E7 is an independently exact general LUT control using the floor quotient plus a nonzero-remainder increment, with a $\beta=256$ bypass. E6 is an exact two-lane shift control restricted to $\beta=128$. These retain their actual DSP costs rather than using an invented aggregate area score.
+
+E8 is a signed-nine-bit-only packing ablation on the same sixteen-bit ports, with range admission and the full-width fallback removed. Its caller must sign-extend from nine bits. E5--E8 measures the combined admission/wide-support cost after synthesis; it is not literal isolated controller area and E8 cannot replace a full-domain baseline. E7 and E8 native and matched-route validation passed; E7 representative GLIF energy passed and E8 energy is unmeasured.
+
+\section{Public model contracts and exactness}
+\subsection{GLIF ResNet18, CIFAR-10}
+The official channelwise GLIF checkpoint~\cite{glif} uses two time steps. Synapses, batch normalization and readout retain FP32. One integer membrane unit is $1/256$ of the source voltage unit. Here $\alpha$, $\tau$ and $\gamma$ denote the source's sigmoid-transformed learned parameters. The resulting $a_0=1-\alpha(1-\tau)$ and $a_1=a_0(1-\gamma)$ are separately rounded nearest-even to Q8. Current, bias, reset and threshold use the same voltage unit. With previous spike $p$,
+\begin{align}
+ U'&=L(U,\beta_p)+I-B-Rp,\\
+ s&=\mathbf1\{U'>\Theta\}.
+\end{align}
+Previous-spike reset remains deferred. Software uses wider exact diagnostic intermediates, with no clipping; every observed old and next state is checked against the fixed hardware domain.
+
+The full 10,000-image scalar integer reference obtains 94.05\%, versus 94.03\% for its saved floating reference. There are 371 changed predictions, including 160 becoming correct and 158 becoming incorrect; this is not a packing accuracy gain. Across 24,903,680,000 updates, old membranes range from $-1378$ to $1529$ and next membranes from $-2038$ to $1752$. In 64-image fed-back execution, packed and scalar integer logits match bit for bit across 159,383,552 raw updates.
+
+After common zero filtering, 79,246,135 updates require arithmetic; 99.0189\% fit signed nine-bit. E5 issues 42,785,698 operations, E1 42,327,032, E2/E3 39,623,132, and E4 79,246,135. Thus E5 has 1.852 useful results per DSP issue, a 1.0836\% issue penalty versus E1, and 46.0091\% fewer issues than E4. These are kernel issues, not full neuron-update cycles or burst-latency measurements.
+
+\subsection{OTTT VGG11, CIFAR-10}
+The authors' public vanilla LIF checkpoint~\cite{ottt} uses six time steps, $\tau=2$, threshold $\ge1$, and immediate subtractive reset. Its original leakage gives $\beta=128$, unchanged by packing. The integer contract is $U'=\lceil U/2\rceil+I$, followed by threshold $\ge256$ and subtraction of 256 on a spike. FP32 synapses and readout remain intact; effective currents are rounded nearest-even into units of $1/256$.
+
+On the accepted 64-image run, floating, integer and packed references each classify 60 images correctly. Every integer state and spike and all final logits agree between scalar and packed feedback over 157,286,400 updates. The full 10,000-image evaluation retains actual packed feedback and an independent scalar leakage check on every one of its 24,576,000,000 updates, with zero mismatch. The original floating model classifies 9,349 images correctly (93.49\%); the declared integer model classifies 9,345 (93.45\%). There are 104 changed predictions. This $-0.04$ percentage-point difference is the membrane conversion impact, not a packing error or accuracy gain.
+
+Across the complete test, old membranes range from $-11820$ to $11815$ and stored post-reset membranes from $-12011$ to $12006$, all within the fixed sixteen-bit domain. The historical twelve-bit interface has 289,441,562 old-operand exceptions. After common zero filtering, 20,440,971,113 arithmetic updates remain; 10,952,413,622 fit signed nine-bit. E5 requires 15,836,088,695 issues against E1's 10,220,498,016: a 54.9444\% penalty. Exact shift leakage is mandatory as the model-specific baseline. These are software-validated kernel request counts, not complete accelerator timing measurements.
+
+\subsection{Independent longer-recurrence validation}
+A public BNTT/visual-explanations VGG11 TinyImageNet checkpoint~\cite{bntt} uses thirty time steps. Its original old-membrane strict threshold, deferred subtractive reset, timestep batch normalization and Poisson input are preserved. The declared conversion uses $\beta=\operatorname{RNE}(0.99\cdot256)=253$. On a predeclared random 64-image held-out subset, packed and scalar integer execution match every state and spike and all final logits across 1,171,783,680 actual leakage updates. Every old and stored membrane fits the common signed-sixteen-bit domain. The floating model classifies 42 images correctly; integer and packed versions classify 41, with one conversion-changed prediction. These are bounded subset counts, not full TinyImageNet accuracy.
+
+After common zero filtering, 1,064,644,254 arithmetic updates remain. E5 requires 676,214,768 issues versus the fixed pair control's 532,325,552, a 27.0303\% penalty. Its strong constant-specific control is $\lceil253U/256\rceil=U-\lfloor3U/256\rfloor$, proven over all 65,536 signed-sixteen-bit values and implementable exactly without a DSP; that control's hardware area and energy are not measured here. Non-power-of-two leakage alone therefore does not justify a general multiplier. AdEx is not validated by these LIF tests.
+
+\section{Implementation and activity protocol}
+All new cores target Artix-7 \texttt{xc7a100tcsg324-1} in Vivado 2025.2, using a common 12 ns clock and falling-edge input phase. The fixture has 55 launch and 39 capture FFs: its 94 FFs are excluded from core area but included in energy. Native checks cover 360,487 general operations per main engine with and without stalls, plus shift-only and actual-model cohorts. Unstalled latency is two advancing edges; stalled tests retain held outputs and order. Mathematical checks include 67,371,008 signed-nine-bit pair cases and 16,842,752 full-domain scalar/split cases with no mismatch.
+
+The new GLIF activity capture uses predeclared seed 417839 and 2,176 ordered contiguous windows stratified across the complete 64-image stream, totaling 262,528 nonzero operands. Saved logits and complete stream counts are recaptured exactly. Predeclared distribution gates pass: coefficient total variation 3.52\%, coarse membrane variation 0.90\%, and sample issue overhead 1.0821\% versus complete-stream 1.0836\%. This is a bounded representative capture, not a full-stream energy measurement or a confidence interval. Window restart/boundary effects are recorded.
+
+The capture contains 2,493 actual operands outside signed nine-bit range. An explicitly unsafe counterfactual that interprets their low nine bits as the membrane changes every corresponding leakage result; for example, $(U,\beta)=(381,78)$ gives 117 correctly but $-39$ after wrapping. This establishes why E8's narrow-only domain cannot cover this unchanged integer workload. It is not a network-accuracy experiment or a fair full-domain baseline.
+
+The first OTTT capture used eight short windows per nonzero frame and failed the unchanged issue-overhead distribution gate, despite exact feedback. Independent attribution to the original schedule localized most of the bias to restarting pairing at window boundaries. A second protocol, declared before its capture, keeps seed 417839, the 262,144-operand target and every original gate, but uses two longer windows per frame. It passes all gates over 262,144 operands in 1,280 windows: coarse membrane total variation 0.9688\%, previous-spike variation 0.4703\%, and layer/time variation 0.05155\%. E5 requires 204,447 requests versus E1/E6's 131,488, giving 55.4872\% overhead versus 55.4999\% in the complete 64-image stream. This representative capture is bounded to that stream, not the full 10,000-image test. The separate 7,335-operand capture remains deliberately selected stress activity. The failed first capture is retained and supplies no representative energy.
+
+Accepted energy requires exact known-pin replay under slow/max SDF, enabled timing checks, and complete physical-net SAIF annotation. Unknown physical activity and unsupported defaults are rejected. Vendor estimates include the complete common fixture at 25 degrees C; chip static power, memory, complete neuron updates and board measurements are outside scope. The accepted representative GLIF comparison gives E5 21.5995 and E1 55.3084 pJ per scalar leakage result: a 60.9472\% reduction with identical declared scalar operands, despite a 1.0821\% longer adaptive activity interval. Both certified audits were reproduced independently and bound to their exact selected routes. Serialized component reports associate most of the saving with fabric logic and signals; DSP energy is slightly higher for E5. This attribution is a vendor-model observation, not an isolated causal experiment.
+
+The optimized general LUT pair E7 also passes its complete 262,533-row delayed replay and physical activity audit on the same GLIF capture. Its estimated dynamic energy is 124.1983 pJ per scalar result, compared with E5's 21.5995 pJ: an 82.6089\% reduction. E5 requires 8.1148\% more issues than E7 in this capture, so the energy saving accompanies an issue-count penalty. This comparison exchanges a fabric multiplier pair for one DSP; it does not establish superiority over a model-specific constant multiplier bank.
+
+Representative OTTT E5/E1/E6 native execution, delayed replay and independent physical activity audits all pass. Their estimated dynamic energies are 26.5796, 36.8076 and 13.6576 pJ per scalar result, respectively, on the same 262,144 operands. E5 reduces energy by 27.7876\% versus the general fixed DSP control but increases it by 94.6139\% versus the exact zero-DSP shift control. Thus a favorable general-DSP comparison does not establish a benefit for this fixed half-leakage model. All fourteen planned GLIF and retained OTTT stress controls were attempted: twelve passed, while both original-LUT E2 delayed replays failed and supply no accepted energy. The separate representative OTTT comparisons all passed.
+
+The general scalar-DSP controls also pass their GLIF delayed replay and activity audits. E4 uses one DSP, 13 LUTs and 29 FFs, with 24.6484 pJ per scalar result; E5 saves 12.3695\% estimated energy while adding 49 LUTs and 15 FFs. Its complete 64-image stream uses 46.0091\% fewer issues than E4. E3 uses two DSPs, 35 LUTs and 56 FFs, with 21.3711 pJ per result. E5 therefore halves DSP count at 27 additional LUTs, twelve fewer FFs, 8.1148\% more captured issues and 1.0689\% higher estimated energy. This near energy parity is a resource trade-off, not superiority over E3. Differences beyond report-serialization bounds do not bound the physical accuracy of vendor power estimates.
+
+\begin{table}[t]
+\centering\small
+\caption{Accepted representative fixture dynamic energy in pJ per scalar leakage result. GLIF and OTTT use separate captures; dashes denote no representative measurement. Common 94 fixture FFs are included.}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Implementation&DSP&GLIF&OTTT\\\midrule
+E0 adaptive pre&1&21.963&--\\
+E1 fixed split&1&55.308&36.808\\
+E3 scalar DSP pair&2&21.371&--\\
+E4 scalar DSP&1&24.648&--\\
+E5 adaptive post&1&21.599&26.580\\
+E6 half-leakage shift&0&--&13.658\\
+E7 general LUT pair&0&124.198&--\\
+\bottomrule
+\end{tabular}
+\label{tab:energy}
+\end{table}
+
+\section{Measured results and retained gaps}
+\begin{table}[t]
+\centering\small
+\caption{Verified new fixed-sixteen-bit core routes at 12 ns. Fixture FFs excluded. E6 is restricted to $\beta=128$.}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Implementation&LUT&FF&DSP\\\midrule
+E0 adaptive pre&71&44&1\\
+E1 fixed split&202&79&1\\
+E2 original LUT pair&340&88&0\\
+E3 scalar DSP pair&35&56&2\\
+E4 scalar DSP&13&29&1\\
+E5 adaptive post&62&44&1\\
+E6 shift pair&35&70&0\\
+E7 optimized LUT pair&330&88&0\\
+E8 narrow-only pair&47&36&1\\
+\bottomrule
+\end{tabular}
+\label{tab:area}
+\end{table}
+E5 uses 69.31\% fewer LUTs and 44.30\% fewer FFs than E1 at equal one-DSP budget and the same full input domain. Admission and correction are included. E8 uses 47 LUTs, 36 FFs and one DSP; the combined E5 admission/full-width-support cost is therefore 15 LUTs and eight FFs at the same DSP count. All four explicit narrow-domain pair/scalar unstalled/stalled tests passed an independent output, source and route audit. This does not imply universal FPGA area superiority: E4 is smaller but produces one result per issue, and E3 uses fewer LUTs and provides two independent results with two DSPs. All-wide bursts with matching consecutive coefficients favor E1; mismatched coefficients force singletons in both. We do not claim universal burst-latency improvement.
+
+The original E2 fixed-sixteen-bit route hit a Vivado \texttt{Synth 20-411} error after completed synthesis. A source-identical checkpoint retry passed with 340 LUTs, 88 FFs and zero DSPs. Its GLIF and OTTT stress delayed replays both failed despite successful SDF annotation; their energy is rejected. E7 independently passed general unstalled/stalled native checks, the actual GLIF native capture, its matched 12 ns route at 330 LUTs, 88 FFs and zero DSPs, and representative GLIF delayed replay and energy. Historical signed-twelve-bit E2 passed functional replay and static timing but failed delayed replay at rows 914 and 2836. The original low-lane failure is 509 instead of $-3$ for $(U,\beta)=(-6,166)$; the other lane and control fields match.
+
+Token-aware inspection establishes three missing EOF closing parentheses in vendor SDF exports. Certified derivatives retain every original byte, numerical delay, path and timing check and append only those structural closes; netlists change only their quoted SDF filename. A matched raw-versus-balanced E2 control still fails identically at row 914, ruling out that syntax repair as the numerical remedy. In an independently annotated combined shadow test, the original CARRY4 output remains wrong after more than 6 ns of stable observed inputs while its shadow is correct; the maximum annotated path is 579 ps. Disabling simulator optimization also retains row 914. Suppressing the connected carry-input pulse clears that first error under identical observed select/data sequences, but replay fails later at row 2836. Because forcing can affect connected nets, this is a diagnostic intervention, not pin-local causal isolation or a valid implementation repair. Changing all pulse limits from zero to 100\% clears row 914 but fails at row 5701; changing only error limits produces an earlier unknown-valued result and is rejected.
+
+An observation-only probe of the unchanged certified signed-sixteen-bit OTTT E2 export reproduces row 2175. Subsequently, its carry cell retains output value 2 with zero select/data/carry inputs and zero carry feedback after more than 19 ns of stable inputs, contradicting its combinational truth relation. This extends the settled carry-cell symptom to the new width. The exact event-scheduling cause and a physical hardware defect remain unproved; neither intervention supplies accepted full replay or energy. E7's acceptance cannot retroactively resolve E2's diagnostic.
+
+Earlier twelve-bit values of 53 versus 122 LUTs and 34.4\% lower energy were from a separate 17,408-operand prefix sample. Its coefficient distribution did not pass the later representative audit. Those results remain historical implementation/sample evidence and are not substituted for the new fixed-sixteen-bit measurements.
+
+\section{Related work and applicability limits}
+FireFly~\cite{firefly} uses fixed twelve-bit SIMD additions and spike-controlled multiplexers; its original $\tau=2$ leakage is shift-based. Our fixed split and LUT controls are built for the same leakage primitive, not reproduced FireFly accelerators. Its whole-accelerator throughput or accuracy cannot be compared directly with kernel issues or fixture energy. Testing public LIF and GLIF checkpoints supports applicability but is not reproduction of FireFly's trained SCNN models.
+
+The inspected DSP-Packing, Arithmetic Packing, XtraMAC and Brooks--Martonosi provide substantial ancestry. UDP's complete methods~\cite{udp} select packing parallelism from specified operand widths and generate parameterized hardware. Its runtime sign and most-negative-value corrections preserve exact arithmetic; they do not describe our actual-membrane pair/singleton admission rule. Its high/low fusion also supplies ancestry for splitting. Full methods for three relevant originals remain unread: Ou's dynamic DSP packing~\cite{ou}, Cui's six-signed multiplication~\cite{cui}, and McKeown's dynamic-range utilization~\cite{mckeown}. Publisher access gates and author/institutional routes have not supplied those complete methods. The bounded review has not identified this exact implemented leakage/admission conjunction, but it does not establish absence or priority. The same stored-state policy must remain compared with strong fixed and fabric alternatives. Learned GLIF coefficients are fixed per channel except for previous-spike selection between two values; a specialized constant multiplier bank or CSD implementation is not measured. General runtime-coefficient comparisons therefore do not establish superiority over every model-specific implementation.
+
+\section{Conclusion}
+The exact membrane-range-selected kernel retains fixed sixteen-bit precision and provides measured alternatives at a one-DSP budget: lower fabric cost than fixed split packing, and fewer GLIF leakage issues and lower estimated dynamic energy than scalar execution. A two-DSP scalar pair has near energy parity and fewer issues, so adaptation offers a DSP-budget trade-off. The narrow-only ablation measures a combined 15-LUT/eight-FF cost for range admission and wide support. The complete vanilla LIF test and bounded thirty-step BNTT test confirm exact packed leakage and the fixed storage domain, while demonstrating unfavorable range profiles and essential zero-DSP constant alternatives; the measured half-leakage shift consumes less energy than adaptation. All planned controls were attempted and failed LUT evidence is excluded. These results support a focused exact leakage primitive paper, with model-specific constant hardware, external source integration, access-limited prior methods and the original LUT delayed-replay cause retained as applicability and evidence limits.
+
+\begin{thebibliography}{99}\small
+\bibitem{brooks} D. Brooks and M. Martonosi, ``Value-Based Clock Gating and Operation Packing: Dynamic Strategies for Improving Processor Power and Performance,'' ACM TOCS, vol. 18, no. 2, pp. 89--126, 2000. \url{https://doi.org/10.1145/350853.350856}.
+\bibitem{dsppack} J. Sommer et al., ``DSP-Packing: Squeezing Low-precision Arithmetic into FPGA DSP Blocks,'' FPL 2022. \url{https://arxiv.org/abs/2203.11028}.
+\bibitem{wide} ``Arithmetic Packing on Wide Integer Datapaths in DSP Primitives of Modern FPGA Devices,'' 2026. \url{https://arxiv.org/abs/2606.11065}.
+\bibitem{xtramac} F. Yu et al., ``XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA,'' 2026. \url{https://arxiv.org/abs/2605.06052}.
+\bibitem{udp} J. Wu, Z. Zheng, L. Gong, C. Wang and X. Zhou, ``UDP: A Universal DSP Packing Framework for Low-bitwidth MAC Acceleration on FPGAs,'' FPGA 2026, pp. 212--223. \url{https://doi.org/10.1145/3748173.3779194}.
+\bibitem{ou} Y. Ou et al., ``A 119.64 GOPs/W FPGA-Based ResNet50 Mixed-Precision Accelerator Using the Dynamic DSP Packing,'' IEEE TCAS-II, vol. 71, no. 5, pp. 2554--2558, 2024. \url{https://doi.org/10.1109/TCSII.2024.3377356}. Full method not inspected.
+\bibitem{cui} Z. Cui et al., ``Efficient DSP Packing Method for Neural Network Accelerator,'' ICFPT 2024. \url{https://doi.org/10.1109/ICFPT64416.2024.11113473}. Full method not inspected.
+\bibitem{mckeown} S. McKeown, R. Woods and J. McAllister, ``Power efficient dynamic-range utilisation for DSP on FPGA,'' IEEE SIPS 2008, pp. 233--238. \url{https://doi.org/10.1109/SIPS.2008.4671768}. Full method not inspected.
+\bibitem{firefly} ``FireFly: A High-Throughput Hardware Accelerator for Spiking Neural Networks with Efficient DSP and Memory Optimization.'' \url{https://arxiv.org/abs/2301.01905}.
+\bibitem{glif} ``GLIF: A Unified Gated Leaky Integrate-and-Fire Neuron for Spiking Neural Networks,'' NeurIPS 2022. \url{https://github.com/CAS-CLab/Gated-LIF}.
+\bibitem{ottt} ``Online Training Through Time for Spiking Neural Networks,'' NeurIPS 2022. \url{https://github.com/pkuxmq/OTTT-SNN}.
+\bibitem{bntt} Y. Kim and P. Panda, ``Visual explanations from spiking neural networks using inter-spike intervals,'' Scientific Reports, vol. 11, article 19037, 2021. \url{https://doi.org/10.1038/s41598-021-98448-0}. Official source and checkpoint hashes are pinned in the benchmark evidence bundle.
+\end{thebibliography}
+\end{document}

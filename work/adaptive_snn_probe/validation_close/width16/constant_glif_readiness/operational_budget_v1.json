@@ -1,0 +1,24 @@
+{
+  "status": "operational_only",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\historical_stage_memory_audit_a0.json": "60666bef37d3e026e0567447fccb8cdc94e76ae0ab8b8f58303d9fc3ec08f065",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\route.job.json": "d6d50bcd3acbcf69cf3fea3fe880a05c6046fd0423fc4105b405e7f59083bbb3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export9_e2_a0\\export.job.json": "1396ef3d5baac50c3ea9e7229d20fd33bee20e57a07f94c048b736841eb2767c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\annotation.job.json": "8fb688343e8989576d699e964482ad6c0f2b09765d1f28a01182bc262eab5f72",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\run_route_glif_mcm.py": "22381b35d1c46ff8d88d54858117eaaac2e8fe0eb51fe746addbcfbbf231d504",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\run_energy_glif_mcm.py": "15f0e9d95d06b85bb2fec324c5914c3ca9f4f547dd141b27dea407c729a1927e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\prepare_budget_runners_v1.py": "968d494e59bfd68af1181f2fdc950847f90535f89e70510502b574ddd3ea51eb"
+  },
+  "route": {
+    "wait_GiB": 2.15,
+    "start_gate_GiB": 2.1,
+    "historical_sampled_tree_RSS_GiB": 1.859649658203125
+  },
+  "export_annotation": {
+    "wait_GiB": 1.75,
+    "start_gate_GiB": 1.6
+  },
+  "wait_timeout_seconds": 600,
+  "unchanged": "Datapath, constraints, exactness, stalls, SDF settings, complete trace and physical annotation acceptance gates",
+  "limitation": "Historical one-second descendant RSS sums are sampled and may double count shared pages; they do not guarantee the new peak. New telemetry is retained."
+}

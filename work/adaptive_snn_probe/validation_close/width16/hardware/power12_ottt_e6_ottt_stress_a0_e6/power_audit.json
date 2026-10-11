@@ -1,0 +1,139 @@
+{
+  "status": "pass",
+  "engine": 6,
+  "design_top": "top_sequential_leak16_e6",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_ottt_e6_ottt_stress_a0_e6",
+  "auditor_sha256": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 319,
+  "physical_activity_source_counts": {
+    "S": 487,
+    "C": 3,
+    "D": 5
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 339,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 6,
+    "design_top": "top_sequential_leak16_e6",
+    "duration_ps": 44100000,
+    "scalar_updates": 7335,
+    "requests": 3671,
+    "retirements": 3671,
+    "clock_transitions": 7350,
+    "raw_unknown_time_records": 339,
+    "scope": "Fixed16 actual source operands, signed9 pair metadata, golden fixture, exact routed/SDF replay and SAIF interval audit"
+  },
+  "critical_dsp_activity": {},
+  "settled_constant_ffs": {
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.002229,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8011154999999996e-06,
+  "dynamic_energy_J": 9.829890000000001e-08,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 13.401349693251534,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.016841062515337422,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.002229",
+      "iccq": "0.014842",
+      "power": "0.017071"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.607855"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 12,
+  "fixture_FF": 94,
+  "power_xpe_sha256": "38db50d80e85b7b43c9319f593cab4706fe64cbd8694a2d17c1163905d73b30d",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json",
+  "routed_hardware_sha256": "904b63b53aebb0c164c79db53ea07d691dab3f9203a0ae7abd9a918ab3f44c6c",
+  "core_resources": {
+    "LUT": 35,
+    "FF": 70,
+    "DSP": 0,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 23
+  },
+  "WNS_ns": 6.041,
+  "WHS_ns": 0.155,
+  "scope": "Vendor estimated dynamic energy of complete common 94-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error",
+  "certified_export_audit": {
+    "status": "pass_exact_derived_export_reproduction",
+    "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_ottt_e6_ottt_stress_a0_e6\\export_binding_certificate.json",
+    "export_binding_sha256": "e994eee69f36b2c0cfd386b8fa9768eca90f06e2894f0356402fcc50bc351e7e",
+    "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_ottt_e6_ottt_stress_a0_e6\\sdf_structure_certificate.json",
+    "SDF_structure_certificate_sha256": "712482f76b75c864b3cdc9fda29112823e6e96706de40ad6197f1fd1885d5196",
+    "raw_SDF_sha256": "df7a1d16a38d8905c1d2c6b20dbb53a4aaaf71ac42c3e0ffee5b8465151fe424",
+    "derived_SDF_sha256": "d4bcf563960d684473b49c03043a4255f4c57704066f9c19925c12953d44e3f6",
+    "appended_closing_parentheses": 3,
+    "numerical_timing_changes": 0,
+    "annotation_path_string_changes": 1,
+    "causal_discrepancy_resolution_claimed": false
+  }
+}

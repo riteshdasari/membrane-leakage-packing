@@ -1,0 +1,1014 @@
+{
+  "persistent": [
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.2536074627731588,
+      "causal_vs_static_proof_free": 1.0802769699256727,
+      "causal_vs_static_proof_check_switch": 1.052628849505602,
+      "causal_vs_current_overlap_free": 1.079306158082666,
+      "causal_vs_current_overlap_check_switch": 1.0516828841820414,
+      "causal_vs_current_serial_merge_free": 1.2528980881611291,
+      "causal_vs_current_serial_merge_check_switch": 1.2208319808757553,
+      "oracle_state_bits_per_neuron": 6.257100442834139,
+      "causal_state_bits_per_neuron": 8.130988325281804,
+      "proof_fixed_state_bits_per_neuron": 8.289855072463768,
+      "causal_format_change_fraction": 0.007961309523809523
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.2428037366470033,
+      "causal_vs_static_proof_free": 1.0769435426690135,
+      "causal_vs_static_proof_check_switch": 1.048880191928804,
+      "causal_vs_current_overlap_free": 1.084971710390943,
+      "causal_vs_current_overlap_check_switch": 1.0566991590031087,
+      "causal_vs_current_serial_merge_free": 1.2623764582222041,
+      "causal_vs_current_serial_merge_check_switch": 1.2294810352871497,
+      "oracle_state_bits_per_neuron": 6.246915257648953,
+      "causal_state_bits_per_neuron": 8.120772946859903,
+      "proof_fixed_state_bits_per_neuron": 8.289855072463768,
+      "causal_format_change_fraction": 0.006312003968253968
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.2930933930172945,
+      "causal_vs_static_proof_free": 1.3742326587888072,
+      "causal_vs_static_proof_check_switch": 1.339105917604688,
+      "causal_vs_current_overlap_free": 1.0298354045255145,
+      "causal_vs_current_overlap_check_switch": 1.00351179659373,
+      "causal_vs_current_serial_merge_free": 1.2041084967114064,
+      "causal_vs_current_serial_merge_check_switch": 1.1733302967821027,
+      "oracle_state_bits_per_neuron": 7.328049516908212,
+      "causal_state_bits_per_neuron": 8.372252415458938,
+      "proof_fixed_state_bits_per_neuron": 12.0,
+      "causal_format_change_fraction": 0.00523313492063492
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.247841092716711,
+      "causal_vs_static_proof_free": 1.3886206967906618,
+      "causal_vs_static_proof_check_switch": 1.3518110456237937,
+      "causal_vs_current_overlap_free": 1.0436066556437935,
+      "causal_vs_current_overlap_check_switch": 1.0159426599691985,
+      "causal_vs_current_serial_merge_free": 1.2242865448632498,
+      "causal_vs_current_serial_merge_check_switch": 1.1918330744887549,
+      "oracle_state_bits_per_neuron": 7.218822966988728,
+      "causal_state_bits_per_neuron": 8.364623590982287,
+      "proof_fixed_state_bits_per_neuron": 12.0,
+      "causal_format_change_fraction": 0.005865575396825397
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.174510550727792,
+      "causal_vs_static_proof_free": 1.2056514660108046,
+      "causal_vs_static_proof_check_switch": 1.1816669308849264,
+      "causal_vs_current_overlap_free": 0.8324390443763828,
+      "causal_vs_current_overlap_check_switch": 0.8158789819845049,
+      "causal_vs_current_serial_merge_free": 0.9610399419509837,
+      "causal_vs_current_serial_merge_check_switch": 0.9419215674498003,
+      "oracle_state_bits_per_neuron": 9.717356078904992,
+      "causal_state_bits_per_neuron": 10.378648349436393,
+      "proof_fixed_state_bits_per_neuron": 12.289855072463768,
+      "causal_format_change_fraction": 0.029861111111111113
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.2880698221528364,
+      "causal_vs_static_proof_free": 1.2682428774825585,
+      "causal_vs_static_proof_check_switch": 1.2405543466637807,
+      "causal_vs_current_overlap_free": 0.8887753260796553,
+      "causal_vs_current_overlap_check_switch": 0.8693714063383721,
+      "causal_vs_current_serial_merge_free": 1.0314008484722363,
+      "causal_vs_current_serial_merge_check_switch": 1.0088830999506566,
+      "oracle_state_bits_per_neuron": 8.970279790660225,
+      "causal_state_bits_per_neuron": 9.701610305958132,
+      "proof_fixed_state_bits_per_neuron": 12.289855072463768,
+      "causal_format_change_fraction": 0.025359623015873016
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.382780792539441,
+      "causal_vs_static_proof_free": 1.0656929414644787,
+      "causal_vs_static_proof_check_switch": 1.0390763050872378,
+      "causal_vs_current_overlap_free": 1.0592566000889247,
+      "causal_vs_current_overlap_check_switch": 1.032800717106332,
+      "causal_vs_current_serial_merge_free": 1.2272518119275235,
+      "causal_vs_current_serial_merge_check_switch": 1.1966000979577414,
+      "oracle_state_bits_per_neuron": 6.261760265700483,
+      "causal_state_bits_per_neuron": 8.18100845410628,
+      "proof_fixed_state_bits_per_neuron": 8.289855072463768,
+      "causal_format_change_fraction": 0.01189236111111111
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.1883848911203612,
+      "causal_vs_static_proof_free": 1.0655184402766018,
+      "causal_vs_static_proof_check_switch": 1.0381811412827981,
+      "causal_vs_current_overlap_free": 1.068589243711083,
+      "causal_vs_current_overlap_check_switch": 1.0411731591529323,
+      "causal_vs_current_serial_merge_free": 1.2411355089212959,
+      "causal_vs_current_serial_merge_check_switch": 1.2092925194274677,
+      "oracle_state_bits_per_neuron": 6.25967944847021,
+      "causal_state_bits_per_neuron": 8.164377012882447,
+      "proof_fixed_state_bits_per_neuron": 8.289855072463768,
+      "causal_format_change_fraction": 0.012326388888888888
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.2467199654540264,
+      "causal_vs_static_proof_free": 1.3203611160433089,
+      "causal_vs_static_proof_check_switch": 1.2912306607540263,
+      "causal_vs_current_overlap_free": 0.9778680699820425,
+      "causal_vs_current_overlap_check_switch": 0.9562938644519741,
+      "causal_vs_current_serial_merge_free": 1.1273822400560678,
+      "causal_vs_current_serial_merge_check_switch": 1.1025093794887264,
+      "oracle_state_bits_per_neuron": 7.861521235909823,
+      "causal_state_bits_per_neuron": 8.410859500805152,
+      "proof_fixed_state_bits_per_neuron": 12.0,
+      "causal_format_change_fraction": 0.006560019841269841
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.3718740620106233,
+      "causal_vs_static_proof_free": 1.3401750273297517,
+      "causal_vs_static_proof_check_switch": 1.308962823009754,
+      "causal_vs_current_overlap_free": 0.9967888272467395,
+      "causal_vs_current_overlap_check_switch": 0.9735739665714845,
+      "causal_vs_current_serial_merge_free": 1.1550500119841691,
+      "causal_vs_current_serial_merge_check_switch": 1.1281493040626842,
+      "oracle_state_bits_per_neuron": 7.308144625603865,
+      "causal_state_bits_per_neuron": 8.398988526570049,
+      "proof_fixed_state_bits_per_neuron": 12.0,
+      "causal_format_change_fraction": 0.005815972222222222
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.1831531336239494,
+      "causal_vs_static_proof_free": 1.2164022637222727,
+      "causal_vs_static_proof_check_switch": 1.1923150678419838,
+      "causal_vs_current_overlap_free": 0.837673758757872,
+      "causal_vs_current_overlap_check_switch": 0.8210861441892874,
+      "causal_vs_current_serial_merge_free": 0.9657586339127322,
+      "causal_vs_current_serial_merge_check_switch": 0.9466346828301754,
+      "oracle_state_bits_per_neuron": 9.601602757648953,
+      "causal_state_bits_per_neuron": 10.269741344605475,
+      "proof_fixed_state_bits_per_neuron": 12.289855072463768,
+      "causal_format_change_fraction": 0.029501488095238095
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.2947937153031537,
+      "causal_vs_static_proof_free": 1.2739567955278939,
+      "causal_vs_static_proof_check_switch": 1.246415041593044,
+      "causal_vs_current_overlap_free": 0.8907966907168317,
+      "causal_vs_current_overlap_check_switch": 0.8715384997422035,
+      "causal_vs_current_serial_merge_free": 1.0324706010413074,
+      "causal_vs_current_serial_merge_check_switch": 1.0101495526834132,
+      "oracle_state_bits_per_neuron": 8.896223329307569,
+      "causal_state_bits_per_neuron": 9.629609500805152,
+      "proof_fixed_state_bits_per_neuron": 12.289855072463768,
+      "causal_format_change_fraction": 0.02361111111111111
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.2345044983039182,
+      "causal_vs_static_proof_free": 1.0945638788242336,
+      "causal_vs_static_proof_check_switch": 1.0671043420620614,
+      "causal_vs_current_overlap_free": 1.0851279203209732,
+      "causal_vs_current_overlap_check_switch": 1.0579051052836992,
+      "causal_vs_current_serial_merge_free": 1.2571540953438807,
+      "causal_vs_current_serial_merge_check_switch": 1.225615626219637,
+      "oracle_state_bits_per_neuron": 6.314143015297907,
+      "causal_state_bits_per_neuron": 8.109651771336553,
+      "proof_fixed_state_bits_per_neuron": 8.289855072463768,
+      "causal_format_change_fraction": 0.0021825396825396826
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.2238033624495472,
+      "causal_vs_static_proof_free": 1.0878515224673453,
+      "causal_vs_static_proof_check_switch": 1.0600020180760144,
+      "causal_vs_current_overlap_free": 1.0883757891999755,
+      "causal_vs_current_overlap_check_switch": 1.0605128633367147,
+      "causal_vs_current_serial_merge_free": 1.2641398633270713,
+      "causal_vs_current_serial_merge_check_switch": 1.2317772955061117,
+      "oracle_state_bits_per_neuron": 6.303643317230274,
+      "causal_state_bits_per_neuron": 8.105953099838969,
+      "proof_fixed_state_bits_per_neuron": 8.289855072463768,
+      "causal_format_change_fraction": 0.0018229166666666667
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.3737298926321608,
+      "causal_vs_static_proof_free": 1.3552277195552098,
+      "causal_vs_static_proof_check_switch": 1.320814134004614,
+      "causal_vs_current_overlap_free": 1.0154770351209643,
+      "causal_vs_current_overlap_check_switch": 0.9896908109177949,
+      "causal_vs_current_serial_merge_free": 1.187218309456933,
+      "causal_vs_current_serial_merge_check_switch": 1.157071022569133,
+      "oracle_state_bits_per_neuron": 7.397126610305958,
+      "causal_state_bits_per_neuron": 8.506818639291465,
+      "proof_fixed_state_bits_per_neuron": 12.0,
+      "causal_format_change_fraction": 0.009126984126984128
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.4168209315805018,
+      "causal_vs_static_proof_free": 1.369336902935985,
+      "causal_vs_static_proof_check_switch": 1.3332975018411628,
+      "causal_vs_current_overlap_free": 1.0288584500091342,
+      "causal_vs_current_overlap_check_switch": 1.0017800573431845,
+      "causal_vs_current_serial_merge_free": 1.206695896402666,
+      "causal_vs_current_serial_merge_check_switch": 1.17493702295327,
+      "oracle_state_bits_per_neuron": 7.297765700483092,
+      "causal_state_bits_per_neuron": 8.493649355877617,
+      "proof_fixed_state_bits_per_neuron": 12.0,
+      "causal_format_change_fraction": 0.010081845238095239
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "hard_reset": false,
+      "oracle_vs_trace_fixed": 1.2651752718077938,
+      "causal_vs_static_proof_free": 1.24079877909761,
+      "causal_vs_static_proof_check_switch": 1.2128290608361025,
+      "causal_vs_current_overlap_free": 0.88369028437906,
+      "causal_vs_current_overlap_check_switch": 0.8637703999458329,
+      "causal_vs_current_serial_merge_free": 1.0312970778848891,
+      "causal_vs_current_serial_merge_check_switch": 1.0080498848683597,
+      "oracle_state_bits_per_neuron": 9.104216988727858,
+      "causal_state_bits_per_neuron": 9.883368558776167,
+      "proof_fixed_state_bits_per_neuron": 12.289855072463768,
+      "causal_format_change_fraction": 0.02431795634920635
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "hard_reset": true,
+      "oracle_vs_trace_fixed": 1.2853029420929454,
+      "causal_vs_static_proof_free": 1.2385885183452516,
+      "causal_vs_static_proof_check_switch": 1.2096294936014302,
+      "causal_vs_current_overlap_free": 0.8926901045176974,
+      "causal_vs_current_overlap_check_switch": 0.8718184151370869,
+      "causal_vs_current_serial_merge_free": 1.0459619604062904,
+      "causal_vs_current_serial_merge_check_switch": 1.021506672920686,
+      "oracle_state_bits_per_neuron": 9.074116847826087,
+      "causal_state_bits_per_neuron": 9.870390499194848,
+      "proof_fixed_state_bits_per_neuron": 12.289855072463768,
+      "causal_format_change_fraction": 0.02418154761904762
+    }
+  ],
+  "retirement": [
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.03877999512630936,
+      "fixed_six_lane_pair_saving": 3.954056499555492e-06,
+      "speed_with_serial_check": 0.24049058888955982,
+      "early_neuron_fraction": 0.2852795390499195
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.06664860892692515,
+      "fixed_six_lane_pair_saving": 1.9770282497555414e-05,
+      "speed_with_serial_check": 0.24049594406602973,
+      "early_neuron_fraction": 0.3113948017310789
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.02947891392903379,
+      "fixed_six_lane_pair_saving": 1.977028249777746e-06,
+      "speed_with_serial_check": 0.5588015640547287,
+      "early_neuron_fraction": 0.17597247383252818
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.056750126738507545,
+      "fixed_six_lane_pair_saving": 1.0214645957073998e-05,
+      "speed_with_serial_check": 0.5588054739352463,
+      "early_neuron_fraction": 0.23321193136070853
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.015376843939940876,
+      "fixed_six_lane_pair_saving": 0.0,
+      "speed_with_serial_check": 0.7169625446911814,
+      "early_neuron_fraction": 0.06569545088566828
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.0407531810445485,
+      "fixed_six_lane_pair_saving": 1.6475235414814549e-06,
+      "speed_with_serial_check": 0.716963391577424,
+      "early_neuron_fraction": 0.14948105374396134
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.0309312357652074,
+      "fixed_six_lane_pair_saving": 0.0,
+      "speed_with_serial_check": 0.22927591056636237,
+      "early_neuron_fraction": 0.18016555958132044
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.05249940292037858,
+      "fixed_six_lane_pair_saving": 3.5082647698025937e-07,
+      "speed_with_serial_check": 0.2292761687553656,
+      "early_neuron_fraction": 0.19525022644927537
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.024657661793509145,
+      "fixed_six_lane_pair_saving": 0.0,
+      "speed_with_serial_check": 0.5433632718169805,
+      "early_neuron_fraction": 0.11907080314009662
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.04594037968487752,
+      "fixed_six_lane_pair_saving": 3.5082647698025937e-07,
+      "speed_with_serial_check": 0.5433634789756353,
+      "early_neuron_fraction": 0.15043402777777778
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.015428669264601291,
+      "fixed_six_lane_pair_saving": 0.0,
+      "speed_with_serial_check": 0.7041288097743655,
+      "early_neuron_fraction": 0.05853462157809984
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.035455416673677576,
+      "fixed_six_lane_pair_saving": 3.5082647698025937e-07,
+      "speed_with_serial_check": 0.7041289837132568,
+      "early_neuron_fraction": 0.1058864231078905
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.050868411750184195,
+      "fixed_six_lane_pair_saving": 2.614995221983385e-05,
+      "speed_with_serial_check": 0.24424769829078968,
+      "early_neuron_fraction": 0.32740036231884057
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.08724393097033911,
+      "fixed_six_lane_pair_saving": 7.909553449214624e-05,
+      "speed_with_serial_check": 0.24426799957668371,
+      "early_neuron_fraction": 0.3521267361111111
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.040074406576612875,
+      "fixed_six_lane_pair_saving": 1.0976523153960471e-05,
+      "speed_with_serial_check": 0.5638368398691871,
+      "early_neuron_fraction": 0.22008730877616747
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.0760186783207294,
+      "fixed_six_lane_pair_saving": 5.585113251893592e-05,
+      "speed_with_serial_check": 0.563856546354989,
+      "early_neuron_fraction": 0.2772248641304348
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.023838316368835044,
+      "fixed_six_lane_pair_saving": 0.0,
+      "speed_with_serial_check": 0.7210913492876432,
+      "early_neuron_fraction": 0.09986287238325282
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.057770527167192665,
+      "fixed_six_lane_pair_saving": 1.5819106898407043e-05,
+      "speed_with_serial_check": 0.7210995748857364,
+      "early_neuron_fraction": 0.19150626509661836
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.038339472588164725,
+      "fixed_six_lane_pair_saving": 2.3726797304890468e-05,
+      "speed_with_serial_check": 0.24300467765976738,
+      "early_neuron_fraction": 0.29441236413043476
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.07082779507389259,
+      "fixed_six_lane_pair_saving": 0.00012415940507493062,
+      "speed_with_serial_check": 0.2430388078160056,
+      "early_neuron_fraction": 0.3301309631642512
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.028953983245881387,
+      "fixed_six_lane_pair_saving": 3.2502462061767545e-06,
+      "speed_with_serial_check": 0.5621744034494711,
+      "early_neuron_fraction": 0.17632095410628018
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.06020069456863453,
+      "fixed_six_lane_pair_saving": 6.012955481382587e-05,
+      "speed_with_serial_check": 0.562199262982456,
+      "early_neuron_fraction": 0.2513511473429952
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.015684895675247335,
+      "fixed_six_lane_pair_saving": 6.500492412131464e-07,
+      "speed_with_serial_check": 0.7197326264255745,
+      "early_neuron_fraction": 0.06861538848631239
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.044330490353643115,
+      "fixed_six_lane_pair_saving": 2.5351920407978845e-05,
+      "speed_with_serial_check": 0.7197454225941893,
+      "early_neuron_fraction": 0.16875880636070853
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.04836239312259116,
+      "fixed_six_lane_pair_saving": 9.381838929778397e-05,
+      "speed_with_serial_check": 0.24641267384432014,
+      "early_neuron_fraction": 0.33267348530595814
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.08821946168936978,
+      "fixed_six_lane_pair_saving": 0.00031591906600281217,
+      "speed_with_serial_check": 0.24648568529982207,
+      "early_neuron_fraction": 0.36669748892914655
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.03771731588510685,
+      "fixed_six_lane_pair_saving": 2.7762584588142403e-05,
+      "speed_with_serial_check": 0.5666978734593191,
+      "early_neuron_fraction": 0.21525198772141707
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.07638452830834619,
+      "fixed_six_lane_pair_saving": 0.0001783825837329278,
+      "speed_with_serial_check": 0.5667693117953396,
+      "early_neuron_fraction": 0.29003874798711754
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.022424624241470292,
+      "fixed_six_lane_pair_saving": 3.829322012149916e-06,
+      "speed_with_serial_check": 0.723423754935036,
+      "early_neuron_fraction": 0.09694607991143317
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.05844752619138782,
+      "fixed_six_lane_pair_saving": 8.264953342906889e-05,
+      "speed_with_serial_check": 0.7234678466071248,
+      "early_neuron_fraction": 0.20478374094202897
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.04835914300371291,
+      "fixed_six_lane_pair_saving": 8.951669934020856e-05,
+      "speed_with_serial_check": 0.24606781428791363,
+      "early_neuron_fraction": 0.3299057719404187
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.08823334315910092,
+      "fixed_six_lane_pair_saving": 0.00030052034778516035,
+      "speed_with_serial_check": 0.24613678604363376,
+      "early_neuron_fraction": 0.36338818438003223
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.03776740433818604,
+      "fixed_six_lane_pair_saving": 2.7494414797324396e-05,
+      "speed_with_serial_check": 0.5662423465425435,
+      "early_neuron_fraction": 0.21411030595813205
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.07646909368898225,
+      "fixed_six_lane_pair_saving": 0.0001700817287465517,
+      "speed_with_serial_check": 0.566310213871677,
+      "early_neuron_fraction": 0.2878509963768116
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.022557930173777496,
+      "fixed_six_lane_pair_saving": 3.836429971704192e-06,
+      "speed_with_serial_check": 0.7230525550765885,
+      "early_neuron_fraction": 0.0969687248389694
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.058653597356672194,
+      "fixed_six_lane_pair_saving": 8.152413689921367e-05,
+      "speed_with_serial_check": 0.7230960146250933,
+      "early_neuron_fraction": 0.203864105273752
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.04030285682413759,
+      "fixed_six_lane_pair_saving": 0.0006920754918157135,
+      "speed_with_serial_check": 0.24310843313509303,
+      "early_neuron_fraction": 0.31148538144122384
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.06807208314049784,
+      "fixed_six_lane_pair_saving": 0.0009332779412882797,
+      "speed_with_serial_check": 0.24319040093852992,
+      "early_neuron_fraction": 0.34209817834138484
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.030335652012651648,
+      "fixed_six_lane_pair_saving": 0.00025160471144447527,
+      "speed_with_serial_check": 0.5622243824769348,
+      "early_neuron_fraction": 0.18620923913043477
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.05728225673969367,
+      "fixed_six_lane_pair_saving": 0.0005184877451601677,
+      "speed_with_serial_check": 0.5623783495631416,
+      "early_neuron_fraction": 0.24466020028180355
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.015281811822584257,
+      "fixed_six_lane_pair_saving": 4.0958906514232396e-05,
+      "speed_with_serial_check": 0.7197249174583923,
+      "early_neuron_fraction": 0.06642763687600645
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.04089724285700125,
+      "fixed_six_lane_pair_saving": 0.00035140141223710675,
+      "speed_with_serial_check": 0.7198889646576808,
+      "early_neuron_fraction": 0.15524670390499196
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.03015600504065108,
+      "fixed_six_lane_pair_saving": 0.0003688364383780396,
+      "speed_with_serial_check": 0.22968502546514466,
+      "early_neuron_fraction": 0.18542358595008052
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.05027414122403129,
+      "fixed_six_lane_pair_saving": 0.0005096457909212759,
+      "speed_with_serial_check": 0.2297265730392637,
+      "early_neuron_fraction": 0.2018726097020934
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.023678760850809333,
+      "fixed_six_lane_pair_saving": 0.00019475124381596043,
+      "speed_with_serial_check": 0.5439116001047843,
+      "early_neuron_fraction": 0.12082389794685991
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.043493929868918535,
+      "fixed_six_lane_pair_saving": 0.0003544752855066946,
+      "speed_with_serial_check": 0.5440030121991397,
+      "early_neuron_fraction": 0.15115363325281803
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.01402903241425657,
+      "fixed_six_lane_pair_saving": 6.620141201651997e-05,
+      "speed_with_serial_check": 0.7045661792814517,
+      "early_neuron_fraction": 0.054434631642512075
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.03316124739807624,
+      "fixed_six_lane_pair_saving": 0.0002630542879600295,
+      "speed_with_serial_check": 0.7046710443823758,
+      "early_neuron_fraction": 0.1046742904589372
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "stride": 2,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.03623890458852719,
+      "fixed_six_lane_pair_saving": 0.0004794943994080869,
+      "speed_with_serial_check": 0.23100749029344686,
+      "early_neuron_fraction": 0.20040823772141708
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "stride": 2,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.06038184951501013,
+      "fixed_six_lane_pair_saving": 0.0006936847910218313,
+      "speed_with_serial_check": 0.2310697048993241,
+      "early_neuron_fraction": 0.2157583534621578
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "stride": 8,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.0291368692349937,
+      "fixed_six_lane_pair_saving": 0.0002879052666496795,
+      "speed_with_serial_check": 0.5457675275128171,
+      "early_neuron_fraction": 0.13936254528985506
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "stride": 8,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.053122049308121366,
+      "fixed_six_lane_pair_saving": 0.000527130898841599,
+      "speed_with_serial_check": 0.5459035490281273,
+      "early_neuron_fraction": 0.16858016304347825
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "stride": 16,
+      "bound": "weight_only",
+      "free_refill_addition_saving": 0.01855462969436117,
+      "fixed_six_lane_pair_saving": 0.00013491212978267164,
+      "speed_with_serial_check": 0.7061254835061606,
+      "early_neuron_fraction": 0.07007472826086956
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "stride": 16,
+      "bound": "active_negative_oracle",
+      "free_refill_addition_saving": 0.04179827757168242,
+      "fixed_six_lane_pair_saving": 0.00041447231623958913,
+      "speed_with_serial_check": 0.7062827684152078,
+      "early_neuron_fraction": 0.1228575382447665
+    }
+  ],
+  "ranges": {
+    "oracle_vs_trace_fixed": [
+      1.174510550727792,
+      1.4168209315805018
+    ],
+    "causal_vs_static_proof_free": [
+      1.0655184402766018,
+      1.3886206967906618
+    ],
+    "causal_vs_static_proof_check_switch": [
+      1.0381811412827981,
+      1.3518110456237937
+    ],
+    "causal_vs_current_overlap_free": [
+      0.8324390443763828,
+      1.0883757891999755
+    ],
+    "causal_vs_current_overlap_check_switch": [
+      0.8158789819845049,
+      1.0605128633367147
+    ],
+    "causal_vs_current_serial_merge_free": [
+      0.9610399419509837,
+      1.2641398633270713
+    ],
+    "causal_vs_current_serial_merge_check_switch": [
+      0.9419215674498003,
+      1.2317772955061117
+    ],
+    "oracle_state_bits_per_neuron": [
+      6.246915257648953,
+      9.717356078904992
+    ],
+    "causal_state_bits_per_neuron": [
+      8.105953099838969,
+      10.378648349436393
+    ],
+    "proof_fixed_state_bits_per_neuron": [
+      8.289855072463768,
+      12.289855072463768
+    ],
+    "causal_format_change_fraction": [
+      0.0018229166666666667,
+      0.029861111111111113
+    ]
+  },
+  "retirement_ranges": {
+    "2": {
+      "weight_only": {
+        "free_refill_addition_saving": [
+          0.03015600504065108,
+          0.050868411750184195
+        ],
+        "fixed_six_lane_pair_saving": [
+          0.0,
+          0.0006920754918157135
+        ],
+        "speed_with_serial_check": [
+          0.22927591056636237,
+          0.24641267384432014
+        ],
+        "early_neuron_fraction": [
+          0.18016555958132044,
+          0.33267348530595814
+        ]
+      },
+      "active_negative_oracle": {
+        "free_refill_addition_saving": [
+          0.05027414122403129,
+          0.08823334315910092
+        ],
+        "fixed_six_lane_pair_saving": [
+          3.5082647698025937e-07,
+          0.0009332779412882797
+        ],
+        "speed_with_serial_check": [
+          0.2292761687553656,
+          0.24648568529982207
+        ],
+        "early_neuron_fraction": [
+          0.19525022644927537,
+          0.36669748892914655
+        ]
+      }
+    },
+    "8": {
+      "weight_only": {
+        "free_refill_addition_saving": [
+          0.023678760850809333,
+          0.040074406576612875
+        ],
+        "fixed_six_lane_pair_saving": [
+          0.0,
+          0.0002879052666496795
+        ],
+        "speed_with_serial_check": [
+          0.5433632718169805,
+          0.5666978734593191
+        ],
+        "early_neuron_fraction": [
+          0.11907080314009662,
+          0.22008730877616747
+        ]
+      },
+      "active_negative_oracle": {
+        "free_refill_addition_saving": [
+          0.043493929868918535,
+          0.07646909368898225
+        ],
+        "fixed_six_lane_pair_saving": [
+          3.5082647698025937e-07,
+          0.000527130898841599
+        ],
+        "speed_with_serial_check": [
+          0.5433634789756353,
+          0.5667693117953396
+        ],
+        "early_neuron_fraction": [
+          0.15043402777777778,
+          0.29003874798711754
+        ]
+      }
+    },
+    "16": {
+      "weight_only": {
+        "free_refill_addition_saving": [
+          0.01402903241425657,
+          0.023838316368835044
+        ],
+        "fixed_six_lane_pair_saving": [
+          0.0,
+          0.00013491212978267164
+        ],
+        "speed_with_serial_check": [
+          0.7041288097743655,
+          0.723423754935036
+        ],
+        "early_neuron_fraction": [
+          0.054434631642512075,
+          0.09986287238325282
+        ]
+      },
+      "active_negative_oracle": {
+        "free_refill_addition_saving": [
+          0.03316124739807624,
+          0.058653597356672194
+        ],
+        "fixed_six_lane_pair_saving": [
+          3.5082647698025937e-07,
+          0.00041447231623958913
+        ],
+        "speed_with_serial_check": [
+          0.7041289837132568,
+          0.7234678466071248
+        ],
+        "early_neuron_fraction": [
+          0.1046742904589372,
+          0.20478374094202897
+        ]
+      }
+    }
+  },
+  "audit": {
+    "random_certificate_lane_checks": 204000,
+    "certified_lane_checks": 27529,
+    "failures": 0,
+    "inhibitory_counterexample": {
+      "partial": 12,
+      "threshold": 10,
+      "remaining": -5,
+      "final": 7
+    },
+    "soft_reset_counterexample": {
+      "partial": 12,
+      "threshold": 10,
+      "remaining": 5,
+      "correct_residual": 7,
+      "discarded_residual": 2
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "prepared",
+  "clock_period_ns": 12,
+  "first_raw_drive_ns": 132,
+  "input_phase_ns": 6,
+  "gate": "LUT12 replay first; continue all six12ns energy rows only after it passes. Failure is retained and limits claims rather than waiving checks.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4_common12.py": "b2d4f3ce6651be894bdf8255cbd9b2bca1cbb7b2b62d627db6db45350f53663a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\common12.tcl": "a2be9bb07310a733d5ca835f64465076db2970c4426d0a248c177011e061fc3b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_common12.py": "3b4189e00fdb0e342e8b2e0850fd9df8126ed1c660835d841edb1210bd90afff",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_energy12.sv": "bea1817f9d3d03a1d1f30b3b9d181883f5ee9e924fc8a14d970c1eded724e026",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\export12.tcl": "58b5d3310031a418e1fd6e237744e7f955703f980bab66aea9efc83fcae5cbfb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\power12.tcl": "bc96a2a9de75ebe7cc9e77fbc5f0cac9176d8b9d45325053a39ac0669bebc832",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\audit_power12.py": "4c22cee05df0bde4cd60ba7af37824e4055d030de0c8226599b84c89fcac6ff0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_energy12.py": "2f30fae435bb2e4a77e3b89fe26fda25627de02dfcfe0453dd34f2320e20d0a2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_energy9_v2.py": "41752e6ccc4ba1b273128ca20a2d9a5ef009693c469a0a28a0a928584df778df",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\audit_power9_v2.py": "eec3e6b21a9b6d59d07f08aeeaa54f1d75402c142d402c6cc241c0e5c7711669",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_energy9_progress.json": "9a7d947e8da7e46a225251670287e81034d1bc3fdc14d9606a45d2cdbca326de",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\lut_functional_diagnostic_a0\\diagnostic.json": "a4890fe9f54e40702889656016befe1c9cec744d557722015a8b67117b397b8c"
+  }
+}

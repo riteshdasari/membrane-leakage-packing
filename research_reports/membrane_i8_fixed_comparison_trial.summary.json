@@ -1,0 +1,1882 @@
+{
+  "created_utc": "2026-10-09T21:01:59.548166+00:00",
+  "status": "Completed matched signed8-current fixed comparison",
+  "source_sha256": {
+    "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+    "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+    "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+    "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+    "guard_add_i8_fixed_timing.sv": "6300175f4058b534f401685eb6aaf17987fae2f61b8d94a32b95d5f3e396bcd0",
+    "route_guard_add_i8_fixed.tcl": "a6b2ecaebdbbe2739a497245b5ae4c2a8055843638d39241c1e7951ad3312833",
+    "run_guard_add_i8_fixed_route.py": "19ecb4307947999566cc9ed6d674eab2895b7d926c36248bb09e40d6dcbcad9a",
+    "CONTRACT.md": "de92da1cefaec03cac52d239085791df7e407faf4b152626f293d4f0f5fa97e8",
+    "../common_layout_trial/common_i8_current_bounds.json": "56e7108c543591468036defcdde54eb6189a064264396d8d4a5a05fe24f7c0ec",
+    "../common_layout_trial/screen_common_adaptation.py": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce"
+  },
+  "functional_check_sha256": {
+    "i8_fixed_main_0_checks.json": "1a635e65a5a7aad11a93bd0f1bfd168f3e2acefefea932361a9c872a7d4eaba1",
+    "i8_fixed_main_1_checks.json": "8f1705dba289175f8e67e246e1d9cd1e0b1e08aefca88ce4ef9ee5bd162e1fcf",
+    "i8_fixed_models_0_checks.json": "0e630bd70b41e105fd667e50bce26741245c264a746dd5a4c5b2649d346633b0",
+    "i8_fixed_models_1_checks.json": "0156998d3ba9a0c398276457b0f88b4322f88864e55216a509e5f166dd1e9cd4",
+    "i8_fixed_snn_checks.json": "52fdaddc5890e9d39111ad664d01b80c09cd4df6ae6a7f470c18d3886586b9cc"
+  },
+  "findings": {
+    "comparisons": {
+      "0": {
+        "fixed_minus_matched_baseline": {
+          "LUT": -23,
+          "FF": 26,
+          "DSP": 0
+        },
+        "fixed_relative_resource_change": {
+          "LUT": -0.3484848484848485,
+          "FF": 0.11016949152542373,
+          "DSP": 0.0
+        },
+        "both_pass_registered_6ns": true,
+        "same_model_clocks": true,
+        "fixed_dominates_resource_vector_at_equal_service": false,
+        "matched_baseline_dominates_resource_vector_at_equal_service": false
+      },
+      "1": {
+        "fixed_minus_matched_baseline": {
+          "LUT": -36,
+          "FF": -42,
+          "DSP": 1
+        },
+        "fixed_relative_resource_change": {
+          "LUT": -0.45569620253164556,
+          "FF": -0.13815789473684212,
+          "DSP": null
+        },
+        "both_pass_registered_6ns": true,
+        "same_model_clocks": true,
+        "fixed_dominates_resource_vector_at_equal_service": false,
+        "matched_baseline_dominates_resource_vector_at_equal_service": false
+      }
+    },
+    "fixed_core": {
+      "LUT": 43,
+      "FF": 262,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 54,
+      "occupied_slices_reported": 54
+    },
+    "fixed_model_clocks": 110596,
+    "adaptive_core": {
+      "LUT": 147,
+      "FF": 268,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 68,
+      "occupied_slices_reported": 68
+    },
+    "adaptive_minus_fixed": {
+      "LUT": 104,
+      "FF": 6,
+      "DSP": 0
+    },
+    "adaptive_model_clocks": 110710,
+    "adaptive_extra_clocks": 114,
+    "fixed_layout_and_static_current_specialization_are_adaptive": false,
+    "first_ever_claim": false,
+    "universal_best_fixed_claim": false,
+    "total_area_or_energy_claim": false,
+    "trained_accuracy_advantage": false
+  },
+  "hardware": [
+    {
+      "top": "top_guard_add_i8_fixed_hybrid",
+      "engine": 2,
+      "variant": 0,
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 66,
+        "FF": 236,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 44,
+        "occupied_slices_reported": 44
+      },
+      "full_fixture": {
+        "LUT": 66,
+        "FF": 455,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 85
+      },
+      "current_contract": "signed8",
+      "operation": "exact signed11 U + signed8 I -> signed12",
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 85,
+        "core_slices_touched": 44,
+        "fixture_slices_touched": 43,
+        "shared_slices": 2,
+        "core_exclusive_slices": 42,
+        "fixture_exclusive_slices": 41,
+        "core_primitive_cells": 354,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 1.84,
+      "WHS_ns": 0.103,
+      "boundary_WNS_ns": 1.791,
+      "boundary_WHS_ns": -1.092,
+      "source_sha256": {
+        "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+        "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+        "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+        "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "guard_add_i8_fixed_timing.sv": "6300175f4058b534f401685eb6aaf17987fae2f61b8d94a32b95d5f3e396bcd0",
+        "route_guard_add_i8_fixed.tcl": "a6b2ecaebdbbe2739a497245b5ae4c2a8055843638d39241c1e7951ad3312833",
+        "run_guard_add_i8_fixed_route.py": "19ecb4307947999566cc9ed6d674eab2895b7d926c36248bb09e40d6dcbcad9a",
+        "CONTRACT.md": "de92da1cefaec03cac52d239085791df7e407faf4b152626f293d4f0f5fa97e8",
+        "../common_layout_trial/common_i8_current_bounds.json": "56e7108c543591468036defcdde54eb6189a064264396d8d4a5a05fe24f7c0ec",
+        "../common_layout_trial/screen_common_adaptation.py": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce"
+      },
+      "functional_check_sha256": {
+        "i8_fixed_main_0_checks.json": "1a635e65a5a7aad11a93bd0f1bfd168f3e2acefefea932361a9c872a7d4eaba1",
+        "i8_fixed_main_1_checks.json": "8f1705dba289175f8e67e246e1d9cd1e0b1e08aefca88ce4ef9ee5bd162e1fcf",
+        "i8_fixed_models_0_checks.json": "0e630bd70b41e105fd667e50bce26741245c264a746dd5a4c5b2649d346633b0",
+        "i8_fixed_models_1_checks.json": "0156998d3ba9a0c398276457b0f88b4322f88864e55216a509e5f166dd1e9cd4",
+        "i8_fixed_snn_checks.json": "52fdaddc5890e9d39111ad664d01b80c09cd4df6ae6a7f470c18d3886586b9cc"
+      },
+      "provenance_sha256": "6fcd6c56dae823b268ff2fda0de4ad69b2287e566580d1696a69b1320c1fd4fb",
+      "route_artifact_sha256": {
+        "results\\top_guard_add_i8_fixed_hybrid_synth\\design.dcp": "c63a8779190d7029f24f71f9f4c8a2c9eb0d9544c84a36ca660ea64527a72210",
+        "results\\top_guard_add_i8_fixed_hybrid_synth\\hierarchical_util.rpt": "7fee27815a8f3d067764395466b092e621efb085901a6fb41848c36a3b04db90",
+        "results\\top_guard_add_i8_fixed_hybrid_synth\\provenance.txt": "f13542ac3e5e6a7f1b4b4db8dd378afaa56d8bb2b131c6f2630f86d7a0c62ac9",
+        "results\\top_guard_add_i8_fixed_hybrid_synth\\util.rpt": "ee6f7389fc6d7890d0bb72f80a923f333a09785ece9d073e1956ae147c40efac",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\boundary_slack.txt": "8012f4b4b3aaa4f966759a69521426faa4a0d6fa28b03801768c84efabc438a0",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\boundary_timing.rpt": "36989439202c0748ca5fc5b8f3ff4bc40bab2c09a38a06fcae751bada7f1ece0",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\capture_paths_max.rpt": "3686473866457baa7dfeb10b17e915954c0515bbd95193af5a0576c638719ef7",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\capture_paths_min.rpt": "73cfdf50ba8c557cb70cfda024d5249eb9c76b3f55da13c6dd64dfd69351a157",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\core_util.rpt": "50adf32e2eaac1ebc6bead02ed82a1e1f6d9efba92dc46e8375a7f5f250c94c1",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\design.dcp": "3c87762067ac25d1671124c98b57bd4a4b4903b65e439c8af98dce86d4bcaa53",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\fixture_accounting.txt": "bca7a181f4edf668ff181b77b614491f2ee5fe3b2cf9906955a3f04803ee7e02",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\hierarchical_util.rpt": "c3e6eea0b69756bd4eec221a34f1d286c244485588254151c87c853a4e6f1869",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\input_paths_max.rpt": "b0ad1a4943a0945ef6ba060719488b402ddc40a6538ad29fbf2089b670fe2c51",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\input_paths_min.rpt": "40b46d831a05993f269e4c340d79bc9c725de6a73097af2ad66f201cd0bd35ee",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\launch_paths_max.rpt": "220c76ea90b1c0e36320f9140beb70d86629b8daef7fad4d75e8efaf69b3492f",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\launch_paths_min.rpt": "66cd36da0bba7eedb2411cd8cbca89682d8cf5cec6736c799986b7df2f6676b1",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\output_paths_max.rpt": "b472f69d78792bd44749a41f5fbe0aa868134513cff07953d550ebb3959c03ff",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\output_paths_min.rpt": "5ee7fd42fc93d3276655119c793e354965b10d13b99967ee8909d3fc83acdacc",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\paths_max.rpt": "4ee666a0ad1d734cad800ff303e0b23643fa6aa92e357c322b49f17eb8941276",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\paths_min.rpt": "73fc9451766046c73411ac5c984fd718de49ae7b6e791d6775304f049d6edcbd",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\provenance.txt": "1cd223d5a98a4d89efa5bafe49f7add3a726b092371e42e00fbcddea355e7cd6",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\slack.txt": "6586766e4036ce2a7962d7344b9f6a8f658cf9aac1d7e8a788af3ed6bc7994d4",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\slice_sites.txt": "d53ed3b1a60f59315e1002f923a32cd186e53f8a08b0b47e548c30eea2cf1d62",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\timing.rpt": "79d9e469d16ed66644833ccbdc82160661f3d9669b905da37a44fc3ba663df91",
+        "results\\top_guard_add_i8_fixed_hybrid_route\\util.rpt": "0ebf446f6504ea83ede4df77a9f18f3767066bf4d272a2243f88cd91701e0e72"
+      },
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 417.6,
+      "scope": "Exact statically-I8 retimed fixed baseline in matched 219-FF registered OOC fixture; same always-six operation and four-advance contract; no board, memory, power or complete neuron-update measurement"
+    },
+    {
+      "top": "top_guard_add_i8_fixed_lut",
+      "engine": 3,
+      "variant": 1,
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 79,
+        "FF": 304,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 77,
+        "occupied_slices_reported": 77
+      },
+      "full_fixture": {
+        "LUT": 79,
+        "FF": 523,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 124
+      },
+      "current_contract": "signed8",
+      "operation": "exact signed11 U + signed8 I -> signed12",
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 124,
+        "core_slices_touched": 77,
+        "fixture_slices_touched": 49,
+        "shared_slices": 2,
+        "core_exclusive_slices": 75,
+        "fixture_exclusive_slices": 47,
+        "core_primitive_cells": 411,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 1.807,
+      "WHS_ns": 0.101,
+      "boundary_WNS_ns": 1.765,
+      "boundary_WHS_ns": -1.138,
+      "source_sha256": {
+        "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+        "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+        "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+        "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "guard_add_i8_fixed_timing.sv": "6300175f4058b534f401685eb6aaf17987fae2f61b8d94a32b95d5f3e396bcd0",
+        "route_guard_add_i8_fixed.tcl": "a6b2ecaebdbbe2739a497245b5ae4c2a8055843638d39241c1e7951ad3312833",
+        "run_guard_add_i8_fixed_route.py": "19ecb4307947999566cc9ed6d674eab2895b7d926c36248bb09e40d6dcbcad9a",
+        "CONTRACT.md": "de92da1cefaec03cac52d239085791df7e407faf4b152626f293d4f0f5fa97e8",
+        "../common_layout_trial/common_i8_current_bounds.json": "56e7108c543591468036defcdde54eb6189a064264396d8d4a5a05fe24f7c0ec",
+        "../common_layout_trial/screen_common_adaptation.py": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce"
+      },
+      "functional_check_sha256": {
+        "i8_fixed_main_0_checks.json": "1a635e65a5a7aad11a93bd0f1bfd168f3e2acefefea932361a9c872a7d4eaba1",
+        "i8_fixed_main_1_checks.json": "8f1705dba289175f8e67e246e1d9cd1e0b1e08aefca88ce4ef9ee5bd162e1fcf",
+        "i8_fixed_models_0_checks.json": "0e630bd70b41e105fd667e50bce26741245c264a746dd5a4c5b2649d346633b0",
+        "i8_fixed_models_1_checks.json": "0156998d3ba9a0c398276457b0f88b4322f88864e55216a509e5f166dd1e9cd4",
+        "i8_fixed_snn_checks.json": "52fdaddc5890e9d39111ad664d01b80c09cd4df6ae6a7f470c18d3886586b9cc"
+      },
+      "provenance_sha256": "81638d465118b99151a785c54c1c4bc0d55936ab8677e3d6e3f5f3248611a805",
+      "route_artifact_sha256": {
+        "results\\top_guard_add_i8_fixed_lut_synth\\design.dcp": "acd96cbd47828da8506a34d5ea0837c5a2b6ea3820003bcbc336901b7ad2137e",
+        "results\\top_guard_add_i8_fixed_lut_synth\\hierarchical_util.rpt": "b8feb2ef9686cff1ca78fcedcf1b2e09da595d535d446a0c7d98a6d36ab85b14",
+        "results\\top_guard_add_i8_fixed_lut_synth\\provenance.txt": "62245b89bffbd82788d7326ae95e763b26f01063df9b14c78f125aeddc7dfae0",
+        "results\\top_guard_add_i8_fixed_lut_synth\\util.rpt": "1b11a94703b3ff85caf8abf1633b7d85b032c3998f1032eef8e74a954c40c246",
+        "results\\top_guard_add_i8_fixed_lut_route\\boundary_slack.txt": "74e9f657bd483f0a810ff0908c2228fcecfff11e4933a9ca71dbecd1fe0f4784",
+        "results\\top_guard_add_i8_fixed_lut_route\\boundary_timing.rpt": "f653a12af1f5d10241e01e5ff8e8406ba3821b413974998e583723f631f57aad",
+        "results\\top_guard_add_i8_fixed_lut_route\\capture_paths_max.rpt": "ff2cf31402e54cf3220a05fd15290507521465d0546bd0f9be1dd86812d1a3a1",
+        "results\\top_guard_add_i8_fixed_lut_route\\capture_paths_min.rpt": "860771626f0f0141f8e8256781e1f5e6c2e9d97635a7bf7b0a18710aee0c97f3",
+        "results\\top_guard_add_i8_fixed_lut_route\\core_util.rpt": "b620b18835a6f955672323841d7e4f12369fb9ea3193274906f74689d5f65926",
+        "results\\top_guard_add_i8_fixed_lut_route\\design.dcp": "0b3d32c5d11cc3a6db4a973552a26db136bb37a456c306743103a24e085de4d2",
+        "results\\top_guard_add_i8_fixed_lut_route\\fixture_accounting.txt": "b5eb3575eccc5841f7e4ed7ca1283fc64dd559fd46c63f530c72f22bff1f1590",
+        "results\\top_guard_add_i8_fixed_lut_route\\hierarchical_util.rpt": "79da13cbedba58cba9388d0ead6f822bb42cace39a1ff5f7c58a23490a990b4e",
+        "results\\top_guard_add_i8_fixed_lut_route\\input_paths_max.rpt": "2fce8e1ac4e9b3de9af909c8423a0b982f4cb6fe998aa8e3880ff573981aa258",
+        "results\\top_guard_add_i8_fixed_lut_route\\input_paths_min.rpt": "738793f000c1c6b254647be5b1b28fa866f555ed4b632a8101e1927985696e54",
+        "results\\top_guard_add_i8_fixed_lut_route\\launch_paths_max.rpt": "bed407e683f6ec91e2e3ac3ef5a6dfaff1441f6ce9a25c5a071e43fed5cd8fcb",
+        "results\\top_guard_add_i8_fixed_lut_route\\launch_paths_min.rpt": "1cd7aa1288d928a15427696e2b0543b86cb13d52e454157e56fc2974d2dd9f72",
+        "results\\top_guard_add_i8_fixed_lut_route\\output_paths_max.rpt": "bf2a5d2cb841213d8c6a1ad394c60e64419373369a7922be4f632f558283331c",
+        "results\\top_guard_add_i8_fixed_lut_route\\output_paths_min.rpt": "61d3735decb77c93b60f37c02b1ed0c6ffa0c79081d584115b25b837d0ad754c",
+        "results\\top_guard_add_i8_fixed_lut_route\\paths_max.rpt": "07f6ecd72a3975b5d3c063d0b8ffeed91eeade252b5df3106eb36ecabf42d4ea",
+        "results\\top_guard_add_i8_fixed_lut_route\\paths_min.rpt": "b82fad1a36d8c590a8ac867dee400a2039b2190f606ad9453d65c6b8d82336e9",
+        "results\\top_guard_add_i8_fixed_lut_route\\provenance.txt": "a489b574529e679c33689309b899f1acfcc5d87bdb5931045f2587c079847b85",
+        "results\\top_guard_add_i8_fixed_lut_route\\slack.txt": "ade6dfa44edaa458d0c66d7e6818b415792dbc3253910c2d946eb178f21cd41f",
+        "results\\top_guard_add_i8_fixed_lut_route\\slice_sites.txt": "cc9c9be216599809ec324912cede99c59c4555a5b11f70035fda78b908cdd520",
+        "results\\top_guard_add_i8_fixed_lut_route\\timing.rpt": "72cd5322040a4c5e8915dd4b5abf7ce026c0ea12c22e9fb757997ebff5cebdad",
+        "results\\top_guard_add_i8_fixed_lut_route\\util.rpt": "70e9b6b0fea34fa7e54989c38e38d7583b535c2d1c56b88514ef4f3fb8a82544"
+      },
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": true,
+      "resume_helper_sha256": "7b5717c3090184a7f44e061a1faf8e833c0642c99c93b5f0836edcbc51927c4f",
+      "resume_checkpoint_sha256": "acd96cbd47828da8506a34d5ea0837c5a2b6ea3820003bcbc336901b7ad2137e",
+      "seconds": 103.0,
+      "scope": "Resumed exact statically-I8 retimed fixed route from source/check-bound checkpoint; same 219-FF fixture, 6 ns, source pins and arithmetic contract; no power or board claim"
+    }
+  ],
+  "unchanged_reference_hardware": [
+    {
+      "top": "top_guard_add_selective_v2",
+      "engine": 2,
+      "variant": 2,
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 43,
+        "FF": 262,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 54,
+        "occupied_slices_reported": 54
+      },
+      "full_fixture": {
+        "LUT": 43,
+        "FF": 481,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 99
+      },
+      "current_contract": "signed8",
+      "shared_correction": false,
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 99,
+        "core_slices_touched": 54,
+        "fixture_slices_touched": 48,
+        "shared_slices": 3,
+        "core_exclusive_slices": 51,
+        "fixture_exclusive_slices": 45,
+        "core_primitive_cells": 325,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.141,
+      "WHS_ns": 0.13,
+      "boundary_WNS_ns": 1.75,
+      "boundary_WHS_ns": -1.146,
+      "source_sha256": {
+        "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+        "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+        "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+        "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "guard_add_selective_timing.sv": "d723a775f209968b58f658fab3b3f6367e627fab90a6048426ef7ed479c1b3c9",
+        "route_guard_add_selective.tcl": "a3bf48502d47127d286c37bb164bf3df7de1a623df3fefd5904e431a83dc2e3b",
+        "run_guard_add_selective_route.py": "f3c6f32cbffc7662970fa41b39bac5f0de00c1adacac7ed0d00477f6e2a02ae3"
+      },
+      "functional_check_sha256": {
+        "selective_main_p0_0_checks.json": "97b2e7100060c5178ffde9d87950bb68ffec93d1f2be953806b9a40c71687c29",
+        "selective_main_p0_1_checks.json": "0445ce01c3707ff4d26174a87faaace6ed9b07c62731e047ce3b32c8d5c23f9b",
+        "selective_main_p1_0_checks.json": "9aa53bd5cb31ba903e468cafbfb63e59c54875e2b91cbef74a89d34e5eeb510f",
+        "selective_main_p1_1_checks.json": "7800558e44bee3a495d798e39d434df8ffb853e25ad9dc7aede47f958177025a",
+        "selective_models_p0_0_checks.json": "afd3afb48510de91091f9a955eec2a6e66c00898464c8c37d18a958387aa53ef",
+        "selective_models_p0_1_checks.json": "f944e93873af6444e916936660d7e7e2a0941da8e2f49d130bb0034cc09e6627",
+        "selective_models_p1_0_checks.json": "b5e9a7f289925c37f67f0b3ecad3618145874f83914638ba173083ca2712cb96",
+        "selective_models_p1_1_checks.json": "58774a252bed512f92c0ed18b735538327e298ba0b72cddb7dd07c353932c321",
+        "selective_snn_checks.json": "0dd29497317dda454af07bfbec3ddb008432487c3a0293145c123142668dc8e2",
+        "screen_common_adaptation.py": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce",
+        "common_adaptation_policy_results.json": "8943e520bf76fe5eb5f0d15dd90d1508126223d8924791d192c54bcea262c4a8",
+        "common_i8_current_bounds.json": "56e7108c543591468036defcdde54eb6189a064264396d8d4a5a05fe24f7c0ec",
+        "CONTRACT.md": "c63e56991f827f71d92ba55e3a1e400f946f1d6fb408bf73070db94495967a25",
+        "../results/model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+        "../results/model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+        "../results/model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa",
+        "../audit_adaptive_delta_bounds.py": "e4ab401668619e80396efb97a540598e25816964a303e61267a08626354a5dfb",
+        "../results/adaptive_delta_model_bounds.json": "eca46bce9aaaa9e7bb0da4d7a8cdf11097a8243e1be9e17e4cfea303e8092ae7"
+      },
+      "provenance_sha256": "8f35266bd285139ad4f700204a22b9024e6492ef7363de7e76561c833111d691",
+      "route_artifact_sha256": {
+        "results\\top_guard_add_selective_v2_synth\\design.dcp": "ef02e2387e3c751b766aa8d9a24221eb2582a44afb44a4749f50b9a227bc6cdc",
+        "results\\top_guard_add_selective_v2_synth\\hierarchical_util.rpt": "35128111f3ee0cbe698bd4f2ba2425917827b96734bb57f12a02267d4e0aa0a5",
+        "results\\top_guard_add_selective_v2_synth\\provenance.txt": "5f953158e6ba6ed98023e30fdb6a4dd6f9137c5e61030d80679779faca30543b",
+        "results\\top_guard_add_selective_v2_synth\\util.rpt": "a4e4343e5905077e9072ffb42eea9c393f520747b3cc61479f9bcd4fcfa03ed9",
+        "results\\top_guard_add_selective_v2_route\\boundary_slack.txt": "bc20390e987aaf64643d60de6e212a024bc1ec142de595b422c04cf9bb369ad0",
+        "results\\top_guard_add_selective_v2_route\\boundary_timing.rpt": "afb3844e7727d7791052aad98f730dc81586c74126f4390a057027db991820c3",
+        "results\\top_guard_add_selective_v2_route\\capture_paths_max.rpt": "1c51760ab1592662a1ae1fed6a50f8e61cfddd345f233e7c115ad243887369c2",
+        "results\\top_guard_add_selective_v2_route\\capture_paths_min.rpt": "d32149f346b23e894aa547f1aafb89372defa485cde3996fc4c6d9180e4093c1",
+        "results\\top_guard_add_selective_v2_route\\core_util.rpt": "53f44aadc08a894e7df1676cecb9044da9d2e55a5d2991956fcc3954171c68a6",
+        "results\\top_guard_add_selective_v2_route\\design.dcp": "43edfc647d9d2b1e1bfb9a84bd8eb044f9406fab036ed5824e838904a6a252f1",
+        "results\\top_guard_add_selective_v2_route\\fixture_accounting.txt": "b6445be4aac58745677fae7a6d5f342fd409bcb22f817a4c72569ce37678faf1",
+        "results\\top_guard_add_selective_v2_route\\hierarchical_util.rpt": "28234a204d95b005dcefdf26ba8d45ef822098aba831f7dcf781d34db5719cfa",
+        "results\\top_guard_add_selective_v2_route\\input_paths_max.rpt": "57a6fd677d4e103d5a1490c69b240e2af0a8fd7671dbc9608bbd0b4268f18c82",
+        "results\\top_guard_add_selective_v2_route\\input_paths_min.rpt": "ab8deadefa7bf3df8d9895e8b3a8f7e9ab66c3c7edb9b53da4e9eaa87dd24419",
+        "results\\top_guard_add_selective_v2_route\\launch_paths_max.rpt": "d7fe62f403252a14d6ef16ff79ca5aeb4d40d98b4ebc5b87f7746aec12aa8718",
+        "results\\top_guard_add_selective_v2_route\\launch_paths_min.rpt": "1dbc1323e8dfc386104eef13dcd87fa345fbf9f14f99438da0fcb22cff680b73",
+        "results\\top_guard_add_selective_v2_route\\output_paths_max.rpt": "111c345f8d18fb841ce3a941fe06857e92843dba040d24d66764f42a064e3a56",
+        "results\\top_guard_add_selective_v2_route\\output_paths_min.rpt": "11928cb1f1a5038475132ba3540bdb097c0510875f575b96749bd485ba1e95c6",
+        "results\\top_guard_add_selective_v2_route\\paths_max.rpt": "fa1ba4e4f9d504944cca65155a011888be740654696c30fca626a8a314cb2ae0",
+        "results\\top_guard_add_selective_v2_route\\paths_min.rpt": "9b19679a65018d55880ead61cb8d3cae0804eb6aa56785d1d94d2c8bec1be1fb",
+        "results\\top_guard_add_selective_v2_route\\provenance.txt": "77171e687c9bb9e5cf262e407ddab502197b0deb22645d11b2f990c9aed3035a",
+        "results\\top_guard_add_selective_v2_route\\slack.txt": "028aa40d35dc11e793c0949fa34321077f6e103ffee13c0b45675b013922a5b1",
+        "results\\top_guard_add_selective_v2_route\\slice_sites.txt": "e26e2650ed182d85c87c60a949c17e757499678a16cbca33d284fbe4d6e66c65",
+        "results\\top_guard_add_selective_v2_route\\timing.rpt": "72c81c8c9a5577e0a92de0a584ec7494da68a6d86b0e95aa8f0ee018b303328c",
+        "results\\top_guard_add_selective_v2_route\\util.rpt": "d19cb5f0359231ce97940a8e8286a0c03b362db75282e765d579abf42b599e2d"
+      },
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 260.5,
+      "scope": "Exact fixed or selective high-part correction in matched 219-FF registered OOC fixture; immutable six-lane DSP layout, four preceding pipeline advances; shared variants may add physical correction-freeze clocks; no board, memory, power or complete neuron-update measurement"
+    },
+    {
+      "top": "top_guard_add_selective_v3",
+      "engine": 3,
+      "variant": 3,
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 147,
+        "FF": 268,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 68,
+        "occupied_slices_reported": 68
+      },
+      "full_fixture": {
+        "LUT": 147,
+        "FF": 487,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 108
+      },
+      "current_contract": "signed8",
+      "shared_correction": true,
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 108,
+        "core_slices_touched": 68,
+        "fixture_slices_touched": 47,
+        "shared_slices": 7,
+        "core_exclusive_slices": 61,
+        "fixture_exclusive_slices": 40,
+        "core_primitive_cells": 455,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 0.108,
+      "WHS_ns": 0.132,
+      "boundary_WNS_ns": 0.108,
+      "boundary_WHS_ns": -1.072,
+      "source_sha256": {
+        "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+        "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+        "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+        "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "guard_add_selective_timing.sv": "d723a775f209968b58f658fab3b3f6367e627fab90a6048426ef7ed479c1b3c9",
+        "route_guard_add_selective.tcl": "a3bf48502d47127d286c37bb164bf3df7de1a623df3fefd5904e431a83dc2e3b",
+        "run_guard_add_selective_route.py": "f3c6f32cbffc7662970fa41b39bac5f0de00c1adacac7ed0d00477f6e2a02ae3"
+      },
+      "functional_check_sha256": {
+        "selective_main_p0_0_checks.json": "97b2e7100060c5178ffde9d87950bb68ffec93d1f2be953806b9a40c71687c29",
+        "selective_main_p0_1_checks.json": "0445ce01c3707ff4d26174a87faaace6ed9b07c62731e047ce3b32c8d5c23f9b",
+        "selective_main_p1_0_checks.json": "9aa53bd5cb31ba903e468cafbfb63e59c54875e2b91cbef74a89d34e5eeb510f",
+        "selective_main_p1_1_checks.json": "7800558e44bee3a495d798e39d434df8ffb853e25ad9dc7aede47f958177025a",
+        "selective_models_p0_0_checks.json": "afd3afb48510de91091f9a955eec2a6e66c00898464c8c37d18a958387aa53ef",
+        "selective_models_p0_1_checks.json": "f944e93873af6444e916936660d7e7e2a0941da8e2f49d130bb0034cc09e6627",
+        "selective_models_p1_0_checks.json": "b5e9a7f289925c37f67f0b3ecad3618145874f83914638ba173083ca2712cb96",
+        "selective_models_p1_1_checks.json": "58774a252bed512f92c0ed18b735538327e298ba0b72cddb7dd07c353932c321",
+        "selective_snn_checks.json": "0dd29497317dda454af07bfbec3ddb008432487c3a0293145c123142668dc8e2",
+        "screen_common_adaptation.py": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce",
+        "common_adaptation_policy_results.json": "8943e520bf76fe5eb5f0d15dd90d1508126223d8924791d192c54bcea262c4a8",
+        "common_i8_current_bounds.json": "56e7108c543591468036defcdde54eb6189a064264396d8d4a5a05fe24f7c0ec",
+        "CONTRACT.md": "c63e56991f827f71d92ba55e3a1e400f946f1d6fb408bf73070db94495967a25",
+        "../results/model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+        "../results/model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+        "../results/model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa",
+        "../audit_adaptive_delta_bounds.py": "e4ab401668619e80396efb97a540598e25816964a303e61267a08626354a5dfb",
+        "../results/adaptive_delta_model_bounds.json": "eca46bce9aaaa9e7bb0da4d7a8cdf11097a8243e1be9e17e4cfea303e8092ae7"
+      },
+      "provenance_sha256": "87a35cf5b1c25bf4ae7fdac83a617cddc3335c9b0f9ece9a33735539e8355f39",
+      "route_artifact_sha256": {
+        "results\\top_guard_add_selective_v3_synth\\design.dcp": "a840e7f0af2258f1516af88b12b0d33a76de558aa56a39de66554caf149fcb7c",
+        "results\\top_guard_add_selective_v3_synth\\hierarchical_util.rpt": "b7513387b516f7099ce28664e4a639ff424653458b979bcae4b8034c6638dbf9",
+        "results\\top_guard_add_selective_v3_synth\\provenance.txt": "75f9d1c586e23999c43a7ba413478b2100a54baaa4bfadacc0064da853d26e1c",
+        "results\\top_guard_add_selective_v3_synth\\util.rpt": "5ac72cc053490fa96c2ec094fdd761fcb6addfd176f21bd92747523da428a8c8",
+        "results\\top_guard_add_selective_v3_route\\boundary_slack.txt": "19834cd4ac377faf5693e4890801630fdcc408ecf89c74bd143a49b99bb1ef5f",
+        "results\\top_guard_add_selective_v3_route\\boundary_timing.rpt": "464dfa62d797951f316a7f25b12c202502565cf05d2adc03d310ba1cdf204c58",
+        "results\\top_guard_add_selective_v3_route\\capture_paths_max.rpt": "fa69522394875d539186ed9882efef8db06af6cac50371e75a8bb4ec4f83aacb",
+        "results\\top_guard_add_selective_v3_route\\capture_paths_min.rpt": "2ffb438ab5baa3bef49015738111c1de326730e389a366dde0047b170f0cd906",
+        "results\\top_guard_add_selective_v3_route\\core_util.rpt": "5c657bc3d89a31bee96ccef0f24ed6753f9597713a709ea461c5b26b6f33bb55",
+        "results\\top_guard_add_selective_v3_route\\design.dcp": "4dbafa3f4e40c469f39d73e2c587a96c3c1719880052f2b01cc2f1afc2655b1f",
+        "results\\top_guard_add_selective_v3_route\\fixture_accounting.txt": "bd7749f86e866ab505138c49b848c99241c85153e62520b06866249e66cda414",
+        "results\\top_guard_add_selective_v3_route\\hierarchical_util.rpt": "27fa51c48c74763141bde8b37963c34a1b0cee23f5cda2617ff1e9e3034c9dfe",
+        "results\\top_guard_add_selective_v3_route\\input_paths_max.rpt": "7bb97e0f6d7021f1c3135b7231b141370b72995a0e74fb55b71d72d1f9076ab1",
+        "results\\top_guard_add_selective_v3_route\\input_paths_min.rpt": "65f384af60a65513c45753019960bcb14ca043a079f7f0089aa54a6d52e0c7e6",
+        "results\\top_guard_add_selective_v3_route\\launch_paths_max.rpt": "c74b771c119a4d5c05ef854166ddaa73886dac10c6c174c42fa2828f9d366e9a",
+        "results\\top_guard_add_selective_v3_route\\launch_paths_min.rpt": "f227068e6402a26a3049a2ab4729f5731b359d401c152b56cdc4b41b5782f2ab",
+        "results\\top_guard_add_selective_v3_route\\output_paths_max.rpt": "f9498c2ceeca0baa677410821181b487c2c40e4f789029740379fc8aab37c362",
+        "results\\top_guard_add_selective_v3_route\\output_paths_min.rpt": "ad697308750c1929c37d11ecab1a0abd47e33ed5067921a11f2ff53504748e72",
+        "results\\top_guard_add_selective_v3_route\\paths_max.rpt": "19f22bb6770d97f9244ab9f839d9e360a510f7804185e03eed1714e42a3bbc04",
+        "results\\top_guard_add_selective_v3_route\\paths_min.rpt": "c45f177ddc0f59283c0c4481f870abd4a2829b6efdc7d880b595c9b30be5e1dd",
+        "results\\top_guard_add_selective_v3_route\\provenance.txt": "f2210f6db10835b4872d283594e1c0a12959c4e43175164405386c3cf502c62e",
+        "results\\top_guard_add_selective_v3_route\\slack.txt": "464ed1a534f22be98cff1164076afdc35b9b544a33734158a3c13b451a291fd8",
+        "results\\top_guard_add_selective_v3_route\\slice_sites.txt": "0aef8a0664d8e26a82e073ecde3fc6e26b40e3bfaad2501c208a7af04d2c1119",
+        "results\\top_guard_add_selective_v3_route\\timing.rpt": "267d93406a550635980ff71c3e6107bf895a129e940a7fe433e2ec67ba1803b6",
+        "results\\top_guard_add_selective_v3_route\\util.rpt": "66bf69f23bf4f4170920748d0ec97cf6773cc2d97dfe32711920ee9241ec6732"
+      },
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 323.5,
+      "scope": "Exact fixed or selective high-part correction in matched 219-FF registered OOC fixture; immutable six-lane DSP layout, four preceding pipeline advances; shared variants may add physical correction-freeze clocks; no board, memory, power or complete neuron-update measurement"
+    }
+  ],
+  "model_rows": [
+    {
+      "variant": 0,
+      "label": "matched_i8_hybrid_E2",
+      "core_engine": 2,
+      "reference_core_variant": null,
+      "reference_engine": null,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    },
+    {
+      "variant": 1,
+      "label": "matched_i8_all_LUT_E3",
+      "core_engine": 3,
+      "reference_core_variant": null,
+      "reference_engine": null,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 0,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    },
+    {
+      "variant": 2,
+      "label": "frozen_i8_fixed_residue_V2",
+      "core_engine": null,
+      "reference_core_variant": 2,
+      "reference_engine": null,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    },
+    {
+      "variant": 3,
+      "label": "frozen_full_i11_retimed_hybrid_E2",
+      "core_engine": null,
+      "reference_core_variant": null,
+      "reference_engine": 2,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    }
+  ],
+  "suites": {
+    "i8_fixed_main_0_checks.json": {
+      "source_hashes": {
+        "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+        "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+        "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+        "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "frozen_source_sha256": {
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "profile": 1,
+      "backpressure": false,
+      "frames": 128148,
+      "rows": [
+        {
+          "variant": 0,
+          "label": "matched_i8_hybrid_E2",
+          "core_engine": 2,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 136591,
+          "clocks": 137454,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 136591
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "69ed4f5ae95771921a98882bddb89370dcb23e39c3efff8fd849cd6054f306da",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        },
+        {
+          "variant": 1,
+          "label": "matched_i8_all_LUT_E3",
+          "core_engine": 3,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 0,
+          "clocks": 137454,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 136591
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "69ed4f5ae95771921a98882bddb89370dcb23e39c3efff8fd849cd6054f306da",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        },
+        {
+          "variant": 2,
+          "label": "frozen_i8_fixed_residue_V2",
+          "core_engine": null,
+          "reference_core_variant": 2,
+          "reference_engine": null,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 136591,
+          "clocks": 137454,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 136591
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "69ed4f5ae95771921a98882bddb89370dcb23e39c3efff8fd849cd6054f306da",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        },
+        {
+          "variant": 3,
+          "label": "frozen_full_i11_retimed_hybrid_E2",
+          "core_engine": null,
+          "reference_core_variant": null,
+          "reference_engine": 2,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 136591,
+          "clocks": 137454,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 136591
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "69ed4f5ae95771921a98882bddb89370dcb23e39c3efff8fd849cd6054f306da",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        }
+      ],
+      "stimulus_sha256": "f3c252056f011b7eda58e5bbeda942844a3afebd8a4db00af19188783adfe0cd",
+      "stimulus_file": "i8_fixed_main_0/stream_stim.txt",
+      "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_0\\stream_stim.txt",
+      "original_stimulus_sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7",
+      "source_frames_match_original_archive": true,
+      "matched_original_stimulus": false,
+      "archive_reference": {
+        "check_file": "common_layout_trial\\results\\selective_main_p1_0_checks.json",
+        "check_sha256": "9aa53bd5cb31ba903e468cafbfb63e59c54875e2b91cbef74a89d34e5eeb510f",
+        "stimulus_file": "common_layout_trial\\results\\selective_main_p1_0\\stream_stim.txt",
+        "stimulus_sha256": "f3c252056f011b7eda58e5bbeda942844a3afebd8a4db00af19188783adfe0cd",
+        "output_file": "common_layout_trial\\results\\selective_main_p1_0\\stream_out0.txt",
+        "output_sha256": "69ed4f5ae95771921a98882bddb89370dcb23e39c3efff8fd849cd6054f306da",
+        "source_hashes": {
+          "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+          "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+          "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+          "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+          "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+          "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+          "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+          "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+        },
+        "local_variant": 0,
+        "frozen_core_variant": 2
+      },
+      "matched_archived_fixed_retirement": true,
+      "stress_current_transform": "signed8((I+128)%256-128)",
+      "fixed_outputs_byte_identical": true,
+      "outputs_byte_identical": true,
+      "numeric_outputs_order_identical": true,
+      "physical_clock_columns_identical": true,
+      "tested_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tested_core_engines": [
+        2,
+        3
+      ],
+      "model_input_sha256": null,
+      "model_input_base": "../results",
+      "validation_kind": "full_integer_stress",
+      "source_contract": "valid and entire raw payload held until acceptance; only available currents signed8; ignored binary tails arbitrary; input valid low during reset",
+      "operand_domain": "signed11 U, sign-extended signed8 I",
+      "acceptance_to_handshake_preceding_advances": 4,
+      "advance_convention": "Pre-edge step stored at acceptance; acceptance edge counted, handshake edge not yet counted.",
+      "integer_operation": "exact signed12 U+I",
+      "reference_variants": [
+        2,
+        3
+      ],
+      "reference_operation": "Direct frozen guard_add_selective V2 and guard_add_retime E2, plus archived selective profile1 fixed V2 retirement bytes",
+      "directed_prelude": [
+        "12 exact extrema/tail cases",
+        "stalled completed output held",
+        "zero available creates no output",
+        "reset cancels stalled output",
+        "reset cancels unfinished pipeline"
+      ],
+      "scope": "Matched fixed exact addition; physical service clocks measured in RTL; no memory, power, board or trained-accuracy claim"
+    },
+    "i8_fixed_main_1_checks.json": {
+      "source_hashes": {
+        "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+        "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+        "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+        "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "frozen_source_sha256": {
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "profile": 1,
+      "backpressure": true,
+      "frames": 128148,
+      "rows": [
+        {
+          "variant": 0,
+          "label": "matched_i8_hybrid_E2",
+          "core_engine": 2,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 136591,
+          "clocks": 187826,
+          "input_stall_checks": 39285,
+          "output_stall_checks": 41305,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 58026,
+            "5": 18107,
+            "6": 43934,
+            "7": 16524
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "1346830a182a95afc66866d27071f443734f5398b04097c3cbde7047aaa396ee",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        },
+        {
+          "variant": 1,
+          "label": "matched_i8_all_LUT_E3",
+          "core_engine": 3,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 0,
+          "clocks": 187826,
+          "input_stall_checks": 39285,
+          "output_stall_checks": 41305,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 58026,
+            "5": 18107,
+            "6": 43934,
+            "7": 16524
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "1346830a182a95afc66866d27071f443734f5398b04097c3cbde7047aaa396ee",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        },
+        {
+          "variant": 2,
+          "label": "frozen_i8_fixed_residue_V2",
+          "core_engine": null,
+          "reference_core_variant": 2,
+          "reference_engine": null,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 136591,
+          "clocks": 187826,
+          "input_stall_checks": 39285,
+          "output_stall_checks": 41305,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 58026,
+            "5": 18107,
+            "6": 43934,
+            "7": 16524
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "1346830a182a95afc66866d27071f443734f5398b04097c3cbde7047aaa396ee",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        },
+        {
+          "variant": 3,
+          "label": "frozen_full_i11_retimed_hybrid_E2",
+          "core_engine": null,
+          "reference_core_variant": null,
+          "reference_engine": 2,
+          "requests": 136591,
+          "neurons": 811511,
+          "arithmetic_issues": 136591,
+          "clocks": 187826,
+          "input_stall_checks": 39285,
+          "output_stall_checks": 41305,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 136591,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 58026,
+            "5": 18107,
+            "6": 43934,
+            "7": 16524
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "1346830a182a95afc66866d27071f443734f5398b04097c3cbde7047aaa396ee",
+          "numeric_retirement_sha256": "94a524d2ddedf529312e92c772f0202c47f0d28ad36ad3ed592e50cdb4cb6d3f"
+        }
+      ],
+      "stimulus_sha256": "f3c252056f011b7eda58e5bbeda942844a3afebd8a4db00af19188783adfe0cd",
+      "stimulus_file": "i8_fixed_main_1/stream_stim.txt",
+      "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_main_1\\stream_stim.txt",
+      "original_stimulus_sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7",
+      "source_frames_match_original_archive": true,
+      "matched_original_stimulus": false,
+      "archive_reference": {
+        "check_file": "common_layout_trial\\results\\selective_main_p1_1_checks.json",
+        "check_sha256": "7800558e44bee3a495d798e39d434df8ffb853e25ad9dc7aede47f958177025a",
+        "stimulus_file": "common_layout_trial\\results\\selective_main_p1_1\\stream_stim.txt",
+        "stimulus_sha256": "f3c252056f011b7eda58e5bbeda942844a3afebd8a4db00af19188783adfe0cd",
+        "output_file": "common_layout_trial\\results\\selective_main_p1_1\\stream_out0.txt",
+        "output_sha256": "1346830a182a95afc66866d27071f443734f5398b04097c3cbde7047aaa396ee",
+        "source_hashes": {
+          "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+          "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+          "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+          "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+          "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+          "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+          "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+          "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+        },
+        "local_variant": 0,
+        "frozen_core_variant": 2
+      },
+      "matched_archived_fixed_retirement": true,
+      "stress_current_transform": "signed8((I+128)%256-128)",
+      "fixed_outputs_byte_identical": true,
+      "outputs_byte_identical": true,
+      "numeric_outputs_order_identical": true,
+      "physical_clock_columns_identical": true,
+      "tested_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tested_core_engines": [
+        2,
+        3
+      ],
+      "model_input_sha256": null,
+      "model_input_base": "../results",
+      "validation_kind": "full_integer_stress",
+      "source_contract": "valid and entire raw payload held until acceptance; only available currents signed8; ignored binary tails arbitrary; input valid low during reset",
+      "operand_domain": "signed11 U, sign-extended signed8 I",
+      "acceptance_to_handshake_preceding_advances": 4,
+      "advance_convention": "Pre-edge step stored at acceptance; acceptance edge counted, handshake edge not yet counted.",
+      "integer_operation": "exact signed12 U+I",
+      "reference_variants": [
+        2,
+        3
+      ],
+      "reference_operation": "Direct frozen guard_add_selective V2 and guard_add_retime E2, plus archived selective profile1 fixed V2 retirement bytes",
+      "directed_prelude": [
+        "12 exact extrema/tail cases",
+        "stalled completed output held",
+        "zero available creates no output",
+        "reset cancels stalled output",
+        "reset cancels unfinished pipeline"
+      ],
+      "scope": "Matched fixed exact addition; physical service clocks measured in RTL; no memory, power, board or trained-accuracy claim"
+    },
+    "i8_fixed_models_0_checks.json": {
+      "source_hashes": {
+        "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+        "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+        "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+        "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "frozen_source_sha256": {
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "profile": 1,
+      "backpressure": false,
+      "frames": 9216,
+      "rows": [
+        {
+          "variant": 0,
+          "label": "matched_i8_hybrid_E2",
+          "core_engine": 2,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 110592,
+          "clocks": 110596,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 110592
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        },
+        {
+          "variant": 1,
+          "label": "matched_i8_all_LUT_E3",
+          "core_engine": 3,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 0,
+          "clocks": 110596,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 110592
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        },
+        {
+          "variant": 2,
+          "label": "frozen_i8_fixed_residue_V2",
+          "core_engine": null,
+          "reference_core_variant": 2,
+          "reference_engine": null,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 110592,
+          "clocks": 110596,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 110592
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        },
+        {
+          "variant": 3,
+          "label": "frozen_full_i11_retimed_hybrid_E2",
+          "core_engine": null,
+          "reference_core_variant": null,
+          "reference_engine": 2,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 110592,
+          "clocks": 110596,
+          "input_stall_checks": 0,
+          "output_stall_checks": 0,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 4,
+          "physical_latency_histogram": {
+            "4": 110592
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        }
+      ],
+      "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+      "stimulus_file": "i8_fixed_models_0/stream_stim.txt",
+      "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\stream_stim.txt",
+      "original_stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+      "source_frames_match_original_archive": true,
+      "matched_original_stimulus": true,
+      "archive_reference": {
+        "check_file": "common_layout_trial\\results\\selective_models_p1_0_checks.json",
+        "check_sha256": "b5e9a7f289925c37f67f0b3ecad3618145874f83914638ba173083ca2712cb96",
+        "stimulus_file": "common_layout_trial\\results\\selective_models_p1_0\\stream_stim.txt",
+        "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+        "output_file": "common_layout_trial\\results\\selective_models_p1_0\\stream_out0.txt",
+        "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+        "source_hashes": {
+          "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+          "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+          "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+          "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+          "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+          "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+          "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+          "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+        },
+        "local_variant": 0,
+        "frozen_core_variant": 2
+      },
+      "matched_archived_fixed_retirement": true,
+      "stress_current_transform": "identity",
+      "fixed_outputs_byte_identical": true,
+      "outputs_byte_identical": true,
+      "numeric_outputs_order_identical": true,
+      "physical_clock_columns_identical": true,
+      "tested_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tested_core_engines": [
+        2,
+        3
+      ],
+      "model_input_sha256": {
+        "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+        "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+      },
+      "model_input_base": "../results",
+      "validation_kind": "saved_model_addition_replay",
+      "source_contract": "valid and entire raw payload held until acceptance; only available currents signed8; ignored binary tails arbitrary; input valid low during reset",
+      "operand_domain": "signed11 U, sign-extended signed8 I",
+      "acceptance_to_handshake_preceding_advances": 4,
+      "advance_convention": "Pre-edge step stored at acceptance; acceptance edge counted, handshake edge not yet counted.",
+      "integer_operation": "exact signed12 U+I",
+      "reference_variants": [
+        2,
+        3
+      ],
+      "reference_operation": "Direct frozen guard_add_selective V2 and guard_add_retime E2, plus archived selective profile1 fixed V2 retirement bytes",
+      "directed_prelude": [
+        "12 exact extrema/tail cases",
+        "stalled completed output held",
+        "zero available creates no output",
+        "reset cancels stalled output",
+        "reset cancels unfinished pipeline"
+      ],
+      "scope": "Matched fixed exact addition; physical service clocks measured in RTL; no memory, power, board or trained-accuracy claim"
+    },
+    "i8_fixed_models_1_checks.json": {
+      "source_hashes": {
+        "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+        "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+        "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+        "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "frozen_source_sha256": {
+        "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+        "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+        "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+      },
+      "profile": 1,
+      "backpressure": true,
+      "frames": 9216,
+      "rows": [
+        {
+          "variant": 0,
+          "label": "matched_i8_hybrid_E2",
+          "core_engine": 2,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 110592,
+          "clocks": 151549,
+          "input_stall_checks": 31977,
+          "output_stall_checks": 33471,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 46823,
+            "5": 14589,
+            "6": 35725,
+            "7": 13455
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        },
+        {
+          "variant": 1,
+          "label": "matched_i8_all_LUT_E3",
+          "core_engine": 3,
+          "reference_core_variant": null,
+          "reference_engine": null,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 0,
+          "clocks": 151549,
+          "input_stall_checks": 31977,
+          "output_stall_checks": 33471,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 46823,
+            "5": 14589,
+            "6": 35725,
+            "7": 13455
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        },
+        {
+          "variant": 2,
+          "label": "frozen_i8_fixed_residue_V2",
+          "core_engine": null,
+          "reference_core_variant": 2,
+          "reference_engine": null,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 110592,
+          "clocks": 151549,
+          "input_stall_checks": 31977,
+          "output_stall_checks": 33471,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 46823,
+            "5": 14589,
+            "6": 35725,
+            "7": 13455
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        },
+        {
+          "variant": 3,
+          "label": "frozen_full_i11_retimed_hybrid_E2",
+          "core_engine": null,
+          "reference_core_variant": null,
+          "reference_engine": 2,
+          "requests": 110592,
+          "neurons": 635904,
+          "arithmetic_issues": 110592,
+          "clocks": 151549,
+          "input_stall_checks": 31977,
+          "output_stall_checks": 33471,
+          "correction_freezes": 0,
+          "correction_steps": 0,
+          "latency_checks": 110592,
+          "physical_latency_min": 4,
+          "physical_latency_max": 7,
+          "physical_latency_histogram": {
+            "4": 46823,
+            "5": 14589,
+            "6": 35725,
+            "7": 13455
+          },
+          "directed_boundary_cases": 12,
+          "mismatches": 0,
+          "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+          "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+        }
+      ],
+      "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+      "stimulus_file": "i8_fixed_models_1/stream_stim.txt",
+      "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_1\\stream_stim.txt",
+      "original_stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+      "source_frames_match_original_archive": true,
+      "matched_original_stimulus": true,
+      "archive_reference": {
+        "check_file": "common_layout_trial\\results\\selective_models_p1_1_checks.json",
+        "check_sha256": "58774a252bed512f92c0ed18b735538327e298ba0b72cddb7dd07c353932c321",
+        "stimulus_file": "common_layout_trial\\results\\selective_models_p1_1\\stream_stim.txt",
+        "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+        "output_file": "common_layout_trial\\results\\selective_models_p1_1\\stream_out0.txt",
+        "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+        "source_hashes": {
+          "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+          "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+          "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+          "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+          "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+          "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+          "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+          "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+        },
+        "local_variant": 0,
+        "frozen_core_variant": 2
+      },
+      "matched_archived_fixed_retirement": true,
+      "stress_current_transform": "identity",
+      "fixed_outputs_byte_identical": true,
+      "outputs_byte_identical": true,
+      "numeric_outputs_order_identical": true,
+      "physical_clock_columns_identical": true,
+      "tested_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_variants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tested_core_engines": [
+        2,
+        3
+      ],
+      "model_input_sha256": {
+        "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+        "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+      },
+      "model_input_base": "../results",
+      "validation_kind": "saved_model_addition_replay",
+      "source_contract": "valid and entire raw payload held until acceptance; only available currents signed8; ignored binary tails arbitrary; input valid low during reset",
+      "operand_domain": "signed11 U, sign-extended signed8 I",
+      "acceptance_to_handshake_preceding_advances": 4,
+      "advance_convention": "Pre-edge step stored at acceptance; acceptance edge counted, handshake edge not yet counted.",
+      "integer_operation": "exact signed12 U+I",
+      "reference_variants": [
+        2,
+        3
+      ],
+      "reference_operation": "Direct frozen guard_add_selective V2 and guard_add_retime E2, plus archived selective profile1 fixed V2 retirement bytes",
+      "directed_prelude": [
+        "12 exact extrema/tail cases",
+        "stalled completed output held",
+        "zero available creates no output",
+        "reset cancels stalled output",
+        "reset cancels unfinished pipeline"
+      ],
+      "scope": "Matched fixed exact addition; physical service clocks measured in RTL; no memory, power, board or trained-accuracy claim"
+    }
+  },
+  "snn": {
+    "source_hashes": {
+      "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+      "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+      "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+      "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+      "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+      "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+      "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+      "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+    },
+    "reconstruction_script_sha256": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+    "functional_check_sha256": {
+      "i8_fixed_models_0_checks.json": "0e630bd70b41e105fd667e50bce26741245c264a746dd5a4c5b2649d346633b0",
+      "i8_fixed_models_1_checks.json": "0156998d3ba9a0c398276457b0f88b4322f88864e55216a509e5f166dd1e9cd4"
+    },
+    "reference_hashes": {
+      "ledger": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3",
+      "raw_membranes": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+    },
+    "model_input_sha256": {
+      "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+      "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+    },
+    "archive_references": {
+      "0": {
+        "check_file": "common_layout_trial\\results\\selective_models_p1_0_checks.json",
+        "check_sha256": "b5e9a7f289925c37f67f0b3ecad3618145874f83914638ba173083ca2712cb96",
+        "stimulus_file": "common_layout_trial\\results\\selective_models_p1_0\\stream_stim.txt",
+        "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+        "output_file": "common_layout_trial\\results\\selective_models_p1_0\\stream_out0.txt",
+        "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+        "source_hashes": {
+          "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+          "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+          "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+          "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+          "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+          "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+          "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+          "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+        },
+        "local_variant": 0,
+        "frozen_core_variant": 2
+      },
+      "1": {
+        "check_file": "common_layout_trial\\results\\selective_models_p1_1_checks.json",
+        "check_sha256": "58774a252bed512f92c0ed18b735538327e298ba0b72cddb7dd07c353932c321",
+        "stimulus_file": "common_layout_trial\\results\\selective_models_p1_1\\stream_stim.txt",
+        "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+        "output_file": "common_layout_trial\\results\\selective_models_p1_1\\stream_out0.txt",
+        "output_sha256": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+        "source_hashes": {
+          "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+          "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+          "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+          "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+          "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+          "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+          "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+          "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+        },
+        "local_variant": 0,
+        "frozen_core_variant": 2
+      }
+    },
+    "output_hashes": {
+      "results\\i8_fixed_models_0\\stream_out0.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "results\\i8_fixed_models_0\\stream_out1.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "results\\i8_fixed_models_0\\stream_out2.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "results\\i8_fixed_models_0\\stream_out3.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "results\\i8_fixed_models_1\\stream_out0.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+      "results\\i8_fixed_models_1\\stream_out1.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+      "results\\i8_fixed_models_1\\stream_out2.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d",
+      "results\\i8_fixed_models_1\\stream_out3.txt": "0038519d35146ee67cae44a8c380940071e9427ff9be286700ffa5b30701222d"
+    },
+    "rows": [
+      {
+        "variant": 0,
+        "label": "matched_i8_hybrid_E2",
+        "backpressure": false,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      },
+      {
+        "variant": 1,
+        "label": "matched_i8_all_LUT_E3",
+        "backpressure": false,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      },
+      {
+        "variant": 2,
+        "label": "frozen_i8_fixed_residue_V2",
+        "backpressure": false,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      },
+      {
+        "variant": 3,
+        "label": "frozen_full_i11_retimed_hybrid_E2",
+        "backpressure": false,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      },
+      {
+        "variant": 0,
+        "label": "matched_i8_hybrid_E2",
+        "backpressure": true,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      },
+      {
+        "variant": 1,
+        "label": "matched_i8_all_LUT_E3",
+        "backpressure": true,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      },
+      {
+        "variant": 2,
+        "label": "frozen_i8_fixed_residue_V2",
+        "backpressure": true,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      },
+      {
+        "variant": 3,
+        "label": "frozen_full_i11_retimed_hybrid_E2",
+        "backpressure": true,
+        "neurons": 635904,
+        "state_mismatches": 0,
+        "spike_mismatches": 0,
+        "spike_counts_matched": true,
+        "classifications_matched": true,
+        "model_rows": [
+          {
+            "seed": 0,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9375,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 1,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9583333333333334,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          },
+          {
+            "seed": 2,
+            "images": 48,
+            "sampled_integer_reference_accuracy": 0.9791666666666666,
+            "spike_counts_matched": true,
+            "classifications_matched": true
+          }
+        ]
+      }
+    ],
+    "tested_variants": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tested_profiles": [
+      1
+    ],
+    "tested_core_engines": [
+      2,
+      3
+    ],
+    "scope": "Python leakage, matched fixed RTL exact U+I outputs, Python threshold/subtractive-reset replay",
+    "limitations": [
+      "Saved beta231 reference; original trained leakage was changed.",
+      "144 sampled images across three saved seeds; no new training or downloads.",
+      "Declared current8 profile verified for valid model currents; ignored binary tails may be arbitrary.",
+      "No memory supply, power, host, board or complete SNN RTL result.",
+      "No preservation claim for original trained-model accuracy."
+    ]
+  },
+  "checked_scalar_outputs": 11579320,
+  "saved_snn_replays": 8,
+  "input_domain": "signed11 U + sign-extended signed8 I -> exact signed12 sum",
+  "stress_transformation": "same archived profile1 modular signed8-current projection",
+  "saved_model_operands_changed": false,
+  "current_certificate": {
+    "created_utc": "2026-10-09T18:06:25.798195+00:00",
+    "script_sha256": "8883198e0588a40e0fe5800c7484e94be63d5ee048d08e9d835b28b5037cb3ce",
+    "model_input_sha256": {
+      "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+      "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+    },
+    "weight_files_sha256": {
+      "model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+      "model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+      "model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+    },
+    "rows": [
+      {
+        "seed": 0,
+        "layer": 0,
+        "inputs": 64,
+        "outputs": 128,
+        "minimum_current": -49,
+        "maximum_current": 51,
+        "all_neuron_binary_spike_currents_fit_signed8": true
+      },
+      {
+        "seed": 0,
+        "layer": 1,
+        "inputs": 128,
+        "outputs": 10,
+        "minimum_current": -100,
+        "maximum_current": 70,
+        "all_neuron_binary_spike_currents_fit_signed8": true
+      },
+      {
+        "seed": 1,
+        "layer": 0,
+        "inputs": 64,
+        "outputs": 128,
+        "minimum_current": -39,
+        "maximum_current": 43,
+        "all_neuron_binary_spike_currents_fit_signed8": true
+      },
+      {
+        "seed": 1,
+        "layer": 1,
+        "inputs": 128,
+        "outputs": 10,
+        "minimum_current": -100,
+        "maximum_current": 64,
+        "all_neuron_binary_spike_currents_fit_signed8": true
+      },
+      {
+        "seed": 2,
+        "layer": 0,
+        "inputs": 64,
+        "outputs": 128,
+        "minimum_current": -47,
+        "maximum_current": 48,
+        "all_neuron_binary_spike_currents_fit_signed8": true
+      },
+      {
+        "seed": 2,
+        "layer": 1,
+        "inputs": 128,
+        "outputs": 10,
+        "minimum_current": -97,
+        "maximum_current": 67,
+        "all_neuron_binary_spike_currents_fit_signed8": true
+      }
+    ],
+    "failures": 0,
+    "prior_bound_artifact_sha256": {
+      "audit_adaptive_delta_bounds.py": "e4ab401668619e80396efb97a540598e25816964a303e61267a08626354a5dfb",
+      "results/adaptive_delta_model_bounds.json": "eca46bce9aaaa9e7bb0da4d7a8cdf11097a8243e1be9e17e4cfea303e8092ae7"
+    },
+    "proof": "For any x_j in {0,1}, sum_j min(w_j,0) <= sum_j x_j*w_j <= sum_j max(w_j,0).",
+    "qualification": "Exact for these saved integer weights and binary spikes/current prefixes; unrelated weights, nonbinary spikes or additional currents need their own bounds.",
+    "hardware_implication": "A separately declared signed11-U/signed8-I baseline may statically implement H = hU + c - signI without a runtime I8 detector. General signed11-U/signed11-I hardware still requires fallback."
+  },
+  "prior_publication_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_selective_correction_trial.md": "6a1feed4280027a8aba290c975f2e1af51a854c3b3651d72f29799b02541b93e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_selective_correction_trial.summary.json": "b544972bc5c880b2e9e46894f5ba4255a6d4295b9d67993b58db046f34a33dea",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_selective_correction_trial.manifest.json": "d56955d0812a4eb4ad7e3a5f9542f9723f209c835849daa18458d651d527001a"
+  },
+  "scope": "Matched fixed arithmetic primitives; no adaptive energy, trained accuracy, board or full system claim"
+}

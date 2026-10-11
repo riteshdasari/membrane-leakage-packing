@@ -1,0 +1,13 @@
+{
+  "name": "ou_um_group_report",
+  "url": "https://ime.um.edu.mo/wp-content/uploads/2021/11/113_pdfsam_Research_Report_2017-2020.pdf",
+  "retrieved_utc": "2026-10-11T04:37:31.586021+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "http_status": 200,
+  "final_url": "https://ime.um.edu.mo/wp-content/uploads/2021/11/113_pdfsam_Research_Report_2017-2020.pdf",
+  "content_type": "application/pdf",
+  "response_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_um_group_report.response",
+  "sha256": "a50d1b9622c77ef61248d022622814a7ae86d45c272e6eadaa632e34783a2aa9",
+  "bytes": 1203304,
+  "kind": "PDF; method review still required"
+}

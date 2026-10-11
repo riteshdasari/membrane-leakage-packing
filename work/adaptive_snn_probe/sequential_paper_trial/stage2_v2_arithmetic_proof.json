@@ -1,0 +1,1298 @@
+{
+  "status": "pass",
+  "contract_unchanged": true,
+  "scalar_boundary_cases": 1799,
+  "product_add255_min": -2147483393,
+  "product_add255_max": 2147483647,
+  "next_expression_absolute_bound": 33554432,
+  "explanation": "All old states/current/bias/reset are signed24; coefficient is0..256. Output still fails on any signed24 escape. NumPy audit promotes to int64 before independent division.",
+  "extrema": [
+    {
+      "beta": 0,
+      "minimum": 255,
+      "maximum": 255
+    },
+    {
+      "beta": 1,
+      "minimum": -8388353,
+      "maximum": 8388862
+    },
+    {
+      "beta": 2,
+      "minimum": -16776961,
+      "maximum": 16777469
+    },
+    {
+      "beta": 3,
+      "minimum": -25165569,
+      "maximum": 25166076
+    },
+    {
+      "beta": 4,
+      "minimum": -33554177,
+      "maximum": 33554683
+    },
+    {
+      "beta": 5,
+      "minimum": -41942785,
+      "maximum": 41943290
+    },
+    {
+      "beta": 6,
+      "minimum": -50331393,
+      "maximum": 50331897
+    },
+    {
+      "beta": 7,
+      "minimum": -58720001,
+      "maximum": 58720504
+    },
+    {
+      "beta": 8,
+      "minimum": -67108609,
+      "maximum": 67109111
+    },
+    {
+      "beta": 9,
+      "minimum": -75497217,
+      "maximum": 75497718
+    },
+    {
+      "beta": 10,
+      "minimum": -83885825,
+      "maximum": 83886325
+    },
+    {
+      "beta": 11,
+      "minimum": -92274433,
+      "maximum": 92274932
+    },
+    {
+      "beta": 12,
+      "minimum": -100663041,
+      "maximum": 100663539
+    },
+    {
+      "beta": 13,
+      "minimum": -109051649,
+      "maximum": 109052146
+    },
+    {
+      "beta": 14,
+      "minimum": -117440257,
+      "maximum": 117440753
+    },
+    {
+      "beta": 15,
+      "minimum": -125828865,
+      "maximum": 125829360
+    },
+    {
+      "beta": 16,
+      "minimum": -134217473,
+      "maximum": 134217967
+    },
+    {
+      "beta": 17,
+      "minimum": -142606081,
+      "maximum": 142606574
+    },
+    {
+      "beta": 18,
+      "minimum": -150994689,
+      "maximum": 150995181
+    },
+    {
+      "beta": 19,
+      "minimum": -159383297,
+      "maximum": 159383788
+    },
+    {
+      "beta": 20,
+      "minimum": -167771905,
+      "maximum": 167772395
+    },
+    {
+      "beta": 21,
+      "minimum": -176160513,
+      "maximum": 176161002
+    },
+    {
+      "beta": 22,
+      "minimum": -184549121,
+      "maximum": 184549609
+    },
+    {
+      "beta": 23,
+      "minimum": -192937729,
+      "maximum": 192938216
+    },
+    {
+      "beta": 24,
+      "minimum": -201326337,
+      "maximum": 201326823
+    },
+    {
+      "beta": 25,
+      "minimum": -209714945,
+      "maximum": 209715430
+    },
+    {
+      "beta": 26,
+      "minimum": -218103553,
+      "maximum": 218104037
+    },
+    {
+      "beta": 27,
+      "minimum": -226492161,
+      "maximum": 226492644
+    },
+    {
+      "beta": 28,
+      "minimum": -234880769,
+      "maximum": 234881251
+    },
+    {
+      "beta": 29,
+      "minimum": -243269377,
+      "maximum": 243269858
+    },
+    {
+      "beta": 30,
+      "minimum": -251657985,
+      "maximum": 251658465
+    },
+    {
+      "beta": 31,
+      "minimum": -260046593,
+      "maximum": 260047072
+    },
+    {
+      "beta": 32,
+      "minimum": -268435201,
+      "maximum": 268435679
+    },
+    {
+      "beta": 33,
+      "minimum": -276823809,
+      "maximum": 276824286
+    },
+    {
+      "beta": 34,
+      "minimum": -285212417,
+      "maximum": 285212893
+    },
+    {
+      "beta": 35,
+      "minimum": -293601025,
+      "maximum": 293601500
+    },
+    {
+      "beta": 36,
+      "minimum": -301989633,
+      "maximum": 301990107
+    },
+    {
+      "beta": 37,
+      "minimum": -310378241,
+      "maximum": 310378714
+    },
+    {
+      "beta": 38,
+      "minimum": -318766849,
+      "maximum": 318767321
+    },
+    {
+      "beta": 39,
+      "minimum": -327155457,
+      "maximum": 327155928
+    },
+    {
+      "beta": 40,
+      "minimum": -335544065,
+      "maximum": 335544535
+    },
+    {
+      "beta": 41,
+      "minimum": -343932673,
+      "maximum": 343933142
+    },
+    {
+      "beta": 42,
+      "minimum": -352321281,
+      "maximum": 352321749
+    },
+    {
+      "beta": 43,
+      "minimum": -360709889,
+      "maximum": 360710356
+    },
+    {
+      "beta": 44,
+      "minimum": -369098497,
+      "maximum": 369098963
+    },
+    {
+      "beta": 45,
+      "minimum": -377487105,
+      "maximum": 377487570
+    },
+    {
+      "beta": 46,
+      "minimum": -385875713,
+      "maximum": 385876177
+    },
+    {
+      "beta": 47,
+      "minimum": -394264321,
+      "maximum": 394264784
+    },
+    {
+      "beta": 48,
+      "minimum": -402652929,
+      "maximum": 402653391
+    },
+    {
+      "beta": 49,
+      "minimum": -411041537,
+      "maximum": 411041998
+    },
+    {
+      "beta": 50,
+      "minimum": -419430145,
+      "maximum": 419430605
+    },
+    {
+      "beta": 51,
+      "minimum": -427818753,
+      "maximum": 427819212
+    },
+    {
+      "beta": 52,
+      "minimum": -436207361,
+      "maximum": 436207819
+    },
+    {
+      "beta": 53,
+      "minimum": -444595969,
+      "maximum": 444596426
+    },
+    {
+      "beta": 54,
+      "minimum": -452984577,
+      "maximum": 452985033
+    },
+    {
+      "beta": 55,
+      "minimum": -461373185,
+      "maximum": 461373640
+    },
+    {
+      "beta": 56,
+      "minimum": -469761793,
+      "maximum": 469762247
+    },
+    {
+      "beta": 57,
+      "minimum": -478150401,
+      "maximum": 478150854
+    },
+    {
+      "beta": 58,
+      "minimum": -486539009,
+      "maximum": 486539461
+    },
+    {
+      "beta": 59,
+      "minimum": -494927617,
+      "maximum": 494928068
+    },
+    {
+      "beta": 60,
+      "minimum": -503316225,
+      "maximum": 503316675
+    },
+    {
+      "beta": 61,
+      "minimum": -511704833,
+      "maximum": 511705282
+    },
+    {
+      "beta": 62,
+      "minimum": -520093441,
+      "maximum": 520093889
+    },
+    {
+      "beta": 63,
+      "minimum": -528482049,
+      "maximum": 528482496
+    },
+    {
+      "beta": 64,
+      "minimum": -536870657,
+      "maximum": 536871103
+    },
+    {
+      "beta": 65,
+      "minimum": -545259265,
+      "maximum": 545259710
+    },
+    {
+      "beta": 66,
+      "minimum": -553647873,
+      "maximum": 553648317
+    },
+    {
+      "beta": 67,
+      "minimum": -562036481,
+      "maximum": 562036924
+    },
+    {
+      "beta": 68,
+      "minimum": -570425089,
+      "maximum": 570425531
+    },
+    {
+      "beta": 69,
+      "minimum": -578813697,
+      "maximum": 578814138
+    },
+    {
+      "beta": 70,
+      "minimum": -587202305,
+      "maximum": 587202745
+    },
+    {
+      "beta": 71,
+      "minimum": -595590913,
+      "maximum": 595591352
+    },
+    {
+      "beta": 72,
+      "minimum": -603979521,
+      "maximum": 603979959
+    },
+    {
+      "beta": 73,
+      "minimum": -612368129,
+      "maximum": 612368566
+    },
+    {
+      "beta": 74,
+      "minimum": -620756737,
+      "maximum": 620757173
+    },
+    {
+      "beta": 75,
+      "minimum": -629145345,
+      "maximum": 629145780
+    },
+    {
+      "beta": 76,
+      "minimum": -637533953,
+      "maximum": 637534387
+    },
+    {
+      "beta": 77,
+      "minimum": -645922561,
+      "maximum": 645922994
+    },
+    {
+      "beta": 78,
+      "minimum": -654311169,
+      "maximum": 654311601
+    },
+    {
+      "beta": 79,
+      "minimum": -662699777,
+      "maximum": 662700208
+    },
+    {
+      "beta": 80,
+      "minimum": -671088385,
+      "maximum": 671088815
+    },
+    {
+      "beta": 81,
+      "minimum": -679476993,
+      "maximum": 679477422
+    },
+    {
+      "beta": 82,
+      "minimum": -687865601,
+      "maximum": 687866029
+    },
+    {
+      "beta": 83,
+      "minimum": -696254209,
+      "maximum": 696254636
+    },
+    {
+      "beta": 84,
+      "minimum": -704642817,
+      "maximum": 704643243
+    },
+    {
+      "beta": 85,
+      "minimum": -713031425,
+      "maximum": 713031850
+    },
+    {
+      "beta": 86,
+      "minimum": -721420033,
+      "maximum": 721420457
+    },
+    {
+      "beta": 87,
+      "minimum": -729808641,
+      "maximum": 729809064
+    },
+    {
+      "beta": 88,
+      "minimum": -738197249,
+      "maximum": 738197671
+    },
+    {
+      "beta": 89,
+      "minimum": -746585857,
+      "maximum": 746586278
+    },
+    {
+      "beta": 90,
+      "minimum": -754974465,
+      "maximum": 754974885
+    },
+    {
+      "beta": 91,
+      "minimum": -763363073,
+      "maximum": 763363492
+    },
+    {
+      "beta": 92,
+      "minimum": -771751681,
+      "maximum": 771752099
+    },
+    {
+      "beta": 93,
+      "minimum": -780140289,
+      "maximum": 780140706
+    },
+    {
+      "beta": 94,
+      "minimum": -788528897,
+      "maximum": 788529313
+    },
+    {
+      "beta": 95,
+      "minimum": -796917505,
+      "maximum": 796917920
+    },
+    {
+      "beta": 96,
+      "minimum": -805306113,
+      "maximum": 805306527
+    },
+    {
+      "beta": 97,
+      "minimum": -813694721,
+      "maximum": 813695134
+    },
+    {
+      "beta": 98,
+      "minimum": -822083329,
+      "maximum": 822083741
+    },
+    {
+      "beta": 99,
+      "minimum": -830471937,
+      "maximum": 830472348
+    },
+    {
+      "beta": 100,
+      "minimum": -838860545,
+      "maximum": 838860955
+    },
+    {
+      "beta": 101,
+      "minimum": -847249153,
+      "maximum": 847249562
+    },
+    {
+      "beta": 102,
+      "minimum": -855637761,
+      "maximum": 855638169
+    },
+    {
+      "beta": 103,
+      "minimum": -864026369,
+      "maximum": 864026776
+    },
+    {
+      "beta": 104,
+      "minimum": -872414977,
+      "maximum": 872415383
+    },
+    {
+      "beta": 105,
+      "minimum": -880803585,
+      "maximum": 880803990
+    },
+    {
+      "beta": 106,
+      "minimum": -889192193,
+      "maximum": 889192597
+    },
+    {
+      "beta": 107,
+      "minimum": -897580801,
+      "maximum": 897581204
+    },
+    {
+      "beta": 108,
+      "minimum": -905969409,
+      "maximum": 905969811
+    },
+    {
+      "beta": 109,
+      "minimum": -914358017,
+      "maximum": 914358418
+    },
+    {
+      "beta": 110,
+      "minimum": -922746625,
+      "maximum": 922747025
+    },
+    {
+      "beta": 111,
+      "minimum": -931135233,
+      "maximum": 931135632
+    },
+    {
+      "beta": 112,
+      "minimum": -939523841,
+      "maximum": 939524239
+    },
+    {
+      "beta": 113,
+      "minimum": -947912449,
+      "maximum": 947912846
+    },
+    {
+      "beta": 114,
+      "minimum": -956301057,
+      "maximum": 956301453
+    },
+    {
+      "beta": 115,
+      "minimum": -964689665,
+      "maximum": 964690060
+    },
+    {
+      "beta": 116,
+      "minimum": -973078273,
+      "maximum": 973078667
+    },
+    {
+      "beta": 117,
+      "minimum": -981466881,
+      "maximum": 981467274
+    },
+    {
+      "beta": 118,
+      "minimum": -989855489,
+      "maximum": 989855881
+    },
+    {
+      "beta": 119,
+      "minimum": -998244097,
+      "maximum": 998244488
+    },
+    {
+      "beta": 120,
+      "minimum": -1006632705,
+      "maximum": 1006633095
+    },
+    {
+      "beta": 121,
+      "minimum": -1015021313,
+      "maximum": 1015021702
+    },
+    {
+      "beta": 122,
+      "minimum": -1023409921,
+      "maximum": 1023410309
+    },
+    {
+      "beta": 123,
+      "minimum": -1031798529,
+      "maximum": 1031798916
+    },
+    {
+      "beta": 124,
+      "minimum": -1040187137,
+      "maximum": 1040187523
+    },
+    {
+      "beta": 125,
+      "minimum": -1048575745,
+      "maximum": 1048576130
+    },
+    {
+      "beta": 126,
+      "minimum": -1056964353,
+      "maximum": 1056964737
+    },
+    {
+      "beta": 127,
+      "minimum": -1065352961,
+      "maximum": 1065353344
+    },
+    {
+      "beta": 128,
+      "minimum": -1073741569,
+      "maximum": 1073741951
+    },
+    {
+      "beta": 129,
+      "minimum": -1082130177,
+      "maximum": 1082130558
+    },
+    {
+      "beta": 130,
+      "minimum": -1090518785,
+      "maximum": 1090519165
+    },
+    {
+      "beta": 131,
+      "minimum": -1098907393,
+      "maximum": 1098907772
+    },
+    {
+      "beta": 132,
+      "minimum": -1107296001,
+      "maximum": 1107296379
+    },
+    {
+      "beta": 133,
+      "minimum": -1115684609,
+      "maximum": 1115684986
+    },
+    {
+      "beta": 134,
+      "minimum": -1124073217,
+      "maximum": 1124073593
+    },
+    {
+      "beta": 135,
+      "minimum": -1132461825,
+      "maximum": 1132462200
+    },
+    {
+      "beta": 136,
+      "minimum": -1140850433,
+      "maximum": 1140850807
+    },
+    {
+      "beta": 137,
+      "minimum": -1149239041,
+      "maximum": 1149239414
+    },
+    {
+      "beta": 138,
+      "minimum": -1157627649,
+      "maximum": 1157628021
+    },
+    {
+      "beta": 139,
+      "minimum": -1166016257,
+      "maximum": 1166016628
+    },
+    {
+      "beta": 140,
+      "minimum": -1174404865,
+      "maximum": 1174405235
+    },
+    {
+      "beta": 141,
+      "minimum": -1182793473,
+      "maximum": 1182793842
+    },
+    {
+      "beta": 142,
+      "minimum": -1191182081,
+      "maximum": 1191182449
+    },
+    {
+      "beta": 143,
+      "minimum": -1199570689,
+      "maximum": 1199571056
+    },
+    {
+      "beta": 144,
+      "minimum": -1207959297,
+      "maximum": 1207959663
+    },
+    {
+      "beta": 145,
+      "minimum": -1216347905,
+      "maximum": 1216348270
+    },
+    {
+      "beta": 146,
+      "minimum": -1224736513,
+      "maximum": 1224736877
+    },
+    {
+      "beta": 147,
+      "minimum": -1233125121,
+      "maximum": 1233125484
+    },
+    {
+      "beta": 148,
+      "minimum": -1241513729,
+      "maximum": 1241514091
+    },
+    {
+      "beta": 149,
+      "minimum": -1249902337,
+      "maximum": 1249902698
+    },
+    {
+      "beta": 150,
+      "minimum": -1258290945,
+      "maximum": 1258291305
+    },
+    {
+      "beta": 151,
+      "minimum": -1266679553,
+      "maximum": 1266679912
+    },
+    {
+      "beta": 152,
+      "minimum": -1275068161,
+      "maximum": 1275068519
+    },
+    {
+      "beta": 153,
+      "minimum": -1283456769,
+      "maximum": 1283457126
+    },
+    {
+      "beta": 154,
+      "minimum": -1291845377,
+      "maximum": 1291845733
+    },
+    {
+      "beta": 155,
+      "minimum": -1300233985,
+      "maximum": 1300234340
+    },
+    {
+      "beta": 156,
+      "minimum": -1308622593,
+      "maximum": 1308622947
+    },
+    {
+      "beta": 157,
+      "minimum": -1317011201,
+      "maximum": 1317011554
+    },
+    {
+      "beta": 158,
+      "minimum": -1325399809,
+      "maximum": 1325400161
+    },
+    {
+      "beta": 159,
+      "minimum": -1333788417,
+      "maximum": 1333788768
+    },
+    {
+      "beta": 160,
+      "minimum": -1342177025,
+      "maximum": 1342177375
+    },
+    {
+      "beta": 161,
+      "minimum": -1350565633,
+      "maximum": 1350565982
+    },
+    {
+      "beta": 162,
+      "minimum": -1358954241,
+      "maximum": 1358954589
+    },
+    {
+      "beta": 163,
+      "minimum": -1367342849,
+      "maximum": 1367343196
+    },
+    {
+      "beta": 164,
+      "minimum": -1375731457,
+      "maximum": 1375731803
+    },
+    {
+      "beta": 165,
+      "minimum": -1384120065,
+      "maximum": 1384120410
+    },
+    {
+      "beta": 166,
+      "minimum": -1392508673,
+      "maximum": 1392509017
+    },
+    {
+      "beta": 167,
+      "minimum": -1400897281,
+      "maximum": 1400897624
+    },
+    {
+      "beta": 168,
+      "minimum": -1409285889,
+      "maximum": 1409286231
+    },
+    {
+      "beta": 169,
+      "minimum": -1417674497,
+      "maximum": 1417674838
+    },
+    {
+      "beta": 170,
+      "minimum": -1426063105,
+      "maximum": 1426063445
+    },
+    {
+      "beta": 171,
+      "minimum": -1434451713,
+      "maximum": 1434452052
+    },
+    {
+      "beta": 172,
+      "minimum": -1442840321,
+      "maximum": 1442840659
+    },
+    {
+      "beta": 173,
+      "minimum": -1451228929,
+      "maximum": 1451229266
+    },
+    {
+      "beta": 174,
+      "minimum": -1459617537,
+      "maximum": 1459617873
+    },
+    {
+      "beta": 175,
+      "minimum": -1468006145,
+      "maximum": 1468006480
+    },
+    {
+      "beta": 176,
+      "minimum": -1476394753,
+      "maximum": 1476395087
+    },
+    {
+      "beta": 177,
+      "minimum": -1484783361,
+      "maximum": 1484783694
+    },
+    {
+      "beta": 178,
+      "minimum": -1493171969,
+      "maximum": 1493172301
+    },
+    {
+      "beta": 179,
+      "minimum": -1501560577,
+      "maximum": 1501560908
+    },
+    {
+      "beta": 180,
+      "minimum": -1509949185,
+      "maximum": 1509949515
+    },
+    {
+      "beta": 181,
+      "minimum": -1518337793,
+      "maximum": 1518338122
+    },
+    {
+      "beta": 182,
+      "minimum": -1526726401,
+      "maximum": 1526726729
+    },
+    {
+      "beta": 183,
+      "minimum": -1535115009,
+      "maximum": 1535115336
+    },
+    {
+      "beta": 184,
+      "minimum": -1543503617,
+      "maximum": 1543503943
+    },
+    {
+      "beta": 185,
+      "minimum": -1551892225,
+      "maximum": 1551892550
+    },
+    {
+      "beta": 186,
+      "minimum": -1560280833,
+      "maximum": 1560281157
+    },
+    {
+      "beta": 187,
+      "minimum": -1568669441,
+      "maximum": 1568669764
+    },
+    {
+      "beta": 188,
+      "minimum": -1577058049,
+      "maximum": 1577058371
+    },
+    {
+      "beta": 189,
+      "minimum": -1585446657,
+      "maximum": 1585446978
+    },
+    {
+      "beta": 190,
+      "minimum": -1593835265,
+      "maximum": 1593835585
+    },
+    {
+      "beta": 191,
+      "minimum": -1602223873,
+      "maximum": 1602224192
+    },
+    {
+      "beta": 192,
+      "minimum": -1610612481,
+      "maximum": 1610612799
+    },
+    {
+      "beta": 193,
+      "minimum": -1619001089,
+      "maximum": 1619001406
+    },
+    {
+      "beta": 194,
+      "minimum": -1627389697,
+      "maximum": 1627390013
+    },
+    {
+      "beta": 195,
+      "minimum": -1635778305,
+      "maximum": 1635778620
+    },
+    {
+      "beta": 196,
+      "minimum": -1644166913,
+      "maximum": 1644167227
+    },
+    {
+      "beta": 197,
+      "minimum": -1652555521,
+      "maximum": 1652555834
+    },
+    {
+      "beta": 198,
+      "minimum": -1660944129,
+      "maximum": 1660944441
+    },
+    {
+      "beta": 199,
+      "minimum": -1669332737,
+      "maximum": 1669333048
+    },
+    {
+      "beta": 200,
+      "minimum": -1677721345,
+      "maximum": 1677721655
+    },
+    {
+      "beta": 201,
+      "minimum": -1686109953,
+      "maximum": 1686110262
+    },
+    {
+      "beta": 202,
+      "minimum": -1694498561,
+      "maximum": 1694498869
+    },
+    {
+      "beta": 203,
+      "minimum": -1702887169,
+      "maximum": 1702887476
+    },
+    {
+      "beta": 204,
+      "minimum": -1711275777,
+      "maximum": 1711276083
+    },
+    {
+      "beta": 205,
+      "minimum": -1719664385,
+      "maximum": 1719664690
+    },
+    {
+      "beta": 206,
+      "minimum": -1728052993,
+      "maximum": 1728053297
+    },
+    {
+      "beta": 207,
+      "minimum": -1736441601,
+      "maximum": 1736441904
+    },
+    {
+      "beta": 208,
+      "minimum": -1744830209,
+      "maximum": 1744830511
+    },
+    {
+      "beta": 209,
+      "minimum": -1753218817,
+      "maximum": 1753219118
+    },
+    {
+      "beta": 210,
+      "minimum": -1761607425,
+      "maximum": 1761607725
+    },
+    {
+      "beta": 211,
+      "minimum": -1769996033,
+      "maximum": 1769996332
+    },
+    {
+      "beta": 212,
+      "minimum": -1778384641,
+      "maximum": 1778384939
+    },
+    {
+      "beta": 213,
+      "minimum": -1786773249,
+      "maximum": 1786773546
+    },
+    {
+      "beta": 214,
+      "minimum": -1795161857,
+      "maximum": 1795162153
+    },
+    {
+      "beta": 215,
+      "minimum": -1803550465,
+      "maximum": 1803550760
+    },
+    {
+      "beta": 216,
+      "minimum": -1811939073,
+      "maximum": 1811939367
+    },
+    {
+      "beta": 217,
+      "minimum": -1820327681,
+      "maximum": 1820327974
+    },
+    {
+      "beta": 218,
+      "minimum": -1828716289,
+      "maximum": 1828716581
+    },
+    {
+      "beta": 219,
+      "minimum": -1837104897,
+      "maximum": 1837105188
+    },
+    {
+      "beta": 220,
+      "minimum": -1845493505,
+      "maximum": 1845493795
+    },
+    {
+      "beta": 221,
+      "minimum": -1853882113,
+      "maximum": 1853882402
+    },
+    {
+      "beta": 222,
+      "minimum": -1862270721,
+      "maximum": 1862271009
+    },
+    {
+      "beta": 223,
+      "minimum": -1870659329,
+      "maximum": 1870659616
+    },
+    {
+      "beta": 224,
+      "minimum": -1879047937,
+      "maximum": 1879048223
+    },
+    {
+      "beta": 225,
+      "minimum": -1887436545,
+      "maximum": 1887436830
+    },
+    {
+      "beta": 226,
+      "minimum": -1895825153,
+      "maximum": 1895825437
+    },
+    {
+      "beta": 227,
+      "minimum": -1904213761,
+      "maximum": 1904214044
+    },
+    {
+      "beta": 228,
+      "minimum": -1912602369,
+      "maximum": 1912602651
+    },
+    {
+      "beta": 229,
+      "minimum": -1920990977,
+      "maximum": 1920991258
+    },
+    {
+      "beta": 230,
+      "minimum": -1929379585,
+      "maximum": 1929379865
+    },
+    {
+      "beta": 231,
+      "minimum": -1937768193,
+      "maximum": 1937768472
+    },
+    {
+      "beta": 232,
+      "minimum": -1946156801,
+      "maximum": 1946157079
+    },
+    {
+      "beta": 233,
+      "minimum": -1954545409,
+      "maximum": 1954545686
+    },
+    {
+      "beta": 234,
+      "minimum": -1962934017,
+      "maximum": 1962934293
+    },
+    {
+      "beta": 235,
+      "minimum": -1971322625,
+      "maximum": 1971322900
+    },
+    {
+      "beta": 236,
+      "minimum": -1979711233,
+      "maximum": 1979711507
+    },
+    {
+      "beta": 237,
+      "minimum": -1988099841,
+      "maximum": 1988100114
+    },
+    {
+      "beta": 238,
+      "minimum": -1996488449,
+      "maximum": 1996488721
+    },
+    {
+      "beta": 239,
+      "minimum": -2004877057,
+      "maximum": 2004877328
+    },
+    {
+      "beta": 240,
+      "minimum": -2013265665,
+      "maximum": 2013265935
+    },
+    {
+      "beta": 241,
+      "minimum": -2021654273,
+      "maximum": 2021654542
+    },
+    {
+      "beta": 242,
+      "minimum": -2030042881,
+      "maximum": 2030043149
+    },
+    {
+      "beta": 243,
+      "minimum": -2038431489,
+      "maximum": 2038431756
+    },
+    {
+      "beta": 244,
+      "minimum": -2046820097,
+      "maximum": 2046820363
+    },
+    {
+      "beta": 245,
+      "minimum": -2055208705,
+      "maximum": 2055208970
+    },
+    {
+      "beta": 246,
+      "minimum": -2063597313,
+      "maximum": 2063597577
+    },
+    {
+      "beta": 247,
+      "minimum": -2071985921,
+      "maximum": 2071986184
+    },
+    {
+      "beta": 248,
+      "minimum": -2080374529,
+      "maximum": 2080374791
+    },
+    {
+      "beta": 249,
+      "minimum": -2088763137,
+      "maximum": 2088763398
+    },
+    {
+      "beta": 250,
+      "minimum": -2097151745,
+      "maximum": 2097152005
+    },
+    {
+      "beta": 251,
+      "minimum": -2105540353,
+      "maximum": 2105540612
+    },
+    {
+      "beta": 252,
+      "minimum": -2113928961,
+      "maximum": 2113929219
+    },
+    {
+      "beta": 253,
+      "minimum": -2122317569,
+      "maximum": 2122317826
+    },
+    {
+      "beta": 254,
+      "minimum": -2130706177,
+      "maximum": 2130706433
+    },
+    {
+      "beta": 255,
+      "minimum": -2139094785,
+      "maximum": 2139095040
+    },
+    {
+      "beta": 256,
+      "minimum": -2147483393,
+      "maximum": 2147483647
+    }
+  ],
+  "source_sha256": "935e2b4f64c2b9b2460e7fc75bc24c07982a537ddd1e08fc132b48f2ba73cf80",
+  "generated_sha256": "d07b1590734bcb4719205cd4f2c38ff39c01fe684a30e5eb4da6cd0336c18405"
+}

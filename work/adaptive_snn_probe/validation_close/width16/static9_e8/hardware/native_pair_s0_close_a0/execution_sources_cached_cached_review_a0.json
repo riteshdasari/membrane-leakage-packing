@@ -1,0 +1,18 @@
+{
+  "status": "verified_original_execution_sources",
+  "original_progress_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy_closure_sequence_close_a0.json",
+  "progress_sha256_at_import": "4c9cc6582528897d4565ed019c7829207e74c47f994376e98e84fa51e848422b",
+  "source_sha256": {
+    "C:\\AMDDesignTools\\2025.2\\data\\verilog\\src\\glbl.v": "6270251cf35e1fce3119fc79f8fb968912f7983027e43cf030409ba68f048936",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\aggregate_hardwareclosure.py": "721fbf3fdcf17ef244174dfc4c1eab35c7cc8933826f2dd43651230161a02818",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_energy16_lutceil_12.py": "f1684fd31ae0f11ad7ef6e0b8a63ec9f3eb6fc2e9bed6c6c1ab771a1a7e0106f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_native16_lutceil_v2.py": "634e99076bba42f7941d290dcd76d32edcc83fc425ac34c2fabc91a1f98a837f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_route16_lutceil.py": "b2b5dd0ed1398dcb902443b6a46a4767075867c901b7a497fc773b345c08945b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy16_12.py": "9283502c8fa5eed29828b86189eb5fc10304a4c8920ad0c9de974f0382ba89ed",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_closure_sequence_v2.py": "f865f4b6d3e3b3d5999d6dfbbc081eb25c926fe318b106087506c021b35f30bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_native_static9.py": "d8f86ba569aa3017701a57959c74d908bf8ec7d48e3a6e3dd7788c76bb43fac3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\run_route_static9.py": "353df2d0dba312dd34b4614609b4229cf6cb701637b3eb4191373330a5e51876"
+  }
+}

@@ -1,0 +1,1072 @@
+{
+  "status": "pass_exact_endpoint_and_register_bound_screen",
+  "rows": [
+    {
+      "generic_U_bits": 8,
+      "generic_I_bits": 8,
+      "sum_bits": 9,
+      "full_high_base_range": [
+        -8,
+        6
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 4,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 37,
+      "adaptive5full_3U8_metadata_FF": 37,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 41,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 8,
+      "generic_I_bits": 10,
+      "sum_bits": 11,
+      "full_high_base_range": [
+        -20,
+        18
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 6,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 53,
+      "adaptive5full_3U8_metadata_FF": 53,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 49,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 8,
+      "generic_I_bits": 11,
+      "sum_bits": 12,
+      "full_high_base_range": [
+        -36,
+        34
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 7,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 61,
+      "adaptive5full_3U8_metadata_FF": 61,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 53,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 8,
+      "generic_I_bits": 12,
+      "sum_bits": 13,
+      "full_high_base_range": [
+        -68,
+        66
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 8,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 69,
+      "adaptive5full_3U8_metadata_FF": 69,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 83,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 8,
+      "generic_I_bits": 16,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1028,
+        1026
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 101,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 8,
+      "generic_I_bits": 20,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16388,
+        16386
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 133,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 10,
+      "generic_I_bits": 8,
+      "sum_bits": 11,
+      "full_high_base_range": [
+        -20,
+        18
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 6,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 53,
+      "adaptive5full_3U8_metadata_FF": 47,
+      "adaptive_FF_saving_vs_fixed8": 6,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 49,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 10,
+      "generic_I_bits": 10,
+      "sum_bits": 11,
+      "full_high_base_range": [
+        -32,
+        30
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 6,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 53,
+      "adaptive5full_3U8_metadata_FF": 53,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 49,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 10,
+      "generic_I_bits": 11,
+      "sum_bits": 12,
+      "full_high_base_range": [
+        -48,
+        46
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 7,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 61,
+      "adaptive5full_3U8_metadata_FF": 61,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 53,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 10,
+      "generic_I_bits": 12,
+      "sum_bits": 13,
+      "full_high_base_range": [
+        -80,
+        78
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 8,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 69,
+      "adaptive5full_3U8_metadata_FF": 69,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 83,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 10,
+      "generic_I_bits": 16,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1040,
+        1038
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 101,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 10,
+      "generic_I_bits": 20,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16400,
+        16398
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 133,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 11,
+      "generic_I_bits": 8,
+      "sum_bits": 12,
+      "full_high_base_range": [
+        -36,
+        34
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 7,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 61,
+      "adaptive5full_3U8_metadata_FF": 52,
+      "adaptive_FF_saving_vs_fixed8": 9,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 53,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 11,
+      "generic_I_bits": 10,
+      "sum_bits": 12,
+      "full_high_base_range": [
+        -48,
+        46
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 7,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 61,
+      "adaptive5full_3U8_metadata_FF": 58,
+      "adaptive_FF_saving_vs_fixed8": 3,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 53,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 11,
+      "generic_I_bits": 11,
+      "sum_bits": 12,
+      "full_high_base_range": [
+        -64,
+        62
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 7,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 61,
+      "adaptive5full_3U8_metadata_FF": 61,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 4,
+      "native_hybrid_FF": 53,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 11,
+      "generic_I_bits": 12,
+      "sum_bits": 13,
+      "full_high_base_range": [
+        -96,
+        94
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 8,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 69,
+      "adaptive5full_3U8_metadata_FF": 69,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 83,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 11,
+      "generic_I_bits": 16,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1056,
+        1054
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 101,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 11,
+      "generic_I_bits": 20,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16416,
+        16414
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 133,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 12,
+      "generic_I_bits": 8,
+      "sum_bits": 13,
+      "full_high_base_range": [
+        -68,
+        66
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 8,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 69,
+      "adaptive5full_3U8_metadata_FF": 57,
+      "adaptive_FF_saving_vs_fixed8": 12,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 83,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 12,
+      "generic_I_bits": 10,
+      "sum_bits": 13,
+      "full_high_base_range": [
+        -80,
+        78
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 8,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 69,
+      "adaptive5full_3U8_metadata_FF": 63,
+      "adaptive_FF_saving_vs_fixed8": 6,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 83,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 12,
+      "generic_I_bits": 11,
+      "sum_bits": 13,
+      "full_high_base_range": [
+        -96,
+        94
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 8,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 69,
+      "adaptive5full_3U8_metadata_FF": 66,
+      "adaptive_FF_saving_vs_fixed8": 3,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 83,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 12,
+      "generic_I_bits": 12,
+      "sum_bits": 13,
+      "full_high_base_range": [
+        -128,
+        126
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 8,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 69,
+      "adaptive5full_3U8_metadata_FF": 69,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 83,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 12,
+      "generic_I_bits": 16,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1088,
+        1086
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 101,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 12,
+      "generic_I_bits": 20,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16448,
+        16446
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 133,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 13,
+      "generic_I_bits": 8,
+      "sum_bits": 14,
+      "full_high_base_range": [
+        -132,
+        130
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 9,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 77,
+      "adaptive5full_3U8_metadata_FF": 62,
+      "adaptive_FF_saving_vs_fixed8": 15,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 89,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 13,
+      "generic_I_bits": 10,
+      "sum_bits": 14,
+      "full_high_base_range": [
+        -144,
+        142
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 9,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 77,
+      "adaptive5full_3U8_metadata_FF": 68,
+      "adaptive_FF_saving_vs_fixed8": 9,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 89,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 13,
+      "generic_I_bits": 11,
+      "sum_bits": 14,
+      "full_high_base_range": [
+        -160,
+        158
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 9,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 77,
+      "adaptive5full_3U8_metadata_FF": 71,
+      "adaptive_FF_saving_vs_fixed8": 6,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 89,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 13,
+      "generic_I_bits": 12,
+      "sum_bits": 14,
+      "full_high_base_range": [
+        -192,
+        190
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 9,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 77,
+      "adaptive5full_3U8_metadata_FF": 74,
+      "adaptive_FF_saving_vs_fixed8": 3,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 89,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 13,
+      "generic_I_bits": 16,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1152,
+        1150
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 101,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 13,
+      "generic_I_bits": 20,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16512,
+        16510
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 133,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 16,
+      "generic_I_bits": 8,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1028,
+        1026
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 77,
+      "adaptive_FF_saving_vs_fixed8": 24,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 16,
+      "generic_I_bits": 10,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1040,
+        1038
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 83,
+      "adaptive_FF_saving_vs_fixed8": 18,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 16,
+      "generic_I_bits": 11,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1056,
+        1054
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 86,
+      "adaptive_FF_saving_vs_fixed8": 15,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 16,
+      "generic_I_bits": 12,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -1088,
+        1086
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 89,
+      "adaptive_FF_saving_vs_fixed8": 12,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 16,
+      "generic_I_bits": 16,
+      "sum_bits": 17,
+      "full_high_base_range": [
+        -2048,
+        2046
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 12,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 101,
+      "adaptive5full_3U8_metadata_FF": 101,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 107,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 16,
+      "generic_I_bits": 20,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -17408,
+        17406
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 133,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 20,
+      "generic_I_bits": 8,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16388,
+        16386
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 97,
+      "adaptive_FF_saving_vs_fixed8": 36,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 20,
+      "generic_I_bits": 10,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16400,
+        16398
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 103,
+      "adaptive_FF_saving_vs_fixed8": 30,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 20,
+      "generic_I_bits": 11,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16416,
+        16414
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 106,
+      "adaptive_FF_saving_vs_fixed8": 27,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 20,
+      "generic_I_bits": 12,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -16448,
+        16446
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 109,
+      "adaptive_FF_saving_vs_fixed8": 24,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 20,
+      "generic_I_bits": 16,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -17408,
+        17406
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 121,
+      "adaptive_FF_saving_vs_fixed8": 12,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 20,
+      "generic_I_bits": 20,
+      "sum_bits": 21,
+      "full_high_base_range": [
+        -32768,
+        32766
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 16,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 133,
+      "adaptive5full_3U8_metadata_FF": 133,
+      "adaptive_FF_saving_vs_fixed8": 0,
+      "native_DSP_lanes": 2,
+      "native_hybrid_FF": 131,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": false
+    },
+    {
+      "generic_U_bits": 24,
+      "generic_I_bits": 8,
+      "sum_bits": 25,
+      "full_high_base_range": [
+        -262148,
+        262146
+      ],
+      "tail_U8_high_base_range": [
+        -8,
+        6
+      ],
+      "full_high_base_bits": 20,
+      "tail_high_base_bits": 4,
+      "fixed8_metadata_FF": 165,
+      "adaptive5full_3U8_metadata_FF": 117,
+      "adaptive_FF_saving_vs_fixed8": 48,
+      "native_DSP_lanes": 0,
+      "native_hybrid_FF": null,
+      "original_four_bit_tail_metadata_legal": true,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 24,
+      "generic_I_bits": 10,
+      "sum_bits": 25,
+      "full_high_base_range": [
+        -262160,
+        262158
+      ],
+      "tail_U8_high_base_range": [
+        -20,
+        18
+      ],
+      "full_high_base_bits": 20,
+      "tail_high_base_bits": 6,
+      "fixed8_metadata_FF": 165,
+      "adaptive5full_3U8_metadata_FF": 123,
+      "adaptive_FF_saving_vs_fixed8": 42,
+      "native_DSP_lanes": 0,
+      "native_hybrid_FF": null,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 24,
+      "generic_I_bits": 11,
+      "sum_bits": 25,
+      "full_high_base_range": [
+        -262176,
+        262174
+      ],
+      "tail_U8_high_base_range": [
+        -36,
+        34
+      ],
+      "full_high_base_bits": 20,
+      "tail_high_base_bits": 7,
+      "fixed8_metadata_FF": 165,
+      "adaptive5full_3U8_metadata_FF": 126,
+      "adaptive_FF_saving_vs_fixed8": 39,
+      "native_DSP_lanes": 0,
+      "native_hybrid_FF": null,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 24,
+      "generic_I_bits": 12,
+      "sum_bits": 25,
+      "full_high_base_range": [
+        -262208,
+        262206
+      ],
+      "tail_U8_high_base_range": [
+        -68,
+        66
+      ],
+      "full_high_base_bits": 20,
+      "tail_high_base_bits": 8,
+      "fixed8_metadata_FF": 165,
+      "adaptive5full_3U8_metadata_FF": 129,
+      "adaptive_FF_saving_vs_fixed8": 36,
+      "native_DSP_lanes": 0,
+      "native_hybrid_FF": null,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 24,
+      "generic_I_bits": 16,
+      "sum_bits": 25,
+      "full_high_base_range": [
+        -263168,
+        263166
+      ],
+      "tail_U8_high_base_range": [
+        -1028,
+        1026
+      ],
+      "full_high_base_bits": 20,
+      "tail_high_base_bits": 12,
+      "fixed8_metadata_FF": 165,
+      "adaptive5full_3U8_metadata_FF": 141,
+      "adaptive_FF_saving_vs_fixed8": 24,
+      "native_DSP_lanes": 0,
+      "native_hybrid_FF": null,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    },
+    {
+      "generic_U_bits": 24,
+      "generic_I_bits": 20,
+      "sum_bits": 25,
+      "full_high_base_range": [
+        -278528,
+        278526
+      ],
+      "tail_U8_high_base_range": [
+        -16388,
+        16386
+      ],
+      "full_high_base_bits": 20,
+      "tail_high_base_bits": 16,
+      "fixed8_metadata_FF": 165,
+      "adaptive5full_3U8_metadata_FF": 153,
+      "adaptive_FF_saving_vs_fixed8": 12,
+      "native_DSP_lanes": 0,
+      "native_hybrid_FF": null,
+      "original_four_bit_tail_metadata_legal": false,
+      "narrowing_U_alone_saves_metadata": true
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\current_width_screen\\check.py": "43324c47661f35bdeb7cbdacb47e0992eb1bacfc9fdd219e22fe2c26c992716c"
+  },
+  "formula": "Eight radix32 residue fields with guard; full base requires max(Ubits,Ibits)-4 signed bits; U8-tail base requires max(8,Ibits)-4. Fivefull+threetail saves3*max(Ubits-max(8,Ibits),0) explicit FFs against full8.",
+  "conclusion": "When Ibits>=Ubits, narrowing only U saves no high-base metadata. The current signed4 narrow metadata is not legal for a wider current. A real benchmark must prove I8 or use a new equally controlled exact design.",
+  "limitations": [
+    "Generic full signed-word endpoints, not model-specific sum certificates",
+    "No area,slice,timing,energy,eligibility or trained-model result",
+    "Native mode must be selected from actual certified operand+sum widths in specialized workloads",
+    "Joint U-and-I range admission would be a different policy and requires full exactness and strongest controls"
+  ]
+}

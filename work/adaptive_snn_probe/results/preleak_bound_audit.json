@@ -1,0 +1,8 @@
+{
+  "cases": 524288,
+  "failures": 0,
+  "default_shift3_preleak_bounds": [
+    -74,
+    81
+  ]
+}

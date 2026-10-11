@@ -1,0 +1,11 @@
+{
+  "status": "pass_bit_identical_unmodified_model",
+  "samples": 64,
+  "batch": 4,
+  "logits_equal": true,
+  "predictions_equal": true,
+  "elapsed_seconds": 17.79699999999866,
+  "model_source_sha256": "05266d44f35b3226247ae24a6dba219ac4ed9a454093e15d316180d8350e2ce8",
+  "observer_logit_sha256": "f0f1942f5403ea5a7f5273f54c17c6751ae1010683db6410b3c11ad4b7e1b656",
+  "runner_sha256": "9583adbb6b4b9906f6702c2700e338f0ae0d21b2f94770df05bfdc22f8b2abe0"
+}

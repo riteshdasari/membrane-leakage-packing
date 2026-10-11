@@ -1,0 +1,203 @@
+{
+  "source_hashes": {
+    "guard_add_layout.sv": "d4f8a37f2b4684ef4ec1c592d13fbcfd1f7eefa15d4fff71dc57ead235460471",
+    "tb_guard_add_layout.sv": "5a2f5b4dd80d0285a4b66876918c2f75b291f50c48366cde4c3f176e92ee3176",
+    "check_guard_add_layout.py": "c2abb64c072a24189623fcf0dafde4ddb8f44ec38002e87d4ce25e6f969439de",
+    "check_guard_add_layout_snn.py": "4633aef31cac8d0ce18a4973df449f33708e9ccfa2f0cd1d6f5048280a6d1726",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+  },
+  "reconstruction_script_sha256": "4633aef31cac8d0ce18a4973df449f33708e9ccfa2f0cd1d6f5048280a6d1726",
+  "functional_check_sha256": {
+    "layout_models_0_checks.json": "8afcbac02ebcadc92a761c279c9e5d8ba0919c2ab1171aa9599ef80f45c82120",
+    "layout_models_1_checks.json": "5f5e7b0c70ed9300bb180df347ace49898c1434031d7048d2b608b0e5badcfe4"
+  },
+  "reference_hashes": {
+    "ledger": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3",
+    "raw_membranes": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+  },
+  "output_hashes": {
+    "results\\layout_models_0\\stream_out0.txt": "31d6c57068b90548a5c5ab638d2789037411d190b1553d45382e92e13adbe78b",
+    "results\\layout_models_0\\stream_out1.txt": "31d6c57068b90548a5c5ab638d2789037411d190b1553d45382e92e13adbe78b",
+    "results\\layout_models_0\\stream_out2.txt": "31d6c57068b90548a5c5ab638d2789037411d190b1553d45382e92e13adbe78b",
+    "results\\layout_models_1\\stream_out0.txt": "35a449ed67593cc295c6c36f2c29f439dd660d665244282d0770f2f6924ef875",
+    "results\\layout_models_1\\stream_out1.txt": "35a449ed67593cc295c6c36f2c29f439dd660d665244282d0770f2f6924ef875",
+    "results\\layout_models_1\\stream_out2.txt": "35a449ed67593cc295c6c36f2c29f439dd660d665244282d0770f2f6924ef875"
+  },
+  "rows": [
+    {
+      "variant": 0,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 1,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 2,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 0,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 1,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "variant": 2,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ],
+  "tested_variants": [
+    0,
+    1,
+    2
+  ],
+  "scope": "Python leakage, exact RTL U+I layout/reference outputs, Python threshold/subtractive-reset replay",
+  "limitations": [
+    "Saved beta231 reference; original trained leakage was changed.",
+    "144 sampled images across three saved seeds; no new training or downloads.",
+    "Physical layout/stage placement only; no memory supply, power, host or board result.",
+    "No full SNN RTL or preservation claim for original trained-model accuracy."
+  ]
+}

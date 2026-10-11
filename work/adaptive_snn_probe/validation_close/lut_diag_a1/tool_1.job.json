@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+    "C:/AMDDesignTools/2025.2/Vivado/data/verilog/src/glbl.v"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1",
+  "returncode": 0,
+  "seconds": 5.29,
+  "free_GiB_at_start": 2.5035247802734375,
+  "sampled_min_free_GiB": 2.4155311584472656,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.03174591064453125,
+  "memory_samples": 5,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.sdf": "9b025cf32a05e1cbc9845d5a9f03ae7631c9197eb2f1f37b6136bc10dfcfe2a5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\export12_e2_a0\\routed.v": "193072bebe51a9dc6c9af342acbba155de1378d2bb49a3824f8e693ee8fe6712",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_actual_s0_a3\\trace2.txt": "000f7f466713ac6f020ab468be3b1f4c20553a68451dd3713e738d2adae86785",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\diagnose_lut_monitor.py": "63e3ae129bd0bfa77f1374ff8abf8aac68a81408a7758261a50d142485ac470a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\monitor.sv": "464a80c0d58140947881edcff70585a12e86fc95683670e151fa48fb1b888cac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_diag_a1\\run.tcl": "2cd7b85d4cac30634fb764575a4a83a13484bc9ecb95acf4ec1cb86cf83b00c9"
+  },
+  "log_sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+}

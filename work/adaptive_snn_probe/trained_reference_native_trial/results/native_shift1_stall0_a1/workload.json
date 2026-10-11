@@ -1,0 +1,213 @@
+{
+  "status": "pass",
+  "kind": "restored_models",
+  "shift": 1,
+  "groups": 9216,
+  "neurons": 635904,
+  "engines": 13,
+  "stimulus_sha256": "503f4e3aefc3bdcf3753c26faf7dd21e8952114fd413f4bd90a4d36943293301",
+  "ledger_sha256": "d3db34db7919f1f97425f0fc46220405a48220ea08ad8d50af07165066ed8bba",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\prepare_restored_work.py": "1cadd2f6a10d30215a7a28c1f86441b72c5b83300a81657393ed33a54f8453ab",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\CONTRACT.md": "28c45e06964f3645770f03ee645e36110e1d6c4b673d2fb0aab6a8672ea7d626",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\restored_reference_summary.json": "c8bbeb5944bb1668a996a59ab1afcdfd9ea73cac42d8f8acf01484d9af5e7604",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\manifest.json": "eb11a0efe75ef0c55647d762b0b76f70152302d19c238e926b5a10db5a40e8eb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\leak_shift1\\stream_stim.txt": "503f4e3aefc3bdcf3753c26faf7dd21e8952114fd413f4bd90a4d36943293301",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\leak_shift1\\reference_ledger.json": "d3db34db7919f1f97425f0fc46220405a48220ea08ad8d50af07165066ed8bba",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\restore_saved_reference.py": "0027d6e5fcf98323ab22ec0717129f8dbee1c04b122b05a3fbfdef2bc161b48c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\probe.py": "0a8c8cb843594c1c0820c8a489eac95bec8ef62a7037b90d5eeaf28f9e1acc95",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\base.py": "9fbf1583b409f3c38e83251fbebaf1889b38c7861cc1cf8478d13d33ac809a7a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\final_selected.py": "3f6524967d282cfbe2ba0fed29204ae7cbe2cefa4e86544374ac50d65badd4c1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\prepare_adaptive_delta_model.py": "6abf6147a57d906c00aede6545991b04ee9c790c631906f52348d7e6dd897d81",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\final_selected.json": "84e94c7b54ec86cbd5d4022692f882d8f89154f71183be9b906c80da5c18a446",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\exact_inference.json": "984fbee9e94c9e4bda383e8e00547abef715016b5d574f96dbf2f64a353c86a1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa"
+  },
+  "predicted_issues": [
+    {
+      "engine": 0,
+      "requests": 110592,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 4608,
+        "5": 0,
+        "6": 101376,
+        "7": 0,
+        "8": 0
+      }
+    },
+    {
+      "engine": 1,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 2,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 3,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 4,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 5,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 6,
+      "requests": 110592,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 4608,
+        "5": 0,
+        "6": 101376,
+        "7": 0,
+        "8": 0
+      }
+    },
+    {
+      "engine": 7,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 8,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 9,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 10,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 11,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    },
+    {
+      "engine": 12,
+      "requests": 82944,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      }
+    }
+  ],
+  "scope": "Original saved shift leakage/subtractive reset, same weights/fullbatch events; first48 groups per seed; no beta231 replacement."
+}

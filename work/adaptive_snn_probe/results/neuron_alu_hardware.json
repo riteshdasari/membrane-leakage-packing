@@ -1,0 +1,75 @@
+[
+  {
+    "top": "top_neuron_dsp8",
+    "LUT": 133,
+    "FF": 8,
+    "DSP": 1,
+    "WNS_ns": -1.033,
+    "seconds": 213.9,
+    "target_ns": 4,
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "WHS_ns": 0.279,
+    "critical_period_estimate_ns": 5.0329999999999995
+  },
+  {
+    "top": "top_neuron_lut8",
+    "LUT": 95,
+    "FF": 56,
+    "DSP": 0,
+    "WNS_ns": 0.654,
+    "seconds": 127.5,
+    "target_ns": 4,
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "WHS_ns": 0.204,
+    "critical_period_estimate_ns": 3.346
+  },
+  {
+    "top": "top_neuron_current8",
+    "LUT": 266,
+    "FF": 56,
+    "DSP": 1,
+    "WNS_ns": -1.32,
+    "seconds": 105.4,
+    "target_ns": 4,
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "WHS_ns": 0.532,
+    "critical_period_estimate_ns": 5.32
+  },
+  {
+    "top": "top_neuron_dsp10",
+    "LUT": 130,
+    "FF": 6,
+    "DSP": 1,
+    "WNS_ns": -1.022,
+    "seconds": 114.0,
+    "target_ns": 4,
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "WHS_ns": 0.49,
+    "critical_period_estimate_ns": 5.022
+  },
+  {
+    "top": "top_neuron_lut10",
+    "LUT": 80,
+    "FF": 46,
+    "DSP": 0,
+    "WNS_ns": 0.575,
+    "seconds": 85.0,
+    "target_ns": 4,
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "WHS_ns": 0.134,
+    "critical_period_estimate_ns": 3.425
+  },
+  {
+    "top": "top_neuron_current10",
+    "LUT": 216,
+    "FF": 46,
+    "DSP": 1,
+    "WNS_ns": -1.26,
+    "seconds": 93.6,
+    "target_ns": 4,
+    "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+    "build_note": "Reopened synthesis checkpoint after blank Vivado Synth 20-411 during opt_design; initial failure retained.",
+    "WHS_ns": 0.447,
+    "critical_period_estimate_ns": 5.26
+  }
+]

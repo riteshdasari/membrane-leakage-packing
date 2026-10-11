@@ -1,0 +1,51 @@
+[
+  {
+    "top": "top_leak_pack8_const",
+    "LUT": 5,
+    "FF": 18,
+    "DSP": 1,
+    "WNS_ns": -1.143,
+    "seconds": 159.1,
+    "target_ns": 4,
+    "rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.32,
+    "internal_period_estimate_ns": 5.143
+  },
+  {
+    "top": "top_leak_lut8_const",
+    "LUT": 99,
+    "FF": 34,
+    "DSP": 0,
+    "WNS_ns": -2.142,
+    "seconds": 129.8,
+    "target_ns": 4,
+    "rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.407,
+    "internal_period_estimate_ns": 6.1419999999999995
+  },
+  {
+    "top": "top_leak_pack8_prog",
+    "LUT": 12,
+    "FF": 27,
+    "DSP": 1,
+    "WNS_ns": -1.097,
+    "seconds": 87.2,
+    "target_ns": 4,
+    "rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.381,
+    "internal_period_estimate_ns": 5.0969999999999995,
+    "build_note": "Reopened unchanged synthesis checkpoint after tool failure; failure retained."
+  },
+  {
+    "top": "top_leak_lut8_prog",
+    "LUT": 163,
+    "FF": 43,
+    "DSP": 0,
+    "WNS_ns": -3.475,
+    "seconds": 133.9,
+    "target_ns": 4,
+    "rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "WHS_ns": 0.417,
+    "internal_period_estimate_ns": 7.475
+  }
+]

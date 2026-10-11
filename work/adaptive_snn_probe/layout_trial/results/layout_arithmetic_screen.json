@@ -1,0 +1,27 @@
+{
+  "script_sha256": "cb27ac7b9bfb8a2f62d80b69f7c497cff35dae9b0b68b6aedbed47cf3812b279",
+  "core_sha256": "d4f8a37f2b4684ef4ec1c592d13fbcfd1f7eefa15d4fff71dc57ead235460471",
+  "exhaustive_scalar_pairs": {
+    "7": 16384,
+    "11": 4194304
+  },
+  "packed_cases": 101014,
+  "narrow_cases": 17000,
+  "copy_cases": 8931,
+  "mismatches": 0,
+  "physical_wide_order": [
+    0,
+    1,
+    3,
+    2
+  ],
+  "physical_narrow_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "scope": "Mathematical encoding/decoding only; both variants share this algebra. No RTL, timing, RAM, model accuracy or power claim."
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cui_seu_meng_profile",
+  "url": "https://electronic.seu.edu.cn/master/2015/1130/c11643a135624/page.psp",
+  "retrieved_utc": "2026-10-11T04:37:31.025364+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "http_status": 200,
+  "final_url": "https://electronic.seu.edu.cn/master/2015/1130/c11643a135624/page.psp",
+  "content_type": "text/html;charset=UTF-8",
+  "response_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\cui_seu_meng_profile.response",
+  "sha256": "d08f1168d1e748c5f1969e2e565cf1f828bb6ec88f2495991bedd281d3a9fe5d",
+  "bytes": 11641,
+  "kind": "HTML or API response; not assumed full paper",
+  "links": [
+    "http://electronic.seu.edu.cn/",
+    "http://electronic.seu.edu.cn/dz_en/",
+    "http://electronic.seu.edu.cn/master/main.psp",
+    "/master/11428/list.htm",
+    "/master/11426/list.htm",
+    "/master/11423/list.htm",
+    "/master/11274/list.htm",
+    "http://map.seu.edu.cn/#",
+    "http://webplus.seu.edu.cn/login.jsp?_p=YXM9MSZwPTEmbT1OJg__",
+    "javascript:void(0)"
+  ],
+  "scripts": [
+    "/_js/jquery.min.js",
+    "/_js2/loadStyle.js",
+    "/_js2/grayscale.js",
+    "/_js/jquery.sudy.wp.visitcount.js",
+    "/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"
+  ],
+  "extracted_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\cui_seu_meng_profile.extracted.txt"
+}

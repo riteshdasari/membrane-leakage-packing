@@ -1,0 +1,136 @@
+[
+  {
+    "top": "top_guard_add_layout_v0",
+    "variant": 0,
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 130,
+      "FF": 257,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 70,
+      "occupied_slices_reported": 70
+    },
+    "full_fixture": {
+      "LUT": 130,
+      "FF": 476,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 102
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 219,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 138,
+      "capture_FF": 81,
+      "fixture_FF": 219,
+      "full_occupied_slices": 102,
+      "core_slices_touched": 70,
+      "fixture_slices_touched": 46,
+      "shared_slices": 14,
+      "core_exclusive_slices": 56,
+      "fixture_exclusive_slices": 32,
+      "core_primitive_cells": 441,
+      "fixture_primitive_cells": 221
+    },
+    "WNS_ns": 1.119,
+    "WHS_ns": 0.117,
+    "boundary_WNS_ns": 1.119,
+    "boundary_WHS_ns": -1.136,
+    "source_sha256": {
+      "guard_add_layout.sv": "d4f8a37f2b4684ef4ec1c592d13fbcfd1f7eefa15d4fff71dc57ead235460471",
+      "tb_guard_add_layout.sv": "5a2f5b4dd80d0285a4b66876918c2f75b291f50c48366cde4c3f176e92ee3176",
+      "check_guard_add_layout.py": "c2abb64c072a24189623fcf0dafde4ddb8f44ec38002e87d4ce25e6f969439de",
+      "check_guard_add_layout_snn.py": "4633aef31cac8d0ce18a4973df449f33708e9ccfa2f0cd1d6f5048280a6d1726",
+      "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+      "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+      "guard_add_layout_timing.sv": "bd5d7098da29c4055d3feb8991e1bd46297393fc6f72dc3a9a8b0462fbcf6807",
+      "route_guard_add_layout.tcl": "fd736aa0f5beac7cf066db492f2d5dd96c0b4e693fd62f7ba396381511eafd26",
+      "run_guard_add_layout_route.py": "69f431a06e25560a4f16205f715dc440c30a6ce709bb7c13014413e5785df687"
+    },
+    "functional_check_sha256": {
+      "layout_main_0_checks.json": "cde4903e65130e06366e8095c3110e9b4f025fa5b4a670c11c5d8ad5fe640430",
+      "layout_main_1_checks.json": "f3b94e0fc3af18953c6974135dd76ad30f538a4db04c537d3669517584a3d586",
+      "layout_models_0_checks.json": "8afcbac02ebcadc92a761c279c9e5d8ba0919c2ab1171aa9599ef80f45c82120",
+      "layout_models_1_checks.json": "5f5e7b0c70ed9300bb180df347ace49898c1434031d7048d2b608b0e5badcfe4",
+      "layout_snn_checks.json": "23dd2da34c68f4614dbdd1063ef5ec44746f00e1cfe3d9c2c2e704953c0ea5f7"
+    },
+    "provenance_sha256": "f3b69b9334bd178124dbffba1fe88b7fd93804af5e052426ae017bacfd478243",
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "retried_checkpoint": false,
+    "seconds": 238.0,
+    "scope": "Exact adaptive guard-add layout variant in matched 219-FF registered OOC fixture; combined offset-binary/permutation transformation, not isolated attribution; no board, memory, power or complete neuron-update measurement"
+  },
+  {
+    "top": "top_guard_add_layout_v1",
+    "variant": 1,
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 130,
+      "FF": 247,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 72,
+      "occupied_slices_reported": 72
+    },
+    "full_fixture": {
+      "LUT": 130,
+      "FF": 466,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 107
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 219,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 138,
+      "capture_FF": 81,
+      "fixture_FF": 219,
+      "full_occupied_slices": 107,
+      "core_slices_touched": 72,
+      "fixture_slices_touched": 44,
+      "shared_slices": 9,
+      "core_exclusive_slices": 63,
+      "fixture_exclusive_slices": 35,
+      "core_primitive_cells": 431,
+      "fixture_primitive_cells": 221
+    },
+    "WNS_ns": 0.67,
+    "WHS_ns": 0.02,
+    "boundary_WNS_ns": 0.67,
+    "boundary_WHS_ns": -1.139,
+    "source_sha256": {
+      "guard_add_layout.sv": "d4f8a37f2b4684ef4ec1c592d13fbcfd1f7eefa15d4fff71dc57ead235460471",
+      "tb_guard_add_layout.sv": "5a2f5b4dd80d0285a4b66876918c2f75b291f50c48366cde4c3f176e92ee3176",
+      "check_guard_add_layout.py": "c2abb64c072a24189623fcf0dafde4ddb8f44ec38002e87d4ce25e6f969439de",
+      "check_guard_add_layout_snn.py": "4633aef31cac8d0ce18a4973df449f33708e9ccfa2f0cd1d6f5048280a6d1726",
+      "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+      "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+      "guard_add_layout_timing.sv": "bd5d7098da29c4055d3feb8991e1bd46297393fc6f72dc3a9a8b0462fbcf6807",
+      "route_guard_add_layout.tcl": "fd736aa0f5beac7cf066db492f2d5dd96c0b4e693fd62f7ba396381511eafd26",
+      "run_guard_add_layout_route.py": "69f431a06e25560a4f16205f715dc440c30a6ce709bb7c13014413e5785df687"
+    },
+    "functional_check_sha256": {
+      "layout_main_0_checks.json": "cde4903e65130e06366e8095c3110e9b4f025fa5b4a670c11c5d8ad5fe640430",
+      "layout_main_1_checks.json": "f3b94e0fc3af18953c6974135dd76ad30f538a4db04c537d3669517584a3d586",
+      "layout_models_0_checks.json": "8afcbac02ebcadc92a761c279c9e5d8ba0919c2ab1171aa9599ef80f45c82120",
+      "layout_models_1_checks.json": "5f5e7b0c70ed9300bb180df347ace49898c1434031d7048d2b608b0e5badcfe4",
+      "layout_snn_checks.json": "23dd2da34c68f4614dbdd1063ef5ec44746f00e1cfe3d9c2c2e704953c0ea5f7"
+    },
+    "provenance_sha256": "83ae2f66026941c3c3af7485fd020f67c25ed5f5ad83be204298161748beb2fc",
+    "hd_clk_src": "BUFGCTRL_X0Y0",
+    "retried_checkpoint": false,
+    "seconds": 242.5,
+    "scope": "Exact adaptive guard-add layout variant in matched 219-FF registered OOC fixture; combined offset-binary/permutation transformation, not isolated attribution; no board, memory, power or complete neuron-update measurement"
+  }
+]

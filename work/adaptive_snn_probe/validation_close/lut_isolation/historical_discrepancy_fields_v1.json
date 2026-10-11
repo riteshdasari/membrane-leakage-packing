@@ -1,0 +1,125 @@
+{
+  "status": "pass_independent_historical_field_decode",
+  "same_discrepancy_in_all_three_contexts": true,
+  "original_operand": {
+    "accept_row": 912,
+    "take": 2,
+    "expected_word": 274429,
+    "lanes": [
+      {
+        "U": -6,
+        "beta": 166,
+        "scalar_ceil_leak": -3
+      },
+      {
+        "U": 193,
+        "beta": 87,
+        "scalar_ceil_leak": 66
+      }
+    ],
+    "retire_row": 914,
+    "native_expected_data_hex": "042ffd"
+  },
+  "findings": [
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_4.log",
+      "log_sha256": "70da62214494640c128cb6d43cf4bb699db81b6da87337b45e2a4d6ddbe8d937",
+      "row": 914,
+      "got_word": "6c0843fa",
+      "expected_word": "6c085ffa",
+      "got": {
+        "in_ready": 1,
+        "take": 2,
+        "out_valid": 1,
+        "out_count": 2,
+        "data_hex": "0421fd",
+        "narrow_mode": 0,
+        "lane0_signed12": 509,
+        "lane1_signed12": 66
+      },
+      "expected": {
+        "in_ready": 1,
+        "take": 2,
+        "out_valid": 1,
+        "out_count": 2,
+        "data_hex": "042ffd",
+        "narrow_mode": 0,
+        "lane0_signed12": -3,
+        "lane1_signed12": 66
+      },
+      "low_lane_signed_error": 512
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_4.log",
+      "log_sha256": "6defce84aeebd530ca0537d5731b6ef89c1fc6a47e9991985f79881f0c901f2d",
+      "row": 914,
+      "got_word": "6c0843fa",
+      "expected_word": "6c085ffa",
+      "got": {
+        "in_ready": 1,
+        "take": 2,
+        "out_valid": 1,
+        "out_count": 2,
+        "data_hex": "0421fd",
+        "narrow_mode": 0,
+        "lane0_signed12": 509,
+        "lane1_signed12": 66
+      },
+      "expected": {
+        "in_ready": 1,
+        "take": 2,
+        "out_valid": 1,
+        "out_count": 2,
+        "data_hex": "042ffd",
+        "narrow_mode": 0,
+        "lane0_signed12": -3,
+        "lane1_signed12": 66
+      },
+      "low_lane_signed_error": 512
+    },
+    {
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_4.log",
+      "log_sha256": "197bd21a1e1fc1611f373e048d1c41fdb78cf74ae1374e9108639e72f6e67c58",
+      "row": 914,
+      "got_word": "6c0843fa",
+      "expected_word": "6c085ffa",
+      "got": {
+        "in_ready": 1,
+        "take": 2,
+        "out_valid": 1,
+        "out_count": 2,
+        "data_hex": "0421fd",
+        "narrow_mode": 0,
+        "lane0_signed12": 509,
+        "lane1_signed12": 66
+      },
+      "expected": {
+        "in_ready": 1,
+        "take": 2,
+        "out_valid": 1,
+        "out_count": 2,
+        "data_hex": "042ffd",
+        "narrow_mode": 0,
+        "lane0_signed12": -3,
+        "lane1_signed12": 66
+      },
+      "low_lane_signed_error": 512
+    }
+  ],
+  "low_lane_got": 509,
+  "low_lane_expected": -3,
+  "low_lane_error": 512,
+  "high_lane_got_and_expected": 66,
+  "all_control_fields_equal": true,
+  "interpretation": "The full packed replay word is not a scalar neuron value. Decoding its data/control fields reproduces the earlier509versus-3 discrepancy exactly. EOF structural completion does not resolve it.",
+  "original_raw_evidence_modified": false,
+  "timing_acceptance": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\check_historical_discrepancy_fields_v1.py": "d4fd01be3b4337c1dd9744077b324c61dabaee9788d6b8e2c44990f84824390b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_actual_s0_a3\\trace2.txt": "000f7f466713ac6f020ab468be3b1f4c20553a68451dd3713e738d2adae86785",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\monitor.sv": "dcaff0865ad61af9931b76eb64f3268e0c799f619bca2f1558008bb9cfb1088b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\internal_a0\\tool_4.log": "70da62214494640c128cb6d43cf4bb699db81b6da87337b45e2a4d6ddbe8d937",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_raw_a0\\tool_4.log": "6defce84aeebd530ca0537d5731b6ef89c1fc6a47e9991985f79881f0c901f2d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\eof_repair_control_v2\\run_balanced_a0\\tool_4.log": "197bd21a1e1fc1611f373e048d1c41fdb78cf74ae1374e9108639e72f6e67c58"
+  }
+}

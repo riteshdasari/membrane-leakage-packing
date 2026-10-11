@@ -1,0 +1,1025 @@
+{
+  "created_utc": "2026-10-09T14:04:42.754647+00:00",
+  "source_root": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe",
+  "report": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_adaptive_packing_followup.md",
+  "artifact_hashes": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_adaptive_packing_followup.md": {
+      "bytes": 5808,
+      "sha256": "45d134e63ec334af6198f1a7dfbd6c2979b5edfa3c41b363846167af62f190ab"
+    },
+    "check_continuous.py": {
+      "bytes": 6979,
+      "sha256": "91aee9cf5090bd5705f5c281e1326f7bf1172660f9085326936f08711172722c"
+    },
+    "check_continuous_models.py": {
+      "bytes": 2563,
+      "sha256": "13533b7e3fac8e7b59047649bfa22a94d064fecbe354585f90a403c4ac3fb321"
+    },
+    "check_quad.py": {
+      "bytes": 7512,
+      "sha256": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4"
+    },
+    "check_quad_snn.py": {
+      "bytes": 4475,
+      "sha256": "cc22ed28392b4128a005fe6e86bb794ddbbf8a1c3d67b98d8c2e443a73fb319a"
+    },
+    "continuous_leak.sv": {
+      "bytes": 11886,
+      "sha256": "421bd1ac56d3f3460c5b8f858098eca86493e18ad834c917d636c55466e115ad"
+    },
+    "continuous_timing.sv": {
+      "bytes": 3543,
+      "sha256": "558470a64322e2aaa5dd4837ded088201f25faa0ffdfba63ef9890c2d14f28d4"
+    },
+    "publish_adaptive_followup.py": {
+      "bytes": 10433,
+      "sha256": "f180068df94ee54111bd71378c3369218965dfaef728c77e0c08a24d85eab609"
+    },
+    "quad_leak.sv": {
+      "bytes": 7528,
+      "sha256": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0"
+    },
+    "quad_timing.sv": {
+      "bytes": 3206,
+      "sha256": "6c2cb4237679efb044ef68c62130cff2effe5d1fb45f85f64fdc8b46cca5cc73"
+    },
+    "results\\continuous_hardware.json": {
+      "bytes": 8930,
+      "sha256": "c17f47d4797247283745aef5e43dc98e48e24a503490d9b1d7c6582113d41608"
+    },
+    "results\\continuous_main_-1_1_checks.json": {
+      "bytes": 2022,
+      "sha256": "450b42f9f8ac9407b4a77d9d607c46d4d0f84ce416db88d27537905cd6ced891"
+    },
+    "results\\continuous_main_25_0_checks.json": {
+      "bytes": 2010,
+      "sha256": "697b850cabe5692ca17af4bc180baa76adc7c2cfa21e5244bb9bdd357bad2430"
+    },
+    "results\\continuous_models_checks.json": {
+      "bytes": 3086,
+      "sha256": "06cb88264ce996f98ced90c0aa0eadb68e5a9c89bf96cc5c9860be56f86eff5c"
+    },
+    "results\\continuous_stress_checks.json": {
+      "bytes": 1972,
+      "sha256": "b0a5dacf838cb339d955320fa45da16e109a3da5f11ad78ef5e261de47a32ff1"
+    },
+    "results\\guarded_accumulation_layout_screen.json": {
+      "bytes": 1486,
+      "sha256": "db11864f8ddf04164b624f85c2fb484ecea972d8d77cf2d0c6343b30e2734ac1"
+    },
+    "results\\quad_hardware.json": {
+      "bytes": 12929,
+      "sha256": "9ee8e2309020907393e428c9a9b6d42806ce83baf2143c96b0bfc43eff010113"
+    },
+    "results\\quad_main_0_checks.json": {
+      "bytes": 2634,
+      "sha256": "5a10b86b8cfd3c5fdb4307b62e30f68a44d1f300aabc07bc66fd1027efea4a84"
+    },
+    "results\\quad_main_1_checks.json": {
+      "bytes": 2677,
+      "sha256": "a639347726506d78d0f317d6a5dad8b930a34b61bcd1cf0ce31dae1e10fe142f"
+    },
+    "results\\quad_models_0_checks.json": {
+      "bytes": 2883,
+      "sha256": "c4090ecf1948f16fe400519a36fcc4187972925432be6e07a23af57e263ae7fa"
+    },
+    "results\\quad_models_1_checks.json": {
+      "bytes": 2922,
+      "sha256": "94f1d58424ee156c4aa370842cbf363d3c829139fcaf94c6aa27f5cc718a529f"
+    },
+    "results\\quad_snn_checks.json": {
+      "bytes": 8443,
+      "sha256": "338e4d373945a436fa91c2aa1c511180dca4f7f046261f2ed9328371accb3534"
+    },
+    "results\\top_continuous_adaptive_const_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "d4cea8e216516b16bb06e0c8ddcb115a07d2cc268f3d55f06db1336fd91ca6b6"
+    },
+    "results\\top_continuous_adaptive_const_route\\boundary_timing.rpt": {
+      "bytes": 17630,
+      "sha256": "181dd68c6f4337e53af0ee4eacbbbdeee038902789cf14bdf7a777ccccc39c3e"
+    },
+    "results\\top_continuous_adaptive_const_route\\capture_paths_max.rpt": {
+      "bytes": 33722,
+      "sha256": "fa48ef1a3db80d7e0e7e79565a603af13a4459dc385dab6a5238452387523fa6"
+    },
+    "results\\top_continuous_adaptive_const_route\\capture_paths_min.rpt": {
+      "bytes": 29476,
+      "sha256": "4f1e2c8d2e1d220307b449add9857025d9c60af109bb93afd8917784d05986eb"
+    },
+    "results\\top_continuous_adaptive_const_route\\core_util.rpt": {
+      "bytes": 10686,
+      "sha256": "8771ae3e38cf6a997a1d6188cd6b8f08602171a6e9e99a7644bc5f0f02cdb42d"
+    },
+    "results\\top_continuous_adaptive_const_route\\design.dcp": {
+      "bytes": 329040,
+      "sha256": "8f7308a470675249429844055ba3b5ce238cc02721fc6b266d74e90f247f26c1"
+    },
+    "results\\top_continuous_adaptive_const_route\\fixture_accounting.txt": {
+      "bytes": 247,
+      "sha256": "48dac1ed81c043e4e1504cea0da33d962ef2e99082d214d378fee2ab1ba58904"
+    },
+    "results\\top_continuous_adaptive_const_route\\hierarchical_util.rpt": {
+      "bytes": 2583,
+      "sha256": "f78b858014fb0bfd1f1a51f9b8ee8a2178cc655498b5c11f6f70ca2c31743097"
+    },
+    "results\\top_continuous_adaptive_const_route\\input_paths_max.rpt": {
+      "bytes": 29710,
+      "sha256": "f89a5055e9940d65e91dd7353194d399dbd7c2f23678116f93da75a80b2c1665"
+    },
+    "results\\top_continuous_adaptive_const_route\\input_paths_min.rpt": {
+      "bytes": 29550,
+      "sha256": "c6cd00db424141a15eb3c6f1c2d0ed0c6fbc96330a9c01b9260b3ac757df9ac4"
+    },
+    "results\\top_continuous_adaptive_const_route\\launch_paths_max.rpt": {
+      "bytes": 40761,
+      "sha256": "efe9eea9b9654f515cc589a504a25c65187b997a9ed65e924edc63a51684357c"
+    },
+    "results\\top_continuous_adaptive_const_route\\launch_paths_min.rpt": {
+      "bytes": 30311,
+      "sha256": "38ec25023cb8ed1b1a0ecceb0f2ff1c2ac430ebedac7d0c0d311566f336c48c8"
+    },
+    "results\\top_continuous_adaptive_const_route\\output_paths_max.rpt": {
+      "bytes": 29543,
+      "sha256": "ef014853f4cc4001b2fef4cec556d7328b9517a7c38ec60fe010e515701d4c85"
+    },
+    "results\\top_continuous_adaptive_const_route\\output_paths_min.rpt": {
+      "bytes": 29307,
+      "sha256": "17edcd46102a10dfd6b5cb8f9e1ff01d5265af0564f4fcc2ac16745444f91932"
+    },
+    "results\\top_continuous_adaptive_const_route\\paths_max.rpt": {
+      "bytes": 40443,
+      "sha256": "ee5e9fc5a4088aa6fda43fdc46cd8f6763fa82f574688057479efef074c52eb1"
+    },
+    "results\\top_continuous_adaptive_const_route\\paths_min.rpt": {
+      "bytes": 29417,
+      "sha256": "d659aea98927ead5ddb270647965887143223973aeced8d3a71d58f2c00d832a"
+    },
+    "results\\top_continuous_adaptive_const_route\\provenance.txt": {
+      "bytes": 157,
+      "sha256": "f2306c5049bec5ece18f506c72a8cffe7b3373eb98f74a1d53f1127b41042d55"
+    },
+    "results\\top_continuous_adaptive_const_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "14f2fbd7205ec13b2aca25c4f0459b576d5d279c2d261746f322612f12d369b4"
+    },
+    "results\\top_continuous_adaptive_const_route\\slice_sites.txt": {
+      "bytes": 1304,
+      "sha256": "ba5afc132c98974a7524a35ee0a79800be99405823931dcb7edd2e95307f5ffb"
+    },
+    "results\\top_continuous_adaptive_const_route\\timing.rpt": {
+      "bytes": 25785,
+      "sha256": "896ad6ac5d6c0713f15efb6e0828e9a09c565aa565a4c2b3d35792bf9e4a6191"
+    },
+    "results\\top_continuous_adaptive_const_route\\util.rpt": {
+      "bytes": 10575,
+      "sha256": "78c1e0eead1f970700a09b2b83b08668627e122b6a320db3cd74c79a32f3838e"
+    },
+    "results\\top_continuous_adaptive_const_synth\\design.dcp": {
+      "bytes": 109826,
+      "sha256": "b768bb3207af9ccfbe3e22c7b4d4487a000cbed3d5a6041d91d4d63aebca19db"
+    },
+    "results\\top_continuous_adaptive_const_synth\\hierarchical_util.rpt": {
+      "bytes": 2400,
+      "sha256": "66a0efc70cadbd73b85c6fb279ba7dfaac00fd281dee931c79fda4d1f8439cde"
+    },
+    "results\\top_continuous_adaptive_const_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "865c182999093b80883d25b815757a7b8c6cc41a4f641d5fec9364da002178ce"
+    },
+    "results\\top_continuous_adaptive_const_synth\\util.rpt": {
+      "bytes": 8391,
+      "sha256": "f383459053d89139ad2b69702ffd579fa6fa1b3bd35ad111d94562d6cb72799e"
+    },
+    "results\\top_continuous_adaptive_prog_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "f9b644d85db7f1de6a24281e4333d1a4757666732bb866c56cfff7f2c68c44dc"
+    },
+    "results\\top_continuous_adaptive_prog_route\\boundary_timing.rpt": {
+      "bytes": 18856,
+      "sha256": "11ae4dfc6fb6e999e4456a7b896de5d8c3e8797a08ecc3211b900b0724a37547"
+    },
+    "results\\top_continuous_adaptive_prog_route\\capture_paths_max.rpt": {
+      "bytes": 33981,
+      "sha256": "94a7ce12d3c3921cead9e4c815fd607bf680b474e9eeb66408c05efa61846681"
+    },
+    "results\\top_continuous_adaptive_prog_route\\capture_paths_min.rpt": {
+      "bytes": 29448,
+      "sha256": "bce87f20bace612fdb2b301d0915ffcaf4ecd88e9168d6d61f283e8f81fad663"
+    },
+    "results\\top_continuous_adaptive_prog_route\\core_util.rpt": {
+      "bytes": 10724,
+      "sha256": "83d475dbae9c58e288ee18072804c06ac70660ffd3951fd4a2d4f14f09610694"
+    },
+    "results\\top_continuous_adaptive_prog_route\\design.dcp": {
+      "bytes": 391959,
+      "sha256": "cf6d13b5216a9f6e3fce5613847093cadf3c1b2209485127edf394dfc342e27d"
+    },
+    "results\\top_continuous_adaptive_prog_route\\fixture_accounting.txt": {
+      "bytes": 249,
+      "sha256": "9a8585bbd71a37202259b16c7968271be3c776565dbab915aaa7cad6f473bc29"
+    },
+    "results\\top_continuous_adaptive_prog_route\\hierarchical_util.rpt": {
+      "bytes": 2570,
+      "sha256": "d857d403904ac40ff9abd0a933e77fd94c22506c974763008f2f8e6c692119a2"
+    },
+    "results\\top_continuous_adaptive_prog_route\\input_paths_max.rpt": {
+      "bytes": 29697,
+      "sha256": "f133193dd1f28b0f1bb113b4e416e6ec00c8e87908b2fd827f5b43730a400329"
+    },
+    "results\\top_continuous_adaptive_prog_route\\input_paths_min.rpt": {
+      "bytes": 29578,
+      "sha256": "7fb68255ad2b4609736f5703a24889999e8b7419c38ee9d84a80a1c843d924f0"
+    },
+    "results\\top_continuous_adaptive_prog_route\\launch_paths_max.rpt": {
+      "bytes": 41074,
+      "sha256": "d9c514e6820d52c4de4da7f4426525a48904f48625baf7e66b021a6a22dda94d"
+    },
+    "results\\top_continuous_adaptive_prog_route\\launch_paths_min.rpt": {
+      "bytes": 30058,
+      "sha256": "d9af9cb122dc764fc552155ee70719b1d9d2383ec25f56c7e25edcab3630e489"
+    },
+    "results\\top_continuous_adaptive_prog_route\\output_paths_max.rpt": {
+      "bytes": 29533,
+      "sha256": "ff68db267497732b49b47a2874889995bb57dd36e43174070e515c368407f53e"
+    },
+    "results\\top_continuous_adaptive_prog_route\\output_paths_min.rpt": {
+      "bytes": 29279,
+      "sha256": "3ad298d16427614bc023569e987b524f0083e67a758419153763acfebbc64438"
+    },
+    "results\\top_continuous_adaptive_prog_route\\paths_max.rpt": {
+      "bytes": 55198,
+      "sha256": "ececf79bfb92862d60e651c2b1dcb75874e29c00531a9ef09c5b4ffaaa1c2e25"
+    },
+    "results\\top_continuous_adaptive_prog_route\\paths_min.rpt": {
+      "bytes": 29329,
+      "sha256": "1c0b07ef9526f34736b345a130c6c467c8be30c9c7af2469348e1c96e794e19d"
+    },
+    "results\\top_continuous_adaptive_prog_route\\provenance.txt": {
+      "bytes": 156,
+      "sha256": "5347d3dbbf00bbf6c5f87fa1b23c389bd3323d6b8c32e5f189c74d21bb83eb0a"
+    },
+    "results\\top_continuous_adaptive_prog_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "ab60e4b2f735f370c179d5a164aea903fea3f4e3fb56fbceae1592cf7fcff087"
+    },
+    "results\\top_continuous_adaptive_prog_route\\slice_sites.txt": {
+      "bytes": 1819,
+      "sha256": "a89dfde5f27d582f68362d4f4ece4b505efab4ff23e71016594a272f54b6bc5e"
+    },
+    "results\\top_continuous_adaptive_prog_route\\timing.rpt": {
+      "bytes": 26970,
+      "sha256": "a04b55f73016e20379a435ca39c24ac6d1a9343bb16341038b347df0373f6db0"
+    },
+    "results\\top_continuous_adaptive_prog_route\\util.rpt": {
+      "bytes": 10613,
+      "sha256": "291517211c957af6b12a7d19b1ec4eed79e9e9d8cdae2d3c696c9fe4c9ae2664"
+    },
+    "results\\top_continuous_adaptive_prog_synth\\design.dcp": {
+      "bytes": 144584,
+      "sha256": "6bbf746c4273b1052e06db76b0aac910387c3b63137f890c2fe908c022f688b0"
+    },
+    "results\\top_continuous_adaptive_prog_synth\\hierarchical_util.rpt": {
+      "bytes": 2387,
+      "sha256": "3a59b0c5fd5da3bb3674369e67fc4afb5885975ebc59dced321474dada9e837d"
+    },
+    "results\\top_continuous_adaptive_prog_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "f1d6452bfcf0f35ff90ed9d72cb12f66d2b6c6e52cc24918c269947b3c1cbb3a"
+    },
+    "results\\top_continuous_adaptive_prog_synth\\util.rpt": {
+      "bytes": 8429,
+      "sha256": "7901b2f7f85dd3182fc781f2141f63b7691b5f97f9ae48be2e3920d813c1184b"
+    },
+    "results\\top_continuous_hybrid_const_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "af746fae70146f7aeb2d0442416ce836aece59d3c9bbe33d509b716e397284a2"
+    },
+    "results\\top_continuous_hybrid_const_route\\boundary_timing.rpt": {
+      "bytes": 17865,
+      "sha256": "a20955738085d3b4cb7b7907e5644c69e8100b2bf6bfed3e610ff22b754760a4"
+    },
+    "results\\top_continuous_hybrid_const_route\\capture_paths_max.rpt": {
+      "bytes": 33344,
+      "sha256": "b87e98c0eb16931858e845ace4e6c7daadf8c94e8ef56e57fc7ac605ecd968ef"
+    },
+    "results\\top_continuous_hybrid_const_route\\capture_paths_min.rpt": {
+      "bytes": 29528,
+      "sha256": "744352bd254c42396694cf9003eb21882cc0e9aedce431c797959a24ee6ea7d6"
+    },
+    "results\\top_continuous_hybrid_const_route\\core_util.rpt": {
+      "bytes": 10720,
+      "sha256": "2bd7fe33084cb4440c8a6bb673025c20bb0f1068ac5346a383674402407e9351"
+    },
+    "results\\top_continuous_hybrid_const_route\\design.dcp": {
+      "bytes": 288870,
+      "sha256": "c214754cff42f54403e23913190130a0eb8c68175ed1e64aa7a76db0e7f50b28"
+    },
+    "results\\top_continuous_hybrid_const_route\\fixture_accounting.txt": {
+      "bytes": 246,
+      "sha256": "2c0b57dd2b46dd3fdba1e46dea9c70aa59a0abbf23dc2c06daf383c92149e7b0"
+    },
+    "results\\top_continuous_hybrid_const_route\\hierarchical_util.rpt": {
+      "bytes": 2557,
+      "sha256": "a562702dcd1002e77310ece8d3e8efffc2dca59c0b03a9da0a26c14d3c15bb77"
+    },
+    "results\\top_continuous_hybrid_const_route\\input_paths_max.rpt": {
+      "bytes": 29705,
+      "sha256": "80119f072753cfb09bab1491457e56c4aed19d8608c783f2212a73241e57e174"
+    },
+    "results\\top_continuous_hybrid_const_route\\input_paths_min.rpt": {
+      "bytes": 29533,
+      "sha256": "0249fb54ed83513612cdb86a33fcd9f124487724ce43ade2789f6aab2497a550"
+    },
+    "results\\top_continuous_hybrid_const_route\\launch_paths_max.rpt": {
+      "bytes": 38761,
+      "sha256": "89862612947dbd8a012201d01b956883bc0725ca8a12442bd93e5a235f96be5d"
+    },
+    "results\\top_continuous_hybrid_const_route\\launch_paths_min.rpt": {
+      "bytes": 30378,
+      "sha256": "6be1c0a6df20479b141584a296c4cf829335a2a67323fdcb66b7166760fc6e0c"
+    },
+    "results\\top_continuous_hybrid_const_route\\output_paths_max.rpt": {
+      "bytes": 29541,
+      "sha256": "97999bf95f6d4ad6a7b57f4c25ea03d4162b14603fad3935d88cef0b3ef0d003"
+    },
+    "results\\top_continuous_hybrid_const_route\\output_paths_min.rpt": {
+      "bytes": 29281,
+      "sha256": "124676dd170df9af072accc39f2b0a060d02cbcad46f66174ee4116b2574e8d5"
+    },
+    "results\\top_continuous_hybrid_const_route\\paths_max.rpt": {
+      "bytes": 41983,
+      "sha256": "8ae8ab1c1210eccae9891e1688026df9837b8e9f16f8686642abcd06cac805a6"
+    },
+    "results\\top_continuous_hybrid_const_route\\paths_min.rpt": {
+      "bytes": 29595,
+      "sha256": "f39be5ab8b4a9bca9d9e4f94e25a9bada950306c63bc3f25d3a28781fd438d8e"
+    },
+    "results\\top_continuous_hybrid_const_route\\provenance.txt": {
+      "bytes": 155,
+      "sha256": "a22ef3b981d626e76e4c357e3b2e6c1def9fecd220c2860d9ed9f1fa2b227d63"
+    },
+    "results\\top_continuous_hybrid_const_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "f2b768d219565adf3098018351568e9df1ac96c269cb3452565ae526afcc3615"
+    },
+    "results\\top_continuous_hybrid_const_route\\slice_sites.txt": {
+      "bytes": 1026,
+      "sha256": "642ec5ef75ae019b6e0c17df329b2e6dd18103c2fe8d41797e78bef46c5a273a"
+    },
+    "results\\top_continuous_hybrid_const_route\\timing.rpt": {
+      "bytes": 26021,
+      "sha256": "4ec045e2aa9bc427bb4a31f6dd46a66c1b0e6a1231568742b7d26d2b7ac74827"
+    },
+    "results\\top_continuous_hybrid_const_route\\util.rpt": {
+      "bytes": 10609,
+      "sha256": "01a60db54c5933ec3288dc2a6da243a5fead6e47a8fcdeaec98a55a48c430df0"
+    },
+    "results\\top_continuous_hybrid_const_synth\\design.dcp": {
+      "bytes": 87427,
+      "sha256": "934941add89b224a8686f41bba932fd921e54ebf039d5d6512a5dc3f8ff888c4"
+    },
+    "results\\top_continuous_hybrid_const_synth\\hierarchical_util.rpt": {
+      "bytes": 2374,
+      "sha256": "e0a6a6b0e03dbe31cfeed1bd54727dc47db5b7e8d2499603b1e28e27c399e6b5"
+    },
+    "results\\top_continuous_hybrid_const_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "9918eb8205591929b5b9c33875b5d35ef1f44aeb95dd3201745580f3b458da80"
+    },
+    "results\\top_continuous_hybrid_const_synth\\util.rpt": {
+      "bytes": 8383,
+      "sha256": "76ecf96efcb56312a570ba1bfa433ca3aa6d27f65494c066ba60b82531799374"
+    },
+    "results\\top_continuous_hybrid_prog_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "5d71e3b092665827eb10a1b5a80848ee07a380f75cc43044dca4366ffab5ee68"
+    },
+    "results\\top_continuous_hybrid_prog_route\\boundary_timing.rpt": {
+      "bytes": 18792,
+      "sha256": "ef3efa5ad1610aa07a09be76fdbddf4409a75b1be285c3cc3d8cdbf54ac11239"
+    },
+    "results\\top_continuous_hybrid_prog_route\\capture_paths_max.rpt": {
+      "bytes": 33283,
+      "sha256": "ba1ee30a4452854ea94d8e1c5e7c3922f1b4780f43e8aa4a897fed2828e89470"
+    },
+    "results\\top_continuous_hybrid_prog_route\\capture_paths_min.rpt": {
+      "bytes": 29568,
+      "sha256": "226d1d137ee14c3db8a1810195270a3c0c4ec39e9d04569cbcae3e95fdb88c82"
+    },
+    "results\\top_continuous_hybrid_prog_route\\core_util.rpt": {
+      "bytes": 10716,
+      "sha256": "b55f4b909c60fa2fe461ec1b0aa69fa58c00a99568f33ad02816391fd0edbbc8"
+    },
+    "results\\top_continuous_hybrid_prog_route\\design.dcp": {
+      "bytes": 324637,
+      "sha256": "49da88aad79dfd656bc67c223c1fcbf1030ff99befa24917f4d94e286135e1fc"
+    },
+    "results\\top_continuous_hybrid_prog_route\\fixture_accounting.txt": {
+      "bytes": 247,
+      "sha256": "f7f6b8b0cf08604d2999313970da448819f111bb19b0481ae3f5076d083feec1"
+    },
+    "results\\top_continuous_hybrid_prog_route\\hierarchical_util.rpt": {
+      "bytes": 2544,
+      "sha256": "9b5d769985ea4738a8ed9f94546a16fa5b640ec5311258793928f136eb4ff9b7"
+    },
+    "results\\top_continuous_hybrid_prog_route\\input_paths_max.rpt": {
+      "bytes": 29689,
+      "sha256": "120fd609e784634b00ba2b1aa0a7f7f4bf5f62fae2ecdaa7aeede851ac1c7c55"
+    },
+    "results\\top_continuous_hybrid_prog_route\\input_paths_min.rpt": {
+      "bytes": 29609,
+      "sha256": "e607dcc8af9ff57c7422dbe7aca037c9bec78fbdf9e4eaf24ba7a356710569f7"
+    },
+    "results\\top_continuous_hybrid_prog_route\\launch_paths_max.rpt": {
+      "bytes": 37125,
+      "sha256": "ca2f083be8943211a207d1193cad0ff545bb518361e5b51a0e6fce9f57808b2b"
+    },
+    "results\\top_continuous_hybrid_prog_route\\launch_paths_min.rpt": {
+      "bytes": 30434,
+      "sha256": "9e55db425d498302a8618b37a86423303a477ae8d7c0a8ec12ba1a7153f9219c"
+    },
+    "results\\top_continuous_hybrid_prog_route\\output_paths_max.rpt": {
+      "bytes": 29567,
+      "sha256": "b78457cc41485f323c4af2b04c8bbc03d8f7b0cd2bd11bbfc3a163ab4b70db6b"
+    },
+    "results\\top_continuous_hybrid_prog_route\\output_paths_min.rpt": {
+      "bytes": 29313,
+      "sha256": "504fb7bda6a3b4e2158dbb6b86edc6c8882ee4a70570d33f7b71d44387df2305"
+    },
+    "results\\top_continuous_hybrid_prog_route\\paths_max.rpt": {
+      "bytes": 49619,
+      "sha256": "fabf4837e41d179ff8f136edcb311e1760167ffd9a686ffa7ae0dac7f9ccaaa4"
+    },
+    "results\\top_continuous_hybrid_prog_route\\paths_min.rpt": {
+      "bytes": 29774,
+      "sha256": "c28fe5609350c5d8cb1a7e039249f732a7c56a84b546e02ade0b45cd04507ca5"
+    },
+    "results\\top_continuous_hybrid_prog_route\\provenance.txt": {
+      "bytes": 154,
+      "sha256": "fd2086af79cf30f77b4f784617b54df514ba61968f2f00baff730d4fc35d651b"
+    },
+    "results\\top_continuous_hybrid_prog_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "229f60545ccb92c69bd713ffdd13bb174a4ec95df2b0be5e69fc92886d1bc8b3"
+    },
+    "results\\top_continuous_hybrid_prog_route\\slice_sites.txt": {
+      "bytes": 1347,
+      "sha256": "aa5de1d916299106eb4eee4bae684bb3134a31408e3d8908edba3df8bbf1725d"
+    },
+    "results\\top_continuous_hybrid_prog_route\\timing.rpt": {
+      "bytes": 26966,
+      "sha256": "50e7f10c6758a84f48599a03ba4b015ad8aecfafa0b325e5e315d3813e1411cf"
+    },
+    "results\\top_continuous_hybrid_prog_route\\util.rpt": {
+      "bytes": 10605,
+      "sha256": "b15277cd4cc1a84a7efb032c9b3894b76eadadc05feb9ba34b47653ecf39351d"
+    },
+    "results\\top_continuous_hybrid_prog_synth\\design.dcp": {
+      "bytes": 108605,
+      "sha256": "24ccaaf664cf44008403891093515511870863eeb27850b1c85e25d95e0c0a91"
+    },
+    "results\\top_continuous_hybrid_prog_synth\\hierarchical_util.rpt": {
+      "bytes": 2361,
+      "sha256": "c4f1a0571b59491bd9275b869b202cb353e8fa5e9982ed608e35fec806254bd3"
+    },
+    "results\\top_continuous_hybrid_prog_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "b981eb32b483ae1fa9b22dccae758849cc63ceaa0390fd7012189a2bd23f0e7f"
+    },
+    "results\\top_continuous_hybrid_prog_synth\\util.rpt": {
+      "bytes": 8421,
+      "sha256": "77011d4476797aaaeda67d72751028166d02b3b85c0872f2a92fc013815c9347"
+    },
+    "results\\top_quad_adaptive6_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "70ee625a52afe8119dd0ff344490980c219529371ec0158754feb81e165e252d"
+    },
+    "results\\top_quad_adaptive6_route\\boundary_timing.rpt": {
+      "bytes": 18691,
+      "sha256": "a34b4cbef3cdd32865a2698305e8229265e74d8a9a9a6e572c081fdf8fb1a85a"
+    },
+    "results\\top_quad_adaptive6_route\\capture_paths_max.rpt": {
+      "bytes": 36644,
+      "sha256": "dc0165c953f41b9e28f88ae42f853baf9f0bb99582c8df99c314439d838713e8"
+    },
+    "results\\top_quad_adaptive6_route\\capture_paths_min.rpt": {
+      "bytes": 29432,
+      "sha256": "20dc9ba75d9af16575cf3ee9c74e894e65ba9b425f316de14c899a29b1edd905"
+    },
+    "results\\top_quad_adaptive6_route\\core_util.rpt": {
+      "bytes": 10684,
+      "sha256": "ea0a38183e5ba12d6d110bacc694f54703a5e16ae2beabbd6386e042918eaa8b"
+    },
+    "results\\top_quad_adaptive6_route\\design.dcp": {
+      "bytes": 391864,
+      "sha256": "a013c114488035be93a8b96db6959b384b1f1ad890c00e1219977048fdfb515c"
+    },
+    "results\\top_quad_adaptive6_route\\fixture_accounting.txt": {
+      "bytes": 251,
+      "sha256": "34a808c1059bbec924a32f4e10890992317c51e3e1074b6a599f8ee337ed06aa"
+    },
+    "results\\top_quad_adaptive6_route\\hierarchical_util.rpt": {
+      "bytes": 2386,
+      "sha256": "78cec9137586ad0cc3ff1fd6ee91cffe6488f504a73041f986341db2a02d58a2"
+    },
+    "results\\top_quad_adaptive6_route\\input_paths_max.rpt": {
+      "bytes": 29666,
+      "sha256": "1c52df15d86cc922f8cd4be383ffc2fa067c536ae90321a020e791a41f4944b1"
+    },
+    "results\\top_quad_adaptive6_route\\input_paths_min.rpt": {
+      "bytes": 29553,
+      "sha256": "a019d7aa3db9ffd6c372972d36e0e1dbfcd85890b991e75548ae56075c28e27b"
+    },
+    "results\\top_quad_adaptive6_route\\launch_paths_max.rpt": {
+      "bytes": 43077,
+      "sha256": "26b59c223f924307f9384aa3c9ba0403d89be0ae3a50c79d84334dda8b3b4344"
+    },
+    "results\\top_quad_adaptive6_route\\launch_paths_min.rpt": {
+      "bytes": 30791,
+      "sha256": "6188aebc3090dc38024676394f4108bb483676898f1defd8b416c844aeff61fd"
+    },
+    "results\\top_quad_adaptive6_route\\output_paths_max.rpt": {
+      "bytes": 29445,
+      "sha256": "20eff4f77e9a2825be5c0be6da5266f59aa7fb24d0db4af779dbebd50ab9d93a"
+    },
+    "results\\top_quad_adaptive6_route\\output_paths_min.rpt": {
+      "bytes": 29359,
+      "sha256": "843054b1d57f2f0d5a0ab95910affd442dfda252d32a48cd597ade7e4139b090"
+    },
+    "results\\top_quad_adaptive6_route\\paths_max.rpt": {
+      "bytes": 49496,
+      "sha256": "34a820b472eb70fc0f886686167170dc616ab015c61897a04dcc98ddde7bfec5"
+    },
+    "results\\top_quad_adaptive6_route\\paths_min.rpt": {
+      "bytes": 29231,
+      "sha256": "c367b04e0d4beef7077c11d40d1a0c07d624d95b69d86ad0046fd6a795a7f9c9"
+    },
+    "results\\top_quad_adaptive6_route\\provenance.txt": {
+      "bytes": 146,
+      "sha256": "d0e7ba810e91a6211a2d4fb0238eadecc0685ba6ea0f7dada122ffdcfcef16a9"
+    },
+    "results\\top_quad_adaptive6_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "056e07f47034a0bc3964ea765fbeacb10ee37083737bdc09b33192bcea0d934a"
+    },
+    "results\\top_quad_adaptive6_route\\slice_sites.txt": {
+      "bytes": 2124,
+      "sha256": "3730c460934a367b2314f2ade6066c25f896dcf4f0d5c1fb50b0f02ac233d263"
+    },
+    "results\\top_quad_adaptive6_route\\timing.rpt": {
+      "bytes": 26830,
+      "sha256": "76eb79b1cf2f97a437f18ed51446d8f448cc82cf0d75485ba922267d9aeec943"
+    },
+    "results\\top_quad_adaptive6_route\\util.rpt": {
+      "bytes": 10573,
+      "sha256": "b69cc32d5aba0bdc0a14d441e94389afdb3db22cd7e9e03ea3ca9d8912f4ddaf"
+    },
+    "results\\top_quad_adaptive6_synth\\design.dcp": {
+      "bytes": 139476,
+      "sha256": "693fe9644e678a0007a6cd6ec18dae4fc812128f92a8779a29b62013f446f639"
+    },
+    "results\\top_quad_adaptive6_synth\\hierarchical_util.rpt": {
+      "bytes": 2203,
+      "sha256": "5a4d91ddab0e53c03792a0343257efd08ba049d3dccba1431c6c5196765722ab"
+    },
+    "results\\top_quad_adaptive6_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "9c562c65aa787bfbc5a4ac81913b379b78b6a0494756be56858827a02178d196"
+    },
+    "results\\top_quad_adaptive6_synth\\util.rpt": {
+      "bytes": 8389,
+      "sha256": "1b72dc6f08902d9bd12dd1d0a542e65c2d2021b6964ad7b8ea57fc9e0d61e194"
+    },
+    "results\\top_quad_adaptive7_route\\boundary_slack.txt": {
+      "bytes": 16,
+      "sha256": "ce5d7452e16a515154abfcb1a1e9a4bd75775780f2a706c15f251170ea35a058"
+    },
+    "results\\top_quad_adaptive7_route\\boundary_timing.rpt": {
+      "bytes": 19093,
+      "sha256": "e9af3c09fa464254d0825e93b23c2f005841206363e40e0cf52b19418baaa98a"
+    },
+    "results\\top_quad_adaptive7_route\\capture_paths_max.rpt": {
+      "bytes": 36576,
+      "sha256": "8693fdd9896e3b3bf14b05c651aec9e3f14780f8281d130bd586afba6fdbf33e"
+    },
+    "results\\top_quad_adaptive7_route\\capture_paths_min.rpt": {
+      "bytes": 29448,
+      "sha256": "f1266c428731528156d8707c00de04caf6e340586525d1adcc0846612c7927e1"
+    },
+    "results\\top_quad_adaptive7_route\\core_util.rpt": {
+      "bytes": 10684,
+      "sha256": "1b542065068556db363c239cdf98e00ead383d8e9874d9b183ef7362f978dbc9"
+    },
+    "results\\top_quad_adaptive7_route\\design.dcp": {
+      "bytes": 396101,
+      "sha256": "e258a2d90a58fb52ce8ff4bac6ceca669386f80113dbe897b69fe21f053663e9"
+    },
+    "results\\top_quad_adaptive7_route\\fixture_accounting.txt": {
+      "bytes": 251,
+      "sha256": "614a51d7e0ec821a452a20a770323b2c0b3b7e040378a019f75d10e4f6e062bd"
+    },
+    "results\\top_quad_adaptive7_route\\hierarchical_util.rpt": {
+      "bytes": 2386,
+      "sha256": "5511da62430a53e5e5c85ca680f7a6d1c7d383f2ecaa8664a882ef4b6cbe91df"
+    },
+    "results\\top_quad_adaptive7_route\\input_paths_max.rpt": {
+      "bytes": 29706,
+      "sha256": "176efc9cda889ffaa70ac7575472b603795c4fd6fd6445a33ef7353bc1cc6c19"
+    },
+    "results\\top_quad_adaptive7_route\\input_paths_min.rpt": {
+      "bytes": 29471,
+      "sha256": "15cf89eba89832213d4a7362d3637335b34c16b66dc8ebaee5dbd1605cdfa2c8"
+    },
+    "results\\top_quad_adaptive7_route\\launch_paths_max.rpt": {
+      "bytes": 43208,
+      "sha256": "4c77ebfef6842a3ca4ba22a982ff8638270a5b65a9115e396e41c8585236002e"
+    },
+    "results\\top_quad_adaptive7_route\\launch_paths_min.rpt": {
+      "bytes": 29841,
+      "sha256": "2060ae09757be79ad3626278ef8a028a42baa9cad75b052308fc489639ca666d"
+    },
+    "results\\top_quad_adaptive7_route\\output_paths_max.rpt": {
+      "bytes": 29463,
+      "sha256": "a22608f73379feaab5c8c6477550f8dc3712fc4a1dc890520062808a4ff7b5c2"
+    },
+    "results\\top_quad_adaptive7_route\\output_paths_min.rpt": {
+      "bytes": 29371,
+      "sha256": "24dfec45b45c7101de98ac4bfa07de473e3b9a8ee20d0bcdb909ecaefad3a93e"
+    },
+    "results\\top_quad_adaptive7_route\\paths_max.rpt": {
+      "bytes": 53855,
+      "sha256": "c7b0e458efc729f078208a2d41efde357c7a464d2ee35e2edc179ddb7d21256e"
+    },
+    "results\\top_quad_adaptive7_route\\paths_min.rpt": {
+      "bytes": 29109,
+      "sha256": "fa44a2672897c7d1b13cc881579b2189d44d05d18e2a222d4f25a9de5d4dac93"
+    },
+    "results\\top_quad_adaptive7_route\\provenance.txt": {
+      "bytes": 146,
+      "sha256": "07a36d0623e59eff12e0d901dee8e44542d99750168f1b2bcb8d82a75e9c93a1"
+    },
+    "results\\top_quad_adaptive7_route\\slack.txt": {
+      "bytes": 15,
+      "sha256": "a1c218d3aa4e48dd51cd78d1757d8f031e30ec8e1fc4dc54076a8512f45f1c0f"
+    },
+    "results\\top_quad_adaptive7_route\\slice_sites.txt": {
+      "bytes": 2094,
+      "sha256": "59e6e4e4fa94b609274696d1b2e3bf737b6ed3b283bf8d61d0d13915320ebdda"
+    },
+    "results\\top_quad_adaptive7_route\\timing.rpt": {
+      "bytes": 27253,
+      "sha256": "f0c72d3026b31a60747613d93e7843ee6a56ee3e45e48eaa1961b2be4b51cc56"
+    },
+    "results\\top_quad_adaptive7_route\\util.rpt": {
+      "bytes": 10573,
+      "sha256": "91fe63ab8cf0bf1ee76bd576ee95ecf0ffcbba991e8a2ab4b71025e8b1213e77"
+    },
+    "results\\top_quad_adaptive7_synth\\design.dcp": {
+      "bytes": 141638,
+      "sha256": "f7f432322c323ce1691ddb66c83daa98244ae46e31f38ca9dcc489dc3dfdc51e"
+    },
+    "results\\top_quad_adaptive7_synth\\hierarchical_util.rpt": {
+      "bytes": 2203,
+      "sha256": "1817181d5caa9423c675101ed9e8049175fa79d9d2d430e6da04a389eba818b9"
+    },
+    "results\\top_quad_adaptive7_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "85c676c1d44f8589e3ce1dcbb8293318597d2d989fee33a25cbdad27951fc630"
+    },
+    "results\\top_quad_adaptive7_synth\\util.rpt": {
+      "bytes": 8389,
+      "sha256": "cf15ee0161bd4fe8823ef838a7356097fb7ca9a701161eb67597c4298b44ffed"
+    },
+    "results\\top_quad_fixed3_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "ef4856b22b2b02eca8252418ed76d25bc888d0b11ccdc72d63e8786e0a481136"
+    },
+    "results\\top_quad_fixed3_route\\boundary_timing.rpt": {
+      "bytes": 17821,
+      "sha256": "61bbe49fe4a3f46baaedee19e383394fcf14b922c511e8b10c373ed8ebfe1467"
+    },
+    "results\\top_quad_fixed3_route\\capture_paths_max.rpt": {
+      "bytes": 35208,
+      "sha256": "eb65dce7777014d14088c1cf3e720bc95ca72c0c5af1b55d373f9eb533f1efdb"
+    },
+    "results\\top_quad_fixed3_route\\capture_paths_min.rpt": {
+      "bytes": 29412,
+      "sha256": "c9d0e80ae90675c45e2671d6eff6c455795d7c3b9584634ac6a847d380e78714"
+    },
+    "results\\top_quad_fixed3_route\\core_util.rpt": {
+      "bytes": 10672,
+      "sha256": "f6dbe2b1d62e6526e84118262ec8c0edb8b7b6fe278bc0ef1644dc71fde2903d"
+    },
+    "results\\top_quad_fixed3_route\\design.dcp": {
+      "bytes": 312509,
+      "sha256": "76580f56817666a17e5a7efc9f0811b37df39ceb08e528da564a402da1c8280a"
+    },
+    "results\\top_quad_fixed3_route\\fixture_accounting.txt": {
+      "bytes": 249,
+      "sha256": "0c67ff7a3f9d7689db3df2de8b660ff11f239e780f1ff6eeb8c495d6cda17235"
+    },
+    "results\\top_quad_fixed3_route\\hierarchical_util.rpt": {
+      "bytes": 2347,
+      "sha256": "5f8b79cc6de843e20d7060cb8232b31c47c9dcd6b1de7c476b2a11f2018c66fd"
+    },
+    "results\\top_quad_fixed3_route\\input_paths_max.rpt": {
+      "bytes": 29662,
+      "sha256": "72fda6f85276d600f99bbd92570c25e18ea1aebe27a79003f312c137540de1e7"
+    },
+    "results\\top_quad_fixed3_route\\input_paths_min.rpt": {
+      "bytes": 29487,
+      "sha256": "ea29a305fe4b7f6141db1930aa64ed1fa41f6c21f81f50bca3c0ddab3251d1f3"
+    },
+    "results\\top_quad_fixed3_route\\launch_paths_max.rpt": {
+      "bytes": 37074,
+      "sha256": "0cccd34a6567f1af947aa5d894fb2a5c78594f5fa94f70655521106967f4f932"
+    },
+    "results\\top_quad_fixed3_route\\launch_paths_min.rpt": {
+      "bytes": 30227,
+      "sha256": "309d793c70b633a3ea4ce47660b0bf7d7d31f12a09a7e106c63ca080db9e360c"
+    },
+    "results\\top_quad_fixed3_route\\output_paths_max.rpt": {
+      "bytes": 29553,
+      "sha256": "d169a875e8c728bb4b84fc3f2f275102ab1782fcda91deb65b13420b392c3e1c"
+    },
+    "results\\top_quad_fixed3_route\\output_paths_min.rpt": {
+      "bytes": 29263,
+      "sha256": "8b8d262f4a124689723669909e0f6a328949023d6410d44a65d27b2d19ce4b25"
+    },
+    "results\\top_quad_fixed3_route\\paths_max.rpt": {
+      "bytes": 45507,
+      "sha256": "78d44afb429cef919c74dc3a9124649dbb4cad76c66754a2a9ca4f509066e11d"
+    },
+    "results\\top_quad_fixed3_route\\paths_min.rpt": {
+      "bytes": 30468,
+      "sha256": "de4a36fc66838337d85eb048cb31aac0feed8e763d3d1dba96cf11fe072036c0"
+    },
+    "results\\top_quad_fixed3_route\\provenance.txt": {
+      "bytes": 143,
+      "sha256": "57f0a9087913888753163d8b8aa3cd18aaa6dd88173cc8f9dd46bf196bc0ca01"
+    },
+    "results\\top_quad_fixed3_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "03fd2ca501a53ddeb03192d02e68e25fca602a7637658f7e8408af20e84b0d71"
+    },
+    "results\\top_quad_fixed3_route\\slice_sites.txt": {
+      "bytes": 1246,
+      "sha256": "8e8f3ae3c58f41c1eb00bf645b0b99f7c60740acc5bd6a2eb707f6b7888ab3fb"
+    },
+    "results\\top_quad_fixed3_route\\timing.rpt": {
+      "bytes": 26000,
+      "sha256": "48f4c552b68e72a6dd9d9b1bcdce90314a8c25fdeaa0d66a1734f6c72f4b1d03"
+    },
+    "results\\top_quad_fixed3_route\\util.rpt": {
+      "bytes": 10561,
+      "sha256": "5f901d5d06a63bb3ad52c5db8cfc1b9541f3673545cdfbe0ecec3b4f8eb7e0c1"
+    },
+    "results\\top_quad_fixed3_synth\\design.dcp": {
+      "bytes": 101545,
+      "sha256": "27e331867b3e9c8843865ce843390b5eb35773df42797acf2c1b536d65f23d34"
+    },
+    "results\\top_quad_fixed3_synth\\hierarchical_util.rpt": {
+      "bytes": 2164,
+      "sha256": "64e0e229e3d808a57a8e8434ed153e447e9ac6d89eb4749c8c9519f60d09cf07"
+    },
+    "results\\top_quad_fixed3_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "80e1c47b36fc8ec4a5ae3aa05e62e7ba1a176c1cc393f4b9fb396b22f58d34db"
+    },
+    "results\\top_quad_fixed3_synth\\util.rpt": {
+      "bytes": 8377,
+      "sha256": "b02d46f33876aa5a97fdffc8f2cbe227d196a3e4307aac9f0c62bbc6558069d0"
+    },
+    "results\\top_quad_fixed4_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "5f61d3f2449fa3c1a0cbcc85358742e8b0c6390b670d5f96a70101ed089ed106"
+    },
+    "results\\top_quad_fixed4_route\\boundary_timing.rpt": {
+      "bytes": 18695,
+      "sha256": "2a233d28b4110de2cd0fe79ceedb27c6f0d25719631c2399679cc27cbfdd36b5"
+    },
+    "results\\top_quad_fixed4_route\\capture_paths_max.rpt": {
+      "bytes": 34145,
+      "sha256": "520b47a8bbb177c50efe84ca1687536be0143a38777775a5f9fe482d58eb08e6"
+    },
+    "results\\top_quad_fixed4_route\\capture_paths_min.rpt": {
+      "bytes": 29488,
+      "sha256": "7525542836682e138f5f09158e9c8b3b06703f446943ca52d3f5b983cfb68248"
+    },
+    "results\\top_quad_fixed4_route\\core_util.rpt": {
+      "bytes": 10672,
+      "sha256": "02b5001eea989fc976185e7d5b9e570cff4e6139cd20e0539975a35ec29b4d14"
+    },
+    "results\\top_quad_fixed4_route\\design.dcp": {
+      "bytes": 361292,
+      "sha256": "1eee3f2097b6b05f82f604ead2c9e73db36aaa9cc1183a003783c713456bcc7e"
+    },
+    "results\\top_quad_fixed4_route\\fixture_accounting.txt": {
+      "bytes": 250,
+      "sha256": "5d80a56896436347850f6d6d4d1f2d72ebf144405933830e66e0ac71ed9c901e"
+    },
+    "results\\top_quad_fixed4_route\\hierarchical_util.rpt": {
+      "bytes": 2347,
+      "sha256": "a8461464475230186abb1a9a20835990a70390aa9a10e754342480a33b0d1861"
+    },
+    "results\\top_quad_fixed4_route\\input_paths_max.rpt": {
+      "bytes": 29633,
+      "sha256": "c96b069f9d94f0cba751ff49f4f246301344cfc0f4dadcd3791565b9a6b20df0"
+    },
+    "results\\top_quad_fixed4_route\\input_paths_min.rpt": {
+      "bytes": 29565,
+      "sha256": "6170e9863cb6a35fddba478cbb86dfc9592df10e3c3d9d8b3536c8b87e49b637"
+    },
+    "results\\top_quad_fixed4_route\\launch_paths_max.rpt": {
+      "bytes": 35424,
+      "sha256": "eef7b5ac8a94fa39d98cc6282de19cee51800c8873492bd3c712f10285d1f580"
+    },
+    "results\\top_quad_fixed4_route\\launch_paths_min.rpt": {
+      "bytes": 29556,
+      "sha256": "3efa57a7536a5bd390318772ee5d1db5419162b99da869e34a7c4c5d3153c55d"
+    },
+    "results\\top_quad_fixed4_route\\output_paths_max.rpt": {
+      "bytes": 29499,
+      "sha256": "5ad0c9d1c6ebdbf2551f5c1de113ef779b1e701f3f5f03bb3c660c75bdc7e1b3"
+    },
+    "results\\top_quad_fixed4_route\\output_paths_min.rpt": {
+      "bytes": 29215,
+      "sha256": "f3f15497553ea8980c28e0f64f349a978ca072bd2b8f26cea4ce9d9af0effb92"
+    },
+    "results\\top_quad_fixed4_route\\paths_max.rpt": {
+      "bytes": 49287,
+      "sha256": "6ab823c63b59749f54a4aa0c5c7f94d504e3f5f9a5cff0b8ce5aea0b185443ff"
+    },
+    "results\\top_quad_fixed4_route\\paths_min.rpt": {
+      "bytes": 30324,
+      "sha256": "9970ce3f9910142c995cd2a4e56e29e10aaf56f1903c0858df6fbb1718014bba"
+    },
+    "results\\top_quad_fixed4_route\\provenance.txt": {
+      "bytes": 143,
+      "sha256": "073b3f7784e1617e788c77bab92ee550fefba3d3387e317ba231f9f883ede3c9"
+    },
+    "results\\top_quad_fixed4_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "646a40253591b253cf3e8c02c5f0e75a955f111b8d5955f2d9cbb66e2cc284df"
+    },
+    "results\\top_quad_fixed4_route\\slice_sites.txt": {
+      "bytes": 1505,
+      "sha256": "5ff9cdcab2e0eaa9b80d4e8bf5ee8935fdc24829efc4e5e2a7841ef1dc2467f4"
+    },
+    "results\\top_quad_fixed4_route\\timing.rpt": {
+      "bytes": 26863,
+      "sha256": "25b3a3772255232dbe7580e03edf8e132f709737aaed12cdbf2975215217c665"
+    },
+    "results\\top_quad_fixed4_route\\util.rpt": {
+      "bytes": 10561,
+      "sha256": "a43ae229c301943dc58a7cfe0a2c0593b5f50d6061d7abfed27b7f0b7a2c1d6f"
+    },
+    "results\\top_quad_fixed4_synth\\design.dcp": {
+      "bytes": 129049,
+      "sha256": "b8b5131654328a4abdb0f1b3029bbd3310e37e8850d2db2da6de5c5225571071"
+    },
+    "results\\top_quad_fixed4_synth\\hierarchical_util.rpt": {
+      "bytes": 2164,
+      "sha256": "d4c06557fb04037ac009a5bc49b61e4b216445d7819c214ababc34738e26dbfe"
+    },
+    "results\\top_quad_fixed4_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "960099b56a1089c6c36946fb4f00192933a6b57a20aeb27ac9bb48aa13828e4f"
+    },
+    "results\\top_quad_fixed4_synth\\util.rpt": {
+      "bytes": 8377,
+      "sha256": "d77f8e082de20f8a456e1e041394a59e4cf6f16b06d195eade6469029783e56a"
+    },
+    "results\\top_quad_lut4_route\\boundary_slack.txt": {
+      "bytes": 15,
+      "sha256": "97459d0d18e1a234c44c66bc6d1562175b30e9f5d3efdb5789efbccf96cefd95"
+    },
+    "results\\top_quad_lut4_route\\boundary_timing.rpt": {
+      "bytes": 16496,
+      "sha256": "b43f7c749c86ce8e7463e69f23f5690cfd1f57777848fde5a95a43f90e4384ac"
+    },
+    "results\\top_quad_lut4_route\\capture_paths_max.rpt": {
+      "bytes": 33946,
+      "sha256": "98938e92f33a435fef44bff356da3653fefb12e8821c315338a26342f43e7674"
+    },
+    "results\\top_quad_lut4_route\\capture_paths_min.rpt": {
+      "bytes": 29436,
+      "sha256": "3ea8b43049d3c8a0330c031e13543c910099a3dcf6a14cbbdb5c28efbedc8dfe"
+    },
+    "results\\top_quad_lut4_route\\core_util.rpt": {
+      "bytes": 10488,
+      "sha256": "4c1d80cced7326ad312662a5503df5b9e53090b3ea5bb5e7b205bd432ed677cf"
+    },
+    "results\\top_quad_lut4_route\\design.dcp": {
+      "bytes": 305626,
+      "sha256": "0e75280c141efc9e40b98386b27d9d114c719df9bc91b476d8fa01ccc0d6a5d8"
+    },
+    "results\\top_quad_lut4_route\\fixture_accounting.txt": {
+      "bytes": 248,
+      "sha256": "10d78b5c8ac805402d1a6770eb9d27a5f6fc339c338792bde7bd0a7fca12ed19"
+    },
+    "results\\top_quad_lut4_route\\hierarchical_util.rpt": {
+      "bytes": 2209,
+      "sha256": "a17da75ee217620bf189db6ae0a3469f45ad385c01516657a0ddf71a5b893bd4"
+    },
+    "results\\top_quad_lut4_route\\input_paths_max.rpt": {
+      "bytes": 29590,
+      "sha256": "020f277c8b64ccb4f513ed78158552bfd1dbc85fefd777c08db65313e4d23c37"
+    },
+    "results\\top_quad_lut4_route\\input_paths_min.rpt": {
+      "bytes": 29453,
+      "sha256": "9fe5eaf5624bb4cc61d2daa152e8e64d23c6854340cec468cd841e37cde46e4b"
+    },
+    "results\\top_quad_lut4_route\\launch_paths_max.rpt": {
+      "bytes": 33148,
+      "sha256": "9f3cf41da496f7edd0a8025fceb60cfb692fb5e8b0d08a1d3f38ddfe7a3c8fc4"
+    },
+    "results\\top_quad_lut4_route\\launch_paths_min.rpt": {
+      "bytes": 30630,
+      "sha256": "2fba6bca125212a33128a11a7496a7ee5987dd90e06c4b0dac42107f24abdaf7"
+    },
+    "results\\top_quad_lut4_route\\output_paths_max.rpt": {
+      "bytes": 29503,
+      "sha256": "b7a7d12e80e7e3de5cc3f852a9a2e251b0f3f0c8d54d1a315b7e476291b816e2"
+    },
+    "results\\top_quad_lut4_route\\output_paths_min.rpt": {
+      "bytes": 29231,
+      "sha256": "bb39bfb7dd05184620dd0bdd887e1843f8bb6c7780b66809ec5d466dd0506cf4"
+    },
+    "results\\top_quad_lut4_route\\paths_max.rpt": {
+      "bytes": 34836,
+      "sha256": "aa868b631f6255f8fccd48f18e6755d0e73ca6405ce66c33a4276fe022d45c68"
+    },
+    "results\\top_quad_lut4_route\\paths_min.rpt": {
+      "bytes": 31496,
+      "sha256": "8c1ef33bbb3f4d45618a9d7ac5ac2a0e32bb3d972ccee0e48084d9496e0a3195"
+    },
+    "results\\top_quad_lut4_route\\provenance.txt": {
+      "bytes": 141,
+      "sha256": "cf2cf48a4fc3803b1608eb15140c584ff720d35839f5dfc5e0d03f022de9f78e"
+    },
+    "results\\top_quad_lut4_route\\slack.txt": {
+      "bytes": 14,
+      "sha256": "e4ca879fe8a0a2fb86a5392933607451f50246c96e7da7459b7a8acba53e047e"
+    },
+    "results\\top_quad_lut4_route\\slice_sites.txt": {
+      "bytes": 1232,
+      "sha256": "ab87ce9b2b56a9d8b5dfa103668f69f0bc2192e21ef66477b4e2cfbceee9f6ad"
+    },
+    "results\\top_quad_lut4_route\\timing.rpt": {
+      "bytes": 24979,
+      "sha256": "af649b5003304c0fefc400f3283b3f58dabcf70ed8de340a6c00d52050c1cd21"
+    },
+    "results\\top_quad_lut4_route\\util.rpt": {
+      "bytes": 10377,
+      "sha256": "e06b4a9595ec59355be91932ae066dd65cf9976c5039febf09dde9c25d42b680"
+    },
+    "results\\top_quad_lut4_synth\\design.dcp": {
+      "bytes": 98872,
+      "sha256": "be81e73da97084690b472f12b57335d9169f62904d71de647b931ce4600f6cae"
+    },
+    "results\\top_quad_lut4_synth\\hierarchical_util.rpt": {
+      "bytes": 2026,
+      "sha256": "8f7b641030263e0f7cb681399b2d23f0f37bfa7730b4c9d8f6efe5c4ac713675"
+    },
+    "results\\top_quad_lut4_synth\\provenance.txt": {
+      "bytes": 66,
+      "sha256": "0349cb84f5cafe2f09c168bb7d292cacdf0ee06a85b06c3865f53ed9cdf1808d"
+    },
+    "results\\top_quad_lut4_synth\\util.rpt": {
+      "bytes": 8193,
+      "sha256": "f2fcec76a44ee9b69dc4337b9dead7fbdee46488cdad4d0080b7ea1d406ba30d"
+    },
+    "route_continuous.tcl": {
+      "bytes": 6030,
+      "sha256": "25225afbbdf107f5cfd9afbea1361dd0707333b47cc5471b866a5ab954996c4b"
+    },
+    "route_quad.tcl": {
+      "bytes": 6151,
+      "sha256": "01f8e3eedd338015db6441b16010d19c51d0405e0d561fa94619c28132677299"
+    },
+    "run_continuous_route.py": {
+      "bytes": 9619,
+      "sha256": "238517a4c184357098916607d364fff947993555ff55bb2fce5df82e4c527e89"
+    },
+    "run_quad_route.py": {
+      "bytes": 7548,
+      "sha256": "d5540c5a6ca405cf89ae74d32c729f22f66b8408197919ea5b01e4ac423b26ce"
+    },
+    "screen_guarded_accumulation.py": {
+      "bytes": 4337,
+      "sha256": "ba4ff2cd9a68693766f275a2cac967ef894e94a357ecc9ac8a8cb1ba1d976b9e"
+    },
+    "tb_continuous_leak.sv": {
+      "bytes": 6514,
+      "sha256": "89350ae75d65a9c088a405b699dd0cc6c6c6d3e7434d9a7f5f688b99ce00efd7"
+    },
+    "tb_quad_leak.sv": {
+      "bytes": 5705,
+      "sha256": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99"
+    }
+  },
+  "quad_comparisons": 9530290,
+  "quad_snn_reconstruction_rows": 10
+}

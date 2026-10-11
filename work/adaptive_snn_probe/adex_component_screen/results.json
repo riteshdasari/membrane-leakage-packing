@@ -1,0 +1,547 @@
+{
+  "status": "completed_with_retained_numerical_failures",
+  "rows": [
+    {
+      "name": "tonic spiking",
+      "parameters": [
+        200,
+        10,
+        -70,
+        -50,
+        2,
+        2,
+        30,
+        0,
+        -58,
+        500
+      ],
+      "samples": 6000,
+      "spike_count": 60,
+      "scalar_vector_spike_steps_equal": true,
+      "numerical_check_pass": false,
+      "max_Vstar_difference_mV": 0.00014159083366394043,
+      "max_wstar_difference_pA": 5.684341886080802e-14,
+      "observed_V_range_mV": [
+        -70.0,
+        -0.7100671343622551
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -69.99999954600071,
+        504862283.799156
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -69.74999954600071,
+        504862284.049156
+      ],
+      "current_contribution_J_mV": 0.25,
+      "observed_w_range_pA": [
+        0.0,
+        40.58000189349193
+      ],
+      "minimum_abs_threshold_distance_mV": 0.23385651573126154,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 5991,
+          "V_narrow_but_X_wide_samples": 9,
+          "first_counterexample": {
+            "step": 237,
+            "V_mV": -20.287807549262908,
+            "w_pA": 19.667987985131404,
+            "X_mV": 28288.198596003076
+          }
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 10,
+          "intrinsic_X_narrow_samples": 58,
+          "V_narrow_but_X_wide_samples": 10,
+          "first_counterexample": {
+            "step": 237,
+            "V_mV": -20.287807549262908,
+            "w_pA": 19.667987985131404,
+            "X_mV": 28288.198596003076
+          }
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case0_trace.npz",
+      "trace_sha256": "cb862ab8d6ce7e7f4d57f27c9454bb76ebbf2ec48790e86131875ee47f687f54"
+    },
+    {
+      "name": "adaptation",
+      "parameters": [
+        200,
+        12,
+        -70,
+        -50,
+        2,
+        2,
+        300,
+        60,
+        -58,
+        500
+      ],
+      "samples": 6000,
+      "spike_count": 12,
+      "scalar_vector_spike_steps_equal": true,
+      "numerical_check_pass": false,
+      "max_Vstar_difference_mV": 8.834712207317352e-05,
+      "max_wstar_difference_pA": 0.0,
+      "observed_V_range_mV": [
+        -70.0,
+        -9.271938756492801
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -69.99999945520084,
+        8378511.470425128
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -69.74999945520084,
+        8378511.720425128
+      ],
+      "current_contribution_J_mV": 0.25,
+      "observed_w_range_pA": [
+        0.0,
+        304.4023864531983
+      ],
+      "minimum_abs_threshold_distance_mV": 9.271938756492801,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 5992,
+          "V_narrow_but_X_wide_samples": 8,
+          "first_counterexample": {
+            "step": 267,
+            "V_mV": -31.01041017495725,
+            "w_pA": 60.62330568646356,
+            "X_mV": 128.20976798933253
+          }
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 9,
+          "intrinsic_X_narrow_samples": 11,
+          "V_narrow_but_X_wide_samples": 9,
+          "first_counterexample": {
+            "step": 151,
+            "V_mV": -31.97433714702551,
+            "w_pA": 1.4439318071030642,
+            "X_mV": 66.28952271566075
+          }
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case1_trace.npz",
+      "trace_sha256": "caf4d35e422530176501e91e9bda53cf4e9913780ada73fedfe27e2e78ecd177"
+    },
+    {
+      "name": "initial burst",
+      "parameters": [
+        130,
+        18,
+        -58,
+        -50,
+        2,
+        4,
+        150,
+        120,
+        -50,
+        400
+      ],
+      "samples": 6000,
+      "spike_count": 12,
+      "scalar_vector_spike_steps_equal": true,
+      "numerical_check_pass": false,
+      "max_Vstar_difference_mV": 0.002731066197156906,
+      "max_wstar_difference_pA": 2.1316282072803006e-12,
+      "observed_V_range_mV": [
+        -58.0,
+        -7.7090088247363715
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -57.99949279769231,
+        42240700.41801971
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -57.691800490000006,
+        42240700.725712016
+      ],
+      "current_contribution_J_mV": 0.3076923076923077,
+      "observed_w_range_pA": [
+        0.0,
+        370.8114699747033
+      ],
+      "minimum_abs_threshold_distance_mV": 7.7090088247363715,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 5991,
+          "V_narrow_but_X_wide_samples": 9,
+          "first_counterexample": {
+            "step": 57,
+            "V_mV": -22.312477000658184,
+            "w_pA": 1.1324017254639516,
+            "X_mV": 28462.989617140764
+          }
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 9,
+          "intrinsic_X_narrow_samples": 10,
+          "V_narrow_but_X_wide_samples": 9,
+          "first_counterexample": {
+            "step": 57,
+            "V_mV": -22.312477000658184,
+            "w_pA": 1.1324017254639516,
+            "X_mV": 28462.989617140764
+          }
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case2_trace.npz",
+      "trace_sha256": "346238b4bada10aca1ce247ab9e136e2612cdcc12a294c4dd675bbce4f8b2cc1"
+    },
+    {
+      "name": "regular bursting",
+      "parameters": [
+        200,
+        10,
+        -58,
+        -50,
+        2,
+        2,
+        120,
+        100,
+        -46,
+        210
+      ],
+      "samples": 6000,
+      "spike_count": 11,
+      "scalar_vector_spike_steps_equal": true,
+      "numerical_check_pass": false,
+      "max_Vstar_difference_mV": 6.850773934274912e-05,
+      "max_wstar_difference_pA": 5.5848659030743875e-12,
+      "observed_V_range_mV": [
+        -58.49340546804142,
+        -14.079887038154755
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -58.59840546804142,
+        630875.2858360456
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -58.49340546804142,
+        630875.3908360456
+      ],
+      "current_contribution_J_mV": 0.105,
+      "observed_w_range_pA": [
+        0.0,
+        295.7542947936548
+      ],
+      "minimum_abs_threshold_distance_mV": 14.079887038154755,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 5990,
+          "V_narrow_but_X_wide_samples": 10,
+          "first_counterexample": {
+            "step": 197,
+            "V_mV": -28.534521967536488,
+            "w_pA": 100.0194760963861,
+            "X_mV": 429.5886909542796
+          }
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 11,
+          "intrinsic_X_narrow_samples": 11,
+          "V_narrow_but_X_wide_samples": 11,
+          "first_counterexample": {
+            "step": 164,
+            "V_mV": -31.16246376631281,
+            "w_pA": 1.9154371783992385,
+            "X_mV": 91.87638356530611
+          }
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case3_trace.npz",
+      "trace_sha256": "bcb62e96f64d97155eb5804510860e9334004e718dffb8f28ef4b248fef189fe"
+    },
+    {
+      "name": "delayed accelerating",
+      "parameters": [
+        200,
+        12,
+        -70,
+        -50,
+        2,
+        -10,
+        300,
+        0,
+        -58,
+        300
+      ],
+      "samples": 6000,
+      "spike_count": 45,
+      "scalar_vector_spike_steps_equal": true,
+      "numerical_check_pass": false,
+      "max_Vstar_difference_mV": 0.14243096113204956,
+      "max_wstar_difference_pA": 3.7260861063259654e-11,
+      "observed_V_range_mV": [
+        -70.0,
+        -1.6108549336965567
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -69.99999945520084,
+        386145152.248152
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -69.84999945520083,
+        386145152.398152
+      ],
+      "current_contribution_J_mV": 0.15,
+      "observed_w_range_pA": [
+        -169.68034111089887,
+        0.0
+      ],
+      "minimum_abs_threshold_distance_mV": 1.6108549336965567,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 5967,
+          "V_narrow_but_X_wide_samples": 33,
+          "first_counterexample": {
+            "step": 741,
+            "V_mV": -23.83715787667959,
+            "w_pA": -38.38555911311588,
+            "X_mV": 5735.212049293307
+          }
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 36,
+          "intrinsic_X_narrow_samples": 40,
+          "V_narrow_but_X_wide_samples": 36,
+          "first_counterexample": {
+            "step": 741,
+            "V_mV": -23.83715787667959,
+            "w_pA": -38.38555911311588,
+            "X_mV": 5735.212049293307
+          }
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case4_trace.npz",
+      "trace_sha256": "0192226d14387dc18e2623641b5606a59720e94d049cbb84e24b37f6a15425fb"
+    },
+    {
+      "name": "delayed regular bursting",
+      "parameters": [
+        100,
+        10,
+        -65,
+        -50,
+        2,
+        -10,
+        90,
+        30,
+        -47,
+        110
+      ],
+      "samples": 6000,
+      "spike_count": 32,
+      "scalar_vector_spike_steps_equal": false,
+      "numerical_check_pass": false,
+      "max_Vstar_difference_mV": 404804.0201663263,
+      "max_wstar_difference_pA": 30.10837947332194,
+      "observed_V_range_mV": [
+        -65.0,
+        -0.4952228988638646
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -64.9999889383126,
+        1124231518.1093264
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -64.8899889383126,
+        1124231518.2193263
+      ],
+      "current_contribution_J_mV": 0.11,
+      "observed_w_range_pA": [
+        -57.51059919451905,
+        30.501727714649803
+      ],
+      "minimum_abs_threshold_distance_mV": 0.4952228988638646,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 5977,
+          "V_narrow_but_X_wide_samples": 23,
+          "first_counterexample": {
+            "step": 575,
+            "V_mV": -31.967156196951976,
+            "w_pA": -57.51059919451905,
+            "X_mV": 132.5050378567335
+          }
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 23,
+          "intrinsic_X_narrow_samples": 24,
+          "V_narrow_but_X_wide_samples": 23,
+          "first_counterexample": {
+            "step": 575,
+            "V_mV": -31.967156196951976,
+            "w_pA": -57.51059919451905,
+            "X_mV": 132.5050378567335
+          }
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case5_trace.npz",
+      "trace_sha256": "df715ed785444d5c2e7301583696754e28b071acd7754e76d608346499508293"
+    },
+    {
+      "name": "transient spiking",
+      "parameters": [
+        100,
+        10,
+        -65,
+        -50,
+        2,
+        10,
+        90,
+        100,
+        -47,
+        180
+      ],
+      "samples": 6000,
+      "spike_count": 1,
+      "scalar_vector_spike_steps_equal": true,
+      "numerical_check_pass": true,
+      "max_Vstar_difference_mV": 1.3457679415296298e-09,
+      "max_wstar_difference_pA": 8.810729923425242e-13,
+      "observed_V_range_mV": [
+        -65.0,
+        -33.53189365278281
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -64.9999889383126,
+        41.45715266524209
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -64.81998893831259,
+        41.63715266524209
+      ],
+      "current_contribution_J_mV": 0.18,
+      "observed_w_range_pA": [
+        0.0,
+        139.33908941288527
+      ],
+      "minimum_abs_threshold_distance_mV": 33.53189365278281,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 6000,
+          "V_narrow_but_X_wide_samples": 0,
+          "first_counterexample": null
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 0,
+          "intrinsic_X_narrow_samples": 0,
+          "V_narrow_but_X_wide_samples": 0,
+          "first_counterexample": null
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case6_trace.npz",
+      "trace_sha256": "9a79ac6f32c67c79515e898ee89ce5c3f925b865afa7aa51fd35384835630a3d"
+    },
+    {
+      "name": "irregular spiking",
+      "parameters": [
+        100,
+        12,
+        -60,
+        -50,
+        2,
+        -11,
+        130,
+        30,
+        -48,
+        160
+      ],
+      "samples": 6000,
+      "spike_count": 33,
+      "scalar_vector_spike_steps_equal": false,
+      "numerical_check_pass": false,
+      "max_Vstar_difference_mV": 123642795.90398803,
+      "max_wstar_difference_pA": 29.927425741121844,
+      "observed_V_range_mV": [
+        -60.0,
+        -7.362306874350928
+      ],
+      "observed_intrinsic_X_range_mV": [
+        -59.99983828927202,
+        43538010.94595127
+      ],
+      "observed_pre_reset_sum_range_mV": [
+        -59.83983828927202,
+        43538011.105951265
+      ],
+      "current_contribution_J_mV": 0.16,
+      "observed_w_range_pA": [
+        -10.705705546508716,
+        92.38568916405649
+      ],
+      "minimum_abs_threshold_distance_mV": 0.3113146261018932,
+      "monitor_examples": [
+        {
+          "unit_mV": 1.0,
+          "stored_V_narrow_samples": 6000,
+          "intrinsic_X_narrow_samples": 5980,
+          "V_narrow_but_X_wide_samples": 20,
+          "first_counterexample": {
+            "step": 159,
+            "V_mV": -27.979864486160164,
+            "w_pA": -10.705705546508716,
+            "X_mV": 1423.1662310037186
+          }
+        },
+        {
+          "unit_mV": 0.25,
+          "stored_V_narrow_samples": 18,
+          "intrinsic_X_narrow_samples": 23,
+          "V_narrow_but_X_wide_samples": 18,
+          "first_counterexample": {
+            "step": 159,
+            "V_mV": -27.979864486160164,
+            "w_pA": -10.705705546508716,
+            "X_mV": 1423.1662310037186
+          }
+        }
+      ],
+      "trace_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\case7_trace.npz",
+      "trace_sha256": "689470e84775aa8b1554b7e5f0d2fafdf402895bf19009937984ff0685d04b81"
+    }
+  ],
+  "failures": [
+    "tonic spiking",
+    "adaptation",
+    "initial burst",
+    "regular bursting",
+    "delayed accelerating",
+    "delayed regular bursting",
+    "irregular spiking"
+  ],
+  "source_url": "https://brian2.readthedocs.io/en/stable/examples/frompapers.Naud_et_al_2008_adex_firing_patterns.html",
+  "plan_sha256": "a7e99089a8b6658451c1b3eab3831211848a6a85ed3068f3b566543e4fb5c863",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\adex_component_screen\\screen.py": "f78367ff4a450591dd151a2345a5c1f305eaf22e3ad872ca64662377b11848af"
+  },
+  "conclusion": "V-only eligibility can be unsafe for the intrinsic intermediate; current exact integer core applies only after a declared numeric contract. Observed float ranges do not certify integer widths.",
+  "scope": "Published eight independent single-neuron parameter cases, unchanged Euler dynamics; no runtime Brian2 validation, training/classification, integer accuracy, packed group speed, hardware or energy claim."
+}

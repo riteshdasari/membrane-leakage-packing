@@ -1,0 +1,1194 @@
+{
+  "status": "pass",
+  "rows_replayed": 72,
+  "policy_histograms_validated": 216,
+  "corrected_earlier_horizon_histograms": 144,
+  "unchanged_T256_histograms": 72,
+  "every_other_result_value_exactly_preserved": true,
+  "unchanged_fields": [
+    "Requests and analytic service",
+    "Shared-wide tail update scalar counts",
+    "All360 and first48 variant accuracies",
+    "All finite/indefinite range certificates",
+    "Numeric retirement hashes",
+    "Analytic storage and fixed8 controls"
+  ],
+  "corrections": [
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 272910,
+      "corrected_requests_from_histogram": 33976
+    },
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 272910,
+      "corrected_requests_from_histogram": 136363
+    },
+    {
+      "seed": 0,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 278269,
+      "corrected_requests_from_histogram": 34390
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 278269,
+      "corrected_requests_from_histogram": 138928
+    },
+    {
+      "seed": 0,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221413,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 279796,
+      "corrected_requests_from_histogram": 34494
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221413,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221413,
+      "corrected_requests_from_histogram": 110701
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 279796,
+      "corrected_requests_from_histogram": 139604
+    },
+    {
+      "seed": 0,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221413,
+      "corrected_requests_from_histogram": 110701
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 223970,
+      "corrected_requests_from_histogram": 27734
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 282812,
+      "corrected_requests_from_histogram": 34701
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 223965,
+      "corrected_requests_from_histogram": 27734
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 223970,
+      "corrected_requests_from_histogram": 111787
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 282812,
+      "corrected_requests_from_histogram": 141040
+    },
+    {
+      "seed": 0,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 223965,
+      "corrected_requests_from_histogram": 111783
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 229624,
+      "corrected_requests_from_histogram": 27897
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 285313,
+      "corrected_requests_from_histogram": 34811
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 229494,
+      "corrected_requests_from_histogram": 27897
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 229624,
+      "corrected_requests_from_histogram": 114079
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 285313,
+      "corrected_requests_from_histogram": 142098
+    },
+    {
+      "seed": 0,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 229494,
+      "corrected_requests_from_histogram": 114036
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 235676,
+      "corrected_requests_from_histogram": 27996
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 286283,
+      "corrected_requests_from_histogram": 34863
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 235340,
+      "corrected_requests_from_histogram": 27993
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 235676,
+      "corrected_requests_from_histogram": 116135
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 286283,
+      "corrected_requests_from_histogram": 142448
+    },
+    {
+      "seed": 0,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 235340,
+      "corrected_requests_from_histogram": 115951
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 240338,
+      "corrected_requests_from_histogram": 28078
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 286498,
+      "corrected_requests_from_histogram": 34865
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 240058,
+      "corrected_requests_from_histogram": 28075
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 240338,
+      "corrected_requests_from_histogram": 117568
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 286498,
+      "corrected_requests_from_histogram": 142575
+    },
+    {
+      "seed": 0,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 240058,
+      "corrected_requests_from_histogram": 117393
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 248066,
+      "corrected_requests_from_histogram": 28214
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 297954,
+      "corrected_requests_from_histogram": 36091
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 247636,
+      "corrected_requests_from_histogram": 28205
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 248066,
+      "corrected_requests_from_histogram": 120400
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 297954,
+      "corrected_requests_from_histogram": 148075
+    },
+    {
+      "seed": 0,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 247636,
+      "corrected_requests_from_histogram": 120215
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 276813,
+      "corrected_requests_from_histogram": 34382
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 276813,
+      "corrected_requests_from_histogram": 138331
+    },
+    {
+      "seed": 1,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 292230,
+      "corrected_requests_from_histogram": 35737
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 292230,
+      "corrected_requests_from_histogram": 145668
+    },
+    {
+      "seed": 1,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221764,
+      "corrected_requests_from_histogram": 27660
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 297671,
+      "corrected_requests_from_histogram": 36174
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221764,
+      "corrected_requests_from_histogram": 27660
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221764,
+      "corrected_requests_from_histogram": 110856
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 297671,
+      "corrected_requests_from_histogram": 148154
+    },
+    {
+      "seed": 1,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221764,
+      "corrected_requests_from_histogram": 110856
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 227402,
+      "corrected_requests_from_histogram": 27817
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 305341,
+      "corrected_requests_from_histogram": 36760
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 227380,
+      "corrected_requests_from_histogram": 27817
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 227402,
+      "corrected_requests_from_histogram": 113302
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 305341,
+      "corrected_requests_from_histogram": 151659
+    },
+    {
+      "seed": 1,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 227380,
+      "corrected_requests_from_histogram": 113285
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 240978,
+      "corrected_requests_from_histogram": 28206
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 312982,
+      "corrected_requests_from_histogram": 37199
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 240452,
+      "corrected_requests_from_histogram": 28204
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 240978,
+      "corrected_requests_from_histogram": 118784
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 312982,
+      "corrected_requests_from_histogram": 155111
+    },
+    {
+      "seed": 1,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 240452,
+      "corrected_requests_from_histogram": 118569
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 252675,
+      "corrected_requests_from_histogram": 28502
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 316359,
+      "corrected_requests_from_histogram": 37331
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 251733,
+      "corrected_requests_from_histogram": 28487
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 252675,
+      "corrected_requests_from_histogram": 122972
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 316359,
+      "corrected_requests_from_histogram": 156364
+    },
+    {
+      "seed": 1,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 251733,
+      "corrected_requests_from_histogram": 122513
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 259356,
+      "corrected_requests_from_histogram": 28651
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 316767,
+      "corrected_requests_from_histogram": 37349
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 258487,
+      "corrected_requests_from_histogram": 28619
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 259356,
+      "corrected_requests_from_histogram": 125337
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 316767,
+      "corrected_requests_from_histogram": 156489
+    },
+    {
+      "seed": 1,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 258487,
+      "corrected_requests_from_histogram": 124911
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 265623,
+      "corrected_requests_from_histogram": 28753
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 322493,
+      "corrected_requests_from_histogram": 38090
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 264838,
+      "corrected_requests_from_histogram": 28721
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 265623,
+      "corrected_requests_from_histogram": 127213
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 322493,
+      "corrected_requests_from_histogram": 159608
+    },
+    {
+      "seed": 1,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 264838,
+      "corrected_requests_from_histogram": 126788
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 272303,
+      "corrected_requests_from_histogram": 33867
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 27648
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 272303,
+      "corrected_requests_from_histogram": 136098
+    },
+    {
+      "seed": 2,
+      "beta": 128,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221184,
+      "corrected_requests_from_histogram": 110592
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221411,
+      "corrected_requests_from_histogram": 27652
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 276350,
+      "corrected_requests_from_histogram": 34249
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221411,
+      "corrected_requests_from_histogram": 27652
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 221411,
+      "corrected_requests_from_histogram": 110663
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 276350,
+      "corrected_requests_from_histogram": 138115
+    },
+    {
+      "seed": 2,
+      "beta": 224,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 221411,
+      "corrected_requests_from_histogram": 110663
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 222019,
+      "corrected_requests_from_histogram": 27698
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 277474,
+      "corrected_requests_from_histogram": 34368
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 222019,
+      "corrected_requests_from_histogram": 27698
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 222019,
+      "corrected_requests_from_histogram": 111007
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 277474,
+      "corrected_requests_from_histogram": 138556
+    },
+    {
+      "seed": 2,
+      "beta": 231,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 222019,
+      "corrected_requests_from_histogram": 111007
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 226429,
+      "corrected_requests_from_histogram": 27798
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 279074,
+      "corrected_requests_from_histogram": 34483
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 226429,
+      "corrected_requests_from_histogram": 27798
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 226429,
+      "corrected_requests_from_histogram": 112888
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 279074,
+      "corrected_requests_from_histogram": 139325
+    },
+    {
+      "seed": 2,
+      "beta": 240,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 226429,
+      "corrected_requests_from_histogram": 112888
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 231287,
+      "corrected_requests_from_histogram": 28139
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 280989,
+      "corrected_requests_from_histogram": 34542
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 231283,
+      "corrected_requests_from_histogram": 28139
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 231287,
+      "corrected_requests_from_histogram": 115122
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 280989,
+      "corrected_requests_from_histogram": 140072
+    },
+    {
+      "seed": 2,
+      "beta": 248,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 231283,
+      "corrected_requests_from_histogram": 115121
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 234180,
+      "corrected_requests_from_histogram": 28262
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 282211,
+      "corrected_requests_from_histogram": 34564
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 234137,
+      "corrected_requests_from_histogram": 28262
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 234180,
+      "corrected_requests_from_histogram": 116081
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 282211,
+      "corrected_requests_from_histogram": 140551
+    },
+    {
+      "seed": 2,
+      "beta": 252,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 234137,
+      "corrected_requests_from_histogram": 116070
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 236625,
+      "corrected_requests_from_histogram": 28334
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 282478,
+      "corrected_requests_from_histogram": 34564
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 236477,
+      "corrected_requests_from_histogram": 28334
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 236625,
+      "corrected_requests_from_histogram": 116788
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 282478,
+      "corrected_requests_from_histogram": 140622
+    },
+    {
+      "seed": 2,
+      "beta": 254,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 236477,
+      "corrected_requests_from_histogram": 116773
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 242186,
+      "corrected_requests_from_histogram": 28434
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 290259,
+      "corrected_requests_from_histogram": 35400
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 32,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 242050,
+      "corrected_requests_from_histogram": 28433
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "absolute_U8",
+      "original_requests_from_histogram": 242186,
+      "corrected_requests_from_histogram": 118456
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "shared_high_only",
+      "original_requests_from_histogram": 290259,
+      "corrected_requests_from_histogram": 144371
+    },
+    {
+      "seed": 2,
+      "beta": 256,
+      "timesteps": 128,
+      "policy": "union_U8_shared_high",
+      "original_requests_from_histogram": 242050,
+      "corrected_requests_from_histogram": 118399
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\screen.py": "240fd6f4a0241b7cadb2315c7cfb955a43c0c9f9d591787c72cc1c68869ceb0c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\results.json": "b7e8520582bdf1132f32925c7d0d4a4995f819b378bd347c3ef25438424449e4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\predeclared_plan.json": "ae66c17e3cd708b47e055931858c4d9a0cef2013cc1b65a4f50dc20f10c25fe1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\certificates.json": "3ca4fc60cc25d391d92661e5c7de784bba2eba8c2cb1df6feba3b7444f41fa08",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\plan.json": "925a9c518a2c167ee944b09c394348315341cabe6a28c1457608183f94c4db36",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\probe.py": "0a8c8cb843594c1c0820c8a489eac95bec8ef62a7037b90d5eeaf28f9e1acc95",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\base.py": "9fbf1583b409f3c38e83251fbebaf1889b38c7861cc1cf8478d13d33ac809a7a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\final_selected.json": "84e94c7b54ec86cbd5d4022692f882d8f89154f71183be9b906c80da5c18a446",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\native_acceptance.json": "d56969dafe5851c82c372e1ea145924fe59d14e80295e74130b53c83eafb6430",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed0.npz": "8c5f998f922c126d8ad66a9bac303f80cc3639b2bf45b5e6a15683832a0c9e37",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed1.npz": "c9825dc6b383a4a22cea1638aba7d3b8412af826da53554505d1952286e8b665",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\model_seed2.npz": "f3932faf88497633276d4c2142153c88ef3f544755001dd8d9b23f21f1b4c1fa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\prepare_repair.py": "06ad90ddf4d26965ff9828f6d9928faadd6a71a7e6ae80de7192af7944fd2c6a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\screen.py": "cd74afa9ff9545e55bddfd2f7e666f6fa1f0425b6c3d606fb1e3cea6ea6c1fba",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\verify_repair.py": "51245c9903c0b61c1810f8177d405d3159d113249a21760b6afec06b4d9ae85d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\repair_plan.json": "54b5f3421048405c2f3fb471639b1b1c547cea518aa13e9e0c0cc79cf472be0c"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\results.json": "2d3e7aebe672c34a0c009e6eedadc4925fb12514822a474147fe478209aa8fef",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\predeclared_plan.json": "b5a4e80c93fa357aeb1f3d7b266443c403f3dbd15bbec5bd27096d5fd1088c13",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_width_review\\histogram_repair\\repair.log": "b3534890d1a366c70c9af00bf1dd2b1cafc70b463e81a9ef2adee2efce59edde"
+  },
+  "scope": "Software snapshot repair; no new architecture/native/route/power claim; fixed8 histogram remains an unpopulated zero placeholder"
+}

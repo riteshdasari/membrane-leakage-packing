@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "compiler": "Codex desktop built-in LaTeX compiler",
+  "path": "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/outputs/membrane_leakage_paper_draft.tex",
+  "source_sha256": "ac36b041583abed6b50b2f690668e33de39bf96d6de687ebf82394dea08c7fcd",
+  "message": "The current source compiled successfully with the desktop editor's compiler.",
+  "pdf_exported": false
+}

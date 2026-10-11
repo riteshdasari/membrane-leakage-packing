@@ -1,0 +1,98 @@
+{
+  "source_hashes": {
+    "guard_add.sv": "4d098563a894c15ad7852a022be722e71217b143a7624a478c2c5bd4f237af30",
+    "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+    "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+  },
+  "backpressure": false,
+  "frames": 128148,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 165520,
+      "neurons": 811511,
+      "arithmetic_issues": 165520,
+      "narrow_requests": 99938,
+      "copy_requests": 30103,
+      "clocks": 166383,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 165520,
+      "mismatches": 0,
+      "output_sha256": "f163e08da86876f7c714df10d8069b5bf564e48ad9d60d13c6cfd0cfbb96bd86"
+    },
+    {
+      "engine": 1,
+      "requests": 264680,
+      "neurons": 811511,
+      "arithmetic_issues": 264680,
+      "narrow_requests": 0,
+      "copy_requests": 30256,
+      "clocks": 265543,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 264680,
+      "mismatches": 0,
+      "output_sha256": "c20d31eb0fab21a47c2491ceed2c578389a140d811a7f0164fe6e1d799dd02af"
+    },
+    {
+      "engine": 2,
+      "requests": 136591,
+      "neurons": 811511,
+      "arithmetic_issues": 136591,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 137454,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 136591,
+      "mismatches": 0,
+      "output_sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    },
+    {
+      "engine": 3,
+      "requests": 136591,
+      "neurons": 811511,
+      "arithmetic_issues": 0,
+      "narrow_requests": 0,
+      "copy_requests": 0,
+      "clocks": 137454,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 136591,
+      "mismatches": 0,
+      "output_sha256": "5a3ed9b19d6ced09c416678e25bc233081e58121e214fad3e2d212f6599ac63d"
+    }
+  ],
+  "stimulus_sha256": "a38cff9dcf9cd94bc0e89970956770e5a33bfdeddf27f52fccfe2142e78863c7",
+  "stimulus_file": "guard_add_main_0/stream_stim.txt",
+  "tested_engines": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "expected_engines": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "model_input_sha256": null,
+  "validation_kind": "full_integer_stress",
+  "source_contract": "valid and both complete raw six-value payloads held until acceptance; input valid low during reset",
+  "acceptance_to_handshake_advances": 4,
+  "integer_operation": "signed11 U + signed11 I -> exact signed12 sum",
+  "retirement_columns": [
+    "frame",
+    "position",
+    "count",
+    "coefficient_placeholder0",
+    "out72_hex",
+    "acceptance_clock",
+    "retirement_clock",
+    "narrow_mode"
+  ],
+  "policy": "E0 prefers full-window zero-current suffix copy, then all signed7 av5/6, then prefix4 plus zero-current suffix; E1 prefix4 plus zero-current suffix; E2/E3 all available",
+  "scope": "Six-value ordered addition primitive; no memory source/controller or SNN threshold/reset/classification claim"
+}

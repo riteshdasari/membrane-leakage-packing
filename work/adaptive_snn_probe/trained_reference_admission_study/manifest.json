@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "files": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\restored_reference_summary.json": "c8bbeb5944bb1668a996a59ab1afcdfd9ea73cac42d8f8acf01484d9af5e7604",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\restore_saved_reference.py": "0027d6e5fcf98323ab22ec0717129f8dbee1c04b122b05a3fbfdef2bc161b48c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\leak_shift1\\reference_ledger.json": "d3db34db7919f1f97425f0fc46220405a48220ea08ad8d50af07165066ed8bba",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\leak_shift1\\stream_stim.txt": "503f4e3aefc3bdcf3753c26faf7dd21e8952114fd413f4bd90a4d36943293301",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\leak_shift3\\reference_ledger.json": "1156d34b2918a1278dfb3fc81396818959160f67791cb37c6dfecddef50379bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\leak_shift3\\stream_stim.txt": "5a26a95134801ba7b3d6e2fda3e4b97574fb4ab53fdbb8a3d283ca2d289ee8cd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\README.md": "e900f14ef6f3a91f5bc1091c7c2674d55af4f0bf673f79fba2c92b0983c5ad02"
+  }
+}

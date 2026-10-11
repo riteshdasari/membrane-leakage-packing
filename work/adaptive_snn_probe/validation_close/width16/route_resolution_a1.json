@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "B": 16,
+  "period_ns": 12,
+  "original_acceptance": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_acceptance_a0.json",
+  "selected_routes": {
+    "0": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e0_a0",
+    "1": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0",
+    "2": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e2_a1",
+    "3": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0",
+    "4": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0",
+    "5": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0",
+    "6": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0"
+  },
+  "retries": [
+    {
+      "engine": 2,
+      "returncode": 0,
+      "seconds": 260.59663939476013,
+      "log": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_retry_e2_a1.log",
+      "log_sha256": "90037534ae9a95b3cb56b4c87092b76c8d7cffa2287f7e8bc0e15ce837fbc174"
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\resolve_routes16.py": "1209fc5a7fa8dcb624e31ae8c6523e57bd14876561fb8c4ad0c03ec2fde1bb9f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_acceptance_a0.json": "4af798bd787a41af833ee7452cd989b7fab07612783a574a6544a0075dcd759f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_routes16_checkpoint_retry.py": "e8e7827aaaf02e725b1b0a792594f75e777799dff2761f3912f6b2c66116858a"
+  },
+  "current_engine": 2,
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e0_a0\\hardware.json": "5c062e71385a7f466e9589cfbf0b0db708bd43e9cf6433066d5f9e0843d00ad6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e2_a1\\hardware.json": "f546e99df1670548d0571142ec7ed0227f8b2d29c71197affb46fc0a42363084",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json": "926efc7a9c829c900ae50b8052e908d92dbf718cedfc1bd350201f2045730567",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json": "a1998ec14d20073e437bc8c0d60322a507d9d681202426ee73f6aa067be0fea3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json": "904b63b53aebb0c164c79db53ea07d691dab3f9203a0ae7abd9a918ab3f44c6c"
+  },
+  "selection_policy": "Reuse successful original attempts; retry failed attempts using source-identical completed synthesis. No selection by area or power."
+}

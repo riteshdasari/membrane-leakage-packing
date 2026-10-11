@@ -1,0 +1,41 @@
+{
+  "argv": [
+    "C:/AMDDesignTools/2025.2/Vivado/bin/vivado.bat",
+    "-mode",
+    "batch",
+    "-log",
+    "vivado.log",
+    "-journal",
+    "vivado.jou",
+    "-source",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/trained_reference_native_trial/static_u8_physical/route.tcl",
+    "-tclargs",
+    "top_guard_add_static_u8",
+    "6",
+    "b685e90c43fb2b9ac7241ab3b61c9603c6a5199b970781b173f6d0110393ee3a",
+    "fresh",
+    "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/trained_reference_native_trial/static_u8_physical"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\static_u8_physical",
+  "returncode": 1,
+  "seconds": 143.69,
+  "free_GiB_at_start": 2.4875526428222656,
+  "sampled_min_free_GiB": 1.5882034301757812,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 1.7942047119140625,
+  "memory_samples": 140,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\guard_add_frontier_timing.sv": "eddfd750d8d87e7f0915d57198405852b0796e18c14d18eca20d63f1d860a838",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\route_frontier.tcl": "b44289517a6bf910676741f905734f340697234f7eb5e7e5db1339c61e8d75b1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\guard_add_static_narrow_eight.sv": "0e666457b6cfef459f0a5b1ed21beac94dfcc2c31b684dff0da036f593855373",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\measure_static_u8.py": "a9c1117e7ba36a6f3cc52292efa5505374d6faf1c3c280058a4b5f0b5d3323cc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\range_certificate.json": "a783ad610e5cdae42a9aa227a259c1ff7fe5b602230c5a44c3f293e41a6c462a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\results\\native_shift1_stall0_a1\\native_checks.json": "76cc665eb4656936daefd62bd0d0109dc7a86b2fee78b960694bace05531ab3d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\results\\native_shift1_stall1_a1\\native_checks.json": "7a541c855e0a03382c01d8765c22f1282a64ec6025cb101deaaac78950b80cf9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\static_u8_physical\\route.tcl": "1d5e9d2e479e1f5c3e87bab7d13ddd9fca4f2b9f32b07824badda59b9efeb1be",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_native_trial\\static_u8_physical\\timing.sv": "4a4fbeb80d062a8a61c603b6855c95bee60eaba22f4b09fcc23fecc74efdf75c"
+  },
+  "log_sha256": "e924c9576ac7c0e5d0436bd10ee9e73c18f2e5192e0fa4c74c3e072d8379e172"
+}

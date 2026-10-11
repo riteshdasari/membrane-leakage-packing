@@ -1,0 +1,79 @@
+{
+  "status": "pass_mathematics_and_stimulus_preparation_no_RTL_run",
+  "signed16_scalar_cases": 16842752,
+  "signed16_fixed_split_cases": 16842752,
+  "shift128_cases": 65536,
+  "arithmetic_mismatches": 0,
+  "original_unchanged_narrow_pair_proof_sha256": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+  "cohorts": {
+    "general": {
+      "stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\general_stim.txt",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\general_expected.npz",
+      "operations": 360487,
+      "groups": 174656,
+      "expected_requests_by_engine": [
+        258688,
+        216994,
+        180247,
+        180247,
+        360487,
+        225280
+      ],
+      "expected_unstalled_min_max_latency": 2,
+      "artifact_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\general_stim.txt": "a7562e1e6ad47d1a892a259c7739ee02c60a669ffcc592025974cdf2d0cfbb59",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\general_expected.npz": "09fc320a13684ec99cdb9c80e55383b81d5847dd927fbbac53de08f91f0ceb72"
+      }
+    },
+    "shift128": {
+      "stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\shift128_stim.txt",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\shift128_expected.npz",
+      "operations": 74927,
+      "groups": 32910,
+      "expected_requests_by_engine": [
+        73278,
+        37473,
+        37473,
+        37473,
+        74927,
+        73278,
+        37473
+      ],
+      "expected_unstalled_min_max_latency": 2,
+      "artifact_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\shift128_stim.txt": "9f19ae0b8306786a22afbe1df202d886b6c8e3ec1a2d25ee1a1242d16cf0f590",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\shift128_expected.npz": "f8d410a20cb996c8d4e7cd8639c7cf5570568e39f81e6ef0ebd76427ba4ac27d"
+      }
+    },
+    "actual128": {
+      "stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_stim.txt",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz",
+      "operations": 7335,
+      "groups": 80,
+      "expected_requests_by_engine": [
+        6282,
+        3671,
+        3671,
+        3671,
+        7335,
+        6282,
+        3671
+      ],
+      "expected_unstalled_min_max_latency": 2,
+      "artifact_sha256": {
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_stim.txt": "f7408c41f61de440c809151a9dab5fa820f05e6ded3b667b9232db9510feb571",
+        "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual128_expected.npz": "bd46acf0f1b85e861fad6aa5b3509cd0c8fcd387434c853412439fa640c8b8c8"
+      }
+    }
+  },
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\check_and_prepare_stimuli.py": "f2b874f0eb5dba648f988b4672d979af44d392ff54956adcaa8e91f5819a36b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\preparation_v2.json": "becfde4b992cb54076d4e8468bdda7d9fc1ea37b59906bbec5a984fa9d8e8422",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_algebra.json": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\profile16_a0\\actual_operand_frames.txt": "226439adadccf3b4d3165b52b100c35cee7375976dff0d06377abcd58cafd119",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_plan.json": "e7479954dcac456c6628be7ce22c0d553a177d47ddfe4cba0d96dad9c1a51c27"
+  },
+  "elapsed_seconds": 2.655999999999949,
+  "hardware_validation_status": "notcompiled,notrouted; cannotclaimB16hardwareinferenceyet",
+  "sample_scope": "OTTstress/coverage sample includes full12bit exceptions; norescaling, clipping orcoefficientretuning"
+}

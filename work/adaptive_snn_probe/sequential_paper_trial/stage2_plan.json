@@ -1,0 +1,21 @@
+{
+  "unit": 256,
+  "coefficient_fractional_bits": 8,
+  "neuron_state_and_current_signed_bits": 24,
+  "samples": 10000,
+  "indices": "original order 0..9999",
+  "time_steps": 2,
+  "batch": 4,
+  "threads": 8,
+  "coefficient_rounding": "nearest-even; learned effective kappa quantized separately for previous spike 0/1",
+  "leakage_rounding": "ceil(beta*U/256), all signs",
+  "current_rounding": "nearest-even of FP32 effective current times256",
+  "equation": "U_next=ceil(beta(previous_spike)*U/256)+I-bias-reset*previous_spike; spike=(U_next>threshold)",
+  "reset": "previous-spike subtractive term from pinned GLIF; no extra immediate reset",
+  "bias_reset_threshold_rounding": "nearest-even of pinned FP32 quantities times256",
+  "saturation": "none; fail if any U/current/next state leaves signed24 contract",
+  "selection": "One fixed unit chosen before any integer inference. No test-set retuning or retraining.",
+  "scope": "Integer neuron states and arithmetic inside original floating convolution/BN/readout network. Not a fully quantized accelerator or vanilla-LIF conversion.",
+  "accuracy_gate": "Report all observed accuracy changes; exact packing later must reproduce this integer reference, not claim floating-model exactness.",
+  "source_commit": "60638b28ff8b688b51867e7dd44f1e065d4892b0"
+}

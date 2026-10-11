@@ -1,0 +1,270 @@
+{
+  "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+  "algebra_cases": 180000,
+  "rows": [
+    {
+      "engine": 0,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 0,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 0,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 0,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 0,
+      "bits": 12,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 12,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 12,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 0,
+      "bits": 12,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 12,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 12,
+      "neurons": 4,
+      "shift": 3,
+      "leak": 1,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 0,
+      "bits": 16,
+      "neurons": 3,
+      "shift": 1,
+      "leak": 0,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 16,
+      "neurons": 3,
+      "shift": 1,
+      "leak": 0,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 16,
+      "neurons": 3,
+      "shift": 1,
+      "leak": 0,
+      "hard_reset": 0,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 0,
+      "bits": 16,
+      "neurons": 3,
+      "shift": 1,
+      "leak": 0,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 1,
+      "bits": 16,
+      "neurons": 3,
+      "shift": 1,
+      "leak": 0,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    },
+    {
+      "engine": 2,
+      "bits": 16,
+      "neurons": 3,
+      "shift": 1,
+      "leak": 0,
+      "hard_reset": 1,
+      "steps": 320,
+      "mismatches": 0,
+      "cycles": 1206
+    }
+  ]
+}

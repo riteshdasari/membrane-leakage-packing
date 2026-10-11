@@ -1,0 +1,324 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\results\\replay_e2_a0\\activity.saif",
+  "source_sha256": "d3a0661484dd82ccb6740455a649c96731ef262bebbf7e726113796187b339d1",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\results\\replay_e2_a0\\activity_named.saif",
+  "target_sha256": "e611aabccf1ccc70f32147126a18635d33a1eb57c6fc6a15870f41f2db680fb8",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 62,
+  "changes": [
+    {
+      "line": 1005,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 1012,
+      "old": "\\\\count\\[3\\]_i_2_n_0\\",
+      "new": "count\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1025,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1026,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1027,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1028,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1029,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1030,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1031,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1032,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1033,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1034,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1035,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1036,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1037,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1038,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1039,
+      "old": "\\\\hybrid\\.lut_lane\\[4\\]\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[4\\]\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1052,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1053,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1054,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1055,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1056,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1057,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1058,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1059,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1060,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1061,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1062,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1063,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1064,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1065,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1066,
+      "old": "\\\\hybrid\\.lut_lane\\[5\\]\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[5\\]\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1079,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1080,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1081,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1082,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1083,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1084,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1085,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1086,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1087,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1088,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1089,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1090,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1091,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1092,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1093,
+      "old": "\\\\hybrid\\.lut_lane\\[6\\]\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[6\\]\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    },
+    {
+      "line": 1106,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1107,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1108,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1109,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_5_n_0"
+    },
+    {
+      "line": 1110,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_6_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[11\\]_i_6_n_0"
+    },
+    {
+      "line": 1111,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_2_n_0"
+    },
+    {
+      "line": 1112,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_3_n_0"
+    },
+    {
+      "line": 1113,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_4_n_0"
+    },
+    {
+      "line": 1114,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[3\\]_i_5_n_0"
+    },
+    {
+      "line": 1115,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_2_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_2_n_0"
+    },
+    {
+      "line": 1116,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_3_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_3_n_0"
+    },
+    {
+      "line": 1117,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_4_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_4_n_0"
+    },
+    {
+      "line": 1118,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_5_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg\\[7\\]_i_5_n_0"
+    },
+    {
+      "line": 1119,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg_reg\\[3\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg_reg\\[3\\]_i_1_n_0"
+    },
+    {
+      "line": 1120,
+      "old": "\\\\hybrid\\.lut_lane\\[7\\]\\.sum_reg_reg\\[7\\]_i_1_n_0\\",
+      "new": "hybrid\\.lut_lane\\[7\\]\\.sum_reg_reg\\[7\\]_i_1_n_0"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

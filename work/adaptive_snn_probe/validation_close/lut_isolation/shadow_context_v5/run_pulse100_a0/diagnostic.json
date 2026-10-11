@@ -1,0 +1,106 @@
+{
+  "status": "completed_bounded_combined_shadow_diagnostic",
+  "gates": {
+    "work_CARRY4_bound": true,
+    "one_combined_full_SDF_accepted_at_TB_root": true,
+    "annotation_not_ignored": true,
+    "no_elaboration_warning_or_error": true,
+    "no_runtime_timing_warning_or_error": true,
+    "positive50ps_settled600ps_canary": true,
+    "causal_snapshots_completed": true
+  },
+  "pulse_limit_percent": 100,
+  "original_netlist_and_raw_SDF_modified": false,
+  "combined_SDF_explicit_EOF_completion_and_INSTANCE_relocation": true,
+  "vendor_CARRY4_modified": false,
+  "timing_checks_disabled": false,
+  "original_row914_failure": false,
+  "full_original_known_row_replay_pass": false,
+  "replay_mismatches": [
+    {
+      "row": 5701,
+      "got": "6dbf3fee",
+      "expected": "6dff3fee"
+    }
+  ],
+  "observations": [
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11082.001 ROW913 ORIG_AGE30.880 SHADOW_AGE30.880 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q1",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11094.001 ROW914 ORIG_AGE6.761 SHADOW_AGE6.761 ORIG_S0 SHADOW_S0 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O0 SHADOW_O0 EXPECT_O0 EXPECT_CO0 D0 Q1",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT after_last_glitch T11100.500 ROW914 ORIG_AGE0.905 SHADOW_AGE0.905 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D0 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT plus500ps T11101.000 ROW914 ORIG_AGE1.405 SHADOW_AGE1.405 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT before_capture T11105.999 ROW915 ORIG_AGE6.404 SHADOW_AGE6.404 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT after_capture T11106.001 ROW915 ORIG_AGE6.406 SHADOW_AGE6.406 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    },
+    {
+      "line": "CAUSAL_SNAPSHOT capture_edge_plus1ps T11106.001 ROW915 ORIG_AGE6.406 SHADOW_AGE6.406 ORIG_S7 SHADOW_S7 ORIG_CI0 SHADOW_CI0 ORIG_DI0 SHADOW_DI0 ORIG_CO0 SHADOW_CO0 ORIG_FB0 SHADOW_FB0 ORIG_O7 SHADOW_O7 EXPECT_O7 EXPECT_CO0 D1 Q0",
+      "known": true,
+      "same_observed_inputs": true,
+      "original_settled_gt_maxdelay": true,
+      "shadow_settled_gt_maxdelay": true,
+      "original_wrong": false,
+      "shadow_wrong": false
+    }
+  ],
+  "bounded_conclusion": "The added diagnostic does not reproduce the settled original failure; possible observer/elaboration sensitivity remains unresolved.",
+  "annotation_success_lines": [
+    "INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/shadow_context_v5/run_pulse100_a0/original_and_shadow_full.sdf\", for root module \"tb_sequential_energy_replay\"."
+  ],
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse100_a0\\tool_0.log": "c336cd7f67acad6fff1dad455775d13d23226624a1831e834c5102b6400b902e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse100_a0\\tool_1.log": "d5f82d006b12b7d16aee2c2f736dc8dc1c37e9f53f90b757cc3d31da6bf783ac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse100_a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse100_a0\\tool_3.log": "d979405e37c369aa8a48fc93c60b5a66e77c7ba251797fa4404123792ae513f1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\shadow_context_v5\\run_pulse100_a0\\tool_4.log": "957f99a768abc0305b6c38cccc936307c4e3c8eaf82754c0ca2d73ddcb712ae5"
+  },
+  "diagnostic_only": true,
+  "original_discrepancy_resolved": false,
+  "hardware_or_energy_acceptance": false,
+  "event_trace_limit": "Per-bit observer order is not an exact simulator region/delta dump."
+}

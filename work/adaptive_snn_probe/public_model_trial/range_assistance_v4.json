@@ -1,0 +1,29 @@
+{
+  "status": "transport_complete_not_full_archive_acceptance",
+  "rows": [
+    {
+      "index": 31,
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\031.bin",
+      "bytes": 4194304,
+      "sha256": "a7011c9e2b7a12f6dbaf1001e818f823b7d2003711598d162231758d31271631"
+    },
+    {
+      "index": 32,
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\032.bin",
+      "bytes": 4194304,
+      "sha256": "990524e5908c9d119df4c14b4552806b2b53f60c454bdd36f25aab1b541f000d"
+    },
+    {
+      "index": 33,
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\033.bin",
+      "bytes": 4194304,
+      "sha256": "e8d8dbe5686090c56e324c0b2ba5c93de1ae04bf73e41e8b5691513431f34fa1"
+    },
+    {
+      "index": 34,
+      "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\public_model_trial\\dataset_ranges\\034.bin",
+      "bytes": 4194304,
+      "sha256": "06b72e3f56dc0e00525b46d4a4afdbf0b353a5854d7efa8deb75702ee3f13b8d"
+    }
+  ]
+}

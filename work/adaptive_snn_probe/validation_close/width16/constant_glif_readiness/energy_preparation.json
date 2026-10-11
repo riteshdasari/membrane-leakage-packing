@@ -1,0 +1,67 @@
+{
+  "status": "prepared_new_measurement_no_vendor_launch",
+  "engine": 9,
+  "top": "top_sequential_leak16_glif_mcm",
+  "B": 16,
+  "clock_ns": 12,
+  "fixture_FF": 94,
+  "required_before_launch": "passed captured actual_glif native receipt and passed matched12ns shared-MCM route",
+  "preserved_physical_audit_functions": [
+    "tcl_words",
+    "connectivity",
+    "normalization_audit",
+    "annotation"
+  ],
+  "explicit_physical_audit_identity_changes": [
+    {
+      "before": "assert engine in range(8)",
+      "after": "assert engine==9"
+    },
+    {
+      "before": "hardware['status'] == 'pass' and hardware['engine'] == engine",
+      "after": "hardware['status'] == 'pass' and hardware['label']=='shared_GLIF_checkpoint_MCM_LUT2'"
+    },
+    {
+      "before": "assert len(dsps) == [1,1,0,2,1,1,0,0][engine]",
+      "after": "assert len(dsps)==0"
+    },
+    {
+      "before": "assert hardware['WNS_ns'] >= 0 and hardware['WHS_ns'] >= 0",
+      "after": "assert all(hardware[k]>=0 for k in ('WNS_ns','WHS_ns','boundary_WNS_ns','boundary_WHS_ns'))"
+    }
+  ],
+  "fixture_bench_bytes_identical": true,
+  "export_tcl_bytes_identical": true,
+  "SDF": "preserved raw export plus certified EOF-only derived export and one annotation-path replacement; all numerical timing unchanged",
+  "gates": "complete native inputs and known controls/data through golden fixture; complete maxdelay transport SDF replay; no timing-check waiver; exact ROI duration; normalized states unchanged; every physical net matched and known; exact selected design and power settings",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\prepare_energy_glif_mcm.py": "a741e95e91dc205731faf45974eb1b3b92a7c1d57bc429a5a561f15f30d6e638",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\audit_energy_glif_mcm_header.py": "256a40d22e14724ec2a4a9b1af778b9c7dfcdd88ca44d26e320105a32b8a0feb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\audit_energy_glif_mcm_certificate.py": "2babceb2b60f90edf699e900badbd9ae816b4bdf034a0294c778259d4be2d4ff",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\audit_energy_glif_mcm.py": "6db1e41a3f0f833fac90ee9ca00aca53c5c0bdd15a998799ac2e252b494eee03",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\run_energy_glif_mcm.py": "15f0e9d95d06b85bb2fec324c5914c3ca9f4f547dd141b27dea407c729a1927e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\tb_energy_glif_mcm.sv": "7bc1767b0ee449bea46834a3d01765bf53d6d49ac0f3e772374748e72d8ab8b7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\export_energy_glif_mcm.tcl": "64221cbc06aa4720eae2a63dbbbd51efabb51c33044b9bf7b5a0654b4100827f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\power_energy_glif_mcm.tcl": "5e4052e242fdbf1210042e9b71462417f72add61fab0a53b0356d740e6c053b8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\preparation.json": "c5b0bbb709c482598b66fa2da20ad41321642285e2c2f300fd682ae837870e41",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\leak_glif_mcm.sv": "5e0dbea62fc5118d4ed7dc94e4a215a9be82d6c07e8f4aa6b6ff31882cd0e882",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\constant_glif_readiness\\timing_glif_mcm.sv": "9ed37115686b545679ca61495d666afa43a7ee2d6134785e227f24818f3cb4d6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_stim.txt": "d2633a6fdba08ac4c4de956d38817dce2a15a74753fd8c50b7ba607cf8bd4db3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12.py": "496b20aa028f3321a19af6caf479b1248ab4123a915f50187b0fc3afed1eca22",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\certify_energy_export.py": "ae05621f97cf175bb601a1ece56577eef84d1122f9d6f662d2d33d5a71073dae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\tb_energy16_12.sv": "7bc1767b0ee449bea46834a3d01765bf53d6d49ac0f3e772374748e72d8ab8b7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\export16_12.tcl": "64221cbc06aa4720eae2a63dbbbd51efabb51c33044b9bf7b5a0654b4100827f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\power16_12.tcl": "9e2aaab96aa89a547671f1ff3daf7be3e530b8e4d4796091b5963460dd3440ef",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\create_eof_only_sdf_derivative.py": "028efcbb3cd68fa97eaab8d64f5f73eae64a0ae66301921e430fde26ab4f2908",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\sdf_structure_audit_v1.py": "8762e602e4cc932058548e451b3fd2e6de795386f17c3440655867d754927302",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\verify_eof_only_sdf_derivative_v1.py": "4f32cac218f4eb523093200ababec59e47a9ca5e2dac3568af4a80dbae8e4f07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\replay_selective_energy.py": "377b565869a690ca7b8b984ee73818ec513c22ae14db98c922b68cc66eaa64af",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\normalize_saif_names.py": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\audit_selective_energy.py": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2"
+  },
+  "scope": "Fresh representative GLIF complete-fixture vendor dynamic estimate; no historical energy reuse, board/static/neuron/memory claim."
+}

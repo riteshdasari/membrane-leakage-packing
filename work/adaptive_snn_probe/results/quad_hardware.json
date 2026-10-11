@@ -1,0 +1,322 @@
+[
+  {
+    "top": "top_quad_fixed3",
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 141,
+      "FF": 167,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 63,
+      "occupied_slices_reported": 63
+    },
+    "full_fixture": {
+      "LUT": 141,
+      "FF": 270,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 81
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 103,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 50,
+      "capture_FF": 53,
+      "fixture_FF": 103,
+      "full_occupied_slices": 81,
+      "core_slices_touched": 63,
+      "fixture_slices_touched": 28,
+      "shared_slices": 10,
+      "core_exclusive_slices": 53,
+      "fixture_exclusive_slices": 18,
+      "core_primitive_cells": 374,
+      "fixture_primitive_cells": 105
+    },
+    "WNS_ns": 0.598,
+    "WHS_ns": 0.152,
+    "clock_to_clock_period_estimate_ns": 5.402,
+    "boundary_WNS_ns": 0.598,
+    "boundary_WHS_ns": -1.08,
+    "source_sha256": {
+      "quad_leak.sv": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0",
+      "tb_quad_leak.sv": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99",
+      "check_quad.py": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4",
+      "check_quad_snn.py": "cc22ed28392b4128a005fe6e86bb794ddbbf8a1c3d67b98d8c2e443a73fb319a",
+      "quad_timing.sv": "6c2cb4237679efb044ef68c62130cff2effe5d1fb45f85f64fdc8b46cca5cc73",
+      "route_quad.tcl": "01f8e3eedd338015db6441b16010d19c51d0405e0d561fa94619c28132677299",
+      "run_quad_route.py": "d5540c5a6ca405cf89ae74d32c729f22f66b8408197919ea5b01e4ac423b26ce"
+    },
+    "functional_check_sha256": {
+      "quad_main_0_checks.json": "5a10b86b8cfd3c5fdb4307b62e30f68a44d1f300aabc07bc66fd1027efea4a84",
+      "quad_main_1_checks.json": "a639347726506d78d0f317d6a5dad8b930a34b61bcd1cf0ce31dae1e10fe142f",
+      "quad_models_0_checks.json": "c4090ecf1948f16fe400519a36fcc4187972925432be6e07a23af57e263ae7fa",
+      "quad_models_1_checks.json": "94f1d58424ee156c4aa370842cbf363d3c829139fcaf94c6aa27f5cc718a529f",
+      "quad_snn_checks.json": "338e4d373945a436fa91c2aa1c511180dca4f7f046261f2ed9328371accb3534"
+    },
+    "provenance_sha256": "d2fe16edea6234d8c97bac0c0a4fd463db8b32d65ffebd801589f44f7d29161b",
+    "retried_checkpoint": false,
+    "seconds": 106.0,
+    "scope": "Constant25 raw four-input arithmetic primitive in registered OOC fixture; no board, memory, SNN accuracy, power or full latency measurement"
+  },
+  {
+    "top": "top_quad_fixed4",
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 213,
+      "FF": 243,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 85,
+      "occupied_slices_reported": 85
+    },
+    "full_fixture": {
+      "LUT": 213,
+      "FF": 346,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 100
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 103,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 50,
+      "capture_FF": 53,
+      "fixture_FF": 103,
+      "full_occupied_slices": 100,
+      "core_slices_touched": 85,
+      "fixture_slices_touched": 25,
+      "shared_slices": 10,
+      "core_exclusive_slices": 75,
+      "fixture_exclusive_slices": 15,
+      "core_primitive_cells": 553,
+      "fixture_primitive_cells": 105
+    },
+    "WNS_ns": 0.855,
+    "WHS_ns": 0.142,
+    "clock_to_clock_period_estimate_ns": 5.145,
+    "boundary_WNS_ns": 0.855,
+    "boundary_WHS_ns": -1.15,
+    "source_sha256": {
+      "quad_leak.sv": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0",
+      "tb_quad_leak.sv": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99",
+      "check_quad.py": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4",
+      "check_quad_snn.py": "cc22ed28392b4128a005fe6e86bb794ddbbf8a1c3d67b98d8c2e443a73fb319a",
+      "quad_timing.sv": "6c2cb4237679efb044ef68c62130cff2effe5d1fb45f85f64fdc8b46cca5cc73",
+      "route_quad.tcl": "01f8e3eedd338015db6441b16010d19c51d0405e0d561fa94619c28132677299",
+      "run_quad_route.py": "d5540c5a6ca405cf89ae74d32c729f22f66b8408197919ea5b01e4ac423b26ce"
+    },
+    "functional_check_sha256": {
+      "quad_main_0_checks.json": "5a10b86b8cfd3c5fdb4307b62e30f68a44d1f300aabc07bc66fd1027efea4a84",
+      "quad_main_1_checks.json": "a639347726506d78d0f317d6a5dad8b930a34b61bcd1cf0ce31dae1e10fe142f",
+      "quad_models_0_checks.json": "c4090ecf1948f16fe400519a36fcc4187972925432be6e07a23af57e263ae7fa",
+      "quad_models_1_checks.json": "94f1d58424ee156c4aa370842cbf363d3c829139fcaf94c6aa27f5cc718a529f",
+      "quad_snn_checks.json": "338e4d373945a436fa91c2aa1c511180dca4f7f046261f2ed9328371accb3534"
+    },
+    "provenance_sha256": "ccd9eaafe2ffcc46cc1c76f13eaae64b547bba95a789feade23c405569458537",
+    "retried_checkpoint": false,
+    "seconds": 79.5,
+    "scope": "Constant25 raw four-input arithmetic primitive in registered OOC fixture; no board, memory, SNN accuracy, power or full latency measurement"
+  },
+  {
+    "top": "top_quad_lut4",
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 129,
+      "FF": 224,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 61,
+      "occupied_slices_reported": 61
+    },
+    "full_fixture": {
+      "LUT": 129,
+      "FF": 327,
+      "DSP": 0,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 87
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 103,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 50,
+      "capture_FF": 53,
+      "fixture_FF": 103,
+      "full_occupied_slices": 87,
+      "core_slices_touched": 61,
+      "fixture_slices_touched": 28,
+      "shared_slices": 2,
+      "core_exclusive_slices": 59,
+      "fixture_exclusive_slices": 26,
+      "core_primitive_cells": 443,
+      "fixture_primitive_cells": 105
+    },
+    "WNS_ns": 1.811,
+    "WHS_ns": 0.104,
+    "clock_to_clock_period_estimate_ns": 4.189,
+    "boundary_WNS_ns": 1.768,
+    "boundary_WHS_ns": -1.131,
+    "source_sha256": {
+      "quad_leak.sv": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0",
+      "tb_quad_leak.sv": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99",
+      "check_quad.py": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4",
+      "check_quad_snn.py": "cc22ed28392b4128a005fe6e86bb794ddbbf8a1c3d67b98d8c2e443a73fb319a",
+      "quad_timing.sv": "6c2cb4237679efb044ef68c62130cff2effe5d1fb45f85f64fdc8b46cca5cc73",
+      "route_quad.tcl": "01f8e3eedd338015db6441b16010d19c51d0405e0d561fa94619c28132677299",
+      "run_quad_route.py": "d5540c5a6ca405cf89ae74d32c729f22f66b8408197919ea5b01e4ac423b26ce"
+    },
+    "functional_check_sha256": {
+      "quad_main_0_checks.json": "5a10b86b8cfd3c5fdb4307b62e30f68a44d1f300aabc07bc66fd1027efea4a84",
+      "quad_main_1_checks.json": "a639347726506d78d0f317d6a5dad8b930a34b61bcd1cf0ce31dae1e10fe142f",
+      "quad_models_0_checks.json": "c4090ecf1948f16fe400519a36fcc4187972925432be6e07a23af57e263ae7fa",
+      "quad_models_1_checks.json": "94f1d58424ee156c4aa370842cbf363d3c829139fcaf94c6aa27f5cc718a529f",
+      "quad_snn_checks.json": "338e4d373945a436fa91c2aa1c511180dca4f7f046261f2ed9328371accb3534"
+    },
+    "provenance_sha256": "6983d84068126f00a02cb3e68532860b2858956595ccfa71725db30a5abd63a1",
+    "retried_checkpoint": false,
+    "seconds": 76.0,
+    "scope": "Constant25 raw four-input arithmetic primitive in registered OOC fixture; no board, memory, SNN accuracy, power or full latency measurement"
+  },
+  {
+    "top": "top_quad_adaptive6",
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 302,
+      "FF": 201,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 111,
+      "occupied_slices_reported": 111
+    },
+    "full_fixture": {
+      "LUT": 302,
+      "FF": 304,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 128
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 103,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 50,
+      "capture_FF": 53,
+      "fixture_FF": 103,
+      "full_occupied_slices": 128,
+      "core_slices_touched": 111,
+      "fixture_slices_touched": 38,
+      "shared_slices": 21,
+      "core_exclusive_slices": 90,
+      "fixture_exclusive_slices": 17,
+      "core_primitive_cells": 602,
+      "fixture_primitive_cells": 105
+    },
+    "WNS_ns": 0.23,
+    "WHS_ns": 0.125,
+    "clock_to_clock_period_estimate_ns": 5.77,
+    "boundary_WNS_ns": 0.23,
+    "boundary_WHS_ns": -1.058,
+    "source_sha256": {
+      "quad_leak.sv": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0",
+      "tb_quad_leak.sv": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99",
+      "check_quad.py": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4",
+      "check_quad_snn.py": "cc22ed28392b4128a005fe6e86bb794ddbbf8a1c3d67b98d8c2e443a73fb319a",
+      "quad_timing.sv": "6c2cb4237679efb044ef68c62130cff2effe5d1fb45f85f64fdc8b46cca5cc73",
+      "route_quad.tcl": "01f8e3eedd338015db6441b16010d19c51d0405e0d561fa94619c28132677299",
+      "run_quad_route.py": "d5540c5a6ca405cf89ae74d32c729f22f66b8408197919ea5b01e4ac423b26ce"
+    },
+    "functional_check_sha256": {
+      "quad_main_0_checks.json": "5a10b86b8cfd3c5fdb4307b62e30f68a44d1f300aabc07bc66fd1027efea4a84",
+      "quad_main_1_checks.json": "a639347726506d78d0f317d6a5dad8b930a34b61bcd1cf0ce31dae1e10fe142f",
+      "quad_models_0_checks.json": "c4090ecf1948f16fe400519a36fcc4187972925432be6e07a23af57e263ae7fa",
+      "quad_models_1_checks.json": "94f1d58424ee156c4aa370842cbf363d3c829139fcaf94c6aa27f5cc718a529f",
+      "quad_snn_checks.json": "338e4d373945a436fa91c2aa1c511180dca4f7f046261f2ed9328371accb3534"
+    },
+    "provenance_sha256": "105c89255cd775aa0f91c3e8337dffd2dc8eb04b2bddebab8cb1ba52664bf531",
+    "retried_checkpoint": false,
+    "seconds": 121.2,
+    "scope": "Constant25 raw four-input arithmetic primitive in registered OOC fixture; no board, memory, SNN accuracy, power or full latency measurement"
+  },
+  {
+    "top": "top_quad_adaptive7",
+    "target_ns": 6.0,
+    "core": {
+      "LUT": 304,
+      "FF": 210,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 113,
+      "occupied_slices_reported": 113
+    },
+    "full_fixture": {
+      "LUT": 304,
+      "FF": 313,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 123
+    },
+    "fixture_overhead": {
+      "LUT": 0,
+      "FF": 103,
+      "DSP": 0
+    },
+    "slice_accounting": {
+      "launch_FF": 50,
+      "capture_FF": 53,
+      "fixture_FF": 103,
+      "full_occupied_slices": 123,
+      "core_slices_touched": 113,
+      "fixture_slices_touched": 33,
+      "shared_slices": 23,
+      "core_exclusive_slices": 90,
+      "fixture_exclusive_slices": 10,
+      "core_primitive_cells": 612,
+      "fixture_primitive_cells": 105
+    },
+    "WNS_ns": -0.18,
+    "WHS_ns": 0.123,
+    "clock_to_clock_period_estimate_ns": 6.18,
+    "boundary_WNS_ns": -0.18,
+    "boundary_WHS_ns": -1.136,
+    "source_sha256": {
+      "quad_leak.sv": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0",
+      "tb_quad_leak.sv": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99",
+      "check_quad.py": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4",
+      "check_quad_snn.py": "cc22ed28392b4128a005fe6e86bb794ddbbf8a1c3d67b98d8c2e443a73fb319a",
+      "quad_timing.sv": "6c2cb4237679efb044ef68c62130cff2effe5d1fb45f85f64fdc8b46cca5cc73",
+      "route_quad.tcl": "01f8e3eedd338015db6441b16010d19c51d0405e0d561fa94619c28132677299",
+      "run_quad_route.py": "d5540c5a6ca405cf89ae74d32c729f22f66b8408197919ea5b01e4ac423b26ce"
+    },
+    "functional_check_sha256": {
+      "quad_main_0_checks.json": "5a10b86b8cfd3c5fdb4307b62e30f68a44d1f300aabc07bc66fd1027efea4a84",
+      "quad_main_1_checks.json": "a639347726506d78d0f317d6a5dad8b930a34b61bcd1cf0ce31dae1e10fe142f",
+      "quad_models_0_checks.json": "c4090ecf1948f16fe400519a36fcc4187972925432be6e07a23af57e263ae7fa",
+      "quad_models_1_checks.json": "94f1d58424ee156c4aa370842cbf363d3c829139fcaf94c6aa27f5cc718a529f",
+      "quad_snn_checks.json": "338e4d373945a436fa91c2aa1c511180dca4f7f046261f2ed9328371accb3534"
+    },
+    "provenance_sha256": "635f7130369b6d794b711bb008217f2d79a92eda5808b77cab7742b09a6b756a",
+    "retried_checkpoint": false,
+    "seconds": 99.3,
+    "scope": "Constant25 raw four-input arithmetic primitive in registered OOC fixture; no board, memory, SNN accuracy, power or full latency measurement"
+  }
+]

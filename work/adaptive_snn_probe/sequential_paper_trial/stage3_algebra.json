@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "precompensated_pairs": 50593792,
+  "postcorrected_pairs": 67371008,
+  "signed12_scalar_cases": 1052672,
+  "signed12_split_cases": 1052672,
+  "elapsed_seconds": 4.312000000005355,
+  "failures": 0,
+  "pins": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\check_stage3_algebra.py": "6e135f1aa691e20e2cac433b5940836be79213ef26306e150e3a8667c2a0618f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_plan.json": "c876a3289661cc9c594979fddb9e01cf26098a92654fca3943383d47970599be",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage2_acceptance.json": "df8ee92d58f510ad9aee58c96cf2711fe88215a18c29d84a262414314c1ebb1c"
+  }
+}

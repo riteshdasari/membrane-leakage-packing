@@ -1,0 +1,17 @@
+{
+  "status": "review_complete_no_AdEx_execution",
+  "files": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_adex_review\\review.md": "b21c413bc1c24347a449539e41492be0376b38b6b4ba9729e01cf32109c6d678",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_adex_review\\sources.json": "576fd2ce2ab5cf517ebb8fc2f1a548d9ec7f3f71b8cb956babe03d4daf36b623",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\followup_adex_review\\plan.json": "c6f760075044eb76cecb82dfea48ec3a750036ec1db214b8f6bc46c8af7a01a5"
+  },
+  "local_evidence_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\trained_reference_admission_study\\restored_reference_summary.json": "c8bbeb5944bb1668a996a59ab1afcdfd9ea73cac42d8f8acf01484d9af5e7604",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\native_acceptance.json": "d56969dafe5851c82c372e1ea145924fe59d14e80295e74130b53c83eafb6430",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\hardware_acceptance.json": "4fbcbdb6df686b683cd43764b3f525be45c4c5e49e2b2b8ca1bfd691b05a52d5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\range_horizon_trial\\results.json": "b7e8520582bdf1132f32925c7d0d4a4995f819b378bd347c3ef25438424449e4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\certificates.json": "3ca4fc60cc25d391d92661e5c7de784bba2eba8c2cb1df6feba3b7444f41fa08",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_adaptive_packing_verdict.md": "1c2e2b0008ff2b4b019b1f883521c9628a699dae3cc78f86256c6756e6fe70cd"
+  },
+  "scope": "Primary-source AdEx applicability and conditional product-path assessment. No vendor job or AdEx implementation."
+}

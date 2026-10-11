@@ -1,0 +1,16 @@
+{
+  "name": "cui_meng_orcid_person",
+  "url": "https://pub.orcid.org/v3.0/0000-0001-5630-321X/person",
+  "retrieved_utc": "2026-10-11T04:11:23.384063+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "http_status": 200,
+  "final_url": "https://pub.orcid.org/v3.0/0000-0001-5630-321X/person",
+  "content_type": "application/json;charset=UTF-8",
+  "response_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\cui_meng_orcid_person.response",
+  "sha256": "dc11a703357d6300ccd971e953904a62233c9640926f64377a5c7fcb80335758",
+  "bytes": 6338,
+  "kind": "HTML or API response; not assumed full paper",
+  "links": [],
+  "scripts": [],
+  "extracted_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\cui_meng_orcid_person.extracted.txt"
+}

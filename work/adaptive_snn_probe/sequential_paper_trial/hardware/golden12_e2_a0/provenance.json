@@ -1,0 +1,23 @@
+{
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4_common12.py": "b2d4f3ce6651be894bdf8255cbd9b2bca1cbb7b2b62d627db6db45350f53663a",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\common12.tcl": "a2be9bb07310a733d5ca835f64465076db2970c4426d0a248c177011e061fc3b",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_common12.py": "3b4189e00fdb0e342e8b2e0850fd9df8126ed1c660835d841edb1210bd90afff",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_energy12.sv": "bea1817f9d3d03a1d1f30b3b9d181883f5ee9e924fc8a14d970c1eded724e026",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\export12.tcl": "58b5d3310031a418e1fd6e237744e7f955703f980bab66aea9efc83fcae5cbfb",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\power12.tcl": "bc96a2a9de75ebe7cc9e77fbc5f0cac9176d8b9d45325053a39ac0669bebc832",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\audit_power12.py": "4c22cee05df0bde4cd60ba7af37824e4055d030de0c8226599b84c89fcac6ff0",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_energy12.py": "2f30fae435bb2e4a77e3b89fe26fda25627de02dfcfe0453dd34f2320e20d0a2",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_energy9_v2.py": "41752e6ccc4ba1b273128ca20a2d9a5ef009693c469a0a28a0a928584df778df",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\audit_power9_v2.py": "eec3e6b21a9b6d59d07f08aeeaa54f1d75402c142d402c6cc241c0e5c7711669",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_energy9_progress.json": "9a7d947e8da7e46a225251670287e81034d1bc3fdc14d9606a45d2cdbca326de",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\lut_functional_diagnostic_a0\\diagnostic.json": "a4890fe9f54e40702889656016befe1c9cec744d557722015a8b67117b397b8c",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\normalize_saif_names.py": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\replay_selective_energy.py": "377b565869a690ca7b8b984ee73818ec513c22ae14db98c922b68cc66eaa64af",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage4_native_acceptance_v4.json": "1ed5b4597f99912b8cca93498bf1c2f7951b53ae501c35c83328b438d82d13d2",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_actual_s0_a3\\acceptance.json": "2f57372772c7a909f71483436878f02fbcc4b05cc9bbce07aaec0aac86d3e2f1",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_actual_s0_a3\\trace2.txt": "000f7f466713ac6f020ab468be3b1f4c20553a68451dd3713e738d2adae86785",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_core.sv": "a55839cc223ea88a859641686f409ef413c3be064463a11eef0915c9255e1bd7",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\timing.sv": "3e4700e10943509a9d36bfa426e029457e782af893637684902053a4a4203769",
+  "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\golden12_e2_a0\\activity.tcl": "c235ba34e40e470d642866b1170db2e6d41cffe1a337d808ddcd02627a0c28cf"
+}

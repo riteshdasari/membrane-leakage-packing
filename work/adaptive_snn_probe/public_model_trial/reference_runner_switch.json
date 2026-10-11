@@ -1,0 +1,8 @@
+{
+  "unmodified_control_retained": true,
+  "action": "stop_owned_reference_runner_for_faster_verified_retry",
+  "faster_retry": "8 threads, batch4, pilot logits bit-identical",
+  "process_id": 13540,
+  "script": "public_model_trial/run_reference.py",
+  "launcher_id": 26456
+}

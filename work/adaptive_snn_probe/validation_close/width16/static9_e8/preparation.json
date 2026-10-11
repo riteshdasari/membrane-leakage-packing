@@ -1,0 +1,48 @@
+{
+  "status": "software_proof_and_native_preparation_pass_uncompiled_unrouted",
+  "B": 16,
+  "legal_state_domain_bits": 9,
+  "engine": 8,
+  "signed9_scalar_cases": 131584,
+  "scalar_mismatches": 0,
+  "reused_pair_exhaustive_cases": 67371008,
+  "fixture_FF": 94,
+  "launch_FF": 55,
+  "capture_FF": 39,
+  "expected_DSP": 1,
+  "native_operations": 271866,
+  "native_expected_requests_by_index": [
+    140272,
+    140272
+  ],
+  "native_engine_indices": [
+    5,
+    8
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_static9_ablation.py": "207af9c87a327cf4584bfd6435f2662954291a6aa282e8a7e60c3679333f73ff",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\leak_core16.sv": "0b3fa7efe359916898202542be2efda84dbc6330583c885932f687b69028fe20",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\timing16.sv": "89198b1eaa6889cc19014fd28aa2d88ac25664d8bdb50ad436a3194eeb4b5be1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route16.tcl": "ec63d6422489b4fe9c83c69a2bb7d25dc10a3ea0a9f6d1777cff7670b7c29caa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\tb_native16.sv": "1d0e6fee02d8ac452c55874a804ec7edd21471d092101d46758b4741ce808912",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_algebra.json": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\check_stage3_algebra.py": "6e135f1aa691e20e2cac433b5940836be79213ef26306e150e3a8667c2a0618f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\plan.json": "107804d3e6c96ec3fb3559ceac7880b359bd1fcbdb675f09308040d86c01330d"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\leak_core_static9.sv": "80265330ec464f45d30ab7ef8e99d729f8660779e42f9d36011cc59870c5753a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\timing_static9.sv": "dbc78ee0426e80957eeb35ee0d29cf7034d65c374693aa771467e85c82d859ff",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\route_static9.tcl": "cbf0e76828d6eb5138764583ea7b8a772f87e1ce62bf016cdcf78de194b15fc9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\tb_static9.sv": "4e7545111bdefc493383edeb03bee2833b2f8ec669ea3278a75925ae31831a91",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\narrow_stim.txt": "a58ca86f8ccfc6404c3284a59c44ead66acefb0faab667448de8bae1fc623aea",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\narrow_expected.npz": "d516fc06393ed37fe78e02cd0c53133e89ca58df913a085a3dd6ebc3ba38a134"
+  },
+  "elapsed_seconds": 1.639999999999418,
+  "interpretation": "E5 vsE8 resources measure combinedactualrangeadmission andfull16support cost, notliteralcontroller-only area because synthesis maymergeoptimizations.",
+  "compile_options": {
+    "native": "xvlog -sv -d STALL=0|1 -d CAPTURE=0|1 ../leak_core16.sv leak_core_static9.sv leak_dsp.sv tb_static9.sv; xelab -mt off -debug typical -L unisims_ver tb_sequential_static9 glbl",
+    "route": "vivado -source route_static9.tcl -tclargs top_sequential_leak_static9_e8 12 HASH fresh NEW_ATTEMPT"
+  }
+}

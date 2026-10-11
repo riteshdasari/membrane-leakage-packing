@@ -1,0 +1,41 @@
+{
+  "status": "bounded_checks_completed_three_original_methods_and_precise_simulator_cause_unresolved",
+  "generated_utc": "2026-10-11T04:47:57.336106+00:00",
+  "draft": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_paper_draft.tex",
+  "draft_sha256": "e3bc0a6afd4fa108b3eca9d00a447334617eb200e992a58e36366b66f40f7e32",
+  "built_in_latex_compilation": "success observed after the last source edit; source unchanged since compilation",
+  "independent_prior_work_wording_review": "pass; configuration/runtime correction distinction, citations and three original gaps checked; not a second reading of browser full text",
+  "fresh_closure": {
+    "UDP_method_inspected": true,
+    "remaining_originals": [
+      "McKeown2008",
+      "Ou2024",
+      "Cui2024"
+    ],
+    "signed16_settled_wrong_max_age_ns": 24.888,
+    "original_LUT_precise_cause_resolved": false,
+    "original_LUT_energy_accepted": false
+  },
+  "original_E2_full_replay_and_energy_accepted": false,
+  "accepted_comparison_count": 12,
+  "attempted_original_comparison_count": 14,
+  "model_reexecution_this_continuation": false,
+  "accepted_model_evidence_preserved": [
+    "GLIF ResNet18 CIFAR10 full10000 scalar integer plus64-image packed feedback",
+    "OTTT VGG11 CIFAR10 full10000 actual packed feedback",
+    "BNTT VGG11 TinyImageNet thirty-step held-out64-image packed feedback"
+  ],
+  "paper_position": "Exact adaptive membrane-leakage primitive and measured resource/rate/estimated-energy trade-offs at fixed signed16 precision.",
+  "first_ever_established": false,
+  "strong_ISCAS_readiness_established": false,
+  "unresolved_inputs": [
+    "Legitimate original Ou2024, Cui2024 and McKeown2008 full methods.",
+    "Simulator pending-event/cancellation provenance or equivalent authoritative resolution for the retained timed CARRY4 discrepancy."
+  ],
+  "further_strong_baseline_limit": "GLIF two-constant-per-channel CSD/bank hardware is unmeasured; this limits model-specific superiority.",
+  "evidence_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_paper_draft.tex": "e3bc0a6afd4fa108b3eca9d00a447334617eb200e992a58e36366b66f40f7e32",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\finish_pending_closure_v1.py": "87547b6028d1f44d3f0872787ca459aaf1da49144c2585dc1fa699c7e3186af7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\manuscript_scope_audit_v4.json": "f4f6d143d82dc6c1a6c1b1d09ca442942b3f5a16e82aad4de2d7af10538bf93e"
+  }
+}

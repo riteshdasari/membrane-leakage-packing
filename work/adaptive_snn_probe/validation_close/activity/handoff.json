@@ -1,0 +1,47 @@
+{
+  "status": "pass_ready_for_native_and_SDF_activity_replay",
+  "selected_directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2",
+  "selection": "Predeclared random-stratified method, fixed seed417839; midpoint capture retained as aliasing diagnostic",
+  "expected_issue_counts_by_engine": [
+    141985,
+    140465,
+    131328,
+    131328,
+    262528,
+    141985
+  ],
+  "scalar_operations": 262528,
+  "windows": 2176,
+  "all64_logits_equal_integer_reference": true,
+  "exact_post_sample_outputs_checked": true,
+  "distribution_gate_pass": true,
+  "full_feedback_updates": 159383552,
+  "native_driver_compatibility": {
+    "max_operands400000": true,
+    "max_cycles1000000": true,
+    "first_accept3": true,
+    "expected_unstalled_min_max_latency2": true,
+    "expected_global_trace_rows": 262533
+  },
+  "scope": "Bounded actual64-image GLIF arithmetic stream after common zero filter; not complete10000-energy, vanilla LIF, board measurement, or full neuron-update energy",
+  "versions": {
+    "python": "3.12.13 (main, Mar 24 2026, 22:57:53) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.2",
+    "torch": "2.14.0+cpu",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "executable": "C:\\Users\\Ritesh\\rn_dps\\.venv\\Scripts\\python.exe",
+    "inference_threads": 3,
+    "interop_threads": 1
+  },
+  "files_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\plan.json": "d6f2024c5b8191a7f5930a99ea2e39dd334c25813e8eaa9dcec6971c61f07304",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\results.json": "ff3ec141b2140b06f5a090d37cadba23dbf62ef6aef2360e573a2ddd1cf6c013",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\acceptance.json": "c25208b11d9ba1aa1853062761b8b69d2a97e8bef920ea7bac08fffdb6d811e2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\representativeness_acceptance.json": "3a8993e28a4ff0254f40d24b94306e5293eb4eb06df5a4e71891eac4bcfc121a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\representative_actual_frames.txt": "e27099fb548813d67c2ff6a9cde7a06123f91d5da00cea9ab39a2b4bfe141796",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\representative_stim.txt": "d2633a6fdba08ac4c4de956d38817dce2a15a74753fd8c50b7ba607cf8bd4db3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\activity_operands.npz": "7102ee38f45684410ec2c2531a4692684571974d404f5ffbe91803d6880c74d0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\activity_histograms.npz": "24a004dd6c397d122d3fe729147230ac69711ef992e50bed6c71f04019e68823"
+  },
+  "handoff_source_sha256": "93a739dfbfe7ab396bd785883cd5ca2994cdabb0d1d44977357ef14a3aac4083"
+}

@@ -1,0 +1,166 @@
+{
+  "review_utc": "2026-10-11T04:59:14.689304+00:00",
+  "review_scope": "Independent submission/evidence readiness review of a focused primitive paper; no model/vendor execution, draft edits, process control, or full hash-audit reproduction.",
+  "recommendation": "Proceed with a defensible scoped submission after document finishing; acceptance/strong-publication likelihood is not established.",
+  "one_integrated_candidate_contribution": "Exact rounded leakage decoding with actual-membrane signed9 pair admission and signed16 singleton fallback, at fixed stored precision and common runtime coefficient domain.",
+  "generic_first_ever_required_for_submission": false,
+  "technical_evidence_for_bounded_paper": "sufficient to prepare a defensible submission",
+  "current_format_ready": false,
+  "format_snapshot": {
+    "IEEEtran_present": false,
+    "article_class_present": true,
+    "placeholder_authors": true,
+    "page_count_measured_this_review": false,
+    "fonts_size_visual_layout_checked_this_review": false,
+    "figure_environment_count": 0
+  },
+  "scope_audit_v4_draft_matches_snapshot": true,
+  "scope_audit_v4_status": "pass_final_manuscript_scope_audit_with_explicit_failed_controls_and_limits",
+  "scope_audit_v4_bound_evidence_count": 1683,
+  "selected_routes": {
+    "1": {
+      "status": "pass",
+      "core": {
+        "LUT": 202,
+        "FF": 79,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 71
+      },
+      "WNS_ns": 3.437,
+      "WHS_ns": 0.13,
+      "clock_period_ns": 12,
+      "latency_advancing_edges": 2
+    },
+    "3": {
+      "status": "pass",
+      "core": {
+        "LUT": 35,
+        "FF": 56,
+        "DSP": 2,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 19
+      },
+      "WNS_ns": 6.052,
+      "WHS_ns": 0.103,
+      "clock_period_ns": 12,
+      "latency_advancing_edges": 2
+    },
+    "4": {
+      "status": "pass",
+      "core": {
+        "LUT": 13,
+        "FF": 29,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 10
+      },
+      "WNS_ns": 6.041,
+      "WHS_ns": 0.159,
+      "clock_period_ns": 12,
+      "latency_advancing_edges": 2
+    },
+    "5": {
+      "status": "pass",
+      "core": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "WNS_ns": 6.054,
+      "WHS_ns": 0.129,
+      "clock_period_ns": 12,
+      "latency_advancing_edges": 2
+    },
+    "6": {
+      "status": "pass",
+      "core": {
+        "LUT": 35,
+        "FF": 70,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 23
+      },
+      "WNS_ns": 6.041,
+      "WHS_ns": 0.155,
+      "clock_period_ns": 12,
+      "latency_advancing_edges": 2
+    }
+  },
+  "E2_failure_fatal_to_E7_comparison": false,
+  "E2_energy_accepted": false,
+  "E7_independently_accepted": true,
+  "primary_required_finishing": [
+    "specific contribution/ancestry claim",
+    "IEEEtran conference format, authors, <=4 technical pages",
+    "datapath/admission figure and compact proof",
+    "accepted-only results with exclusions",
+    "complete metadata and reproducibility entry point",
+    "compile/render/PDF format verification"
+  ],
+  "highest_value_further_science": {
+    "GLIF_two_constant_bank": "Unmeasured; required for checkpoint-specialized superiority, not to establish the declared general runtime-coefficient circuit comparison.",
+    "BNTT_beta253_hardware": "Unmeasured; required for BNTT hardware superiority."
+  },
+  "optional_for_current_scope": [
+    "FMAX sweep",
+    "multiple route seeds",
+    "additional energy captures",
+    "integrated source queue",
+    "board energy",
+    "full-neuron latency",
+    "AdEx"
+  ],
+  "unsupported_claims": [
+    "universal benefit",
+    "burst-latency improvement",
+    "complete-neuron speedup",
+    "board energy",
+    "packing accuracy gain over exact baselines",
+    "AdEx validation",
+    "generic first-ever value packing"
+  ],
+  "official_requirements": {
+    "author_url": "https://epapers2.org/iscas2027/ESR/authorinfo1.php",
+    "template_url": "https://epapers2.org/iscas2027/ESR/samples.php",
+    "scope_url": "https://2027.ieee-iscas.org/call-for-papers",
+    "submission_deadline_portal": "2026-10-13 23:59 UTC-0500",
+    "submission_deadline_UTC": "2026-10-14 04:59 UTC",
+    "submission_deadline_IST": "2026-10-14 10:29 IST",
+    "technical_pages_max": 4,
+    "optional_references_only_page": 5,
+    "authors_required": true,
+    "template": "IEEEtran conference",
+    "PDF_max_MB": 5,
+    "embedded_fonts": true,
+    "avoid_Type3": true,
+    "notification_dates_conflict_between_CFP_and_portal": true
+  },
+  "evidence_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_paper_draft.tex": "e3bc0a6afd4fa108b3eca9d00a447334617eb200e992a58e36366b66f40f7e32",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_pending_closure_20261011.md": "7643574111cbde471241a635225b14c8c72ad51a11e732452e6ab13b994308da",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_pending_closure_20261011.json": "5b3e5755e6817600c3b3807461959f4de1370a6478e488846d21239c0f1ac6cb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\manuscript_scope_audit_v4.json": "f4f6d143d82dc6c1a6c1b1d09ca442942b3f5a16e82aad4de2d7af10538bf93e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\manuscript_scope_audit_v4.md": "15d5852b1e2fc36d92bbac5c86bbc38e0822c6dcbb1d7c4ad40255ff9cc80676",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\final_contribution_sanity_review_v1.json": "8f890a1ade40a9413b25f927fadbae55a05bead32697fc049c03dab4bee1e100",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\glif_scalar_tradeoff_v2.json": "9a6ce259da7c9c5864401cfee447d3132b225e6e9cdf3b9e5e98fb8e182956a8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\glif_energy_explanation_v2.json": "c3489014b1a6661e24e030a6ec5b709541282132d0233dda2fa311b1f569bcce",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\selected_evidence_partitioned_all_a0.json": "56435dfb827096f0227dc64d6c2a626728f200f0ff3c10b7a557e311b7ba7a07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\closure_profiled_capture_v2_a0.json": "9a174a4acc606e97f366231bdaee05603ab65ac220e04b7ddfe58db355052623",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_public_model_check.summary.json": "bdd536e4a03ac7f21693ff29be99b746194892a3b22c20bcf07d0c9ae6b72eb1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\submission_readiness_20261011.md": "4a9c87c98e20590a9b196d6b3c4381d9a3df7665bff487335974d82a9df45051",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e3_a0\\hardware.json": "926efc7a9c829c900ae50b8052e908d92dbf718cedfc1bd350201f2045730567",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e4_a0\\hardware.json": "a1998ec14d20073e437bc8c0d60322a507d9d681202426ee73f6aa067be0fea3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e6_a0\\hardware.json": "904b63b53aebb0c164c79db53ea07d691dab3f9203a0ae7abd9a918ab3f44c6c"
+  }
+}

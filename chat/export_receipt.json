@@ -1,0 +1,20 @@
+{
+  "status": "exported_user_facing_conversation",
+  "messages": 715,
+  "by_role": {
+    "user": 85,
+    "assistant": 630
+  },
+  "source_sessions": {
+    "rollout-2026-10-08T11-23-29-01a11a12-e81a-7153-962a-08ee9cb1c78b.jsonl": "5d23b299dfdef3e74c0078487cfe326f89efeb0a10f184163a693f220659d098",
+    "rollout-2026-10-09T00-28-51-01a11a12-e81a-7153-962a-08ee9cb1c78b_01a11ce1-ee06-7020-a67a-7467a9123d67.jsonl": "5d4f09269f8e0982c83fb4dc89a818d679312e8d241f84c33d80514d93229faf"
+  },
+  "excluded": [
+    "tool outputs",
+    "reasoning",
+    "system/developer text",
+    "subagent messages",
+    "automatically injected environment/page-only user records"
+  ],
+  "share_snapshot": "https://chatgpt.com/s/cx_6acb1c46e7688191b3cd0aa437cddd1c"
+}

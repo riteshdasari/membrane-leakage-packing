@@ -1,0 +1,278 @@
+{
+  "status": "pass",
+  "engine": 0,
+  "design_top": "top_guard_add_frontier_e0",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\power_e0_a0",
+  "auditor_sha256": "b2fe3b92dc82e33eab44d84423d7a0b03cd009ef48f3c7455bf127259187dd0a",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 845,
+  "physical_activity_source_counts": {
+    "S": 1668,
+    "C": 5,
+    "D": 34
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 1586,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 0,
+    "design_top": "top_guard_add_frontier_e0",
+    "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\replay_e0_a1",
+    "auditor_sha256": "b2fe3b92dc82e33eab44d84423d7a0b03cd009ef48f3c7455bf127259187dd0a",
+    "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+    "replay_check_sha256": "eaf1d6dd1ecfce992fea2deaaa50c222c6b8fa7d9fa10b71a3e392ed301da5a0",
+    "duration_ps": 884748000,
+    "scalar_updates": 635904,
+    "requests": 110592,
+    "retirements": 110592,
+    "clock_transitions": 294916,
+    "service_clocks": 147456,
+    "raw_unknown_time_records": 1586,
+    "scope": "Exact trace/interval/SDF/SAIF checks; raw internal unknowns need separate physical-net audit"
+  },
+  "critical_dsp_activity": {
+    "fixture/core/frozen_six.reference_core/d/d": {
+      "CLK": {
+        "fixture/core/frozen_six.reference_core/d/clk": {
+          "static_probability": 0.5,
+          "signal_rate_Mtransitions_per_s": 333.333,
+          "toggle_rate_percent": 200.0,
+          "source": "C"
+        }
+      },
+      "CEA2": {
+        "fixture/core/frozen_six.reference_core/d/CEA20": {
+          "static_probability": 0.74999,
+          "signal_rate_Mtransitions_per_s": 20.8331,
+          "toggle_rate_percent": 12.4998,
+          "source": "S"
+        }
+      },
+      "CEB2": {
+        "fixture/core/frozen_six.reference_core/d/CEA20": {
+          "static_probability": 0.74999,
+          "signal_rate_Mtransitions_per_s": 20.8331,
+          "toggle_rate_percent": 12.4998,
+          "source": "S"
+        }
+      },
+      "CEC": {
+        "fixture/core/frozen_six.reference_core/d/CEA20": {
+          "static_probability": 0.74999,
+          "signal_rate_Mtransitions_per_s": 20.8331,
+          "toggle_rate_percent": 12.4998,
+          "source": "S"
+        }
+      },
+      "CEP": {
+        "fixture/core/frozen_six.reference_core/d/CEP0": {
+          "static_probability": 0.74999,
+          "signal_rate_Mtransitions_per_s": 20.8331,
+          "toggle_rate_percent": 12.4998,
+          "source": "S"
+        }
+      }
+    }
+  },
+  "settled_constant_ffs": {
+    "fixture/sink_data_reg[72]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[73]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[74]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[75]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[76]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[77]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[78]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[79]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[80]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[81]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[82]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[83]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[84]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[85]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[86]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[87]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[88]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[89]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[90]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[91]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[92]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[93]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[94]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_data_reg[95]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_out_count_reg[3]": {
+      "value": 0,
+      "primitive": "FDRE"
+    },
+    "fixture/sink_take_reg[3]": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.017758,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8088799999999998e-06,
+  "dynamic_energy_J": 1.5711354984e-05,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 24.70711771588164,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.003908059962258454,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.017758",
+      "iccq": "0.014842",
+      "power": "0.032600"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.536999"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 6,
+  "fixture_FF": 290,
+  "power_xpe_sha256": "d7ee5131af0effb476b816e1895167353b175eadf5ea128db9a9e83675fdc761",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\route_e0_a0\\hardware.json",
+  "routed_hardware_sha256": "cd3c3667fdea722421faef5b49b394193c1754aa02713284c99453a71d4faf12",
+  "core_resources": {
+    "LUT": 45,
+    "FF": 262,
+    "DSP": 1,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 73
+  },
+  "WNS_ns": 2.025,
+  "WHS_ns": 0.102,
+  "scope": "Vendor estimated dynamic energy of complete common 290-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error"
+}

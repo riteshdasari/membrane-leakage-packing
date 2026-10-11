@@ -1,0 +1,17 @@
+{
+  "candidate": "Two signed9 leaks with exact precompensated carry, otherwise one signed12 leak",
+  "operation": "ceil(beta*U/256)",
+  "full_U_signed_bits": 12,
+  "narrow_U_signed_bits": 9,
+  "coefficient_contract": "integer0..256, unsigned9 Q8; packed branch requires64..256 and equal coefficients",
+  "admission": "original ordered prefix; take2 only when both membranes fit signed9 and coefficients match; otherwise take1",
+  "benchmark": "first64 original CIFAR10 images, same unit256 and integer reference as accepted stage2; no retuning",
+  "width_scope": "signed12 is a declared kernel caller domain. All old/new states and currents across stage2's full test were observed to fit. This is not a formal all-image range certificate.",
+  "zero_bypass": "grant identical stable bypass of U==0 or beta==0 to every policy; report filtered arithmetic issues separately from whole neuron-update latency",
+  "controls": ["fixed_one_scalar_DSP", "fixed_two_scalar_DSPs", "fixed_two_independent_LUT_multipliers", "fixed_two_low8_residues_DSP_with_full_high_part_LUT_products", "postcorrected_packed9_reference"],
+  "postcorrected_reference": "same membrane9 admission, but use a modulo2 reference to recover spill after the DSP; supports all beta0..256 in packed branch",
+  "exactness": "exhaustive signed9 pair algebra for beta64..256; exhaustive signed12 scalar algebra for beta0..256; packed results fed back before threshold/reset on all first64 inference updates",
+  "bursts": "synthetic narrow/wide runs at unchanged operation, with all unfavorable burst results retained; no altered model dynamics",
+  "RTL_gate": "Proceed only if exactness passes and actual ordered traces show a plausible resource/service frontier. Report all controls. A lower issue count than scalar1 alone is insufficient to assert an overall win.",
+  "claims_excluded": ["full accelerator speedup", "board energy", "AdEx implementation", "floating model bit-exactness", "novelty of generic packing or exact spill tracking"]
+}

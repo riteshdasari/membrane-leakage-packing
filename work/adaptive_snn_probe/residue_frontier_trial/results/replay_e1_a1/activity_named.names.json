@@ -1,0 +1,929 @@
+{
+  "status": "name-only repair; annotation audit still required",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\replay_e1_a1\\activity.saif",
+  "source_sha256": "1d150d18b86e0bc8b95fc6b8201fcee291bdb2b5fa845679506c5fa4ba401427",
+  "target": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\results\\replay_e1_a1\\activity_named.saif",
+  "target_sha256": "1e0556cdc3817f14cc85a782d2acb36e37e68416a7bf0c71003a53e3887a17f1",
+  "script_sha256": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+  "changed_net_tokens": 183,
+  "changes": [
+    {
+      "line": 1005,
+      "old": "\\\\\\<const0\\>\\",
+      "new": "\\<const0\\>"
+    },
+    {
+      "line": 1011,
+      "old": "\\\\eight_window\\.accept\\",
+      "new": "eight_window\\.accept"
+    },
+    {
+      "line": 1166,
+      "old": "\\\\eight_window\\.residue_eight\\.residue_u00\\",
+      "new": "eight_window\\.residue_eight\\.residue_u00"
+    },
+    {
+      "line": 1215,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[0\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1216,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[10\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[10\\]"
+    },
+    {
+      "line": 1217,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[11\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[11\\]"
+    },
+    {
+      "line": 1218,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[12\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[12\\]"
+    },
+    {
+      "line": 1219,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[13\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[13\\]"
+    },
+    {
+      "line": 1220,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[14\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[14\\]"
+    },
+    {
+      "line": 1221,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[15\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[15\\]"
+    },
+    {
+      "line": 1222,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[16\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[16\\]"
+    },
+    {
+      "line": 1223,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[17\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[17\\]"
+    },
+    {
+      "line": 1224,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[18\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[18\\]"
+    },
+    {
+      "line": 1225,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[19\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[19\\]"
+    },
+    {
+      "line": 1226,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[1\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1227,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[20\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[20\\]"
+    },
+    {
+      "line": 1228,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[21\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[21\\]"
+    },
+    {
+      "line": 1229,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[22\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[22\\]"
+    },
+    {
+      "line": 1230,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[23\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[23\\]"
+    },
+    {
+      "line": 1231,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[24\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[24\\]"
+    },
+    {
+      "line": 1232,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[25\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[25\\]"
+    },
+    {
+      "line": 1233,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[26\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[26\\]"
+    },
+    {
+      "line": 1234,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[27\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[27\\]"
+    },
+    {
+      "line": 1235,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[28\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[28\\]"
+    },
+    {
+      "line": 1236,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[29\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[29\\]"
+    },
+    {
+      "line": 1237,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[2\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1238,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[30\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[30\\]"
+    },
+    {
+      "line": 1239,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[31\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[31\\]"
+    },
+    {
+      "line": 1240,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[32\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[32\\]"
+    },
+    {
+      "line": 1241,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[33\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[33\\]"
+    },
+    {
+      "line": 1242,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[34\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[34\\]"
+    },
+    {
+      "line": 1243,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[35\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[35\\]"
+    },
+    {
+      "line": 1244,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[36\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[36\\]"
+    },
+    {
+      "line": 1245,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[37\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[37\\]"
+    },
+    {
+      "line": 1246,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[38\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[38\\]"
+    },
+    {
+      "line": 1247,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[39\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[39\\]"
+    },
+    {
+      "line": 1248,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[3\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1249,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[40\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[40\\]"
+    },
+    {
+      "line": 1250,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[41\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[41\\]"
+    },
+    {
+      "line": 1251,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[42\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[42\\]"
+    },
+    {
+      "line": 1252,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[43\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[43\\]"
+    },
+    {
+      "line": 1253,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[44\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[44\\]"
+    },
+    {
+      "line": 1254,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[45\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[45\\]"
+    },
+    {
+      "line": 1255,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[46\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[46\\]"
+    },
+    {
+      "line": 1256,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[47\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[47\\]"
+    },
+    {
+      "line": 1257,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[4\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1258,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[5\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1259,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[6\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1260,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[7\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1261,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[8\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1262,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[9\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u0_reg_n_0_\\[9\\]"
+    },
+    {
+      "line": 1264,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[0\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[0\\]"
+    },
+    {
+      "line": 1265,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[10\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[10\\]"
+    },
+    {
+      "line": 1266,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[11\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[11\\]"
+    },
+    {
+      "line": 1267,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[12\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[12\\]"
+    },
+    {
+      "line": 1268,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[13\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[13\\]"
+    },
+    {
+      "line": 1269,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[14\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[14\\]"
+    },
+    {
+      "line": 1270,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[15\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[15\\]"
+    },
+    {
+      "line": 1271,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[16\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[16\\]"
+    },
+    {
+      "line": 1272,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[17\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[17\\]"
+    },
+    {
+      "line": 1273,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[18\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[18\\]"
+    },
+    {
+      "line": 1274,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[19\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[19\\]"
+    },
+    {
+      "line": 1275,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[1\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[1\\]"
+    },
+    {
+      "line": 1276,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[20\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[20\\]"
+    },
+    {
+      "line": 1277,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[21\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[21\\]"
+    },
+    {
+      "line": 1278,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[22\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[22\\]"
+    },
+    {
+      "line": 1279,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[23\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[23\\]"
+    },
+    {
+      "line": 1280,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[24\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[24\\]"
+    },
+    {
+      "line": 1281,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[25\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[25\\]"
+    },
+    {
+      "line": 1282,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[26\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[26\\]"
+    },
+    {
+      "line": 1283,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[27\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[27\\]"
+    },
+    {
+      "line": 1284,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[28\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[28\\]"
+    },
+    {
+      "line": 1285,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[29\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[29\\]"
+    },
+    {
+      "line": 1286,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[2\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[2\\]"
+    },
+    {
+      "line": 1287,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[30\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[30\\]"
+    },
+    {
+      "line": 1288,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[31\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[31\\]"
+    },
+    {
+      "line": 1289,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[32\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[32\\]"
+    },
+    {
+      "line": 1290,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[33\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[33\\]"
+    },
+    {
+      "line": 1291,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[34\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[34\\]"
+    },
+    {
+      "line": 1292,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[35\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[35\\]"
+    },
+    {
+      "line": 1293,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[36\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[36\\]"
+    },
+    {
+      "line": 1294,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[37\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[37\\]"
+    },
+    {
+      "line": 1295,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[38\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[38\\]"
+    },
+    {
+      "line": 1296,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[39\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[39\\]"
+    },
+    {
+      "line": 1297,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[3\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[3\\]"
+    },
+    {
+      "line": 1298,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[40\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[40\\]"
+    },
+    {
+      "line": 1299,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[41\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[41\\]"
+    },
+    {
+      "line": 1300,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[42\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[42\\]"
+    },
+    {
+      "line": 1301,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[43\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[43\\]"
+    },
+    {
+      "line": 1302,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[44\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[44\\]"
+    },
+    {
+      "line": 1303,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[45\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[45\\]"
+    },
+    {
+      "line": 1304,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[46\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[46\\]"
+    },
+    {
+      "line": 1305,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[47\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[47\\]"
+    },
+    {
+      "line": 1306,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[4\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[4\\]"
+    },
+    {
+      "line": 1307,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[5\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[5\\]"
+    },
+    {
+      "line": 1308,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[6\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[6\\]"
+    },
+    {
+      "line": 1309,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[7\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[7\\]"
+    },
+    {
+      "line": 1310,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[8\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[8\\]"
+    },
+    {
+      "line": 1311,
+      "old": "\\\\eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[9\\]\\",
+      "new": "eight_window\\.residue_eight\\.retained_metadata\\.high_u1_reg_n_0_\\[9\\]"
+    },
+    {
+      "line": 1434,
+      "old": "\\\\eight_window\\.result_data\\[11\\]_i_1_n_0\\",
+      "new": "eight_window\\.result_data\\[11\\]_i_1_n_0"
+    },
+    {
+      "line": 1435,
+      "old": "\\\\eight_window\\.result_data\\[11\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[11\\]_i_3_n_0"
+    },
+    {
+      "line": 1436,
+      "old": "\\\\eight_window\\.result_data\\[11\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[11\\]_i_4_n_0"
+    },
+    {
+      "line": 1437,
+      "old": "\\\\eight_window\\.result_data\\[20\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[20\\]_i_3_n_0"
+    },
+    {
+      "line": 1438,
+      "old": "\\\\eight_window\\.result_data\\[20\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[20\\]_i_4_n_0"
+    },
+    {
+      "line": 1439,
+      "old": "\\\\eight_window\\.result_data\\[20\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[20\\]_i_5_n_0"
+    },
+    {
+      "line": 1440,
+      "old": "\\\\eight_window\\.result_data\\[20\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[20\\]_i_6_n_0"
+    },
+    {
+      "line": 1441,
+      "old": "\\\\eight_window\\.result_data\\[20\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[20\\]_i_7_n_0"
+    },
+    {
+      "line": 1442,
+      "old": "\\\\eight_window\\.result_data\\[23\\]_i_1_n_0\\",
+      "new": "eight_window\\.result_data\\[23\\]_i_1_n_0"
+    },
+    {
+      "line": 1443,
+      "old": "\\\\eight_window\\.result_data\\[23\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[23\\]_i_3_n_0"
+    },
+    {
+      "line": 1444,
+      "old": "\\\\eight_window\\.result_data\\[23\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[23\\]_i_4_n_0"
+    },
+    {
+      "line": 1445,
+      "old": "\\\\eight_window\\.result_data\\[32\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[32\\]_i_3_n_0"
+    },
+    {
+      "line": 1446,
+      "old": "\\\\eight_window\\.result_data\\[32\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[32\\]_i_4_n_0"
+    },
+    {
+      "line": 1447,
+      "old": "\\\\eight_window\\.result_data\\[32\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[32\\]_i_5_n_0"
+    },
+    {
+      "line": 1448,
+      "old": "\\\\eight_window\\.result_data\\[32\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[32\\]_i_6_n_0"
+    },
+    {
+      "line": 1449,
+      "old": "\\\\eight_window\\.result_data\\[32\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[32\\]_i_7_n_0"
+    },
+    {
+      "line": 1450,
+      "old": "\\\\eight_window\\.result_data\\[35\\]_i_1_n_0\\",
+      "new": "eight_window\\.result_data\\[35\\]_i_1_n_0"
+    },
+    {
+      "line": 1451,
+      "old": "\\\\eight_window\\.result_data\\[35\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[35\\]_i_3_n_0"
+    },
+    {
+      "line": 1452,
+      "old": "\\\\eight_window\\.result_data\\[35\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[35\\]_i_4_n_0"
+    },
+    {
+      "line": 1453,
+      "old": "\\\\eight_window\\.result_data\\[44\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[44\\]_i_3_n_0"
+    },
+    {
+      "line": 1454,
+      "old": "\\\\eight_window\\.result_data\\[44\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[44\\]_i_4_n_0"
+    },
+    {
+      "line": 1455,
+      "old": "\\\\eight_window\\.result_data\\[44\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[44\\]_i_5_n_0"
+    },
+    {
+      "line": 1456,
+      "old": "\\\\eight_window\\.result_data\\[44\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[44\\]_i_6_n_0"
+    },
+    {
+      "line": 1457,
+      "old": "\\\\eight_window\\.result_data\\[44\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[44\\]_i_7_n_0"
+    },
+    {
+      "line": 1458,
+      "old": "\\\\eight_window\\.result_data\\[47\\]_i_1_n_0\\",
+      "new": "eight_window\\.result_data\\[47\\]_i_1_n_0"
+    },
+    {
+      "line": 1459,
+      "old": "\\\\eight_window\\.result_data\\[47\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[47\\]_i_3_n_0"
+    },
+    {
+      "line": 1460,
+      "old": "\\\\eight_window\\.result_data\\[47\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[47\\]_i_4_n_0"
+    },
+    {
+      "line": 1461,
+      "old": "\\\\eight_window\\.result_data\\[56\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[56\\]_i_3_n_0"
+    },
+    {
+      "line": 1462,
+      "old": "\\\\eight_window\\.result_data\\[56\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[56\\]_i_4_n_0"
+    },
+    {
+      "line": 1463,
+      "old": "\\\\eight_window\\.result_data\\[56\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[56\\]_i_5_n_0"
+    },
+    {
+      "line": 1464,
+      "old": "\\\\eight_window\\.result_data\\[56\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[56\\]_i_6_n_0"
+    },
+    {
+      "line": 1465,
+      "old": "\\\\eight_window\\.result_data\\[56\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[56\\]_i_7_n_0"
+    },
+    {
+      "line": 1466,
+      "old": "\\\\eight_window\\.result_data\\[59\\]_i_1_n_0\\",
+      "new": "eight_window\\.result_data\\[59\\]_i_1_n_0"
+    },
+    {
+      "line": 1467,
+      "old": "\\\\eight_window\\.result_data\\[59\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[59\\]_i_3_n_0"
+    },
+    {
+      "line": 1468,
+      "old": "\\\\eight_window\\.result_data\\[59\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[59\\]_i_4_n_0"
+    },
+    {
+      "line": 1469,
+      "old": "\\\\eight_window\\.result_data\\[68\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[68\\]_i_3_n_0"
+    },
+    {
+      "line": 1470,
+      "old": "\\\\eight_window\\.result_data\\[68\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[68\\]_i_4_n_0"
+    },
+    {
+      "line": 1471,
+      "old": "\\\\eight_window\\.result_data\\[68\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[68\\]_i_5_n_0"
+    },
+    {
+      "line": 1472,
+      "old": "\\\\eight_window\\.result_data\\[68\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[68\\]_i_6_n_0"
+    },
+    {
+      "line": 1473,
+      "old": "\\\\eight_window\\.result_data\\[68\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[68\\]_i_7_n_0"
+    },
+    {
+      "line": 1474,
+      "old": "\\\\eight_window\\.result_data\\[71\\]_i_1_n_0\\",
+      "new": "eight_window\\.result_data\\[71\\]_i_1_n_0"
+    },
+    {
+      "line": 1475,
+      "old": "\\\\eight_window\\.result_data\\[71\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[71\\]_i_3_n_0"
+    },
+    {
+      "line": 1476,
+      "old": "\\\\eight_window\\.result_data\\[71\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[71\\]_i_4_n_0"
+    },
+    {
+      "line": 1477,
+      "old": "\\\\eight_window\\.result_data\\[80\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[80\\]_i_3_n_0"
+    },
+    {
+      "line": 1478,
+      "old": "\\\\eight_window\\.result_data\\[80\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[80\\]_i_4_n_0"
+    },
+    {
+      "line": 1479,
+      "old": "\\\\eight_window\\.result_data\\[80\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[80\\]_i_5_n_0"
+    },
+    {
+      "line": 1480,
+      "old": "\\\\eight_window\\.result_data\\[80\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[80\\]_i_6_n_0"
+    },
+    {
+      "line": 1481,
+      "old": "\\\\eight_window\\.result_data\\[80\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[80\\]_i_7_n_0"
+    },
+    {
+      "line": 1482,
+      "old": "\\\\eight_window\\.result_data\\[83\\]_i_1_n_0\\",
+      "new": "eight_window\\.result_data\\[83\\]_i_1_n_0"
+    },
+    {
+      "line": 1483,
+      "old": "\\\\eight_window\\.result_data\\[83\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[83\\]_i_3_n_0"
+    },
+    {
+      "line": 1484,
+      "old": "\\\\eight_window\\.result_data\\[83\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[83\\]_i_4_n_0"
+    },
+    {
+      "line": 1485,
+      "old": "\\\\eight_window\\.result_data\\[8\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[8\\]_i_3_n_0"
+    },
+    {
+      "line": 1486,
+      "old": "\\\\eight_window\\.result_data\\[8\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[8\\]_i_4_n_0"
+    },
+    {
+      "line": 1487,
+      "old": "\\\\eight_window\\.result_data\\[8\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[8\\]_i_5_n_0"
+    },
+    {
+      "line": 1488,
+      "old": "\\\\eight_window\\.result_data\\[8\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[8\\]_i_6_n_0"
+    },
+    {
+      "line": 1489,
+      "old": "\\\\eight_window\\.result_data\\[8\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[8\\]_i_7_n_0"
+    },
+    {
+      "line": 1490,
+      "old": "\\\\eight_window\\.result_data\\[92\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[92\\]_i_3_n_0"
+    },
+    {
+      "line": 1491,
+      "old": "\\\\eight_window\\.result_data\\[92\\]_i_4_n_0\\",
+      "new": "eight_window\\.result_data\\[92\\]_i_4_n_0"
+    },
+    {
+      "line": 1492,
+      "old": "\\\\eight_window\\.result_data\\[92\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[92\\]_i_5_n_0"
+    },
+    {
+      "line": 1493,
+      "old": "\\\\eight_window\\.result_data\\[92\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[92\\]_i_6_n_0"
+    },
+    {
+      "line": 1494,
+      "old": "\\\\eight_window\\.result_data\\[92\\]_i_7_n_0\\",
+      "new": "eight_window\\.result_data\\[92\\]_i_7_n_0"
+    },
+    {
+      "line": 1495,
+      "old": "\\\\eight_window\\.result_data\\[95\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data\\[95\\]_i_2_n_0"
+    },
+    {
+      "line": 1496,
+      "old": "\\\\eight_window\\.result_data\\[95\\]_i_3_n_0\\",
+      "new": "eight_window\\.result_data\\[95\\]_i_3_n_0"
+    },
+    {
+      "line": 1497,
+      "old": "\\\\eight_window\\.result_data\\[95\\]_i_5_n_0\\",
+      "new": "eight_window\\.result_data\\[95\\]_i_5_n_0"
+    },
+    {
+      "line": 1498,
+      "old": "\\\\eight_window\\.result_data\\[95\\]_i_6_n_0\\",
+      "new": "eight_window\\.result_data\\[95\\]_i_6_n_0"
+    },
+    {
+      "line": 1499,
+      "old": "\\\\eight_window\\.result_data_reg\\[11\\]_i_2_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[11\\]_i_2_n_1"
+    },
+    {
+      "line": 1500,
+      "old": "\\\\eight_window\\.result_data_reg\\[20\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[20\\]_i_2_n_0"
+    },
+    {
+      "line": 1501,
+      "old": "\\\\eight_window\\.result_data_reg\\[23\\]_i_2_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[23\\]_i_2_n_1"
+    },
+    {
+      "line": 1502,
+      "old": "\\\\eight_window\\.result_data_reg\\[32\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[32\\]_i_2_n_0"
+    },
+    {
+      "line": 1503,
+      "old": "\\\\eight_window\\.result_data_reg\\[35\\]_i_2_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[35\\]_i_2_n_1"
+    },
+    {
+      "line": 1504,
+      "old": "\\\\eight_window\\.result_data_reg\\[44\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[44\\]_i_2_n_0"
+    },
+    {
+      "line": 1505,
+      "old": "\\\\eight_window\\.result_data_reg\\[47\\]_i_2_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[47\\]_i_2_n_1"
+    },
+    {
+      "line": 1506,
+      "old": "\\\\eight_window\\.result_data_reg\\[56\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[56\\]_i_2_n_0"
+    },
+    {
+      "line": 1507,
+      "old": "\\\\eight_window\\.result_data_reg\\[59\\]_i_2_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[59\\]_i_2_n_1"
+    },
+    {
+      "line": 1508,
+      "old": "\\\\eight_window\\.result_data_reg\\[68\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[68\\]_i_2_n_0"
+    },
+    {
+      "line": 1509,
+      "old": "\\\\eight_window\\.result_data_reg\\[71\\]_i_2_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[71\\]_i_2_n_1"
+    },
+    {
+      "line": 1510,
+      "old": "\\\\eight_window\\.result_data_reg\\[80\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[80\\]_i_2_n_0"
+    },
+    {
+      "line": 1511,
+      "old": "\\\\eight_window\\.result_data_reg\\[83\\]_i_2_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[83\\]_i_2_n_1"
+    },
+    {
+      "line": 1512,
+      "old": "\\\\eight_window\\.result_data_reg\\[8\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[8\\]_i_2_n_0"
+    },
+    {
+      "line": 1513,
+      "old": "\\\\eight_window\\.result_data_reg\\[92\\]_i_2_n_0\\",
+      "new": "eight_window\\.result_data_reg\\[92\\]_i_2_n_0"
+    },
+    {
+      "line": 1514,
+      "old": "\\\\eight_window\\.result_data_reg\\[95\\]_i_4_n_1\\",
+      "new": "eight_window\\.result_data_reg\\[95\\]_i_4_n_1"
+    },
+    {
+      "line": 1515,
+      "old": "\\\\eight_window\\.v0\\",
+      "new": "eight_window\\.v0"
+    },
+    {
+      "line": 1516,
+      "old": "\\\\eight_window\\.v1\\",
+      "new": "eight_window\\.v1"
+    },
+    {
+      "line": 1517,
+      "old": "\\\\eight_window\\.v2\\",
+      "new": "eight_window\\.v2"
+    }
+  ],
+  "ordered_numeric_records_unchanged": true,
+  "hierarchy_unchanged": true,
+  "duration_unchanged": true
+}

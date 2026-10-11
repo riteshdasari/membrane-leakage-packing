@@ -1,0 +1,80 @@
+{
+  "status": "bounded_results_audited",
+  "runs": {
+    "tiny_T30_n64_a0": {
+      "status": "pending_or_failed_attempt",
+      "result": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\tiny_T30_n64_a0\\results.json"
+    },
+    "tiny_T30_n64_a1": {
+      "status": "pending_or_failed_attempt",
+      "result": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\tiny_T30_n64_a1\\results.json"
+    },
+    "tiny_T30_n64_a2": {
+      "status": "passed",
+      "samples": 64,
+      "scope": "Bounded held-out subset; never full TinyImageNet accuracy",
+      "correct": {
+        "float": 42,
+        "integer": 41,
+        "packed": 41
+      },
+      "changed_integer_vs_float_predictions": 1,
+      "declared_integer_vs_packed": "Every state/spike directly equal; all logits bit equal; independent scalar leakage oracle on every update",
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "fixed16_hardware_domain_supported": true,
+      "old_signed16_exceptions": 0,
+      "stored_signed16_exceptions": 0,
+      "raw_updates": 1171783680,
+      "nonzero_updates": 1064644254,
+      "adaptive_issues": 676214768,
+      "fixed_two_lane_issues": 532325552,
+      "useful_nonzero_operations_per_adaptive_issue": 1.5744173365938674,
+      "adaptive_issue_overhead_vs_fixed_two_lane_fraction": 0.270303041924991,
+      "constant_specific_zero_DSP_control": "ceil(253U/256)=U\u2212floor(3U/256); form3U with shift/add and use arithmetic shift8 then subtract at sufficient width",
+      "result_sha256": "ce9c42b9072ba7f7cb231f4763dcc94039399580c2af708de2d82ceb7d8fbfe4",
+      "logits_sha256": "5603b85086dc2d1e4987f48c4c1075be0fd624ff46e4c253a6f6f6baf7a1ea8e"
+    },
+    "tiny_T30_probe1_a0": {
+      "status": "passed",
+      "samples": 1,
+      "scope": "Bounded held-out subset; never full TinyImageNet accuracy",
+      "correct": {
+        "float": 1,
+        "integer": 1,
+        "packed": 1
+      },
+      "changed_integer_vs_float_predictions": 0,
+      "declared_integer_vs_packed": "Every state/spike directly equal; all logits bit equal; independent scalar leakage oracle on every update",
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "fixed16_hardware_domain_supported": true,
+      "old_signed16_exceptions": 0,
+      "stored_signed16_exceptions": 0,
+      "raw_updates": 18309120,
+      "nonzero_updates": 16653192,
+      "adaptive_issues": 11047946,
+      "fixed_two_lane_issues": 8326648,
+      "useful_nonzero_operations_per_adaptive_issue": 1.5073563900475255,
+      "adaptive_issue_overhead_vs_fixed_two_lane_fraction": 0.3268179464293435,
+      "constant_specific_zero_DSP_control": "ceil(253U/256)=U\u2212floor(3U/256); form3U with shift/add and use arithmetic shift8 then subtract at sufficient width",
+      "result_sha256": "12123427174bf7006aaa99317c59e1b0fcc3f41fa3e3edc05f0a0a064324fb5e",
+      "logits_sha256": "bfb89c35e4c50533b8ce9c7887ec4975de0964ea77f0425e351a6bd905318d06"
+    }
+  },
+  "constant_control_proof": {
+    "status": "passed",
+    "coefficient": 253,
+    "domain": [
+      -32768,
+      32767
+    ],
+    "cases": 65536,
+    "mismatches": 0,
+    "equation": "ceil(253U/256)=U-floor(3U/256)",
+    "implementation": "3U=(U<<1)+U at signed18; arithmetic shift8 for floor; exact subtract",
+    "inference_performed": false
+  },
+  "auditor_sha256": "37ef87887070297b454ff70a08385ebc09123bad12642c2d6fd452fd351cdddc",
+  "no_fully_quantized_SNN_or_board_performance_claim": true
+}

@@ -1,0 +1,114 @@
+{
+  "seed": 0,
+  "layer": 0,
+  "neuron_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "images": 48,
+  "steps_per_image": 32,
+  "threshold": 17,
+  "shift": 3,
+  "hard_reset": false,
+  "certificate_low": -32,
+  "certificate_high": 43,
+  "current_prefix_min": -18,
+  "current_prefix_max": 27,
+  "rtl_sha256": "fface042fc6d0e693c1bb5ca88df3cd5d08a04cd41c9543b4d0485e576d7d911",
+  "rows": [
+    {
+      "engine": 0,
+      "wide_bits": 16,
+      "mismatches": 0,
+      "cycles": 18871,
+      "narrow_steps": 1536,
+      "wide_steps": 0,
+      "changes": 0
+    },
+    {
+      "engine": 1,
+      "wide_bits": 16,
+      "mismatches": 0,
+      "cycles": 36059,
+      "narrow_steps": 0,
+      "wide_steps": 1536,
+      "changes": 0
+    },
+    {
+      "engine": 2,
+      "wide_bits": 16,
+      "mismatches": 0,
+      "cycles": 18871,
+      "narrow_steps": 1536,
+      "wide_steps": 0,
+      "changes": 0
+    },
+    {
+      "engine": 3,
+      "wide_bits": 16,
+      "mismatches": 0,
+      "cycles": 18871,
+      "narrow_steps": 1536,
+      "wide_steps": 0,
+      "changes": 0
+    },
+    {
+      "engine": 0,
+      "wide_bits": 12,
+      "mismatches": 0,
+      "cycles": 18871,
+      "narrow_steps": 1536,
+      "wide_steps": 0,
+      "changes": 0
+    },
+    {
+      "engine": 1,
+      "wide_bits": 12,
+      "mismatches": 0,
+      "cycles": 36059,
+      "narrow_steps": 0,
+      "wide_steps": 1536,
+      "changes": 0
+    },
+    {
+      "engine": 0,
+      "wide_bits": 10,
+      "mismatches": 0,
+      "cycles": 18871,
+      "narrow_steps": 1536,
+      "wide_steps": 0,
+      "changes": 0
+    },
+    {
+      "engine": 1,
+      "wide_bits": 10,
+      "mismatches": 0,
+      "cycles": 36059,
+      "narrow_steps": 0,
+      "wide_steps": 1536,
+      "changes": 0
+    },
+    {
+      "engine": 2,
+      "wide_bits": 10,
+      "mismatches": 0,
+      "cycles": 18871,
+      "narrow_steps": 1536,
+      "wide_steps": 0,
+      "changes": 0
+    },
+    {
+      "engine": 3,
+      "wide_bits": 10,
+      "mismatches": 0,
+      "cycles": 18871,
+      "narrow_steps": 1536,
+      "wide_steps": 0,
+      "changes": 0
+    }
+  ]
+}

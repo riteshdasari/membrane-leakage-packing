@@ -1,0 +1,139 @@
+{
+  "status": "pass",
+  "engine": 7,
+  "design_top": "top_sequential_leak16_lutceil_e7",
+  "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7",
+  "auditor_sha256": "57d8ee7b1700dec06595ebb809ab383f831bf094f007e3efa8dd311eee0a9917",
+  "prior_auditor_sha256": "d4cc05920fb7a2beada60d125bc885b39ad9eefd1a6aac68bb26cc258aa9ddf2",
+  "matched_physical_design_nets": 919,
+  "physical_activity_source_counts": {
+    "S": 1105,
+    "C": 3,
+    "D": 5
+  },
+  "physical_activity_unknown_records": 0,
+  "raw_unknown_records": 1077,
+  "excluded_unknown_scope": "Only simulator internal/optimized aliases outside fully verified physical activity; inferred constants proved from primitive connectivity and ROI settling",
+  "native_interval_audit": {
+    "status": "pass",
+    "engine": 7,
+    "design_top": "top_sequential_leak16_lutceil_e7",
+    "duration_ps": 1575984000,
+    "scalar_updates": 262528,
+    "requests": 131328,
+    "retirements": 131328,
+    "clock_transitions": 262664,
+    "raw_unknown_time_records": 1077,
+    "scope": "Fixed16 actual source operands, signed9 pair metadata, golden fixture, exact routed/SDF replay and SAIF interval audit"
+  },
+  "critical_dsp_activity": {},
+  "settled_constant_ffs": {
+    "fixture/sink_narrow_mode_reg": {
+      "value": 0,
+      "primitive": "FDRE"
+    }
+  },
+  "dynamic_power_W": 0.020689,
+  "device_static_W": 0.0837162,
+  "dynamic_power_rounding_bound_W": 2.8103454999999995e-06,
+  "dynamic_energy_J": 3.2605532976e-05,
+  "estimated_dynamic_energy_pJ_per_scalar_update": 124.19830637493905,
+  "energy_rounding_bound_pJ_per_scalar_update": 0.016870808227968062,
+  "voltage_sources": [
+    {
+      "name": "Vccbram",
+      "voltage": "1.000000",
+      "icc": "0.000000",
+      "iccq": "0.000242",
+      "power": "0.000242"
+    },
+    {
+      "name": "Vccint",
+      "voltage": "1.000000",
+      "icc": "0.020689",
+      "iccq": "0.014842",
+      "power": "0.035531"
+    },
+    {
+      "name": "Vccaux",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.018129",
+      "power": "0.032632"
+    },
+    {
+      "name": "Vccadc",
+      "voltage": "1.800000",
+      "icc": "0.000000",
+      "iccq": "0.020000",
+      "power": "0.036000"
+    }
+  ],
+  "device_settings": {
+    "part": "xc7a100t",
+    "grade": "commercial",
+    "package": "csg324",
+    "speed": "-1",
+    "process": "typical",
+    "vid": "No"
+  },
+  "thermal_settings": {
+    "AMBIENT": {
+      "value": "24.523626"
+    },
+    "AIRFLOW": {
+      "value": "250.000000"
+    },
+    "HEATSINK": {
+      "value": "medium (Medium Profile)"
+    },
+    "BOARDSELECTION": {
+      "value": "medium (10\"x10\")"
+    },
+    "BOARDLAYERS": {
+      "value": "12to15 (12 to 15 Layers)"
+    },
+    "TSA": {
+      "value": "4.600000"
+    },
+    "TJB": {
+      "value": "5.700000"
+    },
+    "BOARDTEMP": {
+      "value": "25.0 (C)"
+    },
+    "USER_JUNCTION": {
+      "value": "25.0 (C)"
+    }
+  },
+  "clock_period_ns": 12,
+  "fixture_FF": 94,
+  "power_xpe_sha256": "9848043102db4e6783f1dee7da5eb6419a8094e71d88fec0be2063c18e02819e",
+  "routed_hardware_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+  "routed_hardware_sha256": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+  "core_resources": {
+    "LUT": 330,
+    "FF": 88,
+    "DSP": 0,
+    "RAMB18": 0,
+    "RAMB36": 0,
+    "occupied_slices": 113
+  },
+  "WNS_ns": 1.448,
+  "WHS_ns": 0.127,
+  "scope": "Vendor estimated dynamic energy of complete common 94-FF OOC fixture; not core-only energy, board energy or complete SNN-update energy",
+  "uncertainty_scope": "Rounding bound describes export serialization only; it does not bound vendor-model or physical measurement error",
+  "certified_export_audit": {
+    "status": "pass_exact_derived_export_reproduction",
+    "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\export12_glif_e7_profiled_all_a0_e7\\export_binding_certificate.json",
+    "export_binding_sha256": "e9fff42739050f316273ed785e3c84b74fef90994d570f9a38a601f2076ca4a2",
+    "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\export12_glif_e7_profiled_all_a0_e7\\sdf_structure_certificate.json",
+    "SDF_structure_certificate_sha256": "63841e89d3dc16e75fcee76ebacf1768fcdfd842e4bf625c9106b1750fb3983b",
+    "raw_SDF_sha256": "42b0bbe62ec7d0b1593b7615b41e7eba4cde1fd196a689ae3f1aabec5d78b787",
+    "derived_SDF_sha256": "0cea49f275bd3441c0d142a626da94d50373d771756cb8aebf5a704a12bf3a02",
+    "appended_closing_parentheses": 3,
+    "numerical_timing_changes": 0,
+    "annotation_path_string_changes": 1,
+    "causal_discrepancy_resolution_claimed": false
+  }
+}

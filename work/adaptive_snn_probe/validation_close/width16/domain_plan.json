@@ -1,0 +1,31 @@
+{
+  "status": "declared_before_checks",
+  "full_U_domain": [
+    -32768,
+    32767
+  ],
+  "coefficient_domain": [
+    0,
+    256
+  ],
+  "full_width_fixed_across_workloads": 16,
+  "membrane_unit": "unchanged256 in both trained models",
+  "pair_U_domain": [
+    -256,
+    255
+  ],
+  "arithmetic": "ceil(beta*U/256)",
+  "scalar_and_split_exhaustive_cases": 16842752,
+  "shift128_exhaustive_cases": 65536,
+  "original_narrow_pair_algebra": "reuse unchanged signed9 E5 arithmetic exhaustive67,371,008cases, and E0 subset50,593,792cases from frozenstage3",
+  "general_native": "all65536 signed16 scalar values with cycling beta; every signed9 firstlane and beta with deterministic secondlane; fullwidth boundary pairs for everybeta;2000random4operandgroups; unchanged actualOTTsample",
+  "shift_native": "all65536 signed16 values beta128, boundary/widebursts, unchanged actualOTTsample;7engines including shiftE6",
+  "sample_native": "unchanged OTTprofile16actualsample only,7engines; sample is coverage/stress notrepresentativeenergy",
+  "no_hardware_result_before_native_compile": true,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\check_and_prepare_stimuli.py": "f2b874f0eb5dba648f988b4672d979af44d392ff54956adcaa8e91f5819a36b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\preparation_v2.json": "becfde4b992cb54076d4e8468bdda7d9fc1ea37b59906bbec5a984fa9d8e8422",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_algebra.json": "5d59ce663ebae2df1a86f1d7304d391f25812ab5a3d1f4a2ff52b1076cdd95b3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\profile16_a0\\actual_operand_frames.txt": "226439adadccf3b4d3165b52b100c35cee7375976dff0d06377abcd58cafd119"
+  }
+}

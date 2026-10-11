@@ -1,0 +1,42 @@
+{
+  "name": "ou_um_thesis_author_target",
+  "url": "https://libdigital.um.edu.mo/um-theses/list/by-author?filter=Ou%2C%20Yao%20Zhong%2C",
+  "retrieved_utc": "2026-10-11T04:40:19.318401+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "http_status": 200,
+  "final_url": "https://libdigital.um.edu.mo/um-theses/list/by-author?filter=Ou%2C%20Yao%20Zhong%2C",
+  "content_type": "text/html; charset=UTF-8",
+  "response_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_um_thesis_author_target.response",
+  "sha256": "25c381ea9acd40d07b14bba1d04dc2ab60e581cd97fce82bafd8ac9d0e5abc9b",
+  "bytes": 9332,
+  "kind": "HTML or API response; not assumed full paper",
+  "links": [
+    "https://www.um.edu.mo/",
+    "https://library.um.edu.mo/",
+    "/",
+    "https://libdigital.um.edu.mo/home",
+    "https://libdigital.um.edu.mo/um-theses/author",
+    "https://libdigital.um.edu.mo/um-theses/list/by-author?filter=Ou%2C%20Yao%20Zhong%2C",
+    "https://libdigital.um.edu.mo/um-theses/faculty",
+    "https://libdigital.um.edu.mo/um-theses/author",
+    "https://libdigital.um.edu.mo/um-theses/supervisor",
+    "https://libdigital.um.edu.mo/um-theses/list/by-issue-date",
+    "https://libdigital.um.edu.mo/um-theses/list/by-title",
+    "by-author?order_by=title_sorting.sort&order=desc&filter=Ou, Yao Zhong,  ",
+    "by-author?order_by=dc_contributor_author.raw&order=asc&filter=Ou, Yao Zhong,  ",
+    "by-author?order_by=dc_contributor_supervisor_1.raw&order=asc&filter=Ou, Yao Zhong,  ",
+    "by-author?order_by=dc_date_publishingyear&order=asc&filter=Ou, Yao Zhong,  ",
+    "by-author?order_by=dc_description_thesislevel&order=asc&filter=Ou, Yao Zhong,  ",
+    "https://libdigital.um.edu.mo/um-theses/show/991010450375306306?from=author"
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-81VP5816WT",
+    "/js/core/jquery.min.js",
+    "/js/core/popper.min.js",
+    "/js/core/bootstrap-material-design.min.js",
+    "/js/plugins/perfect-scrollbar.jquery.min.js",
+    "/js/material-dashboard.min.js?v=2.1.2",
+    "/js/app.js?id=7c7653238a4cf0980f9041c64df536bc"
+  ],
+  "extracted_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_um_thesis_author_target.extracted.txt"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "pass_source_only_output_port_control_not_run",
+  "source_gates": {
+    "all_saved_hashes_verified": true,
+    "all_556_existing_cells_byte_identical": true,
+    "added_timing_cell_identical_except_INSTANCE": true,
+    "only_shadow_O_connection_shape_differs": true,
+    "original_full_known_row_monitor_prefix_retained": true,
+    "original_vendor_source_and_runtime_unchanged": true
+  },
+  "run": null,
+  "vendor_tools_launched": false,
+  "original_discrepancy_resolved": false,
+  "hardware_or_energy_acceptance": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\verify_port_context_v1.py": "b4ee243e6216e8e30cfd551b3e9cab8422e572ba45b69db6ea1450c3f7bc003b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\port_context_v1\\preparation.json": "bdcafdc5bb957d67e2cd6600aca22649f8fccc78ee3d7298da356b9bfefde7ce",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\sdf_structure_audit_v1.py": "8762e602e4cc932058548e451b3fd2e6de795386f17c3440655867d754927302"
+  }
+}

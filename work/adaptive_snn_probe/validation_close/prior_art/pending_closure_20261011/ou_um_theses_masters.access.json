@@ -1,0 +1,8 @@
+{
+  "name": "ou_um_theses_masters",
+  "url": "https://libdigital.um.edu.mo/um-theses/list/by-faculty?faculty=Institute%20of%20Microelectronics&degree=MASTER",
+  "retrieved_utc": "2026-10-11T04:38:27.013984+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "kind": "access failure",
+  "error": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>"
+}

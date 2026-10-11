@@ -1,0 +1,16 @@
+{
+  "name": "ou_orcid_target_work",
+  "url": "https://pub.orcid.org/v3.0/0009-0001-8228-622X/work/159546236",
+  "retrieved_utc": "2026-10-11T04:37:29.941348+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "http_status": 200,
+  "final_url": "https://pub.orcid.org/v3.0/0009-0001-8228-622X/work/159546236",
+  "content_type": "application/json;charset=UTF-8",
+  "response_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_orcid_target_work.response",
+  "sha256": "98fd6ddb6abe3ce41d8fd8ff185d26723e0fe2e4b35abb37561bffbab6f5077d",
+  "bytes": 2165,
+  "kind": "HTML or API response; not assumed full paper",
+  "links": [],
+  "scripts": [],
+  "extracted_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_orcid_target_work.extracted.txt"
+}

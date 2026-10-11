@@ -1,0 +1,110 @@
+{
+  "samples": 16,
+  "batch": 8,
+  "threads": 4,
+  "started_utc": "2026-10-10T15:22:09.778029+00:00",
+  "source_commit": "c15d5da05eea0c48e1fa837a4f8073297006d93f",
+  "checkpoint_sha256": "c66b1f886ae840d0e3fd969c3957bb929590fff305cc4d19b6d25e33170dd56f",
+  "data_sha256": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+  "runner_sha256": "e8ea2492323a642c5220300d480ca63cf5cbbb68f50ecae1d07c7e3870168b58",
+  "adapter_sha256": "4f4d9e05b79893af72af8bca621b4e5e3371507bb8efd4ecbed796786d4767ae",
+  "packing_sha256": "e77052d271929affc5eb7f09307f1d13c22aab6178b127d8fb39363d645389dd",
+  "contract_sha256": "3d16112e7cefc7f77a397b0b70abf495223e4faf25e39fac9950bc2c973a02ab",
+  "separate_feedback64_sha256": "6b0636ff334f21075742dcb0c2111b4a90fab6217e4ca1d5ae781c4dbe0e63e1",
+  "validation": "Every packed leakage checked against independent scalar ceil before actualpackedfeedback; separate64threeexecution allstates/spikes/logits check retained",
+  "elapsed_s": 9.446073770523071,
+  "minimum_observed_free_GiB": 3.0977249145507812,
+  "correct": {
+    "float": 16,
+    "integer_packed": 16
+  },
+  "changed_integer_vs_float_predictions": 0,
+  "checkpoint_saved_max_accuracy_metadata": 0.9358,
+  "operation_counts": {
+    "raw": 39321600,
+    "zero": 6615015,
+    "nonzero": 32706585,
+    "signed12_exceptions": 506197,
+    "narrow": 17296279,
+    "pairs": 7185920,
+    "issues_adaptive": 25520665,
+    "issues_fixed_split": 16353317,
+    "issues_scalar": 32706585,
+    "issues_LUT2": 16353317,
+    "packed_mismatches": 0,
+    "signed16_exceptions": 0,
+    "B16_adaptive_issues": 25520665
+  },
+  "range_by_layer": {
+    "features.1": {
+      "old_min": -9859,
+      "old_max": 8502,
+      "current_min": -5089,
+      "current_max": 4644,
+      "state_min": -10018,
+      "state_max": 8639
+    },
+    "features.4": {
+      "old_min": -9469,
+      "old_max": 8604,
+      "current_min": -5123,
+      "current_max": 4898,
+      "state_min": -9564,
+      "state_max": 8738
+    },
+    "features.8": {
+      "old_min": -3524,
+      "old_max": 3495,
+      "current_min": -1941,
+      "current_max": 2104,
+      "state_min": -3664,
+      "state_max": 3495
+    },
+    "features.11": {
+      "old_min": -4764,
+      "old_max": 5229,
+      "current_min": -2622,
+      "current_max": 3040,
+      "state_min": -4764,
+      "state_max": 5229
+    },
+    "features.15": {
+      "old_min": -3512,
+      "old_max": 2945,
+      "current_min": -1887,
+      "current_max": 2099,
+      "state_min": -3643,
+      "state_max": 2945
+    },
+    "features.18": {
+      "old_min": -4189,
+      "old_max": 2870,
+      "current_min": -2230,
+      "current_max": 1925,
+      "state_min": -4250,
+      "state_max": 2870
+    },
+    "features.22": {
+      "old_min": -3574,
+      "old_max": 3416,
+      "current_min": -1939,
+      "current_max": 2174,
+      "state_min": -3574,
+      "state_max": 3416
+    },
+    "features.25": {
+      "old_min": -4797,
+      "old_max": 3100,
+      "current_min": -2603,
+      "current_max": 2074,
+      "state_min": -4851,
+      "state_max": 3127
+    }
+  },
+  "sample_operand_count": 7335,
+  "sample_u_min": -5973,
+  "sample_u_max": 5024,
+  "sample_sha256": "226439adadccf3b4d3165b52b100c35cee7375976dff0d06377abcd58cafd119",
+  "exact_shift_control": "tau2 => ceil(U/2), zero DSP; no measured DSP advantage over shift",
+  "domain_note": "B12 unsupportedexceptions exactsoftwarefallback retained; B16 requestcounts use same signed9pairing, no newRTLclaim"
+}

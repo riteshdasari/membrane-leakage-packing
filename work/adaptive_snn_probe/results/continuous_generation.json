@@ -1,0 +1,34 @@
+{
+  "scope": "source generation only; no simulation/synthesis/route executed",
+  "generator_sha256": "ed1d9bf08656a7a90429a286389545daf6b9cea26b5cfae3bd1919708a24ed23",
+  "base_sha256": {
+    "stream_pipeline_whole_leak.sv": "e78f42626f4739e0d62737c84db0ad134f8b2ecfa636d2b381104998241ec44d",
+    "tb_stream_pipeline_whole_leak.sv": "9f5df5caf9da196ba98f6fa4e5a0ee6d114d469614f5f35be3b032bae1cf4720",
+    "check_stream_pipeline_whole.py": "6e0509c377bc16e699cec8ff6f5b00b7031ea818b7d41dffe7a5842bfabb4dc5",
+    "check_stream_pipeline_whole_models.py": "ed6a77ae8d7f8748c14dc2056b18a851d5c1afae424e6f61f4ef7234de2b6814",
+    "stream_pipeline_whole_timing.sv": "47b34cca797aa7d12c6196fc48d6ba6ce4d42b8f2fa440c9ae2558bb61742dd6",
+    "route_stream_pipeline_whole.tcl": "4ae29a45276ba6b24627d916217fdd6785fe36f9219bac78d2c468947a8d81f5",
+    "run_stream_pipeline_whole_route.py": "5bc8b9b4a714b1b9d1da01d8c5faf8cfdcc046bccb65191ab278fdcb0ad0566f"
+  },
+  "generated_sha256": {
+    "continuous_leak.sv": "421bd1ac56d3f3460c5b8f858098eca86493e18ad834c917d636c55466e115ad",
+    "tb_continuous_leak.sv": "89350ae75d65a9c088a405b699dd0cc6c6c6d3e7434d9a7f5f688b99ce00efd7",
+    "check_continuous.py": "91aee9cf5090bd5705f5c281e1326f7bf1172660f9085326936f08711172722c",
+    "check_continuous_models.py": "13533b7e3fac8e7b59047649bfa22a94d064fecbe354585f90a403c4ac3fb321",
+    "continuous_timing.sv": "558470a64322e2aaa5dd4837ded088201f25faa0ffdfba63ef9890c2d14f28d4",
+    "route_continuous.tcl": "25225afbbdf107f5cfd9afbea1361dd0707333b47cc5471b866a5ab954996c4b",
+    "run_continuous_route.py": "238517a4c184357098916607d364fff947993555ff55bb2fce5df82e4c527e89"
+  },
+  "engines": {
+    "5": "unchanged fixed DSP pair + LUT third",
+    "7": "actual-U narrow DSP triple; otherwise DSP pair + LUT third"
+  },
+  "coefficient_targets_ns": {
+    "constant25": 6.0,
+    "programmed": 8.0
+  },
+  "limitations": [
+    "E7 register gating does not prove reduced combinational activity or power.",
+    "No resource/timing/accuracy result exists until separate checks and routes pass."
+  ]
+}

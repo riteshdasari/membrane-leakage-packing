@@ -1,0 +1,49 @@
+{
+  "direct_exhaustive_triples": 1048576,
+  "direct_scalar_comparisons": 3145728,
+  "shared_upper_pairs": 65536,
+  "frames": 9216,
+  "neurons": 635904,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 245975,
+      "narrow": 141118,
+      "bypass": 7353,
+      "continuous_clock_proxy": 245978
+    },
+    {
+      "engine": 1,
+      "requests": 304045,
+      "narrow": 0,
+      "bypass": 6860,
+      "continuous_clock_proxy": 304048
+    },
+    {
+      "engine": 3,
+      "requests": 216576,
+      "narrow": 0,
+      "bypass": 7095,
+      "continuous_clock_proxy": 216579
+    },
+    {
+      "engine": 5,
+      "requests": 216576,
+      "narrow": 0,
+      "bypass": 7095,
+      "continuous_clock_proxy": 216579
+    },
+    {
+      "engine": 6,
+      "requests": 255558,
+      "narrow": 119175,
+      "bypass": 7314,
+      "continuous_clock_proxy": 255561
+    }
+  ],
+  "notes": [
+    "Direct arithmetic covers all signed-int5 triples and all shared delta0..31; no new coefficient/model assumptions",
+    "Shared upper reconstruction tested as eleven-bit modular bit patterns; actual leakage output remains representable",
+    "Schedules are analytical before RTL replay; source window/memory handling still excluded"
+  ]
+}

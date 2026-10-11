@@ -1,0 +1,56 @@
+{
+  "source_hashes": {
+    "continuous_leak.sv": "421bd1ac56d3f3460c5b8f858098eca86493e18ad834c917d636c55466e115ad",
+    "tb_continuous_leak.sv": "89350ae75d65a9c088a405b699dd0cc6c6c6d3e7434d9a7f5f688b99ce00efd7",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f",
+    "check_continuous.py": "91aee9cf5090bd5705f5c281e1326f7bf1172660f9085326936f08711172722c",
+    "check_continuous_models.py": "13533b7e3fac8e7b59047649bfa22a94d064fecbe354585f90a403c4ac3fb321",
+    "make_continuous.py": "ed1d9bf08656a7a90429a286389545daf6b9cea26b5cfae3bd1919708a24ed23"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 640,
+  "tested_engines": [
+    5,
+    7
+  ],
+  "stimulus_sha256": "c9eed8c4dc14c441aab7b7a88ef69a7b858bf451483e12a5412706dd9e260747",
+  "matched_whole_stimulus": true,
+  "centered_wide": false,
+  "wide_residual_encoding": "unsigned",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "identity_policy": "E5/E7 always consume three available neurons, including delta0 wide groups",
+  "real_neurons": 3840,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 5,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 0,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 7,
+      "requests": 1280,
+      "neurons": 3840,
+      "arithmetic_issues": 1176,
+      "narrow_requests": 933,
+      "bypass_requests": 104,
+      "clocks": 1284,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0,
+      "lut_m1_hold_checks": 945,
+      "lut_r2_hold_checks": 946,
+      "lut_m1_narrow_holds": 933,
+      "lut_r2_narrow_holds": 933
+    }
+  ]
+}

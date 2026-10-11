@@ -1,0 +1,14 @@
+{
+  "status": "pass_static_coefficient_domain_check",
+  "contexts": 7808,
+  "beta0_range": [
+    153,
+    170
+  ],
+  "beta1_range": [
+    74,
+    88
+  ],
+  "all_Q8_coefficients_at_least64": true,
+  "scope": "Quantized trained parameters, not new inference or packing."
+}

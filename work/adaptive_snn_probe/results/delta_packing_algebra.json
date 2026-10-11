@@ -1,0 +1,14 @@
+{
+  "cases": 1048576,
+  "failures": 0,
+  "delta_range": [
+    0,
+    31
+  ],
+  "membrane_range": [
+    -16,
+    15
+  ],
+  "lanes": 3,
+  "note": "Arithmetic proof/check only; no RTL, controller or routed hardware for this format."
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ou_um_theses_microelectronics",
+  "url": "https://libdigital.um.edu.mo/um-theses/faculty/Institute%20of%20Microelectronics/departments",
+  "retrieved_utc": "2026-10-11T04:37:29.940345+00:00",
+  "access_method": "public urllib GET; no login or restriction bypass",
+  "http_status": 200,
+  "final_url": "https://libdigital.um.edu.mo/um-theses/faculty/Institute%20of%20Microelectronics/degrees",
+  "content_type": "text/html; charset=UTF-8",
+  "response_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_um_theses_microelectronics.response",
+  "sha256": "16ffa59be94a04ef7a6072bf698bc62cbad50748dc8ae43176498efbd2eabca9",
+  "bytes": 7829,
+  "kind": "HTML or API response; not assumed full paper",
+  "links": [
+    "https://www.um.edu.mo/",
+    "https://library.um.edu.mo/",
+    "/",
+    "https://libdigital.um.edu.mo/home",
+    "https://libdigital.um.edu.mo/um-theses/faculty",
+    "https://libdigital.um.edu.mo/um-theses/faculty/Institute%20of%20Microelectronics/departments",
+    "https://libdigital.um.edu.mo/um-theses/faculty",
+    "https://libdigital.um.edu.mo/um-theses/author",
+    "https://libdigital.um.edu.mo/um-theses/supervisor",
+    "https://libdigital.um.edu.mo/um-theses/list/by-issue-date",
+    "https://libdigital.um.edu.mo/um-theses/list/by-title",
+    "https://libdigital.um.edu.mo/um-theses/list/by-faculty?faculty=Institute%20of%20Microelectronics&degree=MASTER"
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-81VP5816WT",
+    "/js/core/jquery.min.js",
+    "/js/core/popper.min.js",
+    "/js/core/bootstrap-material-design.min.js",
+    "/js/plugins/perfect-scrollbar.jquery.min.js",
+    "/js/material-dashboard.min.js?v=2.1.2",
+    "/js/app.js?id=7c7653238a4cf0980f9041c64df536bc"
+  ],
+  "extracted_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\pending_closure_20261011\\ou_um_theses_microelectronics.extracted.txt"
+}

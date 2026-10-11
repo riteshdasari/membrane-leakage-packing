@@ -1,0 +1,125 @@
+{
+  "rtl_sha256": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+  "rows": [
+    {
+      "bits": 8,
+      "constant_beta": 231,
+      "engine": 0,
+      "requests": 70825,
+      "mismatches": 0,
+      "driver_cycles": 71652,
+      "accepted": 70825,
+      "outputs": 70825
+    },
+    {
+      "bits": 8,
+      "constant_beta": 231,
+      "engine": 1,
+      "requests": 70825,
+      "mismatches": 0,
+      "driver_cycles": 71652,
+      "accepted": 70825,
+      "outputs": 70825
+    },
+    {
+      "bits": 8,
+      "constant_beta": 231,
+      "engine": 2,
+      "requests": 70825,
+      "mismatches": 0,
+      "driver_cycles": 71652,
+      "accepted": 70825,
+      "outputs": 70825
+    },
+    {
+      "bits": 8,
+      "constant_beta": -1,
+      "engine": 0,
+      "requests": 71147,
+      "mismatches": 0,
+      "driver_cycles": 71908,
+      "accepted": 71147,
+      "outputs": 71147
+    },
+    {
+      "bits": 8,
+      "constant_beta": -1,
+      "engine": 1,
+      "requests": 71147,
+      "mismatches": 0,
+      "driver_cycles": 71908,
+      "accepted": 71147,
+      "outputs": 71147
+    },
+    {
+      "bits": 8,
+      "constant_beta": -1,
+      "engine": 2,
+      "requests": 71147,
+      "mismatches": 0,
+      "driver_cycles": 71908,
+      "accepted": 71147,
+      "outputs": 71147
+    },
+    {
+      "bits": 10,
+      "constant_beta": 231,
+      "engine": 0,
+      "requests": 5357,
+      "mismatches": 0,
+      "driver_cycles": 6116,
+      "accepted": 5357,
+      "outputs": 5357
+    },
+    {
+      "bits": 10,
+      "constant_beta": 231,
+      "engine": 1,
+      "requests": 5357,
+      "mismatches": 0,
+      "driver_cycles": 6116,
+      "accepted": 5357,
+      "outputs": 5357
+    },
+    {
+      "bits": 10,
+      "constant_beta": 231,
+      "engine": 2,
+      "requests": 5357,
+      "mismatches": 0,
+      "driver_cycles": 6116,
+      "accepted": 5357,
+      "outputs": 5357
+    },
+    {
+      "bits": 10,
+      "constant_beta": -1,
+      "engine": 0,
+      "requests": 5360,
+      "mismatches": 0,
+      "driver_cycles": 6116,
+      "accepted": 5360,
+      "outputs": 5360
+    },
+    {
+      "bits": 10,
+      "constant_beta": -1,
+      "engine": 1,
+      "requests": 5360,
+      "mismatches": 0,
+      "driver_cycles": 6116,
+      "accepted": 5360,
+      "outputs": 5360
+    },
+    {
+      "bits": 10,
+      "constant_beta": -1,
+      "engine": 2,
+      "requests": 5360,
+      "mismatches": 0,
+      "driver_cycles": 6116,
+      "accepted": 5360,
+      "outputs": 5360
+    }
+  ]
+}

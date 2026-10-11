@@ -1,0 +1,83 @@
+{
+  "status": "pass",
+  "policies": {
+    "fixed_full8": {
+      "requests": 82944,
+      "groups": 9216,
+      "scalar_updates": 635904,
+      "take_histogram": {
+        "1": 0,
+        "2": 4608,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 78336
+      },
+      "service_clocks": 119808
+    },
+    "runtime_U8_tail": {
+      "requests": 85970,
+      "groups": 9216,
+      "scalar_updates": 635904,
+      "take_histogram": {
+        "1": 211,
+        "2": 2216,
+        "3": 616,
+        "4": 1440,
+        "5": 6123,
+        "6": 4088,
+        "7": 1698,
+        "8": 69578
+      },
+      "service_clocks": 122834
+    },
+    "static_32step_U8_tail": {
+      "requests": 129024,
+      "groups": 9216,
+      "scalar_updates": 635904,
+      "take_histogram": {
+        "1": 1536,
+        "2": 0,
+        "3": 3072,
+        "4": 0,
+        "5": 121344,
+        "6": 3072,
+        "7": 0,
+        "8": 0
+      },
+      "service_clocks": 165888
+    },
+    "static_timestep_interval_U8_tail": {
+      "requests": 119952,
+      "groups": 9216,
+      "scalar_updates": 635904,
+      "take_histogram": {
+        "1": 1152,
+        "2": 960,
+        "3": 1440,
+        "4": 336,
+        "5": 95328,
+        "6": 7200,
+        "7": 960,
+        "8": 12576
+      },
+      "service_clocks": 156816
+    }
+  },
+  "runtime_admissible_values": 595982,
+  "static32step_admissible_values": 23040,
+  "timestep_interval_admissible_values": 145872,
+  "static_control_has_zero_detection_flag_memory_or_delivery_cost": true,
+  "group_drain_clocks": 4,
+  "original_IF_steps": 32,
+  "neurons": 635904,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\admission_attribution.py": "844890323b6ac7c106c257ce3acb31d870e1bdefdada75ee5397c860a49ca597",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\original_if\\reference_ledger.json": "df2486e7bfab01c559c83c7465fc9cb56f67ea6c63d94d5dd76586d4223d2f5e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\original_if\\profile.json": "afc7ae3e1e445697912f0108f0112881718bc30d45a96fedcff629ea0337f549",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\native_models_0_a0\\frontier_checks.json": "9bd0a12f873c33fbaba7753141cbe4e7ed0b02369ea822d9c783b43357fd3733"
+  },
+  "scope": "Same ordered5full+3narrow-tail admission policy. Static bounds use weights/timestep/threshold, not actual U. Service-only ablation with optimistic zero-cost static flags; no route, energy, reordering or best-static-hardware claim."
+}

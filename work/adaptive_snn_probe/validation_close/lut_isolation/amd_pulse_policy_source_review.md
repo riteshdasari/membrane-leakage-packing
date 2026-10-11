@@ -1,0 +1,25 @@
+# AMD pulse-policy source review
+
+Source/document review only, 2026-10-10. No vendor run and no current runner, netlist, SDF, testbench or acceptance rule changed.
+
+A separately retained default-limit run is a legitimate **causal sensitivity control**, with timing checks and SDF preserved. It is not sufficient by itself to close or replace the original zero-limit replay failure. The word “default” needs qualification: standalone xelab option defaults and Vivado-generated timing-flow settings differ.
+
+## Primary documentation
+
+[AMD UG900 2025.2, xelab command options](https://docs.amd.com/r/2025.2-English/ug900-vivado-logic-simulation/xelab-xvhdl-and-xvlog-xsim-Command-Options), dated 2025-12-17, documents all four pulse limits as percentages from 0 through 100, with default 100. `-pulse_r` controls path rejection; `-pulse_e` controls path error limits. The table labels both interconnect options as interconnect rejection limits; it does not resolve their individual error/rejection implementation details. The error-style option chooses immediate versus delayed error handling, with delayed handling the default. The transport option is specifically for interconnect delays. It does not by itself specify the treatment of primitive module IOPATHs. Timing-check, specify-block and SDF-interconnect disabling are separate options, which must remain absent. This table establishes command meanings and defaults, not proof of an implementation defect or of option precedence over per-cell/SDF pulse parameters.
+
+The installed Vivado2025.2 primary source `data/XilinxTclStore/tclapp/xilinx/xsim/sim.tcl`, lines2459–2476, initializes both pulse-limit settings to zero. File-set transport properties can override them. For post-synthesis/post-implementation timing simulation it emits `-transport_int_delays` and all four pulse limits. Its stated purpose is “avoid pulse swallowing for timing”. This agrees with the official AMD support engineer's [post-implementation standalone example](https://adaptivesupport.amd.com/s/question/0D5KZ00000d1YGP0A2/postimplementation-timing-simulation%E7%BB%93%E6%9E%9C%E4%B8%8E%E9%A2%84%E6%9C%9F%E4%B8%8D%E7%AC%A6?language=ja), which uses transport interconnect and four zero limits. The current recipe has a primary vendor timing-flow precedent.
+
+Installed Tcl source SHA256: `46205d251afd86cffa6e4ba65257fcaef793acc2d73b6fd3d760e6c6fd2b69ff`.
+
+## Retained library and SDF qualifications
+
+The unchanged installed `unisims/CARRY4.v` contains output-port feedback in `CO_fb`, the XOR output equation, and `specparam PATHPULSE$ = 0` within its timing specify block. Its SHA256 is `a9fbbf068a2f99d44b6293053c526a2af9efd9ce42c8ef5ddde2a897194d413e`. The retained routed SDF and exact extracted shadow SDF contain `(PATHPULSE (50.0))` records. The reviewed documentation does not establish precedence between these values and the command percentages. Consequently one must not assume that changing the four command arguments necessarily changes the effective pulse policy at the offending CARRY4 path. Annotation logs and observed waveforms are necessary evidence.
+
+## One bounded control, if root chooses to execute it
+
+Keep the existing live-shadow experiment, all original known-row comparisons, inputs, SDFs, library binding, maximum delays, time precision, positive 228ps IOPATH canary, observer and tool version byte-identical. Change only the explicit four pulse arguments from0 to100 in a separately pinned runner/attempt; keep `-transport_int_delays`. This tests the pulse-limit policy under the same transport treatment. Removing transport at the same time would confound pulse limits with interconnect delay handling and should not be described as the same single control. Explicit100 is preferable to omission because it records the intended standalone defaults reproducibly.
+
+Retain the original zero-limit result beside the new attempt. The sustained-step canary must still be unchanged at200ps and changed at240ps, with both original/shadow SDF annotations successful. All timing checks, warnings and known-row comparisons remain active. Inspect the actual offending CI/S/DI/O/internal events and stable capture values; a pass under100 alone does not demonstrate which short pulse was filtered. A separate pulse canary would be needed to prove effective short-pulse treatment if that is used in the causal argument; any added canary must be common to both compared runs rather than silently changing one elaboration context.
+
+If only100 passes, the supported conclusion is pulse-policy sensitivity of this delayed simulation. The cause could involve path/event scheduling, filtering or context; physical FPGA correctness and a simulator defect remain unproved. Filtering the triggering glitch and replacing the failed original acceptance would weaken the evidence. If both fail, the pulse-limit hypothesis has not explained the discrepancy. If the0 live-shadow run does not reproduce the original failure, the new sensitivity comparison cannot close it. The existing strict E7 LUT control and its accepted evidence remain separate.

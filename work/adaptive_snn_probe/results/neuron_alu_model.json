@@ -1,0 +1,77 @@
+{
+  "rtl_sha256": "d86970e669f68a605fc30c712f5edf9bbfd8f72fd2b55c50a5780bbbec355ebb",
+  "rows": [
+    {
+      "seed": 0,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "threshold": 9,
+      "engine": 0,
+      "images": 48,
+      "steps_per_image": 32,
+      "mismatches": 0,
+      "cycles": 18871
+    },
+    {
+      "seed": 0,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "threshold": 9,
+      "engine": 1,
+      "images": 48,
+      "steps_per_image": 32,
+      "mismatches": 0,
+      "cycles": 18871
+    },
+    {
+      "seed": 0,
+      "bits": 8,
+      "neurons": 6,
+      "shift": 1,
+      "threshold": 9,
+      "engine": 2,
+      "images": 48,
+      "steps_per_image": 32,
+      "mismatches": 0,
+      "cycles": 18871
+    },
+    {
+      "seed": 0,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "threshold": 17,
+      "engine": 0,
+      "images": 48,
+      "steps_per_image": 32,
+      "mismatches": 0,
+      "cycles": 18871
+    },
+    {
+      "seed": 0,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "threshold": 17,
+      "engine": 1,
+      "images": 48,
+      "steps_per_image": 32,
+      "mismatches": 0,
+      "cycles": 18871
+    },
+    {
+      "seed": 0,
+      "bits": 10,
+      "neurons": 4,
+      "shift": 3,
+      "threshold": 17,
+      "engine": 2,
+      "images": 48,
+      "steps_per_image": 32,
+      "mismatches": 0,
+      "cycles": 18871
+    }
+  ]
+}

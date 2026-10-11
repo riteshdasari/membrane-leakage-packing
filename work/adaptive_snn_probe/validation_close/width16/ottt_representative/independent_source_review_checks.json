@@ -1,0 +1,30 @@
+{
+  "status": "pass_independent_source_only_review",
+  "AST_scripts": 4,
+  "unique_verified_manifest_pins": 40,
+  "byte_identical_parent_copies": 7,
+  "native_index_to_engine": {
+    "0": 5,
+    "1": 1,
+    "2": 6
+  },
+  "independent_runlength_request_oracle_stress_operations": 7335,
+  "boundary_frame_cases": 14,
+  "failed_distribution_capture_rejected": true,
+  "model_execution": false,
+  "vendor_execution": false,
+  "capture_or_energy_acceptance": false,
+  "closure_files_present_at_review": [],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\independent_source_review_checks.py": "c75014fb32fa20d0af957ce9dce4b9d2bc0f95493add79b3ab0b00acf2ff6a1f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run.py": "8a9a5ca6b6bf8da6ef696add0f9356b54a00188d6dd1accd7eb05e70f0614ad6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\run_native16_rep3.py": "237a5fd0ffa7428311d24ad8bd153643b6a2c0a3856aeaaf5c3d9e24c6f82ebb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\run_energy16_rep3_12.py": "0748a7fbc34635273a32e87c77abef00f36167a77667c61eb66f360a01c33570",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\audit_power16_rep3_12.py": "90a83bb2c510ebfd34c7c466c8f640afac1291f7c81fe25dc4b4753804dd0dbf",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\tb_native16_rep3.sv": "f7c0b793dcd5f5338db2883f881b82bde980a5d87182c6a590c7d3b8218b34c3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\source_acceptance.json": "45c7603c0faeea32bc8b5a1e9bcfccb73d10171ee1528a290a59db362db0bf9f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\preparation_rep3.json": "0a2fd1a0844f2380bd9e845123447a87a00c80819b432995f20922a791ffa8d0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\energy16_preparation_rep3.json": "c8f5019945d8a98837c48871c01c9662952980271229b0e14669ebc96ad6da18",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\README.md": "10a23ca76649c4da28e3a628c2c86a36769c2cf9554bced3d06bf5872a092893"
+  }
+}

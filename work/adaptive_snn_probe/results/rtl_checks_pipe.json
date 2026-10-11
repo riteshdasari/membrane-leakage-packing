@@ -1,0 +1,62 @@
+[
+  {
+    "native": false,
+    "pipe": true,
+    "reuse": false,
+    "shift": 1,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 599,
+    "cycles": [
+      9002,
+      5938,
+      2824
+    ],
+    "cycle_note": "total clocks, accepted events, busy clocks; one event per clock when ready; positive/negative/random stress, not trained-model latency"
+  },
+  {
+    "native": false,
+    "pipe": true,
+    "reuse": false,
+    "shift": 3,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 731,
+    "cycles": [
+      9002,
+      5938,
+      2824
+    ],
+    "cycle_note": "total clocks, accepted events, busy clocks; one event per clock when ready; positive/negative/random stress, not trained-model latency"
+  },
+  {
+    "native": true,
+    "pipe": true,
+    "reuse": false,
+    "shift": 1,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 599,
+    "cycles": [
+      7379,
+      5938,
+      1201
+    ],
+    "cycle_note": "total clocks, accepted events, busy clocks; one event per clock when ready; positive/negative/random stress, not trained-model latency"
+  },
+  {
+    "native": true,
+    "pipe": true,
+    "reuse": false,
+    "shift": 3,
+    "timesteps": 120,
+    "mismatches": 0,
+    "max_abs_state": 731,
+    "cycles": [
+      7379,
+      5938,
+      1201
+    ],
+    "cycle_note": "total clocks, accepted events, busy clocks; one event per clock when ready; positive/negative/random stress, not trained-model latency"
+  }
+]

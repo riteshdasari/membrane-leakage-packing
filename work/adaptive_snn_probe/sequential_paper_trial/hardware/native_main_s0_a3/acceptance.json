@@ -1,0 +1,103 @@
+{
+  "status": "pass",
+  "kind": "main",
+  "stall": 0,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 186074,
+      "retirements": 186074,
+      "neurons": 294856,
+      "service_clocks": 186076,
+      "min_latency": 2,
+      "max_latency": 2,
+      "first_accept": 3,
+      "last_retire": 186078,
+      "output_sha256": "9609cdd9fb3c2ec7648ae5386b21e98c7c4f0566124f64eb95a71f28024ea36b"
+    },
+    {
+      "engine": 1,
+      "requests": 150026,
+      "retirements": 150026,
+      "neurons": 294856,
+      "service_clocks": 150028,
+      "min_latency": 2,
+      "max_latency": 2,
+      "first_accept": 3,
+      "last_retire": 150030,
+      "output_sha256": "cae84eb560e017e488b0f6adb427445ab99d041862f8162c5b7e6b256631556c"
+    },
+    {
+      "engine": 2,
+      "requests": 147428,
+      "retirements": 147428,
+      "neurons": 294856,
+      "service_clocks": 147430,
+      "min_latency": 2,
+      "max_latency": 2,
+      "first_accept": 3,
+      "last_retire": 147432,
+      "output_sha256": "11d3326162076b173a575462c3d764a53c09b996eae4c0c6ba35f832e34f8e2c"
+    },
+    {
+      "engine": 3,
+      "requests": 147428,
+      "retirements": 147428,
+      "neurons": 294856,
+      "service_clocks": 147430,
+      "min_latency": 2,
+      "max_latency": 2,
+      "first_accept": 3,
+      "last_retire": 147432,
+      "output_sha256": "11d3326162076b173a575462c3d764a53c09b996eae4c0c6ba35f832e34f8e2c"
+    },
+    {
+      "engine": 4,
+      "requests": 294856,
+      "retirements": 294856,
+      "neurons": 294856,
+      "service_clocks": 294858,
+      "min_latency": 2,
+      "max_latency": 2,
+      "first_accept": 3,
+      "last_retire": 294860,
+      "output_sha256": "d8be9efaad29053f44d7de94e0a574fb1c4c7fab536ee5e7cf71f365d67814a3"
+    },
+    {
+      "engine": 5,
+      "requests": 152666,
+      "retirements": 152666,
+      "neurons": 294856,
+      "service_clocks": 152668,
+      "min_latency": 2,
+      "max_latency": 2,
+      "first_accept": 3,
+      "last_retire": 152670,
+      "output_sha256": "077d568f385641563c64dccdcf6ee669c506fb211c2f9f83afce9624e03ae3ed"
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_core.sv": "a55839cc223ea88a859641686f409ef413c3be064463a11eef0915c9255e1bd7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\leak_dsp.sv": "8f2305469802b725690473d396ee4dc8db9e1117f6ea0ab5931e772d00e062b5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\timing.sv": "3e4700e10943509a9d36bfa426e029457e782af893637684902053a4a4203769",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\route.tcl": "667095a793bb9d51b9003cec45e5f0f89e543af0bbf3cb13c9ae5c92f4d53600",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4.py": "b4b54a6b8cbca8cc59af4bb41dcaae5ede433e8353269f536cfff866f9ec8c53",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_acceptance.json": "908c60277bcc1eafd58e759634317b5bb2b2d98923adddf1a5285772a8cfca5a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\packed_leak.sv": "9151de9f9de0d9ad8c486f7c2c992d095542102a95e9945aabb9a5900cea93b1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\route.tcl": "1ee16abe18029d9d809823e8d6a7895091b47b956d38d129011128795cf4f9f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\timing.sv": "bf7c4723bdbd8c4159f9aee43cfcade5cc30b656940a0bbf859336b6f00d05d1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_native_v4.py": "290f35a776051c3f8b8c1253273c4ebb96aa906ef15558b8e6d289b9223ea5d1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\stage3_actual_frames.txt": "343961fbf500e4aaaefc35bb4de0cd26d111303439bd2c43a4670605d344e0aa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_native_v3.sv": "8fb77b5d892b98b070035c30337713e71954576f344e21553712c4826ec46644",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a3\\stim.txt": "ffd0a55b81c1b421ea4a38260b6f9b9cfa4fd54d6aff7937f3e7309262532c97"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a3\\out0.txt": "9609cdd9fb3c2ec7648ae5386b21e98c7c4f0566124f64eb95a71f28024ea36b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a3\\out1.txt": "cae84eb560e017e488b0f6adb427445ab99d041862f8162c5b7e6b256631556c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a3\\out2.txt": "11d3326162076b173a575462c3d764a53c09b996eae4c0c6ba35f832e34f8e2c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a3\\out3.txt": "11d3326162076b173a575462c3d764a53c09b996eae4c0c6ba35f832e34f8e2c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a3\\out4.txt": "d8be9efaad29053f44d7de94e0a574fb1c4c7fab536ee5e7cf71f365d67814a3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a3\\out5.txt": "077d568f385641563c64dccdcf6ee669c506fb211c2f9f83afce9624e03ae3ed"
+  },
+  "sampled_true_model_operations": null
+}

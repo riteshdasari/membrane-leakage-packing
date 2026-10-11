@@ -1,0 +1,125 @@
+{
+  "status": "completed_observation_only_signed16_probe",
+  "gates": {
+    "work_CARRY4_bound": true,
+    "certified_original_DUT_annotation": true,
+    "annotation_not_ignored": true,
+    "no_compile_warning_or_error": true,
+    "no_runtime_timing_warning": true,
+    "observation_window_complete": true,
+    "snapshots_present": true
+  },
+  "replay_mismatches": [
+    {
+      "row": 2175,
+      "got": "6c00da80c8",
+      "expected": "6c00da00c8"
+    }
+  ],
+  "original_failure_reproduced": true,
+  "snapshots": [
+    "FIXED16_SNAPSHOT capture_plus1ps T26190.001 ROW2172 AGE18.435 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ns T26191.000 ROW2172 AGE19.434 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT halfcycle_plus1ps T26196.001 ROW2172 AGE24.435 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK0 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ps T26202.001 ROW2173 AGE30.435 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ns T26203.000 ROW2173 AGE31.434 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT window_begin T26208.000 ROW2173 AGE36.434 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT halfcycle_plus1ps T26208.001 ROW2173 AGE36.435 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK0 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ps T26214.001 ROW2174 AGE42.435 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ns T26215.000 ROW2174 AGE43.434 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O0 PARENT_O0 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT halfcycle_plus1ps T26220.001 ROW2174 AGE0.143 S7 DI0 CI1 CY0 SI7 DII0 CII1 CYI0 CO7 FBf O7 PARENT_O7 UPSTREAM_CI1 EXPECT_O8 EXPECT_CO7 D141 Q140 CLK0 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ps T26226.001 ROW2175 AGE6.143 S7 DI0 CI1 CY0 SI7 DII0 CII1 CYI0 CO7 FBf O8 PARENT_O0 UPSTREAM_CI1 EXPECT_O8 EXPECT_CO7 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ns T26227.000 ROW2175 AGE7.142 S7 DI0 CI1 CY0 SI7 DII0 CII1 CYI0 CO7 FBf O8 PARENT_O0 UPSTREAM_CI1 EXPECT_O8 EXPECT_CO7 D140 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT halfcycle_plus1ps T26232.001 ROW2175 AGE0.888 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D140 Q140 CLK0 CE1",
+    "FIXED16_SNAPSHOT before26238_capture T26237.999 ROW2176 AGE6.886 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q140 CLK0 CE1",
+    "FIXED16_SNAPSHOT after26238_capture T26238.001 ROW2176 AGE6.888 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ps T26238.001 ROW2176 AGE6.888 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q140 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ns T26239.000 ROW2176 AGE7.887 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q141 CLK1 CE1",
+    "FIXED16_SNAPSHOT halfcycle_plus1ps T26244.001 ROW2176 AGE12.888 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q141 CLK0 CE1",
+    "FIXED16_SNAPSHOT before26250_capture T26249.999 ROW2177 AGE18.886 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q141 CLK0 CE1",
+    "FIXED16_SNAPSHOT after26250_capture T26250.001 ROW2177 AGE18.888 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q141 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ps T26250.001 ROW2177 AGE18.888 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q141 CLK1 CE1",
+    "FIXED16_SNAPSHOT capture_plus1ns T26251.000 ROW2177 AGE19.887 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q141 CLK1 CE1",
+    "FIXED16_SNAPSHOT halfcycle_plus1ps T26256.001 ROW2177 AGE24.888 S0 DI0 CI0 CY0 SI0 DII0 CII0 CYI0 CO0 FB0 O2 PARENT_O2 UPSTREAM_CI0 EXPECT_O0 EXPECT_CO0 D141 Q141 CLK0 CE1"
+  ],
+  "annotation_success_lines": [
+    "INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file \"C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/width16/hardware/export12_ottt_e2_ottt_stress_a0_e2/routed.sdf\", for root module \"tb_sequential_energy_replay16/dut\"."
+  ],
+  "commands": [
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "-d",
+      "XIL_TIMING",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_signed16_probe/a0/CARRY4_vendor.v"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "-sv",
+      "-d",
+      "ENGINE_ID=2",
+      "-d",
+      "DUT_TOP=top_sequential_leak16_e2",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/width16/hardware/export12_ottt_e2_ottt_stress_a0_e2/routed.v",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_signed16_probe/a0/monitor.sv"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+      "C:/AMDDesignTools/2025.2/Vivado/data/verilog/src/glbl.v"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xelab.bat",
+      "-mt",
+      "off",
+      "-debug",
+      "all",
+      "-maxdelay",
+      "-transport_int_delays",
+      "-pulse_r",
+      "0",
+      "-pulse_int_r",
+      "0",
+      "-pulse_e",
+      "0",
+      "-pulse_int_e",
+      "0",
+      "-L",
+      "work",
+      "-L",
+      "simprims_ver",
+      "-L",
+      "secureip",
+      "-L",
+      "unisims_ver",
+      "tb_sequential_energy_replay16",
+      "glbl",
+      "-s",
+      "sim"
+    ],
+    [
+      "C:/AMDDesignTools/2025.2/Vivado/bin/xsim.bat",
+      "sim",
+      "-testplusarg",
+      "TRACE=C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/width16/hardware/native_actual128_s0_a0/trace2.txt",
+      "-testplusarg",
+      "ROWS=7340",
+      "-testplusarg",
+      "ROI_FIRST=3",
+      "-testplusarg",
+      "ROI_LAST=3678",
+      "-tclbatch",
+      "C:/Users/Ritesh/Documents/Codex/2026-10-08/oka/work/adaptive_snn_probe/validation_close/lut_isolation/pending_closure_20261011/run_signed16_probe/a0/run.tcl"
+    ]
+  ],
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_signed16_probe\\a0\\tool_0.log": "12f93f448fa64745d2a07552b5a26d03c14dfd10c0f098e20e920504ca26ebb0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_signed16_probe\\a0\\tool_1.log": "caa144996e08753098369021329e73a492a1906afd7c9e7a8643ccf68db09a06",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_signed16_probe\\a0\\tool_2.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_signed16_probe\\a0\\tool_3.log": "fd1d06916b1f1d56bbd74a237247c832776cad9634c178adf7628e092bb86c42",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\lut_isolation\\pending_closure_20261011\\run_signed16_probe\\a0\\tool_4.log": "64a1f61ae8f11427a8faa94d5450a5494eb791cb368af78cbef1db0d40d518c9"
+  },
+  "original_netlist_SDF_vendor_model_modified": false,
+  "timing_checks_disabled": false,
+  "diagnostic_only": true,
+  "full_trace_energy_acceptance": false,
+  "cause_established": false
+}

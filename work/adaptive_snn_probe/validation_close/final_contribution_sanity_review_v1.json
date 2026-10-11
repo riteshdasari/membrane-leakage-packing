@@ -1,0 +1,42 @@
+{
+  "status": "read_only_scoped_contribution_review_with_explicit_limits",
+  "review_utc": "2026-10-10T23:16:55.784271+00:00",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_leakage_paper_draft.tex": "bfd3fc9e2da6087d8538f4e33c6a6c4b7c75e091b7dd50793f0bee78b93eb3d6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\prior_art\\final_contribution_boundary.md": "0529a2bdd0ceee6b14d597c9b4d0bc6bf9574e795101913693921e5aabd47af0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\route_resolved_acceptance_a1.json": "8ed2bbc01b5b599b8d12eff5f46ff158198a8b3c717d680237398b59fd2210c0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\static9_e8\\closure_measured_close_a1.json": "ef1fccb7bbcc2f1c711307738596d8322c6e7f05f95cfa057a42931b78d44372",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\benchmark_acceptance.json": "3ddef7de9c71140284144200641187dbd4b8dc5566758cc77e2e693db1308c98",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\cifar10_full10000_a0\\results.json": "4bf8932895597cfb0b69736d130f21fabafe58610f916f1d16532076528f2f6d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\bntt_acceptance.json": "71b3a8ebb3c2ab9f2a9fb870f1aad59b19d4d4fd5679f551de6ed9905e52c5ad",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\benchmarks\\tiny_T30_n64_a2\\results.json": "ce9c42b9072ba7f7cb231f4763dcc94039399580c2af708de2d82ceb7d8fbfe4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\results.json": "ff3ec141b2140b06f5a090d37cadba23dbf62ef6aef2360e573a2ddd1cf6c013",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a1\\results.json": "1de5de022da903b365633829cad6e8f03b14f14f737902bf5fc82711ba19ffaf",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_capture_v2_independent_source_review.json": "44e258776fc4e9ae76c893f2a740883b10fc7999dd2dad852a7cc8231e0c10e4"
+  },
+  "no_model_or_vendor_jobs_launched": true,
+  "no_architecture_model_or_manuscript_edits": true,
+  "scope": "Snapshot sanity review, not fresh independent correctness verification, not a prior-art absence proof or publication acceptance prediction",
+  "adaptive_classification": "Yes: actual current U and common coefficient admission select two narrow or one exact full16 operation at runtime. Storage units/precision and neuron equation stay fixed. This is lane-count adaptation, not spike-activity prediction, exponent/mantissa scaling or precision reduction.",
+  "single_candidate_contribution": "An integrated exact rounded-leakage decoder with membrane-range admission/full16 fallback and a measured one-DSP fabric/rate trade-off. Proof, E8 ablation, public-model validation and E1 fixed split are supporting evidence, not three independent inventions.",
+  "defensible_without_energy_win": "The matched one-DSP generic-core resource saving is independently meaningful:62LUT/44FF versus202LUT/79FF at the same full16 contract and12ns fixture. On the recorded GLIF arithmetic stream,1.0836% extra issues gives a near-pair issue rate. This can support a scoped circuit/area versus useful-issue-rate result without an energy benefit; it does not by itself establish a strong publication.",
+  "critical_limits": [
+    "No throughput or burst-latency superiority over fixed E1 is measured. E1 wins matching-coefficient all-wide bursts; OTTT/BNTT adaptive issue penalties are54.9444%/27.0303%. Kernel issue counts exclude memory, scheduler integration, zero-filter cost and complete neuron latency.",
+    "Accuracy preservation is against the declared integer model and is shared by exact fixed/LUT alternatives; FP32 conversion differences are separate.",
+    "Resources remain LUT,FF,DSP vectors; E3/E4 provide legitimate competing points. E5 is not universally smaller.",
+    "E8 difference15LUT/8FF is combined admission/full-width support cost, not isolated controller area.",
+    "Generic actual-value packing/spill recovery has prior art; no first-use or exact-priority conclusion follows from the bounded review and four inaccessible full methods."
+  ],
+  "strongest_unmeasured_model_specific_controls": [
+    "BNTT beta253 exactzero-DSP shift/add/sub control is proven but its routed area and activity energy are unmeasured. No BNTT hardware advantage is defensible without that comparison.",
+    "GLIF trained channel parameters produce two known coefficient choices per neuron/channel; a model-specific constant bank or shift/add representation plus selection remains unmeasured. Generic input-coefficient engine results cannot establish superiority over every checkpoint-specialized datapath. This does not invalidate same-general-contract E1/E7 comparisons."
+  ],
+  "status_refresh_needed": [
+    "Draft currently mentions only OTTT stress capture; add accepted reviewed v2 a1 bounded64 representative activity after root consumer admission. Preserve a0 failed sampling and do not equate the bounded64 capture with the full10k stream.",
+    "Refresh pending delayed/energy statements only from final explicit accepted route/cohort/power audits. A failed energy comparison should remain a negative result rather than be reframed as an energy contribution."
+  ],
+  "conditional_recommendation": "If final representative energy is neutral or unfavorable, retain exact adaptive leakage plus scoped fabric-saving/issue-rate trade-off as the paper question; report negative ranges/constant controls plainly. Do not add unsupported accuracy, universal speed, first-use, or separate fixed-split novelty claims."
+}

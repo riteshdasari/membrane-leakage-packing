@@ -1,0 +1,15 @@
+{
+  "samples": 16,
+  "batch": 8,
+  "threads": 4,
+  "started_utc": "2026-10-10T15:22:09.778029+00:00",
+  "source_commit": "c15d5da05eea0c48e1fa837a4f8073297006d93f",
+  "checkpoint_sha256": "c66b1f886ae840d0e3fd969c3957bb929590fff305cc4d19b6d25e33170dd56f",
+  "data_sha256": "468cf2423868b99b27f990546eda6bd4d22e66a52d0d00dfa5d7fe4bac7264a0",
+  "runner_sha256": "e8ea2492323a642c5220300d480ca63cf5cbbb68f50ecae1d07c7e3870168b58",
+  "adapter_sha256": "4f4d9e05b79893af72af8bca621b4e5e3371507bb8efd4ecbed796786d4767ae",
+  "packing_sha256": "e77052d271929affc5eb7f09307f1d13c22aab6178b127d8fb39363d645389dd",
+  "contract_sha256": "3d16112e7cefc7f77a397b0b70abf495223e4faf25e39fac9950bc2c973a02ab",
+  "separate_feedback64_sha256": "6b0636ff334f21075742dcb0c2111b4a90fab6217e4ca1d5ae781c4dbe0e63e1",
+  "validation": "Every packed leakage checked against independent scalar ceil before actualpackedfeedback; separate64threeexecution allstates/spikes/logits check retained"
+}

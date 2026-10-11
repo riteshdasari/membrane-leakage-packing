@@ -1,0 +1,16 @@
+{
+  "status": "prepared",
+  "original_auditor_sha256": "0e86b3785a9f0124419e7ffee9260d7dbd5aeb0414416ee95d321edf085a44ca",
+  "new_auditor_sha256": "408464028399674122228e9d591628adc8febbfe4ab409420e2c4cfa16c82bdd",
+  "corrected_fields": [
+    "Returned fixture_FF metadata",
+    "Returned scope description"
+  ],
+  "gates_changed": false,
+  "source_restoration": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\run_trial.py",
+    "expected_and_restored_sha256": "390c6cb743299d9bb7b695582e644d5c5754996f52542396524851218312a160",
+    "explanation": "A stale subagent added resume-log naming to an already executed runner. Strict hash gate rejected E0 audit. Root reversed the exact patch and independently matched the original recorded SHA256. No tool inputs/checkpoints/netlists/simulation artifacts were changed by the patch."
+  },
+  "retained_failed_attempt": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\repair_completion.json"
+}

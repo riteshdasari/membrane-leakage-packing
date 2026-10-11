@@ -1,0 +1,15 @@
+{
+  "status": "prepared",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_stage4_energy.py": "c9755ceb961a99c51acee91e82deccd4e22124977b38212182c1694d6da1f6ef",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\audit_power_prefix.py": "c351741b9e4adf8d731d88398cb38fb37bb16469ace89e7be01d78c4ca75a544",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\audit_power.py": "dca895a92fe898d40814e170e3497d0fcac4c063e4c78bfa1cf86a0c4a28ca1e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_energy.sv": "69ba806de173204c48c7440efe4187b711fc760affb5b32effa43d16808f0618",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\export.tcl": "a2f9f0ece4be727e2cd18e76ff05e07c967a7ddb055b882c1c474683ee182fd9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\power.tcl": "77d9525b24a08a694666106f192bf78361ad0d3931b85af846b8b8b7f2f253a5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\tb_replay.sv": "21e9fe31e0b80c4959ebf2571b70ef5a606c710699efecb97206f2dca31937fa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\audit_power_v2.py": "408464028399674122228e9d591628adc8febbfe4ab409420e2c4cfa16c82bdd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\export.tcl": "bc005fed8ceab3ccd093fe4c733581d398e77d243e3690bc9901f16de3ad210e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_energy_trial\\power.tcl": "36826fb4037a568f822618327a9d5dd59bd1867395fabf713588f788e0a7a522"
+  }
+}

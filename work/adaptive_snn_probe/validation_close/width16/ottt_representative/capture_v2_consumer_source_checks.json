@@ -1,0 +1,50 @@
+{
+  "status": "pass_additive_K2_capture_consumer_source_checks",
+  "changes": [
+    {
+      "original": "    capturesource=str((W.parent/'activity/capture_ottt_representative.py').resolve())\n    assert r['source_sha256'][capturesource]==known['source_sha256'][capturesource]==sha(capturesource)",
+      "replacement": "    activity=W.parent/'activity'\n    protocolfile=activity/'ottt_capture_preparation_v2.json'\n    reviewfile=activity/'ottt_capture_v2_independent_source_review.json'\n    protocol=read(protocolfile);review=read(reviewfile)\n    assert review['status']=='pass_independent_second_capture_source_review'\n    verify(review['source_sha256']);verify(review['artifact_sha256'])\n    assert protocol['status']=='predeclared_before_second_capture' and protocol['windows_per_nonzero_frame']==2\n    assert protocol['fixed_seed']==417839 and protocol['target_scalar_operands']==262144 and protocol['distribution_gates']==GATES\n    verify(protocol['unchanged_prior_pins'])\n    basecapture=str((activity/'capture_ottt_representative.py').resolve())\n    capturesource=str((activity/'capture_ottt_representative_v2.py').resolve())\n    assert known['source_sha256'][basecapture]==protocol['base_source_sha256']==sha(basecapture)\n    assert r['source_sha256'][capturesource]==protocol['new_source_sha256']==sha(capturesource)\n    assert set(r['source_sha256'])==set(protocol['unchanged_prior_pins'])|{capturesource}\n    for filename,pin in protocol['unchanged_prior_pins'].items():assert r['source_sha256'][filename]==pin"
+    },
+    {
+      "original": "K=min(8,source['nonzero'])",
+      "replacement": "K=min(2,source['nonzero'])"
+    },
+    {
+      "original": "len(js)==min(8,sourceframes[key]['nonzero'])",
+      "replacement": "len(js)==min(2,sourceframes[key]['nonzero'])"
+    },
+    {
+      "original": "Path(__file__),resultfile,routefile,W/'domain_acceptance_glif_v2.json'",
+      "replacement": "Path(__file__),resultfile,routefile,W/'domain_acceptance_glif_v2.json',W.parent/'activity/ottt_capture_preparation_v2.json',W.parent/'activity/ottt_capture_v2_independent_source_review.json',P/'capture_v2_consumer_source_checks.json'"
+    },
+    {
+      "original": "Path(__file__),P/'cohort_acceptance.json'",
+      "replacement": "Path(__file__),P/'capture_v2_consumer_source_checks.json',P/'cohort_acceptance.json'"
+    }
+  ],
+  "exact_reverse_substitutions_reproduce_frozen_profiled_consumer": true,
+  "first_failed_capture_rejected_before_native_or_energy_admission": true,
+  "old_consumer_and_all_old_evidence_unmodified": true,
+  "all_six_distribution_thresholds_unchanged": true,
+  "source_model_and_route_pins_unchanged": true,
+  "native_engine_index_mapping_unchanged": [
+    5,
+    1,
+    6
+  ],
+  "native_or_timing_or_power_checks_changed": false,
+  "admitted_second_capture": false,
+  "inference_launched": false,
+  "vendor_jobs_launched": false,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_capture_v2_consumer.py": "e16217a8c5d68b1489511cf64d526c48ada618b3243fc583dc57c62512ca8c18",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run_profiled.py": "dc99616fcf0c025053ba9c0ff876fd9b736dbe67e0bc5cb4bdc26eedbb87bf02",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_capture_preparation_v2.json": "8ca6cfb5f98010e5805bf51e4e9d2796e4ff264dc91f2b87f8ad76b34b88bd69",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_capture_v2_independent_source_review.json": "44e258776fc4e9ae76c893f2a740883b10fc7999dd2dad852a7cc8231e0c10e4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\ottt_random_stratified_a0\\results.json": "6df63c3f3724701e9fd778bd8cecf61ea77113fd11048a3dddb6da88c70c8129"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run_profiled_capture_v2.py": "9dd839e88eddbe10154aa1931c5ef6d5cc70b28676c06c184a7c45f47c5c5b30"
+  },
+  "limitation": "Source-only preparation. The new capture must still pass exact feedback and every unchanged distribution gate before any native or energy job."
+}

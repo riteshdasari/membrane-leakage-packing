@@ -1,0 +1,443 @@
+{
+  "status": "pass",
+  "experiment": "Frozen fixed residue V2 versus adaptive shared correction V3",
+  "architecture_changed": false,
+  "useful_scalar_updates": 635904,
+  "useful_requests": 110592,
+  "native_exactness": "pass",
+  "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2",
+  "power_audits": {
+    "2": {
+      "status": "pass",
+      "variant": 2,
+      "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1",
+      "matched_physical_design_nets": 726,
+      "physical_activity_source_counts": {
+        "S": 1280,
+        "C": 4,
+        "D": 7
+      },
+      "physical_activity_unknown_records": 0,
+      "raw_unknown_records": 1369,
+      "excluded_unknown_scope": "Only simulator internals/optimized aliases absent from verified physical S activity; constant nets inferred0/1 explicitly audited",
+      "native_interval_audit": {
+        "status": "pass",
+        "variant": 2,
+        "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1",
+        "replay_check_sha256": "cd485b48a9025572b7427ad9ce02242323b230599330ffdf6f85d0ccdbf548b8",
+        "duration_ps": 663588000,
+        "scalar_updates": 635904,
+        "requests": 110592,
+        "correction_steps": 0,
+        "correction_freezes": 0,
+        "clock_transitions": 221196,
+        "raw_unknown_time_records": 1369,
+        "scope": "Exact trace/interval/SDF/SAIF checks; power relevance of raw unknown records requires mapped-net audit"
+      },
+      "critical_dsp_activity": {
+        "fixture/core/d/CEA20": {
+          "static_probability": 0.999946,
+          "signal_rate_Mtransitions_per_s": 0.00301392,
+          "toggle_rate_percent": 0.00180835,
+          "source": "S"
+        },
+        "fixture/core/d/CEP0": {
+          "static_probability": 0.999946,
+          "signal_rate_Mtransitions_per_s": 0.00301392,
+          "toggle_rate_percent": 0.00180835,
+          "source": "S"
+        },
+        "fixture/core/d/advance": {
+          "static_probability": 1.0,
+          "signal_rate_Mtransitions_per_s": 0.0,
+          "toggle_rate_percent": 0.0,
+          "source": "S"
+        }
+      },
+      "dynamic_power_W": 0.0173,
+      "dynamic_power_rounding_bound_W": 2.8086509999999996e-06,
+      "device_static_W": 0.0837162,
+      "dynamic_energy_J": 1.14800724e-05,
+      "estimated_dynamic_energy_pJ_per_scalar_update": 18.05315330615942,
+      "voltage_sources": [
+        {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000242",
+          "power": "0.000242"
+        },
+        {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.017300",
+          "iccq": "0.014842",
+          "power": "0.032141"
+        },
+        {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.018129",
+          "power": "0.032632"
+        },
+        {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      ],
+      "device_settings": {
+        "part": "xc7a100t",
+        "grade": "commercial",
+        "package": "csg324",
+        "speed": "-1",
+        "process": "typical",
+        "vid": "No"
+      },
+      "thermal_settings": {
+        "AMBIENT": {
+          "value": "24.539091"
+        },
+        "AIRFLOW": {
+          "value": "250.000000"
+        },
+        "HEATSINK": {
+          "value": "medium (Medium Profile)"
+        },
+        "BOARDSELECTION": {
+          "value": "medium (10\"x10\")"
+        },
+        "BOARDLAYERS": {
+          "value": "12to15 (12 to 15 Layers)"
+        },
+        "TSA": {
+          "value": "4.600000"
+        },
+        "TJB": {
+          "value": "5.700000"
+        },
+        "BOARDTEMP": {
+          "value": "25.0 (C)"
+        },
+        "USER_JUNCTION": {
+          "value": "25.0 (C)"
+        }
+      },
+      "clock_period_ns": 6,
+      "power_xpe_sha256": "6ee557680a755859afcbfdcfa573579195e22be3c01424ed8632d8e31bfbf64a",
+      "scope": "Vendor estimated dynamic energy of complete219FF OOC fixture; not board measurement or core-only result"
+    },
+    "3": {
+      "status": "pass",
+      "variant": 3,
+      "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0",
+      "matched_physical_design_nets": 856,
+      "physical_activity_source_counts": {
+        "S": 1410,
+        "C": 4,
+        "D": 7
+      },
+      "physical_activity_unknown_records": 0,
+      "raw_unknown_records": 1458,
+      "excluded_unknown_scope": "Only simulator internals/optimized aliases absent from verified physical S activity; constant nets inferred0/1 explicitly audited",
+      "native_interval_audit": {
+        "status": "pass",
+        "variant": 3,
+        "directory": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0",
+        "replay_check_sha256": "f475f5f1b7c29d77f6976ce03303ef4d7ac4fc588c9393a35b11d4038b75884d",
+        "duration_ps": 664272000,
+        "scalar_updates": 635904,
+        "requests": 110592,
+        "correction_steps": 1008,
+        "correction_freezes": 114,
+        "clock_transitions": 221424,
+        "raw_unknown_time_records": 1458,
+        "scope": "Exact trace/interval/SDF/SAIF checks; power relevance of raw unknown records requires mapped-net audit"
+      },
+      "critical_dsp_activity": {
+        "fixture/core/d/CEA20": {
+          "static_probability": 0.999017,
+          "signal_rate_Mtransitions_per_s": 0.319146,
+          "toggle_rate_percent": 0.191488,
+          "source": "S"
+        },
+        "fixture/core/d/CEP0": {
+          "static_probability": 0.999017,
+          "signal_rate_Mtransitions_per_s": 0.319146,
+          "toggle_rate_percent": 0.191488,
+          "source": "S"
+        },
+        "fixture/core/d/advance": {
+          "static_probability": 0.99907,
+          "signal_rate_Mtransitions_per_s": 0.325168,
+          "toggle_rate_percent": 0.195101,
+          "source": "S"
+        }
+      },
+      "dynamic_power_W": 0.0201,
+      "dynamic_power_rounding_bound_W": 2.8100509999999997e-06,
+      "device_static_W": 0.0837162,
+      "dynamic_energy_J": 1.33518672e-05,
+      "estimated_dynamic_energy_pJ_per_scalar_update": 20.996671195652173,
+      "voltage_sources": [
+        {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000242",
+          "power": "0.000242"
+        },
+        {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.020100",
+          "iccq": "0.014842",
+          "power": "0.034941"
+        },
+        {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.018129",
+          "power": "0.032632"
+        },
+        {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      ],
+      "device_settings": {
+        "part": "xc7a100t",
+        "grade": "commercial",
+        "package": "csg324",
+        "speed": "-1",
+        "process": "typical",
+        "vid": "No"
+      },
+      "thermal_settings": {
+        "AMBIENT": {
+          "value": "24.526316"
+        },
+        "AIRFLOW": {
+          "value": "250.000000"
+        },
+        "HEATSINK": {
+          "value": "medium (Medium Profile)"
+        },
+        "BOARDSELECTION": {
+          "value": "medium (10\"x10\")"
+        },
+        "BOARDLAYERS": {
+          "value": "12to15 (12 to 15 Layers)"
+        },
+        "TSA": {
+          "value": "4.600000"
+        },
+        "TJB": {
+          "value": "5.700000"
+        },
+        "BOARDTEMP": {
+          "value": "25.0 (C)"
+        },
+        "USER_JUNCTION": {
+          "value": "25.0 (C)"
+        }
+      },
+      "clock_period_ns": 6,
+      "power_xpe_sha256": "1aba792a127d90a4a1e6191be845514b36c438a82143ff1ee785691c633f3cd9",
+      "scope": "Vendor estimated dynamic energy of complete219FF OOC fixture; not board measurement or core-only result"
+    }
+  },
+  "adaptive_over_fixed_dynamic_energy_ratio": 1.16304729924874,
+  "adaptive_dynamic_energy_increase_percent": 16.304729924873996,
+  "dynamic_power_increase_percent": 16.184971098265887,
+  "service_clock_increase_percent": 0.10307786900067839,
+  "coarse_report_rounding_energy_ratio_interval": [
+    1.1154342754841857,
+    1.2437048836983735
+  ],
+  "precision_scope": "Display/serialization rounding only; no bound on vendor-model or physical-measurement error",
+  "core_resources": {
+    "2": {
+      "LUT": 43,
+      "FF": 262,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 54,
+      "occupied_slices_reported": 54
+    },
+    "3": {
+      "LUT": 147,
+      "FF": 268,
+      "DSP": 1,
+      "RAMB18": 0,
+      "RAMB36": 0,
+      "occupied_slices": 68,
+      "occupied_slices_reported": 68
+    }
+  },
+  "selected_adaptive_signal_rates_Mtransitions_per_s": {
+    "fixture/core/bad_mask[0]": 74.6351,
+    "fixture/core/correction_step": 3.01985,
+    "fixture/core/corrected_high[1]": 153.269,
+    "fixture/core/corrected_high[2]": 149.692
+  },
+  "primary_conditions_equal": true,
+  "derived_ambient_C": {
+    "2": "24.539091",
+    "3": "24.526316"
+  },
+  "measurement_scope": "Vendor estimated dynamic energy of complete219FF OOC fixture; not board measurement or core-only result",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_i8_fixed_comparison_trial.manifest.json": "1809e12b25e350a8315bffba57da85b9f973ac11a3f1b8833e1d15be4e40f3d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_i8_fixed_comparison_trial.md": "d1eab1a25ed2ed20bdda018b0b83f75574ea3eded0ef5b22609b8703ee2776be",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_i8_fixed_comparison_trial.summary.json": "2df746e766038f68f317045a8932b3cd58f3342faad7f595f80baae769a32a75",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_selective_correction_trial.manifest.json": "d56955d0812a4eb4ad7e3a5f9542f9723f209c835849daa18458d651d527001a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_selective_correction_trial.md": "6a1feed4280027a8aba290c975f2e1af51a854c3b3651d72f29799b02541b93e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\outputs\\membrane_selective_correction_trial.summary.json": "b544972bc5c880b2e9e46894f5ba4255a6d4295b9d67993b58db046f34a33dea",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\baseline_retime_trial\\guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\guard_add_selective_timing.sv": "d723a775f209968b58f658fab3b3f6367e627fab90a6048426ef7ed479c1b3c9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\selective_hardware.json": "a1c9872ba58af652ba55e015da04bd3468bde02128b0c6c0eea098ee2aafb713",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\selective_models_p1_0\\stream_out0.txt": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\selective_models_p1_0\\stream_out1.txt": "034d48abd1d81da682dedfae513e92c2115629cec4a6f73cf20e2f24f977faab",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\selective_models_p1_0\\stream_stim.txt": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\selective_models_p1_0_checks.json": "b5e9a7f289925c37f67f0b3ecad3618145874f83914638ba173083ca2712cb96",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\boundary_slack.txt": "bc20390e987aaf64643d60de6e212a024bc1ec142de595b422c04cf9bb369ad0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\boundary_timing.rpt": "afb3844e7727d7791052aad98f730dc81586c74126f4390a057027db991820c3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\capture_paths_max.rpt": "1c51760ab1592662a1ae1fed6a50f8e61cfddd345f233e7c115ad243887369c2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\capture_paths_min.rpt": "d32149f346b23e894aa547f1aafb89372defa485cde3996fc4c6d9180e4093c1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\core_util.rpt": "53f44aadc08a894e7df1676cecb9044da9d2e55a5d2991956fcc3954171c68a6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\design.dcp": "43edfc647d9d2b1e1bfb9a84bd8eb044f9406fab036ed5824e838904a6a252f1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\fixture_accounting.txt": "b6445be4aac58745677fae7a6d5f342fd409bcb22f817a4c72569ce37678faf1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\hierarchical_util.rpt": "28234a204d95b005dcefdf26ba8d45ef822098aba831f7dcf781d34db5719cfa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\input_paths_max.rpt": "57a6fd677d4e103d5a1490c69b240e2af0a8fd7671dbc9608bbd0b4268f18c82",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\input_paths_min.rpt": "ab8deadefa7bf3df8d9895e8b3a8f7e9ab66c3c7edb9b53da4e9eaa87dd24419",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\launch_paths_max.rpt": "d7fe62f403252a14d6ef16ff79ca5aeb4d40d98b4ebc5b87f7746aec12aa8718",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\launch_paths_min.rpt": "1dbc1323e8dfc386104eef13dcd87fa345fbf9f14f99438da0fcb22cff680b73",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\output_paths_max.rpt": "111c345f8d18fb841ce3a941fe06857e92843dba040d24d66764f42a064e3a56",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\output_paths_min.rpt": "11928cb1f1a5038475132ba3540bdb097c0510875f575b96749bd485ba1e95c6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\paths_max.rpt": "fa1ba4e4f9d504944cca65155a011888be740654696c30fca626a8a314cb2ae0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\paths_min.rpt": "9b19679a65018d55880ead61cb8d3cae0804eb6aa56785d1d94d2c8bec1be1fb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\provenance.txt": "77171e687c9bb9e5cf262e407ddab502197b0deb22645d11b2f990c9aed3035a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\slack.txt": "028aa40d35dc11e793c0949fa34321077f6e103ffee13c0b45675b013922a5b1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\slice_sites.txt": "e26e2650ed182d85c87c60a949c17e757499678a16cbca33d284fbe4d6e66c65",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\timing.rpt": "72c81c8c9a5577e0a92de0a584ec7494da68a6d86b0e95aa8f0ee018b303328c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_route\\util.rpt": "d19cb5f0359231ce97940a8e8286a0c03b362db75282e765d579abf42b599e2d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_synth\\design.dcp": "ef02e2387e3c751b766aa8d9a24221eb2582a44afb44a4749f50b9a227bc6cdc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_synth\\hierarchical_util.rpt": "35128111f3ee0cbe698bd4f2ba2425917827b96734bb57f12a02267d4e0aa0a5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_synth\\provenance.txt": "5f953158e6ba6ed98023e30fdb6a4dd6f9137c5e61030d80679779faca30543b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v2_synth\\util.rpt": "a4e4343e5905077e9072ffb42eea9c393f520747b3cc61479f9bcd4fcfa03ed9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\boundary_slack.txt": "19834cd4ac377faf5693e4890801630fdcc408ecf89c74bd143a49b99bb1ef5f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\boundary_timing.rpt": "464dfa62d797951f316a7f25b12c202502565cf05d2adc03d310ba1cdf204c58",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\capture_paths_max.rpt": "fa69522394875d539186ed9882efef8db06af6cac50371e75a8bb4ec4f83aacb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\capture_paths_min.rpt": "2ffb438ab5baa3bef49015738111c1de326730e389a366dde0047b170f0cd906",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\core_util.rpt": "5c657bc3d89a31bee96ccef0f24ed6753f9597713a709ea461c5b26b6f33bb55",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\design.dcp": "4dbafa3f4e40c469f39d73e2c587a96c3c1719880052f2b01cc2f1afc2655b1f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\fixture_accounting.txt": "bd7749f86e866ab505138c49b848c99241c85153e62520b06866249e66cda414",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\hierarchical_util.rpt": "27fa51c48c74763141bde8b37963c34a1b0cee23f5cda2617ff1e9e3034c9dfe",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\input_paths_max.rpt": "7bb97e0f6d7021f1c3135b7231b141370b72995a0e74fb55b71d72d1f9076ab1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\input_paths_min.rpt": "65f384af60a65513c45753019960bcb14ca043a079f7f0089aa54a6d52e0c7e6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\launch_paths_max.rpt": "c74b771c119a4d5c05ef854166ddaa73886dac10c6c174c42fa2828f9d366e9a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\launch_paths_min.rpt": "f227068e6402a26a3049a2ab4729f5731b359d401c152b56cdc4b41b5782f2ab",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\output_paths_max.rpt": "f9498c2ceeca0baa677410821181b487c2c40e4f789029740379fc8aab37c362",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\output_paths_min.rpt": "ad697308750c1929c37d11ecab1a0abd47e33ed5067921a11f2ff53504748e72",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\paths_max.rpt": "19f22bb6770d97f9244ab9f839d9e360a510f7804185e03eed1714e42a3bbc04",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\paths_min.rpt": "c45f177ddc0f59283c0c4481f870abd4a2829b6efdc7d880b595c9b30be5e1dd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\provenance.txt": "f2210f6db10835b4872d283594e1c0a12959c4e43175164405386c3cf502c62e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\slack.txt": "464ed1a534f22be98cff1164076afdc35b9b544a33734158a3c13b451a291fd8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\slice_sites.txt": "0aef8a0664d8e26a82e073ecde3fc6e26b40e3bfaad2501c208a7af04d2c1119",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\timing.rpt": "267d93406a550635980ff71c3e6107bf895a129e940a7fe433e2ec67ba1803b6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_route\\util.rpt": "66bf69f23bf4f4170920748d0ec97cf6773cc2d97dfe32711920ee9241ec6732",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_synth\\design.dcp": "a840e7f0af2258f1516af88b12b0d33a76de558aa56a39de66554caf149fcb7c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_synth\\hierarchical_util.rpt": "b7513387b516f7099ce28664e4a639ff424653458b979bcae4b8034c6638dbf9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_synth\\provenance.txt": "75f9d1c586e23999c43a7ba413478b2100a54baaa4bfadacc0064da853d26e1c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\results\\top_guard_add_selective_v3_synth\\util.rpt": "5ac72cc053490fa96c2ec094fdd761fcb6addfd176f21bd92747523da428a8c8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\route_guard_add_selective.tcl": "a3bf48502d47127d286c37bb164bf3df7de1a623df3fefd5904e431a83dc2e3b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\run_guard_add_selective_route.py": "f3c6f32cbffc7662970fa41b39bac5f0de00c1adacac7ed0d00477f6e2a02ae3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\common_layout_trial\\tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\annotation_power_audit.tcl": "50e3a57a39f881668ee2a12c707d043a181b7a17c6bd80c6e9e28c6cd9c9a19b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\normalize_saif_names.py": "81d84539f84354b317e452de0f4ffe3858f4a32afa54baea37416497d1d7ff07",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\activity_named.names.json": "ee3bc57851a634c6edeb8512d54869e0b825f50172d873523717647000c18259",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\activity_named.saif": "9449893533ad5b1acddf37850aaaa009c709e68831b425daaba1b3b9a3fe0bbc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\replay_checks.json": "cd485b48a9025572b7427ad9ce02242323b230599330ffdf6f85d0ccdbf548b8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_annotation_power.py": "0bf87598a5de52f003f80feb3f32ee3c087a449f1bfb2559195c812644f24601",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\annotation.job.json": "17111ac780a2393df64b4d51c2734eab64fff460d028116af8ba902a9422e9d3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\annotation.log": "7d5fbf4cf1aacdfb42f5d45bd55e6711bd683c64c948098d79f16856d3388cad",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\clocks.rpt": "ac282f97dcc63aa17daf766303867ef3f797aec1f735b31e2bfabd6f1a03b36b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\dfx_runtime.txt": "b75c9e4c66aa27b672ca9b417568b0eb52826563b51020c6a96eccbf45e9dea3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\net_connectivity.jsonl": "0497bdff740cbeb911f39849c93f19330cdd5224068fa7d452520a264672dfa5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\operating_conditions.rpt": "e8d7882bf1c1813dcc51843545841a20edb7b244bf00218611a470d1c0ee27bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\power.rpt": "2d01c5a6c865c10486ac35d03fc778cb7863cdbfb9fe3cfc6228ca7109b2a099",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\power.xml": "1b22ad17302347620b655c12de1b8dd072e996c98570fa7966c04a8b0f19d05a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\power_xpe.rpt": "be86d9173b27db113e53c19376a9adadb4e0f7a8184125946f3ff3f016463f47",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\power_xpe.xml": "6ee557680a755859afcbfdcfa573579195e22be3c01424ed8632d8e31bfbf64a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\provenance.json": "8b54b7b908a69fbb1aa1f6fb310601fcbefac6d57c6cced0c7c98762a4dacb08",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\switching_activity.rpt": "426f11400bac6ce4e9bbb34ea3593d11cecaf376a137c7f704e250d8f45f8a82",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\unmatched.rpt": "ea113d82e274f000e1965c229a6ed1894e961beaf0a0f532e46b5fd668381a14",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\vivado.jou": "c8c30313009d4b6240758b121ea536aa1c78c774114735ec3040a30c8b2b09e4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v2_a1\\vivado.log": "7ca6301bd6af6e093061dc68fa91cb64fb9239470be42690a80769db428795eb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\CONTRACT.md": "582dbb5bf85b02495354d70aaaeb387e5db42c9e5778f3743566f81865658627",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\replay_source.py": "7ee792efdc94a974ebc60890934e506e2b565bffafbfcf873286243e609be7bd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\export_v2_a1\\artifacts.json": "f858b44277e02573237b886bc4feb3e2cd0a9394a23f90f1fa3efddea0b24798",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\export_v2_a1\\routed.sdf": "62c2a61f04db5d8dbf4c2bbe639bd7a6f720c9fefa5f44623e118dbdd8ffbe80",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\export_v2_a1\\routed.v": "233f017809f1bea6705191158f369ce2bbd71fac419b0b479a556815ee5a8935",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\native_models_0_a1\\native_trace0.txt": "8eeb3413c248ffe8f195068f4ce5f6c4cf4095d0c39345040bac1b8d4accc81b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\tb_selective_route_replay.sv": "dca82bcc578fafc4a92079fea7e7b8385ad874baa3fffa248c9ec76a545e82d5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\native_models_0_a1\\native_checks.json": "f7c21ba1051c5430f745fd3c61ae9640cc850266bd766042f9d15a26e342f882",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\activity.tcl": "7aa93ff517c8f3e21841c374933d625e54d43e989d745c046e35e7696439d697",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\record_source_377b565869a6.py": "377b565869a690ca7b8b984ee73818ec513c22ae14db98c922b68cc66eaa64af",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\activity.saif": "fb153fc9746e8a295c5b168bfa62037cdcb15748efeb44a0b4e962ff5aaf94f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\tool_0.log": "b0b93e5952a049f871a92e812f251b364540acc837bfaa146e07fee647bec066",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\tool_1.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\tool_2.log": "36cc5fd2ddd8d382e9fdcd617beb46ab5aa4053324c09209e44d1f892bfd8cd8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v2_a1\\tool_3.log": "5498461c682cf9751088b8332a0d94e4b672f62b0144a20c586d6324a682b279",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\export_v2_a1\\export_source.tcl": "7ff8bc30610ecfa26f8e0b95bd9142135aa2aeab8941a81d76b86a599f15bd65",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\activity_named.names.json": "035b2eab4cbab5b7c03ad7db1159a45b68bb47ffea798170cb0f49910c1547d5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\activity_named.saif": "51d25f97fd689f44569ae7c61578acb19f9753ea3f26c7619d4f0396cbb26e82",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\replay_checks.json": "f475f5f1b7c29d77f6976ce03303ef4d7ac4fc588c9393a35b11d4038b75884d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\annotation.job.json": "8fb688343e8989576d699e964482ad6c0f2b09765d1f28a01182bc262eab5f72",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\annotation.log": "4b71878ce66743601ec812d2f35bd1d00f6ae312cb2a571b8f1c9874487926bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\clocks.rpt": "c118b7d237aead9656472865080205def58ddd5f32e48e4b08f668799da8af96",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\dfx_runtime.txt": "b75c9e4c66aa27b672ca9b417568b0eb52826563b51020c6a96eccbf45e9dea3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\net_connectivity.jsonl": "f8be7f2c4f2137054ca1039493952d26f7a454af310093f6298b71621d65e4fe",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\operating_conditions.rpt": "e8d7882bf1c1813dcc51843545841a20edb7b244bf00218611a470d1c0ee27bb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\power.rpt": "6597ed326d9d67884b88ef53ad7def48db975f9a2a0b455e89f7b23165c71c81",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\power.xml": "432a0dd33e34025f2c76681cdde1e201b64fe051d0be37cd695c66b825ece177",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\power_xpe.rpt": "6bc1c9d32212c27e8624534a8ddb752d3976d233a1c254c751e17e6e1cdcdf91",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\power_xpe.xml": "1aba792a127d90a4a1e6191be845514b36c438a82143ff1ee785691c633f3cd9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\provenance.json": "0251cde472ce4d0107932b5e5343fe9692ee843ea9f2f5f1eebad1f42665e93c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\switching_activity.rpt": "3f3b0e76718dcd447bcef0a2613020c03f62a56341c76cf813e65453497293a5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\unmatched.rpt": "7c123a6714e95e3e293cb558084152991e1c8dc29d77bab0469f7222f7dd2234",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\vivado.jou": "7d62857a079c603d00490aaa2722a8487e70b97d7c67ab263e9bf74befc2ebf7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\annotated_power_v3_a0\\vivado.log": "b5de6ba7d559e5bcc114610565695debded08b7cf0aad00307cb08dcb3ee7349",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\replay_selective_energy.py": "377b565869a690ca7b8b984ee73818ec513c22ae14db98c922b68cc66eaa64af",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\export_v3_a0\\artifacts.json": "1122731b4fa4651fe2658a05270107c6cb285c3f62e3a24f40283f7b1acc9c99",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\export_v3_a0\\routed.sdf": "af22957dc3387f1ec051b7893a9ee86499e5cd28c1c1ca5b704856a82043aa6d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\export_v3_a0\\routed.v": "cce9d0c6a630a5ea2b7f2bed4ac62736aa5f82b049714291a1498342f2ca9fbd",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\native_models_0_a1\\native_trace1.txt": "58f2772ee413cec8ed34d2ff3bd8ab0722fb95cce4c71efb01736ebdaeeca97d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\activity.tcl": "b344d3cb8b1544ffc6c21f8bf3c7316a8b129935e5072d22635333523d4ac1d3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\activity.saif": "9c1c7097226f640cee4d3c3204183bf6420e284dd12648563aec1f01e0a3fc73",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\tool_0.log": "336278e5c48683412fa85b5fe0ff6bb7ad3ff531bd2ae0d9e0509ebe863f0e81",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\tool_1.log": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\tool_2.log": "c75ecbdb2a37ab8f2fca040d4d9152afe135f10eb5f8fb1f9531d205cd52cc1a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\results\\replay_v3_a0\\tool_3.log": "0451f99b9927be217703ca2bfcd1c0d675a51eca8e9dcfee32fad0981126937c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\selective_energy_tools.tcl": "d310eb8425ddbbd4a3d03c70763020519ccdcc41f9bf84c19ffa1586e1567053"
+  },
+  "audit_authorship": "Root reviewed and executed separate read-only audit; delegated agents hit usage limits before completing an independent energy review",
+  "decision": "No adaptive energy advantage for this frozen version on this saved workload",
+  "next_bounded_hypothesis": "Isolate fallback-corrector operands when no correction is needed; preserve fixed layout, exactness and service contract, then measure net area/timing/energy against both frozen references"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "declared_before_random_v2_distribution_results",
+  "selected_method": "random_stratified_v2 fixed seeded placements; midpoint capture retained solely as a failed method diagnostic",
+  "scope": "Arithmetic operands of complete original64-image GLIF stream, after common zero bypass",
+  "distribution_gates": {
+    "weighted_beta_total_variation_at_most": 0.05,
+    "weighted_previous_spike_total_variation_at_most": 0.05,
+    "weighted_membrane_coarse64_total_variation_at_most": 0.05,
+    "absolute_narrow9_fraction_difference_at_most": 0.01,
+    "unweighted_layer_time_context_total_variation_at_most": 0.005,
+    "absolute_adaptive_vs_fixed_split_issue_overhead_fraction_difference_at_most": 0.01
+  },
+  "widths_and_counts": "Use all observed source coefficients, no favorable coefficient or membrane exclusion beyond the identical predeclared zero bypass",
+  "boundary_acceptance": "Retain and report full-source pairing phase versus window restart, crossing pairs, and sample window count; no subtraction of selected overhead from measured hardware activity",
+  "interpretation": "Passing provides a bounded deterministic distribution check, not statistical confidence intervals or full10000 workload coverage. Failing forbids a representative energy claim; retain failure and report only sample energy. No choose-best outcome among random seeds."
+}

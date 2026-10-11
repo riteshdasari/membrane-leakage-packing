@@ -1,0 +1,136 @@
+{
+  "created_utc": "2026-10-09T15:19:36.595238+00:00",
+  "script_sha256": "27ffc651df9011045140f88e145a3de7b0f21424db42ce952c275423469579e3",
+  "model_input_sha256": {
+    "results\\adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3",
+    "results\\adaptive_delta_model_25_1\\expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+  },
+  "operation": "Addition of leaked signed11 membrane and recorded signed11 current, yielding signed12",
+  "frames": 9216,
+  "neurons": 635904,
+  "eligible_scalar_pairs": 611513,
+  "zero_currents": 46336,
+  "operand_ranges": {
+    "membrane": [
+      -474,
+      124
+    ],
+    "current": [
+      -74,
+      48
+    ],
+    "sum": [
+      -526,
+      145
+    ]
+  },
+  "reference_state_mismatches": 0,
+  "reference_spike_mismatches": 0,
+  "models": [
+    {
+      "engine": 0,
+      "requests": 115754,
+      "supplied_window_clocks": 115758,
+      "neurons": 635904,
+      "narrow_requests": 92384,
+      "changing_dsp_additions": 589568,
+      "changing_lut_additions": 0,
+      "copied_neurons": 1689,
+      "issued_dsp_lane_capacity": 634215,
+      "changing_per_dsp_issue": 5.093284033381136
+    },
+    {
+      "engine": 1,
+      "requests": 159536,
+      "supplied_window_clocks": 159540,
+      "neurons": 635904,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 589568,
+      "changing_lut_additions": 0,
+      "copied_neurons": 12257,
+      "issued_dsp_lane_capacity": 623647,
+      "changing_per_dsp_issue": 3.695516999297964
+    },
+    {
+      "engine": 2,
+      "requests": 110592,
+      "supplied_window_clocks": 110596,
+      "neurons": 635904,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 400061,
+      "changing_lut_additions": 189507,
+      "copied_neurons": 0,
+      "issued_dsp_lane_capacity": 433152,
+      "changing_per_dsp_issue": 3.617449725115741
+    },
+    {
+      "engine": 3,
+      "requests": 110592,
+      "supplied_window_clocks": 110596,
+      "neurons": 635904,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 0,
+      "changing_lut_additions": 589568,
+      "copied_neurons": 0,
+      "issued_dsp_lane_capacity": 0,
+      "changing_per_dsp_issue": null
+    }
+  ],
+  "synthetic_transition_service": [
+    {
+      "engine": 0,
+      "requests": 448,
+      "supplied_window_clocks": 452,
+      "neurons": 2304,
+      "narrow_requests": 128,
+      "changing_dsp_additions": 1536,
+      "changing_lut_additions": 0,
+      "copied_neurons": 256,
+      "issued_dsp_lane_capacity": 2048,
+      "changing_per_dsp_issue": 3.4285714285714284
+    },
+    {
+      "engine": 1,
+      "requests": 512,
+      "supplied_window_clocks": 516,
+      "neurons": 2304,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 1536,
+      "changing_lut_additions": 0,
+      "copied_neurons": 256,
+      "issued_dsp_lane_capacity": 2048,
+      "changing_per_dsp_issue": 3.0
+    },
+    {
+      "engine": 2,
+      "requests": 384,
+      "supplied_window_clocks": 388,
+      "neurons": 2304,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 1024,
+      "changing_lut_additions": 512,
+      "copied_neurons": 0,
+      "issued_dsp_lane_capacity": 1536,
+      "changing_per_dsp_issue": 2.6666666666666665
+    },
+    {
+      "engine": 3,
+      "requests": 384,
+      "supplied_window_clocks": 388,
+      "neurons": 2304,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 0,
+      "changing_lut_additions": 1536,
+      "copied_neurons": 0,
+      "issued_dsp_lane_capacity": 0,
+      "changing_per_dsp_issue": null
+    }
+  ],
+  "qualification": "Changed beta231 reference, sampled144images/3seeds; this is not a trained-model preservation claim.",
+  "limitations": [
+    "No RTL, timing, memory, power or burst arrival latency measured.",
+    "Only six-value ordered-window policies; generic gather/scatter zero compaction absent.",
+    "Fixed hybrid and LUT6 consume six every request and are necessary cost comparators.",
+    "Changing additions per issue are semantic counts, not measured DSP switching or efficiency."
+  ]
+}

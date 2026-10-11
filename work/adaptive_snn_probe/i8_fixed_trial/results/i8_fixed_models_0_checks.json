@@ -1,0 +1,195 @@
+{
+  "source_hashes": {
+    "guard_add_i8_fixed.sv": "1dbc500f27eb02f963474698ce754d87c5ed23ff1c9c9885282cca5d9f733420",
+    "tb_guard_add_i8_fixed.sv": "1c92305289463bde78a9796c5600b58297da1290a06a1729586fabc8bdf2de8d",
+    "check_guard_add_i8_fixed.py": "f3240c809b3d8849b4328b29c060c349dcba0996433285ad9594180394fdff67",
+    "check_guard_add_i8_fixed_snn.py": "7b08ec0e1914672581b3b65e4b27d8a3e3f01126e8fd3a518a782ec8e147fb7d",
+    "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+  },
+  "frozen_source_sha256": {
+    "../common_layout_trial/guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+    "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc",
+    "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834"
+  },
+  "profile": 1,
+  "backpressure": false,
+  "frames": 9216,
+  "rows": [
+    {
+      "variant": 0,
+      "label": "matched_i8_hybrid_E2",
+      "core_engine": 2,
+      "reference_core_variant": null,
+      "reference_engine": null,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    },
+    {
+      "variant": 1,
+      "label": "matched_i8_all_LUT_E3",
+      "core_engine": 3,
+      "reference_core_variant": null,
+      "reference_engine": null,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 0,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    },
+    {
+      "variant": 2,
+      "label": "frozen_i8_fixed_residue_V2",
+      "core_engine": null,
+      "reference_core_variant": 2,
+      "reference_engine": null,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    },
+    {
+      "variant": 3,
+      "label": "frozen_full_i11_retimed_hybrid_E2",
+      "core_engine": null,
+      "reference_core_variant": null,
+      "reference_engine": 2,
+      "requests": 110592,
+      "neurons": 635904,
+      "arithmetic_issues": 110592,
+      "clocks": 110596,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "correction_freezes": 0,
+      "correction_steps": 0,
+      "latency_checks": 110592,
+      "physical_latency_min": 4,
+      "physical_latency_max": 4,
+      "physical_latency_histogram": {
+        "4": 110592
+      },
+      "directed_boundary_cases": 12,
+      "mismatches": 0,
+      "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+      "numeric_retirement_sha256": "18f2cec6e15e0239e4b819b4e09863bf470b766627cf061a3115f597d4afc3c2"
+    }
+  ],
+  "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+  "stimulus_file": "i8_fixed_models_0/stream_stim.txt",
+  "original_stimulus_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_models_0\\stream_stim.txt",
+  "original_stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+  "source_frames_match_original_archive": true,
+  "matched_original_stimulus": true,
+  "archive_reference": {
+    "check_file": "common_layout_trial\\results\\selective_models_p1_0_checks.json",
+    "check_sha256": "b5e9a7f289925c37f67f0b3ecad3618145874f83914638ba173083ca2712cb96",
+    "stimulus_file": "common_layout_trial\\results\\selective_models_p1_0\\stream_stim.txt",
+    "stimulus_sha256": "90b86d5a48b706d108eecdb40da2ff766bebc7cf7dd6d719ce70e0aa3877a2df",
+    "output_file": "common_layout_trial\\results\\selective_models_p1_0\\stream_out0.txt",
+    "output_sha256": "03f72d89b7bb0545abefdf8e536c6358a577d56b8ffc71d0b02816388dc812ac",
+    "source_hashes": {
+      "guard_add_selective.sv": "b5c7d724d642b2310c4e447eabccaf965a3aa520aaf2e04c5f93accd5dbb9e48",
+      "tb_guard_add_selective.sv": "52245a991b24ffd91bc99207eb208482ab211316eb4ed1a25134c189b0f155e2",
+      "check_guard_add_selective.py": "fb2bee210903fdb3842655ce244dfdf6209eb2c67b32fbdd7c2a0e44fbbaf098",
+      "check_guard_add_selective_snn.py": "d0b5e9629a98614a4b597bdd4f0c2d36081c894eada5692904e50f38f113475e",
+      "guard_add_common.sv": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+      "../guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+      "../check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+      "../baseline_retime_trial/guard_add_retime.sv": "0409a89ead96866abee93ee4829210eb093d682a886a847bbf22557e1bd14efc"
+    },
+    "local_variant": 0,
+    "frozen_core_variant": 2
+  },
+  "matched_archived_fixed_retirement": true,
+  "stress_current_transform": "identity",
+  "fixed_outputs_byte_identical": true,
+  "outputs_byte_identical": true,
+  "numeric_outputs_order_identical": true,
+  "physical_clock_columns_identical": true,
+  "tested_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "expected_variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tested_core_engines": [
+    2,
+    3
+  ],
+  "model_input_sha256": {
+    "adaptive_delta_model_25_1/expected.npz": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9",
+    "adaptive_delta_model_input.json": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3"
+  },
+  "model_input_base": "../results",
+  "validation_kind": "saved_model_addition_replay",
+  "source_contract": "valid and entire raw payload held until acceptance; only available currents signed8; ignored binary tails arbitrary; input valid low during reset",
+  "operand_domain": "signed11 U, sign-extended signed8 I",
+  "acceptance_to_handshake_preceding_advances": 4,
+  "advance_convention": "Pre-edge step stored at acceptance; acceptance edge counted, handshake edge not yet counted.",
+  "integer_operation": "exact signed12 U+I",
+  "reference_variants": [
+    2,
+    3
+  ],
+  "reference_operation": "Direct frozen guard_add_selective V2 and guard_add_retime E2, plus archived selective profile1 fixed V2 retirement bytes",
+  "directed_prelude": [
+    "12 exact extrema/tail cases",
+    "stalled completed output held",
+    "zero available creates no output",
+    "reset cancels stalled output",
+    "reset cancels unfinished pipeline"
+  ],
+  "scope": "Matched fixed exact addition; physical service clocks measured in RTL; no memory, power, board or trained-accuracy claim"
+}

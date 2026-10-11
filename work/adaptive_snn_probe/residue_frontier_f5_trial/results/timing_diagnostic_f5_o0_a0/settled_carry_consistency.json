@@ -1,0 +1,154 @@
+{
+  "status": "retained_timing_replay_mismatch",
+  "sample_time_ps": 8810000,
+  "settled_input_duration_ps": 3508,
+  "selected_primitive": "lane[3].full_lane.base0_reg[6]_i_1",
+  "pins": {
+    "O": "101",
+    "CI": "0",
+    "CYINIT": "0",
+    "DI": "0",
+    "S": "111",
+    "glblGSR": "0",
+    "CI_in": "0",
+    "CYINIT_in": "0",
+    "CO": "0",
+    "DI_in": "0",
+    "S_in": "111",
+    "CO_fb": "0",
+    "LOC": "101010101001110010100000100110001000001010000110100010101000100",
+    "MODULE_NAME": "10000110100000101010010010100100101100100110100"
+  },
+  "expected_settled_O": 7,
+  "actual_O": 5,
+  "expected_settled_CO": 0,
+  "actual_CO": 0,
+  "settled_boolean_consistency": false,
+  "full_SDF_and_checks_retained": true,
+  "elaboration_optimization_disabled": true,
+  "same_full_replay_assertion_failed": true,
+  "interpretation": "The local timing primitive fails settled Boolean consistency in this replay. This supports a timing-model/event-scheduling diagnosis, but is not a verified vendor bug or proof of board correctness. No adaptive energy is accepted.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_f5_trial\\summarize_carry_diagnostic.py": "8af93f80dd76de2d2dd780f3e06069b837bfa4af060ebe8ddaf9a482904a84f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_f5_trial\\results\\timing_diagnostic_f5_o0_a0\\waveform.vcd": "85b840b58a5c6aeab88854ce6d21fa79dcd0326de673c03529fb9a95eb074d98",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_f5_trial\\results\\timing_diagnostic_f5_o0_a0\\tool_2.job.json": "e16087db7a9752e224dddd4e3101ab1ddc8912b9e62da077b5c1f9cfc6597f5b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_f5_trial\\results\\timing_diagnostic_f5_o0_a0\\tool_3.log": "3275bbbdfa876325599a295afec91f3134995964ba57367d9c62b3ff70f03b8f"
+  },
+  "events": [
+    {
+      "time_ps": 8805322,
+      "name": "DI",
+      "value": "0"
+    },
+    {
+      "time_ps": 8805322,
+      "name": "DI_in",
+      "value": "0"
+    },
+    {
+      "time_ps": 8806270,
+      "name": "S",
+      "value": "110"
+    },
+    {
+      "time_ps": 8806270,
+      "name": "S_in",
+      "value": "110"
+    },
+    {
+      "time_ps": 8806272,
+      "name": "S",
+      "value": "100"
+    },
+    {
+      "time_ps": 8806272,
+      "name": "S_in",
+      "value": "100"
+    },
+    {
+      "time_ps": 8806281,
+      "name": "S",
+      "value": "101"
+    },
+    {
+      "time_ps": 8806281,
+      "name": "S_in",
+      "value": "101"
+    },
+    {
+      "time_ps": 8806328,
+      "name": "S",
+      "value": "111"
+    },
+    {
+      "time_ps": 8806328,
+      "name": "S_in",
+      "value": "111"
+    },
+    {
+      "time_ps": 8806449,
+      "name": "CI",
+      "value": "1"
+    },
+    {
+      "time_ps": 8806449,
+      "name": "CI_in",
+      "value": "1"
+    },
+    {
+      "time_ps": 8806449,
+      "name": "CO",
+      "value": "111"
+    },
+    {
+      "time_ps": 8806449,
+      "name": "CO_fb",
+      "value": "1111"
+    },
+    {
+      "time_ps": 8806492,
+      "name": "CI",
+      "value": "0"
+    },
+    {
+      "time_ps": 8806492,
+      "name": "CI_in",
+      "value": "0"
+    },
+    {
+      "time_ps": 8806492,
+      "name": "CO",
+      "value": "0"
+    },
+    {
+      "time_ps": 8806492,
+      "name": "CO_fb",
+      "value": "0"
+    },
+    {
+      "time_ps": 8806688,
+      "name": "O",
+      "value": "1000"
+    },
+    {
+      "time_ps": 8806731,
+      "name": "O",
+      "value": "111"
+    },
+    {
+      "time_ps": 8806793,
+      "name": "O",
+      "value": "110"
+    },
+    {
+      "time_ps": 8806795,
+      "name": "O",
+      "value": "100"
+    },
+    {
+      "time_ps": 8806804,
+      "name": "O",
+      "value": "101"
+    }
+  ]
+}

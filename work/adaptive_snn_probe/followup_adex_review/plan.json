@@ -1,0 +1,22 @@
+{
+  "status":"proposed_bounded_software_check_not_executed",
+  "stage1":{
+    "cases":"All eight official Brian2 published firing-pattern dictionaries, once each; no chosen mentor parameters or replicated lane padding.",
+    "numeric_reference":"Official Euler method, dt0.1ms,0.6seconds,VinitialEL,winitial0,V>0mV crossing,VresetVr,wjumpb; preserve all published inputs/parameters.",
+    "outputs":["V,w,spike times","pre-reset excursions","intrinsic voltage intermediate X","input contribution J","all per-operation argument/result ranges","solver/example discrepancies for every case"],
+    "claims_allowed":"Software model applicability and range opportunity only; no trained-model accuracy, integer exactness or measured packing gain.",
+    "claims_disallowed":["Continuous ODE exactness from finite-step solver","Plot clip inserted into dynamics","Duplicated single-neuron traces called an eight-lane real workload"]
+  },
+  "stage2_gate":{
+    "requires":["Application integer equation/discretization, or an explicitly identified independent published fixed-point reference","Fixed formats and rounding/overflow/exponential contract","Range proof for X,J,X+J,wstar,w+b","Ordered independent neuron workload with genuine coefficient-sharing conditions"],
+    "action":"Only then emit an integer ledger and compare actual packed sums plus both states/spikes to its plain-integer reference.",
+    "preserve_controls":["Full fixed packed exact arithmetic","Native signed SIMD plus LUT remainder","Full LUT","Same-policy adaptive LUT","Constant factorization and ROM/table where legal","Exact high-product correction and relevant spill-tracking alternatives"]
+  },
+  "contribution_gate":{
+    "current_addition":"Fixed8 achieves ceil(N/8)requests per group; any adaptive take<=8 cannot beat that in the same capacity/latency interface.",
+    "conditional_untested_operation":"Invariant-layout intrinsic coefficient product using actual-state admission, only for a genuinely needed non-shift coefficient under a declared fixed resource envelope.",
+    "unknowns":["Application coefficient","Integer AdEx exponential and product precision","Correction cost","Tail eligibility in independent neuron workload","Strongest fixed/LUT/ROM product cost and natural latency"],
+    "stop_before_RTL_if":"The legal fixed product frontier or supply bound removes the plausible measurable adaptive benefit."
+  },
+  "execution_constraints":"No vendor job, no accelerator, no package/model/data download or old evidence mutation in this review."
+}

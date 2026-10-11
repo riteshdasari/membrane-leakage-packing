@@ -1,0 +1,128 @@
+{
+  "source_hashes": {
+    "adaptive_delta_compact.sv": "26748b22044533ebe8d1b11e0fd1e0a0ae06390b31c1438dcc84080b4bee241d",
+    "tb_adaptive_delta_compact.sv": "37f3a9c3b59fbfd685e95ad75c2b8bcfbdf58ca781c0014c36f0db1d471a3c29"
+  },
+  "rows": [
+    {
+      "engine": 0,
+      "groups": 640,
+      "neuron_operations": 3840,
+      "mismatches": 0,
+      "cycles": 3530,
+      "issue_slots": 1714,
+      "narrow_groups": 50,
+      "bypass_groups": 52,
+      "stress_rows": [
+        {
+          "hard_reset": false,
+          "cycles": 1881,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        },
+        {
+          "hard_reset": true,
+          "cycles": 1649,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        }
+      ]
+    },
+    {
+      "engine": 1,
+      "groups": 640,
+      "neuron_operations": 3840,
+      "mismatches": 0,
+      "cycles": 3580,
+      "issue_slots": 1764,
+      "narrow_groups": 0,
+      "bypass_groups": 52,
+      "stress_rows": [
+        {
+          "hard_reset": false,
+          "cycles": 1910,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        },
+        {
+          "hard_reset": true,
+          "cycles": 1670,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        }
+      ]
+    },
+    {
+      "engine": 2,
+      "groups": 640,
+      "neuron_operations": 3840,
+      "mismatches": 0,
+      "cycles": 3580,
+      "issue_slots": 1764,
+      "narrow_groups": 0,
+      "bypass_groups": 52,
+      "stress_rows": [
+        {
+          "hard_reset": false,
+          "cycles": 1910,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        },
+        {
+          "hard_reset": true,
+          "cycles": 1670,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        }
+      ]
+    },
+    {
+      "engine": 3,
+      "groups": 640,
+      "neuron_operations": 3840,
+      "mismatches": 0,
+      "cycles": 2404,
+      "issue_slots": 588,
+      "narrow_groups": 0,
+      "bypass_groups": 52,
+      "stress_rows": [
+        {
+          "hard_reset": false,
+          "cycles": 1274,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        },
+        {
+          "hard_reset": true,
+          "cycles": 1130,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        }
+      ]
+    },
+    {
+      "engine": 5,
+      "groups": 640,
+      "neuron_operations": 3840,
+      "mismatches": 0,
+      "cycles": 3580,
+      "issue_slots": 1764,
+      "narrow_groups": 0,
+      "bypass_groups": 52,
+      "stress_rows": [
+        {
+          "hard_reset": false,
+          "cycles": 1910,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        },
+        {
+          "hard_reset": true,
+          "cycles": 1670,
+          "common_add_cycles": 560,
+          "common_finish_cycles": 320
+        }
+      ]
+    }
+  ]
+}

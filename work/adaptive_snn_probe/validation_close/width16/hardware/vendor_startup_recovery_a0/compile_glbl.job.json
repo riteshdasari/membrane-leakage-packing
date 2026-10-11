@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "C:/AMDDesignTools/2025.2/Vivado/bin/xvlog.bat",
+    "C:/AMDDesignTools/2025.2/Vivado/data/verilog/src/glbl.v"
+  ],
+  "cwd": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\vendor_startup_recovery_a0",
+  "returncode": 0,
+  "seconds": 9.37,
+  "free_GiB_at_start": 1.9831619262695312,
+  "sampled_min_free_GiB": 1.8076858520507812,
+  "sampled_peak_tool_tree_RSS_sum_GiB": 0.057804107666015625,
+  "memory_samples": 9,
+  "sample_period_seconds": 1,
+  "memory_scope": "Descendant working-set sum may double-count shared pages; sampled, not unique physical peak",
+  "source_sha256": {
+    "C:\\AMDDesignTools\\2025.2\\data\\verilog\\src\\glbl.v": "6270251cf35e1fce3119fc79f8fb968912f7983027e43cf030409ba68f048936",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_vendor_startup_probe.py": "410ad29871d7d60c58815a6724002c0514aba4b886a557140c9ca445034b1815"
+  },
+  "log_sha256": "4e069401e9b3e5cc40ab06675ff546287811a904a8063a5e7cfa6c3fe113e4d4"
+}

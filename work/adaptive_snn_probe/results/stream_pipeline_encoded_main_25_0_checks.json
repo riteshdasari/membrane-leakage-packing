@@ -1,0 +1,115 @@
+{
+  "source_hashes": {
+    "stream_pipeline_encoded_leak.sv": "a36d3f5767dcdabb6d8965e6e11b888ea1b41fc646c61ed1e11ace046e353660",
+    "tb_stream_pipeline_encoded_leak.sv": "2fa47e1fe0ab9c8079a4730b1eda979b9fdc1ac78efa9622db1e03404afc7e20",
+    "check_stream_pipeline.py": "12a22355e7b0b981527731be9de0e37ec6241ad305246e23c3df23a32094b61f",
+    "check_stream_pipeline_encoded.py": "d149c167cd5098ad4b7f6b78fc45d36a27ebf7aee4b562f2de48e48a22953392"
+  },
+  "constant_delta": 25,
+  "backpressure": false,
+  "frames": 236522,
+  "tested_engines": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stimulus_sha256": "101a1d4312e01de0062de510e78140d8cc3edfd0e213b1a3c65c33cd08293bde",
+  "matched_original_stimulus": true,
+  "centered_wide": false,
+  "wide_residual_encoding": "unsigned",
+  "lut_style": "root-selected default STYLE; no checker override",
+  "identity_policy": "regular metadata; no third wide lane from identity alone",
+  "real_neurons": 753861,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 388681,
+      "neurons": 753861,
+      "arithmetic_issues": 386017,
+      "narrow_requests": 107782,
+      "bypass_requests": 2664,
+      "clocks": 388891,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 489697,
+      "neurons": 753861,
+      "arithmetic_issues": 487033,
+      "narrow_requests": 0,
+      "bypass_requests": 2664,
+      "clocks": 489907,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 489697,
+      "neurons": 753861,
+      "arithmetic_issues": 487033,
+      "narrow_requests": 0,
+      "bypass_requests": 2664,
+      "clocks": 489907,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 249759,
+      "narrow_requests": 0,
+      "bypass_requests": 2664,
+      "clocks": 252633,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 249759,
+      "narrow_requests": 0,
+      "bypass_requests": 2664,
+      "clocks": 252633,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 249759,
+      "narrow_requests": 0,
+      "bypass_requests": 2664,
+      "clocks": 252633,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 437892,
+      "neurons": 753861,
+      "arithmetic_issues": 435228,
+      "narrow_requests": 57005,
+      "bypass_requests": 2664,
+      "clocks": 438102,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "mismatches": 0
+    }
+  ]
+}

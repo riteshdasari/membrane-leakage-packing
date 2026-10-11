@@ -1,0 +1,302 @@
+{
+  "source_hashes": {
+    "quad_leak.sv": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0",
+    "tb_quad_leak.sv": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99",
+    "check_quad.py": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4"
+  },
+  "reconstruction_script_sha256": "cc22ed28392b4128a005fe6e86bb794ddbbf8a1c3d67b98d8c2e443a73fb319a",
+  "reference_hashes": {
+    "ledger": "baee62d91c6228ca22881baa71945610e786a694691fcb0ede5cdc44814b86d3",
+    "raw_membranes": "53bb43cbb1e85d41b4404ffb54ff094f7c5ce1cb11a09fa2b17f2b7300e6b3e9"
+  },
+  "output_hashes": {
+    "results\\quad_models_0\\stream_out0.txt": "0106aa744a5a8e51bcd0f2793c12178d7b733a023f9a261ae716a8696d66fc24",
+    "results\\quad_models_0\\stream_out1.txt": "62ceb51026e392885ddc82c8d4060289cb13c9151896d5dfd2991855a2f095df",
+    "results\\quad_models_0\\stream_out2.txt": "9af88e3893f11c4ad4f2973b769a922a3e893e8454236793c392ecbc9408d1f5",
+    "results\\quad_models_0\\stream_out3.txt": "adfcded4f0472f1aa7a2635c1645084ee14cab8ca9133f3aba09a1b714cd4775",
+    "results\\quad_models_0\\stream_out4.txt": "6e9214c5cc73f2bbb9c32be226072c382c80ee96a6abed3cbbf9988a09aa4e91",
+    "results\\quad_models_1\\stream_out0.txt": "6747b2721a0d2aa085325ef24119810e5417274032eae31cb9bcbcdcd951b6ca",
+    "results\\quad_models_1\\stream_out1.txt": "8877adbba42a8667035b8d33ef4ce1d2074668654a077a816eec4963d9f45e43",
+    "results\\quad_models_1\\stream_out2.txt": "e0c33b2260935cbd26feae3b6b5e28c2860ef9ca41bccfcbb3a21f4cd16bbf8d",
+    "results\\quad_models_1\\stream_out3.txt": "4c0d871f077b4d40022a7eff7f420894e7536b64c25dde013fe7ef586b56f5e8",
+    "results\\quad_models_1\\stream_out4.txt": "3ed7f0065d3343d9fff3057d8acf6c150d46f6143ec8b00c986a444ce670e2ba"
+  },
+  "rows": [
+    {
+      "engine": 0,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 1,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 2,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 3,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 4,
+      "backpressure": false,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 0,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 1,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 2,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 3,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    },
+    {
+      "engine": 4,
+      "backpressure": true,
+      "neurons": 635904,
+      "state_mismatches": 0,
+      "spike_mismatches": 0,
+      "model_rows": [
+        {
+          "seed": 0,
+          "images": 48,
+          "accuracy": 0.9375,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 1,
+          "images": 48,
+          "accuracy": 0.9583333333333334,
+          "spike_counts_matched": true
+        },
+        {
+          "seed": 2,
+          "images": 48,
+          "accuracy": 0.9791666666666666,
+          "spike_counts_matched": true
+        }
+      ]
+    }
+  ],
+  "scope": "RTL leakage outputs plus Python current/threshold/subtractive-reset replay",
+  "limitations": [
+    "Saved beta231 reference; original trained leakage was changed.",
+    "144 sampled images across three saved seeds; no new training/download.",
+    "No full SNN RTL, state-memory implementation, host, power or board test."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source_hashes": {
+    "quad_leak.sv": "140a85ddd852043c8accbd3a9985c6797bc4e925fbd6ce8b9e49e25f9d3156e0",
+    "tb_quad_leak.sv": "f77889495b05fa185f1d3ca19643d0d4a6c608b6f6d666fc04d2bef35cb1ac99",
+    "check_quad.py": "cfcff290d2a75218a88969ca47cf6893fb217336583ac3d991da1df1ba371fd4"
+  },
+  "delta": 25,
+  "backpressure": false,
+  "frames": 73436,
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 85131,
+      "neurons": 317125,
+      "arithmetic_issues": 76456,
+      "quad_requests": 34166,
+      "bypass_requests": 8675,
+      "clocks": 85188,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 85131,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 85003,
+      "neurons": 317125,
+      "arithmetic_issues": 76392,
+      "quad_requests": 34294,
+      "bypass_requests": 8611,
+      "clocks": 85060,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 85003,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 118442,
+      "neurons": 317125,
+      "arithmetic_issues": 105626,
+      "quad_requests": 0,
+      "bypass_requests": 12816,
+      "clocks": 118499,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 118442,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 79845,
+      "neurons": 317125,
+      "arithmetic_issues": 73152,
+      "quad_requests": 79845,
+      "bypass_requests": 6693,
+      "clocks": 79902,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 79845,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 79845,
+      "neurons": 317125,
+      "arithmetic_issues": 73152,
+      "quad_requests": 0,
+      "bypass_requests": 6693,
+      "clocks": 79902,
+      "input_stall_checks": 0,
+      "output_stall_checks": 0,
+      "latency_checks": 79845,
+      "mismatches": 0
+    }
+  ],
+  "stimulus_sha256": "d13e28a91e345154844c3fcf06072adcfc166637947d6887c175e4c4c7374200",
+  "stimulus_file": "quad_main_0/stream_stim.txt",
+  "expected_engines": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation_kind": "full_integer_stress",
+  "model_input_sha256": null,
+  "source_contract": "valid and entire raw window held until acceptance; input valid low during reset",
+  "scope": "Raw four-window leakage primitive; no memory source/controller and no SNN state reconstruction",
+  "acceptance_to_handshake_advances": 4,
+  "identity_bypass": "All CONSUMED values0..10; constant25 only"
+}

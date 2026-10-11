@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "engines": [
+    3,
+    5
+  ],
+  "rows": [
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\route_e3_a4\\hardware.json",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\route_e5_a4\\hardware.json"
+  ],
+  "failures": [],
+  "current_engine": 5
+}

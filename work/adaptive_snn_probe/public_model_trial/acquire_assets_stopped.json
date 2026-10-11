@@ -1,0 +1,6 @@
+{
+  "reason": "Original checksum-verified data acquired; reject lossy preview pilot and use original-pixel retry",
+  "process_id": 12532,
+  "action": "stop_superseded_owned_runner",
+  "script": "acquire_assets"
+}

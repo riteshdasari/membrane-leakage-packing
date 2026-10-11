@@ -1,0 +1,135 @@
+{
+  "samples": 1,
+  "threads": 4,
+  "batch": 1,
+  "timesteps": 30,
+  "source_commit": "178789c74fef72b9c25bd31d65ac598c987e1de9",
+  "source_cpu_port": {
+    "source_sha256": "09d66684ce64f043096d6feb89de008a247c8c4da842057c49063257d1fb3273",
+    "transformed_ast_sha256": "a0f710120cb45f371a1e21a4a924854922a185418ed857ebc97f097c7f5e901f",
+    "transformation": "Only remove explicit parameterless .cuda() calls; no semantic or equation edits",
+    "prepared_only": true
+  },
+  "checkpoint_sha256": "9e398932a4f815219a30ee96fe187698e18f899f42405e5e5e622f80d3826aca",
+  "dataset_sha256": "6198c8ae015e2b3e007c7841da39ec069199b9aa3bfa943a462022fe5e43c821",
+  "contract_sha256": "c22e850edc4771e308694121da79c84034798994b4af79de83388b94b2e713cd",
+  "runner_sha256": "9586843f5272019bba10e7f60c069b69b161bb6815402765a45ba5d619d3b590",
+  "adapter_sha256": "b31e92b5d5925c4d21a9ceafb6e89595d6613a07f5e8d8c9bb6c3f2ed3d4d8d0",
+  "packing_sha256": "e77052d271929affc5eb7f09307f1d13c22aab6178b127d8fb39363d645389dd",
+  "predeclared_subset_sha256": "d2e59dde6219bd4a0a8347e6220d13da208d2a4f38492b483508c881d6b7eb4c",
+  "subset_selection": "Sorted firstN of predeclared64 canonical validation indices from NumPy default_rng20211001 without replacement",
+  "selected_indices": [
+    155
+  ],
+  "poisson_per_image_seed": "2021+canonical validation index; reset identically for every original/plaininteger/packed execution",
+  "declared_conversion": "unit1/256; beta253; ceil253U/256; RNE BN effective currents; spike oldU>256; nextU=leak+current\u2212256spike",
+  "started_utc": "2026-10-10T17:52:38.190951+00:00",
+  "elapsed_s": 7.772996187210083,
+  "correct": {
+    "float": 1,
+    "integer": 1,
+    "packed": 1
+  },
+  "integer_vs_float_changed_predictions": 0,
+  "packed_vs_integer_changed_predictions": 0,
+  "packed_vs_integer_logits_bit_equal": true,
+  "state_mismatches": 0,
+  "spike_mismatches": 0,
+  "operation_counts": {
+    "raw": 18309120,
+    "zero": 1655928,
+    "nonzero": 16653192,
+    "signed12_exceptions": 153216,
+    "narrow": 12295286,
+    "pairs": 5605246,
+    "issues_adaptive": 11047946,
+    "issues_fixed_split": 8326648,
+    "issues_scalar": 16653192,
+    "issues_LUT2": 8326648,
+    "packed_mismatches": 0,
+    "old_signed16_exceptions": 0,
+    "stored_signed16_exceptions": 0
+  },
+  "range_by_layer": {
+    "conv1": {
+      "old_min": -10462,
+      "old_max": 8242,
+      "current_min": -2056,
+      "current_max": 2150,
+      "state_min": -10462,
+      "state_max": 8242
+    },
+    "conv2": {
+      "old_min": -5429,
+      "old_max": 3158,
+      "current_min": -1314,
+      "current_max": 947,
+      "state_min": -5429,
+      "state_max": 3158
+    },
+    "conv3": {
+      "old_min": -2991,
+      "old_max": 1960,
+      "current_min": -645,
+      "current_max": 663,
+      "state_min": -2991,
+      "state_max": 1960
+    },
+    "conv4": {
+      "old_min": -2695,
+      "old_max": 2783,
+      "current_min": -654,
+      "current_max": 1013,
+      "state_min": -2695,
+      "state_max": 2783
+    },
+    "conv5": {
+      "old_min": -3841,
+      "old_max": 2083,
+      "current_min": -671,
+      "current_max": 762,
+      "state_min": -3841,
+      "state_max": 2083
+    },
+    "conv6": {
+      "old_min": -2345,
+      "old_max": 1689,
+      "current_min": -521,
+      "current_max": 768,
+      "state_min": -2345,
+      "state_max": 1689
+    },
+    "conv7": {
+      "old_min": -3375,
+      "old_max": 1697,
+      "current_min": -714,
+      "current_max": 926,
+      "state_min": -3375,
+      "state_max": 1697
+    },
+    "conv8": {
+      "old_min": -3705,
+      "old_max": 3135,
+      "current_min": -945,
+      "current_max": 983,
+      "state_min": -3705,
+      "state_max": 3135
+    },
+    "fc1": {
+      "old_min": -2135,
+      "old_max": 1672,
+      "current_min": -382,
+      "current_max": 677,
+      "state_min": -2135,
+      "state_max": 1672
+    }
+  },
+  "fixed16_hardware_domain_supported": true,
+  "constant_specific_zero_DSP_control": "ceil(253U/256)=U\u2212floor(3U/256); form3U with shift/add and use arithmetic shift8 then subtract at sufficient width",
+  "checkpoint_accuracy_metadata": {
+    "global_step": 40,
+    "accuracy1": 57.141426282051285,
+    "accuracy5": 80.74919871794872
+  },
+  "scope": "Bounded actual public checkpoint evaluation; FP32 synapses/BN/readout; coefficient conversion253/256 is approximate versus .99 FP32; exact packing versus plain declared integer; no board energy/performance claim; outside signed16 explicitly unsupported"
+}

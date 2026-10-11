@@ -1,0 +1,615 @@
+{
+  "status": "pass_independent_certified_GLIF_E5_E1_E7_comparison",
+  "review_utc": "2026-10-10T23:46:36.033601+00:00",
+  "v1_all_source_artifact_pins_revalidated": true,
+  "E7_certified_audit_reproduced_identically": true,
+  "same_expected_scalar_operands_and_outputs_sha256": true,
+  "signed_state_bits": 16,
+  "clock_period_ns": 12,
+  "fixture_FF": 94,
+  "junction_temperature_C": 25,
+  "process": "typical",
+  "records": {
+    "5": {
+      "audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power_audit.json",
+      "audit_reproduced_identically": true,
+      "route_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json",
+      "route_sha256": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "cohort_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "scalar_updates": 262528,
+      "requests": 141985,
+      "retirements": 141985,
+      "ROI_duration_ps": 1703868000,
+      "dynamic_power_W": 0.003328,
+      "pJ_per_scalar": 21.599496830814235,
+      "dynamic_power_exact_fraction": {
+        "numerator": 52,
+        "denominator": 15625
+      },
+      "energy_exact_fraction": {
+        "numerator": 5537571,
+        "denominator": 256375
+      },
+      "components_W": {
+        "clocks_W": 0.001286,
+        "combinational_logic_W": 0.000535,
+        "combinational_signals_W": 0.000137,
+        "register_logic_W": 7.4e-05,
+        "register_signals_W": 0.000319,
+        "DSP_W": 0.000847,
+        "unassigned_serialized_component_residual_W": 0.00013
+      },
+      "components_pJ_per_scalar": {
+        "clocks_W": 8.346440181618723,
+        "combinational_logic_W": 3.472274881155534,
+        "combinational_signals_W": 0.8891619789127255,
+        "register_logic_W": 0.4802772732813262,
+        "register_signals_W": 2.0703844618478793,
+        "DSP_W": 5.497227709044369,
+        "unassigned_serialized_component_residual_W": 0.8437303449536812
+      },
+      "serialized_block_details": [
+        {
+          "kind": "combinational",
+          "clock": "Unclocked_or_HFN_instance",
+          "clockFreq": "83.333333",
+          "clockFreq2": "83.333333",
+          "toggleRate": "47.685734",
+          "toggleRate2": "38.702694",
+          "totalRate": "4218.470479",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_e5/fixture",
+          "writeRate": "0.000000",
+          "enableRate": "0.000000",
+          "fanout": "3.606061",
+          "ru": "5.446353",
+          "fanout2": "3.793103",
+          "totalFanout": "119.000000",
+          "fanoutRate": "1960.884923",
+          "numNets": "84",
+          "extNets": "33",
+          "carry4s": "1",
+          "luts": "62",
+          "logicCap": "36437701",
+          "signalCap": "8875.000000",
+          "power": "0.000535",
+          "sp": "0.000137"
+        },
+        {
+          "kind": "register",
+          "clock": "clk",
+          "clockFreq": "83.333333",
+          "clockFreq2": "83.333333",
+          "toggleRate": "28.488490",
+          "toggleRate2": "30.714098",
+          "totalRate": "3931.411583",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_e5/fixture",
+          "writeRate": "0.000000",
+          "enableRate": "0.999910",
+          "fanout": "3.272727",
+          "ru": "8.392832",
+          "fanout2": "2.747253",
+          "totalFanout": "324.000000",
+          "fanoutRate": "2296.991026",
+          "numNets": "138",
+          "extNets": "99",
+          "ffs": "138",
+          "logicCap": "5760000",
+          "signalCap": "36105.000000",
+          "power": "0.000074",
+          "sp": "0.000319"
+        },
+        {
+          "kind": "DSP",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_e5/fixture",
+          "clock": "clk",
+          "toggleRate": "44.817838",
+          "clockFreq": "83.333333",
+          "multUsed": "Yes",
+          "mregUsed": "No",
+          "preAdderUsed": "No",
+          "power": "0.000847"
+        }
+      ],
+      "core_resources": {
+        "LUT": 62,
+        "FF": 44,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 24
+      },
+      "matched_physical_design_nets": 303,
+      "physical_unknown_records": 0,
+      "physical_activity_sources": {
+        "S": 561,
+        "D": 6,
+        "C": 4
+      },
+      "DSP_clock_enable_activity": {
+        "fixture/core/one_dsp.dsp/d": {
+          "CLK": {
+            "fixture/core/one_dsp.dsp/clk": {
+              "static_probability": 0.5,
+              "signal_rate_Mtransitions_per_s": 166.667,
+              "toggle_rate_percent": 200.0,
+              "source": "C"
+            }
+          },
+          "CEA2": {
+            "fixture/core/one_dsp.dsp/<const0>": {
+              "static_probability": 0.0,
+              "signal_rate_Mtransitions_per_s": 0.0,
+              "toggle_rate_percent": 0.0,
+              "source": "D"
+            }
+          },
+          "CEB2": {
+            "fixture/core/one_dsp.dsp/<const0>": {
+              "static_probability": 0.0,
+              "signal_rate_Mtransitions_per_s": 0.0,
+              "toggle_rate_percent": 0.0,
+              "source": "D"
+            }
+          },
+          "CEC": {
+            "fixture/core/one_dsp.dsp/<const0>": {
+              "static_probability": 0.0,
+              "signal_rate_Mtransitions_per_s": 0.0,
+              "toggle_rate_percent": 0.0,
+              "source": "D"
+            }
+          },
+          "CEP": {
+            "fixture/core/one_dsp.dsp/ce": {
+              "static_probability": 0.999972,
+              "signal_rate_Mtransitions_per_s": 0.0011738,
+              "toggle_rate_percent": 0.00140856,
+              "source": "S"
+            }
+          }
+        }
+      },
+      "export_serialization_energy_bound_pJ": 0.018183459822266577,
+      "certified_export_audit": {
+        "status": "pass_exact_derived_export_reproduction",
+        "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e5_recovery_a0_e5\\export_binding_certificate.json",
+        "export_binding_sha256": "679ec33808f509829ed3bad2b53c25548eb2782ffc36073ae4717ecab65525fc",
+        "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e5_recovery_a0_e5\\sdf_structure_certificate.json",
+        "SDF_structure_certificate_sha256": "b12aee75b699964f46b362857faecc16a507bd71ad2c621426e1595728890914",
+        "raw_SDF_sha256": "8f86648a6c74359a56b9bc3c5db7a8eb7a9998c200156745f3e78f11bb56a9ac",
+        "derived_SDF_sha256": "fe1786bfd52f1f664f24c6c4c2522804bd195fdbf7a5f5f64ae24da7b5b2ec34",
+        "appended_closing_parentheses": 3,
+        "numerical_timing_changes": 0,
+        "annotation_path_string_changes": 1,
+        "causal_discrepancy_resolution_claimed": false
+      }
+    },
+    "1": {
+      "audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power_audit.json",
+      "audit_reproduced_identically": true,
+      "route_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json",
+      "route_sha256": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "cohort_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "scalar_updates": 262528,
+      "requests": 140465,
+      "retirements": 140465,
+      "ROI_duration_ps": 1685628000,
+      "dynamic_power_W": 0.008614,
+      "pJ_per_scalar": 55.30838459897611,
+      "dynamic_power_exact_fraction": {
+        "numerator": 4307,
+        "denominator": 500000
+      },
+      "energy_exact_fraction": {
+        "numerator": 259285707,
+        "denominator": 4688000
+      },
+      "components_W": {
+        "clocks_W": 0.001659,
+        "combinational_logic_W": 0.003128,
+        "combinational_signals_W": 0.00212,
+        "register_logic_W": 9.4e-05,
+        "register_signals_W": 0.000761,
+        "DSP_W": 0.000811,
+        "unassigned_serialized_component_residual_W": 4.1e-05
+      },
+      "components_pJ_per_scalar": {
+        "clocks_W": 10.652032743174061,
+        "combinational_logic_W": 20.08412201365188,
+        "combinational_signals_W": 13.612000853242321,
+        "register_logic_W": 0.6035509812286689,
+        "register_signals_W": 4.886194645904437,
+        "DSP_W": 5.207232401877133,
+        "unassigned_serialized_component_residual_W": 0.26325095989761094
+      },
+      "serialized_block_details": [
+        {
+          "kind": "combinational",
+          "clock": "Unclocked_or_HFN_instance",
+          "clockFreq": "83.333333",
+          "clockFreq2": "83.333333",
+          "toggleRate": "152.119693",
+          "toggleRate2": "40.984463",
+          "totalRate": "42805.402455",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_e1/fixture",
+          "writeRate": "0.000000",
+          "enableRate": "0.000000",
+          "fanout": "2.325893",
+          "ru": "6.966624",
+          "fanout2": "2.185520",
+          "totalFanout": "521.000000",
+          "fanoutRate": "14237.918480",
+          "numNets": "434",
+          "extNets": "224",
+          "carry4s": "33",
+          "luts": "202",
+          "logicCap": "123192002",
+          "signalCap": "57647.000000",
+          "power": "0.003128",
+          "sp": "0.002120"
+        },
+        {
+          "kind": "register",
+          "clock": "clk",
+          "clockFreq": "83.333333",
+          "clockFreq2": "83.333333",
+          "toggleRate": "29.025876",
+          "toggleRate2": "30.996725",
+          "totalRate": "5021.476588",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_e1/fixture",
+          "writeRate": "0.000000",
+          "enableRate": "0.999960",
+          "fanout": "6.656716",
+          "ru": "11.220451",
+          "fanout2": "6.166667",
+          "totalFanout": "892.000000",
+          "fanoutRate": "7230.347823",
+          "numNets": "173",
+          "extNets": "134",
+          "ffs": "173",
+          "logicCap": "7290000",
+          "signalCap": "82889.000000",
+          "power": "0.000094",
+          "sp": "0.000761"
+        },
+        {
+          "kind": "DSP",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_e1/fixture",
+          "clock": "clk",
+          "toggleRate": "42.909468",
+          "clockFreq": "83.333333",
+          "multUsed": "Yes",
+          "mregUsed": "No",
+          "preAdderUsed": "No",
+          "power": "0.000811"
+        }
+      ],
+      "core_resources": {
+        "LUT": 202,
+        "FF": 79,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 71
+      },
+      "matched_physical_design_nets": 679,
+      "physical_unknown_records": 0,
+      "physical_activity_sources": {
+        "S": 908,
+        "D": 7,
+        "C": 4
+      },
+      "DSP_clock_enable_activity": {
+        "fixture/core/one_dsp.dsp/d": {
+          "CLK": {
+            "fixture/core/one_dsp.dsp/clk": {
+              "static_probability": 0.5,
+              "signal_rate_Mtransitions_per_s": 166.667,
+              "toggle_rate_percent": 200.0,
+              "source": "C"
+            }
+          },
+          "CEA2": {
+            "fixture/core/one_dsp.dsp/<const0>": {
+              "static_probability": 0.0,
+              "signal_rate_Mtransitions_per_s": 0.0,
+              "toggle_rate_percent": 0.0,
+              "source": "D"
+            }
+          },
+          "CEB2": {
+            "fixture/core/one_dsp.dsp/<const0>": {
+              "static_probability": 0.0,
+              "signal_rate_Mtransitions_per_s": 0.0,
+              "toggle_rate_percent": 0.0,
+              "source": "D"
+            }
+          },
+          "CEC": {
+            "fixture/core/one_dsp.dsp/<const0>": {
+              "static_probability": 0.0,
+              "signal_rate_Mtransitions_per_s": 0.0,
+              "toggle_rate_percent": 0.0,
+              "source": "D"
+            }
+          },
+          "CEP": {
+            "fixture/core/one_dsp.dsp/ce": {
+              "static_probability": 0.999972,
+              "signal_rate_Mtransitions_per_s": 0.0011865,
+              "toggle_rate_percent": 0.0014238,
+              "source": "S"
+            }
+          }
+        }
+      },
+      "export_serialization_energy_bound_pJ": 0.018005774947525595,
+      "certified_export_audit": {
+        "status": "pass_exact_derived_export_reproduction",
+        "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e1_profiled_all_a0_e1\\export_binding_certificate.json",
+        "export_binding_sha256": "853fad86b2e8758a1bac616d8a61a60ad949fae50f2518012db7cbd8b26aad27",
+        "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e1_profiled_all_a0_e1\\sdf_structure_certificate.json",
+        "SDF_structure_certificate_sha256": "5ff3e2187129430f079ffb9c0a34583c66c1fe36dcf202d5c7f0a7d5b2f65edf",
+        "raw_SDF_sha256": "89c66d58113a8d5a6c56d3fe6c53d11e86c1fdd97ad3a6fef643186d3f15b598",
+        "derived_SDF_sha256": "b95761aea57728d74fba630a7a1c21d8930a6e03dbb9fc3d67459b61e57daf8e",
+        "appended_closing_parentheses": 3,
+        "numerical_timing_changes": 0,
+        "annotation_path_string_changes": 1,
+        "causal_discrepancy_resolution_claimed": false
+      }
+    },
+    "7": {
+      "audit_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\power_audit.json",
+      "audit_reproduced_identically": true,
+      "route_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json",
+      "route_sha256": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044",
+      "expected_outputs_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz",
+      "expected_outputs_sha256": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+      "cohort_expectation_sha256": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+      "scalar_updates": 262528,
+      "requests": 131328,
+      "retirements": 131328,
+      "ROI_duration_ps": 1575984000,
+      "dynamic_power_W": 0.020689,
+      "pJ_per_scalar": 124.19830637493905,
+      "dynamic_power_exact_fraction": {
+        "numerator": 20689,
+        "denominator": 1000000
+      },
+      "energy_exact_fraction": {
+        "numerator": 2037845811,
+        "denominator": 16408000
+      },
+      "components_W": {
+        "clocks_W": 0.001751,
+        "combinational_logic_W": 0.008283,
+        "combinational_signals_W": 0.009273,
+        "register_logic_W": 0.000102,
+        "register_signals_W": 0.001279,
+        "DSP_W": 0.0,
+        "unassigned_serialized_component_residual_W": 1e-06
+      },
+      "components_pJ_per_scalar": {
+        "clocks_W": 10.511442528035104,
+        "combinational_logic_W": 49.72374555095075,
+        "combinational_signals_W": 55.66682270843491,
+        "register_logic_W": 0.6123170404680643,
+        "register_signals_W": 7.6779754388103365,
+        "DSP_W": 0.0,
+        "unassigned_serialized_component_residual_W": 0.006003108239882984
+      },
+      "serialized_block_details": [
+        {
+          "kind": "combinational",
+          "clock": "Unclocked_or_HFN_instance",
+          "clockFreq": "83.333333",
+          "clockFreq2": "83.333333",
+          "toggleRate": "296.425500",
+          "toggleRate2": "56.122651",
+          "totalRate": "132773.955603",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_lutceil_e7/fixture",
+          "writeRate": "0.000000",
+          "enableRate": "0.000000",
+          "fanout": "2.133172",
+          "ru": "7.888539",
+          "fanout2": "1.871921",
+          "totalFanout": "881.000000",
+          "fanoutRate": "52631.680399",
+          "numNets": "681",
+          "extNets": "413",
+          "carry4s": "48",
+          "luts": "330",
+          "logicCap": "201265302",
+          "signalCap": "120281.000000",
+          "power": "0.008283",
+          "sp": "0.009273"
+        },
+        {
+          "kind": "register",
+          "clock": "clk",
+          "clockFreq": "83.333333",
+          "clockFreq2": "83.333333",
+          "toggleRate": "30.148804",
+          "toggleRate2": "34.093576",
+          "totalRate": "5456.933554",
+          "name": "clk",
+          "hierName": "top_sequential_leak16_lutceil_e7/fixture",
+          "writeRate": "0.000000",
+          "enableRate": "0.999971",
+          "fanout": "9.514085",
+          "ru": "12.830498",
+          "fanout2": "9.171875",
+          "totalFanout": "1351.000000",
+          "fanoutRate": "12958.018476",
+          "numNets": "181",
+          "extNets": "142",
+          "ffs": "181",
+          "logicCap": "7650000",
+          "signalCap": "123451.000000",
+          "power": "0.000102",
+          "sp": "0.001279"
+        },
+        {
+          "kind": "register",
+          "clock": "Unclocked_or_HFN_instance",
+          "clockFreq": "83.333333",
+          "clockFreq2": "0.000000",
+          "toggleRate": "0.000761",
+          "toggleRate2": "0.000000",
+          "totalRate": "0.000761",
+          "name": "High_Fanout_Nets",
+          "hierName": "top_sequential_leak16_lutceil_e7/fixture",
+          "writeRate": "0.000000",
+          "enableRate": "1.000000",
+          "fanout": "61.000000",
+          "ru": "20.755470",
+          "fanout2": "0.000000",
+          "totalFanout": "61.000000",
+          "fanoutRate": "0.019353",
+          "numNets": "1",
+          "extNets": "1",
+          "ffs": "1",
+          "logicCap": "0",
+          "signalCap": "4558.000000",
+          "power": "0.000000",
+          "sp": "0.000000"
+        }
+      ],
+      "core_resources": {
+        "LUT": 330,
+        "FF": 88,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 113
+      },
+      "matched_physical_design_nets": 919,
+      "physical_unknown_records": 0,
+      "physical_activity_sources": {
+        "S": 1105,
+        "C": 3,
+        "D": 5
+      },
+      "DSP_clock_enable_activity": {},
+      "export_serialization_energy_bound_pJ": 0.016870808227968062,
+      "certified_export_audit": {
+        "status": "pass_exact_derived_export_reproduction",
+        "export_binding_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\export12_glif_e7_profiled_all_a0_e7\\export_binding_certificate.json",
+        "export_binding_sha256": "e9fff42739050f316273ed785e3c84b74fef90994d570f9a38a601f2076ca4a2",
+        "SDF_structure_certificate_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\export12_glif_e7_profiled_all_a0_e7\\sdf_structure_certificate.json",
+        "SDF_structure_certificate_sha256": "63841e89d3dc16e75fcee76ebacf1768fcdfd842e4bf625c9106b1750fb3983b",
+        "raw_SDF_sha256": "42b0bbe62ec7d0b1593b7615b41e7eba4cde1fd196a689ae3f1aabec5d78b787",
+        "derived_SDF_sha256": "0cea49f275bd3441c0d142a626da94d50373d771756cb8aebf5a704a12bf3a02",
+        "appended_closing_parentheses": 3,
+        "numerical_timing_changes": 0,
+        "annotation_path_string_changes": 1,
+        "causal_discrepancy_resolution_claimed": false
+      }
+    }
+  },
+  "comparisons": {
+    "E5_versus_E1": {
+      "energy_reduction_fraction": 0.609471565885978,
+      "dynamic_power_reduction_fraction": 0.6136521941026236,
+      "issue_count_change_fraction": 0.010821201010928094,
+      "ROI_duration_change_fraction": 0.010820892866041598,
+      "energy_saved_pJ_per_scalar": 33.70888776816187,
+      "serialized_component_energy_savings_pJ_per_scalar": {
+        "clocks_W": 2.305592561555338,
+        "combinational_logic_W": 16.611847132496344,
+        "combinational_signals_W": 12.722838874329597,
+        "register_logic_W": 0.12327370794734271,
+        "register_signals_W": 2.815810184056558,
+        "DSP_W": -0.28999530716723587,
+        "unassigned_serialized_component_residual_W": -0.5804793850560702
+      }
+    },
+    "E5_versus_E7": {
+      "energy_reduction_fraction": 0.8260886363006588,
+      "dynamic_power_reduction_fraction": 0.8391415728164725,
+      "issue_count_change_fraction": 0.08114796539961011,
+      "ROI_duration_change_fraction": 0.08114549386288195,
+      "energy_saved_pJ_per_scalar": 102.59880954412482,
+      "serialized_component_energy_savings_pJ_per_scalar": {
+        "clocks_W": 2.1650023464163812,
+        "combinational_logic_W": 46.25147066979522,
+        "combinational_signals_W": 54.77766072952218,
+        "register_logic_W": 0.13203976718673816,
+        "register_signals_W": 5.607590976962458,
+        "DSP_W": -5.497227709044369,
+        "unassigned_serialized_component_residual_W": -0.8377272367137981
+      }
+    },
+    "E1_versus_E7": {
+      "energy_reduction_fraction": 0.5546768211797747,
+      "dynamic_power_reduction_fraction": 0.5836434820435981,
+      "issue_count_change_fraction": 0.06957389132553615,
+      "ROI_duration_change_fraction": 0.06957177230225686,
+      "energy_saved_pJ_per_scalar": 68.88992177596293,
+      "serialized_component_energy_savings_pJ_per_scalar": {
+        "clocks_W": -0.14059021513895686,
+        "combinational_logic_W": 29.639623537298874,
+        "combinational_signals_W": 42.054821855192586,
+        "register_logic_W": 0.00876605923939544,
+        "register_signals_W": 2.7917807929058993,
+        "DSP_W": -5.207232401877133,
+        "unassigned_serialized_component_residual_W": -0.25724785165772796
+      }
+    }
+  },
+  "limits": [
+    "Complete common fixture dynamic estimate, not core-only or measured board/full-neuron energy.",
+    "Bounded distribution-gated64-image GLIF arithmetic capture after shared zero filtering, not full-stream/fullnetwork energy.",
+    "XML component values are serialized rounded reports; residual is explicitly retained and no unrounded precision is implied.",
+    "Same94FF fixture does not guarantee identical fixture switching or clock-tree loading; per-design source/result encoding and route differ.",
+    "FPGA area resource counts alone do not mathematically determine power; accepted physical switching provides the activity input.",
+    "Serialization rounding bound does not bound vendor-model/physical uncertainty.",
+    "This result does not establish all-baseline or model-specializedconstant superiority.",
+    "E7 is a validated general two-lane LUT control, not every possible constant-specific FPGA circuit. E7 passing does not resolve original E2 diagnostic."
+  ],
+  "source_artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\explain_glif_energy_v1.py": "384ce28e5ff35d6badfd68770c6e421a09b377006122a2579fd183ca643f2ea7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12_certified.py": "8299f5e079f1714bbd464a37d1108fb7e0ac4b0980b3f5b99ca3bb8f8e483cfc",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power_audit.json": "df6122e8a5ec90e3c3a37b6a7ebf35dba5dd6b89499721d4d6cdd534f9298eb7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power.xml": "31ecff383f88b63f3701485e7b81bb08f89a61000775e887c2df8a89d86b9d25",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power_xpe.xml": "01acfb9030a4c5da01acc787e3bec48234f39a8510eca20de2a309c5deb6f04d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power.rpt": "f5237944238437250603aff9287475585e3f63011af3e2cf4266739c67bd005e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\power_xpe.rpt": "1925d1bfa8a1a0e8289e6b2c36df717ca99e5fe85b35314d2aa861064900ebe8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e5_recovery_a0_e5\\evidence.json": "181e4733f4935b708420531247d0ee67d3fea0c94eab549a145a07be16070762",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\replay12_glif_e5_recovery_a0_e5\\replay_checks.json": "2ad6693e576161300c875a3ed6d8b5a58608f1c4e3e6bb4f09c3166f5080f01a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\native_actual_glif_s0_a0\\acceptance.json": "f2d8b932970e4339143eae0f06e0a0ecb822d6ccb7b6d424167e99a3e90fff85",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\actual_glif_expected.npz": "07f68efe215e9e0dd8c70a009f97cca8c6a7cf8d3c7bc5de33062a4302b2d3eb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e5_a0\\hardware.json": "f8a1ad509a47f4a9c7e590643a2ef250e4cfc8963efc55ce834a02c41dcc20d2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power_audit.json": "dac8e759a0d404d5eab8804db8fb7ebe8a68587b325bbf385033dbcd230f4175",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power.xml": "da312c114a61754c76142b95254560f81358ef0f168c61c6f2b15002d89017ae",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power_xpe.xml": "96ccd7f1e6a47a5509a4faa59ecc7c7eb1ea6bc9098cefc47d4b2326ddb3cb1e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power.rpt": "6e4c40c9cdd2b79a38b8ca9edd4515b6d24605f833f6d29ca7cf00769cf6d7c2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\power_xpe.rpt": "4e29e76c096f6d74084a61085fc6cee440e3db80f16c4f047aa7ee13983176f0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\power12_glif_e1_profiled_all_a0_e1\\evidence.json": "23c9000dc637fa055547f07a18d714c1f6880d7a723be9466ed16cb0da52d5d4",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\replay12_glif_e1_profiled_all_a0_e1\\replay_checks.json": "a22e4dc81f9b1a3824d30c340ad6143c59707e999d89239343979165f4fd4050",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\route12_e1_a0\\hardware.json": "a5f36ec355a41880419c17deed50a13faeb4a15d45b7c8590f0489409fe1e8fb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\glif_energy_explanation_v1.json": "fbf8bda9b257fb940935c271472297e8b025454b17ebbaab9309d7bda1fdc977",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\explain_glif_energy_v2.py": "cd93be1d343a86e52d3ee0ab0e8c43bab905d1a34c8ea408d274b7ca5ec86090",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12_certified.py": "57d8ee7b1700dec06595ebb809ab383f831bf094f007e3efa8dd311eee0a9917",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\power_audit.json": "82341475eed086bb9152dd4afb721d90e6decd676e186e13f7afb6774ffd1634",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\power.xml": "e30e87369e4335579504740295549718baaad33182bc3b93f84c67aa54056698",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\power_xpe.xml": "9848043102db4e6783f1dee7da5eb6419a8094e71d88fec0be2063c18e02819e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\power.rpt": "47ed46086b75490a30ec411b932ca34d110195b3135ed2c3e7de35c2a611deb2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\power12_glif_e7_profiled_all_a0_e7\\evidence.json": "f587cf52ebee0a5c4aaf2b1377614035f35623ff0bb0e38a2ed7ebbcca704a7c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\replay12_glif_e7_profiled_all_a0_e7\\replay_checks.json": "a6d2f0cd246a1427a5e8aed4cc3c53b8e247f3fbbf38499cb33045c1a99139f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\native_actual_glif_s0_close_a0\\acceptance.json": "988a7dc3250b1476a2b52ca5f541e67ed653e6a5ad7a1ecf55f233a961d71419",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\hardware\\route12_e7_close_a0\\hardware.json": "cbc918caa44f1314663c200bab6e60ff1c9fb92c77e13b988e3595f6adddf044"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "profile_selected_before_launch",
+  "stage": "xsim",
+  "original_requested_gate_GiB": 1.2,
+  "required_free_GiB_at_launch": 0.8,
+  "extra_wait_margin_GiB": 0,
+  "observed_historical_peak_RSS_sum_GiB": 0.370452880859375,
+  "reserve_above_observed_peak_GiB": 0.42954711914062504,
+  "historical_peak_job_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\results\\replay_e4_a1\\tool_3.job.json",
+  "historical_peak_job_sha256": "fc9a2a7d214e9516ed5396b532bac373cfbcf4cdc9a93a03f5a6cd0329572260",
+  "inventory_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\completed_stage_memory_audit_a0.json",
+  "inventory_sha256": "76f8d136d47d3e791f3b6b20833de2863a8760b9f6bdc560348c66d68bd587b6",
+  "profile_adapter_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_child.py",
+  "profile_adapter_sha256": "343272799da74d3442e27e7c3bfa39457eceda91a6590fbefad2185087025f4b",
+  "route_threshold_changed": false,
+  "arithmetic_or_timing_checks_changed": false,
+  "limitation": "Historical one-second sampled RSS sums may miss short peaks and double-count shared pages; reserve is empirical, not a fit guarantee."
+}

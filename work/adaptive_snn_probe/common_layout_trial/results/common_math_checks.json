@@ -1,0 +1,11 @@
+{
+  "script_sha256": "7b059d7b367aeef4c09637cd02fb92c12ddc383aca4cc90ab8ee93515ab6855b",
+  "core_sha256": "fec435ccfa0bb9bae66ea9b0d9e8b894cf5a193d32d392c39021a95f752e8a40",
+  "scalar_cases": 4194304,
+  "packed_cases": 100000,
+  "high_min": -16,
+  "high_max": 15,
+  "mismatches": 0,
+  "operation": "signed11 U+I -> signed12; six isolated unsigned7 residual additions",
+  "scope": "Arithmetic proof screen; not HDL, timing or adaptive-policy validation"
+}

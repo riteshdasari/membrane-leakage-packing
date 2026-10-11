@@ -1,0 +1,80 @@
+{
+  "guard_add_frontier.sv": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\guard_add_frontier.sv",
+    "parent_sha256": "bf7ac4a24f3a2597084adb13972b79753b1fe280f06deb56b1b696a8da60495c",
+    "child_file": "guard_add_frontier_f5.sv",
+    "child_sha256": "40bd9ae237af5a19321e658e113e31cf2edaece6f5c420939ac304f19627617f"
+  },
+  "guard_add_frontier_timing.sv": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\guard_add_frontier_timing.sv",
+    "parent_sha256": "eddfd750d8d87e7f0915d57198405852b0796e18c14d18eca20d63f1d860a838",
+    "child_file": "guard_add_frontier_f5_timing.sv",
+    "child_sha256": "03149a963a386b72310abf84cf19156c82a2472dbc8118a9b76feb63895b6dd1"
+  },
+  "prepare_frontier_work.py": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\prepare_frontier_work.py",
+    "parent_sha256": "2cb211c26cfc987eb82f6815fb39e93c5d48f6186adf40d9b6890f6e53920c47",
+    "child_file": "prepare_frontier_work.py",
+    "child_sha256": "d544c940375ccd5611d42a6b570e859aa94413a143c62f47ae82e68d4f6bd224"
+  },
+  "verify_frontier.py": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\verify_frontier.py",
+    "parent_sha256": "33b3d1a4881676c881813c37489a7c0bd985906cf436cedf81bebae473d04ed7",
+    "child_file": "verify_frontier.py",
+    "child_sha256": "5278d987a0a87c140a0e2f9e313a8737b19d6ba3be442a736e6e098514471d8e"
+  },
+  "tb_frontier_compare.sv": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\tb_frontier_compare.sv",
+    "parent_sha256": "fad4d478575bf084c50717c9827d330c0e5d49c41f5f60bc74221a3f1f0805fd",
+    "child_file": "tb_frontier_compare.sv",
+    "child_sha256": "4d9ef96198f779d57b0255f1b0a370374919e521d6e52da27c17138a06151a72"
+  },
+  "tb_frontier_route_replay.sv": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\tb_frontier_route_replay.sv",
+    "parent_sha256": "72dadf6424679599cf1945258457534fd016bc4c8fc7b454cd4ba2d99c278854",
+    "child_file": "tb_frontier_route_replay.sv",
+    "child_sha256": "2178a61bc25733d13a929c16cc3934fded89622019303318533acf09fe37c4cf"
+  },
+  "run_frontier.py": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\run_frontier.py",
+    "parent_sha256": "bfb8b62a0c39f4fdbbf0bec79ad78fcaf3e8261513d9ba1819da8ce6eb7d511f",
+    "child_file": "run_frontier_f5.py",
+    "child_sha256": "62ccf76539256b94432e843f4e2cc65538b224c426ff78ec059f2a70d87d842f"
+  },
+  "route_frontier.tcl": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\route_frontier.tcl",
+    "parent_sha256": "b44289517a6bf910676741f905734f340697234f7eb5e7e5db1339c61e8d75b1",
+    "child_file": "route_frontier.tcl",
+    "child_sha256": "63a2f4d5052a1978a325b4136c5bed34f5e2f039e15ee915c2451b15aed3abd7"
+  },
+  "export_frontier.tcl": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\export_frontier.tcl",
+    "parent_sha256": "bc005fed8ceab3ccd093fe4c733581d398e77d243e3690bc9901f16de3ad210e",
+    "child_file": "export_frontier.tcl",
+    "child_sha256": "a2f9f0ece4be727e2cd18e76ff05e07c967a7ddb055b882c1c474683ee182fd9"
+  },
+  "annotation_frontier.tcl": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\annotation_frontier.tcl",
+    "parent_sha256": "d5a4747984e278a4d61abfee91aebbeada39ae6d9dd8741bc45fa3ce124ac6f6",
+    "child_file": "annotation_frontier.tcl",
+    "child_sha256": "d5a4747984e278a4d61abfee91aebbeada39ae6d9dd8741bc45fa3ce124ac6f6"
+  },
+  "audit_frontier_power.py": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\audit_frontier_power.py",
+    "parent_sha256": "0a4d467c8361a8a270a52f440b25e034415f702f15152718eb1e2967adfdc2cc",
+    "child_file": "audit_frontier_power.py",
+    "child_sha256": "0a4d467c8361a8a270a52f440b25e034415f702f15152718eb1e2967adfdc2cc"
+  },
+  "run_supply2.py": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\run_supply2.py",
+    "parent_sha256": "fa7dae0375892e3a1ab715c49fec0860ab830535cf6c9a577012fa5075ac21e6",
+    "child_file": "run_supply2.py",
+    "child_sha256": "d2d8678538c704cacb9aab088c14fd8c898a5ae0da7cddc25ec6f5179d12a48d"
+  },
+  "verify_frontier_supply2.py": {
+    "parent_path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\verify_frontier_supply2.py",
+    "parent_sha256": "cf613f682a1a6f016659554e83647fd234234c3cac16d6659c8bb1a467176ebc",
+    "child_file": "verify_frontier_supply2.py",
+    "child_sha256": "cf613f682a1a6f016659554e83647fd234234c3cac16d6659c8bb1a467176ebc"
+  }
+}

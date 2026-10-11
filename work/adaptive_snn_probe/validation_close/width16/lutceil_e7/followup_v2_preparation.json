@@ -1,0 +1,30 @@
+{
+  "status": "prepared_unexecuted_v2",
+  "engine": 7,
+  "native_index": 6,
+  "coefficient_contract": "allbeta0..256",
+  "B": 16,
+  "fixture_FF": 94,
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_lutceil_followup_v2.py": "e5bd52fb6dc3ff96faa5a9ebaa06bfea6b52c24f368736dc79d577de0016a7ce",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\preparation.json": "bcb610dd9f49127e55eaeac271abbcaed513b92eb0e83b229d64347ee28003e1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_native16_lutceil.py": "b096a1807652c60f837abeab47f2d324b17a23c0b64923ebb0b5d53ef5634c03",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy16_12.py": "9283502c8fa5eed29828b86189eb5fc10304a4c8920ad0c9de974f0382ba89ed",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12.py": "4bc93153255b0e6a4ebc4bc43c8724487af21561977af0db1b1ad2a300803ef9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\energy16_preparation.json": "5da8820280fc524592572852198477053a19846311a0ca00ae07431ae1fb0a89",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\domain_acceptance_glif_v2.json": "5da1ecd5e150c3bc30b64e843e8cd8e5f39472a72716500c3e3e5412b49233b8"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_native16_lutceil_v2.py": "634e99076bba42f7941d290dcd76d32edcc83fc425ac34c2fabc91a1f98a837f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12.py": "496b20aa028f3321a19af6caf479b1248ab4123a915f50187b0fc3afed1eca22",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\export16_12.tcl": "64221cbc06aa4720eae2a63dbbbd51efabb51c33044b9bf7b5a0654b4100827f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\power16_12.tcl": "c9ec6868fbd7eeabd647c17b39a1a22cccf36325ea2df1eb59726e94a0c46097",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\tb_energy16_12.sv": "7bc1767b0ee449bea46834a3d01765bf53d6d49ac0f3e772374748e72d8ab8b7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_energy16_lutceil_12.py": "f1684fd31ae0f11ad7ef6e0b8a63ec9f3eb6fc2e9bed6c6c1ab771a1a7e0106f"
+  },
+  "compile_options": {
+    "native": "run_native16_lutceil_v2.py --cohort actual_glif --stall0 --capture1 --attempt NAME",
+    "energy": "run_energy16_lutceil_12.py --workload glif --native-acceptance ABS_NATIVE/acceptance.json --route-dir-template 'ABS_ROUTE_WITH_{engine}' --engines7 --attempt NAME"
+  },
+  "note": "E7 is nativeindex6 alongside0..5; energy independently binds trace6 and expected request count from fixed2 index2. No source or timed evidence from original E2 is changed."
+}

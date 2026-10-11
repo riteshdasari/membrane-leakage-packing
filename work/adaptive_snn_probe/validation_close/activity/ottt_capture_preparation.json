@@ -1,0 +1,19 @@
+{
+  "status": "prepared_not_executed",
+  "runner": "capture_ottt_representative.py",
+  "execution_gate": "Parent coordinates completion of existing full10000 OTTT inference and available RAM before invoking this follow-up. Preparation does not launch inference or vendor tools.",
+  "model": "Original official OTTT VGG11 ws CIFAR10 checkpoint",
+  "reference": "benchmarks/cifar10_T6_n64_a2, batch4,threads2,T6",
+  "samples": 64,
+  "target_scalar_operands": 262144,
+  "seed": 417839,
+  "window_policy": "Eight equal-length nonzero-index strata per raw batch/layer/timestep frame; uniformly positioned contiguous windows, deterministic per-frame SHA256 seed. Preserve operand order, no coefficient selection.",
+  "full_membrane_signed_bits": 16,
+  "unit": 256,
+  "beta": 128,
+  "tau": 2,
+  "range_behavior": "Fail on signed16 old, current or next-state exceptions; never clip or retune.",
+  "gates": "Weighted beta/context/coarse membrane total variation <=0.05; narrow fraction difference<=0.01; layer/time mix TV<=0.005; adaptive/fixed issue-gap difference<=0.01; all64 logits and complete counts exactly reproduce accepted reference.",
+  "result_scope": "Bounded deterministic representative arithmetic capture for64 images after common zero bypass. Statistical confidence/full10000-energy/board/full-neuron energy excluded. Shift-only exact beta128 control is required.",
+  "retained_stress_capture": "The original7335operand OTTT sample remains a separate coverage/stress source."
+}

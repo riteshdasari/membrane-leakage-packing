@@ -1,0 +1,18 @@
+{
+  "preserve": "Prior tiny_T30_n64_a0 52/64 progress retained unchanged; a1 produced no model result",
+  "owned_processes": [
+    {
+      "ProcessId": 25132,
+      "Name": "python.exe",
+      "CommandLine": "\"C:\\Users\\Ritesh\\rn_dps\\.venv\\Scripts\\python.exe\" work/adaptive_snn_probe/validation_close/benchmarks/run_bntt.py --samples 64 --threads 4 --name tiny_T30_n64_a1"
+    },
+    {
+      "ProcessId": 21248,
+      "Name": "python.exe",
+      "CommandLine": "\"C:\\Users\\Ritesh\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python.exe\"  work/adaptive_snn_probe/validation_close/benchmarks/run_bntt.py --samples 64 --threads 4 --name tiny_T30_n64_a1"
+    }
+  ],
+  "status": "startup_import_recovery",
+  "reason": "Sandbox Torch imports CPU-active without model output directory; fresh source-identical relaunch required",
+  "recovery_outcome": "Original a1 reached plan creation between inspection and verified stop. Preserved a1 plan and both startup logs. Escalated a1 relaunch correctly refused existing directory. Source-identical full64 then launched under fresh a2."
+}

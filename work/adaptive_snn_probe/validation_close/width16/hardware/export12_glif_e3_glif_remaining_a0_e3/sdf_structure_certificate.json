@@ -1,0 +1,75 @@
+{
+  "status": "pass_certified_additive_SDF_structure_derivative",
+  "source": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export_raw12_glif_e3_glif_remaining_a0_e3\\routed.sdf",
+  "source_sha256": "4c92996ed6ec1d0f5f956d89bd8038355e5a39822a31424d1505a596b2870b5d",
+  "derivative": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e3_glif_remaining_a0_e3\\routed.sdf",
+  "derivative_sha256": "3ba44d2d147e689ffe0bf145abda4eda1720c293ec69f20786992485520ddfa4",
+  "exact_appended_hex": "0a2929290a",
+  "appended_closing_parentheses": 3,
+  "raw_source_modified": false,
+  "numerical_delays_modified": false,
+  "all_original_bytes_are_exact_prefix": true,
+  "all_original_lexical_tokens_are_exact_prefix": true,
+  "all_original_cell_paths_delays_timing_checks_PATHPULSE_unchanged": true,
+  "source_structural_audit": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export_raw12_glif_e3_glif_remaining_a0_e3\\routed.sdf",
+    "source_sha256": "4c92996ed6ec1d0f5f956d89bd8038355e5a39822a31424d1505a596b2870b5d",
+    "bytes": 198889,
+    "lexical_tokens": 31655,
+    "strict_structurally_balanced": false,
+    "direct_root_cell_count": 218,
+    "complete_cell_count": 217,
+    "incomplete_cell_instances": [
+      ""
+    ],
+    "unclosed_expressions_at_EOF": [
+      {
+        "expression": "DELAYFILE",
+        "line": 1,
+        "column": 1,
+        "character_offset": 0,
+        "opening_line": "(DELAYFILE "
+      },
+      {
+        "expression": "CELL",
+        "line": 3601,
+        "column": 1,
+        "character_offset": 138814,
+        "opening_line": "(CELL "
+      },
+      {
+        "expression": "DELAY",
+        "line": 3604,
+        "column": 5,
+        "character_offset": 138886,
+        "opening_line": "    (DELAY"
+      }
+    ],
+    "EOF_only_added_closing_parentheses": 3,
+    "EOF_only_repair_preserves_every_original_token": true,
+    "EOF_only_repair_preserves_all_original_cell_atoms_paths_delays_checks": true,
+    "cell_instances_sha256": "92b052e83778e50e9ce7302c553f2d115763924c0cf3427d92a6dba77ef245e8",
+    "repair_is_not_original_SDF_acceptance": true
+  },
+  "derivative_structural_audit": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\hardware\\export12_glif_e3_glif_remaining_a0_e3\\routed.sdf",
+    "source_sha256": "3ba44d2d147e689ffe0bf145abda4eda1720c293ec69f20786992485520ddfa4",
+    "bytes": 198894,
+    "lexical_tokens": 31658,
+    "strict_structurally_balanced": true,
+    "direct_root_cell_count": 218,
+    "complete_cell_count": 218,
+    "incomplete_cell_instances": [],
+    "unclosed_expressions_at_EOF": [],
+    "EOF_only_added_closing_parentheses": 0,
+    "EOF_only_repair_preserves_every_original_token": true,
+    "EOF_only_repair_preserves_all_original_cell_atoms_paths_delays_checks": true,
+    "cell_instances_sha256": "92b052e83778e50e9ce7302c553f2d115763924c0cf3427d92a6dba77ef245e8",
+    "repair_is_not_original_SDF_acceptance": true
+  },
+  "helper_sha256": "028efcbb3cd68fa97eaab8d64f5f73eae64a0ae66301921e430fde26ab4f2908",
+  "parser_sha256": "8762e602e4cc932058548e451b3fd2e6de795386f17c3440655867d754927302",
+  "vendor_tools_launched": false,
+  "causal_replay_resolved": false,
+  "limitation": "This certifies an EOF-only syntax derivative, not SDF annotation, timing, replay, SAIF, energy, physical hardware, or the cause of any numerical discrepancy."
+}

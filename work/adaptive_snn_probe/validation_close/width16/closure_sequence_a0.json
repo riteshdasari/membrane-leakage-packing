@@ -1,0 +1,51 @@
+{
+  "status": "completed_requires_independent_stage_acceptances",
+  "B": 16,
+  "steps": [
+    {
+      "label": "shift128_unstalled",
+      "returncode": 0,
+      "seconds": 90.5256838798523,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\closure_shift128_unstalled_a0.log",
+      "log_sha256": "2b695c4b24d2a9f202eaa0188e82b417573cc6bfc273571ba2adce5d95136d0d"
+    },
+    {
+      "label": "shift128_stalled",
+      "returncode": 0,
+      "seconds": 90.01484966278076,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\closure_shift128_stalled_a0.log",
+      "log_sha256": "a01728456831323fc2edaeb9a77d0d58d22cdd560107025ba57a0877ba5e6dfe"
+    },
+    {
+      "label": "actual128",
+      "returncode": 0,
+      "seconds": 38.16209030151367,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\closure_actual128_a0.log",
+      "log_sha256": "686ffffc99f6d5006d785167ca8baa44fe87170808b74b3b1bb39bb5a1a3b1ed"
+    },
+    {
+      "label": "actual_glif",
+      "returncode": 0,
+      "seconds": 244.67500495910645,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\closure_actual_glif_a0.log",
+      "log_sha256": "ebe6bb7b8777ad02a7825ecea776ed878e22cf03f26bcdf485577d44500c645b"
+    },
+    {
+      "label": "routes12",
+      "returncode": 0,
+      "seconds": 1908.1131799221039,
+      "log_file": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\closure_routes12_a0.log",
+      "log_sha256": "106223c5b78f12424ce0a205a99dfd35264e27dc579d90d9733b84eaffc25440"
+    }
+  ],
+  "failures": [],
+  "source_sha256": {
+    "C:\\AMDDesignTools\\2025.2\\data\\verilog\\src\\glbl.v": "6270251cf35e1fce3119fc79f8fb968912f7983027e43cf030409ba68f048936",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\selective_energy_trial\\run_selective_energy.py": "c040e0c5ce2404c8c17a4f9ee64056e71ef97f5b5c53c4e5c55fc769b41125b2",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_closure_sequence.py": "6fc7138f399cfd0f55eb81ef7c5f72b21f468e22bb3f5d7899599b815d61cc78",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_native16.py": "1dec135cabfb1afd7764cf02975c246d6c79bee1e479ed3fdc72f3f25e227df6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_native16_v2.py": "12c648f325f3b91424b5a6b585349f60a56fe308c58ca4db35e39577134b0c26",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_routes16.py": "c739cece30df11cf77259c5eacc3ab5a01c962fc81bcd31d7c3568e566b25716"
+  },
+  "current_stage": "routes12"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "pass_additive_representative_certified_runner_source_checks",
+  "native_trace_oracle_and_capture_distribution_checks_unchanged": true,
+  "golden_SDF_SAIF_and_physical_net_power_checks_inherited_from_frozen_producer": true,
+  "added_checks": "Certified EOF-only balanced export and exact SDF annotation path; arrays cached once.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_representative_certified_runner.py": "f5232fd0f018bf6cbe53fdbcb0afa612d09f1c90a0fa893edbac5ade970f870d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_recovery_child.py": "cd4b98233c2e28cf03a8c55978cc12b12cd03020aa72f22b1bd426ad00d7f609",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run.py": "8a9a5ca6b6bf8da6ef696add0f9356b54a00188d6dd1accd7eb05e70f0614ad6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\cached_energy_auditor_source_equivalence.json": "32876bc6c2c861e121ba071ac7c2bfa0083f6da95ba2311244cb8f2116738775",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\certified_energy_auditor_source_checks.json": "e7f58544094ab335ec888fe0da98561e5cbef39a1fbcb042ed421ee92f7851f5"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_recovery_representative_child.py": "2f02c302fcff5b9a3acbb217b73c039f8055f51dee38a5cde0f28dd94ae66974",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\ottt_representative\\prepare_and_run_certified.py": "5bcf32b5c6347ff48cbabe6f25eb251d062072a6c2699b9ee53fb6fb40b2c2ef"
+  },
+  "vendor_jobs_launched": false
+}

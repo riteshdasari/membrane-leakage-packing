@@ -1,0 +1,106 @@
+{
+  "status": "pass_source_and_software_review_no_vendor_launch",
+  "manifest_pin_checks": [
+    {
+      "file": "preparation_v2.json",
+      "pin_checks": 16,
+      "changed": 0
+    },
+    {
+      "file": "energy16_preparation.json",
+      "pin_checks": 10,
+      "changed": 0
+    },
+    {
+      "file": "lutceil_e7/preparation.json",
+      "pin_checks": 15,
+      "changed": 0
+    },
+    {
+      "file": "lutceil_e7/followup_v2_preparation.json",
+      "pin_checks": 13,
+      "changed": 0
+    },
+    {
+      "file": "domain_acceptance_glif_v2.json",
+      "pin_checks": 20,
+      "changed": 0
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "general",
+      "scalar_cases": 360487,
+      "frame_count": 174656,
+      "requests_by_engine": [
+        258688,
+        216994,
+        180247,
+        180247,
+        360487,
+        225280
+      ],
+      "E7_expected_requests": 180247,
+      "exact_scalar_and_payload_mismatches": 0
+    },
+    {
+      "cohort": "shift128",
+      "scalar_cases": 74927,
+      "frame_count": 32910,
+      "requests_by_engine": [
+        73278,
+        37473,
+        37473,
+        37473,
+        74927,
+        73278,
+        37473
+      ],
+      "E7_expected_requests": 37473,
+      "exact_scalar_and_payload_mismatches": 0
+    },
+    {
+      "cohort": "actual128",
+      "scalar_cases": 7335,
+      "frame_count": 80,
+      "requests_by_engine": [
+        6282,
+        3671,
+        3671,
+        3671,
+        7335,
+        6282,
+        3671
+      ],
+      "E7_expected_requests": 3671,
+      "exact_scalar_and_payload_mismatches": 0
+    },
+    {
+      "cohort": "actual_glif",
+      "scalar_cases": 262528,
+      "frame_count": 2176,
+      "requests_by_engine": [
+        141985,
+        140465,
+        131328,
+        131328,
+        262528,
+        141985
+      ],
+      "E7_expected_requests": 131328,
+      "exact_scalar_and_payload_mismatches": 0
+    }
+  ],
+  "E7_mapping": "native slot6 -> implementation E7 -> acceptance engine7/native_index6 -> trace6; request oracle uses E2 pair-count slot2",
+  "serious_correctness_findings": [],
+  "provenance_hardening": "Native/energy jobs do not always pin imported run_selective_energy.py or installed glbl.v; numerical/payload/SDF checks remain independent, but record those hashes in a closure manifest for complete execution provenance.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\independent_pipeline_checks.py": "92da76bf8bf3721753da7aadbff5a4667dc00d487fb3c953bea761dc30c0d4ac",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_native16_v2.py": "12c648f325f3b91424b5a6b585349f60a56fe308c58ca4db35e39577134b0c26",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy16_12.py": "9283502c8fa5eed29828b86189eb5fc10304a4c8920ad0c9de974f0382ba89ed",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\audit_power16_12.py": "4bc93153255b0e6a4ebc4bc43c8724487af21561977af0db1b1ad2a300803ef9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_native16_lutceil_v2.py": "634e99076bba42f7941d290dcd76d32edcc83fc425ac34c2fabc91a1f98a837f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\run_energy16_lutceil_12.py": "f1684fd31ae0f11ad7ef6e0b8a63ec9f3eb6fc2e9bed6c6c1ab771a1a7e0106f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\lutceil_e7\\audit_power16_lutceil_12.py": "496b20aa028f3321a19af6caf479b1248ab4123a915f50187b0fc3afed1eca22"
+  }
+}

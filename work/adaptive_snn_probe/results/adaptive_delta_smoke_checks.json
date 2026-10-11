@@ -1,0 +1,300 @@
+{
+  "source_hashes": {
+    "adaptive_delta_leak.sv": "26969dcc2c4b8c28f7c727c6dfde464eddd27aa722e410156a55aa41c3c9581a",
+    "tb_adaptive_delta_leak.sv": "6d1fa413755beb158da24e785709ae104acd05da1e4dd5ae194cd911ee73cff3"
+  },
+  "rows": [
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 1,
+      "engine": 0,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 518,
+      "issue_slots": 243,
+      "narrow_groups": 24,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "5": 65,
+        "0": 8,
+        "4": 24
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 1,
+      "engine": 1,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 542,
+      "issue_slots": 267,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "5": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 1,
+      "engine": 2,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 542,
+      "issue_slots": 267,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "5": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 1,
+      "engine": 3,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 364,
+      "issue_slots": 89,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "3": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 1,
+      "engine": 5,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 542,
+      "issue_slots": 267,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "5": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 1,
+      "engine": 0,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 493,
+      "issue_slots": 228,
+      "narrow_groups": 21,
+      "bypass_groups": 14,
+      "accept_to_output_cycles": {
+        "5": 62,
+        "0": 14,
+        "4": 21
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 1,
+      "engine": 1,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 514,
+      "issue_slots": 249,
+      "narrow_groups": 0,
+      "bypass_groups": 14,
+      "accept_to_output_cycles": {
+        "5": 83,
+        "0": 14
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 1,
+      "engine": 2,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 514,
+      "issue_slots": 249,
+      "narrow_groups": 0,
+      "bypass_groups": 14,
+      "accept_to_output_cycles": {
+        "5": 83,
+        "0": 14
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 1,
+      "engine": 3,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 348,
+      "issue_slots": 83,
+      "narrow_groups": 0,
+      "bypass_groups": 14,
+      "accept_to_output_cycles": {
+        "3": 83,
+        "0": 14
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 0,
+      "engine": 0,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 431,
+      "issue_slots": 243,
+      "narrow_groups": 24,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "4": 65,
+        "0": 8,
+        "3": 24
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 0,
+      "engine": 1,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 455,
+      "issue_slots": 267,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "4": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 0,
+      "engine": 2,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 455,
+      "issue_slots": 267,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "4": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 0,
+      "engine": 3,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 279,
+      "issue_slots": 89,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "2": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": 25,
+      "multiplier_pipeline": 0,
+      "engine": 5,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 455,
+      "issue_slots": 267,
+      "narrow_groups": 0,
+      "bypass_groups": 8,
+      "accept_to_output_cycles": {
+        "4": 89,
+        "0": 8
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 0,
+      "engine": 0,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 421,
+      "issue_slots": 237,
+      "narrow_groups": 24,
+      "bypass_groups": 10,
+      "accept_to_output_cycles": {
+        "4": 63,
+        "0": 10,
+        "3": 24
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 0,
+      "engine": 1,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 445,
+      "issue_slots": 261,
+      "narrow_groups": 0,
+      "bypass_groups": 10,
+      "accept_to_output_cycles": {
+        "4": 87,
+        "0": 10
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 0,
+      "engine": 2,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 445,
+      "issue_slots": 261,
+      "narrow_groups": 0,
+      "bypass_groups": 10,
+      "accept_to_output_cycles": {
+        "4": 87,
+        "0": 10
+      }
+    },
+    {
+      "constant_delta": -1,
+      "multiplier_pipeline": 0,
+      "engine": 3,
+      "groups": 97,
+      "neuron_operations": 582,
+      "mismatches": 0,
+      "driver_cycles": 274,
+      "issue_slots": 87,
+      "narrow_groups": 0,
+      "bypass_groups": 10,
+      "accept_to_output_cycles": {
+        "2": 87,
+        "0": 10
+      }
+    }
+  ]
+}

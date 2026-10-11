@@ -1,0 +1,371 @@
+{
+  "created_utc": "2026-10-09T16:18:37.471880+00:00",
+  "status": "completed primitive trial",
+  "findings": {
+    "primary": "Against the native four-lane DSP with the same identity-copy policy, the adaptive kernel uses 115,758 rather than 159,540 supplied-window clocks (27.44% fewer). Its measured core is 157 LUT / 267 FF / 1 DSP versus 25 LUT / 240 FF / 1 DSP (+132 LUT, +27 FF, +0 DSP). Both pass registered setup and hold at the common 6 ns target, so this is a supported primitive service-clock tradeoff for the replayed trace.",
+    "practical": "The always-six hybrid and LUT kernels need 110,596 supplied-window clocks; the adaptive schedule is 4.67% longer. Their cores are 66 LUT / 268 FF / 1 DSP and 79 LUT / 364 FF / 0 DSP, respectively. Adaptive differences are +91 LUT, -1 FF, +0 DSP versus hybrid and +78 LUT, -97 FF, +1 DSP versus LUT6. The hybrid uses fewer LUTs and the same DSP count for a shorter schedule, at the cost of one extra FF. The adaptive one-FF saving alone does not establish a useful practical advantage over this hybrid.",
+    "model_clock_reduction_vs_native4": 0.27442647611884163,
+    "changing_dsp_additions_per_issue_gain_vs_native4": 0.37823314961038057,
+    "registered_timing_pass": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true
+    },
+    "overall_win_claim": false
+  },
+  "source_sha256": {
+    "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+    "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+    "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+    "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+    "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+    "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+    "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+  },
+  "functional_check_sha256": {
+    "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+    "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+    "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+    "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+    "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+  },
+  "hardware": [
+    {
+      "top": "top_guard_add_adaptive",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 157,
+        "FF": 267,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 70,
+        "occupied_slices_reported": 70
+      },
+      "full_fixture": {
+        "LUT": 157,
+        "FF": 486,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 108
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 108,
+        "core_slices_touched": 70,
+        "fixture_slices_touched": 45,
+        "shared_slices": 7,
+        "core_exclusive_slices": 63,
+        "fixture_exclusive_slices": 38,
+        "core_primitive_cells": 490,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 1.036,
+      "WHS_ns": 0.013,
+      "boundary_WNS_ns": 1.036,
+      "boundary_WHS_ns": -1.138,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "78c4bacecb9c1ffb78b5c1a97373d6b8da2dd53a416f7d042649f8e9f59115a8",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 372.0,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    },
+    {
+      "top": "top_guard_add_fixed4",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 25,
+        "FF": 240,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 62,
+        "occupied_slices_reported": 62
+      },
+      "full_fixture": {
+        "LUT": 25,
+        "FF": 459,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 109
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 109,
+        "core_slices_touched": 62,
+        "fixture_slices_touched": 52,
+        "shared_slices": 5,
+        "core_exclusive_slices": 57,
+        "fixture_exclusive_slices": 47,
+        "core_primitive_cells": 280,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.074,
+      "WHS_ns": 0.108,
+      "boundary_WNS_ns": 1.754,
+      "boundary_WHS_ns": -1.084,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "6d7a84154600f0fbaf797fc5c2bd74a8492e2f6953f2c222cb67b0c18fd95e31",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 437.1,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    },
+    {
+      "top": "top_guard_add_hybrid6",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 66,
+        "FF": 268,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 59,
+        "occupied_slices_reported": 59
+      },
+      "full_fixture": {
+        "LUT": 66,
+        "FF": 487,
+        "DSP": 1,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 105
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 105,
+        "core_slices_touched": 59,
+        "fixture_slices_touched": 48,
+        "shared_slices": 2,
+        "core_exclusive_slices": 57,
+        "fixture_exclusive_slices": 46,
+        "core_primitive_cells": 386,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.32,
+      "WHS_ns": 0.103,
+      "boundary_WNS_ns": 1.827,
+      "boundary_WHS_ns": -1.089,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "50e7b78e48f5894f636d3f006284560dd6977f2952c2d4ec703f990e119a3934",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 356.6,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    },
+    {
+      "top": "top_guard_add_lut6",
+      "target_ns": 6.0,
+      "core": {
+        "LUT": 79,
+        "FF": 364,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 82,
+        "occupied_slices_reported": 82
+      },
+      "full_fixture": {
+        "LUT": 79,
+        "FF": 583,
+        "DSP": 0,
+        "RAMB18": 0,
+        "RAMB36": 0,
+        "occupied_slices": 138
+      },
+      "fixture_overhead": {
+        "LUT": 0,
+        "FF": 219,
+        "DSP": 0
+      },
+      "slice_accounting": {
+        "launch_FF": 138,
+        "capture_FF": 81,
+        "fixture_FF": 219,
+        "full_occupied_slices": 138,
+        "core_slices_touched": 82,
+        "fixture_slices_touched": 57,
+        "shared_slices": 1,
+        "core_exclusive_slices": 81,
+        "fixture_exclusive_slices": 56,
+        "core_primitive_cells": 471,
+        "fixture_primitive_cells": 221
+      },
+      "WNS_ns": 2.007,
+      "WHS_ns": 0.08,
+      "boundary_WNS_ns": 1.749,
+      "boundary_WHS_ns": -1.151,
+      "source_sha256": {
+        "guard_add.sv": "f89019a87185b046a95819f70cf0c9d83f2fe20ee0a5a0e253a2702e9629a907",
+        "tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351",
+        "check_guard_add.py": "1c7212164c029217679c8348427204c80b855c99b5b4b16d05ecdcf8f53aa834",
+        "check_guard_add_snn.py": "516d3a43aff2cd30ba8ec2677c51d1ab00e8520916eba3cd8f365cdaebf864bb",
+        "guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+        "route_guard_add.tcl": "44e86d1741b60590e50d401fb09ba769db658ec987feb13a9e09d1a230657db2",
+        "run_guard_add_route.py": "2b1773fd66301e79efb6c12e8567f86527b299f6e05d0c8246d2bd9fa731329f"
+      },
+      "functional_check_sha256": {
+        "guard_add_main_0_checks.json": "dc04e1ae3558c4835fe72f1e6f176f2dbde3009b2db02e2f8233c76ffd41e902",
+        "guard_add_main_1_checks.json": "61fa6a1c75dd6c10041b030cdebb8b5a537058ea4cb43144aba23b7b7d2cff67",
+        "guard_add_models_0_checks.json": "070d36dbf3a09189229bb56b1856f7f752d34b560713660a7862915556688e79",
+        "guard_add_models_1_checks.json": "cf64fbe4a401d8be375c6d092eb1cad5d7585c190fcf3aa0944829c14651d984",
+        "guard_add_snn_checks.json": "07637b4c3dff020c7e9d856ae61fe887375ca7856bc0c9c50d094c06f90f80c7"
+      },
+      "provenance_sha256": "467a7ed4723004f895ae5a5be4623da1e099ae000c952f6303b266837e0ad865",
+      "hd_clk_src": "BUFGCTRL_X0Y0",
+      "retried_checkpoint": false,
+      "seconds": 417.9,
+      "scope": "Exact signed membrane-plus-current kernel in registered OOC fixture; no board, memory, power or full neuron-update latency measurement"
+    }
+  ],
+  "model_work_accounting": [
+    {
+      "engine": 0,
+      "requests": 115754,
+      "supplied_window_clocks": 115758,
+      "neurons": 635904,
+      "narrow_requests": 92384,
+      "changing_dsp_additions": 589568,
+      "changing_lut_additions": 0,
+      "copied_neurons": 1689,
+      "issued_dsp_lane_capacity": 634215,
+      "changing_per_dsp_issue": 5.093284033381136
+    },
+    {
+      "engine": 1,
+      "requests": 159536,
+      "supplied_window_clocks": 159540,
+      "neurons": 635904,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 589568,
+      "changing_lut_additions": 0,
+      "copied_neurons": 12257,
+      "issued_dsp_lane_capacity": 623647,
+      "changing_per_dsp_issue": 3.695516999297964
+    },
+    {
+      "engine": 2,
+      "requests": 110592,
+      "supplied_window_clocks": 110596,
+      "neurons": 635904,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 400061,
+      "changing_lut_additions": 189507,
+      "copied_neurons": 0,
+      "issued_dsp_lane_capacity": 433152,
+      "changing_per_dsp_issue": 3.617449725115741
+    },
+    {
+      "engine": 3,
+      "requests": 110592,
+      "supplied_window_clocks": 110596,
+      "neurons": 635904,
+      "narrow_requests": 0,
+      "changing_dsp_additions": 0,
+      "changing_lut_additions": 589568,
+      "copied_neurons": 0,
+      "issued_dsp_lane_capacity": 0,
+      "changing_per_dsp_issue": null
+    }
+  ],
+  "checked_scalar_outputs": 11579320,
+  "distinct_input_sets": 2,
+  "input_scalar_pairs": {
+    "stress": 811511,
+    "models": 635904
+  },
+  "repeated_engine_and_stall_configurations": true,
+  "scope": "signed11 membrane-plus-current addition -> signed12; Python leakage/threshold/reset replay",
+  "model_images": 144,
+  "model_seeds": 3,
+  "beta_q8": 231,
+  "beta": 0.90234375,
+  "trained_model_accuracy_preservation_claim": false,
+  "masked_snapshot": {
+    "path": "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894",
+    "scope": "Earlier masked arithmetic/control evidence; no routed hardware results",
+    "routed": false,
+    "metadata_files": [
+      "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\results\\guard_add_masked_4d098563a894\\manifest.json"
+    ],
+    "validated_archived_artifacts": 48,
+    "source_sha256": {
+      "sources\\guard_add.sv": "4d098563a894c15ad7852a022be722e71217b143a7624a478c2c5bd4f237af30",
+      "sources\\guard_add_timing.sv": "652df2270835359c45d9d316143add0a56ddf9be5fc7e06487d82a4b85975bb3",
+      "sources\\tb_guard_add.sv": "bfb27b5b920455ad666eb532bdf78cabe6ba0a24aa9b2a37f8cdac83d0680351"
+    },
+    "manifest_sha256": {
+      "manifest.json": "c4adb5ce40fbb30d830bdf1f3597bd56fc60883dbce8dd14c30cbc803f3e248e"
+    }
+  }
+}

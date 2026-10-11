@@ -1,0 +1,100 @@
+{
+  "source_hashes": {
+    "stream_pipeline_leak.sv": "0154fd5a854c54ba32c3f2de6fdeccd01ab3baad42c5d9bc5ee5985e6792833f",
+    "tb_stream_pipeline_leak.sv": "7ee95b2c4cdc3cce9a1302804756cc5af13a50a744db21cef1a012ce1269bf5f"
+  },
+  "constant_delta": -1,
+  "backpressure": true,
+  "frames": 236522,
+  "centered_wide": true,
+  "wide_residual_encoding": "centered",
+  "real_neurons": 753861,
+  "acceptance_to_handshake_advances": 4,
+  "source_contract": "valid and complete payload held while backpressured",
+  "rows": [
+    {
+      "engine": 0,
+      "requests": 399840,
+      "neurons": 753861,
+      "arithmetic_issues": 391199,
+      "narrow_requests": 91537,
+      "bypass_requests": 8641,
+      "clocks": 548129,
+      "input_stall_checks": 115615,
+      "output_stall_checks": 121049,
+      "mismatches": 0
+    },
+    {
+      "engine": 1,
+      "requests": 484175,
+      "neurons": 753861,
+      "arithmetic_issues": 475534,
+      "narrow_requests": 0,
+      "bypass_requests": 8641,
+      "clocks": 663672,
+      "input_stall_checks": 139980,
+      "output_stall_checks": 146567,
+      "mismatches": 0
+    },
+    {
+      "engine": 2,
+      "requests": 484175,
+      "neurons": 753861,
+      "arithmetic_issues": 475534,
+      "narrow_requests": 0,
+      "bypass_requests": 8641,
+      "clocks": 663672,
+      "input_stall_checks": 139980,
+      "output_stall_checks": 146567,
+      "mismatches": 0
+    },
+    {
+      "engine": 3,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 243782,
+      "narrow_requests": 0,
+      "bypass_requests": 8641,
+      "clocks": 346082,
+      "input_stall_checks": 72955,
+      "output_stall_checks": 76406,
+      "mismatches": 0
+    },
+    {
+      "engine": 4,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 243782,
+      "narrow_requests": 0,
+      "bypass_requests": 8641,
+      "clocks": 346082,
+      "input_stall_checks": 72955,
+      "output_stall_checks": 76406,
+      "mismatches": 0
+    },
+    {
+      "engine": 5,
+      "requests": 252423,
+      "neurons": 753861,
+      "arithmetic_issues": 243782,
+      "narrow_requests": 0,
+      "bypass_requests": 8641,
+      "clocks": 346082,
+      "input_stall_checks": 72955,
+      "output_stall_checks": 76406,
+      "mismatches": 0
+    },
+    {
+      "engine": 6,
+      "requests": 432512,
+      "neurons": 753861,
+      "arithmetic_issues": 423871,
+      "narrow_requests": 57002,
+      "bypass_requests": 8641,
+      "clocks": 592898,
+      "input_stall_checks": 125064,
+      "output_stall_checks": 130947,
+      "mismatches": 0
+    }
+  ]
+}

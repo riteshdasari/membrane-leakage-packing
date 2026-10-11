@@ -1,0 +1,905 @@
+{
+  "id": "https://openalex.org/W7127901195",
+  "doi": "https://doi.org/10.1145/3748173.3779194",
+  "title": "UDP: A U niversal D SP P acking Framework for Low-bitwidth MAC Acceleration on FPGAs",
+  "display_name": "UDP: A U niversal D SP P acking Framework for Low-bitwidth MAC Acceleration on FPGAs",
+  "publication_year": 2026,
+  "publication_date": "2026-02-05",
+  "ids": {
+    "openalex": "https://openalex.org/W7127901195",
+    "doi": "https://doi.org/10.1145/3748173.3779194"
+  },
+  "language": null,
+  "primary_location": {
+    "id": "doi:10.1145/3748173.3779194",
+    "doi": "https://doi.org/10.1145/3748173.3779194",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1145/3748173.3779194",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S7407087960",
+      "display_name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "conference"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the 2026 ACM/SIGDA International Symposium on Field Programmable Gate Arrays",
+    "raw_type": "proceedings-article"
+  },
+  "volume": null,
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1145/3748173.3779194",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5125256411",
+        "display_name": "Jundong Wu",
+        "orcid": "https://orcid.org/0009-0009-1027-0403",
+        "observed_orcids": [
+          "https://orcid.org/0009-0009-1027-0403"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126520041",
+          "display_name": "University of Science and Technology of China",
+          "ror": "https://ror.org/04c4dkn09",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126520041",
+            "https://openalex.org/I19820366"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jundong Wu",
+      "raw_affiliation_strings": [
+        "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0009-1027-0403",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I126520041"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5104095639",
+        "display_name": "Zhendong Zheng",
+        "orcid": "https://orcid.org/0000-0002-6486-3062",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6486-3062"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126520041",
+          "display_name": "University of Science and Technology of China",
+          "ror": "https://ror.org/04c4dkn09",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126520041",
+            "https://openalex.org/I19820366"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhendong Zheng",
+      "raw_affiliation_strings": [
+        "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6486-3062",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I126520041"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056079771",
+        "display_name": "Lei Gong",
+        "orcid": "https://orcid.org/0009-0002-2302-3136",
+        "observed_orcids": [
+          "https://orcid.org/0009-0002-2302-3136",
+          "https://orcid.org/0000-0002-8391-5526",
+          "https://orcid.org/0000-0003-1465-0349"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126520041",
+          "display_name": "University of Science and Technology of China",
+          "ror": "https://ror.org/04c4dkn09",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126520041",
+            "https://openalex.org/I19820366"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lei Gong",
+      "raw_affiliation_strings": [
+        "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1465-0349",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I126520041"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5121608230",
+        "display_name": "Chao Wang",
+        "orcid": "https://orcid.org/0000-0001-8453-0495",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8453-0495",
+          "https://orcid.org/0000-0002-9403-5575"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126520041",
+          "display_name": "University of Science and Technology of China",
+          "ror": "https://ror.org/04c4dkn09",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126520041",
+            "https://openalex.org/I19820366"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chao Wang",
+      "raw_affiliation_strings": [
+        "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8453-0495",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I126520041"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5077322091",
+        "display_name": "Xuehai Zhou",
+        "orcid": "https://orcid.org/0000-0002-8360-3143",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8360-3143"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126520041",
+          "display_name": "University of Science and Technology of China",
+          "ror": "https://ror.org/04c4dkn09",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126520041",
+            "https://openalex.org/I19820366"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xuehai Zhou",
+      "raw_affiliation_strings": [
+        "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8360-3143",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Science and Technology of China, Hefei, China and Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I126520041"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I126520041"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.05269578,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "212",
+    "last_page": "223"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10904",
+    "display_name": "Embedded Systems Design Techniques",
+    "score": 0.8628000020980835,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1708",
+      "display_name": "Hardware and Architecture"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10904",
+      "display_name": "Embedded Systems Design Techniques",
+      "score": 0.8628000020980835,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10036",
+      "display_name": "Advanced Neural Network Applications",
+      "score": 0.03889999911189079,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11697",
+      "display_name": "Numerical Methods and Algorithms",
+      "score": 0.025699999183416367,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/multiply-accumulate",
+      "display_name": "multiply-accumulate operations",
+      "score": 0.75
+    },
+    {
+      "id": "https://openalex.org/keywords/fpga-acceleration",
+      "display_name": "FPGA acceleration",
+      "score": 0.6620000004768372
+    },
+    {
+      "id": "https://openalex.org/keywords/neural-network-hardware-acceleration",
+      "display_name": "neural network hardware acceleration",
+      "score": 0.9399999976158142
+    },
+    {
+      "id": "https://openalex.org/keywords/continuous-operation",
+      "display_name": "continuous operation",
+      "score": 0.4749999940395355
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C84462506",
+      "wikidata": "https://www.wikidata.org/wiki/Q173142",
+      "display_name": "Digital signal processing",
+      "level": 2,
+      "score": 0.8529999852180481
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.667900025844574
+    },
+    {
+      "id": "https://openalex.org/C105339364",
+      "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+      "display_name": "Software deployment",
+      "level": 2,
+      "score": 0.6288999915122986
+    },
+    {
+      "id": "https://openalex.org/C42935608",
+      "wikidata": "https://www.wikidata.org/wiki/Q190411",
+      "display_name": "Field-programmable gate array",
+      "level": 2,
+      "score": 0.6236000061035156
+    },
+    {
+      "id": "https://openalex.org/C165696696",
+      "wikidata": "https://www.wikidata.org/wiki/Q11287",
+      "display_name": "Exploit",
+      "level": 2,
+      "score": 0.620199978351593
+    },
+    {
+      "id": "https://openalex.org/C188198153",
+      "wikidata": "https://www.wikidata.org/wiki/Q1613840",
+      "display_name": "Limiting",
+      "level": 2,
+      "score": 0.576200008392334
+    },
+    {
+      "id": "https://openalex.org/C28855332",
+      "wikidata": "https://www.wikidata.org/wiki/Q198099",
+      "display_name": "Quantization (signal processing)",
+      "level": 2,
+      "score": 0.5720000267028809
+    },
+    {
+      "id": "https://openalex.org/C50644808",
+      "wikidata": "https://www.wikidata.org/wiki/Q192776",
+      "display_name": "Artificial neural network",
+      "level": 2,
+      "score": 0.5605000257492065
+    },
+    {
+      "id": "https://openalex.org/C161611012",
+      "wikidata": "https://www.wikidata.org/wiki/Q106370",
+      "display_name": "Digital signal processor",
+      "level": 3,
+      "score": 0.5447999835014343
+    },
+    {
+      "id": "https://openalex.org/C149635348",
+      "wikidata": "https://www.wikidata.org/wiki/Q193040",
+      "display_name": "Embedded system",
+      "level": 1,
+      "score": 0.5228999853134155
+    },
+    {
+      "id": "https://openalex.org/C117896860",
+      "wikidata": "https://www.wikidata.org/wiki/Q11376",
+      "display_name": "Acceleration",
+      "level": 2,
+      "score": 0.5038999915122986
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.4828999936580658
+    },
+    {
+      "id": "https://openalex.org/C45374587",
+      "wikidata": "https://www.wikidata.org/wiki/Q12525525",
+      "display_name": "Computation",
+      "level": 2,
+      "score": 0.44760000705718994
+    },
+    {
+      "id": "https://openalex.org/C9390403",
+      "wikidata": "https://www.wikidata.org/wiki/Q3966",
+      "display_name": "Computer hardware",
+      "level": 1,
+      "score": 0.40950000286102295
+    },
+    {
+      "id": "https://openalex.org/C26517878",
+      "wikidata": "https://www.wikidata.org/wiki/Q228039",
+      "display_name": "Key (lock)",
+      "level": 2,
+      "score": 0.3873000144958496
+    },
+    {
+      "id": "https://openalex.org/C13164978",
+      "wikidata": "https://www.wikidata.org/wiki/Q600158",
+      "display_name": "Hardware acceleration",
+      "level": 3,
+      "score": 0.31060001254081726
+    },
+    {
+      "id": "https://openalex.org/C77618280",
+      "wikidata": "https://www.wikidata.org/wiki/Q1155772",
+      "display_name": "Scheme (mathematics)",
+      "level": 2,
+      "score": 0.27950000762939453
+    },
+    {
+      "id": "https://openalex.org/C139807058",
+      "wikidata": "https://www.wikidata.org/wiki/Q352374",
+      "display_name": "Adaptation (eye)",
+      "level": 2,
+      "score": 0.2782000005245209
+    },
+    {
+      "id": "https://openalex.org/C79403827",
+      "wikidata": "https://www.wikidata.org/wiki/Q3988",
+      "display_name": "Real-time computing",
+      "level": 1,
+      "score": 0.27630001306533813
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1145/3748173.3779194",
+      "doi": "https://doi.org/10.1145/3748173.3779194",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1145/3748173.3779194",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407087960",
+        "display_name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "conference"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 2026 ACM/SIGDA International Symposium on Field Programmable Gate Arrays",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1145/3748173.3779194",
+    "doi": "https://doi.org/10.1145/3748173.3779194",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1145/3748173.3779194",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S7407087960",
+      "display_name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "conference"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the 2026 ACM/SIGDA International Symposium on Field Programmable Gate Arrays",
+    "raw_type": "proceedings-article"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 37,
+  "referenced_works": [
+    "https://openalex.org/W1983394510",
+    "https://openalex.org/W2613938013",
+    "https://openalex.org/W2907463061",
+    "https://openalex.org/W2948244774",
+    "https://openalex.org/W2980856918",
+    "https://openalex.org/W3108426037",
+    "https://openalex.org/W3130920634",
+    "https://openalex.org/W3144189670",
+    "https://openalex.org/W3159782774",
+    "https://openalex.org/W3168997536",
+    "https://openalex.org/W3178941450",
+    "https://openalex.org/W3207437656",
+    "https://openalex.org/W3213528054",
+    "https://openalex.org/W4211085526",
+    "https://openalex.org/W4212902668",
+    "https://openalex.org/W4300171661",
+    "https://openalex.org/W4308083513",
+    "https://openalex.org/W4308083844",
+    "https://openalex.org/W4308479898",
+    "https://openalex.org/W4312121134",
+    "https://openalex.org/W4321637080",
+    "https://openalex.org/W4386765296",
+    "https://openalex.org/W4389163074",
+    "https://openalex.org/W4393178455",
+    "https://openalex.org/W4393407042",
+    "https://openalex.org/W4401889742",
+    "https://openalex.org/W4402835945",
+    "https://openalex.org/W4403278479",
+    "https://openalex.org/W4403278953",
+    "https://openalex.org/W4404132493",
+    "https://openalex.org/W4404918643",
+    "https://openalex.org/W4404955790",
+    "https://openalex.org/W4405934565",
+    "https://openalex.org/W4407953477",
+    "https://openalex.org/W4413278531",
+    "https://openalex.org/W4414197462",
+    "https://openalex.org/W4415971076"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Low-bitwidth": [
+      0
+    ],
+    "multiply-accumulate": [
+      1
+    ],
+    "(MAC)": [
+      2
+    ],
+    "operations": [
+      3,
+      54
+    ],
+    "are": [
+      4
+    ],
+    "fundamental": [
+      5
+    ],
+    "to": [
+      6,
+      18,
+      33,
+      78
+    ],
+    "efficient": [
+      7
+    ],
+    "hardware": [
+      8
+    ],
+    "acceleration": [
+      9
+    ],
+    "of": [
+      10,
+      23,
+      39,
+      46,
+      95,
+      102
+    ],
+    "recent": [
+      11
+    ],
+    "neural": [
+      12,
+      47,
+      80
+    ],
+    "networks.": [
+      13,
+      48
+    ],
+    "Existing": [
+      14
+    ],
+    "approaches": [
+      15
+    ],
+    "often": [
+      16
+    ],
+    "fail": [
+      17
+    ],
+    "fully": [
+      19
+    ],
+    "exploit": [
+      20
+    ],
+    "the": [
+      21,
+      35,
+      42,
+      99
+    ],
+    "potential": [
+      22
+    ],
+    "digital": [
+      24
+    ],
+    "signal": [
+      25
+    ],
+    "processing": [
+      26
+    ],
+    "(DSP)": [
+      27
+    ],
+    "blocks": [
+      28
+    ],
+    "in": [
+      29,
+      92
+    ],
+    "FPGAs.": [
+      30
+    ],
+    "They": [
+      31
+    ],
+    "struggle": [
+      32
+    ],
+    "balance": [
+      34
+    ],
+    "high-bitwidth": [
+      36
+    ],
+    "computational": [
+      37
+    ],
+    "capabilities": [
+      38
+    ],
+    "DSPs": [
+      40
+    ],
+    "with": [
+      41
+    ],
+    "low-precision": [
+      43,
+      53
+    ],
+    "quantization": [
+      44
+    ],
+    "requirements": [
+      45
+    ],
+    "DSP": [
+      49,
+      58,
+      66,
+      96
+    ],
+    "packing": [
+      50,
+      67
+    ],
+    "consolidates": [
+      51
+    ],
+    "multiple": [
+      52
+    ],
+    "into": [
+      55
+    ],
+    "a": [
+      56
+    ],
+    "single": [
+      57
+    ],
+    "unit,": [
+      59
+    ],
+    "significantly": [
+      60
+    ],
+    "enhancing": [
+      61
+    ],
+    "MAC": [
+      62
+    ],
+    "efficiency.": [
+      63
+    ],
+    "However,": [
+      64
+    ],
+    "current": [
+      65
+    ],
+    "solutions": [
+      68
+    ],
+    "suffer": [
+      69
+    ],
+    "from": [
+      70
+    ],
+    "limited": [
+      71
+    ],
+    "support": [
+      72
+    ],
+    "for": [
+      73
+    ],
+    "continuous": [
+      74
+    ],
+    "operations,": [
+      75
+    ],
+    "poor": [
+      76
+    ],
+    "adaptation": [
+      77
+    ],
+    "different": [
+      79
+    ],
+    "network": [
+      81
+    ],
+    "computation": [
+      82
+    ],
+    "patterns,": [
+      83
+    ],
+    "and": [
+      84
+    ],
+    "complex": [
+      85
+    ],
+    "software-hardware": [
+      86
+    ],
+    "deployment": [
+      87
+    ],
+    "workflows.": [
+      88
+    ],
+    "These": [
+      89
+    ],
+    "issues": [
+      90
+    ],
+    "result": [
+      91
+    ],
+    "insufficient": [
+      93
+    ],
+    "utilization": [
+      94
+    ],
+    "resources,": [
+      97
+    ],
+    "limiting": [
+      98
+    ],
+    "overall": [
+      100
+    ],
+    "effectiveness": [
+      101
+    ],
+    "acceleration.": [
+      103
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-10-05T09:50:58.205359",
+  "created_date": "2026-02-07T00:00:00"
+}

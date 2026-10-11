@@ -1,0 +1,93 @@
+{
+  "status": "pass",
+  "checks": {
+    "weighted_beta_total_variation_at_most": {
+      "observed": 0.03520985078167897,
+      "limit": 0.05,
+      "pass_gate": true
+    },
+    "weighted_previous_spike_total_variation_at_most": {
+      "observed": 0.0012405451427958403,
+      "limit": 0.05,
+      "pass_gate": true
+    },
+    "weighted_membrane_coarse64_total_variation_at_most": {
+      "observed": 0.009006203547912038,
+      "limit": 0.05,
+      "pass_gate": true
+    },
+    "absolute_narrow9_fraction_difference_at_most": {
+      "observed": 0.00031536434004464375,
+      "limit": 0.01,
+      "pass_gate": true
+    },
+    "unweighted_layer_time_context_total_variation_at_most": {
+      "observed": 0.000567278424658953,
+      "limit": 0.005,
+      "pass_gate": true
+    },
+    "absolute_adaptive_vs_fixed_split_issue_overhead_fraction_difference_at_most": {
+      "observed": 1.5041889353639704e-05,
+      "limit": 0.01,
+      "pass_gate": true
+    }
+  },
+  "sample_adaptive_vs_fixed_split_issue_overhead_fraction": 0.010821201010928094,
+  "complete64_adaptive_vs_fixed_split_issue_overhead_fraction": 0.010836242900281734,
+  "sample_operations": 262528,
+  "sample_windows": 2176,
+  "boundary_totals": [
+    {
+      "engine": 0,
+      "full_pairs_wholly_inside": 120034,
+      "full_pairs_crossing_boundary": 2026,
+      "restarted_window_pairs": 120543,
+      "restarted_minus_contained_pairs": 509
+    },
+    {
+      "engine": 1,
+      "full_pairs_wholly_inside": 121545,
+      "full_pairs_crossing_boundary": 2058,
+      "restarted_window_pairs": 122063,
+      "restarted_minus_contained_pairs": 518
+    },
+    {
+      "engine": 2,
+      "full_pairs_wholly_inside": 130167,
+      "full_pairs_crossing_boundary": 2194,
+      "restarted_window_pairs": 131200,
+      "restarted_minus_contained_pairs": 1033
+    },
+    {
+      "engine": 3,
+      "full_pairs_wholly_inside": 130167,
+      "full_pairs_crossing_boundary": 2194,
+      "restarted_window_pairs": 131200,
+      "restarted_minus_contained_pairs": 1033
+    },
+    {
+      "engine": 4,
+      "full_pairs_wholly_inside": 0,
+      "full_pairs_crossing_boundary": 0,
+      "restarted_window_pairs": 0,
+      "restarted_minus_contained_pairs": 0
+    },
+    {
+      "engine": 5,
+      "full_pairs_wholly_inside": 120034,
+      "full_pairs_crossing_boundary": 2026,
+      "restarted_window_pairs": 120543,
+      "restarted_minus_contained_pairs": 509
+    }
+  ],
+  "selected_method": "random_stratified_v2 fixed seed417839",
+  "interpretation": "Passing provides a bounded deterministic distribution check, not statistical confidence intervals or full10000 workload coverage. Failing forbids a representative energy claim; retain failure and report only sample energy. No choose-best outcome among random seeds.",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\check_representativeness.py": "83aa12f7f228a9dae207fe951d1bc2725c4961044d1eb57fd524a95ca1762712",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\representativeness_gate_plan.json": "52d6f6ddafc01cb3606f5dbea09bc07f1800c2b61b89ed698d1b0e0b0b64cc0f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_v2_preparation.json": "a607e11421fdf2ec7dfdeeee833a91b5a65aa7818340d024e38b2911809653f0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\plan.json": "d6f2024c5b8191a7f5930a99ea2e39dd334c25813e8eaa9dcec6971c61f07304",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\results.json": "ff3ec141b2140b06f5a090d37cadba23dbf62ef6aef2360e573a2ddd1cf6c013",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\activity\\random_stratified_v2\\acceptance.json": "c25208b11d9ba1aa1853062761b8b69d2a97e8bef920ea7bac08fffdb6d811e2"
+  }
+}

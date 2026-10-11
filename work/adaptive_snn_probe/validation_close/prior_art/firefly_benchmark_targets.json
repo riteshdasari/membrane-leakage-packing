@@ -1,0 +1,115 @@
+[
+  {
+    "paper": "FireFly",
+    "url": "https://arxiv.org/html/2301.01905v5",
+    "section": "V-C Table III",
+    "model_dataset": [
+      [
+        "SCNN5",
+        "MNIST"
+      ],
+      [
+        "SCNN7",
+        "CIFAR10"
+      ],
+      [
+        "SCNN11",
+        "CIFAR100"
+      ],
+      [
+        "SCNN9",
+        "DVS-CIFAR10"
+      ],
+      [
+        "SCNN9",
+        "DVS-Gesture"
+      ]
+    ],
+    "stated_lif_training": {
+      "tau": 2.0,
+      "threshold": 0.5,
+      "time_steps": 4
+    },
+    "hardware": "IF/LIF with shift approximation to leakage"
+  },
+  {
+    "paper": "FireFly v2",
+    "url": "https://arxiv.org/html/2309.16158",
+    "section": "VI Tables IV-VI",
+    "model_dataset": [
+      [
+        "SNN5",
+        "MNIST"
+      ],
+      [
+        "SNN7",
+        "CIFAR10"
+      ],
+      [
+        "SNN11",
+        "CIFAR100"
+      ],
+      [
+        "SNN9",
+        "DVS-CIFAR10"
+      ],
+      [
+        "SNN9",
+        "DVS-Gesture"
+      ],
+      [
+        "CIFAR-Net",
+        "CIFAR10"
+      ],
+      [
+        "CIFAR-Net",
+        "CIFAR100"
+      ],
+      [
+        "SEW-ResNet34",
+        "ImageNet"
+      ]
+    ],
+    "hardware": "IF/LIF/residual membrane potential support; equation per row not established"
+  },
+  {
+    "paper": "FireFly-S",
+    "url": "https://arxiv.org/html/2408.15578v1",
+    "section": "VI-A Table II",
+    "model_dataset": [
+      [
+        "SCNN5",
+        "MNIST"
+      ],
+      [
+        "SCNN7",
+        "DVS-Gesture"
+      ],
+      [
+        "SCNN9",
+        "CIFAR10"
+      ]
+    ],
+    "hardware": "IF/LIF; sparse 4-bit models differ from original FireFly topologies"
+  },
+  {
+    "paper": "FireFly-T",
+    "url": "https://arxiv.org/html/2505.12771",
+    "section": "V-A",
+    "model_dataset": [
+      [
+        "CIFAR-Net",
+        "CIFAR10"
+      ],
+      [
+        "Spikingformer-4-256",
+        "CIFAR10"
+      ],
+      [
+        "Spikingformer-8-512",
+        "ImageNet"
+      ]
+    ],
+    "hardware": "BrainCog models; 4-bit quantization"
+  }
+]

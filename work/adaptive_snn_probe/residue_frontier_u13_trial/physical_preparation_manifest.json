@@ -1,0 +1,15 @@
+{
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\run_frontier.py": "bfb8b62a0c39f4fdbbf0bec79ad78fcaf3e8261513d9ba1819da8ce6eb7d511f",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\run_frontier_replay_transport_v4.py": "d77ed194175c1e0fc592b63ef7d79d1e3b1b7bf73f20d9eb04ce792814750220",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\annotation_frontier.tcl": "d5a4747984e278a4d61abfee91aebbeada39ae6d9dd8741bc45fa3ce124ac6f6",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_trial\\audit_frontier_power_v4.py": "c620ad03879be9fed213f10cebc79da22927e7bead7c2c35097bce8ed59dcd8e",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\prepare_u13_physical.py": "24ce65bae383017f6c5de5fe331f924faac69a66b126ecaeae90cd2bf7007963"
+  },
+  "prepared_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\run_u13_physical.py": "1466fc26158458285174534a5ef7f4f549b8e120ba4f1b372f6b04cb534077cb",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\annotation_u13.tcl": "508bd3fe6bdc580256468480616df7839b9ce45d3b3f5106b2d8edce43c6dbd0",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\residue_frontier_u13_trial\\audit_u13_power.py": "c483724c3e3aa0bb8bda54c3d72f0c0db7581efc2ea52b4c18f845a464d1fff5"
+  },
+  "scope": "Preparation only: no synthesis/export/replay/power process launched; accepted transport/max and all four zero pulse settings retained"
+}

@@ -1,0 +1,46 @@
+{
+  "scope": "Citation metadata only, checked 11 October 2026. ArXiv/official NeurIPS pages and publisher-deposited Crossref records agree. No manuscript edit or full-method review occurred here.",
+  "firefly": {
+    "authors": ["Jindong Li", "Guobin Shen", "Dongcheng Zhao", "Qian Zhang", "Yi Zeng"],
+    "title": "FireFly: A High-Throughput Hardware Accelerator for Spiking Neural Networks With Efficient DSP and Memory Optimization",
+    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "volume": "31",
+    "issue": "8",
+    "pages": "1178-1191",
+    "year": 2023,
+    "month": 8,
+    "doi": "10.1109/TVLSI.2023.3279349",
+    "primary_url": "https://arxiv.org/abs/2301.01905",
+    "metadata_url": "https://api.crossref.org/works/10.1109/TVLSI.2023.3279349"
+  },
+  "glif": {
+    "authors": ["Xingting Yao", "Fanrong Li", "Zitao Mo", "Jian Cheng"],
+    "title": "GLIF: A Unified Gated Leaky Integrate-and-Fire Neuron for Spiking Neural Networks",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "35",
+    "pages": "32160-32171",
+    "year": 2022,
+    "doi": "10.52202/068431-2330",
+    "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/cfa8440d500a6a6867157dfd4eaff66e-Abstract.html",
+    "metadata_url": "https://api.crossref.org/works/10.52202/068431-2330",
+    "code": "https://github.com/CAS-CLab/Gated-LIF",
+    "cached_official_citation_source": "work/adaptive_snn_probe/public_model_trial/sources/README.md:182"
+  },
+  "ottt": {
+    "authors": ["Mingqing Xiao", "Qingyan Meng", "Zongpeng Zhang", "Di He", "Zhouchen Lin"],
+    "title": "Online Training Through Time for Spiking Neural Networks",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "35",
+    "pages": "20717-20730",
+    "year": 2022,
+    "doi": "10.52202/068431-1506",
+    "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/82846e19e6d42ebfd4ace4361def29ae-Abstract-Conference.html",
+    "metadata_url": "https://api.crossref.org/works/10.52202/068431-1506",
+    "code": "https://github.com/pkuxmq/OTTT-SNN"
+  },
+  "bntt_source_identity_check": {
+    "validated_checkpoint_source": "Scientific Reports 2021 visual-explanations implementation, with BNTT training/normalization",
+    "citation_matches_checkpoint_source": true,
+    "cached_source": "work/adaptive_snn_probe/validation_close/benchmarks/bntt_visual_source/README.md"
+  }
+}

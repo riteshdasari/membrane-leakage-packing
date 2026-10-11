@@ -1,0 +1,1029 @@
+{
+  "note": "Modeled pooled DSP service work, not measured latency/FireFly reproduction. Best tile selected per layer on these traces as an optimistic screen.",
+  "models": [
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "accuracy": 0.9611111111111111,
+      "services": {
+        "active_spikes": {
+          "compute": 2637801.0,
+          "oracle_compute": 2331934.833333333,
+          "candidate_free_control": 3285455.0,
+          "candidate_parallel_check_repack2": 3478617.0,
+          "candidate_serial_check": 4986453.0,
+          "static_current_total": 3907838.0,
+          "static_current_overlap_merge": 2980365.0,
+          "biased_current_overlap_merge": 2839288.0,
+          "biased_current_one_merge": 3781277.0,
+          "biased_current_two_merges": 4322717.0,
+          "counted_current_overlap_merge": 2989048.0,
+          "counted_current_one_merge": 3855507.0,
+          "counted_current_two_merges": 4396947.0,
+          "native12_total": 5464476.0,
+          "counted_free_control": 2839288.0
+        },
+        "dense": {
+          "compute": 7429916.0,
+          "oracle_compute": 6898017.166666666,
+          "candidate_free_control": 8466863.0,
+          "candidate_parallel_check_repack2": 8840828.0,
+          "candidate_serial_check": 11527190.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "accuracy": 0.9583333333333334,
+      "services": {
+        "active_spikes": {
+          "compute": 2511322.0,
+          "oracle_compute": 2273822.541666667,
+          "candidate_free_control": 3027948.0,
+          "candidate_parallel_check_repack2": 3273862.0,
+          "candidate_serial_check": 4919012.0,
+          "static_current_total": 3852778.0,
+          "static_current_overlap_merge": 2925305.0,
+          "biased_current_overlap_merge": 2784228.0,
+          "biased_current_one_merge": 3726217.0,
+          "biased_current_two_merges": 4267657.0,
+          "counted_current_overlap_merge": 2933988.0,
+          "counted_current_one_merge": 3800447.0,
+          "counted_current_two_merges": 4341887.0,
+          "native12_total": 5381886.0,
+          "counted_free_control": 2784228.0
+        },
+        "dense": {
+          "compute": 7378536.0,
+          "oracle_compute": 6883104.749999996,
+          "candidate_free_control": 8223756.0,
+          "candidate_parallel_check_repack2": 8524392.0,
+          "candidate_serial_check": 11500800.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "accuracy": 0.9611111111111111,
+      "services": {
+        "active_spikes": {
+          "compute": 2998812.0,
+          "oracle_compute": 2351674.2499999995,
+          "candidate_free_control": 3393445.0,
+          "candidate_parallel_check_repack2": 3474907.0,
+          "candidate_serial_check": 4982985.0,
+          "static_current_total": 3740374.0,
+          "static_current_overlap_merge": 2812989.0,
+          "biased_current_overlap_merge": 2671912.0,
+          "biased_current_one_merge": 3613813.0,
+          "biased_current_two_merges": 4155165.0,
+          "counted_current_overlap_merge": 2822288.0,
+          "counted_current_one_merge": 3688659.0,
+          "counted_current_two_merges": 4230011.0,
+          "native12_total": 5213324.0,
+          "counted_free_control": 2671912.0
+        },
+        "dense": {
+          "compute": 8808284.0,
+          "oracle_compute": 7138628.916666665,
+          "candidate_free_control": 10302448.0,
+          "candidate_parallel_check_repack2": 10603848.0,
+          "candidate_serial_check": 12128682.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914922.0,
+          "counted_current_one_merge": 8951722.0,
+          "counted_current_two_merges": 9988522.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "accuracy": 0.9305555555555556,
+      "services": {
+        "active_spikes": {
+          "compute": 2832529.0,
+          "oracle_compute": 2262376.833333333,
+          "candidate_free_control": 3283000.0,
+          "candidate_parallel_check_repack2": 3364564.0,
+          "candidate_serial_check": 4872540.0,
+          "static_current_total": 3668200.0,
+          "static_current_overlap_merge": 2740815.0,
+          "biased_current_overlap_merge": 2599738.0,
+          "biased_current_one_merge": 3541639.0,
+          "biased_current_two_merges": 4082991.0,
+          "counted_current_overlap_merge": 2750118.0,
+          "counted_current_one_merge": 3616489.0,
+          "counted_current_two_merges": 4157841.0,
+          "native12_total": 5105063.0,
+          "counted_free_control": 2599738.0
+        },
+        "dense": {
+          "compute": 8527374.0,
+          "oracle_compute": 7076760.5833333265,
+          "candidate_free_control": 10022734.0,
+          "candidate_parallel_check_repack2": 10395660.0,
+          "candidate_serial_check": 12110594.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914926.0,
+          "counted_current_one_merge": 8951726.0,
+          "counted_current_two_merges": 9988526.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "hard_reset": false,
+      "accuracy": 0.9611111111111111,
+      "services": {
+        "active_spikes": {
+          "compute": 4184502.0,
+          "oracle_compute": 2914581.249999999,
+          "candidate_free_control": 4562098.0,
+          "candidate_parallel_check_repack2": 4647554.0,
+          "candidate_serial_check": 6151858.0,
+          "static_current_total": 4046204.0,
+          "static_current_overlap_merge": 3118731.0,
+          "biased_current_overlap_merge": 2977654.0,
+          "biased_current_one_merge": 3919643.0,
+          "biased_current_two_merges": 4461083.0,
+          "counted_current_overlap_merge": 3127414.0,
+          "counted_current_one_merge": 3993873.0,
+          "counted_current_two_merges": 4535313.0,
+          "native12_total": 5672025.0,
+          "counted_free_control": 2977654.0
+        },
+        "dense": {
+          "compute": 11590740.0,
+          "oracle_compute": 8042655.499999993,
+          "candidate_free_control": 12645495.0,
+          "candidate_parallel_check_repack2": 12780103.0,
+          "candidate_serial_check": 14284407.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "leak_shift": null,
+      "hard_reset": true,
+      "accuracy": 0.9694444444444444,
+      "services": {
+        "active_spikes": {
+          "compute": 3698483.0,
+          "oracle_compute": 2602469.333333334,
+          "candidate_free_control": 4126791.0,
+          "candidate_parallel_check_repack2": 4211521.0,
+          "candidate_serial_check": 5716551.0,
+          "static_current_total": 3915440.0,
+          "static_current_overlap_merge": 2987967.0,
+          "biased_current_overlap_merge": 2846890.0,
+          "biased_current_one_merge": 3788879.0,
+          "biased_current_two_merges": 4330319.0,
+          "counted_current_overlap_merge": 2996650.0,
+          "counted_current_one_merge": 3863109.0,
+          "counted_current_two_merges": 4404549.0,
+          "native12_total": 5475879.0,
+          "counted_free_control": 2846890.0
+        },
+        "dense": {
+          "compute": 10667002.0,
+          "oracle_compute": 7623585.916666665,
+          "candidate_free_control": 11705599.0,
+          "candidate_parallel_check_repack2": 11884119.0,
+          "candidate_serial_check": 13580732.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "accuracy": 0.9555555555555556,
+      "services": {
+        "active_spikes": {
+          "compute": 2657638.0,
+          "oracle_compute": 2365256.7916666665,
+          "candidate_free_control": 3231557.0,
+          "candidate_parallel_check_repack2": 3492222.0,
+          "candidate_serial_check": 5092351.0,
+          "static_current_total": 3955370.0,
+          "static_current_overlap_merge": 2952019.0,
+          "biased_current_overlap_merge": 2881456.0,
+          "biased_current_one_merge": 3828259.0,
+          "biased_current_two_merges": 4369699.0,
+          "counted_current_overlap_merge": 3031210.0,
+          "counted_current_one_merge": 3870520.0,
+          "counted_current_two_merges": 4411960.0,
+          "native12_total": 5535224.0,
+          "counted_free_control": 2881456.0
+        },
+        "dense": {
+          "compute": 7409066.0,
+          "oracle_compute": 6917086.083333333,
+          "candidate_free_control": 8387123.0,
+          "candidate_parallel_check_repack2": 8769849.0,
+          "candidate_serial_check": 11656410.0,
+          "static_current_total": 8997120.0,
+          "static_current_overlap_merge": 7960320.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "accuracy": 0.95,
+      "services": {
+        "active_spikes": {
+          "compute": 2530892.0,
+          "oracle_compute": 2306174.9166666665,
+          "candidate_free_control": 2985312.0,
+          "candidate_parallel_check_repack2": 3191090.0,
+          "candidate_serial_check": 5006682.0,
+          "static_current_total": 3894610.0,
+          "static_current_overlap_merge": 2891259.0,
+          "biased_current_overlap_merge": 2820696.0,
+          "biased_current_one_merge": 3767499.0,
+          "biased_current_two_merges": 4308939.0,
+          "counted_current_overlap_merge": 2970454.0,
+          "counted_current_one_merge": 3809764.0,
+          "counted_current_two_merges": 4351204.0,
+          "native12_total": 5444084.0,
+          "counted_free_control": 2820696.0
+        },
+        "dense": {
+          "compute": 7383108.0,
+          "oracle_compute": 6901319.666666675,
+          "candidate_free_control": 8112043.0,
+          "candidate_parallel_check_repack2": 8351467.0,
+          "candidate_serial_check": 11269791.0,
+          "static_current_total": 8997120.0,
+          "static_current_overlap_merge": 7960320.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914244.0,
+          "counted_current_one_merge": 8951044.0,
+          "counted_current_two_merges": 9987844.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "accuracy": 0.9472222222222222,
+      "services": {
+        "active_spikes": {
+          "compute": 3604993.0,
+          "oracle_compute": 2735439.2500000005,
+          "candidate_free_control": 3909857.0,
+          "candidate_parallel_check_repack2": 3991555.0,
+          "candidate_serial_check": 5499617.0,
+          "static_current_total": 4082622.0,
+          "static_current_overlap_merge": 3079271.0,
+          "biased_current_overlap_merge": 3008708.0,
+          "biased_current_one_merge": 3955511.0,
+          "biased_current_two_merges": 4496951.0,
+          "counted_current_overlap_merge": 3158462.0,
+          "counted_current_one_merge": 3997772.0,
+          "counted_current_two_merges": 4539212.0,
+          "native12_total": 5726102.0,
+          "counted_free_control": 3008708.0
+        },
+        "dense": {
+          "compute": 9630384.0,
+          "oracle_compute": 7442591.0833333405,
+          "candidate_free_control": 10589519.0,
+          "candidate_parallel_check_repack2": 10686066.0,
+          "candidate_serial_check": 12194128.0,
+          "static_current_total": 8997120.0,
+          "static_current_overlap_merge": 7960320.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "accuracy": 0.95,
+      "services": {
+        "active_spikes": {
+          "compute": 3194690.0,
+          "oracle_compute": 2494077.9166666665,
+          "candidate_free_control": 3682938.0,
+          "candidate_parallel_check_repack2": 3790885.0,
+          "candidate_serial_check": 5299067.0,
+          "static_current_total": 3951634.0,
+          "static_current_overlap_merge": 2948283.0,
+          "biased_current_overlap_merge": 2877720.0,
+          "biased_current_one_merge": 3824523.0,
+          "biased_current_two_merges": 4365963.0,
+          "counted_current_overlap_merge": 3027474.0,
+          "counted_current_one_merge": 3866784.0,
+          "counted_current_two_merges": 4408224.0,
+          "native12_total": 5529620.0,
+          "counted_free_control": 2877720.0
+        },
+        "dense": {
+          "compute": 8811954.0,
+          "oracle_compute": 7236072.666666672,
+          "candidate_free_control": 9889171.0,
+          "candidate_parallel_check_repack2": 10078441.0,
+          "candidate_serial_check": 12180159.0,
+          "static_current_total": 8997120.0,
+          "static_current_overlap_merge": 7960320.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "hard_reset": false,
+      "accuracy": 0.9527777777777777,
+      "services": {
+        "active_spikes": {
+          "compute": 4187859.0,
+          "oracle_compute": 2946435.125,
+          "candidate_free_control": 4575454.0,
+          "candidate_parallel_check_repack2": 4660852.0,
+          "candidate_serial_check": 6165214.0,
+          "static_current_total": 4082452.0,
+          "static_current_overlap_merge": 3079101.0,
+          "biased_current_overlap_merge": 3008538.0,
+          "biased_current_one_merge": 3955341.0,
+          "biased_current_two_merges": 4496781.0,
+          "counted_current_overlap_merge": 3158292.0,
+          "counted_current_one_merge": 3997602.0,
+          "counted_current_two_merges": 4539042.0,
+          "native12_total": 5725847.0,
+          "counted_free_control": 3008538.0
+        },
+        "dense": {
+          "compute": 11483054.0,
+          "oracle_compute": 8045031.833333336,
+          "candidate_free_control": 12495928.0,
+          "candidate_parallel_check_repack2": 12662872.0,
+          "candidate_serial_check": 14167777.0,
+          "static_current_total": 8997120.0,
+          "static_current_overlap_merge": 7960320.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "leak_shift": null,
+      "hard_reset": true,
+      "accuracy": 0.9527777777777777,
+      "services": {
+        "active_spikes": {
+          "compute": 3686680.0,
+          "oracle_compute": 2624748.666666666,
+          "candidate_free_control": 4150292.0,
+          "candidate_parallel_check_repack2": 4234740.0,
+          "candidate_serial_check": 5740052.0,
+          "static_current_total": 3945828.0,
+          "static_current_overlap_merge": 2942477.0,
+          "biased_current_overlap_merge": 2871914.0,
+          "biased_current_one_merge": 3818717.0,
+          "biased_current_two_merges": 4360157.0,
+          "counted_current_overlap_merge": 3021668.0,
+          "counted_current_one_merge": 3860978.0,
+          "counted_current_two_merges": 4402418.0,
+          "native12_total": 5520911.0,
+          "counted_free_control": 2871914.0
+        },
+        "dense": {
+          "compute": 10578886.0,
+          "oracle_compute": 7634691.500000002,
+          "candidate_free_control": 11529902.0,
+          "candidate_parallel_check_repack2": 11700672.0,
+          "candidate_serial_check": 13517358.0,
+          "static_current_total": 8997120.0,
+          "static_current_overlap_merge": 7960320.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914240.0,
+          "counted_current_one_merge": 8951040.0,
+          "counted_current_two_merges": 9987840.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "hard_reset": false,
+      "accuracy": 0.975,
+      "services": {
+        "active_spikes": {
+          "compute": 2714835.0,
+          "oracle_compute": 2364786.0833333335,
+          "candidate_free_control": 3406553.0,
+          "candidate_parallel_check_repack2": 3505226.0,
+          "candidate_serial_check": 5013994.0,
+          "static_current_total": 3956802.0,
+          "static_current_overlap_merge": 3028630.0,
+          "biased_current_overlap_merge": 2887686.0,
+          "biased_current_one_merge": 3830440.0,
+          "biased_current_two_merges": 4371880.0,
+          "counted_current_overlap_merge": 3037448.0,
+          "counted_current_one_merge": 3875930.0,
+          "counted_current_two_merges": 4417370.0,
+          "native12_total": 5538121.0,
+          "counted_free_control": 2887686.0
+        },
+        "dense": {
+          "compute": 7463778.0,
+          "oracle_compute": 6887095.33333333,
+          "candidate_free_control": 8531833.0,
+          "candidate_parallel_check_repack2": 8929407.0,
+          "candidate_serial_check": 11472070.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914242.0,
+          "counted_current_one_merge": 8951042.0,
+          "counted_current_two_merges": 9987842.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "leak_shift": 1,
+      "hard_reset": true,
+      "accuracy": 0.9694444444444444,
+      "services": {
+        "active_spikes": {
+          "compute": 2567431.0,
+          "oracle_compute": 2300058.416666667,
+          "candidate_free_control": 3156589.0,
+          "candidate_parallel_check_repack2": 3386227.0,
+          "candidate_serial_check": 4946912.0,
+          "static_current_total": 3894174.0,
+          "static_current_overlap_merge": 2966002.0,
+          "biased_current_overlap_merge": 2825058.0,
+          "biased_current_one_merge": 3767812.0,
+          "biased_current_two_merges": 4309252.0,
+          "counted_current_overlap_merge": 2974820.0,
+          "counted_current_one_merge": 3813302.0,
+          "counted_current_two_merges": 4354742.0,
+          "native12_total": 5444179.0,
+          "counted_free_control": 2825058.0
+        },
+        "dense": {
+          "compute": 7404190.0,
+          "oracle_compute": 6872101.166666665,
+          "candidate_free_control": 8271952.0,
+          "candidate_parallel_check_repack2": 8597392.0,
+          "candidate_serial_check": 11462515.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914242.0,
+          "counted_current_one_merge": 8951042.0,
+          "counted_current_two_merges": 9987842.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "hard_reset": false,
+      "accuracy": 0.9611111111111111,
+      "services": {
+        "active_spikes": {
+          "compute": 3032122.0,
+          "oracle_compute": 2355247.7916666665,
+          "candidate_free_control": 3442955.0,
+          "candidate_parallel_check_repack2": 3525018.0,
+          "candidate_serial_check": 5032225.0,
+          "static_current_total": 3741528.0,
+          "static_current_overlap_merge": 2813552.0,
+          "biased_current_overlap_merge": 2672608.0,
+          "biased_current_one_merge": 3615166.0,
+          "biased_current_two_merges": 4156410.0,
+          "counted_current_overlap_merge": 2822947.0,
+          "counted_current_one_merge": 3661233.0,
+          "counted_current_two_merges": 4202477.0,
+          "native12_total": 5215308.0,
+          "counted_free_control": 2672608.0
+        },
+        "dense": {
+          "compute": 8791134.0,
+          "oracle_compute": 7099037.499999998,
+          "candidate_free_control": 10389789.0,
+          "candidate_parallel_check_repack2": 10654488.0,
+          "candidate_serial_check": 12262745.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914964.0,
+          "counted_current_one_merge": 8951764.0,
+          "counted_current_two_merges": 9988564.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "leak_shift": 3,
+      "hard_reset": true,
+      "accuracy": 0.9388888888888889,
+      "services": {
+        "active_spikes": {
+          "compute": 2869542.0,
+          "oracle_compute": 2271221.583333333,
+          "candidate_free_control": 3329523.0,
+          "candidate_parallel_check_repack2": 3416619.0,
+          "candidate_serial_check": 4923672.0,
+          "static_current_total": 3672550.0,
+          "static_current_overlap_merge": 2744574.0,
+          "biased_current_overlap_merge": 2603630.0,
+          "biased_current_one_merge": 3546188.0,
+          "biased_current_two_merges": 4087432.0,
+          "counted_current_overlap_merge": 2754005.0,
+          "counted_current_one_merge": 3592291.0,
+          "counted_current_two_merges": 4133535.0,
+          "native12_total": 5111841.0,
+          "counted_free_control": 2603630.0
+        },
+        "dense": {
+          "compute": 8547664.0,
+          "oracle_compute": 7046679.666666669,
+          "candidate_free_control": 10092698.0,
+          "candidate_parallel_check_repack2": 10422714.0,
+          "candidate_serial_check": 12229264.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7915000.0,
+          "counted_current_one_merge": 8951800.0,
+          "counted_current_two_merges": 9988600.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "hard_reset": false,
+      "accuracy": 0.9722222222222222,
+      "services": {
+        "active_spikes": {
+          "compute": 3648754.0,
+          "oracle_compute": 2532494.7916666674,
+          "candidate_free_control": 4003841.0,
+          "candidate_parallel_check_repack2": 4088354.0,
+          "candidate_serial_check": 5593111.0,
+          "static_current_total": 3781556.0,
+          "static_current_overlap_merge": 2853580.0,
+          "biased_current_overlap_merge": 2712636.0,
+          "biased_current_one_merge": 3655194.0,
+          "biased_current_two_merges": 4196438.0,
+          "counted_current_overlap_merge": 2862965.0,
+          "counted_current_one_merge": 3701251.0,
+          "counted_current_two_merges": 4242495.0,
+          "native12_total": 5275350.0,
+          "counted_free_control": 2712636.0
+        },
+        "dense": {
+          "compute": 10855998.0,
+          "oracle_compute": 7525603.333333331,
+          "candidate_free_control": 12178904.0,
+          "candidate_parallel_check_repack2": 12275593.0,
+          "candidate_serial_check": 13780791.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914956.0,
+          "counted_current_one_merge": 8951756.0,
+          "counted_current_two_merges": 9988556.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "leak_shift": null,
+      "hard_reset": true,
+      "accuracy": 0.9722222222222222,
+      "services": {
+        "active_spikes": {
+          "compute": 3505528.0,
+          "oracle_compute": 2411943.0833333344,
+          "candidate_free_control": 3867870.0,
+          "candidate_parallel_check_repack2": 3952361.0,
+          "candidate_serial_check": 5457140.0,
+          "static_current_total": 3693572.0,
+          "static_current_overlap_merge": 2765596.0,
+          "biased_current_overlap_merge": 2624652.0,
+          "biased_current_one_merge": 3567210.0,
+          "biased_current_two_merges": 4108454.0,
+          "counted_current_overlap_merge": 2774997.0,
+          "counted_current_one_merge": 3613283.0,
+          "counted_current_two_merges": 4154527.0,
+          "native12_total": 5143374.0,
+          "counted_free_control": 2624652.0
+        },
+        "dense": {
+          "compute": 10770388.0,
+          "oracle_compute": 7459586.4166666735,
+          "candidate_free_control": 12132987.0,
+          "candidate_parallel_check_repack2": 12254968.0,
+          "candidate_serial_check": 13760188.0,
+          "static_current_total": 9192960.0,
+          "static_current_overlap_merge": 8133120.0,
+          "biased_current_overlap_merge": 7764480.0,
+          "biased_current_one_merge": 8801280.0,
+          "biased_current_two_merges": 9838080.0,
+          "counted_current_overlap_merge": 7914972.0,
+          "counted_current_one_merge": 8951772.0,
+          "counted_current_two_merges": 9988572.0,
+          "native12_total": 14952960.0,
+          "counted_free_control": 7764480.0
+        }
+      }
+    }
+  ],
+  "metadata_footprints": [
+    {
+      "seed": 0,
+      "layer": 0,
+      "tile": 4,
+      "count_bound_bits": 31480,
+      "weight_bits": 32768,
+      "ratio": 0.960693359375
+    },
+    {
+      "seed": 0,
+      "layer": 0,
+      "tile": 8,
+      "count_bound_bits": 38592,
+      "weight_bits": 32768,
+      "ratio": 1.177734375
+    },
+    {
+      "seed": 0,
+      "layer": 0,
+      "tile": 16,
+      "count_bound_bits": 50014,
+      "weight_bits": 32768,
+      "ratio": 1.52630615234375
+    },
+    {
+      "seed": 0,
+      "layer": 0,
+      "tile": 32,
+      "count_bound_bits": 66429,
+      "weight_bits": 32768,
+      "ratio": 2.027252197265625
+    },
+    {
+      "seed": 0,
+      "layer": 0,
+      "tile": 0,
+      "count_bound_bits": 82095,
+      "weight_bits": 32768,
+      "ratio": 2.505340576171875
+    },
+    {
+      "seed": 0,
+      "layer": 1,
+      "tile": 4,
+      "count_bound_bits": 5810,
+      "weight_bits": 5120,
+      "ratio": 1.134765625
+    },
+    {
+      "seed": 0,
+      "layer": 1,
+      "tile": 8,
+      "count_bound_bits": 7533,
+      "weight_bits": 5120,
+      "ratio": 1.4712890625
+    },
+    {
+      "seed": 0,
+      "layer": 1,
+      "tile": 16,
+      "count_bound_bits": 9911,
+      "weight_bits": 5120,
+      "ratio": 1.9357421875
+    },
+    {
+      "seed": 0,
+      "layer": 1,
+      "tile": 32,
+      "count_bound_bits": 12243,
+      "weight_bits": 5120,
+      "ratio": 2.3912109375
+    },
+    {
+      "seed": 0,
+      "layer": 1,
+      "tile": 0,
+      "count_bound_bits": 17544,
+      "weight_bits": 5120,
+      "ratio": 3.4265625
+    },
+    {
+      "seed": 1,
+      "layer": 0,
+      "tile": 4,
+      "count_bound_bits": 30830,
+      "weight_bits": 32768,
+      "ratio": 0.94085693359375
+    },
+    {
+      "seed": 1,
+      "layer": 0,
+      "tile": 8,
+      "count_bound_bits": 37674,
+      "weight_bits": 32768,
+      "ratio": 1.14971923828125
+    },
+    {
+      "seed": 1,
+      "layer": 0,
+      "tile": 16,
+      "count_bound_bits": 48297,
+      "weight_bits": 32768,
+      "ratio": 1.473907470703125
+    },
+    {
+      "seed": 1,
+      "layer": 0,
+      "tile": 32,
+      "count_bound_bits": 64251,
+      "weight_bits": 32768,
+      "ratio": 1.960784912109375
+    },
+    {
+      "seed": 1,
+      "layer": 0,
+      "tile": 0,
+      "count_bound_bits": 80210,
+      "weight_bits": 32768,
+      "ratio": 2.44781494140625
+    },
+    {
+      "seed": 1,
+      "layer": 1,
+      "tile": 4,
+      "count_bound_bits": 5775,
+      "weight_bits": 5120,
+      "ratio": 1.1279296875
+    },
+    {
+      "seed": 1,
+      "layer": 1,
+      "tile": 8,
+      "count_bound_bits": 7461,
+      "weight_bits": 5120,
+      "ratio": 1.4572265625
+    },
+    {
+      "seed": 1,
+      "layer": 1,
+      "tile": 16,
+      "count_bound_bits": 9656,
+      "weight_bits": 5120,
+      "ratio": 1.8859375
+    },
+    {
+      "seed": 1,
+      "layer": 1,
+      "tile": 32,
+      "count_bound_bits": 12243,
+      "weight_bits": 5120,
+      "ratio": 2.3912109375
+    },
+    {
+      "seed": 1,
+      "layer": 1,
+      "tile": 0,
+      "count_bound_bits": 16899,
+      "weight_bits": 5120,
+      "ratio": 3.3005859375
+    },
+    {
+      "seed": 2,
+      "layer": 0,
+      "tile": 4,
+      "count_bound_bits": 32360,
+      "weight_bits": 32768,
+      "ratio": 0.987548828125
+    },
+    {
+      "seed": 2,
+      "layer": 0,
+      "tile": 8,
+      "count_bound_bits": 39861,
+      "weight_bits": 32768,
+      "ratio": 1.216461181640625
+    },
+    {
+      "seed": 2,
+      "layer": 0,
+      "tile": 16,
+      "count_bound_bits": 51867,
+      "weight_bits": 32768,
+      "ratio": 1.582855224609375
+    },
+    {
+      "seed": 2,
+      "layer": 0,
+      "tile": 32,
+      "count_bound_bits": 69003,
+      "weight_bits": 32768,
+      "ratio": 2.105804443359375
+    },
+    {
+      "seed": 2,
+      "layer": 0,
+      "tile": 0,
+      "count_bound_bits": 85475,
+      "weight_bits": 32768,
+      "ratio": 2.608489990234375
+    },
+    {
+      "seed": 2,
+      "layer": 1,
+      "tile": 4,
+      "count_bound_bits": 5715,
+      "weight_bits": 5120,
+      "ratio": 1.1162109375
+    },
+    {
+      "seed": 2,
+      "layer": 1,
+      "tile": 8,
+      "count_bound_bits": 7245,
+      "weight_bits": 5120,
+      "ratio": 1.4150390625
+    },
+    {
+      "seed": 2,
+      "layer": 1,
+      "tile": 16,
+      "count_bound_bits": 9673,
+      "weight_bits": 5120,
+      "ratio": 1.8892578125
+    },
+    {
+      "seed": 2,
+      "layer": 1,
+      "tile": 32,
+      "count_bound_bits": 12045,
+      "weight_bits": 5120,
+      "ratio": 2.3525390625
+    },
+    {
+      "seed": 2,
+      "layer": 1,
+      "tile": 0,
+      "count_bound_bits": 17028,
+      "weight_bits": 5120,
+      "ratio": 3.32578125
+    }
+  ],
+  "speed_ratio_ranges": {
+    "membrane_vs_static_with_serial_merge": [
+      0.8433776132563495,
+      1.180630756261967
+    ],
+    "membrane_vs_static_with_overlapped_merge": [
+      0.6406927170722492,
+      0.8839286889432765
+    ],
+    "spike_count_free_control": [
+      1.0,
+      1.0
+    ],
+    "spike_count_with_control_overlapped_merge": [
+      0.9453187099608089,
+      0.9525864170599488
+    ],
+    "spike_count_with_control_one_merge": [
+      0.9793031307436577,
+      0.9894288618760649
+    ],
+    "static_vs_native12_serial_merge": [
+      1.4414408131376462,
+      1.4476263623081822
+    ]
+  }
+}

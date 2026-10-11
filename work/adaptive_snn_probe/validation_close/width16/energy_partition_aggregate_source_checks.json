@@ -1,0 +1,19 @@
+{
+  "status": "pass_frozen_partition_aggregate_source_binding",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\aggregate_energy_profiled_partitions.py": "20e659a0c036890671315e8a46896d8ca03b578de6f67911e6b948e1e08e9b80",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_sequence.py": "61449f4b5642901e7129265d91e41fea0a75b654cfe219ff75a68d38a346aa23",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_partition.py": "68397ee3c99f2cb4832bd12ae0d7b416432734cf43a8f0932872bf47e421b9fa",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\verify_selected_evidence_certified.py": "ad8053174af02caa11d805f7d577c5bc5578bc8c8439b241c725a4a1efe3e484",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\profiled_partition_source_checks.json": "2c14cbe844ccd0cfb4d99ec59ff68ab723df6f7880c85ae1c055d8dd23766fff",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\profiled_sequence_source_checks.json": "563d86cb71573805383629f656a7dc69a74a6431e57643697d54387eb7a61b1a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\cached_energy_auditor_source_equivalence.json": "32876bc6c2c861e121ba071ac7c2bfa0083f6da95ba2311244cb8f2116738775",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\certified_energy_auditor_source_checks.json": "e7f58544094ab335ec888fe0da98561e5cbef39a1fbcb042ed421ee92f7851f5"
+  },
+  "accepted_child_function_sha256": "7f3432a9daf84d5669635c28c0c9d243387c039ad3387a6e9d117e4bb491e272",
+  "child_acceptance_invoked_from_frozen_sequence": true,
+  "selected_auditor_invoked_unmodified": true,
+  "acceptance_checks_relaxed": false,
+  "vendor_or_model_jobs_launched": false,
+  "duplicate_policy": "Only identical explicit child/power paths and hashes may be deduplicated; differing receipts reject selection."
+}

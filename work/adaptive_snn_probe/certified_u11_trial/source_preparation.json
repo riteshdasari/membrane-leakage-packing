@@ -1,0 +1,30 @@
+{
+  "status": "prepared",
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\prepare_sources.py": "9ba842a2165e8cb4cb5ecdd4e49909c03dd6c326a2f80961280fd8b853ae5db9",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\certificates.json": "3ca4fc60cc25d391d92661e5c7de784bba2eba8c2cb1df6feba3b7444f41fa08",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sum_width_trial\\check_certificates.py": "ef86d0e167fa97f09a20c307a2e58f18e9d899cfbc90f4b3c4a30be78bcfa6d7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\core.sv": "b3a2466db12c09582b85f3a940e78445ad5475dd836e4a35fb8412e370bb02c3",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\timing.sv": "94f699caa1c407e3fe895aa1665963ee20afa8aef50efb8c58bc37c00e2b7831",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\route.tcl": "11e6063a0fa902a0def4193275575f5b9e810a526582422e34c05de68f03f99b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\tb_native.sv": "0d1757ae4f13a42f8dd144c45b7d48330017a74605a689a20bcaf2023ab4d637",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\verify_native.py": "6790fcf75be23a331773e1ef77bd843a79061bc13897b832892b7b045a7914e5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\run_trial.py": "390c6cb743299d9bb7b695582e644d5c5754996f52542396524851218312a160",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\natural_u11_trial\\check_algebra.py": "d67fb68e8473765ff5b3b3267b37715a00d1225fac7375067ed9e82054c102fa"
+  },
+  "generated_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\core.sv": "0e1b64cdba7be7ec54694af9ec6c478b6ce9053a92ce6e991b5cf199bd7bab73",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\timing.sv": "bf7c4723bdbd8c4159f9aee43cfcade5cc30b656940a0bbf859336b6f00d05d1",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\route.tcl": "1ee16abe18029d9d809823e8d6a7895091b47b956d38d129011128795cf4f9f5",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\tb_native.sv": "c557f489d8e69664ac9f0b615946b9eaa9847ef77787f83cb5b634a0e729ec87",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\verify_native.py": "cd82d1cc7a73b878fc9a997c14c183cd4bf9805021eb92eb9fab5d9488831f4c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\run_trial.py": "62188ba94fae9427ecdfab3c092268a5219a53d48788af1d244bad64cdb2d658",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\check_algebra.py": "c03b4617ee6b27cf7159d986c7bc0b6bea0794226e6b5f596a842f2e66e2572b",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\certified_u11_trial\\CONTRACT.md": "3c1ac355afc4c408586d5c244328db7c9875b7bfeb88b4687cfb312ee6d35d81"
+  },
+  "certified_U_range": [
+    -686,
+    245
+  ],
+  "scope": "Fair static-bound specialization only; all fixed controls retained"
+}

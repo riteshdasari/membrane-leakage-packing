@@ -1,0 +1,52 @@
+{
+  "status": "pass_additive_profiled_partition_source_checks",
+  "exact_reverse_three_named_blocks": true,
+  "named_changes": [
+    {
+      "name": "explicit_partition_CLI",
+      "original_block_sha256": "af9cce82ea0949e195688fb34e7980a7732f4bf549fd61df14d0cf7e09851038",
+      "new_block_sha256": "0927e3970bf502d2092c72402c67323b695444186043e343a741d7b2b6bf13cf"
+    },
+    {
+      "name": "explicit_plan_source_pins_partial_running_state",
+      "original_block_sha256": "d6d0c2187a9948d32777d70d71b93e4a330283bc6286e82bc6f1ebfd51acd1c2",
+      "new_block_sha256": "8dd374addac889f004f491ab955e2aa03372a20fd7a78de8cb087904735a8977"
+    },
+    {
+      "name": "partial_aggregation_without_final_all14_verifier",
+      "original_block_sha256": "614ab9a63bfe8f845bc7bde4706b11e8c3c917733c4cb6d321dd8bdf81d6d63e",
+      "new_block_sha256": "94ba5d78aeabb7dcac222e4f7a5c77a0c6e0d2070bf5b318aac29537d702e04d"
+    }
+  ],
+  "child_or_audit_checks_changed": false,
+  "child_launch_loop_exactly_unchanged": true,
+  "vendor_thresholds_changed": false,
+  "vendor_or_model_jobs_launched": false,
+  "final_all14_verifier_removed_from_partition_only": true,
+  "partitions": {
+    "glif_remaining": [
+      0,
+      3,
+      4,
+      2
+    ],
+    "ottt_stress": [
+      5,
+      1,
+      6,
+      0,
+      3,
+      4,
+      2
+    ]
+  },
+  "source_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\prepare_profiled_energy_partitions.py": "d7b86040a1d50ce3468c298dc787206f39b81db6748ba6abe452ca856c950400",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_sequence.py": "61449f4b5642901e7129265d91e41fea0a75b654cfe219ff75a68d38a346aa23",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\profiled_sequence_source_checks.json": "563d86cb71573805383629f656a7dc69a74a6431e57643697d54387eb7a61b1a",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_child.py": "343272799da74d3442e27e7c3bfa39457eceda91a6590fbefad2185087025f4b"
+  },
+  "artifact_sha256": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\validation_close\\width16\\run_energy_profiled_partition.py": "68397ee3c99f2cb4832bd12ae0d7b416432734cf43a8f0932872bf47e421b9fa"
+  }
+}

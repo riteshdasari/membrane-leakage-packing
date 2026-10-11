@@ -1,0 +1,12 @@
+{
+  "status": "prepared_verbose_diagnostic_retry",
+  "change": "Remove a part-select of a dynamically indexed integer scoreboard element. Nonnegative count1/2 comparison is equivalent at full integer width. Enable compiler verbose2 diagnostics.",
+  "unchanged_hardware_and_vectors": true,
+  "pins": {
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\prepare_native_v3.py": "e4c170623d140117065735ffd8d3439aa4f543f487085e4ba2ab793930b889e7",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_native_v2.sv": "58d18daa5ce200a491e07ed097df7b743a96c30aa5d6fc8036ed0d3f3dbe307c",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\tb_native_v3.sv": "8fb77b5d892b98b070035c30337713e71954576f344e21553712c4826ec46644",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\run_stage4_native_v3.py": "82f39acf30d5eba537a5bc0d53c0b710741ee4b9f2b43052deaffb850db3714d",
+    "C:\\Users\\Ritesh\\Documents\\Codex\\2026-10-08\\oka\\work\\adaptive_snn_probe\\sequential_paper_trial\\hardware\\native_main_s0_a1\\tool_2.log": "ab9f449386b0369bc02f6275ddd86a70dd7a0e42d1c7d7786124ee84774dbc9e"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "rows": [
+    {
+      "top": "top_delta_adapt_const",
+      "WNS_ns": -2.265,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 6.265000000000001
+    },
+    {
+      "top": "top_delta_fixed_const",
+      "WNS_ns": -0.913,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 4.913
+    },
+    {
+      "top": "top_delta_lut2_const",
+      "WNS_ns": -1.32,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 5.32
+    },
+    {
+      "top": "top_delta_lut6_const",
+      "WNS_ns": -0.846,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 4.846
+    },
+    {
+      "top": "top_delta_rom2_const",
+      "WNS_ns": -1.16,
+      "WHS_ns": -0.437,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 5.16
+    },
+    {
+      "top": "top_delta_adapt_prog",
+      "WNS_ns": -3.045,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 7.045
+    },
+    {
+      "top": "top_delta_fixed_prog",
+      "WNS_ns": -2.323,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 6.323
+    },
+    {
+      "top": "top_delta_lut2_prog",
+      "WNS_ns": -2.864,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 6.864
+    },
+    {
+      "top": "top_delta_lut6_prog",
+      "WNS_ns": -1.859,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 5.859
+    },
+    {
+      "top": "top_delta_compact_adapt_const",
+      "WNS_ns": -2.306,
+      "WHS_ns": -0.341,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 6.306
+    },
+    {
+      "top": "top_delta_compact_fixed_const",
+      "WNS_ns": -1.271,
+      "WHS_ns": -0.341,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 5.271
+    },
+    {
+      "top": "top_delta_compact_adapt_prog",
+      "WNS_ns": -3.976,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 7.976
+    },
+    {
+      "top": "top_delta_compact_fixed_prog",
+      "WNS_ns": -3.074,
+      "WHS_ns": -0.402,
+      "input_max_delay_ns": 1.0,
+      "output_max_delay_ns": 1.0,
+      "input_min_delay_ns": 0.1,
+      "output_min_delay_ns": 0.1,
+      "period_estimate_with_boundary_budget_ns": 7.074
+    }
+  ],
+  "note": "Same routed netlists with an assumed 1ns external input/output max delay, 0.1ns min. Includes input membrane range monitor timing. No board measurement or reroute."
+}
